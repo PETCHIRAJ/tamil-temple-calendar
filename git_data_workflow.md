@@ -12,37 +12,40 @@
 
 ### View History
 ```bash
-# See all changes to the main dataset
-git log --oneline integrated_data/unified_temple_data.json
+# See all changes to the database
+git log --oneline data/temples.db
 
-# See detailed changes in last commit
-git show HEAD integrated_data/unified_temple_data.json
+# See all changes to the JSON backup
+git log --oneline data/temples.json
 
 # See what changed between commits
-git diff HEAD~1 HEAD integrated_data/unified_temple_data.json
+git diff HEAD~1 HEAD data/temples.json
 ```
 
 ### Making Changes
 ```bash
 # 1. Make your data changes (run enrichment scripts, etc.)
-python3 data/enrich_more_temples.py
+python3 enrich_more_temples.py
 
-# 2. Check what changed
+# 2. Regenerate SQLite database
+python3 migrate_to_sqlite.py
+
+# 3. Check what changed
 git status
-git diff integrated_data/unified_temple_data.json
+git diff data/temples.json
 
-# 3. Commit the changes
-git add integrated_data/unified_temple_data.json
+# 4. Commit both JSON and SQLite
+git add data/temples.json data/temples.db
 git commit -m "feat: Add coordinates for 50 more temples"
 ```
 
 ### Rollback Changes
 ```bash
 # Undo uncommitted changes
-git checkout -- integrated_data/unified_temple_data.json
+git checkout -- data/temples.json data/temples.db
 
 # Revert to specific commit
-git checkout <commit-hash> -- integrated_data/unified_temple_data.json
+git checkout <commit-hash> -- data/temples.json data/temples.db
 git commit -m "revert: Roll back to previous dataset"
 ```
 
@@ -66,19 +69,20 @@ git branch -D experiment/alternate-geocoding
 ## Data File Structure
 
 ```
-integrated_data/
-├── unified_temple_data.json    # Main dataset (Git tracked)
-├── README.md                    # Documentation
-└── [old v2/v3 files]           # Can be deleted
+data/
+├── temples.db                  # Primary SQLite database (Git tracked)
+├── temples.json                # JSON backup (Git tracked)
+├── enrichments.json            # Geocoding metadata (Git tracked)
+├── festivals_2025.json         # Festival dates (Git tracked)
+└── sample_queries.sql          # SQL examples
 
-enriched_data/
-├── temple_enrichments.json     # Consolidated enrichments (Git tracked)
-├── coordinate_corrections.json # Manual corrections
-└── [temporary files]           # Not tracked
+samples/
+├── temples_sample_20.json      # Test dataset
+└── major_temples_578.json      # High-income temples
 
-festivals/
-├── universal_festivals_2025.json # Festival calendar (Git tracked)
-└── deity_patterns.json          # Deity identification patterns
+reference/
+├── deity_patterns.json         # Deity identification
+└── income_categories.json      # Temple classifications
 ```
 
 ## Best Practices
@@ -98,6 +102,7 @@ festivals/
    ```bash
    git tag -a v1.0 -m "Initial 46,004 temples dataset"
    git tag -a v1.1 -m "Added coordinates for 428 major temples"
+   git tag -a v1.2 -m "SQLite database with 88 festival dates"
    ```
 
 4. **Check File Size**
@@ -115,20 +120,26 @@ unified_temple_data_backup.json # 50MB
 Total: 200MB of mostly duplicate data
 ```
 
-### New Way (Git):
+### New Way (Git + SQLite):
 ```
-unified_temple_data.json       # 50MB
-.git/                          # ~10MB compressed diffs
-Total: ~60MB with full history
+temples.db                     # 64MB (indexed, queryable)
+temples.json                   # 50MB (backup)
+.git/                          # ~20MB compressed history
+Total: ~134MB with full history + database
 ```
 
-## Migration Cleanup
+## Migration Complete ✅
 
-Once comfortable with Git versioning, remove old files:
+Successfully migrated from file versioning to Git + SQLite:
 ```bash
-rm integrated_data/*_v2*.json
-rm integrated_data/*_v3*.json
-rm integrated_data/*backup*.json
-git add -u
-git commit -m "chore: Remove old versioned files after Git migration"
+# Removed 94 duplicate files
+# Cleaned 7 empty directories
+# Reduced repo from 300MB to 115MB
+# All history preserved in Git
 ```
+
+### Current Workflow
+1. Edit data using Python scripts
+2. Update both JSON and SQLite
+3. Commit both files together
+4. Use SQLite for app, JSON for backup

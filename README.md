@@ -7,47 +7,75 @@ Create a Tamil temple calendar app that provides accurate religious dates withou
 
 ## 🎯 Key Achievements
 - **46,004 temples** data collected from TN HR&CE
-- **428 major temples geocoded** (74% success rate)
-- **70% of dates calculable** using astronomical algorithms  
-- **₹82,000/year savings** vs API approach
+- **428 major temples geocoded** (74% of 578 high-income temples)
+- **88 festival dates** for 2025 calculated and validated
+- **64MB SQLite database** optimized for mobile apps
+- **115MB clean repository** (reduced from 300MB)
 - **95-100% accuracy** on festival dates
 
 ## 📂 Project Structure
 ```
 tamil-temple-calendar/
-├── integrated_data/
-│   └── unified_temple_data.json       # Main dataset (46,004 temples)
-├── enriched_data/
-│   └── temple_enrichments.json        # Geocoding & enrichments
-├── festivals/
-│   ├── universal_festivals_2025.json  # Validated festival dates
-│   └── deity_patterns.json            # Deity identification
 ├── data/
-│   ├── temple_calendar_calculator.py  # Festival calculator
-│   ├── enrich_578_temples_improved.py # Geocoding script
-│   └── validate_and_integrate.py      # Data validation
-└── validation/
-    └── sankarankovil_temple_2025_calendar.json  # Validated calendar
+│   ├── temples.db                     # SQLite database (PRIMARY - 64MB)
+│   ├── temples.json                   # JSON backup (50MB)
+│   ├── enrichments.json               # Geocoding metadata
+│   ├── festivals_2025.json            # 88 festival dates
+│   └── sample_queries.sql             # SQL query examples
+├── samples/
+│   ├── temples_sample_20.json         # Testing dataset
+│   └── major_temples_578.json         # High-income temples
+├── reference/
+│   ├── deity_patterns.json            # Deity identification
+│   └── income_categories.json         # Temple classifications
+└── docs/
+    ├── data_collection_guide.md        # Collection methodology
+    └── enhanced_data_strategy.md       # App development strategy
 ```
 
 ## ✅ Validation Results
 
-### Sankarankovil Temple 2025
-- **176 events calculated** programmatically
-- **100% match** on Pradosham dates
-- **95% match** on Ekadashi dates
-- **Major festivals** identified and verified
+### Database Features
+- **Indexed queries** on district, income, coordinates
+- **Full-text search** on temple names (Tamil/English)
+- **Views** for major temples, geocoded temples
+- **88 festival dates** imported and validated
+- **VSCode integration** with SQLite extensions
 
-### Ready for Ground Validation
-- Tamil WhatsApp format prepared
-- Send to local priests/contacts
-- Compare with physical panchangam
+### Data Quality
+- **428 temples geocoded** using OpenStreetMap
+- **578 major temples** identified (income > ₹10L/year)
+- **Universal festivals** calculated astronomically
+- **Git versioning** for all data changes
 
-## 🚀 Next Steps
+## 🚀 Quick Start
 
-### Immediate (Week 1)
-1. [ ] Send Tamil validation doc to Sankarankovil contact
-2. [ ] Refine calculations based on feedback
+### Using the Database
+```sql
+-- Find temples in Chennai
+SELECT name, address, latitude, longitude 
+FROM temples 
+WHERE district = 'Chennai District' 
+AND latitude IS NOT NULL;
+
+-- Get 2025 festivals
+SELECT * FROM festivals WHERE year = 2025;
+
+-- Major temples with coordinates
+SELECT * FROM major_temples;
+```
+
+### VSCode Setup
+1. Install SQLite extension: `SQLite Viewer` or `SQLite`
+2. Open `data/temples.db`
+3. Use `.vscode/sqlite-queries.sql` for common queries
+
+## 🌟 Next Steps
+
+### Development Ready
+1. [ ] Start Flutter/React Native app with SQLite
+2. [ ] Implement offline-first architecture
+3. [ ] Add Tamil language support
 3. [ ] Start Flutter app skeleton
 
 ### Short-term (Month 1)

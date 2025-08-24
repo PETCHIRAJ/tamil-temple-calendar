@@ -2,10 +2,12 @@
 
 ## 🎯 Master Dataset Status
 
-### Primary Data File
-**Location:** `integrated_data/unified_temple_data_v2.json`
+### Primary Data Source
+**Location:** `data/temples.db` (SQLite Database)
 - **Total Temples:** 46,004
-- **Structure:** Dictionary with temple IDs as keys
+- **Size:** 64MB
+- **Structure:** Indexed relational database
+- **Backup:** `data/temples.json` (50MB)
 - **Last Updated:** 2025-08-24
 
 ### Data Coverage Summary
@@ -14,14 +16,14 @@
 | Basic Info (Name, Address) | 46,004 | 100% | ✅ Complete |
 | District | 46,004 | 100% | ✅ Complete |
 | Income Category | 46,004 | 100% | ✅ Complete |
-| Coordinates | 14 | 0.03% | ❌ Critical Gap |
+| Coordinates | 428 | 0.9% | 🟡 Major temples done |
 | Deities | 15 | 0.03% | ❌ Needs Work |
 | Timings | 3 | 0.01% | ❌ Critical Gap |
-| Festivals | 11 | 0.02% | ❌ Needs Work |
+| Festivals (Universal) | 88 dates | N/A | ✅ Complete for 2025 |
 | Images | 7 | 0.02% | ❌ Needs Work |
-| Contact Info | 2 | 0.00% | ❌ Critical Gap |
+| Contact Info | 5 | 0.01% | ❌ Critical Gap |
 | Tamil Content | 5 | 0.01% | ❌ Needs Work |
-| Website | 0 | 0.00% | ❌ Not Started |
+| Website | 5 | 0.01% | ❌ Limited |
 
 ---
 
@@ -36,18 +38,25 @@
 - **Fields:** id, temple_name, address, district, pincode, income_category
 - **Quality:** ✅ Government verified
 
-#### `integrated_data/unified_temple_data_v2.json`
-- **Purpose:** Master integrated dataset
+#### `data/temples.db`
+- **Purpose:** Primary data source (SQLite)
 - **Records:** 46,004 temples
-- **Content:** Merged data from all sources
-- **Status:** Current working file
+- **Content:** Indexed database with full JSON in raw_data column
+- **Status:** Production database
+
+#### `data/temples.json`
+- **Purpose:** Backup/exchange format
+- **Records:** 46,004 temples
+- **Content:** Complete JSON backup
+- **Status:** Git-tracked backup
 
 ---
 
 ### 2️⃣ **Festival Data**
 
-#### `festivals/universal_festivals_2025.json`
+#### `data/festivals_2025.json`
 - **Content:** Calculated festival dates for 2025
+- **Database:** All 88 dates imported to SQLite `festivals` table
 - **Includes:** 
   - 24 Pradosham dates
   - 25 Ekadashi dates
@@ -56,7 +65,7 @@
   - 15 Major annual festivals
 - **Validation:** Cross-referenced with Tamil calendars
 
-#### `festivals/deity_patterns.json`
+#### `reference/deity_patterns.json`
 - **Content:** Deity identification patterns
 - **Types:** SHIVA, MURUGAN, AMMAN, VISHNU, GANESHA
 - **Purpose:** Infer deity from temple names
@@ -68,36 +77,27 @@
 
 ---
 
-### 3️⃣ **Scraping Attempts**
+### 3️⃣ **Enrichment Results**
 
-#### `data/major_temples_data/`
-- **all_578_temples_final.json:** Attempted scrape of 578 major temples
-- **successful_temples_final.json:** Only 2 temples had data
-- **Success Rate:** 0.3% (2 out of 578)
+#### Major Temples Geocoding
+- **Target:** 578 temples with income > ₹10 lakh/year
+- **Geocoded:** 428 temples (74%)
+- **Method:** OpenStreetMap Nominatim API
+- **Stored in:** `data/enrichments.json` and database
 
-#### `data/wikipedia_data/`
-- **temple_details_final.json:** 43 Wikipedia temples
-- **Success:** 20 matched with our dataset
-- **Added:** Coordinates, deity info, some festivals
-
-#### `data/dinamalar_data/`
-- **temple_list.json:** Attempted Dinamalar scrape
-- **Result:** Failed - got navigation links instead
+#### Sample Files
+- **`samples/temples_sample_20.json`:** 20 temples for testing
+- **`samples/major_temples_578.json`:** All major temples
+- **`samples/test_temple.json`:** Single temple for unit tests
 
 ---
 
-### 4️⃣ **Sample/Test Data**
+### 4️⃣ **Reference Data**
 
-#### `raw_data/templekb_sample.json`
-- **Source:** TempleKB research dataset
-- **Temples:** 6 with legends/stories
-- **Use:** Historical information
-
-#### Various sample files
-- `sample_10_temples.json`
-- `sample_temples.json`
-- `tn_temples_sample_100.json`
-- **Purpose:** Testing and development
+#### `reference/`
+- **deity_patterns.json:** Deity identification rules
+- **coordinate_corrections.json:** Manual geo corrections
+- **income_categories.json:** Temple classifications
 
 ---
 
@@ -176,11 +176,12 @@
 
 | Directory | Size | Purpose |
 |-----------|------|---------|
-| `raw_data/` | ~15 MB | Original source data |
-| `integrated_data/` | ~30 MB | Processed/merged data |
-| `festivals/` | < 1 MB | Festival calculations |
-| `data/` | ~5 MB | Scraping attempts |
-| **Total** | ~50 MB | All data |
+| `data/temples.db` | 64 MB | Primary SQLite database |
+| `data/temples.json` | 50 MB | JSON backup |
+| `samples/` | < 5 MB | Sample datasets |
+| `reference/` | < 1 MB | Reference data |
+| `archive/` | Varies | Old versions (Git history) |
+| **Total** | ~115 MB | All data |
 
 ---
 
@@ -199,7 +200,14 @@
 - Photos
 
 ### Recommendation
-**Start app development with current data.** The directory + festival calculator provides immediate value. Add enrichments progressively through:
-1. Free geocoding services
-2. User contributions
-3. Partnerships with temples
+**Ready for app development!** Current state:
+- ✅ SQLite database optimized for mobile (64MB)
+- ✅ 428 major temples geocoded (74% of high-priority temples)
+- ✅ 88 universal festival dates for 2025
+- ✅ Clean repository structure
+- ✅ SQL queries for common operations
+
+Next priorities:
+1. Continue geocoding remaining temples
+2. Add temple timings for major temples
+3. Collect contact information progressively
