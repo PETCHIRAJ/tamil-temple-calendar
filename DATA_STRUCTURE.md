@@ -5,7 +5,7 @@ Complete documentation of the data organization after consolidation and SQLite m
 
 ## 🗄️ Database Structure (PRIMARY)
 
-### `data/temples.db` (64MB)
+### `database/temples.db` (64MB)
 SQLite database with indexed tables for efficient queries.
 
 #### Tables:
@@ -29,46 +29,51 @@ SQLite database with indexed tables for efficient queries.
 - `geocoded_temples` - 428 temples with coordinates
 - `temple_stats` - Summary statistics
 
-## 📂 JSON Files (BACKUP/EXCHANGE)
+## 📂 Repository Structure
 
-### Core Data (`data/`)
+### Database (`database/`)
 ```
-data/
-├── temples.json (50MB)         # Full 46,004 temples dataset
-├── temples.db (64MB)           # SQLite database (PRIMARY)
-├── enrichments.json (118KB)    # Geocoding & websites
-├── festivals_2025.json (13KB)  # 2025 festival calendar
-├── metadata.json (1KB)         # Data lineage & stats
-└── sample_queries.sql (2KB)    # Example SQL queries
+database/
+├── temples.db (64MB)                  # SQLite database (PRIMARY)
+├── sample_queries.sql (2KB)           # Example SQL queries
+└── tn_temples_consolidated.xlsx       # Excel export
 ```
 
-### Reference Files (`reference/`)
+### JSON Data (`json_data/`)
 ```
-reference/
-├── deity_patterns.json         # Deity identification rules
-├── coordinate_corrections.json # Manual geo corrections
-└── income_categories.json      # Temple classifications
+json_data/
+├── production/
+│   ├── temples.json (50MB)            # Full 46,004 temples dataset
+│   └── metadata.json (1KB)            # Data lineage & stats
+├── enrichments/
+│   ├── enrichments.json (118KB)       # Consolidated geocoding data
+│   ├── 578_temples_*.json             # Major temple enrichments
+│   └── coordinate_corrections.json    # Manual corrections
+├── festivals/
+│   ├── festivals_2025.json (13KB)     # 2025 festival calendar
+│   └── validation_info.json           # Festival validation
+├── reference/
+│   ├── deity_patterns.json            # Deity identification rules
+│   └── income_categories.json         # Temple classifications
+└── samples/
+    ├── temples_sample_20.json         # 20 temples for testing
+    ├── major_temples_578.json         # High-income temples
+    └── test_temple.json               # Single temple for unit tests
 ```
 
-### Sample Data (`samples/`)
+### Scripts (`scripts/`)
 ```
-samples/
-├── temples_sample_20.json      # 20 temples for testing
-├── major_temples_578.json      # Just major temples
-└── test_temple.json            # Single temple for unit tests
-```
-
-### Archived Data (`archive/`)
-```
-archive/2025-08-24/
-├── old_versions/               # v2, v3, backup files
-└── raw_scraping_data/          # Original scraping results
+scripts/
+├── migrate_to_sqlite.py              # Active: JSON to SQLite converter
+├── enrich_578_temples_improved.py    # Legacy: Geocoding script
+├── temple_calendar_calculator.py     # Legacy: Festival calculator
+└── README.md                          # Script documentation
 ```
 
 ## 🔍 Which File to Use When
 
 ### For App Development:
-- **Use:** `data/temples.db` (SQLite)
+- **Use:** `database/temples.db` (SQLite)
 - **Why:** Fast queries, indexed, works offline, small memory footprint
 - **Example:**
 ```sql
@@ -79,21 +84,21 @@ AND latitude IS NOT NULL;
 ```
 
 ### For Data Exchange/Backup:
-- **Use:** `data/temples.json`
+- **Use:** `json_data/production/temples.json`
 - **Why:** Universal format, human-readable, Git-friendly
 - **Example:**
 ```python
 import json
-with open('data/temples.json') as f:
+with open('json_data/production/temples.json') as f:
     temples = json.load(f)
 ```
 
 ### For Testing:
-- **Use:** `samples/temples_sample_20.json`
+- **Use:** `json_data/samples/temples_sample_20.json`
 - **Why:** Small dataset, quick loading, representative data
 
 ### For Major Temples Only:
-- **Use:** `samples/major_temples_578.json`
+- **Use:** `json_data/samples/major_temples_578.json`
 - **Why:** Focused dataset, all geocoded, high-priority temples
 
 ## 📊 Data Statistics
@@ -163,17 +168,16 @@ List<Map> temples = await db.query(
 ## 🔄 Update Workflow
 
 1. **Enrich data** (geocoding, websites)
-2. **Update JSON** first (data/temples.json)
-3. **Regenerate SQLite** (migrate_to_sqlite.py)
+2. **Update JSON** first (`json_data/production/temples.json`)
+3. **Regenerate SQLite** (`python3 scripts/migrate_to_sqlite.py`)
 4. **Commit both** to Git
 5. **Tag release** for app updates
 
-## 📝 Maintenance Scripts
+## 📝 Active Script
 
-- `consolidate_data.py` - Organize JSON files
-- `migrate_to_sqlite.py` - Generate SQLite from JSON
-- `enrich_578_temples_improved.py` - Geocoding
-- `validate_and_integrate.py` - Data validation
+- `scripts/migrate_to_sqlite.py` - Generate SQLite from JSON
+
+Legacy scripts are preserved in `scripts/` for reference but use outdated paths.
 
 ## ⚠️ Important Notes
 

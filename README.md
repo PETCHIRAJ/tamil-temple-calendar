@@ -16,18 +16,20 @@ Create a Tamil temple calendar app that provides accurate religious dates withou
 ## 📂 Project Structure
 ```
 tamil-temple-calendar/
-├── data/
+├── database/
 │   ├── temples.db                     # SQLite database (PRIMARY - 64MB)
-│   ├── temples.json                   # JSON backup (50MB)
-│   ├── enrichments.json               # Geocoding metadata
-│   ├── festivals_2025.json            # 88 festival dates
 │   └── sample_queries.sql             # SQL query examples
-├── samples/
-│   ├── temples_sample_20.json         # Testing dataset
-│   └── major_temples_578.json         # High-income temples
-├── reference/
-│   ├── deity_patterns.json            # Deity identification
-│   └── income_categories.json         # Temple classifications
+├── json_data/
+│   ├── production/
+│   │   └── temples.json               # JSON backup (50MB)
+│   ├── enrichments/                   # Geocoding & enrichment data
+│   ├── festivals/
+│   │   └── festivals_2025.json        # 88 festival dates
+│   ├── reference/                     # Deity patterns, categories
+│   └── samples/                       # Test datasets
+├── scripts/
+│   ├── migrate_to_sqlite.py           # Active: JSON to SQLite
+│   └── [legacy scripts]               # Historical reference
 └── docs/
     ├── data_collection_guide.md        # Collection methodology
     └── enhanced_data_strategy.md       # App development strategy
@@ -67,8 +69,8 @@ SELECT * FROM major_temples;
 
 ### VSCode Setup
 1. Install SQLite extension: `SQLite Viewer` or `SQLite`
-2. Open `data/temples.db`
-3. Use `.vscode/sqlite-queries.sql` for common queries
+2. Open `database/temples.db`
+3. Use `database/sample_queries.sql` for common queries
 
 ## 🌟 Next Steps
 

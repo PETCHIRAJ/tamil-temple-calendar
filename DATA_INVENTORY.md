@@ -3,11 +3,11 @@
 ## 🎯 Master Dataset Status
 
 ### Primary Data Source
-**Location:** `data/temples.db` (SQLite Database)
+**Location:** `database/temples.db` (SQLite Database)
 - **Total Temples:** 46,004
 - **Size:** 64MB
 - **Structure:** Indexed relational database
-- **Backup:** `data/temples.json` (50MB)
+- **Backup:** `json_data/production/temples.json` (50MB)
 - **Last Updated:** 2025-08-24
 
 ### Data Coverage Summary
@@ -38,13 +38,13 @@
 - **Fields:** id, temple_name, address, district, pincode, income_category
 - **Quality:** ✅ Government verified
 
-#### `data/temples.db`
+#### `database/temples.db`
 - **Purpose:** Primary data source (SQLite)
 - **Records:** 46,004 temples
 - **Content:** Indexed database with full JSON in raw_data column
 - **Status:** Production database
 
-#### `data/temples.json`
+#### `json_data/production/temples.json`
 - **Purpose:** Backup/exchange format
 - **Records:** 46,004 temples
 - **Content:** Complete JSON backup
@@ -54,7 +54,7 @@
 
 ### 2️⃣ **Festival Data**
 
-#### `data/festivals_2025.json`
+#### `json_data/festivals/festivals_2025.json`
 - **Content:** Calculated festival dates for 2025
 - **Database:** All 88 dates imported to SQLite `festivals` table
 - **Includes:** 
@@ -65,7 +65,7 @@
   - 15 Major annual festivals
 - **Validation:** Cross-referenced with Tamil calendars
 
-#### `reference/deity_patterns.json`
+#### `json_data/reference/deity_patterns.json`
 - **Content:** Deity identification patterns
 - **Types:** SHIVA, MURUGAN, AMMAN, VISHNU, GANESHA
 - **Purpose:** Infer deity from temple names
@@ -83,21 +83,25 @@
 - **Target:** 578 temples with income > ₹10 lakh/year
 - **Geocoded:** 428 temples (74%)
 - **Method:** OpenStreetMap Nominatim API
-- **Stored in:** `data/enrichments.json` and database
+- **Stored in:** `json_data/enrichments/` folder and database
 
 #### Sample Files
-- **`samples/temples_sample_20.json`:** 20 temples for testing
-- **`samples/major_temples_578.json`:** All major temples
-- **`samples/test_temple.json`:** Single temple for unit tests
+- **`json_data/samples/temples_sample_20.json`:** 20 temples for testing
+- **`json_data/samples/major_temples_578.json`:** All major temples
+- **`json_data/samples/test_temple.json`:** Single temple for unit tests
 
 ---
 
 ### 4️⃣ **Reference Data**
 
-#### `reference/`
+#### `json_data/reference/`
 - **deity_patterns.json:** Deity identification rules
-- **coordinate_corrections.json:** Manual geo corrections
 - **income_categories.json:** Temple classifications
+
+#### `json_data/enrichments/`
+- **coordinate_corrections.json:** Manual geo corrections
+- **enrichments.json:** Consolidated geocoding data
+- **578_temples_*.json:** Major temple enrichments
 
 ---
 
@@ -176,12 +180,13 @@
 
 | Directory | Size | Purpose |
 |-----------|------|---------|
-| `data/temples.db` | 64 MB | Primary SQLite database |
-| `data/temples.json` | 50 MB | JSON backup |
-| `samples/` | < 5 MB | Sample datasets |
-| `reference/` | < 1 MB | Reference data |
-| `archive/` | Varies | Old versions (Git history) |
-| **Total** | ~115 MB | All data |
+| `database/` | 64 MB | SQLite database + queries |
+| `json_data/production/` | 50 MB | JSON backup |
+| `json_data/enrichments/` | < 5 MB | Geocoding data |
+| `json_data/samples/` | < 5 MB | Sample datasets |
+| `json_data/reference/` | < 1 MB | Reference data |
+| `scripts/` | < 1 MB | Processing scripts |
+| **Total** | ~125 MB | All data |
 
 ---
 

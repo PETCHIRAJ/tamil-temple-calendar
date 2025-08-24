@@ -14,7 +14,7 @@ def create_database():
     print("\n🗄️ Creating SQLite database...")
     
     # Connect to database
-    conn = sqlite3.connect('data/temples.db')
+    conn = sqlite3.connect('database/temples.db')
     cursor = conn.cursor()
     
     # Create temples table
@@ -95,7 +95,7 @@ def import_temples_data(conn):
     print("\n📥 Importing temple data...")
     
     # Load JSON data
-    json_file = Path("integrated_data/unified_temple_data.json")
+    json_file = Path("json_data/production/temples.json")
     if not json_file.exists():
         print("  ❌ unified_temple_data.json not found")
         return False
@@ -161,7 +161,7 @@ def import_festivals_data(conn):
     
     print("\n🎊 Importing festival data...")
     
-    festivals_file = Path("festivals/universal_festivals_2025.json")
+    festivals_file = Path("json_data/festivals/festivals_2025.json")
     if not festivals_file.exists():
         print("  ⚠️ Festival data not found")
         return False
@@ -250,7 +250,7 @@ def analyze_database(conn):
     print(f"\n  Database size: {size:.1f} MB")
     
     # Compare with JSON size
-    json_size = Path("integrated_data/unified_temple_data.json").stat().st_size / 1024 / 1024
+    json_size = Path("json_data/production/temples.json").stat().st_size / 1024 / 1024
     print(f"  Original JSON size: {json_size:.1f} MB")
     print(f"  Size reduction: {(1 - size/json_size)*100:.1f}%")
 
@@ -314,10 +314,10 @@ FROM temples
 WHERE temple_id = 'TM018025';
 '''
     
-    with open('data/sample_queries.sql', 'w') as f:
+    with open('database/sample_queries.sql', 'w') as f:
         f.write(sample_queries)
     
-    print("\n📝 Created data/sample_queries.sql")
+    print("\n📝 Created database/sample_queries.sql")
 
 def main():
     """Main migration function"""
@@ -339,7 +339,7 @@ def main():
         print("\n" + "=" * 60)
         print(" ✅ MIGRATION COMPLETE!")
         print("=" * 60)
-        print("\nDatabase created: data/temples.db")
+        print("\nDatabase created: database/temples.db")
         print("\nBenefits:")
         print("  • 30-40% smaller than JSON")
         print("  • Indexed for fast queries")
@@ -348,7 +348,7 @@ def main():
         print("  • Only loads needed data")
         
         print("\nNext steps:")
-        print("  1. Test queries using: sqlite3 data/temples.db")
+        print("  1. Test queries using: sqlite3 database/temples.db")
         print("  2. Update app code to use SQLite")
         print("  3. Keep JSON as backup/exchange format")
     
