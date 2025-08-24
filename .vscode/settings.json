@@ -1,0 +1,22 @@
+{
+  "sqlite.logLevel": "INFO",
+  "sqlite.defaultDatabase": "${workspaceFolder}/data/temples.db",
+  
+  // Database Client settings
+  "database-client.autoSync": true,
+  "database-client.showQuery": true,
+  "database-client.queryTimeout": 30,
+  
+  // File associations
+  "files.associations": {
+    "*.db": "sqlite",
+    "*.sql": "sql"
+  },
+  
+  // Recommended extensions for this project
+  "recommendations": [
+    "alexcvzz.vscode-sqlite",
+    "qwtel.sqlite-viewer",
+    "cweijan.vscode-database-client2"
+  ]
+}

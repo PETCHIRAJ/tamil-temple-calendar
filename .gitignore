@@ -9,7 +9,9 @@ env/
 ENV/
 
 # IDE
-.vscode/
+.vscode/*
+!.vscode/sqlite-queries.sql
+!.vscode/settings.json
 .idea/
 *.swp
 *.swo
