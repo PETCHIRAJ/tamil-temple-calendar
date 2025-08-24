@@ -1,0 +1,3548 @@
+[
+  {
+    "temple_id": "TM018030",
+    "temple_name": "Arulmigu Vaithiyanathaswamy Temple",
+    "district": "Mayiladuthurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018031",
+    "temple_name": "Arulmigu Sattanathaswamy Temple",
+    "district": "Mayiladuthurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018060",
+    "temple_name": "Arulmigu Komuktheeswara Swamy Temple",
+    "district": "Mayiladuthurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018029",
+    "temple_name": "Arulmigu Amirthakadeswaraswamy Temple",
+    "district": "Mayiladuthurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018025",
+    "temple_name": "Arulmigu Arunajadeswara Swamy Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM038106",
+    "temple_name": "Arulmigu Alagiya Nambirayar Temple",
+    "district": "Tirunelveli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018259",
+    "temple_name": "Arulmigu Vadhaneswara Swmay Temple",
+    "district": "Mayiladuthurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000369",
+    "temple_name": "Arulmigu Manali Lakshmana Mudaliyar Specific Trust",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020385",
+    "temple_name": "Arulmigu Thiruvikkaraswamy Temple",
+    "district": "Kallakurichi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025457",
+    "temple_name": "Arulmigu Aathmanaathaswamy Temple",
+    "district": "Pudukkottai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032250",
+    "temple_name": "Santhakula Sowmiyanarayanan Kattalai",
+    "district": "Dindigul District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009812",
+    "temple_name": "Thiru Ranojirao Endowment",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035780",
+    "temple_name": "Ala Aru Kattalai",
+    "district": "Sivagangai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM037941",
+    "temple_name": "Arulmigu Medai Dalavai Kattlai",
+    "district": "Tirunelveli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032012",
+    "temple_name": "Arulmigu Puttu Chokkanathar Temple",
+    "district": "Madurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM038249",
+    "temple_name": "Arulmigu Subramaniya Swamy Magamai Kattalai",
+    "district": "Thoothukudi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000005",
+    "temple_name": "Arulmigu Parthasarathy Swamy Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM038192",
+    "temple_name": "Melakopura Thiruppani Kattalai In Arulmigu Subramaniya Swami Temple",
+    "district": "Thoothukudi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000001",
+    "temple_name": "Arulmigu Kapaleeswarar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000009",
+    "temple_name": "Arulmigu Bharathwajeswar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000015",
+    "temple_name": "Arulmigu Masilmaneeswarar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000019",
+    "temple_name": "Arulmigu Adivyadhihara Bagtha Anjaneyar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000017",
+    "temple_name": "Arulmigu Mundgakanni Amman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000013",
+    "temple_name": "Arulmigu Devi Thirumani Amman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000046",
+    "temple_name": "Arulmigu Sidhi Budhi Vinayakar& Sunderswarar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000030",
+    "temple_name": "Arulmigu Madhava Perumal Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000051",
+    "temple_name": "Arulmigu Srinivasa Perumal Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000053",
+    "temple_name": "Arulmigu Ponniamman Vagaiyara Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000061",
+    "temple_name": "Arulmigu Rathina Vinayagar and Durgai Amman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000058",
+    "temple_name": "Arulmigu Ellamman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000052",
+    "temple_name": "Arulmigu Selva Vinayagar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000071",
+    "temple_name": "Arulmigu Agatheeswarar Prasanna Venkatesa Perumal Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000066",
+    "temple_name": "Arulmigu Mahalakshmi Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000068",
+    "temple_name": "Arulmigu Karaneeswarar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000081",
+    "temple_name": "Arulmigu Thiyagaraja Swamy Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000082",
+    "temple_name": "Arulmigu Dhakshina Murthy Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000089",
+    "temple_name": "Arulmigu Srinivasa Perumal Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000087",
+    "temple_name": "Arulmigu Marundheeswarar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000088",
+    "temple_name": "Arulmigu Prasanna Venkatesa Perumal Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000085",
+    "temple_name": "Arulmigu Pattinathar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000095",
+    "temple_name": "Arulmigu Somanatha Swamy Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000094",
+    "temple_name": "Arulmigu Devi Baliamman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000096",
+    "temple_name": "Arulmigu Sowmya Damodhara Perumal Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000100",
+    "temple_name": "Arulmigu Pidari Malayathamman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000102",
+    "temple_name": "Arulmigu Thiruvallishwarar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000110",
+    "temple_name": "Arulmigu Padavattamman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000115",
+    "temple_name": "Arulmigu Sakthi Vinayagar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000117",
+    "temple_name": "Arulmigu Agatheeswarar &Velveeswarar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000123",
+    "temple_name": "Arulmigu Varadaraja Manavala Mahamuni Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000006",
+    "temple_name": "Arulmigu Vadapalani Andavar Temple",
+    "district": "Chennai District",
+    "subdomain_url": "https://vadapalaniandavar.hrce.tn.gov.in/",
+    "extraction_timestamp": "2025-08-24T03:46:30.503350",
+    "content_length": 343137,
+    "deities": [
+      "Vadapalani Andavar"
+    ],
+    "image_urls": [
+      "https://hrce.tn.gov.in/resources/docs/templeinfo/general/emblem/6/image_1.png",
+      "https://vadapalaniandavar.hrce.tn.gov.in/../resources/library/images/multiply.png"
+    ],
+    "image_count": 2,
+    "tamil_content": {
+      "phrases": [
+        "அருள்மிகு வடபழநி ஆண்டவர் திருக்கோயில்",
+        "வடபழனி",
+        "சென்னை",
+        "இணைய வழி சேவை",
+        "மறைக்க",
+        "ஒப்புதல்",
+        "சமர்ப்பிக்க",
+        "பயனர் பெயர்",
+        "மாவட்டம்",
+        "வட்டம்",
+        "வருவாய் கிராமம்",
+        "நகரம் பெயர்",
+        "வார்டு பெயர்",
+        "தொகுதி பெயர்",
+        "நீங்கள் வெளிப்புற இணையதளத்திற்கு திருப்பி விடப்படுகிறீர்கள்"
+      ],
+      "has_tamil": true
+    },
+    "contact_phones": [
+      "1755978383"
+    ],
+    "festival_mentions": [
+      "trim()=='N' || mapping_status_json['festival']",
+      "val());\r\n\t\t\t\t}\r\n\t\t\t  \r\n\t\t\t    if(formname=='festivaldetailform')\r\n\t\t\t\t{\r\n\t                 form_data"
+    ],
+    "extraction_status": "success",
+    "subdomain_pattern": "vadapalaniandavar"
+  },
+  {
+    "temple_id": "TM000157",
+    "temple_name": "Arulmigu Ekambareswar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000145",
+    "temple_name": "Arulmigu Adhipureshwarar & Athikesavaperumal Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000150",
+    "temple_name": "Arulmigu Thiruvattewarar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000134",
+    "temple_name": "Arulmigu Byragimadam Arulmigu Thiruvengadamudaiyan Venkatesa Perumal Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000169",
+    "temple_name": "Arulmigu Ekambareswarar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000180",
+    "temple_name": "Arulmigu Kasi Viswanathaswami And Ellaiamman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000159",
+    "temple_name": "Arulmigu Prasanna Venkatesa Perumal Arul Sakthi Vinayagar Gangaiamman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000165",
+    "temple_name": "Arulmigu Pidari Uthanachi Amman Mangaleswarar Balavinayagar Temples",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000136",
+    "temple_name": "Arulmigu Balasubramaniya Swami & Allaimman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000189",
+    "temple_name": "Arulmigu Makaliamman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000192",
+    "temple_name": "Arulmigu Sathyanarayana Perumal Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000181",
+    "temple_name": "Arulmigu Bhashyakara Adi Chenna Kesava Perumal Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000198",
+    "temple_name": "Arulmigu Selliamman Muthiamman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000183",
+    "temple_name": "Arulmigu Vallbha Maha Ganapathy Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000204",
+    "temple_name": "Arulmigu Selliamman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000202",
+    "temple_name": "Arulmigu Dhandeewarar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000208",
+    "temple_name": "Arulmigu Marghasagheshwarar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000203",
+    "temple_name": "Arulmigu Yoga Narasimma Swamy Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000207",
+    "temple_name": "Arulmigu Kurungaleeshwarar And Vaikundavasa Perumal Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000213",
+    "temple_name": "Arulmigu Dhenupureeshwarar Temple",
+    "district": "Chengalpattu District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000214",
+    "temple_name": "Arulmigu Ramanadheeshwarar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000215",
+    "temple_name": "Arulmigu Lakshmi Vinayagar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000217",
+    "temple_name": "Arulmigu Angala Parameshwari And Kasi Viswanathar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000221",
+    "temple_name": "Arulmigu Bhavani Amman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000232",
+    "temple_name": "Arulmigu Gangadeeswarar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000250",
+    "temple_name": "Arulmigu Katchaleeshwarar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000270",
+    "temple_name": "Arulmigu Sri Navasakthi Vinayakar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000276",
+    "temple_name": "Arulmigu Dharmaraja Thirowpathiyamman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000238",
+    "temple_name": "Arulmigu Ranganatha Perumal Temple",
+    "district": "Chengalpattu District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000277",
+    "temple_name": "Arulmigu Chellapillairayar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000278",
+    "temple_name": "Arulmigu Reveeswar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000279",
+    "temple_name": "Arulmigu Palathaamman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000283",
+    "temple_name": "Arulmigu Komaleeswarar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000299",
+    "temple_name": "Arulmigu Siva Vishnu Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000300",
+    "temple_name": "Arulmigu Velleswarar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000302",
+    "temple_name": "Arulmigu Sengaluneer Vinayagar Koluramman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000313",
+    "temple_name": "Arulmigu Angala Parameshwari Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000317",
+    "temple_name": "Arulmigu Agatheeswara Swamy Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000329",
+    "temple_name": "Arulmigu Arunachaleswarar And Varadaraja Perumal Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000311",
+    "temple_name": "Arulmigu Aranga Natha Swamy Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000304",
+    "temple_name": "Arulmigu Angalaamman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000335",
+    "temple_name": "Arulmigu Kalyana Varadaraja Perumal Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000351",
+    "temple_name": "Arulmigu Chennai Malleswarar Chenna Kesava Perumal Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000338",
+    "temple_name": "Arulmigu Pachaiamman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000342",
+    "temple_name": "Arulmigu Mallikeswarar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000372",
+    "temple_name": "Arulmigu Sivavishnu Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000350",
+    "temple_name": "Arulmigu Chennai Sri Kalikambal Kamadeswarar Devasthanam",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000357",
+    "temple_name": "Arulmigu Mannatheswarar And Pachaiamman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000366",
+    "temple_name": "Arulmigu Panchali Amman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000371",
+    "temple_name": "Arulmigu Kadumpadi Sinnamman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000413",
+    "temple_name": "Arulmigu Kanniga Parameshwari Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000388",
+    "temple_name": "Arulmigu Sree Muthu Kumara Swamy Devasthanam",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000407",
+    "temple_name": "Arulmigu Arunachaleeswarar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000412",
+    "temple_name": "Arulmigu Anantha Padmanabha Swamy Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000387",
+    "temple_name": "Arulmigu Prasanna Vinayagar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000432",
+    "temple_name": "Arulmigu Srinivasa Perumal Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000414",
+    "temple_name": "Arulmigu Viyakrapureeswar Alias Vengeshwarar Algar Perumal And Nagathamman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000415",
+    "temple_name": "Arulmigu Muthu Mariyamman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000416",
+    "temple_name": "Arulmigu Varasidhi Vinayagar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000446",
+    "temple_name": "Arulmigu Kasiwisvanatha Swamy Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000466",
+    "temple_name": "Arulmigu Sundara Vinayagar- Selva Vinayagar & Anchaneyar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000467",
+    "temple_name": "Arulmigu Vedandha Desegar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000468",
+    "temple_name": "Arulmigu Appar Swamy Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000469",
+    "temple_name": "Arulmigu Nagathamman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000483",
+    "temple_name": "Arulmigu Chandra Mouleeshwarar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000492",
+    "temple_name": "Arulmigu Sivasubramaniam Swamy Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000523",
+    "temple_name": "Arulmigu Varasidhi Vinayagar Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000498",
+    "temple_name": "Arulmigu Chinnakadai Yamman  Renugaparameshwari Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000924",
+    "temple_name": "Arulmigu Gangai Amman Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000556",
+    "temple_name": "Arulmigu Santhana Srinivasa Perumal Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000741",
+    "temple_name": "Arulmigu Kariya Manikka Perumal Temple",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000563",
+    "temple_name": "Arulmigu Eraniyamman Temple",
+    "district": "Chengalpattu District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001331",
+    "temple_name": "Arulmigu Selliamman Temple",
+    "district": "Vellore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001361",
+    "temple_name": "Arulmigu Ellaiamman Temple",
+    "district": "Vellore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001350",
+    "temple_name": "Arulmigu Sornamugeeswarar Temple",
+    "district": "Vellore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001384",
+    "temple_name": "Arulmigu Subramaniyaswamy Temple",
+    "district": "Thirupathur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001358",
+    "temple_name": "Arulmigu Subramaniaswamy Alias Balamurugan Temple",
+    "district": "Ranipet District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001386",
+    "temple_name": "Arulmigu Puthumariamman Temple",
+    "district": "Thirupathur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001390",
+    "temple_name": "Arulmigu Margabantheeswarar Temple",
+    "district": "Vellore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001388",
+    "temple_name": "Arulmigu Subramaniaswamy Temple",
+    "district": "Vellore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001422",
+    "temple_name": "Arulmigu Periya Anjaneyar Temple",
+    "district": "Thirupathur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001393",
+    "temple_name": "Arulmigu Porkodiamman Temple",
+    "district": "Vellore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001500",
+    "temple_name": "Arulmigu Gangaiamman Temple",
+    "district": "Vellore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001502",
+    "temple_name": "Arulmigu Lakshmi Narasimmaswamy Temple",
+    "district": "Ranipet District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001506",
+    "temple_name": "Arulmigu Subramanyaswamy Temple",
+    "district": "Tiruvallur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001548",
+    "temple_name": "Arulmigu Veeraraghavaswamy Devasthanam",
+    "district": "Tiruvallur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001553",
+    "temple_name": "Arulmigu Theertheswarar Temple",
+    "district": "Tiruvallur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001591",
+    "temple_name": "Arulmigu Sengalamman Temple",
+    "district": "Tiruvallur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001642",
+    "temple_name": "Arulmigu Bhavaniamman Temple",
+    "district": "Tiruvallur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001596",
+    "temple_name": "Arulmigu Balasubramaniya Swamy Temple",
+    "district": "Tiruvallur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001644",
+    "temple_name": "Arulmigu Poongavanathamman Alias Ankalaparameswari Temple",
+    "district": "Tiruvallur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001646",
+    "temple_name": "Arulmigu Devi Karumariamman Temple",
+    "district": "Tiruvallur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001649",
+    "temple_name": "Arulmigu Kamakshi Amman Temple",
+    "district": "Kancheepuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001663",
+    "temple_name": "Arulmigu Vaigunthaperumal Temple",
+    "district": "Kancheepuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001660",
+    "temple_name": "Arulmigu Katchabeswarar Temple",
+    "district": "Kancheepuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001688",
+    "temple_name": "Arulmigu Vedagireeswarar Temple",
+    "district": "Chengalpattu District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001719",
+    "temple_name": "Arulmigu Maari Chinnamman Temple",
+    "district": "Chengalpattu District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001701",
+    "temple_name": "Arulmigu Subramaniya Swami Temple",
+    "district": "Kancheepuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001708",
+    "temple_name": "Arulmigu Thirukachi Nambigal and Varadharaja Perumal Temple",
+    "district": "Tiruvallur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001709",
+    "temple_name": "Arulmigu Krishnaswamy & Kodhandaramaswamy Temple",
+    "district": "Kancheepuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001776",
+    "temple_name": "Arulmigu Balasubramaniya Swamy Temple",
+    "district": "Kancheepuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001760",
+    "temple_name": "Arulmigu Nageshwara Swamy Temple",
+    "district": "Kancheepuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001786",
+    "temple_name": "Arulmigu Bakthavachala Perumal Temple",
+    "district": "Tiruvallur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001784",
+    "temple_name": "Arulmigu Sundareshwarar Swamy Temple",
+    "district": "Kancheepuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001797",
+    "temple_name": "Arulmigu Subramaniyaswamy Temple",
+    "district": "Kancheepuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001734",
+    "temple_name": "Arulmigu Kandaswamy Temple",
+    "district": "Chengalpattu District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001817",
+    "temple_name": "Arulmigu Chithragupthaswamy Temple",
+    "district": "Kancheepuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001825",
+    "temple_name": "Arulmigu Adhipeeda Parameshwari Temple",
+    "district": "Kancheepuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001816",
+    "temple_name": "Arulmigu Ekambaranathar Temple",
+    "district": "Kancheepuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001794",
+    "temple_name": "Arulmigu Kailasanathar & Dhakshanamoorthi Temple",
+    "district": "Kancheepuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001826",
+    "temple_name": "Arulmigu Vazhakarutheeswarar Temple",
+    "district": "Kancheepuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001839",
+    "temple_name": "Arulmigu Nithya Kalyana Perumal Temple",
+    "district": "Chengalpattu District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001829",
+    "temple_name": "Arulmigu Jaganatha Perumal Alias Thirumazhisai Azhwar Temple",
+    "district": "Tiruvallur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001843",
+    "temple_name": "Arulmigu Pataladri Narasimha Perumal TempleSingaperumal Koil",
+    "district": "Chengalpattu District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001844",
+    "temple_name": "Arulmigu Devanatha Perumal TempleChettipuniyam",
+    "district": "Chengalpattu District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001845",
+    "temple_name": "Arulmigu Agora Veerabadra Swamy TempleHanumanthapuram",
+    "district": "Chengalpattu District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001865",
+    "temple_name": "Arulmigu Sri Kamakshi Ambal Devasthanam Temple",
+    "district": "Kancheepuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001879",
+    "temple_name": "Arulmigu Prasanna Venkatesaperumal Temple",
+    "district": "Chengalpattu District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001849",
+    "temple_name": "Arulmigu Kothandaramar Temple",
+    "district": "Chengalpattu District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001864",
+    "temple_name": "Arulmigu Devarajaswamy Temple",
+    "district": "Kancheepuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001869",
+    "temple_name": "Arulmigu Kaliswawar Temple",
+    "district": "Kancheepuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001885",
+    "temple_name": "Arulmigu Subramaniaswamy Temple",
+    "district": "Kancheepuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001881",
+    "temple_name": "Arulmigu Adhikesava Perumal Alias Bhashyangara Swamy Temple",
+    "district": "Kancheepuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004858",
+    "temple_name": "Arulmigu Sugavanesuwarar Temple",
+    "district": "Salem District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001887",
+    "temple_name": "Arulmigu Sakthi Vinayagar Temple",
+    "district": "Chengalpattu District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004861",
+    "temple_name": "Arulmigu Kottai Mariamman Temple",
+    "district": "Salem District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004862",
+    "temple_name": "Arulmigu Mariamman Temple",
+    "district": "Salem District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004867",
+    "temple_name": "Arulmigu Alagirinathaswamy Temple",
+    "district": "Salem District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004865",
+    "temple_name": "Arulmigu Vennankodi Muniyappa Swamy Temple",
+    "district": "Salem District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004868",
+    "temple_name": "Arulmigu Kannika Parameswariamman Temple",
+    "district": "Salem District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004866",
+    "temple_name": "Arulmigu Siddheswarar Gnanasarguru Balamurugan Temple",
+    "district": "Salem District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004869",
+    "temple_name": "Arulmigu Marriamman Kaliamman Temple",
+    "district": "Salem District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004870",
+    "temple_name": "Arulmigu Mariamman Kaliamman Temple",
+    "district": "Salem District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004880",
+    "temple_name": "Arulmigu Mariamman Temple",
+    "district": "Salem District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004871",
+    "temple_name": "Arulmigu Ellaipidariamman Temple",
+    "district": "Salem District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004872",
+    "temple_name": "Arulmigu Prasanna Venkatramanaswamy Temple",
+    "district": "Salem District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004882",
+    "temple_name": "Arulmigu Badrakaliamman Temple",
+    "district": "Salem District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004873",
+    "temple_name": "Arulmigu Kailasanathar Temple",
+    "district": "Salem District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004881",
+    "temple_name": "Arulmigu Varadharajaperumal Temple",
+    "district": "Salem District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004883",
+    "temple_name": "Arulmigu Thanthondriswarar And Astapuja Bala Mathana Venugopalaswamy Temple",
+    "district": "Salem District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004884",
+    "temple_name": "Arulmigu Balasubramaniya Temple",
+    "district": "Salem District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004885",
+    "temple_name": "Arulmigu Vellaipillaiyar Temple",
+    "district": "Salem District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004886",
+    "temple_name": "Arulmigu Prasanna Nanjundeswarar Temple",
+    "district": "Salem District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004900",
+    "temple_name": "Arulmigu Navaladi Karuppanna Swamy And Sellandiamman Temple",
+    "district": "Namakkal District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004887",
+    "temple_name": "Arulmigu Narasimaswamy Temple",
+    "district": "Namakkal District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004890",
+    "temple_name": "Arulmigu Arthanareeswarar Temple",
+    "district": "Namakkal District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004898",
+    "temple_name": "Arulmigu Palapattaraimariamman Temple",
+    "district": "Namakkal District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004903",
+    "temple_name": "Arulmigu Nainamalai Varadharajaperumal Temple",
+    "district": "Namakkal District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004905",
+    "temple_name": "Arulmigu Athanur Amman Temple",
+    "district": "Namakkal District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004904",
+    "temple_name": "Arulmigu Arappaleeswarar Temple",
+    "district": "Namakkal District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004909",
+    "temple_name": "Arulmigu Lakshminarayana Swamy And Kasivisweswarar Swamy Temple",
+    "district": "Namakkal District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004908",
+    "temple_name": "Arulmigu Kandhasamy Temple",
+    "district": "Namakkal District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004906",
+    "temple_name": "Arulmigu Thulukkasoodamaiamman Temple",
+    "district": "Namakkal District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004910",
+    "temple_name": "Arulmigu Chendraswamy And Someswaraswamy Temple",
+    "district": "Dharmapuri District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004917",
+    "temple_name": "Arulmigu Muthitharaya Swamy And Thimmaraya Swamy Temple",
+    "district": "Dharmapuri District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004919",
+    "temple_name": "Arulmigu Theerthagirishwarer Temple",
+    "district": "Dharmapuri District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004918",
+    "temple_name": "Arulmigu Senniamman Temple",
+    "district": "Dharmapuri District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004920",
+    "temple_name": "Arulmigu Kollaburiamman Temple",
+    "district": "Dharmapuri District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004921",
+    "temple_name": "Arulmigu Chanthira Choodeswarar Temple",
+    "district": "Krishnagiri District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004925",
+    "temple_name": "Arulmigu Venkatramana Swamy Temple",
+    "district": "Krishnagiri District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004928",
+    "temple_name": "Arulmigu Kumaraguru Subramaniyaswamy Temple",
+    "district": "Salem District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004927",
+    "temple_name": "Arulmigu Mariamman Temple",
+    "district": "Krishnagiri District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004935",
+    "temple_name": "Arulmigu Kannika Parameswariamman Temple",
+    "district": "Salem District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004926",
+    "temple_name": "Arulmigu Anjaneya Subramaniya Swamy Temple",
+    "district": "Krishnagiri District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004959",
+    "temple_name": "Arulmigu Lakshmi Narasimmaswamy And Someswarar Temple",
+    "district": "Salem District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004966",
+    "temple_name": "Arulmigu Angalamman Temple",
+    "district": "Salem District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004994",
+    "temple_name": "Arulmigu Chinna Ongaliamman Temple",
+    "district": "Namakkal District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004995",
+    "temple_name": "Arulmigu Elayaperumal And Venkatramanasamy Temple",
+    "district": "Namakkal District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM004986",
+    "temple_name": "Arulmigu Mariyamman Sellandiyamman Anjaneyar Temples",
+    "district": "Namakkal District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM005006",
+    "temple_name": "Arulmigu Balasubramaniyaswamy Temple",
+    "district": "Namakkal District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM005017",
+    "temple_name": "Arulmigu Singarthoppu Munishwarer Temple",
+    "district": "Dharmapuri District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM005015",
+    "temple_name": "Arulmigu Anjeneyaswamy Temple",
+    "district": "Dharmapuri District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM005214",
+    "temple_name": "Arulmigu Selliyamman Marriyamman Temple",
+    "district": "Dharmapuri District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009759",
+    "temple_name": "Arulmigu Masaniamman Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009761",
+    "temple_name": "Arulmigu Vinayagar Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009764",
+    "temple_name": "Arulmigu Lakshminarasimma Swamy Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009760",
+    "temple_name": "Arulmigu Patteeshwaraswamy Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009762",
+    "temple_name": "Arulmigu Subramaniaswamy Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009766",
+    "temple_name": "Arulmigu Dhandumariamman Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009768",
+    "temple_name": "Arulmigu Velliangiriandavar Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009765",
+    "temple_name": "Arulmigu Koniamman Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009767",
+    "temple_name": "Arulmigu Baladhandayuthapani Swamy Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009770",
+    "temple_name": "Arulmigu Iyyappaswamy Tirukovil",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009772",
+    "temple_name": "Arulmigu Mariamman Angalamman Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009775",
+    "temple_name": "Arulmigu Mariyamman Vinayagar Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009771",
+    "temple_name": "Arulmigu Ayyappasami Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009773",
+    "temple_name": "Arulmigu Rathinavinayakar Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009777",
+    "temple_name": "Arulmigu Senniandavar Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009774",
+    "temple_name": "Arulmigu Kala Kaleswarar Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009776",
+    "temple_name": "Arulmigu Venkatesaperumal (Alias) Srinivasaperumal Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009779",
+    "temple_name": "Arulmigu Hanumantharayar Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009778",
+    "temple_name": "Arulmigu Aranganathasamy Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009781",
+    "temple_name": "Arulmigu Angalamman Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009780",
+    "temple_name": "Arulmigu Mariamman Mundhivinayagar Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009785",
+    "temple_name": "Arulmigu Subramaniya Swamy Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009782",
+    "temple_name": "Arulmigu Gothandaramar Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009784",
+    "temple_name": "Arulmigu Sangameswarar Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009783",
+    "temple_name": "Arulmigu Marriyamman Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009786",
+    "temple_name": "Arulmigu Vasavi Kannika Parameswari Amman Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009787",
+    "temple_name": "Arulmigu Ponmalai Velayuthasamy Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009792",
+    "temple_name": "Arulmigu Anjaneyaswamy Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009789",
+    "temple_name": "Arulmigu Venugopala Krishna Swamy Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009793",
+    "temple_name": "Arulmigu Mariyamman",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009790",
+    "temple_name": "Arulmigu Mariyamman Temple",
+    "district": "Nilgiris District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009791",
+    "temple_name": "Arulmigu Mariyamman Temple",
+    "district": "Nilgiris District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009799",
+    "temple_name": "Arulmigu Venugopalasami Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009796",
+    "temple_name": "Arulmigu Sithi Vinayakar Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009813",
+    "temple_name": "Arulmigu Gothandaramar Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009801",
+    "temple_name": "Arulmigu Karanavinayakar Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009794",
+    "temple_name": "Arulmigu Manthiragiri Velauythaswami Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009802",
+    "temple_name": "Arulmigu Kulanthai Velayudhasamy Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009810",
+    "temple_name": "Arulmigu Kooppidu Vinayagar Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009827",
+    "temple_name": "Arulmigu Kudaluruvi Mariamman Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009828",
+    "temple_name": "Arulmigu Karupparayar Mariamman Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009829",
+    "temple_name": "Arulmigu Aravan Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009830",
+    "temple_name": "Arulmigu Manneeswara Swamy Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009832",
+    "temple_name": "Arulmigu Deivakulam Kaliamman Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009937",
+    "temple_name": "Arulmigu Pudhuramalinga Sowdeswariamman Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010053",
+    "temple_name": "Arulmigu Vazhai Thottathu Ayyan Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010057",
+    "temple_name": "Arulmigu Amanalingeshwarar Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010056",
+    "temple_name": "Arulmigu Mariamman Vinayagar Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010054",
+    "temple_name": "Arulmigu Subramaniyswamy Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010055",
+    "temple_name": "Arulmigu Avinashilingeswarar Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010059",
+    "temple_name": "Arulmigu Mariamman Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010058",
+    "temple_name": "Arulmigu Visveawarar And Veeraragavaperumal Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010060",
+    "temple_name": "Arulmigu Veerakumara Swamy Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010061",
+    "temple_name": "Arulmigu Nattarayaswamy Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010062",
+    "temple_name": "Arulmigu Venkatesa Perumal Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010063",
+    "temple_name": "Arulmigu Kondathukaliamman And Uththamalingeswarar Adhikesavaperumal Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010066",
+    "temple_name": "Arulmigu Mariamman Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010068",
+    "temple_name": "Arulmigu Angalamman Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010065",
+    "temple_name": "Arulmigu Kariyakaaliamman Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010069",
+    "temple_name": "Arulmigu Ramasamy Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010064",
+    "temple_name": "Arulmigu Thirumuruganathasamy Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010067",
+    "temple_name": "Arulmigu Lakshmi Narasimma Perumal Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010070",
+    "temple_name": "Arulmigu Aalkontamal Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010071",
+    "temple_name": "Arulmigu Selvakumaraswamy Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010073",
+    "temple_name": "Arulmigu Bagavan Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010072",
+    "temple_name": "Arulmigu Periyanayakiamman Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010074",
+    "temple_name": "Arulmigu Prashanna Vinayagar Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010078",
+    "temple_name": "Arulmigu Kadu Humantharayar Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010079",
+    "temple_name": "Arulmigu Vanjiyamman Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010086",
+    "temple_name": "Arulmigu Vetrivelauthaswamy Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010082",
+    "temple_name": "Arulmigu Athanuraman Kuppayannaswamy Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010085",
+    "temple_name": "Arulmigu Agasarayar Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010091",
+    "temple_name": "Arulmigu Bathrakaliyamman Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010114",
+    "temple_name": "Arulmigu Agathiswarar Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010100",
+    "temple_name": "Arulmigu Visuveshwarasamy Visalakshi Amman Subramaniyasamy Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010098",
+    "temple_name": "Arulmigu Azhagunachiamman Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010142",
+    "temple_name": "Arulmigu Alagunachiamman Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010228",
+    "temple_name": "Arulmigu Subramaniyaswamy Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010234",
+    "temple_name": "Arulmigu Velayuthasamy Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010224",
+    "temple_name": "Arulmigu Sangameswarar Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010233",
+    "temple_name": "Arulmigu Periyamariamman Vagaiyara Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010229",
+    "temple_name": "Arulmigu Kondathu Kaliamman Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010237",
+    "temple_name": "Arulmigu Thambikalai Ayyan Swamy Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010238",
+    "temple_name": "Arulmigu Aruthrakabaleeswarar Vagaiyara Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010236",
+    "temple_name": "Arulmigu Varatharaja Perumal Vagaiyara Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010235",
+    "temple_name": "Arulmigu Magudeshwarar And Veeranarayana Perumal Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010239",
+    "temple_name": "Arulmigu Kongalamman Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010240",
+    "temple_name": "Arulmigu Selleeswarar Vagayara Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010244",
+    "temple_name": "Arulmigu Mahaveera Anjaneyar Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010243",
+    "temple_name": "Arulmigu Mallikarjunasamy Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010242",
+    "temple_name": "Arulmigu Selliyanidyamman Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010247",
+    "temple_name": "Arulmigu Subramaniyaswamy Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010246",
+    "temple_name": "Arulmigu Andavarkula Ayyan Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010248",
+    "temple_name": "Arulmigu Venugopala Swamy Vakayara Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010249",
+    "temple_name": "Arulmigu Ponkaliamman Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010250",
+    "temple_name": "Arulmigu Thanthondriamman Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010271",
+    "temple_name": "Arulmigu Mariyamman Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010252",
+    "temple_name": "Arulmigu Muthukumarasamy Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010261",
+    "temple_name": "Arulmigu Gurunathaswamy Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010259",
+    "temple_name": "Arulmigu Padrakalliamman Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010272",
+    "temple_name": "Arulmigu Nageshwarar Kulavilakkamman Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010273",
+    "temple_name": "Arulmigu Soleeswarar Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM011372",
+    "temple_name": "Arulmigu Kamatchiamman Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010275",
+    "temple_name": "Arulmigu Sellandiamman Temple",
+    "district": "Erode District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM012880",
+    "temple_name": "Arulmigu Sellandiamman and Mariyamman Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM012894",
+    "temple_name": "Arulmigu Varatharaja Perumal Temple",
+    "district": "Tiruppur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM013967",
+    "temple_name": "Thanjavur Palace Devasthanam",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014056",
+    "temple_name": "Arulmigu Mullaivananatha Swamy Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014062",
+    "temple_name": "Arulmigu Neelakanda Pillaiyar Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014091",
+    "temple_name": "Arulmigu Paramanatha Ayyanar Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014059",
+    "temple_name": "Arulmigu Mathiyapurieswarar Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014093",
+    "temple_name": "Arulmigu Vasisteshwarar Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014103",
+    "temple_name": "Arulmigu Subramaniya Swamy Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014086",
+    "temple_name": "Arulmigu Bangaru Kamachiamman Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014113",
+    "temple_name": "Arulmigu Nadiyamman Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014135",
+    "temple_name": "Arulmigu Durgaiamman Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014140",
+    "temple_name": "Arulmigu Muthumariamman Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014114",
+    "temple_name": "Arulmigu Viswanathaswamy Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014150",
+    "temple_name": "Arulmigu Kailasanathaswamy Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014230",
+    "temple_name": "Arulmigu Venkatesa Perumal And Kailasanatha Swamy Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014252",
+    "temple_name": "Arulmigu Abathsagayeswaraswamy Temple",
+    "district": "Thiruvarur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014267",
+    "temple_name": "Arulmigu Rajagopalaswamy Temple",
+    "district": "Thiruvarur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014280",
+    "temple_name": "Arulmigu Mahamariamman Temple",
+    "district": "Thiruvarur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014321",
+    "temple_name": "Arulmigu Agneeswarar Temple",
+    "district": "Thiruvarur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014329",
+    "temple_name": "Arulmigu Bavaoushadeeswarar Temple",
+    "district": "Thiruvarur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014322",
+    "temple_name": "Arulmigu Mehanatha Swami Temple",
+    "district": "Thiruvarur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM010245",
+    "temple_name": "Arulmigu Bannari Mariamman Temple",
+    "district": "Erode District",
+    "subdomain_url": "https://bannarimariamman.hrce.tn.gov.in/",
+    "extraction_timestamp": "2025-08-24T03:46:52.189354",
+    "content_length": 342463,
+    "deities": [
+      "Bannari Mariamman"
+    ],
+    "image_urls": [
+      "https://hrce.tn.gov.in/resources/docs/templeinfo/general/emblem/10245/image_1.jpg",
+      "https://bannarimariamman.hrce.tn.gov.in/../resources/library/images/multiply.png"
+    ],
+    "image_count": 2,
+    "tamil_content": {
+      "phrases": [
+        "அருள்மிகு பண்ணாரி மாரியம்மன் திருக்கோயில்",
+        "பண்ணாரி",
+        "ஈரோடு",
+        "இணைய வழி சேவை",
+        "மறைக்க",
+        "ஒப்புதல்",
+        "சமர்ப்பிக்க",
+        "பயனர் பெயர்",
+        "மாவட்டம்",
+        "வட்டம்",
+        "வருவாய் கிராமம்",
+        "நகரம் பெயர்",
+        "வார்டு பெயர்",
+        "தொகுதி பெயர்",
+        "நீங்கள் வெளிப்புற இணையதளத்திற்கு திருப்பி விடப்படுகிறீர்கள்"
+      ],
+      "has_tamil": true
+    },
+    "contact_phones": [
+      "1755978405"
+    ],
+    "festival_mentions": [
+      "trim()=='N' || mapping_status_json['festival']",
+      "val());\r\n\t\t\t\t}\r\n\t\t\t  \r\n\t\t\t    if(formname=='festivaldetailform')\r\n\t\t\t\t{\r\n\t                 form_data"
+    ],
+    "extraction_status": "success",
+    "subdomain_pattern": "bannarimariamman"
+  },
+  {
+    "temple_id": "TM014443",
+    "temple_name": "Arulmigu Manthirapureeshwarar Temple",
+    "district": "Thiruvarur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014389",
+    "temple_name": "Arulmigu Sheshapureeswarar Temple",
+    "district": "Thiruvarur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014451",
+    "temple_name": "Arulmigu Varadharaja Perumal Temple",
+    "district": "Thiruvarur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014385",
+    "temple_name": "Arulmigu Anantha Vinayagar Temple",
+    "district": "Thiruvarur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014584",
+    "temple_name": "Arulmigu Thiyagaraja Swamy Temple",
+    "district": "Nagapattinam District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014571",
+    "temple_name": "Arulmigu Navaneetheswara Swamy Temple",
+    "district": "Nagapattinam District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014581",
+    "temple_name": "Arulmigu Subramaniya Swamy Temple",
+    "district": "Nagapattinam District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014588",
+    "temple_name": "Arulmigu Agneeshwararswamy Temple",
+    "district": "Nagapattinam District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014589",
+    "temple_name": "Arulmigu Vedaranyeswaraswamy Temple",
+    "district": "Nagapattinam District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014606",
+    "temple_name": "Arulmigu Naduvatheeshwarar Temple",
+    "district": "Nagapattinam District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014608",
+    "temple_name": "Arulmigu Kayarohanaswamy Udanurai Neelayathatchiamman Temple",
+    "district": "Nagapattinam District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014615",
+    "temple_name": "Arulmigu Azhagiyanathaswamy Temple",
+    "district": "Nagapattinam District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014604",
+    "temple_name": "Arulmigu Sounthara Raja Perumal Temple",
+    "district": "Nagapattinam District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014622",
+    "temple_name": "Arulmigu Atchayalinga Swamy Temple",
+    "district": "Nagapattinam District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014635",
+    "temple_name": "Arulmigu Maha Sharaswathi Amman Temple",
+    "district": "Thiruvarur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014642",
+    "temple_name": "Arulmigu Sowriraja Perumal Temple",
+    "district": "Nagapattinam District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014688",
+    "temple_name": "Arulmigu Bathrakaliyamman Temple",
+    "district": "Nagapattinam District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014691",
+    "temple_name": "Arulmigu Uthirapatheeshwararswamy Temple",
+    "district": "Nagapattinam District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014707",
+    "temple_name": "Arulmigu Bairavanathaswamy Temple",
+    "district": "Nagapattinam District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014723",
+    "temple_name": "Arulmigu Neallukkadai Mariyamman Temple",
+    "district": "Nagapattinam District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM017995",
+    "temple_name": "Arulmigu Venkatachalapathi Swamy Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM017999",
+    "temple_name": "Arulmigu Naganatha Swamy Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018002",
+    "temple_name": "Arulmigu Swaminatha Swamy Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018014",
+    "temple_name": "Arulmigu Srinivasa Perumal Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018013",
+    "temple_name": "Arulmigu Dhenupureeswarar Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018015",
+    "temple_name": "Arulmigu Magalingaswamy Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018016",
+    "temple_name": "Arulmigu Sivasuriyaperumantemple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018017",
+    "temple_name": "Arulmigu Chakkarapaniswamytemple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018018",
+    "temple_name": "Arulmigu Sarangapaniswamy Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018019",
+    "temple_name": "Arulmigu Aadhikumbeswaraswamy Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018024",
+    "temple_name": "Shri Kaasi Mutt (Samaya Arakkattalai)",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018022",
+    "temple_name": "Arulmigu Saranathaperumal Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018028",
+    "temple_name": "Arulmigu Rajagopalaswamy Temple",
+    "district": "Mayiladuthurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018027",
+    "temple_name": "Arulmigu Suvedaranyeswaraswamy Temple",
+    "district": "Mayiladuthurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018026",
+    "temple_name": "Arulmigu Uthvaaganathaswamy Temple",
+    "district": "Mayiladuthurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018032",
+    "temple_name": "Arulmigu Naaganathaswamy Temple",
+    "district": "Mayiladuthurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018034",
+    "temple_name": "Arulmigu Maayurnathaswamytemple",
+    "district": "Mayiladuthurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018037",
+    "temple_name": "Arulmigu Kampagareswaraswamy Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018033",
+    "temple_name": "Arulmigu Prasannamariyamman Temple",
+    "district": "Mayiladuthurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018038",
+    "temple_name": "Arulmigu Prananathaswamy Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018039",
+    "temple_name": "Arulmigu Akneeswarar Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018040",
+    "temple_name": "Arulmigu Aagasamaariyamman Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018043",
+    "temple_name": "Arulmigu Pasupatheeswara Swamy Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018045",
+    "temple_name": "Arulmigu Parasunathaswamy Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018041",
+    "temple_name": "Arulmigu Parimalarenganathar Temple",
+    "district": "Mayiladuthurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018059",
+    "temple_name": "Arulmigu Mariyamman Temple",
+    "district": "Mayiladuthurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018061",
+    "temple_name": "Arulmigu Subramaniya Swamy Temple",
+    "district": "Mayiladuthurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018050",
+    "temple_name": "Arulmigu Karumpayiram Konda Vinayagar Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018054",
+    "temple_name": "Arulmigu Kasiviswanathar Temple",
+    "district": "Thanjavur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018082",
+    "temple_name": "Arulmigu Margasagayaswamy Temple",
+    "district": "Mayiladuthurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020342",
+    "temple_name": "Arulmigu Angalamman Temple",
+    "district": "Viluppuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020363",
+    "temple_name": "Arulmigu Lakshminarasimar Temple",
+    "district": "Viluppuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020364",
+    "temple_name": "Arulmigu Thiru Arutprakasa Vallalar Dheiva Nilayam",
+    "district": "Cuddalore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020341",
+    "temple_name": "Arulmigu Chandramouleeswarar Temple",
+    "district": "Viluppuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020343",
+    "temple_name": "Arulmigu Arunchalaeswarar Temple",
+    "district": "Tiruvannamalai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020365",
+    "temple_name": "Arulmigu Kolanciyappar Temple",
+    "district": "Cuddalore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020368",
+    "temple_name": "Arulmigu Virudhagireswarar Temple",
+    "district": "Cuddalore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020366",
+    "temple_name": "Arulmigu Padaleeswarar Temple",
+    "district": "Cuddalore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020367",
+    "temple_name": "Arulmigu Devanathaswamy Temple",
+    "district": "Cuddalore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020370",
+    "temple_name": "Arulmigu Neyveli Group Temple",
+    "district": "Cuddalore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020377",
+    "temple_name": "Arulmigu Mannarswamy Samedha Pachiyamman Temple",
+    "district": "Tiruvannamalai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020374",
+    "temple_name": "Arulmigu Renugambalamman Temple",
+    "district": "Tiruvannamalai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020376",
+    "temple_name": "Arulmigu Lakshmi Narasimma Swamy Temple",
+    "district": "Tiruvannamalai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020375",
+    "temple_name": "Arulmigu Mariyamman Temple",
+    "district": "Tiruvannamalai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020383",
+    "temple_name": "Arulmigu Lakshminarasimma Swamy Temple",
+    "district": "Kallakurichi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020378",
+    "temple_name": "Arulmigu Pirasanna Venkatramana Perumal Temple",
+    "district": "Tiruvannamalai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020379",
+    "temple_name": "Arulmigu Manjaneeswarar Temple",
+    "district": "Viluppuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020395",
+    "temple_name": "Arulmigu Sanjeevirayar Temple",
+    "district": "Kallakurichi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020396",
+    "temple_name": "Arulmigu Thinthirineeshwar Temple",
+    "district": "Viluppuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020399",
+    "temple_name": "Arulmigu Mutthaiyasamy Temple",
+    "district": "Cuddalore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020398",
+    "temple_name": "Arulmigu Vaithiyanathasamy Temple",
+    "district": "Cuddalore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020397",
+    "temple_name": "Arulmigu Puthumariyamman Temple",
+    "district": "Cuddalore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020401",
+    "temple_name": "Arulmigu Veeratteshwarar Temple",
+    "district": "Cuddalore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020403",
+    "temple_name": "Arulmigu Ayyanaar Temple",
+    "district": "Cuddalore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020409",
+    "temple_name": "Arulmigu Veeraanjenaya Samy Temple",
+    "district": "Cuddalore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020411",
+    "temple_name": "Arulmigu Piralayakaleyswarar Temple",
+    "district": "Cuddalore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020421",
+    "temple_name": "Arulmigu Varadharaja Perumal Temple",
+    "district": "Cuddalore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020417",
+    "temple_name": "Arulmigu Aathikesava Perumal Temple",
+    "district": "Cuddalore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020429",
+    "temple_name": "Arulmigu Sivasubramaniya Samy Temple",
+    "district": "Tiruvannamalai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020430",
+    "temple_name": "Arulmigu Vedhapurieswarar Temple",
+    "district": "Tiruvannamalai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM020547",
+    "temple_name": "Arulmigu Angalamman Temple",
+    "district": "Kallakurichi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025213",
+    "temple_name": "Arulmigu Mathurakaliamman Temple",
+    "district": "Perambalur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025260",
+    "temple_name": "Arulmigu Kaliyugavaradharajaperumal Temple",
+    "district": "Ariyalur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025217",
+    "temple_name": "Arulmigu Mathanagopalaswamy Temple",
+    "district": "Perambalur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025314",
+    "temple_name": "Arulmigu Kadambavaneshwarar Temple",
+    "district": "Karur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025303",
+    "temple_name": "Arulmigu Kalyana Venkatramanaswamy Temple",
+    "district": "Karur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025329",
+    "temple_name": "Arulmigu Balasubramaniya Samy Temple",
+    "district": "Karur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025325",
+    "temple_name": "Arulmigu Raththinakreeshwarar Temple",
+    "district": "Karur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025328",
+    "temple_name": "Arulmigu Kalyana Pasupatheeswara Swamy Temple",
+    "district": "Karur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025369",
+    "temple_name": "Arulmigu Mariyamman Temple",
+    "district": "Karur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025405",
+    "temple_name": "Arulmigu Muthumariyamman Temple",
+    "district": "Pudukkottai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025434",
+    "temple_name": "Arulmigu Thiruvettalazhiya Ayyanar Temple",
+    "district": "Pudukkottai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025421",
+    "temple_name": "Arulmigu Perungaraiyadi Minda Ayyanar Temple",
+    "district": "Pudukkottai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025429",
+    "temple_name": "Arulmigu Veeramakaliamman Temple",
+    "district": "Pudukkottai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025447",
+    "temple_name": "Arulmigu Nadiyamman Temple",
+    "district": "Pudukkottai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025414",
+    "temple_name": "Arulmigu Veeramakaliamman Temple",
+    "district": "Pudukkottai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025471",
+    "temple_name": "Arulmigu Sanjeevirayar Temple",
+    "district": "Pudukkottai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025700",
+    "temple_name": "Arulmigu Aranganatha Swamy Temple",
+    "district": "Thiruchirappalli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025705",
+    "temple_name": "Arulmigu Thayumanaswamy Temple",
+    "district": "Thiruchirappalli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025704",
+    "temple_name": "Arulmigu Mariamman Temple",
+    "district": "Thiruchirappalli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025709",
+    "temple_name": "Arulmigu Subramaniya Swamy Temple",
+    "district": "Thiruchirappalli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025726",
+    "temple_name": "Arulmigu Uthamar Temple,",
+    "district": "Thiruchirappalli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025708",
+    "temple_name": "Arulmigu Vekkaliamman Temple",
+    "district": "Thiruchirappalli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025735",
+    "temple_name": "Arulmigu Madhyarjuneshwarar Temple",
+    "district": "Thiruchirappalli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025718",
+    "temple_name": "Arulmigu Saptharisheeswarar Temple",
+    "district": "Thiruchirappalli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025706",
+    "temple_name": "Arulmigu Jambukeswarar Akilandeswari Temple",
+    "district": "Thiruchirappalli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025748",
+    "temple_name": "Arulmigu Naganathaswamy Temple",
+    "district": "Thiruchirappalli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025822",
+    "temple_name": "Arulmigu Anjeneyaswamy Temple",
+    "district": "Thiruchirappalli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025741",
+    "temple_name": "Arulmigu Prasanna Vengatajalapathy Temple",
+    "district": "Thiruchirappalli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025798",
+    "temple_name": "Arulmigu Nallandavar Vagayara Temple",
+    "district": "Thiruchirappalli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025871",
+    "temple_name": "Arulmigu Pirammapurishwarar Swamy Temple",
+    "district": "Thiruchirappalli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025846",
+    "temple_name": "Arulmigu Gneeliwaneswarar Temple",
+    "district": "Thiruchirappalli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM026341",
+    "temple_name": "Pudukkottai Devasthanam",
+    "district": "Pudukkottai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025898",
+    "temple_name": "Arulmigu Prasana Vengadajalapathi Temple",
+    "district": "Thiruchirappalli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM031962",
+    "temple_name": "Arulmigu Meenakshi Sundaraswarar Temple",
+    "district": "Madurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM031992",
+    "temple_name": "Arulmigu Koodalagar Temple",
+    "district": "Madurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM031985",
+    "temple_name": "Arulmigu Subramaniyaswamy Temple",
+    "district": "Madurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032002",
+    "temple_name": "Arulmigu Mathanagopalasamy Temple",
+    "district": "Madurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM031996",
+    "temple_name": "Arulmigu Dhandayuthapaniswamy Temple",
+    "district": "Madurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032008",
+    "temple_name": "Arulmigu Jeyaveera Anjaneyar Swamy Temple",
+    "district": "Madurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032010",
+    "temple_name": "Arulmigu Arasamaram Pillaiyar Temple",
+    "district": "Madurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032007",
+    "temple_name": "Arulmigu Veerama Kalliamman Temple",
+    "district": "Madurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032058",
+    "temple_name": "Arulmigu Malaiyandi Karuppanaswamy Temple",
+    "district": "Madurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032017",
+    "temple_name": "Arulmigu Kalyana Sundareswarar Temple",
+    "district": "Madurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032060",
+    "temple_name": "Arulmigu Pandimuneeswarar Temple",
+    "district": "Madurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032061",
+    "temple_name": "Arulmigu Kalamega Perumal Temple",
+    "district": "Madurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032065",
+    "temple_name": "Arulmigu Sarveswarar Temple",
+    "district": "Madurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032107",
+    "temple_name": "Arulmigu Tharmasastha Temple",
+    "district": "Theni District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032079",
+    "temple_name": "Arulmigu Janagai Marriamman Temple",
+    "district": "Madurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032066",
+    "temple_name": "Arulmigu Poonga Murugan Temple",
+    "district": "Madurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032124",
+    "temple_name": "Arulmigu Murugan Temple",
+    "district": "Madurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032110",
+    "temple_name": "Arulmigu Sandanamahalingaswamy Temple",
+    "district": "Madurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032123",
+    "temple_name": "Arulmigu Kallalagar Temple",
+    "district": "Madurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032135",
+    "temple_name": "Arulmigu Marriamman Temple",
+    "district": "Dindigul District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032151",
+    "temple_name": "Arulmigu Kottai Mariamman Temple",
+    "district": "Dindigul District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032147",
+    "temple_name": "Arulmigu Kalahatheeswarar Temple",
+    "district": "Dindigul District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032150",
+    "temple_name": "Arulmigu Soundararaja Perumal Temple",
+    "district": "Dindigul District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032153",
+    "temple_name": "Arulmigu Seenivasa Perumal Temple",
+    "district": "Dindigul District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032156",
+    "temple_name": "Arulmigu Sengkunthar Kaliamman Temple",
+    "district": "Dindigul District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032196",
+    "temple_name": "Arulmigu Soundararaja Perumal Temple",
+    "district": "Dindigul District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032152",
+    "temple_name": "Arulmigu Gopinathaswami Temple",
+    "district": "Dindigul District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032158",
+    "temple_name": "Arulmigu Muthallamman Temple",
+    "district": "Dindigul District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032203",
+    "temple_name": "Arulmigu Dhandayuthapaniswamy Temple",
+    "district": "Dindigul District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032242",
+    "temple_name": "Arulmigu Vigneshwarar Vagaiyar Temple",
+    "district": "Dindigul District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032259",
+    "temple_name": "Arulmigu Moolanathasamy Temple",
+    "district": "Madurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032281",
+    "temple_name": "Arulmigu Gowmariayyan Temple",
+    "district": "Theni District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032285",
+    "temple_name": "Arulmigu Poolanantheesvarar Temple",
+    "district": "Theni District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032287",
+    "temple_name": "Arulmigu Suyambu Saniswara Bhavan Temple",
+    "district": "Theni District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032286",
+    "temple_name": "Arulmigu Moongilanai Kamatchiamman Temple",
+    "district": "Theni District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032109",
+    "temple_name": "Arulmigu Sundaramahalingaswamy Temple",
+    "district": "Madurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032289",
+    "temple_name": "Arulmigu Mavootru Velappar Temple",
+    "district": "Theni District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032296",
+    "temple_name": "Arulmigu Balasubramaniyaswamy Temple",
+    "district": "Theni District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032288",
+    "temple_name": "Arulmigu Kambarayaperumal Kasivishwanatha Temple",
+    "district": "Theni District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035671",
+    "temple_name": "Arulmigu Ramanathaswamy Temple",
+    "district": "Ramanathapuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM032290",
+    "temple_name": "Arulmigu Thirukkalatheeswarar Temple",
+    "district": "Theni District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035702",
+    "temple_name": "Arulmigu Mariamman Temple",
+    "district": "Virudhunagar District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035719",
+    "temple_name": "Arulmigu Koppudayanayaki Amman Temple",
+    "district": "Sivagangai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035708",
+    "temple_name": "Arulmigu Vettudaiyar Kaliamman Temple",
+    "district": "Sivagangai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035703",
+    "temple_name": "Arulmigu Adaikalamkatha Iyanar And Bathirakaliamman Temple",
+    "district": "Sivagangai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035725",
+    "temple_name": "Arulmigu Muthumariamman Temple",
+    "district": "Sivagangai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035733",
+    "temple_name": "Arulmigu Thiruvengatamudayan Temple",
+    "district": "Sivagangai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035740",
+    "temple_name": "Arulmigu Nachiyar (Aandal) Temple",
+    "district": "Virudhunagar District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035730",
+    "temple_name": "Arulmigu Silambanichidambara Vinayagar Temple",
+    "district": "Sivagangai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035744",
+    "temple_name": "Arulmigu Mayuranatha Swamy Temple",
+    "district": "Virudhunagar District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035745",
+    "temple_name": "Arulmigu Nachadai Thavirtaruliya Swamy Temple",
+    "district": "Virudhunagar District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035757",
+    "temple_name": "Arulmigu Viswanathaswamy Temple",
+    "district": "Virudhunagar District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035778",
+    "temple_name": "Arulmigu Vaithiyanatha Swamy Temple",
+    "district": "Virudhunagar District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035766",
+    "temple_name": "Arulmigu Chokkanatha Swamy Temple",
+    "district": "Virudhunagar District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035826",
+    "temple_name": "Arulmigu Muthumariamman Temple",
+    "district": "Sivagangai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035786",
+    "temple_name": "Arulmigu Ainthukoil Devasthanam",
+    "district": "Sivagangai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035793",
+    "temple_name": "Arulmigu Karpaka Vinayagar Temple",
+    "district": "Sivagangai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035748",
+    "temple_name": "Arulmigu Nintra Narayana Perumal Temple",
+    "district": "Virudhunagar District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035878",
+    "temple_name": "Arulmigu Parasakthi Mariamman Vagaiara Temple",
+    "district": "Virudhunagar District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035794",
+    "temple_name": "Arulmigu Meenatchi Sundareswarar Temple",
+    "district": "Sivagangai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035895",
+    "temple_name": "Arulmigu General Devasthanam",
+    "district": "Ramanathapuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035827",
+    "temple_name": "Arulmigu Meenakshi Sundareshwarar Matrum Muthalamman Temple",
+    "district": "Ramanathapuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035845",
+    "temple_name": "Arulmigu Vazhividu Murugan Temple",
+    "district": "Ramanathapuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035924",
+    "temple_name": "Arulmigu Naganathaswamy Temple",
+    "district": "Ramanathapuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035899",
+    "temple_name": "Arulmigu Aadhijeganathaperumal Temple",
+    "district": "Ramanathapuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035964",
+    "temple_name": "Sivagangai Samasthanam Devasthanam Temple",
+    "district": "Sivagangai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM035905",
+    "temple_name": "Arulmigu Mangalanathaswami Temple",
+    "district": "Ramanathapuram District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM037857",
+    "temple_name": "Arulmigu Thirucourtrallanathaswamy Temple",
+    "district": "Tenkasi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM037875",
+    "temple_name": "Arulmigu Sankaranarayanaswamy Temple",
+    "district": "Tenkasi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM037836",
+    "temple_name": "Arulmigu Thirumalaikumaraswamy Temple",
+    "district": "Tenkasi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM037880",
+    "temple_name": "Arulmigu Kasiviswanathaswamy Temple",
+    "district": "Tenkasi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM037881",
+    "temple_name": "Arulmigu Nellaiyappar Arultharum Kanthimathiamman Temple",
+    "district": "Tirunelveli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM037884",
+    "temple_name": "Arulmigu Kailasanathar Temple",
+    "district": "Tirunelveli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM037892",
+    "temple_name": "Arulmigu Ilanji Kumarar Thirukoil",
+    "district": "Tenkasi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM037887",
+    "temple_name": "Arulmigu Santhivinayagar Temple",
+    "district": "Tirunelveli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM037885",
+    "temple_name": "Arulmigu Palayam Salai Kumaraswamy Temple",
+    "district": "Tirunelveli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM037919",
+    "temple_name": "Arulmigu Sorimuthu Ayyanar Temple",
+    "district": "Tirunelveli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM037902",
+    "temple_name": "Arulmigu Papanasam Temple",
+    "district": "Tirunelveli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM037942",
+    "temple_name": "Arulmigu Venkatachalapathy Temple",
+    "district": "Tirunelveli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM037900",
+    "temple_name": "Arulmigu Vaithialinga Swami Temple",
+    "district": "Tenkasi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM037926",
+    "temple_name": "Arulmigu Agastheeswarar Temple",
+    "district": "Tirunelveli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM038025",
+    "temple_name": "Arulmigu Karaiyadi Madasamy Temple",
+    "district": "Tirunelveli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM037996",
+    "temple_name": "Arulmigu Kulathoor Ayyan Sastha Temple",
+    "district": "Tirunelveli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM038027",
+    "temple_name": "Arulmigu Thenkarai Maharajeshwarar Temple",
+    "district": "Tirunelveli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM038058",
+    "temple_name": "Arulmigu Suambulinga Swamy Temple",
+    "district": "Tirunelveli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM038059",
+    "temple_name": "Arulmigu Chinthamaninatha Swamy Temple",
+    "district": "Tenkasi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM038078",
+    "temple_name": "Arulmigu Subramaniaswamy Temple",
+    "district": "Tirunelveli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM038187",
+    "temple_name": "Arulmigu Pooludaiyar Sastha Temple",
+    "district": "Tirunelveli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM038189",
+    "temple_name": "Arulmigu Karkuvel Ayyanar Temple",
+    "district": "Thoothukudi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM038190",
+    "temple_name": "Arulmigu Poovananathaswamy Temple",
+    "district": "Thoothukudi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM038063",
+    "temple_name": "Arulmigu Gopala Krishna Swamy Etc Temple",
+    "district": "Tenkasi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM038191",
+    "temple_name": "Arulmigu Swamy Chithambareswarar Group Of Temple",
+    "district": "Thoothukudi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM038193",
+    "temple_name": "Arulmigu Sankararameshwarar Temple",
+    "district": "Thoothukudi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM038196",
+    "temple_name": "Arulmigu Kallapiranswamy Temple",
+    "district": "Thoothukudi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM038202",
+    "temple_name": "Arulmigu Vaikundapathi Temle",
+    "district": "Thoothukudi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM038199",
+    "temple_name": "Arulmigu Athinathar Alwar Temple",
+    "district": "Thoothukudi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM038271",
+    "temple_name": "Arulmigu Subramania Swamy Temple",
+    "district": "Thoothukudi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM038204",
+    "temple_name": "Arulmigu Kalugachala Moorthy Temple",
+    "district": "Thoothukudi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM038272",
+    "temple_name": "Arulmigu Mutharamman Temple",
+    "district": "Thoothukudi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM038203",
+    "temple_name": "Arulmigu Muthumalaiamman Temple",
+    "district": "Thoothukudi District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM045056",
+    "temple_name": "Kanyakumari District Temples Suchindrum",
+    "district": "Kanyakumari District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000316",
+    "temple_name": "Arulmigu Dhanakotti Ammal Sathram Arakattalai",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM038306",
+    "temple_name": "Arulmigu Essakiyamman Temple",
+    "district": "Kanyakumari District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000451",
+    "temple_name": "Arulmigu Vasantha Mandapa Kattalai",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000447",
+    "temple_name": "Arulmigu Sundoor Vengadarengaiya Chetti Kattalai",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM000479",
+    "temple_name": "Arulmigu Vanabojana Dharmam Kattalai",
+    "district": "Chennai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001310",
+    "temple_name": "Arulmigu Sri Narayana Reddy Chathram",
+    "district": "Vellore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM001717",
+    "temple_name": "Arulmigu Alavandhar Nayakar Charity",
+    "district": "Chengalpattu District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009836",
+    "temple_name": "Arulmigu Venkadasaperumal Paditharakattalai",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM014255",
+    "temple_name": "Arulmigu Abishaga Kattalai",
+    "district": "Thiruvarur District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018036",
+    "temple_name": "Arulmigu Kumarakkattalai Subramaniyaswamy Temple",
+    "district": "Mayiladuthurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM018035",
+    "temple_name": "Pichakattalai (E) Arulmigu Amirthakadeswarar Temple",
+    "district": "Mayiladuthurai District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM025886",
+    "temple_name": "Mownamadam Kattalai inaippu Arulmigu Thayumana Swami Temple",
+    "district": "Thiruchirappalli District",
+    "extraction_status": "no_subdomain"
+  },
+  {
+    "temple_id": "TM009758",
+    "temple_name": "Arulmigu Vanabadrakaliamman Temple",
+    "district": "Coimbatore District",
+    "extraction_status": "no_subdomain"
+  }
+]

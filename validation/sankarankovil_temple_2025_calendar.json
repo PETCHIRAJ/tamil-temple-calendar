@@ -1,0 +1,3842 @@
+{
+  "temple": "Sankarankovil Gomathi Ambal Temple",
+  "location": {
+    "latitude": 9.1688,
+    "longitude": 77.4538
+  },
+  "year": 2025,
+  "events": {
+    "pradosham": [
+      {
+        "date": "2025-01-11",
+        "day": "Saturday",
+        "tithi": "Trayodashi (Pradosham)",
+        "nakshatra": "Punarvasu",
+        "tamil_month": "Aippasi",
+        "sunrise": "05:52",
+        "type": "Shani Pradosham (Saturday)",
+        "timing": "4:30 PM - 6:00 PM"
+      },
+      {
+        "date": "2025-01-26",
+        "day": "Sunday",
+        "tithi": "Trayodashi (Pradosham)",
+        "nakshatra": "Uttara Ashadha",
+        "tamil_month": "Aippasi",
+        "sunrise": "05:52",
+        "type": "Pradosham",
+        "timing": "4:30 PM - 6:00 PM"
+      },
+      {
+        "date": "2025-02-10",
+        "day": "Monday",
+        "tithi": "Trayodashi (Pradosham)",
+        "nakshatra": "Ashlesha",
+        "tamil_month": "Karthigai",
+        "sunrise": "05:52",
+        "type": "Soma Pradosham (Monday)",
+        "timing": "4:30 PM - 6:00 PM"
+      },
+      {
+        "date": "2025-02-25",
+        "day": "Tuesday",
+        "tithi": "Trayodashi (Pradosham)",
+        "nakshatra": "Shatabhisha",
+        "tamil_month": "Karthigai",
+        "sunrise": "05:52",
+        "type": "Bhauma Pradosham (Tuesday)",
+        "timing": "4:30 PM - 6:00 PM"
+      },
+      {
+        "date": "2025-03-11",
+        "day": "Tuesday",
+        "tithi": "Trayodashi (Pradosham)",
+        "nakshatra": "Purva Phalguni",
+        "tamil_month": "Margazhi",
+        "sunrise": "05:52",
+        "type": "Bhauma Pradosham (Tuesday)",
+        "timing": "4:30 PM - 6:00 PM"
+      },
+      {
+        "date": "2025-03-27",
+        "day": "Thursday",
+        "tithi": "Trayodashi (Pradosham)",
+        "nakshatra": "Uttara Bhadrapada",
+        "tamil_month": "Margazhi",
+        "sunrise": "05:52",
+        "type": "Pradosham",
+        "timing": "4:30 PM - 6:00 PM"
+      },
+      {
+        "date": "2025-04-10",
+        "day": "Thursday",
+        "tithi": "Trayodashi (Pradosham)",
+        "nakshatra": "Hasta",
+        "tamil_month": "Thai",
+        "sunrise": "05:52",
+        "type": "Pradosham",
+        "timing": "4:30 PM - 6:00 PM"
+      },
+      {
+        "date": "2025-04-25",
+        "day": "Friday",
+        "tithi": "Trayodashi (Pradosham)",
+        "nakshatra": "Ashwini",
+        "tamil_month": "Thai",
+        "sunrise": "05:52",
+        "type": "Pradosham",
+        "timing": "4:30 PM - 6:00 PM"
+      },
+      {
+        "date": "2025-05-09",
+        "day": "Friday",
+        "tithi": "Trayodashi (Pradosham)",
+        "nakshatra": "Swati",
+        "tamil_month": "Maasi",
+        "sunrise": "05:52",
+        "type": "Pradosham",
+        "timing": "4:30 PM - 6:00 PM"
+      },
+      {
+        "date": "2025-05-25",
+        "day": "Sunday",
+        "tithi": "Trayodashi (Pradosham)",
+        "nakshatra": "Rohini",
+        "tamil_month": "Maasi",
+        "sunrise": "05:52",
+        "type": "Pradosham",
+        "timing": "4:30 PM - 6:00 PM"
+      },
+      {
+        "date": "2025-06-08",
+        "day": "Sunday",
+        "tithi": "Trayodashi (Pradosham)",
+        "nakshatra": "Jyeshtha",
+        "tamil_month": "Panguni",
+        "sunrise": "05:52",
+        "type": "Pradosham",
+        "timing": "4:30 PM - 6:00 PM"
+      },
+      {
+        "date": "2025-06-23",
+        "day": "Monday",
+        "tithi": "Trayodashi (Pradosham)",
+        "nakshatra": "Mrigashira",
+        "tamil_month": "Panguni",
+        "sunrise": "05:52",
+        "type": "Soma Pradosham (Monday)",
+        "timing": "4:30 PM - 6:00 PM"
+      },
+      {
+        "date": "2025-07-07",
+        "day": "Monday",
+        "tithi": "Trayodashi (Pradosham)",
+        "nakshatra": "Mula",
+        "tamil_month": "Chithirai",
+        "sunrise": "05:52",
+        "type": "Soma Pradosham (Monday)",
+        "timing": "4:30 PM - 6:00 PM"
+      },
+      {
+        "date": "2025-08-06",
+        "day": "Wednesday",
+        "tithi": "Trayodashi (Pradosham)",
+        "nakshatra": "Shravana",
+        "tamil_month": "Vaikasi",
+        "sunrise": "05:52",
+        "type": "Pradosham",
+        "timing": "4:30 PM - 6:00 PM"
+      },
+      {
+        "date": "2025-08-21",
+        "day": "Thursday",
+        "tithi": "Trayodashi (Pradosham)",
+        "nakshatra": "Ashlesha",
+        "tamil_month": "Vaikasi",
+        "sunrise": "05:52",
+        "type": "Pradosham",
+        "timing": "4:30 PM - 6:00 PM"
+      },
+      {
+        "date": "2025-09-04",
+        "day": "Thursday",
+        "tithi": "Trayodashi (Pradosham)",
+        "nakshatra": "Shatabhisha",
+        "tamil_month": "Aani",
+        "sunrise": "05:52",
+        "type": "Pradosham",
+        "timing": "4:30 PM - 6:00 PM"
+      },
+      {
+        "date": "2025-10-04",
+        "day": "Saturday",
+        "tithi": "Trayodashi (Pradosham)",
+        "nakshatra": "Uttara Bhadrapada",
+        "tamil_month": "Aadi",
+        "sunrise": "05:52",
+        "type": "Shani Pradosham (Saturday)",
+        "timing": "4:30 PM - 6:00 PM"
+      },
+      {
+        "date": "2025-10-19",
+        "day": "Sunday",
+        "tithi": "Trayodashi (Pradosham)",
+        "nakshatra": "Chitra",
+        "tamil_month": "Aadi",
+        "sunrise": "05:52",
+        "type": "Pradosham",
+        "timing": "4:30 PM - 6:00 PM"
+      },
+      {
+        "date": "2025-11-02",
+        "day": "Sunday",
+        "tithi": "Trayodashi (Pradosham)",
+        "nakshatra": "Ashwini",
+        "tamil_month": "Aavani",
+        "sunrise": "05:52",
+        "type": "Pradosham",
+        "timing": "4:30 PM - 6:00 PM"
+      },
+      {
+        "date": "2025-11-18",
+        "day": "Tuesday",
+        "tithi": "Trayodashi (Pradosham)",
+        "nakshatra": "Vishakha",
+        "tamil_month": "Aavani",
+        "sunrise": "05:52",
+        "type": "Bhauma Pradosham (Tuesday)",
+        "timing": "4:30 PM - 6:00 PM"
+      },
+      {
+        "date": "2025-12-02",
+        "day": "Tuesday",
+        "tithi": "Trayodashi (Pradosham)",
+        "nakshatra": "Rohini",
+        "tamil_month": "Purattasi",
+        "sunrise": "05:52",
+        "type": "Bhauma Pradosham (Tuesday)",
+        "timing": "4:30 PM - 6:00 PM"
+      },
+      {
+        "date": "2025-12-17",
+        "day": "Wednesday",
+        "tithi": "Trayodashi (Pradosham)",
+        "nakshatra": "Jyeshtha",
+        "tamil_month": "Purattasi",
+        "sunrise": "05:52",
+        "type": "Pradosham",
+        "timing": "4:30 PM - 6:00 PM"
+      },
+      {
+        "date": "2025-12-31",
+        "day": "Wednesday",
+        "tithi": "Trayodashi (Pradosham)",
+        "nakshatra": "Mrigashira",
+        "tamil_month": "Purattasi",
+        "sunrise": "05:52",
+        "type": "Pradosham",
+        "timing": "4:30 PM - 6:00 PM"
+      }
+    ],
+    "ekadashi": [
+      {
+        "date": "2025-01-09",
+        "day": "Thursday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Mrigashira",
+        "tamil_month": "Aippasi",
+        "sunrise": "05:52",
+        "name": "Pausha Putrada/Vaikunta",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-01-25",
+        "day": "Saturday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Purva Ashadha",
+        "tamil_month": "Aippasi",
+        "sunrise": "05:52",
+        "name": "Shattila",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-02-08",
+        "day": "Saturday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Punarvasu",
+        "tamil_month": "Karthigai",
+        "sunrise": "05:52",
+        "name": "Jaya/Bhaimi",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-02-23",
+        "day": "Sunday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Uttara Ashadha",
+        "tamil_month": "Karthigai",
+        "sunrise": "05:52",
+        "name": "Vijaya",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-03-09",
+        "day": "Sunday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Ashlesha",
+        "tamil_month": "Margazhi",
+        "sunrise": "05:52",
+        "name": "Amalaki",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-03-25",
+        "day": "Tuesday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Shatabhisha",
+        "tamil_month": "Margazhi",
+        "sunrise": "05:52",
+        "name": "Papamochani",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-04-08",
+        "day": "Tuesday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Uttara Phalguni",
+        "tamil_month": "Thai",
+        "sunrise": "05:52",
+        "name": "Kamada",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-04-23",
+        "day": "Wednesday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Uttara Bhadrapada",
+        "tamil_month": "Thai",
+        "sunrise": "05:52",
+        "name": "Varuthini",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-05-07",
+        "day": "Wednesday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Hasta",
+        "tamil_month": "Maasi",
+        "sunrise": "05:52",
+        "name": "Mohini",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-05-23",
+        "day": "Friday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Ashwini",
+        "tamil_month": "Maasi",
+        "sunrise": "05:52",
+        "name": "Apara",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-06-06",
+        "day": "Friday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Vishakha",
+        "tamil_month": "Panguni",
+        "sunrise": "05:52",
+        "name": "Nirjala",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-06-21",
+        "day": "Saturday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Krittika",
+        "tamil_month": "Panguni",
+        "sunrise": "05:52",
+        "name": "Yogini",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-07-05",
+        "day": "Saturday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Jyeshtha",
+        "tamil_month": "Chithirai",
+        "sunrise": "05:52",
+        "name": "Sayana/Devshayani",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-07-21",
+        "day": "Monday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Ardra",
+        "tamil_month": "Chithirai",
+        "sunrise": "05:52",
+        "name": "Kamika",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-08-04",
+        "day": "Monday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Purva Ashadha",
+        "tamil_month": "Vaikasi",
+        "sunrise": "05:52",
+        "name": "Pavitropana/Putrada",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-08-19",
+        "day": "Tuesday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Punarvasu",
+        "tamil_month": "Vaikasi",
+        "sunrise": "05:52",
+        "name": "Aja/Annada",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-09-02",
+        "day": "Tuesday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Shravana",
+        "tamil_month": "Aani",
+        "sunrise": "05:52",
+        "name": "Parsva/Parivartini",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-09-18",
+        "day": "Thursday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Magha",
+        "tamil_month": "Aani",
+        "sunrise": "05:52",
+        "name": "Indira",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-10-02",
+        "day": "Thursday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Purva Bhadrapada",
+        "tamil_month": "Aadi",
+        "sunrise": "05:52",
+        "name": "Papankusha",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-10-17",
+        "day": "Friday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Uttara Phalguni",
+        "tamil_month": "Aadi",
+        "sunrise": "05:52",
+        "name": "Rama",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-10-31",
+        "day": "Friday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Uttara Bhadrapada",
+        "tamil_month": "Aadi",
+        "sunrise": "05:52",
+        "name": "Rama",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-11-16",
+        "day": "Sunday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Chitra",
+        "tamil_month": "Aavani",
+        "sunrise": "05:52",
+        "name": "Utpanna",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-11-30",
+        "day": "Sunday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Bharani",
+        "tamil_month": "Aavani",
+        "sunrise": "05:52",
+        "name": "Utpanna",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-12-15",
+        "day": "Monday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Vishakha",
+        "tamil_month": "Purattasi",
+        "sunrise": "05:52",
+        "name": "Mokshada",
+        "fasting_type": "Complete fast or fruits only"
+      },
+      {
+        "date": "2025-12-29",
+        "day": "Monday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Rohini",
+        "tamil_month": "Purattasi",
+        "sunrise": "05:52",
+        "name": "Saphala",
+        "fasting_type": "Complete fast or fruits only"
+      }
+    ],
+    "pournami": [
+      {
+        "date": "2025-01-13",
+        "day": "Monday",
+        "tithi": "Pournami (Full Moon)",
+        "nakshatra": "Pushya",
+        "tamil_month": "Aippasi",
+        "sunrise": "05:52",
+        "special": "Thai Pusam"
+      },
+      {
+        "date": "2025-02-12",
+        "day": "Wednesday",
+        "tithi": "Pournami (Full Moon)",
+        "nakshatra": "Purva Phalguni",
+        "tamil_month": "Karthigai",
+        "sunrise": "05:52",
+        "special": "Masi Magam"
+      },
+      {
+        "date": "2025-03-13",
+        "day": "Thursday",
+        "tithi": "Pournami (Full Moon)",
+        "nakshatra": "Hasta",
+        "tamil_month": "Margazhi",
+        "sunrise": "05:52",
+        "special": "Panguni Uthiram"
+      },
+      {
+        "date": "2025-03-14",
+        "day": "Friday",
+        "tithi": "Pournami (Full Moon)",
+        "nakshatra": "Chitra",
+        "tamil_month": "Margazhi",
+        "sunrise": "05:52",
+        "special": "Panguni Uthiram"
+      },
+      {
+        "date": "2025-04-12",
+        "day": "Saturday",
+        "tithi": "Pournami (Full Moon)",
+        "nakshatra": "Swati",
+        "tamil_month": "Thai",
+        "sunrise": "05:52",
+        "special": "Chitra Pournami"
+      },
+      {
+        "date": "2025-05-11",
+        "day": "Sunday",
+        "tithi": "Pournami (Full Moon)",
+        "nakshatra": "Anuradha",
+        "tamil_month": "Maasi",
+        "sunrise": "05:52",
+        "special": "Vaikasi Visakam"
+      },
+      {
+        "date": "2025-05-12",
+        "day": "Monday",
+        "tithi": "Pournami (Full Moon)",
+        "nakshatra": "Jyeshtha",
+        "tamil_month": "Maasi",
+        "sunrise": "05:52",
+        "special": "Vaikasi Visakam"
+      },
+      {
+        "date": "2025-06-10",
+        "day": "Tuesday",
+        "tithi": "Pournami (Full Moon)",
+        "nakshatra": "Purva Ashadha",
+        "tamil_month": "Panguni",
+        "sunrise": "05:52",
+        "special": "Pournami"
+      },
+      {
+        "date": "2025-07-09",
+        "day": "Wednesday",
+        "tithi": "Pournami (Full Moon)",
+        "nakshatra": "Uttara Ashadha",
+        "tamil_month": "Chithirai",
+        "sunrise": "05:52",
+        "special": "Guru Purnima"
+      },
+      {
+        "date": "2025-08-08",
+        "day": "Friday",
+        "tithi": "Pournami (Full Moon)",
+        "nakshatra": "Shatabhisha",
+        "tamil_month": "Vaikasi",
+        "sunrise": "05:52",
+        "special": "Aadi Pooram"
+      },
+      {
+        "date": "2025-09-06",
+        "day": "Saturday",
+        "tithi": "Pournami (Full Moon)",
+        "nakshatra": "Uttara Bhadrapada",
+        "tamil_month": "Aani",
+        "sunrise": "05:52",
+        "special": "Onam/Thiruvonam"
+      },
+      {
+        "date": "2025-10-06",
+        "day": "Monday",
+        "tithi": "Pournami (Full Moon)",
+        "nakshatra": "Ashwini",
+        "tamil_month": "Aadi",
+        "sunrise": "05:52",
+        "special": "Sharad Purnima"
+      },
+      {
+        "date": "2025-11-04",
+        "day": "Tuesday",
+        "tithi": "Pournami (Full Moon)",
+        "nakshatra": "Krittika",
+        "tamil_month": "Aavani",
+        "sunrise": "05:52",
+        "special": "Karthika Deepam"
+      },
+      {
+        "date": "2025-12-04",
+        "day": "Thursday",
+        "tithi": "Pournami (Full Moon)",
+        "nakshatra": "Mrigashira",
+        "tamil_month": "Purattasi",
+        "sunrise": "05:52",
+        "special": "Thiruvathira"
+      }
+    ],
+    "amavasya": [
+      {
+        "date": "2025-01-28",
+        "day": "Tuesday",
+        "tithi": "Amavasya (New Moon)",
+        "nakshatra": "Dhanishta",
+        "tamil_month": "Aippasi",
+        "sunrise": "05:52",
+        "tarpanam_time": "5:30 AM - 7:00 AM"
+      },
+      {
+        "date": "2025-02-27",
+        "day": "Thursday",
+        "tithi": "Amavasya (New Moon)",
+        "nakshatra": "Uttara Bhadrapada",
+        "tamil_month": "Karthigai",
+        "sunrise": "05:52",
+        "tarpanam_time": "5:30 AM - 7:00 AM"
+      },
+      {
+        "date": "2025-03-28",
+        "day": "Friday",
+        "tithi": "Amavasya (New Moon)",
+        "nakshatra": "Revati",
+        "tamil_month": "Margazhi",
+        "sunrise": "05:52",
+        "tarpanam_time": "5:30 AM - 7:00 AM"
+      },
+      {
+        "date": "2025-04-27",
+        "day": "Sunday",
+        "tithi": "Amavasya (New Moon)",
+        "nakshatra": "Krittika",
+        "tamil_month": "Thai",
+        "sunrise": "05:52",
+        "tarpanam_time": "5:30 AM - 7:00 AM"
+      },
+      {
+        "date": "2025-05-26",
+        "day": "Monday",
+        "tithi": "Amavasya (New Moon)",
+        "nakshatra": "Mrigashira",
+        "tamil_month": "Maasi",
+        "sunrise": "05:52",
+        "tarpanam_time": "5:30 AM - 7:00 AM"
+      },
+      {
+        "date": "2025-06-25",
+        "day": "Wednesday",
+        "tithi": "Amavasya (New Moon)",
+        "nakshatra": "Punarvasu",
+        "tamil_month": "Panguni",
+        "sunrise": "05:52",
+        "tarpanam_time": "5:30 AM - 7:00 AM"
+      },
+      {
+        "date": "2025-07-24",
+        "day": "Thursday",
+        "tithi": "Amavasya (New Moon)",
+        "nakshatra": "Ashlesha",
+        "tamil_month": "Chithirai",
+        "sunrise": "05:52",
+        "tarpanam_time": "5:30 AM - 7:00 AM"
+      },
+      {
+        "date": "2025-08-23",
+        "day": "Saturday",
+        "tithi": "Amavasya (New Moon)",
+        "nakshatra": "Uttara Phalguni",
+        "tamil_month": "Vaikasi",
+        "sunrise": "05:52",
+        "tarpanam_time": "5:30 AM - 7:00 AM"
+      },
+      {
+        "date": "2025-09-21",
+        "day": "Sunday",
+        "tithi": "Amavasya (New Moon)",
+        "nakshatra": "Hasta",
+        "tamil_month": "Aani",
+        "sunrise": "05:52",
+        "tarpanam_time": "5:30 AM - 7:00 AM"
+      },
+      {
+        "date": "2025-10-21",
+        "day": "Tuesday",
+        "tithi": "Amavasya (New Moon)",
+        "nakshatra": "Vishakha",
+        "tamil_month": "Aadi",
+        "sunrise": "05:52",
+        "tarpanam_time": "5:30 AM - 7:00 AM"
+      },
+      {
+        "date": "2025-11-19",
+        "day": "Wednesday",
+        "tithi": "Amavasya (New Moon)",
+        "nakshatra": "Jyeshtha",
+        "tamil_month": "Aavani",
+        "sunrise": "05:52",
+        "tarpanam_time": "5:30 AM - 7:00 AM"
+      },
+      {
+        "date": "2025-12-19",
+        "day": "Friday",
+        "tithi": "Amavasya (New Moon)",
+        "nakshatra": "Purva Ashadha",
+        "tamil_month": "Purattasi",
+        "sunrise": "05:52",
+        "tarpanam_time": "5:30 AM - 7:00 AM"
+      }
+    ],
+    "chaturthi": [
+      {
+        "date": "2025-01-02",
+        "day": "Thursday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Purva Bhadrapada",
+        "tamil_month": "Aippasi",
+        "sunrise": "05:52",
+        "type": "Vinayaka Chaturthi"
+      },
+      {
+        "date": "2025-01-18",
+        "day": "Saturday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Hasta",
+        "tamil_month": "Aippasi",
+        "sunrise": "05:52",
+        "type": "Sankashti Chaturthi"
+      },
+      {
+        "date": "2025-02-01",
+        "day": "Saturday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Revati",
+        "tamil_month": "Karthigai",
+        "sunrise": "05:52",
+        "type": "Vinayaka Chaturthi"
+      },
+      {
+        "date": "2025-02-16",
+        "day": "Sunday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Swati",
+        "tamil_month": "Karthigai",
+        "sunrise": "05:52",
+        "type": "Sankashti Chaturthi"
+      },
+      {
+        "date": "2025-03-02",
+        "day": "Sunday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Bharani",
+        "tamil_month": "Margazhi",
+        "sunrise": "05:52",
+        "type": "Vinayaka Chaturthi"
+      },
+      {
+        "date": "2025-03-18",
+        "day": "Tuesday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Anuradha",
+        "tamil_month": "Margazhi",
+        "sunrise": "05:52",
+        "type": "Sankashti Chaturthi"
+      },
+      {
+        "date": "2025-04-01",
+        "day": "Tuesday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Mrigashira",
+        "tamil_month": "Thai",
+        "sunrise": "05:52",
+        "type": "Vinayaka Chaturthi"
+      },
+      {
+        "date": "2025-04-16",
+        "day": "Wednesday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Mula",
+        "tamil_month": "Thai",
+        "sunrise": "05:52",
+        "type": "Sankashti Chaturthi"
+      },
+      {
+        "date": "2025-04-30",
+        "day": "Wednesday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Ardra",
+        "tamil_month": "Thai",
+        "sunrise": "05:52",
+        "type": "Vinayaka Chaturthi"
+      },
+      {
+        "date": "2025-05-16",
+        "day": "Friday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Uttara Ashadha",
+        "tamil_month": "Maasi",
+        "sunrise": "05:52",
+        "type": "Sankashti Chaturthi"
+      },
+      {
+        "date": "2025-05-30",
+        "day": "Friday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Ashlesha",
+        "tamil_month": "Maasi",
+        "sunrise": "05:52",
+        "type": "Vinayaka Chaturthi"
+      },
+      {
+        "date": "2025-06-14",
+        "day": "Saturday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Dhanishta",
+        "tamil_month": "Panguni",
+        "sunrise": "05:52",
+        "type": "Sankashti Chaturthi"
+      },
+      {
+        "date": "2025-06-28",
+        "day": "Saturday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Purva Phalguni",
+        "tamil_month": "Panguni",
+        "sunrise": "05:52",
+        "type": "Vinayaka Chaturthi"
+      },
+      {
+        "date": "2025-07-14",
+        "day": "Monday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Uttara Bhadrapada",
+        "tamil_month": "Chithirai",
+        "sunrise": "05:52",
+        "type": "Sankashti Chaturthi"
+      },
+      {
+        "date": "2025-07-28",
+        "day": "Monday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Hasta",
+        "tamil_month": "Chithirai",
+        "sunrise": "05:52",
+        "type": "Vinayaka Chaturthi"
+      },
+      {
+        "date": "2025-08-12",
+        "day": "Tuesday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Revati",
+        "tamil_month": "Vaikasi",
+        "sunrise": "05:52",
+        "type": "Sankashti Chaturthi"
+      },
+      {
+        "date": "2025-08-26",
+        "day": "Tuesday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Swati",
+        "tamil_month": "Vaikasi",
+        "sunrise": "05:52",
+        "type": "Vinayaka Chaturthi"
+      },
+      {
+        "date": "2025-09-11",
+        "day": "Thursday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Krittika",
+        "tamil_month": "Aani",
+        "sunrise": "05:52",
+        "type": "Sankashti Chaturthi"
+      },
+      {
+        "date": "2025-09-25",
+        "day": "Thursday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Jyeshtha",
+        "tamil_month": "Aani",
+        "sunrise": "05:52",
+        "type": "Vinayaka Chaturthi"
+      },
+      {
+        "date": "2025-10-10",
+        "day": "Friday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Mrigashira",
+        "tamil_month": "Aadi",
+        "sunrise": "05:52",
+        "type": "Sankashti Chaturthi"
+      },
+      {
+        "date": "2025-10-24",
+        "day": "Friday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Mula",
+        "tamil_month": "Aadi",
+        "sunrise": "05:52",
+        "type": "Vinayaka Chaturthi"
+      },
+      {
+        "date": "2025-11-09",
+        "day": "Sunday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Punarvasu",
+        "tamil_month": "Aavani",
+        "sunrise": "05:52",
+        "type": "Sankashti Chaturthi"
+      },
+      {
+        "date": "2025-11-23",
+        "day": "Sunday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Shravana",
+        "tamil_month": "Aavani",
+        "sunrise": "05:52",
+        "type": "Vinayaka Chaturthi"
+      },
+      {
+        "date": "2025-12-08",
+        "day": "Monday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Ashlesha",
+        "tamil_month": "Purattasi",
+        "sunrise": "05:52",
+        "type": "Sankashti Chaturthi"
+      }
+    ],
+    "shashti": [
+      {
+        "date": "2025-01-04",
+        "day": "Saturday",
+        "tithi": "Shashti",
+        "nakshatra": "Revati",
+        "tamil_month": "Aippasi",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      },
+      {
+        "date": "2025-01-20",
+        "day": "Monday",
+        "tithi": "Shashti",
+        "nakshatra": "Swati",
+        "tamil_month": "Aippasi",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      },
+      {
+        "date": "2025-02-03",
+        "day": "Monday",
+        "tithi": "Shashti",
+        "nakshatra": "Bharani",
+        "tamil_month": "Karthigai",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      },
+      {
+        "date": "2025-02-18",
+        "day": "Tuesday",
+        "tithi": "Shashti",
+        "nakshatra": "Vishakha",
+        "tamil_month": "Karthigai",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      },
+      {
+        "date": "2025-03-04",
+        "day": "Tuesday",
+        "tithi": "Shashti",
+        "nakshatra": "Rohini",
+        "tamil_month": "Margazhi",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      },
+      {
+        "date": "2025-03-20",
+        "day": "Thursday",
+        "tithi": "Shashti",
+        "nakshatra": "Mula",
+        "tamil_month": "Margazhi",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      },
+      {
+        "date": "2025-04-03",
+        "day": "Thursday",
+        "tithi": "Shashti",
+        "nakshatra": "Punarvasu",
+        "tamil_month": "Thai",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      },
+      {
+        "date": "2025-04-18",
+        "day": "Friday",
+        "tithi": "Shashti",
+        "nakshatra": "Uttara Ashadha",
+        "tamil_month": "Thai",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      },
+      {
+        "date": "2025-05-02",
+        "day": "Friday",
+        "tithi": "Shashti",
+        "nakshatra": "Pushya",
+        "tamil_month": "Maasi",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      },
+      {
+        "date": "2025-05-18",
+        "day": "Sunday",
+        "tithi": "Shashti",
+        "nakshatra": "Dhanishta",
+        "tamil_month": "Maasi",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      },
+      {
+        "date": "2025-06-01",
+        "day": "Sunday",
+        "tithi": "Shashti",
+        "nakshatra": "Purva Phalguni",
+        "tamil_month": "Panguni",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      },
+      {
+        "date": "2025-06-16",
+        "day": "Monday",
+        "tithi": "Shashti",
+        "nakshatra": "Purva Bhadrapada",
+        "tamil_month": "Panguni",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      },
+      {
+        "date": "2025-06-30",
+        "day": "Monday",
+        "tithi": "Shashti",
+        "nakshatra": "Hasta",
+        "tamil_month": "Panguni",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      },
+      {
+        "date": "2025-07-16",
+        "day": "Wednesday",
+        "tithi": "Shashti",
+        "nakshatra": "Ashwini",
+        "tamil_month": "Chithirai",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      },
+      {
+        "date": "2025-07-30",
+        "day": "Wednesday",
+        "tithi": "Shashti",
+        "nakshatra": "Swati",
+        "tamil_month": "Chithirai",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      },
+      {
+        "date": "2025-08-14",
+        "day": "Thursday",
+        "tithi": "Shashti",
+        "nakshatra": "Bharani",
+        "tamil_month": "Vaikasi",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      },
+      {
+        "date": "2025-08-28",
+        "day": "Thursday",
+        "tithi": "Shashti",
+        "nakshatra": "Anuradha",
+        "tamil_month": "Vaikasi",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      },
+      {
+        "date": "2025-09-13",
+        "day": "Saturday",
+        "tithi": "Shashti",
+        "nakshatra": "Mrigashira",
+        "tamil_month": "Aani",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      },
+      {
+        "date": "2025-09-27",
+        "day": "Saturday",
+        "tithi": "Shashti",
+        "nakshatra": "Purva Ashadha",
+        "tamil_month": "Aani",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      },
+      {
+        "date": "2025-10-12",
+        "day": "Sunday",
+        "tithi": "Shashti",
+        "nakshatra": "Punarvasu",
+        "tamil_month": "Aadi",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      },
+      {
+        "date": "2025-10-26",
+        "day": "Sunday",
+        "tithi": "Shashti",
+        "nakshatra": "Uttara Ashadha",
+        "tamil_month": "Aadi",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      },
+      {
+        "date": "2025-11-11",
+        "day": "Tuesday",
+        "tithi": "Shashti",
+        "nakshatra": "Ashlesha",
+        "tamil_month": "Aavani",
+        "sunrise": "05:52",
+        "type": "Skanda Shashti"
+      },
+      {
+        "date": "2025-11-25",
+        "day": "Tuesday",
+        "tithi": "Shashti",
+        "nakshatra": "Shatabhisha",
+        "tamil_month": "Aavani",
+        "sunrise": "05:52",
+        "type": "Skanda Shashti"
+      },
+      {
+        "date": "2025-12-10",
+        "day": "Wednesday",
+        "tithi": "Shashti",
+        "nakshatra": "Purva Phalguni",
+        "tamil_month": "Purattasi",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      },
+      {
+        "date": "2025-12-11",
+        "day": "Thursday",
+        "tithi": "Shashti",
+        "nakshatra": "Uttara Phalguni",
+        "tamil_month": "Purattasi",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      },
+      {
+        "date": "2025-12-24",
+        "day": "Wednesday",
+        "tithi": "Shashti",
+        "nakshatra": "Uttara Bhadrapada",
+        "tamil_month": "Purattasi",
+        "sunrise": "05:52",
+        "type": "Monthly Shashti"
+      }
+    ],
+    "ashtami": [
+      {
+        "date": "2025-01-06",
+        "day": "Monday",
+        "tithi": "Ashtami",
+        "nakshatra": "Bharani",
+        "tamil_month": "Aippasi",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-01-22",
+        "day": "Wednesday",
+        "tithi": "Ashtami",
+        "nakshatra": "Anuradha",
+        "tamil_month": "Aippasi",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-02-05",
+        "day": "Wednesday",
+        "tithi": "Ashtami",
+        "nakshatra": "Rohini",
+        "tamil_month": "Karthigai",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-02-20",
+        "day": "Thursday",
+        "tithi": "Ashtami",
+        "nakshatra": "Jyeshtha",
+        "tamil_month": "Karthigai",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-03-06",
+        "day": "Thursday",
+        "tithi": "Ashtami",
+        "nakshatra": "Ardra",
+        "tamil_month": "Margazhi",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-03-22",
+        "day": "Saturday",
+        "tithi": "Ashtami",
+        "nakshatra": "Uttara Ashadha",
+        "tamil_month": "Margazhi",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-04-05",
+        "day": "Saturday",
+        "tithi": "Ashtami",
+        "nakshatra": "Ashlesha",
+        "tamil_month": "Thai",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-04-20",
+        "day": "Sunday",
+        "tithi": "Ashtami",
+        "nakshatra": "Dhanishta",
+        "tamil_month": "Thai",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-05-04",
+        "day": "Sunday",
+        "tithi": "Ashtami",
+        "nakshatra": "Magha",
+        "tamil_month": "Maasi",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-05-20",
+        "day": "Tuesday",
+        "tithi": "Ashtami",
+        "nakshatra": "Purva Bhadrapada",
+        "tamil_month": "Maasi",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-06-03",
+        "day": "Tuesday",
+        "tithi": "Ashtami",
+        "nakshatra": "Hasta",
+        "tamil_month": "Panguni",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-06-18",
+        "day": "Wednesday",
+        "tithi": "Ashtami",
+        "nakshatra": "Revati",
+        "tamil_month": "Panguni",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-07-02",
+        "day": "Wednesday",
+        "tithi": "Ashtami",
+        "nakshatra": "Swati",
+        "tamil_month": "Chithirai",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-07-18",
+        "day": "Friday",
+        "tithi": "Ashtami",
+        "nakshatra": "Krittika",
+        "tamil_month": "Chithirai",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-08-01",
+        "day": "Friday",
+        "tithi": "Ashtami",
+        "nakshatra": "Anuradha",
+        "tamil_month": "Vaikasi",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-08-16",
+        "day": "Saturday",
+        "tithi": "Ashtami",
+        "nakshatra": "Rohini",
+        "tamil_month": "Vaikasi",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-08-30",
+        "day": "Saturday",
+        "tithi": "Ashtami",
+        "nakshatra": "Mula",
+        "tamil_month": "Vaikasi",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-09-15",
+        "day": "Monday",
+        "tithi": "Ashtami",
+        "nakshatra": "Punarvasu",
+        "tamil_month": "Aani",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-09-29",
+        "day": "Monday",
+        "tithi": "Ashtami",
+        "nakshatra": "Shravana",
+        "tamil_month": "Aani",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-10-14",
+        "day": "Tuesday",
+        "tithi": "Ashtami",
+        "nakshatra": "Ashlesha",
+        "tamil_month": "Aadi",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-10-28",
+        "day": "Tuesday",
+        "tithi": "Ashtami",
+        "nakshatra": "Dhanishta",
+        "tamil_month": "Aadi",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-11-13",
+        "day": "Thursday",
+        "tithi": "Ashtami",
+        "nakshatra": "Purva Phalguni",
+        "tamil_month": "Aavani",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-11-27",
+        "day": "Thursday",
+        "tithi": "Ashtami",
+        "nakshatra": "Uttara Bhadrapada",
+        "tamil_month": "Aavani",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-12-12",
+        "day": "Friday",
+        "tithi": "Ashtami",
+        "nakshatra": "Hasta",
+        "tamil_month": "Purattasi",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      },
+      {
+        "date": "2025-12-26",
+        "day": "Friday",
+        "tithi": "Ashtami",
+        "nakshatra": "Ashwini",
+        "tamil_month": "Purattasi",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami"
+      }
+    ],
+    "shivaratri": [
+      {
+        "date": "2025-01-27",
+        "day": "Monday",
+        "tithi": "Chaturdashi",
+        "nakshatra": "Shravana",
+        "tamil_month": "Aippasi",
+        "sunrise": "05:52",
+        "type": "Masa Shivaratri"
+      },
+      {
+        "date": "2025-02-26",
+        "day": "Wednesday",
+        "tithi": "Chaturdashi",
+        "nakshatra": "Purva Bhadrapada",
+        "tamil_month": "Karthigai",
+        "sunrise": "05:52",
+        "type": "Maha Shivaratri"
+      },
+      {
+        "date": "2025-04-26",
+        "day": "Saturday",
+        "tithi": "Chaturdashi",
+        "nakshatra": "Bharani",
+        "tamil_month": "Thai",
+        "sunrise": "05:52",
+        "type": "Masa Shivaratri"
+      },
+      {
+        "date": "2025-06-24",
+        "day": "Tuesday",
+        "tithi": "Chaturdashi",
+        "nakshatra": "Ardra",
+        "tamil_month": "Panguni",
+        "sunrise": "05:52",
+        "type": "Masa Shivaratri"
+      },
+      {
+        "date": "2025-07-23",
+        "day": "Wednesday",
+        "tithi": "Chaturdashi",
+        "nakshatra": "Pushya",
+        "tamil_month": "Chithirai",
+        "sunrise": "05:52",
+        "type": "Masa Shivaratri"
+      },
+      {
+        "date": "2025-08-22",
+        "day": "Friday",
+        "tithi": "Chaturdashi",
+        "nakshatra": "Purva Phalguni",
+        "tamil_month": "Vaikasi",
+        "sunrise": "05:52",
+        "type": "Masa Shivaratri"
+      },
+      {
+        "date": "2025-09-20",
+        "day": "Saturday",
+        "tithi": "Chaturdashi",
+        "nakshatra": "Uttara Phalguni",
+        "tamil_month": "Aani",
+        "sunrise": "05:52",
+        "type": "Masa Shivaratri"
+      },
+      {
+        "date": "2025-10-20",
+        "day": "Monday",
+        "tithi": "Chaturdashi",
+        "nakshatra": "Swati",
+        "tamil_month": "Aadi",
+        "sunrise": "05:52",
+        "type": "Masa Shivaratri"
+      },
+      {
+        "date": "2025-12-18",
+        "day": "Thursday",
+        "tithi": "Chaturdashi",
+        "nakshatra": "Mula",
+        "tamil_month": "Purattasi",
+        "sunrise": "05:52",
+        "type": "Masa Shivaratri"
+      }
+    ],
+    "karthigai": [
+      {
+        "date": "2025-01-07",
+        "day": "Tuesday",
+        "tithi": "Navami",
+        "nakshatra": "Krittika",
+        "tamil_month": "Aippasi",
+        "sunrise": "05:52",
+        "deepam_time": "6:00 PM"
+      },
+      {
+        "date": "2025-02-04",
+        "day": "Tuesday",
+        "tithi": "Saptami",
+        "nakshatra": "Krittika",
+        "tamil_month": "Karthigai",
+        "sunrise": "05:52",
+        "deepam_time": "6:00 PM"
+      },
+      {
+        "date": "2025-03-03",
+        "day": "Monday",
+        "tithi": "Panchami",
+        "nakshatra": "Krittika",
+        "tamil_month": "Margazhi",
+        "sunrise": "05:52",
+        "deepam_time": "6:00 PM"
+      },
+      {
+        "date": "2025-04-27",
+        "day": "Sunday",
+        "tithi": "Amavasya (New Moon)",
+        "nakshatra": "Krittika",
+        "tamil_month": "Thai",
+        "sunrise": "05:52",
+        "tarpanam_time": "5:30 AM - 7:00 AM",
+        "deepam_time": "6:00 PM"
+      },
+      {
+        "date": "2025-06-21",
+        "day": "Saturday",
+        "tithi": "Ekadashi",
+        "nakshatra": "Krittika",
+        "tamil_month": "Panguni",
+        "sunrise": "05:52",
+        "name": "Yogini",
+        "fasting_type": "Complete fast or fruits only",
+        "deepam_time": "6:00 PM"
+      },
+      {
+        "date": "2025-07-18",
+        "day": "Friday",
+        "tithi": "Ashtami",
+        "nakshatra": "Krittika",
+        "tamil_month": "Chithirai",
+        "sunrise": "05:52",
+        "type": "Durga Ashtami",
+        "deepam_time": "6:00 PM"
+      },
+      {
+        "date": "2025-08-15",
+        "day": "Friday",
+        "tithi": "Saptami",
+        "nakshatra": "Krittika",
+        "tamil_month": "Vaikasi",
+        "sunrise": "05:52",
+        "deepam_time": "6:00 PM"
+      },
+      {
+        "date": "2025-09-11",
+        "day": "Thursday",
+        "tithi": "Chaturthi",
+        "nakshatra": "Krittika",
+        "tamil_month": "Aani",
+        "sunrise": "05:52",
+        "type": "Sankashti Chaturthi",
+        "deepam_time": "6:00 PM"
+      },
+      {
+        "date": "2025-10-08",
+        "day": "Wednesday",
+        "tithi": "Dvitiya",
+        "nakshatra": "Krittika",
+        "tamil_month": "Aadi",
+        "sunrise": "05:52",
+        "deepam_time": "6:00 PM"
+      },
+      {
+        "date": "2025-11-04",
+        "day": "Tuesday",
+        "tithi": "Pournami (Full Moon)",
+        "nakshatra": "Krittika",
+        "tamil_month": "Aavani",
+        "sunrise": "05:52",
+        "special": "Karthika Deepam",
+        "deepam_time": "6:00 PM"
+      },
+      {
+        "date": "2025-12-01",
+        "day": "Monday",
+        "tithi": "Dwadashi",
+        "nakshatra": "Krittika",
+        "tamil_month": "Purattasi",
+        "sunrise": "05:52",
+        "deepam_time": "6:00 PM"
+      },
+      {
+        "date": "2025-12-28",
+        "day": "Sunday",
+        "tithi": "Dashami",
+        "nakshatra": "Krittika",
+        "tamil_month": "Purattasi",
+        "sunrise": "05:52",
+        "deepam_time": "6:00 PM"
+      }
+    ],
+    "special_festivals": [
+      {
+        "name": "Aadi Thapasu (10-day festival)",
+        "date": "2025-07-28 to 2025-08-08",
+        "description": "Gomathi Amman's penance, main festival",
+        "type": "Major Annual Festival"
+      },
+      {
+        "name": "Panguni Brahmmotsavam",
+        "date": "2025-04-10 to 2025-04-20",
+        "description": "10-day spring festival",
+        "type": "Major Annual Festival"
+      },
+      {
+        "name": "Aippasi Thirukalyanam",
+        "date": "2025-10-25",
+        "description": "Divine wedding festival",
+        "type": "Annual Festival"
+      },
+      {
+        "name": "Thai Theppam (Float Festival)",
+        "date": "2025-01-25",
+        "description": "Float festival in temple tank",
+        "type": "Annual Festival"
+      },
+      {
+        "name": "Maha Shivaratri",
+        "date": "2025-02-26",
+        "description": "Great night of Shiva",
+        "type": "Major Festival"
+      },
+      {
+        "name": "Navaratri",
+        "date": "2025-09-21 to 2025-09-30",
+        "description": "Nine nights of Goddess worship",
+        "type": "Major Festival"
+      }
+    ]
+  },
+  "daily_timings": {
+    "2025-01-01": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-02": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-03": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-04": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-05": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-06": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-07": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-08": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-09": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-10": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-11": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-12": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-13": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-14": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-15": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-16": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-17": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-18": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-19": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-20": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-21": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-22": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-23": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-24": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-25": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-26": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-27": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-28": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-29": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-30": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-01-31": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-01": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-02": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-03": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-04": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-05": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-06": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-07": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-08": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-09": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-10": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-11": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-12": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-13": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-14": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-15": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-16": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-17": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-18": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-19": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-20": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-21": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-22": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-23": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-24": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-25": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-26": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-27": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-02-28": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-01": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-02": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-03": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-04": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-05": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-06": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-07": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-08": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-09": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-10": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-11": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-12": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-13": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-14": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-15": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-16": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-17": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-18": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-19": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-20": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-21": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-22": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-23": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-24": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-25": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-26": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-27": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-28": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-29": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-30": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-03-31": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-01": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-02": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-03": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-04": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-05": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-06": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-07": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-08": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-09": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-10": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-11": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-12": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-13": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-14": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-15": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-16": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-17": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-18": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-19": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-20": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-21": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-22": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-23": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-24": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-25": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-26": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-27": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-28": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-29": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-04-30": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-01": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-02": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-03": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-04": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-05": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-06": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-07": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-08": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-09": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-10": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-11": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-12": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-13": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-14": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-15": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-16": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-17": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-18": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-19": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-20": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-21": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-22": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-23": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-24": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-25": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-26": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-27": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-28": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-29": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-30": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-05-31": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-01": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-02": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-03": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-04": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-05": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-06": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-07": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-08": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-09": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-10": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-11": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-12": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-13": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-14": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-15": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-16": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-17": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-18": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-19": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-20": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-21": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-22": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-23": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-24": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-25": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-26": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-27": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-28": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-29": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-06-30": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-01": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-02": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-03": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-04": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-05": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-06": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-07": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-08": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-09": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-10": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-11": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-12": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-13": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-14": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-15": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-16": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-17": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-18": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-19": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-20": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-21": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-22": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-23": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-24": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-25": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-26": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-27": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-28": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-29": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-30": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-07-31": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-01": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-02": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-03": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-04": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-05": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-06": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-07": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-08": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-09": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-10": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-11": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-12": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-13": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-14": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-15": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-16": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-17": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-18": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-19": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-20": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-21": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-22": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-23": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-24": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-25": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-26": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-27": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-28": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-29": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-30": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-08-31": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-01": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-02": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-03": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-04": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-05": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-06": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-07": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-08": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-09": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-10": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-11": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-12": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-13": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-14": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-15": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-16": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-17": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-18": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-19": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-20": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-21": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-22": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-23": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-24": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-25": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-26": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-27": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-28": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-29": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-09-30": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-01": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-02": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-03": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-04": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-05": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-06": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-07": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-08": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-09": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-10": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-11": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-12": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-13": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-14": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-15": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-16": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-17": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-18": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-19": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-20": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-21": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-22": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-23": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-24": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-25": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-26": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-27": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-28": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-29": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-30": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-10-31": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-01": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-02": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-03": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-04": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-05": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-06": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-07": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-08": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-09": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-10": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-11": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-12": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-13": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-14": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-15": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-16": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-17": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-18": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-19": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-20": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-21": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-22": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-23": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-24": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-25": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-26": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-27": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-28": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-29": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-11-30": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-01": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-02": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-03": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-04": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-05": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-06": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-07": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-08": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-09": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-10": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-11": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-12": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-13": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-14": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-15": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-16": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-17": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-18": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-19": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-20": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-21": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-22": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-23": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-24": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-25": {
+      "rahu_kalam": "1:30 PM - 3:00 PM",
+      "gulikai": "9:00 AM - 10:30 AM",
+      "yamagandam": "6:00 AM - 7:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-26": {
+      "rahu_kalam": "10:30 AM - 12:00 PM",
+      "gulikai": "7:30 AM - 9:00 AM",
+      "yamagandam": "3:00 PM - 4:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-27": {
+      "rahu_kalam": "9:00 AM - 10:30 AM",
+      "gulikai": "6:00 AM - 7:30 AM",
+      "yamagandam": "1:30 PM - 3:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-28": {
+      "rahu_kalam": "4:30 PM - 6:00 PM",
+      "gulikai": "3:00 PM - 4:30 PM",
+      "yamagandam": "12:00 PM - 1:30 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-29": {
+      "rahu_kalam": "7:30 AM - 9:00 AM",
+      "gulikai": "1:30 PM - 3:00 PM",
+      "yamagandam": "10:30 AM - 12:00 PM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-30": {
+      "rahu_kalam": "3:00 PM - 4:30 PM",
+      "gulikai": "12:00 PM - 1:30 PM",
+      "yamagandam": "9:00 AM - 10:30 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    },
+    "2025-12-31": {
+      "rahu_kalam": "12:00 PM - 1:30 PM",
+      "gulikai": "10:30 AM - 12:00 PM",
+      "yamagandam": "7:30 AM - 9:00 AM",
+      "abhijit_muhurtham": "11:45 AM - 12:30 PM"
+    }
+  }
+}

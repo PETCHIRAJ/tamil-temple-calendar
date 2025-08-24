@@ -1,0 +1,24 @@
+{
+  "api_endpoints": [
+    {
+      "endpoint": "https://hrce.tn.gov.in/temples/ajax/app_master.php",
+      "method": "GET",
+      "data": "Token Mismatch"
+    },
+    {
+      "endpoint": "https://hrce.tn.gov.in/temples/ajax/app_master.php",
+      "method": "GET",
+      "data": "Token Mismatch"
+    },
+    {
+      "endpoint": "https://hrce.tn.gov.in/temples/ajax/app_master.php",
+      "method": "GET",
+      "data": "Token Mismatch"
+    }
+  ],
+  "search_results": [
+    [
+      "Loading..."
+    ]
+  ]
+}

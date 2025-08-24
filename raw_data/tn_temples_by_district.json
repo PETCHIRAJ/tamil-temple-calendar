@@ -1,0 +1,3339 @@
+{
+  "Ranipet District": {
+    "count": 488,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 0,
+        "id": "TM003989",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Achuthananda Swami Madam",
+        "address": "Arulmigu Achuthananda Swami Madam, Wallajah",
+        "pincode": "632401",
+        "district": "Ranipet District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Achuthananda Swami Madam, Arulmigu Achuthananda Swami Madam, Wallajah, 632401"
+      },
+      {
+        "Unnamed: 0": 178,
+        "id": "TM001503",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Rooparaja Charity",
+        "address": "Arulmigu Rooparaja Charity, Near By Lakshmi Narasimmaswamy Temple, Sholinghur",
+        "pincode": "631102",
+        "district": "Ranipet District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Rooparaja Charity, Arulmigu Rooparaja Charity, Near By Lakshmi Narasimmaswamy Temple, Sholinghur, 631102"
+      },
+      {
+        "Unnamed: 0": 179,
+        "id": "TM001505",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Srinivasa Mudaliar Charity",
+        "address": "Arulmigu Srinivasa Mudaliar Charity, Kodaikal, Sholinghur",
+        "pincode": "631102",
+        "district": "Ranipet District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Srinivasa Mudaliar Charity, Arulmigu Srinivasa Mudaliar Charity, Kodaikal, Sholinghur, 631102"
+      },
+      {
+        "Unnamed: 0": 190,
+        "id": "TM004727",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Kamatchiamman Lakshminarasimmasamy Temple",
+        "address": "Arulmigu Kamatchiamman Lakshminarasimmasamy Temple, Thakkan Kulam",
+        "pincode": "631001",
+        "district": "Ranipet District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Kamatchiamman Lakshminarasimmasamy Temple, Arulmigu Kamatchiamman Lakshminarasimmasamy Temple, Thakkan Kulam, 631001"
+      },
+      {
+        "Unnamed: 0": 191,
+        "id": "TM004729",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Uchikalakattalai,Mayuranathar Temple",
+        "address": "Arulmigu Uchikalakattalai,Mayuranathar Temple, Panappakkam",
+        "pincode": "631001",
+        "district": "Ranipet District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Uchikalakattalai,Mayuranathar Temple, Arulmigu Uchikalakattalai,Mayuranathar Temple, Panappakkam, 631001"
+      }
+    ]
+  },
+  "Vellore District": {
+    "count": 593,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 1,
+        "id": "TM004316",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Thirugnana Samanthar Temple",
+        "address": "Arulmigu Thirugnana Samanthar Temple, Tharanampettai",
+        "pincode": "632601",
+        "district": "Vellore District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Thirugnana Samanthar Temple, Arulmigu Thirugnana Samanthar Temple, Tharanampettai, 632601"
+      },
+      {
+        "Unnamed: 0": 177,
+        "id": "TM001338",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Meenakshi Kalayana Mandapam Temple",
+        "address": "Arulmigu Meenakshi Kalayana Mandapam Temple, Kosapet, Vellore",
+        "pincode": "632001",
+        "district": "Vellore District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Meenakshi Kalayana Mandapam Temple, Arulmigu Meenakshi Kalayana Mandapam Temple, Kosapet, Vellore, 632001"
+      },
+      {
+        "Unnamed: 0": 2279,
+        "id": "TM001283",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Kothandaramaswamy Temple",
+        "address": "Arulmigu Kothandaramaswamy Temple, Rangapuram, Vellore",
+        "pincode": "632009",
+        "district": "Vellore District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Kothandaramaswamy Temple, Arulmigu Kothandaramaswamy Temple, Rangapuram, Vellore, 632009"
+      },
+      {
+        "Unnamed: 0": 2280,
+        "id": "TM001284",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Veera Anjaneyar Temple",
+        "address": "Arulmigu Veera Anjaneyar Temple, Salavanpet, Vellore",
+        "pincode": "632001",
+        "district": "Vellore District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Veera Anjaneyar Temple, Arulmigu Veera Anjaneyar Temple, Salavanpet, Vellore, 632001"
+      },
+      {
+        "Unnamed: 0": 2281,
+        "id": "TM001285",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Salai Vinayagar Temple",
+        "address": "Arulmigu Salai Vinayagar Temple, Vellore",
+        "pincode": "632001",
+        "district": "Vellore District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Salai Vinayagar Temple, Arulmigu Salai Vinayagar Temple, Vellore, 632001"
+      }
+    ]
+  },
+  "Thanjavur District": {
+    "count": 2290,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 2,
+        "id": "TM014231",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Panchanatheeswara Swamy Temple",
+        "address": "Arulmigu Panchanatheeswara Swamy Temple, Ariyaloor Road",
+        "pincode": "613204",
+        "district": "Thanjavur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Panchanatheeswara Swamy Temple, Arulmigu Panchanatheeswara Swamy Temple, Ariyaloor Road, 613204"
+      },
+      {
+        "Unnamed: 0": 3,
+        "id": "TM018025",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Arunajadeswara Swamy Temple",
+        "address": "Arulmigu Arunajadeswara Swamy Temple, Thirupanandal",
+        "pincode": "612504",
+        "district": "Thanjavur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Arunajadeswara Swamy Temple, Arulmigu Arunajadeswara Swamy Temple, Thirupanandal, 612504"
+      },
+      {
+        "Unnamed: 0": 42,
+        "id": "TM026116",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Subramaniyaswamy Temple",
+        "address": "Arulmigu Subramaniyaswamy Temple, Pattukkottai",
+        "pincode": "614618",
+        "district": "Thanjavur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Subramaniyaswamy Temple, Arulmigu Subramaniyaswamy Temple, Pattukkottai, 614618"
+      },
+      {
+        "Unnamed: 0": 43,
+        "id": "TM026117",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Pillaiyar Temple",
+        "address": "Arulmigu Pillaiyar Temple, Pattukkottai",
+        "pincode": "614618",
+        "district": "Thanjavur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Pillaiyar Temple, Arulmigu Pillaiyar Temple, Pattukkottai, 614618"
+      },
+      {
+        "Unnamed: 0": 44,
+        "id": "TM026118",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Sivan Temple",
+        "address": "Arulmigu Sivan Temple, Pattukkottai",
+        "pincode": "614618",
+        "district": "Thanjavur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Sivan Temple, Arulmigu Sivan Temple, Pattukkottai, 614618"
+      }
+    ]
+  },
+  "Mayiladuthurai District": {
+    "count": 1270,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 4,
+        "id": "TM018029",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Amirthakadeswaraswamy Temple",
+        "address": "Arulmigu Amirthakadeswaraswamy Temple, Thirukadaiyur",
+        "pincode": "609311",
+        "district": "Mayiladuthurai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Amirthakadeswaraswamy Temple, Arulmigu Amirthakadeswaraswamy Temple, Thirukadaiyur, 609311"
+      },
+      {
+        "Unnamed: 0": 5,
+        "id": "TM018030",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Vaithiyanathaswamy Temple",
+        "address": "Arulmigu Vaithiyanathaswamy Temple, Vaitheeswarankoil",
+        "pincode": "609117",
+        "district": "Mayiladuthurai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Vaithiyanathaswamy Temple, Arulmigu Vaithiyanathaswamy Temple, Vaitheeswarankoil, 609117"
+      },
+      {
+        "Unnamed: 0": 6,
+        "id": "TM018031",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Sattanathaswamy Temple",
+        "address": "Arulmigu Sattanathaswamy Temple, Sirkazhi",
+        "pincode": "609110",
+        "district": "Mayiladuthurai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Sattanathaswamy Temple, Arulmigu Sattanathaswamy Temple, Sirkazhi, 609110"
+      },
+      {
+        "Unnamed: 0": 7,
+        "id": "TM018060",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Komuktheeswara Swamy Temple",
+        "address": "Arulmigu Komuktheeswara Swamy Temple, Thiruvavaduthurai",
+        "pincode": "609803",
+        "district": "Mayiladuthurai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Komuktheeswara Swamy Temple, Arulmigu Komuktheeswara Swamy Temple, Thiruvavaduthurai, 609803"
+      },
+      {
+        "Unnamed: 0": 8,
+        "id": "TM018066",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Vadavaranyesvara Swamy Temple",
+        "address": "Arulmigu Vadavaranyesvara Swamy Temple, Thiruvalangadu",
+        "pincode": "609810",
+        "district": "Mayiladuthurai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Vadavaranyesvara Swamy Temple, Arulmigu Vadavaranyesvara Swamy Temple, Thiruvalangadu, 609810"
+      }
+    ]
+  },
+  "Kallakurichi District": {
+    "count": 1088,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 16,
+        "id": "TM020385",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Thiruvikkaraswamy Temple",
+        "address": "Arulmigu Thiruvikkaraswamy Temple, Thirukoilur",
+        "pincode": "605757",
+        "district": "Kallakurichi District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Thiruvikkaraswamy Temple, Arulmigu Thiruvikkaraswamy Temple, Thirukoilur, 605757"
+      },
+      {
+        "Unnamed: 0": 431,
+        "id": "TM020450",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Thirtthavaari Trust Temple",
+        "address": "Arulmigu Thirtthavaari Trust Temple, Manalurpettai",
+        "pincode": "605754",
+        "district": "Kallakurichi District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Thirtthavaari Trust Temple, Arulmigu Thirtthavaari Trust Temple, Manalurpettai, 605754"
+      },
+      {
+        "Unnamed: 0": 573,
+        "id": "TM023173",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Pandurangaswamy Temple",
+        "address": "Arulmigu Pandurangaswamy Temple, Sandhapettai, Sandhapettai",
+        "pincode": "605757",
+        "district": "Kallakurichi District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Pandurangaswamy Temple, Arulmigu Pandurangaswamy Temple, Sandhapettai, Sandhapettai, 605757"
+      },
+      {
+        "Unnamed: 0": 574,
+        "id": "TM023891",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Murugaiyaswamy Madam",
+        "address": "Arulmigu Murugaiyaswamy Madam, Peelamedu",
+        "pincode": "606206",
+        "district": "Kallakurichi District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Murugaiyaswamy Madam, Arulmigu Murugaiyaswamy Madam, Peelamedu, 606206"
+      },
+      {
+        "Unnamed: 0": 19916,
+        "id": "TM020380",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Virattesvarar Temple",
+        "address": "Arulmigu Virattesvarar Temple, Keezhaiyur, Thirukoilur",
+        "pincode": "605757",
+        "district": "Kallakurichi District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Virattesvarar Temple, Arulmigu Virattesvarar Temple, Keezhaiyur, Thirukoilur, 605757"
+      }
+    ]
+  },
+  "Pudukkottai District": {
+    "count": 1313,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 17,
+        "id": "TM025457",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Aathmanaathaswamy Temple",
+        "address": "Arulmigu Aathmanaathaswamy Temple, Avudaiyarkovil",
+        "pincode": "614618",
+        "district": "Pudukkottai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Aathmanaathaswamy Temple, Arulmigu Aathmanaathaswamy Temple, Avudaiyarkovil, 614618"
+      },
+      {
+        "Unnamed: 0": 18,
+        "id": "TM026092",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Aathikailasanather Temple",
+        "address": "Arulmigu Aathikailasanather Temple, Avudaiyarkovil",
+        "pincode": "614618",
+        "district": "Pudukkottai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Aathikailasanather Temple, Arulmigu Aathikailasanather Temple, Avudaiyarkovil, 614618"
+      },
+      {
+        "Unnamed: 0": 19,
+        "id": "TM026093",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Pallikuta Pillaiyar Temple",
+        "address": "Arulmigu Pallikuta Pillaiyar Temple, Avudaiyarkovil",
+        "pincode": "614618",
+        "district": "Pudukkottai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Pallikuta Pillaiyar Temple, Arulmigu Pallikuta Pillaiyar Temple, Avudaiyarkovil, 614618"
+      },
+      {
+        "Unnamed: 0": 20,
+        "id": "TM026094",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Veerirunthaperumal Temple",
+        "address": "Arulmigu Veerirunthaperumal Temple, Avudaiyarkovil",
+        "pincode": "614618",
+        "district": "Pudukkottai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Veerirunthaperumal Temple, Arulmigu Veerirunthaperumal Temple, Avudaiyarkovil, 614618"
+      },
+      {
+        "Unnamed: 0": 21,
+        "id": "TM026095",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Ponnuselli Temple",
+        "address": "Arulmigu Ponnuselli Temple, Avudaiyarkovil",
+        "pincode": "614618",
+        "district": "Pudukkottai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Ponnuselli Temple, Arulmigu Ponnuselli Temple, Avudaiyarkovil, 614618"
+      }
+    ]
+  },
+  "Tirunelveli District": {
+    "count": 1577,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 59,
+        "id": "TM038069",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Vanamamalai Perumal Temple",
+        "address": "Arulmigu Vanamamalai Perumal Temple, Nanguneri",
+        "pincode": "627108",
+        "district": "Tirunelveli District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Vanamamalai Perumal Temple, Arulmigu Vanamamalai Perumal Temple, Nanguneri, 627108"
+      },
+      {
+        "Unnamed: 0": 60,
+        "id": "TM038106",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Alagiya Nambirayar Temple",
+        "address": "Arulmigu Alagiya Nambirayar Temple, Thirukurungudi",
+        "pincode": "627115",
+        "district": "Tirunelveli District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Alagiya Nambirayar Temple, Arulmigu Alagiya Nambirayar Temple, Thirukurungudi, 627115"
+      },
+      {
+        "Unnamed: 0": 61,
+        "id": "TM038112",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Uthayamarthanda Kattalai @Arulmigu Subramaniya Swamy Temlpe",
+        "address": "Uthayamarthanda Kattalai @Arulmigu Subramaniya Swamy Temlpe, Valliyoor",
+        "pincode": "627117",
+        "district": "Tirunelveli District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Uthayamarthanda Kattalai @Arulmigu Subramaniya Swamy Temlpe, Uthayamarthanda Kattalai @Arulmigu Subramaniya Swamy Temlpe, Valliyoor, 627117"
+      },
+      {
+        "Unnamed: 0": 62,
+        "id": "TM038180",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Vilapooja Kattalai @Arulmigu Subramaniya Swamy Temlpe",
+        "address": "Vilapooja Kattalai @Arulmigu Subramaniya Swamy Temlpe, Valliyoor",
+        "pincode": "627117",
+        "district": "Tirunelveli District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Vilapooja Kattalai @Arulmigu Subramaniya Swamy Temlpe, Vilapooja Kattalai @Arulmigu Subramaniya Swamy Temlpe, Valliyoor, 627117"
+      },
+      {
+        "Unnamed: 0": 63,
+        "id": "TM039669",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Nadutheru Vengatachalapathy Temple",
+        "address": "Arulmigu Nadutheru Vengatachalapathy Temple, Cheranmahadevi",
+        "pincode": "627414",
+        "district": "Tirunelveli District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Nadutheru Vengatachalapathy Temple, Arulmigu Nadutheru Vengatachalapathy Temple, Cheranmahadevi, 627414"
+      }
+    ]
+  },
+  "Thoothukudi District": {
+    "count": 1449,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 64,
+        "id": "TM040599",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Thiruzghana Sampanthamurthy Madalayam Temple",
+        "address": "Arulmigu Thiruzghana Sampanthamurthy Madalayam Temple, Thoothukudi",
+        "pincode": "628001",
+        "district": "Thoothukudi District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Thiruzghana Sampanthamurthy Madalayam Temple, Arulmigu Thiruzghana Sampanthamurthy Madalayam Temple, Thoothukudi, 628001"
+      },
+      {
+        "Unnamed: 0": 65,
+        "id": "TM041144",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Vinayagar Temple",
+        "address": "Arulmigu Vinayagar Temple, Mudukkumindanpatti",
+        "pincode": "628503",
+        "district": "Thoothukudi District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Vinayagar Temple, Arulmigu Vinayagar Temple, Mudukkumindanpatti, 628503"
+      },
+      {
+        "Unnamed: 0": 66,
+        "id": "TM041303",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Thiruvannamalai Karthigai Madalayam",
+        "address": "Arulmigu Thiruvannamalai Karthigai Madalayam, Mudukkumindanpatti",
+        "pincode": "628502",
+        "district": "Thoothukudi District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Thiruvannamalai Karthigai Madalayam, Arulmigu Thiruvannamalai Karthigai Madalayam, Mudukkumindanpatti, 628502"
+      },
+      {
+        "Unnamed: 0": 67,
+        "id": "TM041710",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Salai Madam Thanneer Pandal Arulmigu Vinayagar Temple",
+        "address": "Arulmigu Salai Madam Thanneer Pandal Arulmigu Vinayagar Temple, Mudukkumindanpatti",
+        "pincode": "628503",
+        "district": "Thoothukudi District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Salai Madam Thanneer Pandal Arulmigu Vinayagar Temple, Arulmigu Salai Madam Thanneer Pandal Arulmigu Vinayagar Temple, Mudukkumindanpatti, 628503"
+      },
+      {
+        "Unnamed: 0": 102,
+        "id": "TM044098",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Sirukalasanthi Kattalai",
+        "address": "Sirukalasanthi Kattalai, Tirunelveli",
+        "pincode": "627006",
+        "district": "Thoothukudi District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Sirukalasanthi Kattalai, Sirukalasanthi Kattalai, Tirunelveli, 627006"
+      }
+    ]
+  },
+  "Tenkasi District": {
+    "count": 964,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 90,
+        "id": "TM044085",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Sri Swami Nellaiappar Kanthimathi Ambal Iyypasi Maruveedu Palakara Kattalai",
+        "address": "Sri Swami Nellaiappar Kanthimathi Ambal Iyypasi Maruveedu Palakara Kattalai, Tirunelveli",
+        "pincode": "627757",
+        "district": "Tenkasi District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Sri Swami Nellaiappar Kanthimathi Ambal Iyypasi Maruveedu Palakara Kattalai, Sri Swami Nellaiappar Kanthimathi Ambal Iyypasi Maruveedu Palakara Kattalai, Tirunelveli, 627757"
+      },
+      {
+        "Unnamed: 0": 113,
+        "id": "TM044110",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Uthumalai Jamin Nittiyal Uthcikala Kattalai",
+        "address": "Uthumalai Jamin Nittiyal Uthcikala Kattalai, Tirunelveli",
+        "pincode": "627811",
+        "district": "Tenkasi District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Uthumalai Jamin Nittiyal Uthcikala Kattalai, Uthumalai Jamin Nittiyal Uthcikala Kattalai, Tirunelveli, 627811"
+      },
+      {
+        "Unnamed: 0": 130,
+        "id": "TM044127",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Swetha Kethu Tiruvilaiyadal Kattalai",
+        "address": "Swetha Kethu Tiruvilaiyadal Kattalai, Tirunelveli",
+        "pincode": "627802",
+        "district": "Tenkasi District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Swetha Kethu Tiruvilaiyadal Kattalai, Swetha Kethu Tiruvilaiyadal Kattalai, Tirunelveli, 627802"
+      },
+      {
+        "Unnamed: 0": 835,
+        "id": "TM038064",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Annathana Chadram",
+        "address": "Arulmigu Annathana Chadram, Kadayanallur",
+        "pincode": "627751",
+        "district": "Tenkasi District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Annathana Chadram, Arulmigu Annathana Chadram, Kadayanallur, 627751"
+      },
+      {
+        "Unnamed: 0": 836,
+        "id": "TM038170",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Sivakiri Chatram",
+        "address": "Sivakiri Chatram, Sivagiri",
+        "pincode": "627757",
+        "district": "Tenkasi District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Sivakiri Chatram, Sivakiri Chatram, Sivagiri, 627757"
+      }
+    ]
+  },
+  "Kanyakumari District": {
+    "count": 1161,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 149,
+        "id": "TM044384",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Kalasanthikattalai (Attached)Arulmigu Subramaniaswamy Temple",
+        "address": "Kalasanthikattalai (Attached)Arulmigu Subramaniaswamy Temple, Tiruchendur, Irulappapuram",
+        "pincode": "629002",
+        "district": "Kanyakumari District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Kalasanthikattalai (Attached)Arulmigu Subramaniaswamy Temple, Kalasanthikattalai (Attached)Arulmigu Subramaniaswamy Temple, Tiruchendur, Irulappapuram, 629002"
+      },
+      {
+        "Unnamed: 0": 849,
+        "id": "TM038258",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Sukravarakattalai In Arulmigu Subramaniya Swamy Temple",
+        "address": "Sukravarakattalai In Arulmigu Subramaniya Swamy Temple, Nagarcoil",
+        "pincode": "629704",
+        "district": "Kanyakumari District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Sukravarakattalai In Arulmigu Subramaniya Swamy Temple, Sukravarakattalai In Arulmigu Subramaniya Swamy Temple, Nagarcoil, 629704"
+      },
+      {
+        "Unnamed: 0": 853,
+        "id": "TM038294",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Kramaththar Pothu Madam",
+        "address": "Arulmigu Kramaththar Pothu Madam, Suchindram",
+        "pincode": "629704",
+        "district": "Kanyakumari District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Kramaththar Pothu Madam, Arulmigu Kramaththar Pothu Madam, Suchindram, 629704"
+      },
+      {
+        "Unnamed: 0": 854,
+        "id": "TM038312",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Viswanatha Visalatchi Thuvathasi Tharmam",
+        "address": "Arulmigu Viswanatha Visalatchi Thuvathasi Tharmam, Gothai",
+        "pincode": "629701",
+        "district": "Kanyakumari District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Viswanatha Visalatchi Thuvathasi Tharmam, Arulmigu Viswanatha Visalatchi Thuvathasi Tharmam, Gothai, 629701"
+      },
+      {
+        "Unnamed: 0": 855,
+        "id": "TM038346",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Vaellithambala Kattalai",
+        "address": "Vaellithambala Kattalai, Vadeeswaram",
+        "pincode": "629002",
+        "district": "Kanyakumari District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Vaellithambala Kattalai, Vaellithambala Kattalai, Vadeeswaram, 629002"
+      }
+    ]
+  },
+  "Chennai District": {
+    "count": 1200,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 167,
+        "id": "TM000271",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Eight Day Vasantha Urchava Kattalai",
+        "address": "Arulmigu Eight Day Vasantha Urchava Kattalai, Sowarpet, Chennai",
+        "pincode": "600001",
+        "district": "Chennai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Eight Day Vasantha Urchava Kattalai, Arulmigu Eight Day Vasantha Urchava Kattalai, Sowarpet, Chennai, 600001"
+      },
+      {
+        "Unnamed: 0": 168,
+        "id": "TM000369",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Manali Lakshmana Mudaliyar Specific Trust",
+        "address": "Arulmigu Manali Lakshmana Mudaliyar Specific Trust, Chennai",
+        "pincode": "600001",
+        "district": "Chennai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Manali Lakshmana Mudaliyar Specific Trust, Arulmigu Manali Lakshmana Mudaliyar Specific Trust, Chennai, 600001"
+      },
+      {
+        "Unnamed: 0": 169,
+        "id": "TM000389",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Tmt Pappalammal Unnamalai Ammal Fund",
+        "address": "Arulmigu Tmt Pappalammal Unnamalai Ammal Fund, Park Town, Chennai",
+        "pincode": "600003",
+        "district": "Chennai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Tmt Pappalammal Unnamalai Ammal Fund, Arulmigu Tmt Pappalammal Unnamalai Ammal Fund, Park Town, Chennai, 600003"
+      },
+      {
+        "Unnamed: 0": 170,
+        "id": "TM000390",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Ayachery Vyapuri Chetty Charities",
+        "address": "Arulmigu Ayachery Vyapuri Chetty Charities, Park Town, Chennai",
+        "pincode": "600003",
+        "district": "Chennai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Ayachery Vyapuri Chetty Charities, Arulmigu Ayachery Vyapuri Chetty Charities, Park Town, Chennai, 600003"
+      },
+      {
+        "Unnamed: 0": 171,
+        "id": "TM000391",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Vedarpari Uthsava Kattalai",
+        "address": "Arulmigu Vedarpari Uthsava Kattalai, Park Town, Chennai",
+        "pincode": "600003",
+        "district": "Chennai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Vedarpari Uthsava Kattalai, Arulmigu Vedarpari Uthsava Kattalai, Park Town, Chennai, 600003"
+      }
+    ]
+  },
+  "Tiruvallur District": {
+    "count": 1001,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 180,
+        "id": "TM001555",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Senjurama Kattalai Alias Theertheesawarar Temple",
+        "address": "Arulmigu Senjurama Kattalai Alias Theertheesawarar Temple, Nearby Theppa Kulam, Tiruvallur",
+        "pincode": "601204",
+        "district": "Tiruvallur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Senjurama Kattalai Alias Theertheesawarar Temple, Arulmigu Senjurama Kattalai Alias Theertheesawarar Temple, Nearby Theppa Kulam, Tiruvallur, 601204"
+      },
+      {
+        "Unnamed: 0": 181,
+        "id": "TM001615",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Pusthuthi Kaikarya Katalai Alias Arulmigu Paleeswarar Temple",
+        "address": "Arulmigu Pusthuthi Kaikarya Katalai Alias Arulmigu Paleeswarar Temple, Thirupalaivanam",
+        "pincode": "601205",
+        "district": "Tiruvallur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Pusthuthi Kaikarya Katalai Alias Arulmigu Paleeswarar Temple, Arulmigu Pusthuthi Kaikarya Katalai Alias Arulmigu Paleeswarar Temple, Thirupalaivanam, 601205"
+      },
+      {
+        "Unnamed: 0": 184,
+        "id": "TM001742",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Sriperumbuthur Vaizhiya Thathiyarathani Kattalai",
+        "address": "Arulmigu Sriperumbuthur Vaizhiya Thathiyarathani Kattalai, Mannady, Tiruvallur",
+        "pincode": "600001",
+        "district": "Tiruvallur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Sriperumbuthur Vaizhiya Thathiyarathani Kattalai, Arulmigu Sriperumbuthur Vaizhiya Thathiyarathani Kattalai, Mannady, Tiruvallur, 600001"
+      },
+      {
+        "Unnamed: 0": 1730,
+        "id": "TM000609",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Athimula Athikesava Perumal Temple",
+        "address": "Arulmigu Athimula Athikesava Perumal Temple, Vilangadupakkam, Chennai",
+        "pincode": "600052",
+        "district": "Tiruvallur District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Athimula Athikesava Perumal Temple, Arulmigu Athimula Athikesava Perumal Temple, Vilangadupakkam, Chennai, 600052"
+      },
+      {
+        "Unnamed: 0": 1731,
+        "id": "TM000610",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Elavapureeswarar Temple",
+        "address": "Arulmigu Elavapureeswarar Temple, Vilangadupakkam, Chennai",
+        "pincode": "600052",
+        "district": "Tiruvallur District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Elavapureeswarar Temple, Arulmigu Elavapureeswarar Temple, Vilangadupakkam, Chennai, 600052"
+      }
+    ]
+  },
+  "Kancheepuram District": {
+    "count": 659,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 182,
+        "id": "TM001662",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Katchabeswarar Temple Joined Arakkattalai",
+        "address": "Arulmigu Katchabeswarar Temple Joined Arakkattalai, Kancheepuram",
+        "pincode": "631501",
+        "district": "Kancheepuram District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Katchabeswarar Temple Joined Arakkattalai, Arulmigu Katchabeswarar Temple Joined Arakkattalai, Kancheepuram, 631501"
+      },
+      {
+        "Unnamed: 0": 187,
+        "id": "TM001824",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Kolla Singanna Chetty Kattalai",
+        "address": "Arulmigu Kolla Singanna Chetty Kattalai, Kancheepuram",
+        "pincode": "631501",
+        "district": "Kancheepuram District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Kolla Singanna Chetty Kattalai, Arulmigu Kolla Singanna Chetty Kattalai, Kancheepuram, 631501"
+      },
+      {
+        "Unnamed: 0": 188,
+        "id": "TM001867",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Srimathi Rajammal Udaiyar Sattrumarai Kattalai",
+        "address": "Arulmigu Srimathi Rajammal Udaiyar Sattrumarai Kattalai, Little Kancheepuram, Kancheepuram",
+        "pincode": "631501",
+        "district": "Kancheepuram District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Srimathi Rajammal Udaiyar Sattrumarai Kattalai, Arulmigu Srimathi Rajammal Udaiyar Sattrumarai Kattalai, Little Kancheepuram, Kancheepuram, 631501"
+      },
+      {
+        "Unnamed: 0": 1553,
+        "id": "TM000402",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Salai Vinayagar Temple",
+        "address": "Arulmigu Salai Vinayagar Temple, Near Alunthar Bus Depot, Chennai",
+        "pincode": "600027",
+        "district": "Kancheepuram District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Salai Vinayagar Temple, Arulmigu Salai Vinayagar Temple, Near Alunthar Bus Depot, Chennai, 600027"
+      },
+      {
+        "Unnamed: 0": 1837,
+        "id": "TM000739",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Pachiyamman Temple",
+        "address": "Arulmigu Pachiyamman Temple, Jamin Pallavaram, Chennai",
+        "pincode": "600043",
+        "district": "Kancheepuram District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Pachiyamman Temple, Arulmigu Pachiyamman Temple, Jamin Pallavaram, Chennai, 600043"
+      }
+    ]
+  },
+  "Chengalpattu District": {
+    "count": 737,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 183,
+        "id": "TM001724",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Kappiyaamur Thiruvengadachariyaar Kattalai",
+        "address": "Arulmigu Kappiyaamur Thiruvengadachariyaar Kattalai, Sirungundram",
+        "pincode": "603204",
+        "district": "Chengalpattu District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Kappiyaamur Thiruvengadachariyaar Kattalai, Arulmigu Kappiyaamur Thiruvengadachariyaar Kattalai, Sirungundram, 603204"
+      },
+      {
+        "Unnamed: 0": 1371,
+        "id": "TM000210",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Selva Vinayagar And Kothandararulmiguar Temple",
+        "address": "Arulmigu Selva Vinayagar And Kothandararulmiguar Temple, Tambaram, Chennai",
+        "pincode": "600045",
+        "district": "Chengalpattu District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Selva Vinayagar And Kothandararulmiguar Temple, Arulmigu Selva Vinayagar And Kothandararulmiguar Temple, Tambaram, Chennai, 600045"
+      },
+      {
+        "Unnamed: 0": 1372,
+        "id": "TM000211",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Karpaga Vinayagar And Kanthaperumanar Temple",
+        "address": "Arulmigu Karpaga Vinayagar And Kanthaperumanar Temple, Tambaram, Chennai",
+        "pincode": "600059",
+        "district": "Chengalpattu District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Karpaga Vinayagar And Kanthaperumanar Temple, Arulmigu Karpaga Vinayagar And Kanthaperumanar Temple, Tambaram, Chennai, 600059"
+      },
+      {
+        "Unnamed: 0": 1373,
+        "id": "TM000212",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Vinaitheerthavinayagar Temple",
+        "address": "Arulmigu Vinaitheerthavinayagar Temple, Tambaram, Chennai",
+        "pincode": "600045",
+        "district": "Chengalpattu District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Vinaitheerthavinayagar Temple, Arulmigu Vinaitheerthavinayagar Temple, Tambaram, Chennai, 600045"
+      },
+      {
+        "Unnamed: 0": 1374,
+        "id": "TM000213",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Dhenupureeshwarar Temple",
+        "address": "Arulmigu Dhenupureeshwarar Temple, Madampakkam, Chennai",
+        "pincode": "600126",
+        "district": "Chengalpattu District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Dhenupureeshwarar Temple, Arulmigu Dhenupureeshwarar Temple, Madampakkam, Chennai, 600126"
+      }
+    ]
+  },
+  "Thirupathur District": {
+    "count": 320,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 189,
+        "id": "TM004602",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Azhagu Perumal Thirukoviludan Enaintha Erapathu Kattalai Temple",
+        "address": "Arulmigu Azhagu Perumal Thirukoviludan Enaintha Erapathu Kattalai Temple, Periyapettai",
+        "pincode": "635751",
+        "district": "Thirupathur District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Azhagu Perumal Thirukoviludan Enaintha Erapathu Kattalai Temple, Arulmigu Azhagu Perumal Thirukoviludan Enaintha Erapathu Kattalai Temple, Periyapettai, 635751"
+      },
+      {
+        "Unnamed: 0": 2357,
+        "id": "TM001364",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Samundeeswari Amman Temple",
+        "address": "Arulmigu Samundeeswari Amman Temple, Periyankuppam",
+        "pincode": "635814",
+        "district": "Thirupathur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Samundeeswari Amman Temple, Arulmigu Samundeeswari Amman Temple, Periyankuppam, 635814"
+      },
+      {
+        "Unnamed: 0": 2360,
+        "id": "TM001367",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Dharmaraja Temple",
+        "address": "Arulmigu Dharmaraja Temple, Tirupattur",
+        "pincode": "635601",
+        "district": "Thirupathur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Dharmaraja Temple, Arulmigu Dharmaraja Temple, Tirupattur, 635601"
+      },
+      {
+        "Unnamed: 0": 2361,
+        "id": "TM001368",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Kannanur Mariamman Temple",
+        "address": "Arulmigu Kannanur Mariamman Temple, Tirupattur",
+        "pincode": "635601",
+        "district": "Thirupathur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Kannanur Mariamman Temple, Arulmigu Kannanur Mariamman Temple, Tirupattur, 635601"
+      },
+      {
+        "Unnamed: 0": 2362,
+        "id": "TM001369",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Sundaraveera Anjaneyar Temple",
+        "address": "Arulmigu Sundaraveera Anjaneyar Temple, Tirupattur",
+        "pincode": "635601",
+        "district": "Thirupathur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Sundaraveera Anjaneyar Temple, Arulmigu Sundaraveera Anjaneyar Temple, Tirupattur, 635601"
+      }
+    ]
+  },
+  "Salem District": {
+    "count": 1414,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 193,
+        "id": "TM004943",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Subramaniya Swamy Kattalai",
+        "address": "Arulmigu Subramaniya Swamy Kattalai, Mettu Agraharam, Salem",
+        "pincode": "636001",
+        "district": "Salem District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Subramaniya Swamy Kattalai, Arulmigu Subramaniya Swamy Kattalai, Mettu Agraharam, Salem, 636001"
+      },
+      {
+        "Unnamed: 0": 198,
+        "id": "TM007714",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Nithiyapadi Amavasai Kattalai In Arulmigu Chithambareshwarar Temple",
+        "address": "Arulmigu Nithiyapadi Amavasai Kattalai In Arulmigu Chithambareshwarar Temple, Viraganur",
+        "pincode": "636116",
+        "district": "Salem District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Nithiyapadi Amavasai Kattalai In Arulmigu Chithambareshwarar Temple, Arulmigu Nithiyapadi Amavasai Kattalai In Arulmigu Chithambareshwarar Temple, Viraganur, 636116"
+      },
+      {
+        "Unnamed: 0": 199,
+        "id": "TM007719",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Pappammal Alais Chinnammal Kattalai Attached To Arulmigu Someshwarar Temple",
+        "address": "Arulmigu Pappammal Alais Chinnammal Kattalai Attached To Arulmigu Someshwarar Temple, Nangavalli",
+        "pincode": "636454",
+        "district": "Salem District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Pappammal Alais Chinnammal Kattalai Attached To Arulmigu Someshwarar Temple, Arulmigu Pappammal Alais Chinnammal Kattalai Attached To Arulmigu Someshwarar Temple, Nangavalli, 636454"
+      },
+      {
+        "Unnamed: 0": 200,
+        "id": "TM007721",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Meenakchi Sundareshwarar In Karthigai Deepam Manickavasakar Kattalai",
+        "address": "Arulmigu Meenakchi Sundareshwarar In Karthigai Deepam Manickavasakar Kattalai, Sevaipettai, Salem",
+        "pincode": "636002",
+        "district": "Salem District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Meenakchi Sundareshwarar In Karthigai Deepam Manickavasakar Kattalai, Arulmigu Meenakchi Sundareshwarar In Karthigai Deepam Manickavasakar Kattalai, Sevaipettai, Salem, 636002"
+      },
+      {
+        "Unnamed: 0": 201,
+        "id": "TM007762",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Thirumozhi Thirunal Psv Kattalai",
+        "address": "Arulmigu Thirumozhi Thirunal Psv Kattalai, Kadaiveethi, Salem",
+        "pincode": "636001",
+        "district": "Salem District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Thirumozhi Thirunal Psv Kattalai, Arulmigu Thirumozhi Thirunal Psv Kattalai, Kadaiveethi, Salem, 636001"
+      }
+    ]
+  },
+  "Namakkal District": {
+    "count": 1059,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 194,
+        "id": "TM005176",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Viswabramanar 7 Day And 8day Vaikasi Vischagam Festival",
+        "address": "Arulmigu Viswabramanar 7 Day And 8day Vaikasi Vischagam Festival, Tiruchengode",
+        "pincode": "637211",
+        "district": "Namakkal District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Viswabramanar 7 Day And 8day Vaikasi Vischagam Festival, Arulmigu Viswabramanar 7 Day And 8day Vaikasi Vischagam Festival, Tiruchengode, 637211"
+      },
+      {
+        "Unnamed: 0": 195,
+        "id": "TM005177",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Brammalingeswarar Venugopalaswamy Kattalai",
+        "address": "Arulmigu Brammalingeswarar Venugopalaswamy Kattalai, Kokkarayanpettai",
+        "pincode": "638007",
+        "district": "Namakkal District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Brammalingeswarar Venugopalaswamy Kattalai, Arulmigu Brammalingeswarar Venugopalaswamy Kattalai, Kokkarayanpettai, 638007"
+      },
+      {
+        "Unnamed: 0": 196,
+        "id": "TM005195",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Kanagasabai Mandapa Kattalai Attached To Arulmigu Arthanreeswarar Temple",
+        "address": "Arulmigu Kanagasabai Mandapa Kattalai Attached To Arulmigu Arthanreeswarar Temple, Tiruchengode",
+        "pincode": "637211",
+        "district": "Namakkal District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Kanagasabai Mandapa Kattalai Attached To Arulmigu Arthanreeswarar Temple, Arulmigu Kanagasabai Mandapa Kattalai Attached To Arulmigu Arthanreeswarar Temple, Tiruchengode, 637211"
+      },
+      {
+        "Unnamed: 0": 206,
+        "id": "TM009463",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Kanakkar Mandaba Kattalai",
+        "address": "Arulmigu Kanakkar Mandaba Kattalai, Tiruchengode",
+        "pincode": "637211",
+        "district": "Namakkal District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Kanakkar Mandaba Kattalai, Arulmigu Kanakkar Mandaba Kattalai, Tiruchengode, 637211"
+      },
+      {
+        "Unnamed: 0": 207,
+        "id": "TM009490",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Aruthra Darisanakattalai",
+        "address": "Arulmigu Aruthra Darisanakattalai, Andipalayam",
+        "pincode": "637214",
+        "district": "Namakkal District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Aruthra Darisanakattalai, Arulmigu Aruthra Darisanakattalai, Andipalayam, 637214"
+      }
+    ]
+  },
+  "Dharmapuri District": {
+    "count": 1088,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 197,
+        "id": "TM005439",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Muttamal Arakattalai And Ambika Parameswari Temple",
+        "address": "Arulmigu Muttamal Arakattalai And Ambika Parameswari Temple, Dharmapuri",
+        "pincode": "636701",
+        "district": "Dharmapuri District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Muttamal Arakattalai And Ambika Parameswari Temple, Arulmigu Muttamal Arakattalai And Ambika Parameswari Temple, Dharmapuri, 636701"
+      },
+      {
+        "Unnamed: 0": 1157,
+        "id": "TM046211",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Natarajar Endowment Attached with Arulmigu Sivasubramaniya Swamy Temple",
+        "address": "Natarajar Endowment Attached with Arulmigu Sivasubramaniya Swamy Temple, Kumarasamypettai, Dharmapuri",
+        "pincode": "636701",
+        "district": "Dharmapuri District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Natarajar Endowment Attached with Arulmigu Sivasubramaniya Swamy Temple, Natarajar Endowment Attached with Arulmigu Sivasubramaniya Swamy Temple, Kumarasamypettai, Dharmapuri, 636701"
+      },
+      {
+        "Unnamed: 0": 5696,
+        "id": "TM004910",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Chendraswamy And Someswaraswamy Temple",
+        "address": "Arulmigu Chendraswamy And Someswaraswamy Temple, Adhiyamankottai",
+        "pincode": "636807",
+        "district": "Dharmapuri District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Chendraswamy And Someswaraswamy Temple, Arulmigu Chendraswamy And Someswaraswamy Temple, Adhiyamankottai, 636807"
+      },
+      {
+        "Unnamed: 0": 5697,
+        "id": "TM004911",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Someshwarar Temple",
+        "address": "Arulmigu Someshwarar Temple, Adhiyamankottai",
+        "pincode": "636807",
+        "district": "Dharmapuri District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Someshwarar Temple, Arulmigu Someshwarar Temple, Adhiyamankottai, 636807"
+      },
+      {
+        "Unnamed: 0": 5698,
+        "id": "TM004912",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Kala Bairavar Temple",
+        "address": "Arulmigu Kala Bairavar Temple, Adhiyamankottai",
+        "pincode": "636807",
+        "district": "Dharmapuri District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Kala Bairavar Temple, Arulmigu Kala Bairavar Temple, Adhiyamankottai, 636807"
+      }
+    ]
+  },
+  "Coimbatore District": {
+    "count": 1413,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 217,
+        "id": "TM009812",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Thiru Ranojirao Endowment",
+        "address": "Thiru Ranojirao Endowment, Town Hall, Coimbatore",
+        "pincode": "641001",
+        "district": "Coimbatore District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Thiru Ranojirao Endowment, Thiru Ranojirao Endowment, Town Hall, Coimbatore, 641001"
+      },
+      {
+        "Unnamed: 0": 218,
+        "id": "TM009902",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Arudradarsana Kattalai",
+        "address": "Arulmigu Arudradarsana Kattalai, காரைக்கால் அம்மையார் வீதி, Pollachi",
+        "pincode": "642001",
+        "district": "Coimbatore District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Arudradarsana Kattalai, Arulmigu Arudradarsana Kattalai, காரைக்கால் அம்மையார் வீதி, Pollachi, 642001"
+      },
+      {
+        "Unnamed: 0": 219,
+        "id": "TM009903",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Punguni Utthira Kattalai",
+        "address": "Arulmigu Punguni Utthira Kattalai, காரைக்கால் அம்மையார் வீதி, Pollachi",
+        "pincode": "642001",
+        "district": "Coimbatore District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Punguni Utthira Kattalai, Arulmigu Punguni Utthira Kattalai, காரைக்கால் அம்மையார் வீதி, Pollachi, 642001"
+      },
+      {
+        "Unnamed: 0": 220,
+        "id": "TM009904",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Soorasamhara Kattalai",
+        "address": "Arulmigu Soorasamhara Kattalai, காரைக்கால் அம்மையார் வீதி, Pollachi",
+        "pincode": "642001",
+        "district": "Coimbatore District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Soorasamhara Kattalai, Arulmigu Soorasamhara Kattalai, காரைக்கால் அம்மையார் வீதி, Pollachi, 642001"
+      },
+      {
+        "Unnamed: 0": 221,
+        "id": "TM009946",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Kaveeswarar Subramania Ayyar Endowment",
+        "address": "Arulmigu Kaveeswarar Subramania Ayyar Endowment, Raja Street, Coimbatore",
+        "pincode": "641001",
+        "district": "Coimbatore District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Kaveeswarar Subramania Ayyar Endowment, Arulmigu Kaveeswarar Subramania Ayyar Endowment, Raja Street, Coimbatore, 641001"
+      }
+    ]
+  },
+  "Tiruppur District": {
+    "count": 1339,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 224,
+        "id": "TM010102",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Ellapalayam Kavadi Kattalai",
+        "address": "Arulmigu Ellapalayam Kavadi Kattalai, Sivanmalai",
+        "pincode": "638701",
+        "district": "Tiruppur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Ellapalayam Kavadi Kattalai, Arulmigu Ellapalayam Kavadi Kattalai, Sivanmalai, 638701"
+      },
+      {
+        "Unnamed: 0": 225,
+        "id": "TM010167",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Manikkanilayam Trust",
+        "address": "Arulmigu Manikkanilayam Trust, Sivanmalai",
+        "pincode": "638701",
+        "district": "Tiruppur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Manikkanilayam Trust, Arulmigu Manikkanilayam Trust, Sivanmalai, 638701"
+      },
+      {
+        "Unnamed: 0": 246,
+        "id": "TM013241",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Uchikala Kattalai",
+        "address": "Arulmigu Uchikala Kattalai, Uthiyur@ Uthandavelayudhasamy Temple, Uthiyur",
+        "pincode": "638703",
+        "district": "Tiruppur District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Uchikala Kattalai, Arulmigu Uchikala Kattalai, Uthiyur@ Uthandavelayudhasamy Temple, Uthiyur, 638703"
+      },
+      {
+        "Unnamed: 0": 247,
+        "id": "TM013242",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Masimaga Kattalai",
+        "address": "Arulmigu Masimaga Kattalai, Uthiyur@ Uthandavelayudhasamay Temple, Uthiyur",
+        "pincode": "638703",
+        "district": "Tiruppur District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Masimaga Kattalai, Arulmigu Masimaga Kattalai, Uthiyur@ Uthandavelayudhasamay Temple, Uthiyur, 638703"
+      },
+      {
+        "Unnamed: 0": 248,
+        "id": "TM013251",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Mottayandi Thanneerpandal.Dharmam",
+        "address": "Mottayandi Thanneerpandal.Dharmam, Lakkamanayakkanpatty",
+        "pincode": "638111",
+        "district": "Tiruppur District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Mottayandi Thanneerpandal.Dharmam, Mottayandi Thanneerpandal.Dharmam, Lakkamanayakkanpatty, 638111"
+      }
+    ]
+  },
+  "Erode District": {
+    "count": 1407,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 226,
+        "id": "TM010251",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Poosaari Velala Thambiran Kattalai",
+        "address": "Arulmigu Poosaari Velala Thambiran Kattalai, Malaikoil Adivaram, Chennimalai",
+        "pincode": "638051",
+        "district": "Erode District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Poosaari Velala Thambiran Kattalai, Arulmigu Poosaari Velala Thambiran Kattalai, Malaikoil Adivaram, Chennimalai, 638051"
+      },
+      {
+        "Unnamed: 0": 227,
+        "id": "TM010386",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Nithyapadi Kattalai",
+        "address": "Arulmigu Nithyapadi Kattalai, Nallagoundampalayam, Gobichettipalayam",
+        "pincode": "638458",
+        "district": "Erode District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Nithyapadi Kattalai, Arulmigu Nithyapadi Kattalai, Nallagoundampalayam, Gobichettipalayam, 638458"
+      },
+      {
+        "Unnamed: 0": 228,
+        "id": "TM010400",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Urchava Kattalai(Joint)Arulmigu Mathiyapurieswarar Temple",
+        "address": "Arulmigu Urchava Kattalai(Joint)Arulmigu Mathiyapurieswarar Temple, Kugalurerode, Erode",
+        "pincode": "638313",
+        "district": "Erode District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Urchava Kattalai(Joint)Arulmigu Mathiyapurieswarar Temple, Arulmigu Urchava Kattalai(Joint)Arulmigu Mathiyapurieswarar Temple, Kugalurerode, Erode, 638313"
+      },
+      {
+        "Unnamed: 0": 229,
+        "id": "TM010458",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Chellandiamman Varapujai Kattalai Thirukoil",
+        "address": "Arulmigu Chellandiamman Varapujai Kattalai Thirukoil, Kugalur",
+        "pincode": "638313",
+        "district": "Erode District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Chellandiamman Varapujai Kattalai Thirukoil, Arulmigu Chellandiamman Varapujai Kattalai Thirukoil, Kugalur, 638313"
+      },
+      {
+        "Unnamed: 0": 232,
+        "id": "TM011786",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Puratasimatha Arulmigu Kariyaperumal Kariyakaliamman Temple",
+        "address": "Arulmigu Puratasimatha Arulmigu Kariyaperumal Kariyakaliamman Temple, Thiruvachi.",
+        "pincode": "638052",
+        "district": "Erode District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Puratasimatha Arulmigu Kariyaperumal Kariyakaliamman Temple, Arulmigu Puratasimatha Arulmigu Kariyaperumal Kariyakaliamman Temple, Thiruvachi., 638052"
+      }
+    ]
+  },
+  "Nagapattinam District": {
+    "count": 961,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 282,
+        "id": "TM016321",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Thiruvasal Thanneerpanthal Dharmam",
+        "address": "Arulmigu Thiruvasal Thanneerpanthal Dharmam, Thenpidagai",
+        "pincode": "609702",
+        "district": "Nagapattinam District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Thiruvasal Thanneerpanthal Dharmam, Arulmigu Thiruvasal Thanneerpanthal Dharmam, Thenpidagai, 609702"
+      },
+      {
+        "Unnamed: 0": 283,
+        "id": "TM016325",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Varatha Vinayagar Nithiya Kattalai",
+        "address": "Arulmigu Varatha Vinayagar Nithiya Kattalai, Thirumarugal",
+        "pincode": "609702",
+        "district": "Nagapattinam District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Varatha Vinayagar Nithiya Kattalai, Arulmigu Varatha Vinayagar Nithiya Kattalai, Thirumarugal, 609702"
+      },
+      {
+        "Unnamed: 0": 284,
+        "id": "TM016337",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Ramalinga Madam",
+        "address": "Arulmigu Ramalinga Madam, Enangudi",
+        "pincode": "609701",
+        "district": "Nagapattinam District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Ramalinga Madam, Arulmigu Ramalinga Madam, Enangudi, 609701"
+      },
+      {
+        "Unnamed: 0": 285,
+        "id": "TM016339",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Sivarathiri Kattalai",
+        "address": "Arulmigu Sivarathiri Kattalai, Enangudi",
+        "pincode": "609701",
+        "district": "Nagapattinam District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Sivarathiri Kattalai, Arulmigu Sivarathiri Kattalai, Enangudi, 609701"
+      },
+      {
+        "Unnamed: 0": 286,
+        "id": "TM016378",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Thaneerpanthal Dharmam",
+        "address": "Arulmigu Thaneerpanthal Dharmam, Varatha Vinayagar Temple, Thirumarugal",
+        "pincode": "609702",
+        "district": "Nagapattinam District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Thaneerpanthal Dharmam, Arulmigu Thaneerpanthal Dharmam, Varatha Vinayagar Temple, Thirumarugal, 609702"
+      }
+    ]
+  },
+  "Thiruvarur District": {
+    "count": 1942,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 299,
+        "id": "TM016734",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Unaamaliachydarm Temple",
+        "address": "Arulmigu Unaamaliachydarm Temple, Sorakudi",
+        "pincode": "610105",
+        "district": "Thiruvarur District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Unaamaliachydarm Temple, Arulmigu Unaamaliachydarm Temple, Sorakudi, 610105"
+      },
+      {
+        "Unnamed: 0": 300,
+        "id": "TM017620",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Gnanadhaswamy Madam",
+        "address": "Arulmigu Gnanadhaswamy Madam, Alangudi",
+        "pincode": "612801",
+        "district": "Thiruvarur District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Gnanadhaswamy Madam, Arulmigu Gnanadhaswamy Madam, Alangudi, 612801"
+      },
+      {
+        "Unnamed: 0": 301,
+        "id": "TM017621",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Arunachaleswarar Udayar Annasathiram",
+        "address": "Arulmigu Arunachaleswarar Udayar Annasathiram, Narthangudi",
+        "pincode": "614404",
+        "district": "Thiruvarur District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Arunachaleswarar Udayar Annasathiram, Arulmigu Arunachaleswarar Udayar Annasathiram, Narthangudi, 614404"
+      },
+      {
+        "Unnamed: 0": 302,
+        "id": "TM017685",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Palani Andavar Dharmam",
+        "address": "Arulmigu Palani Andavar Dharmam, Arithuvaramangalam",
+        "pincode": "612802",
+        "district": "Thiruvarur District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Palani Andavar Dharmam, Arulmigu Palani Andavar Dharmam, Arithuvaramangalam, 612802"
+      },
+      {
+        "Unnamed: 0": 303,
+        "id": "TM017687",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Venkatachalapathy Dharmam",
+        "address": "Arulmigu Venkatachalapathy Dharmam, Olimathi",
+        "pincode": "614404",
+        "district": "Thiruvarur District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Venkatachalapathy Dharmam, Arulmigu Venkatachalapathy Dharmam, Olimathi, 614404"
+      }
+    ]
+  },
+  "Cuddalore District": {
+    "count": 1695,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 429,
+        "id": "TM020419",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu M.S.Kalasanthi Kattalai",
+        "address": "Arulmigu M.S.Kalasanthi Kattalai, Chidambaram",
+        "pincode": "608001",
+        "district": "Cuddalore District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu M.S.Kalasanthi Kattalai, Arulmigu M.S.Kalasanthi Kattalai, Chidambaram, 608001"
+      },
+      {
+        "Unnamed: 0": 432,
+        "id": "TM020651",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Rajagopalpillai Dharma Chattiram",
+        "address": "Arulmigu Rajagopalpillai Dharma Chattiram, Chidambaram",
+        "pincode": "608001",
+        "district": "Cuddalore District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Rajagopalpillai Dharma Chattiram, Arulmigu Rajagopalpillai Dharma Chattiram, Chidambaram, 608001"
+      },
+      {
+        "Unnamed: 0": 433,
+        "id": "TM020652",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Uppuvengatarayar Masimaga Kattalai",
+        "address": "Arulmigu Uppuvengatarayar Masimaga Kattalai, Killai",
+        "pincode": "608102",
+        "district": "Cuddalore District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Uppuvengatarayar Masimaga Kattalai, Arulmigu Uppuvengatarayar Masimaga Kattalai, Killai, 608102"
+      },
+      {
+        "Unnamed: 0": 434,
+        "id": "TM020674",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Ramalinga Pakthajana Annathana Chattiram",
+        "address": "Arulmigu Ramalinga Pakthajana Annathana Chattiram, Cuddalore Ot, Cuddalore",
+        "pincode": "607003",
+        "district": "Cuddalore District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Ramalinga Pakthajana Annathana Chattiram, Arulmigu Ramalinga Pakthajana Annathana Chattiram, Cuddalore Ot, Cuddalore, 607003"
+      },
+      {
+        "Unnamed: 0": 435,
+        "id": "TM020678",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Valliyammal Kattalai (E) Padalieswarar Temple",
+        "address": "Arulmigu Valliyammal Kattalai (E) Padalieswarar Temple, Thirupathiripuliyur, Cuddalore",
+        "pincode": "607002",
+        "district": "Cuddalore District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Valliyammal Kattalai (E) Padalieswarar Temple, Arulmigu Valliyammal Kattalai (E) Padalieswarar Temple, Thirupathiripuliyur, Cuddalore, 607002"
+      }
+    ]
+  },
+  "Tiruvannamalai District": {
+    "count": 1320,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 430,
+        "id": "TM020428",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Nanthavana Trust",
+        "address": "Arulmigu Nanthavana Trust, Tiruvannamalai",
+        "pincode": "606601",
+        "district": "Tiruvannamalai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Nanthavana Trust, Arulmigu Nanthavana Trust, Tiruvannamalai, 606601"
+      },
+      {
+        "Unnamed: 0": 440,
+        "id": "TM020819",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Vasuvampal Aranilaya Chattiram",
+        "address": "Arulmigu Vasuvampal Aranilaya Chattiram, Thiruvannamalai, Tiruvannamalai",
+        "pincode": "606601",
+        "district": "Tiruvannamalai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Vasuvampal Aranilaya Chattiram, Arulmigu Vasuvampal Aranilaya Chattiram, Thiruvannamalai, Tiruvannamalai, 606601"
+      },
+      {
+        "Unnamed: 0": 441,
+        "id": "TM020844",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Dharmathaya Chattiram",
+        "address": "Arulmigu Dharmathaya Chattiram, Mangal",
+        "pincode": "631701",
+        "district": "Tiruvannamalai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Dharmathaya Chattiram, Arulmigu Dharmathaya Chattiram, Mangal, 631701"
+      },
+      {
+        "Unnamed: 0": 442,
+        "id": "TM020873",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Kuppusamy Udaiyar Trust",
+        "address": "Arulmigu Kuppusamy Udaiyar Trust, Vandavasi",
+        "pincode": "604408",
+        "district": "Tiruvannamalai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Kuppusamy Udaiyar Trust, Arulmigu Kuppusamy Udaiyar Trust, Vandavasi, 604408"
+      },
+      {
+        "Unnamed: 0": 443,
+        "id": "TM020879",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Kalchathiram",
+        "address": "Arulmigu Kalchathiram, Arani",
+        "pincode": "632301",
+        "district": "Tiruvannamalai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Kalchathiram, Arulmigu Kalchathiram, Arani, 632301"
+      }
+    ]
+  },
+  "Viluppuram District": {
+    "count": 1027,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 572,
+        "id": "TM023115",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Venugopalasamy Temple",
+        "address": "Arulmigu Venugopalasamy Temple, Andhrayanallur",
+        "pincode": "605803",
+        "district": "Viluppuram District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Venugopalasamy Temple, Arulmigu Venugopalasamy Temple, Andhrayanallur, 605803"
+      },
+      {
+        "Unnamed: 0": 979,
+        "id": "TM043112",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Dharmachavadi Temple",
+        "address": "Arulmigu Dharmachavadi Temple, Panchamadevi",
+        "pincode": "605105",
+        "district": "Viluppuram District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Dharmachavadi Temple, Arulmigu Dharmachavadi Temple, Panchamadevi, 605105"
+      },
+      {
+        "Unnamed: 0": 19877,
+        "id": "TM020341",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Chandramouleeswarar Temple",
+        "address": "Arulmigu Chandramouleeswarar Temple, Thiruvakkarai",
+        "pincode": "604304",
+        "district": "Viluppuram District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Chandramouleeswarar Temple, Arulmigu Chandramouleeswarar Temple, Thiruvakkarai, 604304"
+      },
+      {
+        "Unnamed: 0": 19878,
+        "id": "TM020342",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Angalamman Temple",
+        "address": "Arulmigu Angalamman Temple, Melmalaiyanur",
+        "pincode": "604204",
+        "district": "Viluppuram District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Angalamman Temple, Arulmigu Angalamman Temple, Melmalaiyanur, 604204"
+      },
+      {
+        "Unnamed: 0": 19899,
+        "id": "TM020363",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Lakshminarasimar Temple",
+        "address": "Arulmigu Lakshminarasimar Temple, Puvarasankuppam",
+        "pincode": "605105",
+        "district": "Viluppuram District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Lakshminarasimar Temple, Arulmigu Lakshminarasimar Temple, Puvarasankuppam, 605105"
+      }
+    ]
+  },
+  "Perambalur District": {
+    "count": 932,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 581,
+        "id": "TM025216",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Siruthondai Nayanar Annadhana Kattalai",
+        "address": "Arulmigu Siruthondai Nayanar Annadhana Kattalai, Mavillangai",
+        "pincode": "621116",
+        "district": "Perambalur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Siruthondai Nayanar Annadhana Kattalai, Arulmigu Siruthondai Nayanar Annadhana Kattalai, Mavillangai, 621116"
+      },
+      {
+        "Unnamed: 0": 684,
+        "id": "TM029553",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Thaneerpandhal Darmam",
+        "address": "Arulmigu Thaneerpandhal Darmam, Kolakkanatham",
+        "pincode": "621106",
+        "district": "Perambalur District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Thaneerpandhal Darmam, Arulmigu Thaneerpandhal Darmam, Kolakkanatham, 621106"
+      },
+      {
+        "Unnamed: 0": 685,
+        "id": "TM029619",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Annakodi Mangalyam Temple",
+        "address": "Arulmigu Annakodi Mangalyam Temple, Athiyur",
+        "pincode": "621108",
+        "district": "Perambalur District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Annakodi Mangalyam Temple, Arulmigu Annakodi Mangalyam Temple, Athiyur, 621108"
+      },
+      {
+        "Unnamed: 0": 686,
+        "id": "TM029627",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Annathana Madam",
+        "address": "Arulmigu Annathana Madam, Ogalur",
+        "pincode": "621108",
+        "district": "Perambalur District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Annathana Madam, Arulmigu Annathana Madam, Ogalur, 621108"
+      },
+      {
+        "Unnamed: 0": 687,
+        "id": "TM029729",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Thaneerpandhal",
+        "address": "Arulmigu Thaneerpandhal, Athur",
+        "pincode": "621713",
+        "district": "Perambalur District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Thaneerpandhal, Arulmigu Thaneerpandhal, Athur, 621713"
+      }
+    ]
+  },
+  "Karur District": {
+    "count": 768,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 582,
+        "id": "TM025377",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Tweltveth Chettiyar Melmugam Kalasanthi Kattalai Sivayam",
+        "address": "Tweltveth Chettiyar Melmugam Kalasanthi Kattalai Sivayam, Iyyarmalai, Sathiyamangalam",
+        "pincode": "638401",
+        "district": "Karur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Tweltveth Chettiyar Melmugam Kalasanthi Kattalai Sivayam, Tweltveth Chettiyar Melmugam Kalasanthi Kattalai Sivayam, Iyyarmalai, Sathiyamangalam, 638401"
+      },
+      {
+        "Unnamed: 0": 583,
+        "id": "TM025378",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "third manthi Soliyavellalar Kattalai  Sivayam",
+        "address": "third manthi Soliyavellalar Kattalai  Sivayam, Iyyarmalai, Sathiyamangalam",
+        "pincode": "638401",
+        "district": "Karur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "third manthi Soliyavellalar Kattalai  Sivayam, third manthi Soliyavellalar Kattalai  Sivayam, Iyyarmalai, Sathiyamangalam, 638401"
+      },
+      {
+        "Unnamed: 0": 584,
+        "id": "TM025381",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Yanai Vaganam Mandagappadi (Att) Thanthondrimalai",
+        "address": "Yanai Vaganam Mandagappadi (Att) Thanthondrimalai, Thanthontri Malai, Karur",
+        "pincode": "639005",
+        "district": "Karur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Yanai Vaganam Mandagappadi (Att) Thanthondrimalai, Yanai Vaganam Mandagappadi (Att) Thanthondrimalai, Thanthontri Malai, Karur, 639005"
+      },
+      {
+        "Unnamed: 0": 585,
+        "id": "TM025382",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Vai Suppan Chettiyar Uchikalai Kattalai  Sivayam",
+        "address": "Vai Suppan Chettiyar Uchikalai Kattalai  Sivayam, Iyyarmalai, Sathiyamangalam",
+        "pincode": "638401",
+        "district": "Karur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Vai Suppan Chettiyar Uchikalai Kattalai  Sivayam, Vai Suppan Chettiyar Uchikalai Kattalai  Sivayam, Iyyarmalai, Sathiyamangalam, 638401"
+      },
+      {
+        "Unnamed: 0": 586,
+        "id": "TM025384",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Pannerantam Chettiyar Kelmugam Kalasanthi Kattalai  Sivayam",
+        "address": "Pannerantam Chettiyar Kelmugam Kalasanthi Kattalai  Sivayam, Iyyarmalai, Kulithalai",
+        "pincode": "638401",
+        "district": "Karur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Pannerantam Chettiyar Kelmugam Kalasanthi Kattalai  Sivayam, Pannerantam Chettiyar Kelmugam Kalasanthi Kattalai  Sivayam, Iyyarmalai, Kulithalai, 638401"
+      }
+    ]
+  },
+  "Thiruchirappalli District": {
+    "count": 2888,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 593,
+        "id": "TM025725",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Adipanguni 5th Day Mandagapadi (Att) Sapthreeswarar Temple",
+        "address": "Adipanguni 5th Day Mandagapadi (Att) Sapthreeswarar Temple, Adhikudi",
+        "pincode": "621601",
+        "district": "Thiruchirappalli District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Adipanguni 5th Day Mandagapadi (Att) Sapthreeswarar Temple, Adipanguni 5th Day Mandagapadi (Att) Sapthreeswarar Temple, Adhikudi, 621601"
+      },
+      {
+        "Unnamed: 0": 594,
+        "id": "TM025806",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Kalasanthi Kattalai (Att) Hariharputhiraswamy Temple",
+        "address": "Kalasanthi Kattalai (Att) Hariharputhiraswamy Temple, Poovalur",
+        "pincode": "621712",
+        "district": "Thiruchirappalli District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Kalasanthi Kattalai (Att) Hariharputhiraswamy Temple, Kalasanthi Kattalai (Att) Hariharputhiraswamy Temple, Poovalur, 621712"
+      },
+      {
+        "Unnamed: 0": 595,
+        "id": "TM025862",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Sayaratchai Kattalai (Attached) Arulmigu Kailasanathar Temple",
+        "address": "Sayaratchai Kattalai (Attached) Arulmigu Kailasanathar Temple, Thiruchirappalli",
+        "pincode": "620001",
+        "district": "Thiruchirappalli District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Sayaratchai Kattalai (Attached) Arulmigu Kailasanathar Temple, Sayaratchai Kattalai (Attached) Arulmigu Kailasanathar Temple, Thiruchirappalli, 620001"
+      },
+      {
+        "Unnamed: 0": 596,
+        "id": "TM025869",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Uchikala Kattalai (Att) Manaleeswarar Temple",
+        "address": "Uchikala Kattalai (Att) Manaleeswarar Temple, Idaiyathumangalam",
+        "pincode": "621601",
+        "district": "Thiruchirappalli District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Uchikala Kattalai (Att) Manaleeswarar Temple, Uchikala Kattalai (Att) Manaleeswarar Temple, Idaiyathumangalam, 621601"
+      },
+      {
+        "Unnamed: 0": 597,
+        "id": "TM025900",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Kalasanthi Kattalai attached Arulmigu Hariharputhiraswami Temple",
+        "address": "Kalasanthi Kattalai attached Arulmigu Hariharputhiraswami Temple, Poovalur",
+        "pincode": "621703",
+        "district": "Thiruchirappalli District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Kalasanthi Kattalai attached Arulmigu Hariharputhiraswami Temple, Kalasanthi Kattalai attached Arulmigu Hariharputhiraswami Temple, Poovalur, 621703"
+      }
+    ]
+  },
+  "Ariyalur District": {
+    "count": 1436,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 605,
+        "id": "TM026045",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Panjachara Jeeva Samathi",
+        "address": "Panjachara Jeeva Samathi, Meensurity, Meensurity",
+        "pincode": "621704",
+        "district": "Ariyalur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Panjachara Jeeva Samathi, Panjachara Jeeva Samathi, Meensurity, Meensurity, 621704"
+      },
+      {
+        "Unnamed: 0": 681,
+        "id": "TM028919",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Masimagam Ettamnal Kattalai",
+        "address": "Arulmigu Masimagam Ettamnal Kattalai, Thirumazhapadi",
+        "pincode": "621851",
+        "district": "Ariyalur District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Masimagam Ettamnal Kattalai, Arulmigu Masimagam Ettamnal Kattalai, Thirumazhapadi, 621851"
+      },
+      {
+        "Unnamed: 0": 682,
+        "id": "TM028921",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Navarathiri Kattalai",
+        "address": "Arulmigu Navarathiri Kattalai, Thirumazhapadi",
+        "pincode": "621851",
+        "district": "Ariyalur District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Navarathiri Kattalai, Arulmigu Navarathiri Kattalai, Thirumazhapadi, 621851"
+      },
+      {
+        "Unnamed: 0": 683,
+        "id": "TM029290",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Siruthondanayanar Amuthu Padayal Dharmam",
+        "address": "Arulmigu Siruthondanayanar Amuthu Padayal Dharmam, Thirukalapur",
+        "pincode": "621805",
+        "district": "Ariyalur District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Siruthondanayanar Amuthu Padayal Dharmam, Arulmigu Siruthondanayanar Amuthu Padayal Dharmam, Thirukalapur, 621805"
+      },
+      {
+        "Unnamed: 0": 24445,
+        "id": "TM025230",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Vaithiyanathaswamy Temple",
+        "address": "Arulmigu Vaithiyanathaswamy Temple, Thirumalapadi",
+        "pincode": "621851",
+        "district": "Ariyalur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Vaithiyanathaswamy Temple, Arulmigu Vaithiyanathaswamy Temple, Thirumalapadi, 621851"
+      }
+    ]
+  },
+  "Madurai District": {
+    "count": 1797,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 698,
+        "id": "TM032012",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Puttu Chokkanathar Temple",
+        "address": "Arulmigu Puttu Chokkanathar Temple, Arapalayam, Madurai",
+        "pincode": "625016",
+        "district": "Madurai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Puttu Chokkanathar Temple, Arulmigu Puttu Chokkanathar Temple, Arapalayam, Madurai, 625016"
+      },
+      {
+        "Unnamed: 0": 699,
+        "id": "TM032013",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Kunjan Chettiyar Kattalai Meenakshi Sundareswarar Temple",
+        "address": "Arulmigu Kunjan Chettiyar Kattalai Meenakshi Sundareswarar Temple, Madurai",
+        "pincode": "625001",
+        "district": "Madurai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Kunjan Chettiyar Kattalai Meenakshi Sundareswarar Temple, Arulmigu Kunjan Chettiyar Kattalai Meenakshi Sundareswarar Temple, Madurai, 625001"
+      },
+      {
+        "Unnamed: 0": 700,
+        "id": "TM032037",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Soodam Kattalai",
+        "address": "Arulmigu Soodam Kattalai, Thirupparankundram",
+        "pincode": "625005",
+        "district": "Madurai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Soodam Kattalai, Arulmigu Soodam Kattalai, Thirupparankundram, 625005"
+      },
+      {
+        "Unnamed: 0": 701,
+        "id": "TM032039",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Thaikarthigai Mandagapadi Kattalai",
+        "address": "Arulmigu Thaikarthigai Mandagapadi Kattalai, Thirupparankundram",
+        "pincode": "625005",
+        "district": "Madurai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Thaikarthigai Mandagapadi Kattalai, Arulmigu Thaikarthigai Mandagapadi Kattalai, Thirupparankundram, 625005"
+      },
+      {
+        "Unnamed: 0": 702,
+        "id": "TM032040",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Ayiram Veettu Yadava Aattu Magamai Kattalai",
+        "address": "Arulmigu Ayiram Veettu Yadava Aattu Magamai Kattalai, Madurai",
+        "pincode": "625001",
+        "district": "Madurai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Ayiram Veettu Yadava Aattu Magamai Kattalai, Arulmigu Ayiram Veettu Yadava Aattu Magamai Kattalai, Madurai, 625001"
+      }
+    ]
+  },
+  "Dindigul District": {
+    "count": 1640,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 715,
+        "id": "TM032190",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "13 Per Vagaiyara Soliya Maruthuvar Kattalai",
+        "address": "13 Per Vagaiyara Soliya Maruthuvar Kattalai, Dindigul",
+        "pincode": "624001",
+        "district": "Dindigul District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "13 Per Vagaiyara Soliya Maruthuvar Kattalai, 13 Per Vagaiyara Soliya Maruthuvar Kattalai, Dindigul, 624001"
+      },
+      {
+        "Unnamed: 0": 716,
+        "id": "TM032250",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Santhakula Sowmiyanarayanan Kattalai",
+        "address": "Santhakula Sowmiyanarayanan Kattalai, Palani",
+        "pincode": "624601",
+        "district": "Dindigul District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Santhakula Sowmiyanarayanan Kattalai, Santhakula Sowmiyanarayanan Kattalai, Palani, 624601"
+      },
+      {
+        "Unnamed: 0": 717,
+        "id": "TM032252",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Sennimalai Dhambiran Mutt",
+        "address": "Arulmigu Sennimalai Dhambiran Mutt, Palani Town, Palani",
+        "pincode": "624601",
+        "district": "Dindigul District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Sennimalai Dhambiran Mutt, Arulmigu Sennimalai Dhambiran Mutt, Palani Town, Palani, 624601"
+      },
+      {
+        "Unnamed: 0": 718,
+        "id": "TM032253",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Mannor Sadhanantha Swamigal Mutt",
+        "address": "Arulmigu Mannor Sadhanantha Swamigal Mutt, Palani",
+        "pincode": "624601",
+        "district": "Dindigul District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Mannor Sadhanantha Swamigal Mutt, Arulmigu Mannor Sadhanantha Swamigal Mutt, Palani, 624601"
+      },
+      {
+        "Unnamed: 0": 719,
+        "id": "TM032254",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Palayaswamigal Mutt",
+        "address": "Arulmigu Palayaswamigal Mutt, Palani",
+        "pincode": "624601",
+        "district": "Dindigul District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Palayaswamigal Mutt, Arulmigu Palayaswamigal Mutt, Palani, 624601"
+      }
+    ]
+  },
+  "Theni District": {
+    "count": 332,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 765,
+        "id": "TM035618",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Gurusamypillai Otsavaratha Kattalai",
+        "address": "Arulmigu Gurusamypillai Otsavaratha Kattalai, Thenkarai, Periyakulam",
+        "pincode": "625601",
+        "district": "Theni District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Gurusamypillai Otsavaratha Kattalai, Arulmigu Gurusamypillai Otsavaratha Kattalai, Thenkarai, Periyakulam, 625601"
+      },
+      {
+        "Unnamed: 0": 766,
+        "id": "TM035619",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Muthu Nayakkar Mandagappadi And Muthu Vinayagar Temple",
+        "address": "Arulmigu Muthu Nayakkar Mandagappadi And Muthu Vinayagar Temple, Genguvarpatti",
+        "pincode": "625203",
+        "district": "Theni District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Muthu Nayakkar Mandagappadi And Muthu Vinayagar Temple, Arulmigu Muthu Nayakkar Mandagappadi And Muthu Vinayagar Temple, Genguvarpatti, 625203"
+      },
+      {
+        "Unnamed: 0": 767,
+        "id": "TM035621",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Thiruvachi Kattalai And Balasubramaniyasamy Temple",
+        "address": "Arulmigu Thiruvachi Kattalai And Balasubramaniyasamy Temple, Vadakarai, Periyakulam",
+        "pincode": "625601",
+        "district": "Theni District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Thiruvachi Kattalai And Balasubramaniyasamy Temple, Arulmigu Thiruvachi Kattalai And Balasubramaniyasamy Temple, Vadakarai, Periyakulam, 625601"
+      },
+      {
+        "Unnamed: 0": 768,
+        "id": "TM035623",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Genguvarpatty Kattalai Enaippu Arulmigu Moongilanai Kamatchiyamman Temple",
+        "address": "Arulmigu Genguvarpatty Kattalai Enaippu Arulmigu Moongilanai Kamatchiyamman Temple, Genguvarpatti",
+        "pincode": "625203",
+        "district": "Theni District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Genguvarpatty Kattalai Enaippu Arulmigu Moongilanai Kamatchiyamman Temple, Arulmigu Genguvarpatty Kattalai Enaippu Arulmigu Moongilanai Kamatchiyamman Temple, Genguvarpatti, 625203"
+      },
+      {
+        "Unnamed: 0": 769,
+        "id": "TM035624",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Lakshmiyammal And Arulmigu Varatharajaperumal Tmeple",
+        "address": "Arulmigu Lakshmiyammal And Arulmigu Varatharajaperumal Tmeple, Thenkarai, Periyakulam",
+        "pincode": "625601",
+        "district": "Theni District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Lakshmiyammal And Arulmigu Varatharajaperumal Tmeple, Arulmigu Lakshmiyammal And Arulmigu Varatharajaperumal Tmeple, Thenkarai, Periyakulam, 625601"
+      }
+    ]
+  },
+  "Sivagangai District": {
+    "count": 1125,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 770,
+        "id": "TM035717",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Anna Chathiram",
+        "address": "Arulmigu Anna Chathiram, Kalayarkoil",
+        "pincode": "630562",
+        "district": "Sivagangai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Anna Chathiram, Arulmigu Anna Chathiram, Kalayarkoil, 630562"
+      },
+      {
+        "Unnamed: 0": 774,
+        "id": "TM035780",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Ala Aru Kattalai",
+        "address": "Ala Aru Kattalai, Kalayarkoil",
+        "pincode": "630551",
+        "district": "Sivagangai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Ala Aru Kattalai, Ala Aru Kattalai, Kalayarkoil, 630551"
+      },
+      {
+        "Unnamed: 0": 775,
+        "id": "TM035797",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Annathana Chathiram Kundrakudi",
+        "address": "Arulmigu Annathana Chathiram Kundrakudi, Kuntrakudi",
+        "pincode": "630206",
+        "district": "Sivagangai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Annathana Chathiram Kundrakudi, Arulmigu Annathana Chathiram Kundrakudi, Kuntrakudi, 630206"
+      },
+      {
+        "Unnamed: 0": 776,
+        "id": "TM035798",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Vadakku Valavu Nagaratthar Kattalai Attached With Arulmigu Mangai Pakanatha Swamy Temple",
+        "address": "Vadakku Valavu Nagaratthar Kattalai Attached With Arulmigu Mangai Pakanatha Swamy Temple, Piranmalai",
+        "pincode": "630502",
+        "district": "Sivagangai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Vadakku Valavu Nagaratthar Kattalai Attached With Arulmigu Mangai Pakanatha Swamy Temple, Vadakku Valavu Nagaratthar Kattalai Attached With Arulmigu Mangai Pakanatha Swamy Temple, Piranmalai, 630502"
+      },
+      {
+        "Unnamed: 0": 777,
+        "id": "TM035799",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Therkku Valavu Nagaratthar Kattalai Attached With Arulmigu Mangai Pakanatha Swamy Temple",
+        "address": "Therkku Valavu Nagaratthar Kattalai Attached With Arulmigu Mangai Pakanatha Swamy Temple, Piranmalai",
+        "pincode": "630502",
+        "district": "Sivagangai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Therkku Valavu Nagaratthar Kattalai Attached With Arulmigu Mangai Pakanatha Swamy Temple, Therkku Valavu Nagaratthar Kattalai Attached With Arulmigu Mangai Pakanatha Swamy Temple, Piranmalai, 630502"
+      }
+    ]
+  },
+  "Virudhunagar District": {
+    "count": 562,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 771,
+        "id": "TM035762",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Sinkilinayakar Thuvathasi Kattalai",
+        "address": "Arulmigu Sinkilinayakar Thuvathasi Kattalai, Virudhunagar",
+        "pincode": "626001",
+        "district": "Virudhunagar District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Sinkilinayakar Thuvathasi Kattalai, Arulmigu Sinkilinayakar Thuvathasi Kattalai, Virudhunagar, 626001"
+      },
+      {
+        "Unnamed: 0": 772,
+        "id": "TM035763",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Meenatchi Sundaravinayagar Nandhavana Kattalai Attached With Arulmigu Sokkanatha Swamy Temple Virudhunagar",
+        "address": "Arulmigu Meenatchi Sundaravinayagar Nandhavana Kattalai Attached With Arulmigu Sokkanatha Swamy Temple Virudhunagar, Virudhunagar",
+        "pincode": "626001",
+        "district": "Virudhunagar District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Meenatchi Sundaravinayagar Nandhavana Kattalai Attached With Arulmigu Sokkanatha Swamy Temple Virudhunagar, Arulmigu Meenatchi Sundaravinayagar Nandhavana Kattalai Attached With Arulmigu Sokkanatha Swamy Temple Virudhunagar, Virudhunagar, 626001"
+      },
+      {
+        "Unnamed: 0": 773,
+        "id": "TM035768",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Arupathumoovar Gurupoojai Kattalai Attached With Arulmigu Sokkanatha Swamy Temple Aruppukottai",
+        "address": "Arulmigu Arupathumoovar Gurupoojai Kattalai Attached With Arulmigu Sokkanatha Swamy Temple Aruppukottai, Chokkalingapuram",
+        "pincode": "626101",
+        "district": "Virudhunagar District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Arupathumoovar Gurupoojai Kattalai Attached With Arulmigu Sokkanatha Swamy Temple Aruppukottai, Arulmigu Arupathumoovar Gurupoojai Kattalai Attached With Arulmigu Sokkanatha Swamy Temple Aruppukottai, Chokkalingapuram, 626101"
+      },
+      {
+        "Unnamed: 0": 783,
+        "id": "TM035856",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Pichai Kattalai Attached With Arulmigu Vaithiyanatha Swamy Temple",
+        "address": "Pichai Kattalai Attached With Arulmigu Vaithiyanatha Swamy Temple, Madavar Valagam,",
+        "pincode": "626125",
+        "district": "Virudhunagar District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Pichai Kattalai Attached With Arulmigu Vaithiyanatha Swamy Temple, Pichai Kattalai Attached With Arulmigu Vaithiyanatha Swamy Temple, Madavar Valagam,, 626125"
+      },
+      {
+        "Unnamed: 0": 784,
+        "id": "TM035859",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Manavala Mamunigal Sannathi",
+        "address": "Arulmigu Manavala Mamunigal Sannathi, Srivilliputhur",
+        "pincode": "626125",
+        "district": "Virudhunagar District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Manavala Mamunigal Sannathi, Arulmigu Manavala Mamunigal Sannathi, Srivilliputhur, 626125"
+      }
+    ]
+  },
+  "Ramanathapuram District": {
+    "count": 493,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 781,
+        "id": "TM035825",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Uchikala Kattalai And Arthajama Kattalai At Arulmigu Veyiluganthamman Temple",
+        "address": "Arulmigu Uchikala Kattalai And Arthajama Kattalai At Arulmigu Veyiluganthamman Temple, Uppoor",
+        "pincode": "623525",
+        "district": "Ramanathapuram District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Uchikala Kattalai And Arthajama Kattalai At Arulmigu Veyiluganthamman Temple, Arulmigu Uchikala Kattalai And Arthajama Kattalai At Arulmigu Veyiluganthamman Temple, Uppoor, 623525"
+      },
+      {
+        "Unnamed: 0": 782,
+        "id": "TM035849",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Vr Chathiram",
+        "address": "Vr Chathiram, Rameswaram",
+        "pincode": "623526",
+        "district": "Ramanathapuram District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Vr Chathiram, Vr Chathiram, Rameswaram, 623526"
+      },
+      {
+        "Unnamed: 0": 818,
+        "id": "TM036157",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Villapoojai Kattalai attached Arulmigu Naganathaswamy Temple",
+        "address": "Villapoojai Kattalai attached Arulmigu Naganathaswamy Temple, Nainarkovil",
+        "pincode": "623707",
+        "district": "Ramanathapuram District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Villapoojai Kattalai attached Arulmigu Naganathaswamy Temple, Villapoojai Kattalai attached Arulmigu Naganathaswamy Temple, Nainarkovil, 623707"
+      },
+      {
+        "Unnamed: 0": 819,
+        "id": "TM036158",
+        "temple_type": "tn_specific_endowments",
+        "temple_name": "Arulmigu Aadhijeganathaperumal Temple Thirumanjana Kattalai",
+        "address": "Arulmigu Aadhijeganathaperumal Temple Thirumanjana Kattalai, Thiruppullani",
+        "pincode": "623707",
+        "district": "Ramanathapuram District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Aadhijeganathaperumal Temple Thirumanjana Kattalai, Arulmigu Aadhijeganathaperumal Temple Thirumanjana Kattalai, Thiruppullani, 623707"
+      },
+      {
+        "Unnamed: 0": 34240,
+        "id": "TM035671",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Ramanathaswamy Temple",
+        "address": "Arulmigu Ramanathaswamy Temple, Rameswaram",
+        "pincode": "623526",
+        "district": "Ramanathapuram District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Ramanathaswamy Temple, Arulmigu Ramanathaswamy Temple, Rameswaram, 623526"
+      }
+    ]
+  },
+  "Krishnagiri District": {
+    "count": 1387,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 5707,
+        "id": "TM004921",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Chanthira Choodeswarar Temple",
+        "address": "Arulmigu Chanthira Choodeswarar Temple, Hill Station, Chennathur",
+        "pincode": "635109",
+        "district": "Krishnagiri District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Chanthira Choodeswarar Temple, Arulmigu Chanthira Choodeswarar Temple, Hill Station, Chennathur, 635109"
+      },
+      {
+        "Unnamed: 0": 5708,
+        "id": "TM004922",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Kalyana Soodeswarar Temple",
+        "address": "Arulmigu Kalyana Soodeswarar Temple, Chennathur",
+        "pincode": "635109",
+        "district": "Krishnagiri District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Kalyana Soodeswarar Temple, Arulmigu Kalyana Soodeswarar Temple, Chennathur, 635109"
+      },
+      {
+        "Unnamed: 0": 5709,
+        "id": "TM004923",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Biravar Temple",
+        "address": "Arulmigu Biravar Temple, Hill Station, Chennathur",
+        "pincode": "635109",
+        "district": "Krishnagiri District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Biravar Temple, Arulmigu Biravar Temple, Hill Station, Chennathur, 635109"
+      },
+      {
+        "Unnamed: 0": 5710,
+        "id": "TM004924",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Kasi Viswanathar Temple",
+        "address": "Arulmigu Kasi Viswanathar Temple, Hill Station, Chennathur",
+        "pincode": "635109",
+        "district": "Krishnagiri District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Kasi Viswanathar Temple, Arulmigu Kasi Viswanathar Temple, Hill Station, Chennathur, 635109"
+      },
+      {
+        "Unnamed: 0": 5711,
+        "id": "TM004925",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Venkatramana Swamy Temple",
+        "address": "Arulmigu Venkatramana Swamy Temple, Kannampalli, Kanakamutulu",
+        "pincode": "635001",
+        "district": "Krishnagiri District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Venkatramana Swamy Temple, Arulmigu Venkatramana Swamy Temple, Kannampalli, Kanakamutulu, 635001"
+      }
+    ]
+  },
+  "Nilgiris District": {
+    "count": 48,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 10335,
+        "id": "TM009790",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Mariyamman Temple",
+        "address": "Arulmigu Mariyamman Temple, Ooty",
+        "pincode": "643001",
+        "district": "Nilgiris District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Mariyamman Temple, Arulmigu Mariyamman Temple, Ooty, 643001"
+      },
+      {
+        "Unnamed: 0": 10336,
+        "id": "TM009791",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Mariyamman Temple",
+        "address": "Arulmigu Mariyamman Temple, Bokkapuram",
+        "pincode": "643223",
+        "district": "Nilgiris District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Mariyamman Temple, Arulmigu Mariyamman Temple, Bokkapuram, 643223"
+      },
+      {
+        "Unnamed: 0": 10385,
+        "id": "TM009842",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Aanjaneya Swamy Temple",
+        "address": "Arulmigu Aanjaneya Swamy Temple, Old Agrakaram, Ooty",
+        "pincode": "643001",
+        "district": "Nilgiris District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Aanjaneya Swamy Temple, Arulmigu Aanjaneya Swamy Temple, Old Agrakaram, Ooty, 643001"
+      },
+      {
+        "Unnamed: 0": 10386,
+        "id": "TM009843",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Vinayakar Temple",
+        "address": "Arulmigu Vinayakar Temple, Coonoor, Coonoor",
+        "pincode": "643101",
+        "district": "Nilgiris District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Vinayakar Temple, Arulmigu Vinayakar Temple, Coonoor, Coonoor, 643101"
+      },
+      {
+        "Unnamed: 0": 10397,
+        "id": "TM009854",
+        "temple_type": "tn_hindu_temples",
+        "temple_name": "Arulmigu Sivasubramaniyaswamy Temple",
+        "address": "Arulmigu Sivasubramaniyaswamy Temple, Coonoor",
+        "pincode": "643102",
+        "district": "Nilgiris District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Sivasubramaniyaswamy Temple, Arulmigu Sivasubramaniyaswamy Temple, Coonoor, 643102"
+      }
+    ]
+  },
+  "600061": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45960,
+        "id": "TM000728",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Sarva Mangala Rajarajeshwari Temple",
+        "address": "Arulmigu Sarva Mangala Rajarajeshwari Temple, Nanganalloor, Chennai",
+        "pincode": "",
+        "district": "600061",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Sarva Mangala Rajarajeshwari Temple, Arulmigu Sarva Mangala Rajarajeshwari Temple, Nanganalloor, Chennai"
+      }
+    ]
+  },
+  "631502": {
+    "count": 2,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45961,
+        "id": "TM001731",
+        "temple_type": "tn_mutts",
+        "temple_name": "Sankara Mutt",
+        "address": "Sankara Mutt, Kancheepuram",
+        "pincode": "",
+        "district": "631502",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Sankara Mutt, Sankara Mutt, Kancheepuram"
+      },
+      {
+        "Unnamed: 0": 45962,
+        "id": "TM001732",
+        "temple_type": "tn_mutts",
+        "temple_name": "Gnanaprakasa Swamigal Mutt",
+        "address": "Gnanaprakasa Swamigal Mutt, Kancheepuram",
+        "pincode": "",
+        "district": "631502",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Gnanaprakasa Swamigal Mutt, Gnanaprakasa Swamigal Mutt, Kancheepuram"
+      }
+    ]
+  },
+  "603306": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45963,
+        "id": "TM001770",
+        "temple_type": "tn_mutts",
+        "temple_name": "Ahobila Mutt",
+        "address": "Ahobila Mutt, Madhurantakam",
+        "pincode": "",
+        "district": "603306",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Ahobila Mutt, Ahobila Mutt, Madhurantakam"
+      }
+    ]
+  },
+  "631501": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45964,
+        "id": "TM002773",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Azhagiya Manavala Jeeyar Madam",
+        "address": "Arulmigu Azhagiya Manavala Jeeyar Madam, Chinna Kanchipuram, Kancheepuram",
+        "pincode": "",
+        "district": "631501",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Azhagiya Manavala Jeeyar Madam, Arulmigu Azhagiya Manavala Jeeyar Madam, Chinna Kanchipuram, Kancheepuram"
+      }
+    ]
+  },
+  "602105": {
+    "count": 2,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45965,
+        "id": "TM003452",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Embar Jeeyar Madam",
+        "address": "Arulmigu Embar Jeeyar Madam, Near Adikesava Perumal Temple, Sriperumbudur",
+        "pincode": "",
+        "district": "602105",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Embar Jeeyar Madam, Arulmigu Embar Jeeyar Madam, Near Adikesava Perumal Temple, Sriperumbudur"
+      },
+      {
+        "Unnamed: 0": 45966,
+        "id": "TM003455",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Ethiraja Jeeyar Madam",
+        "address": "Arulmigu Ethiraja Jeeyar Madam, Near Adikesava Perumal Temple, Sriperumbudur",
+        "pincode": "",
+        "district": "602105",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Ethiraja Jeeyar Madam, Arulmigu Ethiraja Jeeyar Madam, Near Adikesava Perumal Temple, Sriperumbudur"
+      }
+    ]
+  },
+  "638183": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45967,
+        "id": "TM009678",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Vedhanthasinthanasathumadam",
+        "address": "Arulmigu Vedhanthasinthanasathumadam, Vethanthapuram, Kumarapalayam Agraharam",
+        "pincode": "",
+        "district": "638183",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Vedhanthasinthanasathumadam, Arulmigu Vedhanthasinthanasathumadam, Vethanthapuram, Kumarapalayam Agraharam"
+      }
+    ]
+  },
+  "641049": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45968,
+        "id": "TM009788",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Gowmara Madalayam",
+        "address": "Arulmigu Gowmara Madalayam, Chinnavedampatty, Coimbatore",
+        "pincode": "",
+        "district": "641049",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Gowmara Madalayam, Arulmigu Gowmara Madalayam, Chinnavedampatty, Coimbatore"
+      }
+    ]
+  },
+  "641010": {
+    "count": 2,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45969,
+        "id": "TM009966",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Gana Sivachariyar Madam",
+        "address": "Arulmigu Gana Sivachariyar Madam, Perur, Coimbatore",
+        "pincode": "",
+        "district": "641010",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Gana Sivachariyar Madam, Arulmigu Gana Sivachariyar Madam, Perur, Coimbatore"
+      },
+      {
+        "Unnamed: 0": 45970,
+        "id": "TM010021",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Santhalinga Adigalar Madam",
+        "address": "Arulmigu Santhalinga Adigalar Madam, Perur, Coimbatore",
+        "pincode": "",
+        "district": "641010",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Santhalinga Adigalar Madam, Arulmigu Santhalinga Adigalar Madam, Perur, Coimbatore"
+      }
+    ]
+  },
+  "643001": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45971,
+        "id": "TM010027",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Dhakshnamurthy Madam",
+        "address": "Arulmigu Dhakshnamurthy Madam, Kandhal, Udhagai",
+        "pincode": "",
+        "district": "643001",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Dhakshnamurthy Madam, Arulmigu Dhakshnamurthy Madam, Kandhal, Udhagai"
+      }
+    ]
+  },
+  "638311": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45972,
+        "id": "TM010241",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Thiruvalangadu Immudi Agora Tharma Sivachariyar Ayira Vysiar Madam",
+        "address": "Arulmigu Thiruvalangadu Immudi Agora Tharma Sivachariyar Ayira Vysiar Madam, Nerinjippettai",
+        "pincode": "",
+        "district": "638311",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Thiruvalangadu Immudi Agora Tharma Sivachariyar Ayira Vysiar Madam, Arulmigu Thiruvalangadu Immudi Agora Tharma Sivachariyar Ayira Vysiar Madam, Nerinjippettai"
+      }
+    ]
+  },
+  "641654": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45973,
+        "id": "TM013017",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Thiruppuk Koliur Vakeesar Madam",
+        "address": "Arulmigu Thiruppuk Koliur Vakeesar Madam, Velayudampalayam",
+        "pincode": "",
+        "district": "641654",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Thiruppuk Koliur Vakeesar Madam, Arulmigu Thiruppuk Koliur Vakeesar Madam, Velayudampalayam"
+      }
+    ]
+  },
+  "614810": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45974,
+        "id": "TM015950",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Athivara Madam",
+        "address": "Arulmigu Athivara Madam, Vedaranyam",
+        "pincode": "",
+        "district": "614810",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Athivara Madam, Arulmigu Athivara Madam, Vedaranyam"
+      }
+    ]
+  },
+  "609503": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45975,
+        "id": "TM016959",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Sorkkapuram Mutt",
+        "address": "Arulmigu Sorkkapuram Mutt, Thirumalam",
+        "pincode": "",
+        "district": "609503",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Sorkkapuram Mutt, Arulmigu Sorkkapuram Mutt, Thirumalam"
+      }
+    ]
+  },
+  "612102": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45976,
+        "id": "TM018145",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Arulmigu Sivakragayogigal Madam",
+        "address": "Arulmigu Arulmigu Sivakragayogigal Madam, Suriyanarkoil",
+        "pincode": "",
+        "district": "612102",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Arulmigu Sivakragayogigal Madam, Arulmigu Arulmigu Sivakragayogigal Madam, Suriyanarkoil"
+      }
+    ]
+  },
+  "612001": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45977,
+        "id": "TM018707",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Santhadeva Saraingadesigaperiya Mutt",
+        "address": "Arulmigu Santhadeva Saraingadesigaperiya Mutt, Kumbakonam",
+        "pincode": "",
+        "district": "612001",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Santhadeva Saraingadesigaperiya Mutt, Arulmigu Santhadeva Saraingadesigaperiya Mutt, Kumbakonam"
+      }
+    ]
+  },
+  "607002": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45978,
+        "id": "TM020936",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Srimath Gnaniyar Madam",
+        "address": "Arulmigu Srimath Gnaniyar Madam, Thiruppathiripuliyur, Cuddalore",
+        "pincode": "",
+        "district": "607002",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Srimath Gnaniyar Madam, Arulmigu Srimath Gnaniyar Madam, Thiruppathiripuliyur, Cuddalore"
+      }
+    ]
+  },
+  "605108": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45979,
+        "id": "TM020937",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Shanmugasamy Madam",
+        "address": "Arulmigu Shanmugasamy Madam, Kumarakuppam, Valavanur",
+        "pincode": "",
+        "district": "605108",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Shanmugasamy Madam, Arulmigu Shanmugasamy Madam, Kumarakuppam, Valavanur"
+      }
+    ]
+  },
+  "604304": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45980,
+        "id": "TM022597",
+        "temple_type": "tn_mutts",
+        "temple_name": "Srimath Sivaghana Balayaswamigal Thirumadam",
+        "address": "Srimath Sivaghana Balayaswamigal Thirumadam, Mailam",
+        "pincode": "",
+        "district": "604304",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Srimath Sivaghana Balayaswamigal Thirumadam, Srimath Sivaghana Balayaswamigal Thirumadam, Mailam"
+      }
+    ]
+  },
+  "605757": {
+    "count": 2,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45981,
+        "id": "TM023010",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Srimath Gnaniyaar Madam",
+        "address": "Arulmigu Srimath Gnaniyaar Madam, Keezhaiyur",
+        "pincode": "",
+        "district": "605757",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Srimath Gnaniyaar Madam, Arulmigu Srimath Gnaniyaar Madam, Keezhaiyur"
+      },
+      {
+        "Unnamed: 0": 45982,
+        "id": "TM023011",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Sri Emperumaanaar Jeeyar Madam",
+        "address": "Arulmigu Sri Emperumaanaar Jeeyar Madam, Thirukovilur",
+        "pincode": "",
+        "district": "605757",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Sri Emperumaanaar Jeeyar Madam, Arulmigu Sri Emperumaanaar Jeeyar Madam, Thirukovilur"
+      }
+    ]
+  },
+  "606601": {
+    "count": 2,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45983,
+        "id": "TM024295",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Kugainamachivaya Swamy Madam",
+        "address": "Arulmigu Kugainamachivaya Swamy Madam, Thiruvannamalai",
+        "pincode": "",
+        "district": "606601",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Kugainamachivaya Swamy Madam, Arulmigu Kugainamachivaya Swamy Madam, Thiruvannamalai"
+      },
+      {
+        "Unnamed: 0": 45984,
+        "id": "TM024351",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Esanya Madam",
+        "address": "Arulmigu Esanya Madam, Thiruvannamalai",
+        "pincode": "",
+        "district": "606601",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Esanya Madam, Arulmigu Esanya Madam, Thiruvannamalai"
+      }
+    ]
+  },
+  "621005": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45985,
+        "id": "TM025935",
+        "temple_type": "tn_mutts",
+        "temple_name": "Maikandanatha Madam",
+        "address": "Maikandanatha Madam, Nochiyam, Mathavaperumalkoil",
+        "pincode": "",
+        "district": "621005",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Maikandanatha Madam, Maikandanatha Madam, Nochiyam, Mathavaperumalkoil"
+      }
+    ]
+  },
+  "620017": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45986,
+        "id": "TM026843",
+        "temple_type": "tn_mutts",
+        "temple_name": "Manikkavasakar Madam",
+        "address": "Manikkavasakar Madam, Thennur, Thiruchirappalli",
+        "pincode": "",
+        "district": "620017",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Manikkavasakar Madam, Manikkavasakar Madam, Thennur, Thiruchirappalli"
+      }
+    ]
+  },
+  "620006": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45987,
+        "id": "TM026965",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Pilagiri Purushotamar Ramanujar Madam",
+        "address": "Arulmigu Pilagiri Purushotamar Ramanujar Madam, Srirangam, Thiruchirappalli",
+        "pincode": "",
+        "district": "620006",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Pilagiri Purushotamar Ramanujar Madam, Arulmigu Pilagiri Purushotamar Ramanujar Madam, Srirangam, Thiruchirappalli"
+      }
+    ]
+  },
+  "625001": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45988,
+        "id": "TM032006",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Thirughanasambantham Swamigal Mutt",
+        "address": "Arulmigu Thirughanasambantham Swamigal Mutt, Madurai",
+        "pincode": "",
+        "district": "625001",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Thirughanasambantham Swamigal Mutt, Arulmigu Thirughanasambantham Swamigal Mutt, Madurai"
+      }
+    ]
+  },
+  "627108": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45989,
+        "id": "TM037882",
+        "temple_type": "tn_mutts",
+        "temple_name": "Sri Vanamamalai Madam",
+        "address": "Sri Vanamamalai Madam, Nanguneri",
+        "pincode": "",
+        "district": "627108",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Sri Vanamamalai Madam, Sri Vanamamalai Madam, Nanguneri"
+      }
+    ]
+  },
+  "627115": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45990,
+        "id": "TM037930",
+        "temple_type": "tn_mutts",
+        "temple_name": "Jeeir Madam",
+        "address": "Jeeir Madam, Thirukurungudi",
+        "pincode": "",
+        "district": "627115",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Jeeir Madam, Jeeir Madam, Thirukurungudi"
+      }
+    ]
+  },
+  "627416": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45991,
+        "id": "TM038161",
+        "temple_type": "tn_mutts",
+        "temple_name": "Velakurichi Madam",
+        "address": "Velakurichi Madam, Kallidaikurichi",
+        "pincode": "",
+        "district": "627416",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Velakurichi Madam, Velakurichi Madam, Kallidaikurichi"
+      }
+    ]
+  },
+  "627802": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45992,
+        "id": "TM038175",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Sitheswari Peetam Mouna Swamy Madam",
+        "address": "Arulmigu Sitheswari Peetam Mouna Swamy Madam, Courtrallam",
+        "pincode": "",
+        "district": "627802",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Sitheswari Peetam Mouna Swamy Madam, Arulmigu Sitheswari Peetam Mouna Swamy Madam, Courtrallam"
+      }
+    ]
+  },
+  "628601": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45993,
+        "id": "TM038195",
+        "temple_type": "tn_mutts",
+        "temple_name": "Umaiorubagakurukkal Madam",
+        "address": "Umaiorubagakurukkal Madam, Srivaikundam",
+        "pincode": "",
+        "district": "628601",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Umaiorubagakurukkal Madam, Umaiorubagakurukkal Madam, Srivaikundam"
+      }
+    ]
+  },
+  "629704": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45994,
+        "id": "TM038295",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Umaiorupaga Athinamadam",
+        "address": "Arulmigu Umaiorupaga Athinamadam, Therroor",
+        "pincode": "",
+        "district": "629704",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Umaiorupaga Athinamadam, Arulmigu Umaiorupaga Athinamadam, Therroor"
+      }
+    ]
+  },
+  "629171": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45995,
+        "id": "TM038296",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Munchirai Madam",
+        "address": "Arulmigu Munchirai Madam, Munchirai",
+        "pincode": "",
+        "district": "629171",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Munchirai Madam, Arulmigu Munchirai Madam, Munchirai"
+      }
+    ]
+  },
+  "629174": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45996,
+        "id": "TM038297",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Narasima Madam",
+        "address": "Arulmigu Narasima Madam, Thiruvattar",
+        "pincode": "",
+        "district": "629174",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Narasima Madam, Arulmigu Narasima Madam, Thiruvattar"
+      }
+    ]
+  },
+  "628752": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45997,
+        "id": "TM041597",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Sengol Madam",
+        "address": "Arulmigu Sengol Madam, Perungulam",
+        "pincode": "",
+        "district": "628752",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Sengol Madam, Arulmigu Sengol Madam, Perungulam"
+      }
+    ]
+  },
+  "606803": {
+    "count": 1,
+    "sample_temples": [
+      {
+        "Unnamed: 0": 45998,
+        "id": "TM043121",
+        "temple_type": "tn_mutts",
+        "temple_name": "Arulmigu Vittoba Madam",
+        "address": "Arulmigu Vittoba Madam, Polur",
+        "pincode": "",
+        "district": "606803",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Vittoba Madam, Arulmigu Vittoba Madam, Polur"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "total_temples": 46004,
+  "temples_with_subdomain": 10,
+  "temples_with_templekb": 6,
+  "temples_with_images": 3,
+  "temples_with_timings": 3,
+  "temples_with_legends": 5,
+  "temples_with_deities": 3,
+  "temples_with_festivals": 3,
+  "data_completeness": {
+    "basic_info": "100%",
+    "subdomain_data": "0.0%",
+    "templekb_data": "0.0%",
+    "images": "0.0%",
+    "timings": "0.0%",
+    "legends": "0.0%",
+    "deities": "0.0%",
+    "festivals": "0.0%"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "total_temples_found": 27,
+  "details_extracted": 27,
+  "categories_scraped": 8,
+  "extraction_timestamp": "2025-08-24T04:01:14.900088",
+  "data_coverage": {
+    "with_deities": 0,
+    "with_festivals": 0,
+    "with_timings": 0,
+    "with_images": 2,
+    "with_tamil_content": 2
+  },
+  "category_distribution": {
+    "Vinayagar": 16,
+    "Shiva_Devaram": 11
+  }
+}

@@ -1,0 +1,540 @@
+[
+  {
+    "pageid": "12377",
+    "title_ta": "அழியாத சோழர் பெருங்கோயில்கள்",
+    "source": "ta.wikipedia",
+    "title": "அழியாத சோழர் பெருங்கோயில்கள்",
+    "lang": "ta",
+    "wikidata_id": "Q695229",
+    "linked_title": "Great Living Chola Temples",
+    "coordinates": {
+      "lon": 79.1325,
+      "lat": 10.783055555
+    },
+    "location": "Tamil Nadu, India",
+    "website": "https://asi.nic.in/chola-temple-brhadisvara/",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Darasuram%2C%20Airavatesvara%20Temple%2C%20Dravidian%20architecture%2C%20India.jpg"
+  },
+  {
+    "pageid": "206401",
+    "title_ta": "சூடாமணி விகாரம்",
+    "source": "ta.wikipedia",
+    "title": "சூடாமணி விகாரம்",
+    "lang": "ta",
+    "wikidata_id": "Q5115900",
+    "linked_title": "Chudamani Vihara",
+    "location": "New York"
+  },
+  {
+    "pageid": "129493",
+    "title_ta": "தமிழ்நாட்டில் மலைக்கோயில்கள்",
+    "source": "ta.wikipedia",
+    "title": "தமிழ்நாட்டில் மலைக்கோயில்கள்",
+    "lang": "ta",
+    "wikidata_id": "Q16311986"
+  },
+  {
+    "pageid": "70895",
+    "title_ta": "தமிழ்நாட்டுக் கோயில் விமானம்",
+    "source": "ta.wikipedia",
+    "title": "தமிழ்நாட்டுக் கோயில் விமானம்",
+    "lang": "ta",
+    "wikidata_id": "Q12983695"
+  },
+  {
+    "pageid": "21869",
+    "title_ta": "தமிழகக் கோவில்கள்",
+    "source": "ta.wikipedia",
+    "title": "தமிழகக் கோவில்கள்",
+    "lang": "ta",
+    "wikidata_id": "Q12983281"
+  },
+  {
+    "pageid": "182287",
+    "title_ta": "தேவார வைப்புத் தலங்கள்",
+    "source": "ta.wikipedia",
+    "title": "தேவார வைப்புத் தலங்கள்",
+    "lang": "ta",
+    "wikidata_id": "Q7908826",
+    "linked_title": "Vaippu Sthalam"
+  },
+  {
+    "pageid": "121507",
+    "title_ta": "தேவாரத் திருத்தலங்கள்",
+    "source": "ta.wikipedia",
+    "title": "தேவாரத் திருத்தலங்கள்",
+    "lang": "ta",
+    "wikidata_id": "Q7121413",
+    "linked_title": "Paadal Petra Sthalam",
+    "location": "Colombo, Sri Lanka"
+  },
+  {
+    "pageid": "244974",
+    "title_ta": "மாடக்கோயில்",
+    "source": "ta.wikipedia",
+    "title": "மாடக்கோயில்",
+    "lang": "ta",
+    "wikidata_id": "Q19809780"
+  },
+  {
+    "pageid": "11406510",
+    "title_en": "List of Hindu temples in Tamil Nadu",
+    "source": "en.wikipedia",
+    "title": "List of Hindu temples in Tamil Nadu",
+    "lang": "en",
+    "wikidata_id": "Q16056680",
+    "location": "Chennai"
+  },
+  {
+    "pageid": "74382378",
+    "title_en": "Adi Srinivasa perumal temple",
+    "source": "en.wikipedia",
+    "title": "Adi Srinivasa perumal temple",
+    "lang": "en",
+    "wikidata_id": "Q121091000",
+    "coordinates": {
+      "lon": 78.2577,
+      "lat": 12.1386
+    },
+    "deity": "Adi Srinivasa Perumal (Vishnu), Padmavathi Thayar (Lakshmi)",
+    "location": "Mookanur",
+    "district": "Dharmapuri district",
+    "architecture": "Dravidian architecture",
+    "built_by": "Pallava dynasty",
+    "year_completed": ""
+  },
+  {
+    "pageid": "70676949",
+    "title_en": "Arulmigu Manneaswarar Temple, Annur",
+    "source": "en.wikipedia",
+    "title": "Arulmigu Manneaswarar Temple, Annur",
+    "lang": "en",
+    "wikidata_id": "Q111804421",
+    "coordinates": {
+      "lon": 77.103642,
+      "lat": 11.232683
+    },
+    "deity": "{{Plainlist",
+    "district": "Coimbatore",
+    "festivals": "Chithirai Thiruvizha, Maha Shivarathiri, Cradle festival",
+    "architecture": "Dravidian architecture"
+  },
+  {
+    "pageid": "3091793",
+    "title_en": "Divya Desam",
+    "source": "en.wikipedia",
+    "title": "Divya Desam",
+    "lang": "en",
+    "wikidata_id": "Q2642068",
+    "linked_title": "108 வைணவத் திருத்தலங்கள்",
+    "location": "Coimbatore",
+    "coordinates": {
+      "lon": 78.689722,
+      "lat": 10.8625
+    }
+  },
+  {
+    "pageid": "70752409",
+    "title_en": "Engan Brahmapurisvarar Temple",
+    "source": "en.wikipedia",
+    "title": "Engan Brahmapurisvarar Temple",
+    "lang": "en",
+    "wikidata_id": "Q111962055",
+    "linked_title": "எண்கண் பிரம்மபுரீசுவரர் கோயில்",
+    "deity": "=",
+    "location": "[[Engan, India",
+    "architecture": "Dravida architecture"
+  },
+  {
+    "pageid": "3457777",
+    "title_en": "Great Living Chola Temples",
+    "source": "en.wikipedia",
+    "title": "Great Living Chola Temples",
+    "lang": "en",
+    "wikidata_id": "Q695229",
+    "coordinates": {
+      "lon": 79.1325,
+      "lat": 10.783055555
+    },
+    "linked_title": "அழியாத சோழர் பெருங்கோயில்கள்",
+    "location": "Tamil Nadu, India",
+    "website": "https://asi.nic.in/chola-temple-brhadisvara/",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Darasuram%2C%20Airavatesvara%20Temple%2C%20Dravidian%20architecture%2C%20India.jpg"
+  },
+  {
+    "pageid": "1543998",
+    "title_en": "Kalikesam",
+    "source": "en.wikipedia",
+    "title": "Kalikesam",
+    "lang": "en",
+    "wikidata_id": "Q6352689",
+    "coordinates": {
+      "lon": 77.3915,
+      "lat": 8.411
+    },
+    "linked_title": "காளிகேசம்",
+    "deity": "Kali",
+    "district": "Kanyakumari district",
+    "architecture": "",
+    "built_by": ""
+  },
+  {
+    "pageid": "75841603",
+    "title_en": "Kodandaramaswamy Temple, Ayodhyapatinam",
+    "source": "en.wikipedia",
+    "title": "Kodandaramaswamy Temple, Ayodhyapatinam",
+    "lang": "en",
+    "wikidata_id": "Q124408783",
+    "coordinates": {
+      "lon": 78.2385,
+      "lat": 11.6748
+    },
+    "linked_title": "அயோத்தியாபட்டினம் கோதண்டபாணி ராமர் கோயில்",
+    "deity": "Kodandaramaswamy (Rama), Seethalakshmi (Sita)",
+    "location": "[[Ayothiapattinam",
+    "district": "Salem district",
+    "architecture": "Dravidian architecture",
+    "built_by": "Vijayanagara dynasty",
+    "year_completed": ""
+  },
+  {
+    "pageid": "51992433",
+    "title_en": "Kondarangi Hills",
+    "source": "en.wikipedia",
+    "title": "Kondarangi Hills",
+    "lang": "en",
+    "wikidata_id": "Q28172885",
+    "coordinates": {
+      "lon": 77.730901,
+      "lat": 10.627988
+    },
+    "deity": "Shiva",
+    "district": "Dindigul",
+    "festivals": "",
+    "architecture": "TAMIL ARCHITECTURE",
+    "built_by": "",
+    "year_completed": "",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Kondarangi%20hills.jpg"
+  },
+  {
+    "pageid": "77980586",
+    "title_en": "Kuruvithurai Chitra Ratha Vallabha Perumal Temple",
+    "source": "en.wikipedia",
+    "title": "Kuruvithurai Chitra Ratha Vallabha Perumal Temple",
+    "lang": "en",
+    "wikidata_id": "Q130373275",
+    "coordinates": {
+      "lon": 77.896548,
+      "lat": 10.070364
+    },
+    "linked_title": "குருவித்துறை சித்திர ரத வல்லப பெருமாள் கோயில்",
+    "deity": "Chitra Ratha Vallabha Perumal",
+    "location": "Kuruvithurai",
+    "district": "[[Madurai district",
+    "festivals": "Vaikuntha Ekadashi, Krishna Janmashtami",
+    "architecture": "Dravidian architecture"
+  },
+  {
+    "pageid": "9152006",
+    "title_en": "List of Solesvara temples",
+    "source": "en.wikipedia",
+    "title": "List of Solesvara temples",
+    "lang": "en",
+    "wikidata_id": "Q6597332",
+    "linked_title": "சோழீசுவரர் கோயில்களின் பட்டியல்"
+  },
+  {
+    "pageid": "44256069",
+    "title_en": "Loga Nayaga Shaniswara Temple",
+    "source": "en.wikipedia",
+    "title": "Loga Nayaga Shaniswara Temple",
+    "lang": "en",
+    "wikidata_id": "Q18388999",
+    "coordinates": {
+      "lon": 76.99694444,
+      "lat": 11.02111111
+    },
+    "linked_title": "லோக நாயக சனீசுவரன் கோயில்",
+    "deity": "Shani",
+    "location": "Puliakulam, Coimbatore",
+    "district": "Coimbatore district",
+    "festivals": "",
+    "architecture": "",
+    "built_by": "",
+    "year_completed": "",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Loga%20Nayaga%20Shani%20Eswara%20Bagavaan7.jpg"
+  },
+  {
+    "pageid": "72637265",
+    "title_en": "Mahalingapuram Ayyappan Temple",
+    "source": "en.wikipedia",
+    "title": "Mahalingapuram Ayyappan Temple",
+    "lang": "en",
+    "wikidata_id": "Q115949877",
+    "coordinates": {
+      "lon": 80.231805555,
+      "lat": 13.056388888
+    },
+    "linked_title": "மகாலிங்கபுரம் ஐயப்பன் கோயில்",
+    "deity": "Ayyappan",
+    "location": "Nungambakkam",
+    "district": "Chennai district",
+    "festivals": "Gokulashtami, Makar Sankranti, Chitrai Vishu, 1st day of Tamil Karthigai month",
+    "architecture": "Kerala Architecture",
+    "year_completed": "1974{{Cite book"
+  },
+  {
+    "pageid": "32464308",
+    "title_en": "Mayuranathaswami Temple, Mayiladuthurai",
+    "source": "en.wikipedia",
+    "title": "Mayuranathaswami Temple, Mayiladuthurai",
+    "lang": "en",
+    "wikidata_id": "Q6798115",
+    "coordinates": {
+      "lon": 79.0,
+      "lat": 11.0
+    },
+    "linked_title": "மயிலாடுதுறை மாயூரநாதசுவாமி கோயில்",
+    "deity": "Mayuranathaswamy (Shiva)",
+    "location": "Mayiladuthurai",
+    "district": "[[Mayiladuthurai district",
+    "festivals": "",
+    "architecture": "[[Dravidian architecture",
+    "built_by": "",
+    "year_completed": "",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Mayuranathar%20temple16.jpg"
+  },
+  {
+    "pageid": "47796195",
+    "title_en": "Nava Kailasam",
+    "source": "en.wikipedia",
+    "title": "Nava Kailasam",
+    "lang": "en",
+    "wikidata_id": "Q12983287",
+    "linked_title": "தமிழகத்தின் நவ கைலாயங்கள்"
+  },
+  {
+    "pageid": "64649281",
+    "title_en": "Nava Puliyur Temples",
+    "source": "en.wikipedia",
+    "title": "Nava Puliyur Temples",
+    "lang": "en",
+    "wikidata_id": "Q83134594",
+    "linked_title": "நவ புலியூர்க் கோயில்கள்"
+  },
+  {
+    "pageid": "13630160",
+    "title_en": "Paadal Petra Sthalam",
+    "source": "en.wikipedia",
+    "title": "Paadal Petra Sthalam",
+    "lang": "en",
+    "wikidata_id": "Q7121413",
+    "linked_title": "தேவாரத் திருத்தலங்கள்",
+    "location": "Colombo, Sri Lanka"
+  },
+  {
+    "pageid": "74388246",
+    "title_en": "Pancha Kshethram",
+    "source": "en.wikipedia",
+    "title": "Pancha Kshethram",
+    "lang": "en",
+    "wikidata_id": "Q121091558",
+    "location": "Kanniyakumari"
+  },
+  {
+    "pageid": "12317947",
+    "title_en": "Pancharanga Kshetrams",
+    "source": "en.wikipedia",
+    "title": "Pancharanga Kshetrams",
+    "lang": "en",
+    "wikidata_id": "Q16311865",
+    "linked_title": "பஞ்சரங்க தலங்கள்"
+  },
+  {
+    "pageid": "72048927",
+    "title_en": "Pathala Ponniamman Temple",
+    "source": "en.wikipedia",
+    "title": "Pathala Ponniamman Temple",
+    "lang": "en",
+    "wikidata_id": "Q114757335",
+    "coordinates": {
+      "lon": 80.248916666,
+      "lat": 13.081222222
+    },
+    "linked_title": "பாதாள பொன்னியம்மன் கோயில்",
+    "location": "Kilpauk",
+    "district": "Chennai"
+  },
+  {
+    "pageid": "71854648",
+    "title_en": "Prasanna Venkatachalapathy Temple, Tallakulam",
+    "source": "en.wikipedia",
+    "title": "Prasanna Venkatachalapathy Temple, Tallakulam",
+    "lang": "en",
+    "wikidata_id": "Q114243817",
+    "coordinates": {
+      "lon": 78.135888888,
+      "lat": 9.934083333
+    },
+    "linked_title": "பிரசன்ன வெங்கடாசலபதி கோயில், தல்லாகுளம்",
+    "deity": "",
+    "location": "Tallakulam",
+    "district": "Madurai",
+    "festivals": "="
+  },
+  {
+    "pageid": "74819711",
+    "title_en": "Putlur Angala Parameshwari Amman Temple",
+    "source": "en.wikipedia",
+    "title": "Putlur Angala Parameshwari Amman Temple",
+    "lang": "en",
+    "wikidata_id": "Q122864393",
+    "coordinates": {
+      "lon": 79.939049,
+      "lat": 13.117891
+    },
+    "deity": "Poongavanathu Amman (Parvathi)",
+    "location": "[[Putlur (Tiruvallur district)",
+    "district": "[[Tiruvallur district",
+    "festivals": "",
+    "architecture": "[[Hindu architecture",
+    "year_completed": ""
+  },
+  {
+    "pageid": "71916001",
+    "title_en": "Somanatha Swamy Temple",
+    "source": "en.wikipedia",
+    "title": "Somanatha Swamy Temple",
+    "lang": "en",
+    "wikidata_id": "Q114404447",
+    "coordinates": {
+      "lon": 80.214972222,
+      "lat": 13.124861111
+    },
+    "linked_title": "சோமநாத சுவாமி கோயில்",
+    "deity": "Somanatheeswarar",
+    "location": "[[Kolathur, Chennai",
+    "district": "",
+    "festivals": "Shivratri, Amavasya, Pradosham",
+    "architecture": "",
+    "year_completed": "800 years ago"
+  },
+  {
+    "pageid": "62405662",
+    "title_en": "Sorimuthu Ayyanar Temple",
+    "source": "en.wikipedia",
+    "title": "Sorimuthu Ayyanar Temple",
+    "lang": "en",
+    "wikidata_id": "Q85802138",
+    "linked_title": "சொரிமுத்து அய்யனார் கோயில்"
+  },
+  {
+    "pageid": "53228153",
+    "title_en": "Soundararajan Temple, Kadichambadi",
+    "source": "en.wikipedia",
+    "title": "Soundararajan Temple, Kadichambadi",
+    "lang": "en",
+    "wikidata_id": "Q30592121",
+    "linked_title": "கடிச்சம்பாடி சௌந்திராஜபெருமாள் கோயில்",
+    "festivals": "="
+  },
+  {
+    "pageid": "71192365",
+    "title_en": "Thanjavur Palace Devasthanam",
+    "source": "en.wikipedia",
+    "title": "Thanjavur Palace Devasthanam",
+    "lang": "en",
+    "wikidata_id": "Q31367731",
+    "linked_title": "தஞ்சாவூர் அரண்மனை தேவஸ்தானக் கோயில்கள்"
+  },
+  {
+    "pageid": "77113465",
+    "title_en": "Thiruvalluvar Temple, Tiruchuli",
+    "source": "en.wikipedia",
+    "title": "Thiruvalluvar Temple, Tiruchuli",
+    "lang": "en",
+    "wikidata_id": "Q126888701",
+    "location": "Madurai",
+    "festivals": "="
+  },
+  {
+    "pageid": "32556942",
+    "title_en": "Thiruvisanallur Sivayoginathar Temple",
+    "source": "en.wikipedia",
+    "title": "Thiruvisanallur Sivayoginathar Temple",
+    "lang": "en",
+    "wikidata_id": "Q7532442",
+    "coordinates": {
+      "lon": 79.45,
+      "lat": 11.0
+    },
+    "linked_title": "திருவிசநல்லூர் யோகநந்தீசுவரர் கோயில்",
+    "deity": "Sivayoganatha Swamy (Shiva)",
+    "location": "Thiruvisanallur, Tamil Nadu, India",
+    "district": "Tanjore",
+    "festivals": "",
+    "architecture": "Tamil architecture",
+    "built_by": "",
+    "year_completed": "",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Sivayoginathar%20temple%20%2825%29.jpg"
+  },
+  {
+    "pageid": "47408998",
+    "title_en": "Tirundudevankudi Karkadeswarar Temple",
+    "source": "en.wikipedia",
+    "title": "Tirundudevankudi Karkadeswarar Temple",
+    "lang": "en",
+    "wikidata_id": "Q12984120",
+    "linked_title": "திருந்துதேவன்குடி கற்கடகேசுவரர் கோயில்",
+    "coordinates": {
+      "lon": 79.421666666,
+      "lat": 11.015833333
+    }
+  },
+  {
+    "pageid": "56869987",
+    "title_en": "Twin Temples, Keezhaiyur",
+    "source": "en.wikipedia",
+    "title": "Twin Temples, Keezhaiyur",
+    "lang": "en",
+    "wikidata_id": "Q55636348",
+    "coordinates": {
+      "lon": 79.0408116,
+      "lat": 11.0424555
+    },
+    "linked_title": "கீழையூர் இரட்டைக் கோயில்கள்",
+    "architecture": "=",
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Twin%20Temples%2C%20Keezhaiyur.jpg"
+  },
+  {
+    "pageid": "72021851",
+    "title_en": "Ulagalandha Perumal Temple, Singanallur",
+    "source": "en.wikipedia",
+    "title": "Ulagalandha Perumal Temple, Singanallur",
+    "lang": "en",
+    "wikidata_id": "Q114705401",
+    "coordinates": {
+      "lon": 77.030472,
+      "lat": 10.996833
+    },
+    "linked_title": "உலகளந்த பெருமாள் கோயில்",
+    "location": "Singanallur",
+    "district": "Coimbatore district",
+    "festivals": "Brahmotsav, Thiru Ōnam festival, Sri Vāmana Jayanthi, Mārgazhi utsav, Vaikunta Ekādasi, Sri Rāma Navami, Navrātri, Tamil New year day, Special poojas on Purattaasi Saturdays."
+  },
+  {
+    "pageid": "67242949",
+    "title_en": "Uthiyur",
+    "source": "en.wikipedia",
+    "title": "Uthiyur",
+    "lang": "en",
+    "wikidata_id": "Q107647093",
+    "linked_title": "ஊதியூர்",
+    "festivals": "=",
+    "coordinates": {
+      "lon": 77.528333333,
+      "lat": 10.897222222
+    },
+    "image_url": "http://commons.wikimedia.org/wiki/Special:FilePath/Uthanda-Velayudhasamy-Uthiyur.png"
+  }
+]

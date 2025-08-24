@@ -1,0 +1,92 @@
+[
+  {
+    "temple_id": "TM000006",
+    "temple_name": "Arulmigu Vadapalani Andavar Temple",
+    "district": "Chennai District",
+    "subdomain_url": "https://vadapalaniandavar.hrce.tn.gov.in/",
+    "extraction_timestamp": "2025-08-24T03:46:30.503350",
+    "content_length": 343137,
+    "deities": [
+      "Vadapalani Andavar"
+    ],
+    "image_urls": [
+      "https://hrce.tn.gov.in/resources/docs/templeinfo/general/emblem/6/image_1.png",
+      "https://vadapalaniandavar.hrce.tn.gov.in/../resources/library/images/multiply.png"
+    ],
+    "image_count": 2,
+    "tamil_content": {
+      "phrases": [
+        "அருள்மிகு வடபழநி ஆண்டவர் திருக்கோயில்",
+        "வடபழனி",
+        "சென்னை",
+        "இணைய வழி சேவை",
+        "மறைக்க",
+        "ஒப்புதல்",
+        "சமர்ப்பிக்க",
+        "பயனர் பெயர்",
+        "மாவட்டம்",
+        "வட்டம்",
+        "வருவாய் கிராமம்",
+        "நகரம் பெயர்",
+        "வார்டு பெயர்",
+        "தொகுதி பெயர்",
+        "நீங்கள் வெளிப்புற இணையதளத்திற்கு திருப்பி விடப்படுகிறீர்கள்"
+      ],
+      "has_tamil": true
+    },
+    "contact_phones": [
+      "1755978383"
+    ],
+    "festival_mentions": [
+      "trim()=='N' || mapping_status_json['festival']",
+      "val());\r\n\t\t\t\t}\r\n\t\t\t  \r\n\t\t\t    if(formname=='festivaldetailform')\r\n\t\t\t\t{\r\n\t                 form_data"
+    ],
+    "extraction_status": "success",
+    "subdomain_pattern": "vadapalaniandavar"
+  },
+  {
+    "temple_id": "TM010245",
+    "temple_name": "Arulmigu Bannari Mariamman Temple",
+    "district": "Erode District",
+    "subdomain_url": "https://bannarimariamman.hrce.tn.gov.in/",
+    "extraction_timestamp": "2025-08-24T03:46:52.189354",
+    "content_length": 342463,
+    "deities": [
+      "Bannari Mariamman"
+    ],
+    "image_urls": [
+      "https://hrce.tn.gov.in/resources/docs/templeinfo/general/emblem/10245/image_1.jpg",
+      "https://bannarimariamman.hrce.tn.gov.in/../resources/library/images/multiply.png"
+    ],
+    "image_count": 2,
+    "tamil_content": {
+      "phrases": [
+        "அருள்மிகு பண்ணாரி மாரியம்மன் திருக்கோயில்",
+        "பண்ணாரி",
+        "ஈரோடு",
+        "இணைய வழி சேவை",
+        "மறைக்க",
+        "ஒப்புதல்",
+        "சமர்ப்பிக்க",
+        "பயனர் பெயர்",
+        "மாவட்டம்",
+        "வட்டம்",
+        "வருவாய் கிராமம்",
+        "நகரம் பெயர்",
+        "வார்டு பெயர்",
+        "தொகுதி பெயர்",
+        "நீங்கள் வெளிப்புற இணையதளத்திற்கு திருப்பி விடப்படுகிறீர்கள்"
+      ],
+      "has_tamil": true
+    },
+    "contact_phones": [
+      "1755978405"
+    ],
+    "festival_mentions": [
+      "trim()=='N' || mapping_status_json['festival']",
+      "val());\r\n\t\t\t\t}\r\n\t\t\t  \r\n\t\t\t    if(formname=='festivaldetailform')\r\n\t\t\t\t{\r\n\t                 form_data"
+    ],
+    "extraction_status": "success",
+    "subdomain_pattern": "bannarimariamman"
+  }
+]

@@ -1,0 +1,1 @@
+['letter_no','section80g','account_status','validity80g_upto','excemptionpercent','section12a','validity12a_upto','account_purpose','pan_number']

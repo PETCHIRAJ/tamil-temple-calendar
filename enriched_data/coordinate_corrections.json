@@ -1,0 +1,32 @@
+{
+  "corrections": [
+    {
+      "temple_id": "TM018030",
+      "temple_name": "Arulmigu Vaithiyanathaswamy Temple",
+      "location": "Vaitheeswarankoil",
+      "original_coordinates": {
+        "latitude": 11.191226,
+        "longitude": 79.6759319,
+        "source": "osm_nominatim",
+        "issue": "Longitude off by ~4km"
+      },
+      "corrected_coordinates": {
+        "latitude": 11.19500,
+        "longitude": 79.71417,
+        "source": "wikipedia_verified",
+        "confidence": "high",
+        "references": [
+          "https://en.wikipedia.org/wiki/Vaitheeswaran_Koil"
+        ]
+      },
+      "correction_date": "2025-08-24",
+      "verified_by": "user_feedback"
+    }
+  ],
+  "verification_notes": {
+    "Thirupanandal": "Coordinates verified correct within 200m",
+    "Thirukadaiyur": "Coordinates verified correct within 400m", 
+    "Sirkazhi": "Coordinates verified correct within 400m",
+    "Vaitheeswarankoil": "Required correction - longitude was off by 4km"
+  }
+}
