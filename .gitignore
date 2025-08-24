@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Large data files (track with Git LFS if needed)
+*.xlsx
+*.xls
+
+# Temporary files
+*.tmp
+*.bak
+*_backup_*.json
+raw_data/*.html
+
+# Sensitive data
+.env
+config/secrets.json
+
+# Node (if you add web frontend later)
+node_modules/
+dist/
+build/
+
+# Logs
+*.log
+logs/
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
