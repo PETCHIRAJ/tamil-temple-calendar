@@ -1,0 +1,717 @@
+{
+  "TM003989": {
+    "temple_id": "TM003989",
+    "sources": {
+      "hrce_basic": {
+        "Unnamed: 0": 0,
+        "id": "TM003989",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Achuthananda Swami Madam",
+        "address": "Arulmigu Achuthananda Swami Madam, Wallajah",
+        "pincode": "632401",
+        "district": "Ranipet District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Achuthananda Swami Madam, Arulmigu Achuthananda Swami Madam, Wallajah, 632401"
+      }
+    },
+    "name": "Arulmigu Achuthananda Swami Madam",
+    "district": "Ranipet District",
+    "address": "Arulmigu Achuthananda Swami Madam, Wallajah",
+    "pincode": "632401",
+    "income_category": "49_i",
+    "temple_type": "tn_temples_attached_to_mutts",
+    "deities": [],
+    "festivals": [],
+    "timings": [],
+    "images": [],
+    "legends": [],
+    "tamil_content": {},
+    "contact_info": {},
+    "additional_info": {}
+  },
+  "TM004316": {
+    "temple_id": "TM004316",
+    "sources": {
+      "hrce_basic": {
+        "Unnamed: 0": 1,
+        "id": "TM004316",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Thirugnana Samanthar Temple",
+        "address": "Arulmigu Thirugnana Samanthar Temple, Tharanampettai",
+        "pincode": "632601",
+        "district": "Vellore District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Thirugnana Samanthar Temple, Arulmigu Thirugnana Samanthar Temple, Tharanampettai, 632601"
+      }
+    },
+    "name": "Arulmigu Thirugnana Samanthar Temple",
+    "district": "Vellore District",
+    "address": "Arulmigu Thirugnana Samanthar Temple, Tharanampettai",
+    "pincode": "632601",
+    "income_category": "49_i",
+    "temple_type": "tn_temples_attached_to_mutts",
+    "deities": [],
+    "festivals": [],
+    "timings": [],
+    "images": [],
+    "legends": [],
+    "tamil_content": {},
+    "contact_info": {},
+    "additional_info": {}
+  },
+  "TM014231": {
+    "temple_id": "TM014231",
+    "sources": {
+      "hrce_basic": {
+        "Unnamed: 0": 2,
+        "id": "TM014231",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Panchanatheeswara Swamy Temple",
+        "address": "Arulmigu Panchanatheeswara Swamy Temple, Ariyaloor Road",
+        "pincode": "613204",
+        "district": "Thanjavur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Panchanatheeswara Swamy Temple, Arulmigu Panchanatheeswara Swamy Temple, Ariyaloor Road, 613204"
+      }
+    },
+    "name": "Arulmigu Panchanatheeswara Swamy Temple",
+    "district": "Thanjavur District",
+    "address": "Arulmigu Panchanatheeswara Swamy Temple, Ariyaloor Road",
+    "pincode": "613204",
+    "income_category": "46_ii",
+    "temple_type": "tn_temples_attached_to_mutts",
+    "deities": [],
+    "festivals": [],
+    "timings": [],
+    "images": [],
+    "legends": [],
+    "tamil_content": {},
+    "contact_info": {},
+    "additional_info": {}
+  },
+  "TM018025": {
+    "temple_id": "TM018025",
+    "sources": {
+      "hrce_basic": {
+        "Unnamed: 0": 3,
+        "id": "TM018025",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Arunajadeswara Swamy Temple",
+        "address": "Arulmigu Arunajadeswara Swamy Temple, Thirupanandal",
+        "pincode": "612504",
+        "district": "Thanjavur District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Arunajadeswara Swamy Temple, Arulmigu Arunajadeswara Swamy Temple, Thirupanandal, 612504"
+      },
+      "hrce_subdomain": {
+        "temple_id": "TM018025",
+        "temple_name": "Arulmigu Arunajadeswara Swamy Temple",
+        "district": "Thanjavur District",
+        "address": "Arulmigu Arunajadeswara Swamy Temple, Thirupanandal",
+        "extraction_status": "no_subdomain"
+      },
+      "osm_geocoding": {
+        "timestamp": "2025-08-24T15:20:48.680716",
+        "confidence": "high"
+      }
+    },
+    "name": "Arulmigu Arunajadeswara Swamy Temple",
+    "district": "Thanjavur District",
+    "address": "Arulmigu Arunajadeswara Swamy Temple, Thirupanandal",
+    "pincode": "612504",
+    "income_category": "46_iii",
+    "temple_type": "tn_temples_attached_to_mutts",
+    "deities": [],
+    "festivals": [],
+    "timings": [],
+    "images": [],
+    "legends": [],
+    "tamil_content": {},
+    "contact_info": {},
+    "additional_info": {},
+    "coordinates": {
+      "latitude": 11.0917536,
+      "longitude": 79.4535047,
+      "display_name": "Thirupanandal, Thiruvidaimarudur, Thanjavur, Tamil Nadu, 612504, India",
+      "confidence": "high",
+      "source": "osm_nominatim",
+      "timestamp": "2025-08-24T14:59:03.793173"
+    }
+  },
+  "TM018029": {
+    "temple_id": "TM018029",
+    "sources": {
+      "hrce_basic": {
+        "Unnamed: 0": 4,
+        "id": "TM018029",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Amirthakadeswaraswamy Temple",
+        "address": "Arulmigu Amirthakadeswaraswamy Temple, Thirukadaiyur",
+        "pincode": "609311",
+        "district": "Mayiladuthurai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Amirthakadeswaraswamy Temple, Arulmigu Amirthakadeswaraswamy Temple, Thirukadaiyur, 609311"
+      },
+      "hrce_subdomain": {
+        "temple_id": "TM018029",
+        "temple_name": "Arulmigu Amirthakadeswaraswamy Temple",
+        "district": "Mayiladuthurai District",
+        "address": "Arulmigu Amirthakadeswaraswamy Temple, Thirukadaiyur",
+        "extraction_status": "no_subdomain"
+      },
+      "osm_geocoding": {
+        "timestamp": "2025-08-24T15:20:48.680731",
+        "confidence": "high"
+      }
+    },
+    "name": "Arulmigu Amirthakadeswaraswamy Temple",
+    "district": "Mayiladuthurai District",
+    "address": "Arulmigu Amirthakadeswaraswamy Temple, Thirukadaiyur",
+    "pincode": "609311",
+    "income_category": "46_iii",
+    "temple_type": "tn_temples_attached_to_mutts",
+    "deities": [],
+    "festivals": [],
+    "timings": [],
+    "images": [],
+    "legends": [],
+    "tamil_content": {},
+    "contact_info": {},
+    "additional_info": {},
+    "coordinates": {
+      "latitude": 11.0739714,
+      "longitude": 79.8049936,
+      "display_name": "Thirukadaiyur, Tharangambadi, Mayiladuthurai, Tamil Nadu, 609311, India",
+      "confidence": "high",
+      "source": "osm_nominatim",
+      "timestamp": "2025-08-24T14:59:05.025853"
+    }
+  },
+  "TM018030": {
+    "temple_id": "TM018030",
+    "sources": {
+      "hrce_basic": {
+        "Unnamed: 0": 5,
+        "id": "TM018030",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Vaithiyanathaswamy Temple",
+        "address": "Arulmigu Vaithiyanathaswamy Temple, Vaitheeswarankoil",
+        "pincode": "609117",
+        "district": "Mayiladuthurai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Vaithiyanathaswamy Temple, Arulmigu Vaithiyanathaswamy Temple, Vaitheeswarankoil, 609117"
+      },
+      "osm_geocoding": {
+        "timestamp": "2025-08-24T15:20:48.680735",
+        "confidence": "high"
+      }
+    },
+    "name": "Arulmigu Vaithiyanathaswamy Temple",
+    "district": "Mayiladuthurai District",
+    "address": "Arulmigu Vaithiyanathaswamy Temple, Vaitheeswarankoil",
+    "pincode": "609117",
+    "income_category": "46_iii",
+    "temple_type": "tn_temples_attached_to_mutts",
+    "deities": [],
+    "festivals": [],
+    "timings": [],
+    "images": [],
+    "legends": [],
+    "tamil_content": {},
+    "contact_info": {},
+    "additional_info": {},
+    "coordinates": {
+      "latitude": 11.195,
+      "longitude": 79.71417,
+      "source": "wikipedia_verified",
+      "confidence": "high",
+      "references": [
+        "https://en.wikipedia.org/wiki/Vaitheeswaran_Koil"
+      ]
+    }
+  },
+  "TM018031": {
+    "temple_id": "TM018031",
+    "sources": {
+      "hrce_basic": {
+        "Unnamed: 0": 6,
+        "id": "TM018031",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Sattanathaswamy Temple",
+        "address": "Arulmigu Sattanathaswamy Temple, Sirkazhi",
+        "pincode": "609110",
+        "district": "Mayiladuthurai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Sattanathaswamy Temple, Arulmigu Sattanathaswamy Temple, Sirkazhi, 609110"
+      },
+      "osm_geocoding": {
+        "timestamp": "2025-08-24T15:20:48.680737",
+        "confidence": "high"
+      }
+    },
+    "name": "Arulmigu Sattanathaswamy Temple",
+    "district": "Mayiladuthurai District",
+    "address": "Arulmigu Sattanathaswamy Temple, Sirkazhi",
+    "pincode": "609110",
+    "income_category": "46_iii",
+    "temple_type": "tn_temples_attached_to_mutts",
+    "deities": [],
+    "festivals": [],
+    "timings": [],
+    "images": [],
+    "legends": [],
+    "tamil_content": {},
+    "contact_info": {},
+    "additional_info": {},
+    "coordinates": {
+      "latitude": 11.2377794,
+      "longitude": 79.7395752,
+      "display_name": "Sirkazhi, Sirkali, Mayiladuthurai, Tamil Nadu, 609100, India",
+      "confidence": "high",
+      "source": "osm_nominatim",
+      "timestamp": "2025-08-24T14:59:07.477507"
+    }
+  },
+  "TM018060": {
+    "temple_id": "TM018060",
+    "sources": {
+      "hrce_basic": {
+        "Unnamed: 0": 7,
+        "id": "TM018060",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Komuktheeswara Swamy Temple",
+        "address": "Arulmigu Komuktheeswara Swamy Temple, Thiruvavaduthurai",
+        "pincode": "609803",
+        "district": "Mayiladuthurai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Komuktheeswara Swamy Temple, Arulmigu Komuktheeswara Swamy Temple, Thiruvavaduthurai, 609803"
+      }
+    },
+    "name": "Arulmigu Komuktheeswara Swamy Temple",
+    "district": "Mayiladuthurai District",
+    "address": "Arulmigu Komuktheeswara Swamy Temple, Thiruvavaduthurai",
+    "pincode": "609803",
+    "income_category": "46_iii",
+    "temple_type": "tn_temples_attached_to_mutts",
+    "deities": [],
+    "festivals": [],
+    "timings": [],
+    "images": [],
+    "legends": [],
+    "tamil_content": {},
+    "contact_info": {},
+    "additional_info": {}
+  },
+  "TM018066": {
+    "temple_id": "TM018066",
+    "sources": {
+      "hrce_basic": {
+        "Unnamed: 0": 8,
+        "id": "TM018066",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Vadavaranyesvara Swamy Temple",
+        "address": "Arulmigu Vadavaranyesvara Swamy Temple, Thiruvalangadu",
+        "pincode": "609810",
+        "district": "Mayiladuthurai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Vadavaranyesvara Swamy Temple, Arulmigu Vadavaranyesvara Swamy Temple, Thiruvalangadu, 609810"
+      }
+    },
+    "name": "Arulmigu Vadavaranyesvara Swamy Temple",
+    "district": "Mayiladuthurai District",
+    "address": "Arulmigu Vadavaranyesvara Swamy Temple, Thiruvalangadu",
+    "pincode": "609810",
+    "income_category": "46_ii",
+    "temple_type": "tn_temples_attached_to_mutts",
+    "deities": [],
+    "festivals": [],
+    "timings": [],
+    "images": [],
+    "legends": [],
+    "tamil_content": {},
+    "contact_info": {},
+    "additional_info": {}
+  },
+  "TM018068": {
+    "temple_id": "TM018068",
+    "sources": {
+      "hrce_basic": {
+        "Unnamed: 0": 9,
+        "id": "TM018068",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Ukthavedhiswarar Swamy Temple",
+        "address": "Arulmigu Ukthavedhiswarar Swamy Temple, Kuthalam",
+        "pincode": "609801",
+        "district": "Mayiladuthurai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Ukthavedhiswarar Swamy Temple, Arulmigu Ukthavedhiswarar Swamy Temple, Kuthalam, 609801"
+      }
+    },
+    "name": "Arulmigu Ukthavedhiswarar Swamy Temple",
+    "district": "Mayiladuthurai District",
+    "address": "Arulmigu Ukthavedhiswarar Swamy Temple, Kuthalam",
+    "pincode": "609801",
+    "income_category": "46_ii",
+    "temple_type": "tn_temples_attached_to_mutts",
+    "deities": [],
+    "festivals": [],
+    "timings": [],
+    "images": [],
+    "legends": [],
+    "tamil_content": {},
+    "contact_info": {},
+    "additional_info": {}
+  },
+  "TM018077": {
+    "temple_id": "TM018077",
+    "sources": {
+      "hrce_basic": {
+        "Unnamed: 0": 10,
+        "id": "TM018077",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Sivalogathiyagaraja Swamy Temple",
+        "address": "Arulmigu Sivalogathiyagaraja Swamy Temple, Aachalpuram",
+        "pincode": "609101",
+        "district": "Mayiladuthurai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Sivalogathiyagaraja Swamy Temple, Arulmigu Sivalogathiyagaraja Swamy Temple, Aachalpuram, 609101"
+      }
+    },
+    "name": "Arulmigu Sivalogathiyagaraja Swamy Temple",
+    "district": "Mayiladuthurai District",
+    "address": "Arulmigu Sivalogathiyagaraja Swamy Temple, Aachalpuram",
+    "pincode": "609101",
+    "income_category": "46_ii",
+    "temple_type": "tn_temples_attached_to_mutts",
+    "deities": [],
+    "festivals": [],
+    "timings": [],
+    "images": [],
+    "legends": [],
+    "tamil_content": {},
+    "contact_info": {},
+    "additional_info": {}
+  },
+  "TM018078": {
+    "temple_id": "TM018078",
+    "sources": {
+      "hrce_basic": {
+        "Unnamed: 0": 11,
+        "id": "TM018078",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Sakthipureeswarar Temple",
+        "address": "Arulmigu Sakthipureeswarar Temple, Karukuilnathanpettai",
+        "pincode": "609118",
+        "district": "Mayiladuthurai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Sakthipureeswarar Temple, Arulmigu Sakthipureeswarar Temple, Karukuilnathanpettai, 609118"
+      }
+    },
+    "name": "Arulmigu Sakthipureeswarar Temple",
+    "district": "Mayiladuthurai District",
+    "address": "Arulmigu Sakthipureeswarar Temple, Karukuilnathanpettai",
+    "pincode": "609118",
+    "income_category": "46_ii",
+    "temple_type": "tn_temples_attached_to_mutts",
+    "deities": [],
+    "festivals": [],
+    "timings": [],
+    "images": [],
+    "legends": [],
+    "tamil_content": {},
+    "contact_info": {},
+    "additional_info": {}
+  },
+  "TM018226": {
+    "temple_id": "TM018226",
+    "sources": {
+      "hrce_basic": {
+        "Unnamed: 0": 12,
+        "id": "TM018226",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Viswanathaswamy Temple",
+        "address": "Arulmigu Viswanathaswamy Temple, Karaikandam",
+        "pincode": "609802",
+        "district": "Mayiladuthurai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_i",
+        "temple_12a_category_description": "having an annual income of Rs.10,000 and less than Rs.2 lakh",
+        "geo_address": "Arulmigu Viswanathaswamy Temple, Arulmigu Viswanathaswamy Temple, Karaikandam, 609802"
+      }
+    },
+    "name": "Arulmigu Viswanathaswamy Temple",
+    "district": "Mayiladuthurai District",
+    "address": "Arulmigu Viswanathaswamy Temple, Karaikandam",
+    "pincode": "609802",
+    "income_category": "46_i",
+    "temple_type": "tn_temples_attached_to_mutts",
+    "deities": [],
+    "festivals": [],
+    "timings": [],
+    "images": [],
+    "legends": [],
+    "tamil_content": {},
+    "contact_info": {},
+    "additional_info": {}
+  },
+  "TM018259": {
+    "temple_id": "TM018259",
+    "sources": {
+      "hrce_basic": {
+        "Unnamed: 0": 13,
+        "id": "TM018259",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Vadhaneswara Swmay Temple",
+        "address": "Arulmigu Vadhaneswara Swmay Temple, Vallarkoil",
+        "pincode": "609001",
+        "district": "Mayiladuthurai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Vadhaneswara Swmay Temple, Arulmigu Vadhaneswara Swmay Temple, Vallarkoil, 609001"
+      }
+    },
+    "name": "Arulmigu Vadhaneswara Swmay Temple",
+    "district": "Mayiladuthurai District",
+    "address": "Arulmigu Vadhaneswara Swmay Temple, Vallarkoil",
+    "pincode": "609001",
+    "income_category": "46_iii",
+    "temple_type": "tn_temples_attached_to_mutts",
+    "deities": [],
+    "festivals": [],
+    "timings": [],
+    "images": [],
+    "legends": [],
+    "tamil_content": {},
+    "contact_info": {},
+    "additional_info": {}
+  },
+  "TM019944": {
+    "temple_id": "TM019944",
+    "sources": {
+      "hrce_basic": {
+        "Unnamed: 0": 14,
+        "id": "TM019944",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Kattalai (E) Kothandaramaperumal Temple",
+        "address": "Kattalai (E) Kothandaramaperumal Temple, Nallur",
+        "pincode": "609101",
+        "district": "Mayiladuthurai District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Kattalai (E) Kothandaramaperumal Temple, Kattalai (E) Kothandaramaperumal Temple, Nallur, 609101"
+      }
+    },
+    "name": "Kattalai (E) Kothandaramaperumal Temple",
+    "district": "Mayiladuthurai District",
+    "address": "Kattalai (E) Kothandaramaperumal Temple, Nallur",
+    "pincode": "609101",
+    "income_category": "49_i",
+    "temple_type": "tn_temples_attached_to_mutts",
+    "deities": [],
+    "festivals": [],
+    "timings": [],
+    "images": [],
+    "legends": [],
+    "tamil_content": {},
+    "contact_info": {},
+    "additional_info": {}
+  },
+  "TM020264": {
+    "temple_id": "TM020264",
+    "sources": {
+      "hrce_basic": {
+        "Unnamed: 0": 15,
+        "id": "TM020264",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Amirthalingeswarar Temple",
+        "address": "Arulmigu Amirthalingeswarar Temple, Muthur",
+        "pincode": "609302",
+        "district": "Mayiladuthurai District",
+        "temple_listing_type": "non_listed",
+        "temple_12a_category": "49_i",
+        "temple_12a_category_description": "having an annual income of less than Rs.10,000",
+        "geo_address": "Arulmigu Amirthalingeswarar Temple, Arulmigu Amirthalingeswarar Temple, Muthur, 609302"
+      }
+    },
+    "name": "Arulmigu Amirthalingeswarar Temple",
+    "district": "Mayiladuthurai District",
+    "address": "Arulmigu Amirthalingeswarar Temple, Muthur",
+    "pincode": "609302",
+    "income_category": "49_i",
+    "temple_type": "tn_temples_attached_to_mutts",
+    "deities": [],
+    "festivals": [],
+    "timings": [],
+    "images": [],
+    "legends": [],
+    "tamil_content": {},
+    "contact_info": {},
+    "additional_info": {}
+  },
+  "TM020385": {
+    "temple_id": "TM020385",
+    "sources": {
+      "hrce_basic": {
+        "Unnamed: 0": 16,
+        "id": "TM020385",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Thiruvikkaraswamy Temple",
+        "address": "Arulmigu Thiruvikkaraswamy Temple, Thirukoilur",
+        "pincode": "605757",
+        "district": "Kallakurichi District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Thiruvikkaraswamy Temple, Arulmigu Thiruvikkaraswamy Temple, Thirukoilur, 605757"
+      },
+      "osm_geocoding": {
+        "timestamp": "2025-08-24T15:20:48.680740",
+        "confidence": "high"
+      }
+    },
+    "name": "Arulmigu Thiruvikkaraswamy Temple",
+    "district": "Kallakurichi District",
+    "address": "Arulmigu Thiruvikkaraswamy Temple, Thirukoilur",
+    "pincode": "605757",
+    "income_category": "46_iii",
+    "temple_type": "tn_temples_attached_to_mutts",
+    "deities": [],
+    "festivals": [],
+    "timings": [],
+    "images": [],
+    "legends": [],
+    "tamil_content": {},
+    "contact_info": {},
+    "additional_info": {},
+    "coordinates": {
+      "latitude": 11.9094283,
+      "longitude": 78.944102,
+      "display_name": "Cuddalore - Thirukoilur - Sankarapuram Road, Sankarapuram, Kallakurichi, Tamil Nadu, India",
+      "confidence": "high",
+      "source": "osm_nominatim",
+      "timestamp": "2025-08-24T14:59:15.844472"
+    }
+  },
+  "TM025457": {
+    "temple_id": "TM025457",
+    "sources": {
+      "hrce_basic": {
+        "Unnamed: 0": 17,
+        "id": "TM025457",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Aathmanaathaswamy Temple",
+        "address": "Arulmigu Aathmanaathaswamy Temple, Avudaiyarkovil",
+        "pincode": "614618",
+        "district": "Pudukkottai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_iii",
+        "temple_12a_category_description": "having an annual income of Rs.10 lakh and above",
+        "geo_address": "Arulmigu Aathmanaathaswamy Temple, Arulmigu Aathmanaathaswamy Temple, Avudaiyarkovil, 614618"
+      }
+    },
+    "name": "Arulmigu Aathmanaathaswamy Temple",
+    "district": "Pudukkottai District",
+    "address": "Arulmigu Aathmanaathaswamy Temple, Avudaiyarkovil",
+    "pincode": "614618",
+    "income_category": "46_iii",
+    "temple_type": "tn_temples_attached_to_mutts",
+    "deities": [],
+    "festivals": [],
+    "timings": [],
+    "images": [],
+    "legends": [],
+    "tamil_content": {},
+    "contact_info": {},
+    "additional_info": {}
+  },
+  "TM026092": {
+    "temple_id": "TM026092",
+    "sources": {
+      "hrce_basic": {
+        "Unnamed: 0": 18,
+        "id": "TM026092",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Aathikailasanather Temple",
+        "address": "Arulmigu Aathikailasanather Temple, Avudaiyarkovil",
+        "pincode": "614618",
+        "district": "Pudukkottai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Aathikailasanather Temple, Arulmigu Aathikailasanather Temple, Avudaiyarkovil, 614618"
+      }
+    },
+    "name": "Arulmigu Aathikailasanather Temple",
+    "district": "Pudukkottai District",
+    "address": "Arulmigu Aathikailasanather Temple, Avudaiyarkovil",
+    "pincode": "614618",
+    "income_category": "46_ii",
+    "temple_type": "tn_temples_attached_to_mutts",
+    "deities": [],
+    "festivals": [],
+    "timings": [],
+    "images": [],
+    "legends": [],
+    "tamil_content": {},
+    "contact_info": {},
+    "additional_info": {}
+  },
+  "TM026093": {
+    "temple_id": "TM026093",
+    "sources": {
+      "hrce_basic": {
+        "Unnamed: 0": 19,
+        "id": "TM026093",
+        "temple_type": "tn_temples_attached_to_mutts",
+        "temple_name": "Arulmigu Pallikuta Pillaiyar Temple",
+        "address": "Arulmigu Pallikuta Pillaiyar Temple, Avudaiyarkovil",
+        "pincode": "614618",
+        "district": "Pudukkottai District",
+        "temple_listing_type": "listed",
+        "temple_12a_category": "46_ii",
+        "temple_12a_category_description": "having an annual income of Rs.2 lakh and less than Rs. 10 lakh",
+        "geo_address": "Arulmigu Pallikuta Pillaiyar Temple, Arulmigu Pallikuta Pillaiyar Temple, Avudaiyarkovil, 614618"
+      }
+    },
+    "name": "Arulmigu Pallikuta Pillaiyar Temple",
+    "district": "Pudukkottai District",
+    "address": "Arulmigu Pallikuta Pillaiyar Temple, Avudaiyarkovil",
+    "pincode": "614618",
+    "income_category": "46_ii",
+    "temple_type": "tn_temples_attached_to_mutts",
+    "deities": [],
+    "festivals": [],
+    "timings": [],
+    "images": [],
+    "legends": [],
+    "tamil_content": {},
+    "contact_info": {},
+    "additional_info": {}
+  }
+}
