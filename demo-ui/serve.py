@@ -12,7 +12,7 @@ import sys
 from pathlib import Path
 
 PORT = 8080
-DIRECTORY = "v2-current"
+DIRECTORY = "."  # Serve from demo-ui root to access both v2-current and data folders
 
 class CORSHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
     """HTTP request handler with CORS headers"""
@@ -48,8 +48,8 @@ def main():
     print(f"🌐 Server starting on: http://localhost:{PORT}")
     print("=" * 60)
     print("📱 Access URLs:")
-    print(f"   Local:    http://localhost:{PORT}")
-    print(f"   Network:  http://0.0.0.0:{PORT}")
+    print(f"   Local:    http://localhost:{PORT}/v2-current/")
+    print(f"   Network:  http://0.0.0.0:{PORT}/v2-current/")
     print("=" * 60)
     print("Press Ctrl+C to stop the server\n")
     
