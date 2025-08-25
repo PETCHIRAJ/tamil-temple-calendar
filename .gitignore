@@ -25,6 +25,7 @@ ENV/
 *.tmp
 *.bak
 *_backup_*.json
+*_backup_*.db
 raw_data/*.html
 
 # Sensitive data
