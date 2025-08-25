@@ -1,4 +1,4 @@
-// Tamil Temple Mobile App V2 - With Map and Calendar
+// Tamil Temple Mobile App V2 - With Map, Calendar and Temple Circuits
 class TamilTempleApp {
     constructor() {
         this.temples = [];
@@ -44,6 +44,120 @@ class TamilTempleApp {
             'Murugan': ['sashti', 'thai pusam', 'skanda'],
             'Devi': ['pournami', 'navaratri', 'aadi']
         };
+        
+        // Temple Circuits Data
+        this.circuits = [
+            {
+                id: 'navagraha',
+                name: 'நவக்கிரக தலங்கள்',
+                name_en: 'Navagraha Temples',
+                category: 'astronomical',
+                temple_count: 9,
+                duration_days: '2-3 நாட்கள்',
+                total_distance_km: 125,
+                base_location: 'கும்பகோணம்',
+                description: '9 கிரக தோஷங்களை நிவர்த்தி செய்யும் கோயில்கள்',
+                best_time: 'மார்கழி-தை',
+                significance: 'கிரக தோஷ நிவர்த்தி',
+                temples: [
+                    { name: 'சூரியனார் கோயில்', planet: 'சூரியன்', location: 'கும்பகோணம் அருகில்', lat: 10.9485, lng: 79.3712 },
+                    { name: 'திங்களூர்', planet: 'சந்திரன்', location: 'பெண்ணாகடம்', lat: 10.8856, lng: 79.4541 },
+                    { name: 'வைத்தீஸ்வரன் கோயில்', planet: 'செவ்வாய்', location: 'சீர்காழி', lat: 11.1428, lng: 79.7833 },
+                    { name: 'திருவெண்காடு', planet: 'புதன்', location: 'சீர்காழி', lat: 11.0667, lng: 79.7333 },
+                    { name: 'அழகர் கோயில்', planet: 'குரு', location: 'கும்பகோணம்', lat: 10.9423, lng: 79.3796 },
+                    { name: 'கஞ்சனூர்', planet: 'சுக்கிரன்', location: 'கும்பகோணம்', lat: 10.9597, lng: 79.3720 },
+                    { name: 'திருநள்ளாறு', planet: 'சனி', location: 'காரைக்கால்', lat: 10.9331, lng: 79.7769 },
+                    { name: 'கீழ்பெரும்பள்ளம்', planet: 'ராகு', location: 'கும்பகோணம்', lat: 10.9615, lng: 79.4532 },
+                    { name: 'நாகூர்', planet: 'கேது', location: 'நாகப்பட்டினம்', lat: 10.8166, lng: 79.8368 }
+                ]
+            },
+            {
+                id: 'pancha-bootha',
+                name: 'பஞ்ச பூத தலங்கள்',
+                name_en: 'Pancha Bhuta Temples',
+                category: 'elemental',
+                temple_count: 5,
+                duration_days: '5-7 நாட்கள்',
+                total_distance_km: 800,
+                base_location: 'தமிழ்நாடு முழுவதும்',
+                description: '5 பூதங்களை குறிக்கும் சிவாலயங்கள்',
+                best_time: 'கார்த்திகை-மார்கழி',
+                significance: 'பஞ்ச பூத வழிபாடு',
+                temples: [
+                    { name: 'ஏகாம்பரேஸ்வரர் கோயில்', element: 'பிருத்வி (நிலம்)', location: 'காஞ்சிபுரம்' },
+                    { name: 'ஜம்புகேஸ்வரர் கோயில்', element: 'அப்பு (நீர்)', location: 'திருச்சி' },
+                    { name: 'அருணாசலேஸ்வரர் கோயில்', element: 'தேயு (நெருப்பு)', location: 'திருவண்ணாமலை' },
+                    { name: 'கலாஹஸ்தீஸ்வரர் கோயில்', element: 'வாயு (காற்று)', location: 'ஆந்திரா' },
+                    { name: 'நடராஜர் கோயில்', element: 'ஆகாயம் (வானம்)', location: 'சிதம்பரம்' }
+                ]
+            },
+            {
+                id: 'nava-tirupati',
+                name: 'நவ திருப்பதி',
+                name_en: 'Nava Tirupati',
+                category: 'vaishnava',
+                temple_count: 9,
+                duration_days: '2 நாட்கள்',
+                total_distance_km: 80,
+                base_location: 'திருநெல்வேலி',
+                description: '9 விஷ்ணு திவ்ய தேசங்கள்',
+                best_time: 'மார்கழி-தை',
+                significance: 'விஷ்ணு பக்தி',
+                temples: [
+                    { name: 'ஸ்ரீ வைகுண்டம்', deity: 'வைகுண்ட நாதர்', location: 'ஸ்ரீ வைகுண்டம்' },
+                    { name: 'நத்தம்', deity: 'நாதமுனி', location: 'நத்தம்' },
+                    { name: 'திருப்புளிங்குடி', deity: 'காயாம்பூ பெருமாள்', location: 'திருப்புளிங்குடி' },
+                    { name: 'பெரியநம்பி கோயில்', deity: 'பெரியநம்பி', location: 'திருக்குறுங்குடி' },
+                    { name: 'திருக்கோளூர்', deity: 'வைத்தமாநிதி பெருமாள்', location: 'திருக்கோளூர்' },
+                    { name: 'திருக்குளந்தை', deity: 'மணிமாட பெருமாள்', location: 'திருக்குளந்தை' },
+                    { name: 'இரட்டை திருப்பதி', deity: 'தேவபிரான்', location: 'இரட்டை திருப்பதி' },
+                    { name: 'கழிசீராம விண்ணகரம்', deity: 'தடாள பெருமாள்', location: 'சீர்காழி' },
+                    { name: 'அழ்வார் திருநகரி', deity: 'ஆதிநாதர்', location: 'திருநகரி' }
+                ]
+            },
+            {
+                id: 'murugan-arupadai',
+                name: 'முருகன் ஆறுபடை வீடுகள்',
+                name_en: 'Six Abodes of Murugan',
+                category: 'murugan',
+                temple_count: 6,
+                duration_days: '3-4 நாட்கள்',
+                total_distance_km: 500,
+                base_location: 'தமிழ்நாடு முழுவதும்',
+                description: 'முருகனின் 6 படைவீடுகள்',
+                best_time: 'தை-சித்திரை',
+                significance: 'முருக பக்தி',
+                temples: [
+                    { name: 'திருப்பரங்குன்றம்', significance: 'முதல் படைவீடு', location: 'மதுரை' },
+                    { name: 'திருச்செந்தூர்', significance: 'இரண்டாம் படைவீடு', location: 'தூத்துக்குடி' },
+                    { name: 'பழநி', significance: 'மூன்றாம் படைவீடு', location: 'பழநி' },
+                    { name: 'சுவாமிமலை', significance: 'நான்காம் படைவீடு', location: 'கும்பகோணம்' },
+                    { name: 'திருத்தணி', significance: 'ஐந்தாம் படைவீடு', location: 'திருத்தணி' },
+                    { name: 'பழமுதிர்சோலை', significance: 'ஆறாம் படைவீடு', location: 'மதுரை' }
+                ]
+            },
+            {
+                id: 'madurai-circuit',
+                name: 'மதுரை சுற்று',
+                name_en: 'Madurai Circuit',
+                category: 'regional',
+                temple_count: 6,
+                duration_days: '1-2 நாட்கள்',
+                total_distance_km: 50,
+                base_location: 'மதுரை',
+                description: 'மதுரை நகர் மற்றும் சுற்றுப்புற கோயில்கள்',
+                best_time: 'சித்திரை-வைகாசி',
+                significance: 'பாண்டிய நாட்டு பாரம்பரியம்',
+                temples: [
+                    { name: 'மீனாட்சி அம்மன் கோயில்', deity: 'மீனாட்சி-சுந்தரேஸ்வரர்', location: 'மதுரை' },
+                    { name: 'கூடல் அழகர் கோயில்', deity: 'விஷ்ணு', location: 'மதுரை' },
+                    { name: 'திருப்பரங்குன்றம்', deity: 'முருகன்', location: 'மதுரை' },
+                    { name: 'பழமுதிர்சோலை', deity: 'முருகன்', location: 'அழகர்கோயில்' },
+                    { name: 'கல்லழகர் கோயில்', deity: 'விஷ்ணு', location: 'அழகர்கோயில்' },
+                    { name: 'வந்தியூர் மாரியம்மன்', deity: 'மாரியம்மன்', location: 'மதுரை' }
+                ]
+            }
+        ];
         
         this.init();
     }
@@ -113,6 +227,9 @@ class TamilTempleApp {
                 break;
             case 'festivals':
                 this.displayCalendar();
+                break;
+            case 'circuits':
+                this.displayCircuits();
                 break;
         }
     }
@@ -992,6 +1109,304 @@ class TamilTempleApp {
     
     toRad(value) {
         return value * Math.PI / 180;
+    }
+    
+    // Temple Circuits Methods
+    displayCircuits() {
+        this.displayPopularCircuits();
+        this.displayCircuitCategories();
+    }
+    
+    displayPopularCircuits() {
+        const popularCircuits = this.circuits.slice(0, 3); // Show top 3 circuits
+        const container = document.getElementById('popularCircuits');
+        
+        container.innerHTML = popularCircuits.map(circuit => `
+            <div class="circuit-card" onclick="app.showCircuitDetail('${circuit.id}')">
+                <div class="circuit-card-title">${circuit.name}</div>
+                <div class="circuit-card-subtitle">${circuit.description}</div>
+                <div class="circuit-stats">
+                    <div class="circuit-stat">
+                        <div class="circuit-stat-value">${circuit.temple_count}</div>
+                        <div class="circuit-stat-label">கோயில்கள்</div>
+                    </div>
+                    <div class="circuit-stat">
+                        <div class="circuit-stat-value">${circuit.duration_days}</div>
+                        <div class="circuit-stat-label">காலம்</div>
+                    </div>
+                    <div class="circuit-stat">
+                        <div class="circuit-stat-value">${circuit.total_distance_km} கி.மீ</div>
+                        <div class="circuit-stat-label">தூரம்</div>
+                    </div>
+                </div>
+            </div>
+        `).join('');
+    }
+    
+    displayCircuitCategories() {
+        // Group circuits by category
+        const categories = {
+            'astronomical': { name: 'வானியல் சுற்றுகள்', circuits: [] },
+            'elemental': { name: 'பஞ்ச பூத தலங்கள்', circuits: [] },
+            'vaishnava': { name: 'வைணவ திவ்ய தேசங்கள்', circuits: [] },
+            'murugan': { name: 'முருகன் தலங்கள்', circuits: [] },
+            'regional': { name: 'பிராந்திய சுற்றுகள்', circuits: [] }
+        };
+        
+        this.circuits.forEach(circuit => {
+            if (categories[circuit.category]) {
+                categories[circuit.category].circuits.push(circuit);
+            }
+        });
+        
+        const container = document.getElementById('circuitCategories');
+        
+        container.innerHTML = Object.entries(categories)
+            .filter(([_, cat]) => cat.circuits.length > 0)
+            .map(([key, category]) => `
+                <div class="circuit-category">
+                    <div class="circuit-category-title">${category.name}</div>
+                    ${category.circuits.map(circuit => `
+                        <div class="circuit-list-item" onclick="app.showCircuitDetail('${circuit.id}')">
+                            <span class="circuit-name">${circuit.name}</span>
+                            <span class="circuit-count">${circuit.temple_count} கோயில்கள்</span>
+                        </div>
+                    `).join('')}
+                </div>
+            `).join('');
+    }
+    
+    showCircuitDetail(circuitId) {
+        const circuit = this.circuits.find(c => c.id === circuitId);
+        if (!circuit) return;
+        
+        // Match circuit temples with our database
+        const matchedTemples = circuit.temples.map(circuitTemple => {
+            // Try to find matching temple in our database
+            let dbTemple = this.temples.find(t => 
+                t.temple_name && (
+                    t.temple_name.includes(circuitTemple.name) ||
+                    circuitTemple.name.includes(t.temple_name)
+                )
+            );
+            
+            // If not found, create a basic temple object
+            if (!dbTemple) {
+                dbTemple = {
+                    temple_name: circuitTemple.name,
+                    district: circuitTemple.location,
+                    latitude: circuitTemple.lat,
+                    longitude: circuitTemple.lng,
+                    deity: circuitTemple.deity || circuitTemple.planet || circuitTemple.element || '',
+                    significance: circuitTemple.significance || ''
+                };
+            }
+            
+            return { ...dbTemple, ...circuitTemple };
+        });
+        
+        // Generate Google Maps URL for navigation
+        const waypoints = circuit.temples.filter(t => t.lat && t.lng)
+            .map(t => `${t.lat},${t.lng}`)
+            .join('|');
+        const googleMapsUrl = circuit.temples[0]?.lat ? 
+            `https://www.google.com/maps/dir/${circuit.temples[0].lat},${circuit.temples[0].lng}/${waypoints}` : '#';
+        
+        const modalBody = document.getElementById('modalBody');
+        modalBody.innerHTML = `
+            <div class="circuit-detail">
+                <!-- Circuit Header -->
+                <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; margin: -20px -20px 20px -20px; border-radius: 12px;">
+                    <h2 style="font-size: 24px; margin-bottom: 8px;">${circuit.name}</h2>
+                    <p style="opacity: 0.9; margin-bottom: 16px;">${circuit.description}</p>
+                    <div class="circuit-stats" style="color: white;">
+                        <div class="circuit-stat">
+                            <div class="circuit-stat-value">${circuit.temple_count}</div>
+                            <div class="circuit-stat-label">கோயில்கள்</div>
+                        </div>
+                        <div class="circuit-stat">
+                            <div class="circuit-stat-value">${circuit.duration_days}</div>
+                            <div class="circuit-stat-label">பயண காலம்</div>
+                        </div>
+                        <div class="circuit-stat">
+                            <div class="circuit-stat-value">${circuit.total_distance_km} கி.மீ</div>
+                            <div class="circuit-stat-label">மொத்த தூரம்</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Route Map -->
+                ${circuit.temples[0]?.lat ? `
+                <div style="margin: 20px 0;">
+                    <div id="circuitMap" style="height: 250px; border-radius: 12px; overflow: hidden;"></div>
+                    <a href="${googleMapsUrl}" target="_blank" style="
+                        display: inline-block;
+                        margin-top: 12px;
+                        padding: 12px 20px;
+                        background: #4285f4;
+                        color: white;
+                        border-radius: 8px;
+                        text-decoration: none;
+                        font-weight: 500;
+                    ">
+                        🗺️ Google Maps இல் திறக்க
+                    </a>
+                </div>
+                ` : ''}
+                
+                <!-- Travel Info -->
+                <div class="circuit-info-section">
+                    <div class="circuit-info-title">பயண விவரங்கள்</div>
+                    <div class="circuit-info-text">
+                        📍 தொடக்க இடம்: ${circuit.base_location}<br>
+                        📅 சிறந்த காலம்: ${circuit.best_time}<br>
+                        🛕 முக்கியத்துவம்: ${circuit.significance}
+                    </div>
+                </div>
+                
+                <!-- Temple Cards -->
+                <div style="margin-top: 20px;">
+                    <h3 style="font-size: 18px; font-weight: 600; margin-bottom: 16px;">கோயில் விவரங்கள்</h3>
+                    <div class="temple-list" style="padding: 0;">
+                        ${matchedTemples.map((temple, index) => `
+                            <div class="temple-card" style="position: relative; margin-bottom: 16px;">
+                                <div style="position: absolute; top: 10px; left: 10px; 
+                                    background: #667eea; color: white; 
+                                    width: 28px; height: 28px; 
+                                    border-radius: 50%; 
+                                    display: flex; align-items: center; justify-content: center;
+                                    font-weight: 600; font-size: 14px;">
+                                    ${index + 1}
+                                </div>
+                                <div class="temple-header">
+                                    <div class="temple-name">${temple.temple_name || temple.name}</div>
+                                    <div class="temple-deity">
+                                        ${temple.planet ? `🪐 ${temple.planet}` : ''}
+                                        ${temple.element ? `⚛️ ${temple.element}` : ''}
+                                        ${temple.deity ? `🕉️ ${temple.deity}` : ''}
+                                    </div>
+                                </div>
+                                <div class="temple-info">
+                                    <div class="info-item">
+                                        <span class="info-label">இடம்:</span>
+                                        <span class="info-value">${temple.location || temple.district || ''}</span>
+                                    </div>
+                                    ${temple.significance ? `
+                                    <div class="info-item">
+                                        <span class="info-label">சிறப்பு:</span>
+                                        <span class="info-value">${temple.significance}</span>
+                                    </div>
+                                    ` : ''}
+                                    ${temple.festivals ? `
+                                    <div class="info-item">
+                                        <span class="info-label">விழாக்கள்:</span>
+                                        <span class="info-value">${temple.festivals}</span>
+                                    </div>
+                                    ` : ''}
+                                    ${temple.latitude && temple.longitude ? `
+                                    <div class="info-item">
+                                        <a href="https://www.google.com/maps/search/?api=1&query=${temple.latitude},${temple.longitude}" 
+                                           target="_blank" 
+                                           style="color: #4285f4; text-decoration: none;">
+                                            📍 வரைபடத்தில் காண்க
+                                        </a>
+                                    </div>
+                                    ` : ''}
+                                </div>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+                
+                <!-- Worship Instructions -->
+                <div class="circuit-info-section" style="margin-top: 20px;">
+                    <div class="circuit-info-title">வழிபாட்டு முறை</div>
+                    <div class="circuit-info-text">
+                        • அதிகாலை 6 மணிக்கு தொடங்கவும்<br>
+                        • ஒவ்வொரு கோயிலிலும் அர்ச்சனை செய்யவும்<br>
+                        • பிரசாதம் பெற்று அடுத்த கோயிலுக்கு செல்லவும்<br>
+                        • மாலை 6 மணிக்குள் அனைத்து கோயில்களையும் தரிசித்து முடிக்கவும்
+                    </div>
+                </div>
+            </div>
+        `;
+        
+        // Update modal title
+        document.getElementById('modalTempleTitle').textContent = circuit.name;
+        
+        // Show modal
+        document.getElementById('templeModal').classList.add('active');
+        
+        // Initialize circuit map if temples have coordinates
+        if (circuit.temples[0]?.lat) {
+            setTimeout(() => this.initCircuitMap(circuit), 100);
+        }
+    }
+    
+    initCircuitMap(circuit) {
+        const mapDiv = document.getElementById('circuitMap');
+        if (!mapDiv) return;
+        
+        // Initialize map centered on first temple
+        const circuitMap = L.map('circuitMap').setView(
+            [circuit.temples[0].lat, circuit.temples[0].lng], 
+            9
+        );
+        
+        // Add tile layer
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap'
+        }).addTo(circuitMap);
+        
+        // Add markers for each temple
+        const markers = [];
+        circuit.temples.forEach((temple, index) => {
+            if (temple.lat && temple.lng) {
+                const marker = L.marker([temple.lat, temple.lng], {
+                    icon: L.divIcon({
+                        className: 'circuit-marker',
+                        html: `<div style="
+                            background: #667eea;
+                            color: white;
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 50%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            font-weight: bold;
+                            border: 3px solid white;
+                            box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+                        ">${index + 1}</div>`,
+                        iconSize: [30, 30],
+                        iconAnchor: [15, 15]
+                    })
+                }).addTo(circuitMap);
+                
+                // Add popup
+                marker.bindPopup(`
+                    <b>${index + 1}. ${temple.name}</b><br>
+                    ${temple.planet || temple.element || temple.deity || ''}<br>
+                    ${temple.location}
+                `);
+                
+                markers.push([temple.lat, temple.lng]);
+            }
+        });
+        
+        // Draw route line connecting temples
+        if (markers.length > 1) {
+            L.polyline(markers, {
+                color: '#667eea',
+                weight: 3,
+                opacity: 0.7,
+                dashArray: '10, 10'
+            }).addTo(circuitMap);
+            
+            // Fit map to show all markers
+            const bounds = L.latLngBounds(markers);
+            circuitMap.fitBounds(bounds, { padding: [20, 20] });
+        }
     }
 }
 
