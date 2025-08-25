@@ -1,0 +1,421 @@
+{
+  "total_temples": 193,
+  "hrce_fields": {
+    "name": {
+      "field": "name",
+      "source": "hrce",
+      "total_temples": 193,
+      "non_null_count": 193,
+      "non_empty_count": 193,
+      "null_percentage": 0.0,
+      "empty_percentage": 0.0,
+      "completeness_percentage": 100.0,
+      "sample_values": [
+        "Agneeswarar Temple",
+        "Arulmigu  Brahmapureeswarar  Temple",
+        "Arulmigu Aadanganaathar Temple"
+      ]
+    },
+    "tamil_name": {
+      "field": "tamil_name",
+      "source": "hrce",
+      "total_temples": 193,
+      "non_null_count": 0,
+      "non_empty_count": 0,
+      "null_percentage": 100.0,
+      "empty_percentage": 100.0,
+      "completeness_percentage": 0.0,
+      "sample_values": []
+    },
+    "district": {
+      "field": "district",
+      "source": "hrce",
+      "total_temples": 193,
+      "non_null_count": 193,
+      "non_empty_count": 192,
+      "null_percentage": 0.0,
+      "empty_percentage": 0.5,
+      "completeness_percentage": 99.5,
+      "sample_values": [
+        "Thanjavur District",
+        "Pudukkottai District",
+        "Ramanathapuram District"
+      ]
+    },
+    "location": {
+      "field": "location",
+      "source": "hrce",
+      "total_temples": 193,
+      "non_null_count": 193,
+      "non_empty_count": 0,
+      "null_percentage": 0.0,
+      "empty_percentage": 100.0,
+      "completeness_percentage": 0.0,
+      "sample_values": []
+    },
+    "address": {
+      "field": "address",
+      "source": "hrce",
+      "total_temples": 193,
+      "non_null_count": 193,
+      "non_empty_count": 193,
+      "null_percentage": 0.0,
+      "empty_percentage": 0.0,
+      "completeness_percentage": 100.0,
+      "sample_values": [
+        "Agneeswarar Temple, T.Pudhupatti",
+        "Arulmigu  Brahmapureeswarar  Temple, Pinnaiyur",
+        "Arulmigu Aadanganaathar Temple, Maravamadurai"
+      ]
+    },
+    "main_deity": {
+      "field": "main_deity",
+      "source": "hrce",
+      "total_temples": 193,
+      "non_null_count": 0,
+      "non_empty_count": 0,
+      "null_percentage": 100.0,
+      "empty_percentage": 100.0,
+      "completeness_percentage": 0.0,
+      "sample_values": []
+    },
+    "deity_type": {
+      "field": "deity_type",
+      "source": "hrce",
+      "total_temples": 193,
+      "non_null_count": 0,
+      "non_empty_count": 0,
+      "null_percentage": 100.0,
+      "empty_percentage": 100.0,
+      "completeness_percentage": 0.0,
+      "sample_values": []
+    },
+    "income_category": {
+      "field": "income_category",
+      "source": "hrce",
+      "total_temples": 193,
+      "non_null_count": 193,
+      "non_empty_count": 193,
+      "null_percentage": 0.0,
+      "empty_percentage": 0.0,
+      "completeness_percentage": 100.0,
+      "sample_values": [
+        "49_i",
+        "46_i",
+        "46_i"
+      ]
+    },
+    "temple_type": {
+      "field": "temple_type",
+      "source": "hrce",
+      "total_temples": 193,
+      "non_null_count": 193,
+      "non_empty_count": 193,
+      "null_percentage": 0.0,
+      "empty_percentage": 0.0,
+      "completeness_percentage": 100.0,
+      "sample_values": [
+        "tn_hindu_temples",
+        "tn_hindu_temples",
+        "tn_hindu_temples"
+      ]
+    }
+  },
+  "enhanced_fields": {
+    "goddess": {
+      "field": "goddess",
+      "source": "enhanced",
+      "total_temples": 193,
+      "non_null_count": 85,
+      "non_empty_count": 85,
+      "null_percentage": 56.0,
+      "empty_percentage": 56.0,
+      "completeness_percentage": 44.0,
+      "sample_values": [
+        "Soolikambal, Karuthazkuzhali",
+        "Sri Kalyanavalli",
+        "Sri Mangalambigai"
+      ]
+    },
+    "holy_water": {
+      "field": "holy_water",
+      "source": "enhanced",
+      "total_temples": 193,
+      "non_null_count": 55,
+      "non_empty_count": 55,
+      "null_percentage": 71.5,
+      "empty_percentage": 71.5,
+      "completeness_percentage": 28.5,
+      "sample_values": [
+        "Agni Theertham",
+        "Hema Chakra, Rathnagara Theertham",
+        "Soor Theertham"
+      ]
+    },
+    "sacred_tree": {
+      "field": "sacred_tree",
+      "source": "enhanced",
+      "total_temples": 193,
+      "non_null_count": 51,
+      "non_empty_count": 51,
+      "null_percentage": 73.6,
+      "empty_percentage": 73.6,
+      "completeness_percentage": 26.4,
+      "sample_values": [
+        "Punnai Tree",
+        "Arasa Maram (Sacred fig tree)",
+        "Vanni Tree"
+      ]
+    },
+    "special_rituals": {
+      "field": "special_rituals",
+      "source": "enhanced",
+      "total_temples": 193,
+      "non_null_count": 112,
+      "non_empty_count": 112,
+      "null_percentage": 42.0,
+      "empty_percentage": 42.0,
+      "completeness_percentage": 58.0,
+      "sample_values": [
+        "Divya Desam festivals",
+        "{'month': 'Chithirai', 'festival': 'Sapthasthana F",
+        "{'name': 'Annual Festival', 'description': '', 'ti"
+      ]
+    },
+    "temple_tank": {
+      "field": "temple_tank",
+      "source": "enhanced",
+      "total_temples": 193,
+      "non_null_count": 5,
+      "non_empty_count": 5,
+      "null_percentage": 97.4,
+      "empty_percentage": 97.4,
+      "completeness_percentage": 2.6,
+      "sample_values": [
+        "Agni Bagawan made one water body",
+        "Holy tank",
+        "Varunatheertham"
+      ]
+    },
+    "inscriptions": {
+      "field": "inscriptions",
+      "source": "enhanced",
+      "total_temples": 193,
+      "non_null_count": 72,
+      "non_empty_count": 72,
+      "null_percentage": 62.7,
+      "empty_percentage": 62.7,
+      "completeness_percentage": 37.3,
+      "sample_values": [
+        "In the Grudha Yuga, Maha Vishnu saved three mahari",
+        "Once this area was full of jungle, called 'Malathi",
+        "According to mythology, the temple is associated w"
+      ]
+    },
+    "temple_age": {
+      "field": "temple_age",
+      "source": "enhanced",
+      "total_temples": 193,
+      "non_null_count": 0,
+      "non_empty_count": 0,
+      "null_percentage": 100.0,
+      "empty_percentage": 100.0,
+      "completeness_percentage": 0.0,
+      "sample_values": []
+    }
+  },
+  "json_fields": {
+    "findmytemple.temple_id": {
+      "field": "findmytemple.temple_id",
+      "source": "json",
+      "total_temples": 193,
+      "found_count": 193,
+      "non_empty_count": 193,
+      "missing_percentage": 0.0,
+      "empty_percentage": 0.0,
+      "completeness_percentage": 100.0,
+      "sample_values": [
+        "t94",
+        "t198",
+        "t59"
+      ]
+    },
+    "findmytemple.name": {
+      "field": "findmytemple.name",
+      "source": "json",
+      "total_temples": 193,
+      "found_count": 193,
+      "non_empty_count": 193,
+      "missing_percentage": 0.0,
+      "empty_percentage": 0.0,
+      "completeness_percentage": 100.0,
+      "sample_values": [
+        "Agneeswara Swamy Temple",
+        "Brahmapureeswarar Temple, Thirupattur",
+        "Arangulanathar Temple"
+      ]
+    },
+    "findmytemple.location": {
+      "field": "findmytemple.location",
+      "source": "json",
+      "total_temples": 193,
+      "found_count": 193,
+      "non_empty_count": 193,
+      "missing_percentage": 0.0,
+      "empty_percentage": 0.0,
+      "completeness_percentage": 100.0,
+      "sample_values": [
+        "{'city': 'Thirupugalur', 'district': 'Nagai Distri",
+        "{'city': 'Unknown', 'district': 'Unknown', 'state'",
+        "{'village': 'Thiruvarangulam', 'district': 'Pudukk"
+      ]
+    },
+    "findmytemple.deities.main_deity": {
+      "field": "findmytemple.deities.main_deity",
+      "source": "json",
+      "total_temples": 193,
+      "found_count": 104,
+      "non_empty_count": 104,
+      "missing_percentage": 46.1,
+      "empty_percentage": 0.0,
+      "completeness_percentage": 53.9,
+      "sample_values": [
+        "Agneeswarar, Saranyapureeswarar, Konapiran",
+        "Arungulanathar",
+        "Sri Jagannatha Perumal"
+      ]
+    },
+    "findmytemple.deities.goddess": {
+      "field": "findmytemple.deities.goddess",
+      "source": "json",
+      "total_temples": 193,
+      "found_count": 80,
+      "non_empty_count": 79,
+      "missing_percentage": 58.5,
+      "empty_percentage": 0.5,
+      "completeness_percentage": 40.9,
+      "sample_values": [
+        "Soolikambal, Karuthazkuzhali",
+        "Sri Kalyanavalli",
+        "Sri Mangalambigai"
+      ]
+    },
+    "findmytemple.timings": {
+      "field": "findmytemple.timings",
+      "source": "json",
+      "total_temples": 193,
+      "found_count": 98,
+      "non_empty_count": 98,
+      "missing_percentage": 49.2,
+      "empty_percentage": 0.0,
+      "completeness_percentage": 50.8,
+      "sample_values": [
+        "{'general': '6:00 am to 12:00 pm, 4:00 pm to 8:00 ",
+        "6:00 AM-12:00 PM, 4:00 PM-8:00 PM",
+        "{'general': '6:00 am to 12:00 pm, 4:00 pm to 8:00 "
+      ]
+    },
+    "findmytemple.festivals": {
+      "field": "findmytemple.festivals",
+      "source": "json",
+      "total_temples": 193,
+      "found_count": 156,
+      "non_empty_count": 156,
+      "missing_percentage": 19.2,
+      "empty_percentage": 0.0,
+      "completeness_percentage": 80.8,
+      "sample_values": [
+        "['Divya Desam festivals']",
+        "[{'month': 'Chithirai', 'festival': 'Sapthasthana ",
+        "[{'name': 'Annual Festival', 'description': '', 't"
+      ]
+    },
+    "findmytemple.features": {
+      "field": "findmytemple.features",
+      "source": "json",
+      "total_temples": 193,
+      "found_count": 0,
+      "non_empty_count": 0,
+      "missing_percentage": 100.0,
+      "empty_percentage": 0.0,
+      "completeness_percentage": 0.0,
+      "sample_values": []
+    },
+    "findmytemple.history": {
+      "field": "findmytemple.history",
+      "source": "json",
+      "total_temples": 193,
+      "found_count": 0,
+      "non_empty_count": 0,
+      "missing_percentage": 100.0,
+      "empty_percentage": 0.0,
+      "completeness_percentage": 0.0,
+      "sample_values": []
+    },
+    "findmytemple.contact": {
+      "field": "findmytemple.contact",
+      "source": "json",
+      "total_temples": 193,
+      "found_count": 89,
+      "non_empty_count": 89,
+      "missing_percentage": 53.9,
+      "empty_percentage": 0.0,
+      "completeness_percentage": 46.1,
+      "sample_values": [
+        "{'phone': '', 'email': '', 'website': ''}",
+        "{'phone': '', 'email': '', 'website': ''}",
+        "{'phone': '', 'email': '', 'website': ''}"
+      ]
+    },
+    "match_score": {
+      "field": "match_score",
+      "source": "json",
+      "total_temples": 193,
+      "found_count": 193,
+      "non_empty_count": 193,
+      "missing_percentage": 0.0,
+      "empty_percentage": 0.0,
+      "completeness_percentage": 100.0,
+      "sample_values": []
+    },
+    "matched_on": {
+      "field": "matched_on",
+      "source": "json",
+      "total_temples": 193,
+      "found_count": 193,
+      "non_empty_count": 193,
+      "missing_percentage": 0.0,
+      "empty_percentage": 0.0,
+      "completeness_percentage": 100.0,
+      "sample_values": [
+        "2025-08-25T15:49:36.270259",
+        "2025-08-25T15:48:00.834029",
+        "2025-08-25T15:49:32.777979"
+      ]
+    }
+  },
+  "confidence_breakdown": {
+    "medium": {
+      "count": 61,
+      "percentage": 31.6
+    },
+    "high": {
+      "count": 132,
+      "percentage": 68.4
+    }
+  },
+  "source_breakdown": {
+    "location_fix": {
+      "count": 13,
+      "percentage": 6.7
+    },
+    "final_matching": {
+      "count": 50,
+      "percentage": 25.9
+    },
+    "improved_matching": {
+      "count": 130,
+      "percentage": 67.4
+    }
+  }
+}
