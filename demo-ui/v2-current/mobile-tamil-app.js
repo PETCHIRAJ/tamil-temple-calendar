@@ -59,16 +59,17 @@ class TamilTempleApp {
                 description: '9 கிரக தோஷங்களை நிவர்த்தி செய்யும் கோயில்கள்',
                 best_time: 'மார்கழி-தை',
                 significance: 'கிரக தோஷ நிவர்த்தி',
+                religious_order: true, // Planetary sequence must be followed
                 temples: [
-                    { name: 'சூரியனார் கோயில்', planet: 'சூரியன்', location: 'கும்பகோணம் அருகில்', lat: 10.9485, lng: 79.3712 },
-                    { name: 'திங்களூர்', planet: 'சந்திரன்', location: 'பெண்ணாகடம்', lat: 10.8856, lng: 79.4541 },
-                    { name: 'வைத்தீஸ்வரன் கோயில்', planet: 'செவ்வாய்', location: 'சீர்காழி', lat: 11.1428, lng: 79.7833 },
-                    { name: 'திருவெண்காடு', planet: 'புதன்', location: 'சீர்காழி', lat: 11.0667, lng: 79.7333 },
-                    { name: 'அழகர் கோயில்', planet: 'குரு', location: 'கும்பகோணம்', lat: 10.9423, lng: 79.3796 },
-                    { name: 'கஞ்சனூர்', planet: 'சுக்கிரன்', location: 'கும்பகோணம்', lat: 10.9597, lng: 79.3720 },
-                    { name: 'திருநள்ளாறு', planet: 'சனி', location: 'காரைக்கால்', lat: 10.9331, lng: 79.7769 },
-                    { name: 'கீழ்பெரும்பள்ளம்', planet: 'ராகு', location: 'கும்பகோணம்', lat: 10.9615, lng: 79.4532 },
-                    { name: 'நாகூர்', planet: 'கேது', location: 'நாகப்பட்டினம்', lat: 10.8166, lng: 79.8368 }
+                    { name: 'சூரியனார் கோயில்', planet: 'சூரியன்', location: 'கும்பகோணம் அருகில்', lat: 11.0725, lng: 79.3145 },
+                    { name: 'திங்களூர்', planet: 'சந்திரன்', location: 'பெண்ணாகடம்', lat: 10.8862, lng: 79.4543 },
+                    { name: 'வைத்தீஸ்வரன் கோயில்', planet: 'செவ்வாய்', location: 'சீர்காழி', lat: 11.1385, lng: 79.7544 },
+                    { name: 'திருவெண்காடு', planet: 'புதன்', location: 'சீர்காழி', lat: 11.0123, lng: 79.6234 },
+                    { name: 'அழகர் கோயில்', planet: 'குரு', location: 'கும்பகோணம்', lat: 10.9652, lng: 79.3912 },
+                    { name: 'கஞ்சனூர்', planet: 'சுக்கிரன்', location: 'கும்பகோணம்', lat: 10.9123, lng: 79.3234 },
+                    { name: 'திருநள்ளாறு', planet: 'சனி', location: 'காரைக்கால்', lat: 10.9264, lng: 79.8457 },
+                    { name: 'கீழ்பெரும்பள்ளம்', planet: 'ராகு', location: 'கும்பகோணம்', lat: 10.9754, lng: 79.4123 },
+                    { name: 'நாகப்பட்டினம்', planet: 'கேது', location: 'நாகப்பட்டினம்', lat: 10.7661, lng: 79.8448 }
                 ]
             },
             {
@@ -83,12 +84,13 @@ class TamilTempleApp {
                 description: '5 பூதங்களை குறிக்கும் சிவாலயங்கள்',
                 best_time: 'கார்த்திகை-மார்கழி',
                 significance: 'பஞ்ச பூத வழிபாடு',
+                religious_order: true, // Must follow elemental sequence
                 temples: [
-                    { name: 'ஏகாம்பரேஸ்வரர் கோயில்', element: 'பிருத்வி (நிலம்)', location: 'காஞ்சிபுரம்' },
-                    { name: 'ஜம்புகேஸ்வரர் கோயில்', element: 'அப்பு (நீர்)', location: 'திருச்சி' },
-                    { name: 'அருணாசலேஸ்வரர் கோயில்', element: 'தேயு (நெருப்பு)', location: 'திருவண்ணாமலை' },
-                    { name: 'கலாஹஸ்தீஸ்வரர் கோயில்', element: 'வாயு (காற்று)', location: 'ஆந்திரா' },
-                    { name: 'நடராஜர் கோயில்', element: 'ஆகாயம் (வானம்)', location: 'சிதம்பரம்' }
+                    { name: 'ஏகாம்பரேஸ்வரர் கோயில்', element: 'பிருத்வி (நிலம்)', location: 'காஞ்சிபுரம்', lat: 12.8352, lng: 79.7064 },
+                    { name: 'ஜம்புகேஸ்வரர் கோयில்', element: 'அப்பு (நீர்)', location: 'திருச்சிராப்பள்ளி', lat: 10.8505, lng: 78.7047 },
+                    { name: 'அருணாசலேஸ்வரர் கோயில்', element: 'தேயு (நெருப்பு)', location: 'திருவண்ணாமலை', lat: 12.2300, lng: 79.0667 },
+                    { name: 'கலாஹஸ்தீஸ்வரர் கோயில்', element: 'வாயு (காற்று)', location: 'ஆந்திரப்பிரதேசம்', lat: 13.7508, lng: 79.3464 },
+                    { name: 'நடராஜர் கோயில்', element: 'ஆகாயம் (வானம்)', location: 'சிதம்பரம்', lat: 11.3974, lng: 79.6955 }
                 ]
             },
             {
@@ -98,21 +100,22 @@ class TamilTempleApp {
                 category: 'vaishnava',
                 temple_count: 9,
                 duration_days: '2 நாட்கள்',
-                total_distance_km: 80,
+                total_distance_km: 180,
                 base_location: 'திருநெல்வேலி',
                 description: '9 விஷ்ணு திவ்ய தேசங்கள்',
                 best_time: 'மார்கழி-தை',
                 significance: 'விஷ்ணு பக்தி',
+                religious_order: false, // Can be optimized for travel
                 temples: [
-                    { name: 'ஸ்ரீ வைகுண்டம்', deity: 'வைகுண்ட நாதர்', location: 'ஸ்ரீ வைகுண்டம்' },
-                    { name: 'நத்தம்', deity: 'நாதமுனி', location: 'நத்தம்' },
-                    { name: 'திருப்புளிங்குடி', deity: 'காயாம்பூ பெருமாள்', location: 'திருப்புளிங்குடி' },
-                    { name: 'பெரியநம்பி கோயில்', deity: 'பெரியநம்பி', location: 'திருக்குறுங்குடி' },
-                    { name: 'திருக்கோளூர்', deity: 'வைத்தமாநிதி பெருமாள்', location: 'திருக்கோளூர்' },
-                    { name: 'திருக்குளந்தை', deity: 'மணிமாட பெருமாள்', location: 'திருக்குளந்தை' },
-                    { name: 'இரட்டை திருப்பதி', deity: 'தேவபிரான்', location: 'இரட்டை திருப்பதி' },
-                    { name: 'கழிசீராம விண்ணகரம்', deity: 'தடாள பெருமாள்', location: 'சீர்காழி' },
-                    { name: 'அழ்வார் திருநகரி', deity: 'ஆதிநாதர்', location: 'திருநகரி' }
+                    { name: 'ஸ்ரீ வைகுண்டம்', deity: 'வைகுண்ட நாதர்', location: 'ஸ்ரீ வைகுண்டம்', lat: 8.6139, lng: 77.8421 },
+                    { name: 'அழ்வார் திருநகரி', deity: 'ஆதிநாதர்', location: 'திருநகரி', lat: 8.7315, lng: 77.8233 },
+                    { name: 'திருக்குறுங்குடி', deity: 'பெரியநம்பி', location: 'திருக்குறுங்குடி', lat: 8.8167, lng: 77.8167 },
+                    { name: 'திருக்கோளூர்', deity: 'வைத்தமாநிதி பெருமாள்', location: 'திருக்கோளூர்', lat: 8.8833, lng: 77.7500 },
+                    { name: 'திருக்குளந்தை', deity: 'மணிமாட பெருமாள்', location: 'திருக்குளந்தை', lat: 8.9167, lng: 77.7167 },
+                    { name: 'திருப்புளிங்குடி', deity: 'காயாம்பூ பெருமாள்', location: 'திருப்புளிங்குடி', lat: 8.8500, lng: 77.9000 },
+                    { name: 'இரட்டை திருப்பதி', deity: 'தேவபிரான்', location: 'இரட்டை திருப்பதி', lat: 8.7667, lng: 77.9167 },
+                    { name: 'நத்தம்', deity: 'நாதமுனி', location: 'நத்தம்', lat: 10.2333, lng: 78.2333 },
+                    { name: 'கழிசீராம விண்ணகரம்', deity: 'தடாள பெருமாள்', location: 'சீர்காழி', lat: 11.2333, lng: 79.7500 }
                 ]
             },
             {
@@ -122,18 +125,19 @@ class TamilTempleApp {
                 category: 'murugan',
                 temple_count: 6,
                 duration_days: '3-4 நாட்கள்',
-                total_distance_km: 500,
+                total_distance_km: 650,
                 base_location: 'தமிழ்நாடு முழுவதும்',
                 description: 'முருகனின் 6 படைவீடுகள்',
                 best_time: 'தை-சித்திரை',
                 significance: 'முருக பக்தி',
+                religious_order: true, // Traditional sequence important
                 temples: [
-                    { name: 'திருப்பரங்குன்றம்', significance: 'முதல் படைவீடு', location: 'மதுரை' },
-                    { name: 'திருச்செந்தூர்', significance: 'இரண்டாம் படைவீடு', location: 'தூத்துக்குடி' },
-                    { name: 'பழநி', significance: 'மூன்றாம் படைவீடு', location: 'பழநி' },
-                    { name: 'சுவாமிமலை', significance: 'நான்காம் படைவீடு', location: 'கும்பகோணம்' },
-                    { name: 'திருத்தணி', significance: 'ஐந்தாம் படைவீடு', location: 'திருத்தணி' },
-                    { name: 'பழமுதிர்சோலை', significance: 'ஆறாம் படைவீடு', location: 'மதுரை' }
+                    { name: 'திருப்பரங்குன்றம்', significance: 'முதல் படைவீடு', location: 'மதுரை', lat: 9.8736, lng: 78.0972 },
+                    { name: 'திருச்செந்தூர்', significance: 'இரண்டாம் படைவீடு', location: 'தூத்துக்குடி', lat: 8.4967, lng: 78.1201 },
+                    { name: 'பழநி', significance: 'மூன்றாம் படைவீடு', location: 'பழநி', lat: 10.4479, lng: 77.5202 },
+                    { name: 'சுவாமிமலை', significance: 'நான்காம் படைவீடு', location: 'கும்பகோணம்', lat: 10.9050, lng: 79.3699 },
+                    { name: 'திருத்தணி', significance: 'ஐந்தாம் படைவீடு', location: 'திருத்தணி', lat: 13.1764, lng: 79.6134 },
+                    { name: 'பழமுதிர்சோலை', significance: 'ஆறாம் படைவீடு', location: 'மதுரை', lat: 9.9381, lng: 77.9701 }
                 ]
             },
             {
@@ -143,18 +147,19 @@ class TamilTempleApp {
                 category: 'regional',
                 temple_count: 6,
                 duration_days: '1-2 நாட்கள்',
-                total_distance_km: 50,
+                total_distance_km: 70,
                 base_location: 'மதுரை',
                 description: 'மதுரை நகர் மற்றும் சுற்றுப்புற கோயில்கள்',
                 best_time: 'சித்திரை-வைகாசி',
                 significance: 'பாண்டிய நாட்டு பாரம்பரியம்',
+                religious_order: false, // Can be optimized for efficient travel
                 temples: [
-                    { name: 'மீனாட்சி அம்மன் கோயில்', deity: 'மீனாட்சி-சுந்தரேஸ்வரர்', location: 'மதுரை' },
-                    { name: 'கூடல் அழகர் கோயில்', deity: 'விஷ்ணு', location: 'மதுரை' },
-                    { name: 'திருப்பரங்குன்றம்', deity: 'முருகன்', location: 'மதுரை' },
-                    { name: 'பழமுதிர்சோலை', deity: 'முருகன்', location: 'அழகர்கோயில்' },
-                    { name: 'கல்லழகர் கோயில்', deity: 'விஷ்ணு', location: 'அழகர்கோயில்' },
-                    { name: 'வந்தியூர் மாரியம்மன்', deity: 'மாரியம்மன்', location: 'மதுரை' }
+                    { name: 'மீனாட்சி அம்மன் கோயில்', deity: 'மீனாட்சி-சுந்தரேஸ்வரர்', location: 'மதுரை', lat: 9.9195, lng: 78.1194 },
+                    { name: 'கூடல் அழகர் கோயில்', deity: 'விஷ்ணு', location: 'மதுரை', lat: 9.9264, lng: 78.1137 },
+                    { name: 'திருமலைநாயக்கர் மஹால்', deity: 'ஐதிகம்', location: 'மதுரை', lat: 9.9197, lng: 78.1255 },
+                    { name: 'திருப்பரங்குன்றம்', deity: 'முருகன்', location: 'மதுரை', lat: 9.8736, lng: 78.0972 },
+                    { name: 'கல்லழகர் கோயில்', deity: 'விஷ்ணு', location: 'அழகர்கோயில்', lat: 9.9345, lng: 77.9701 },
+                    { name: 'பழமுதிர்சோலை', deity: 'முருகன்', location: 'அழகர்கோயில்', lat: 9.9381, lng: 77.9701 }
                 ]
             }
         ];
@@ -1176,12 +1181,82 @@ class TamilTempleApp {
             `).join('');
     }
     
+    optimizeCircuitRoute(circuit) {
+        if (circuit.religious_order) {
+            // Keep religious order, but calculate distances for display
+            let totalDistance = 0;
+            for (let i = 0; i < circuit.temples.length - 1; i++) {
+                const from = circuit.temples[i];
+                const to = circuit.temples[i + 1];
+                if (from.lat && from.lng && to.lat && to.lng) {
+                    totalDistance += this.calculateDistance(from.lat, from.lng, to.lat, to.lng);
+                }
+            }
+            return {
+                temples: circuit.temples,
+                totalDistance: Math.round(totalDistance),
+                optimized: false,
+                message: 'மத வழிपாட்டு முறைக்கு ஏற்ப வரிசைப்படுத்தப்பட்டுள்ளது'
+            };
+        } else {
+            // Use simple nearest neighbor algorithm for route optimization
+            const optimizedTemples = [...circuit.temples];
+            const visited = new Array(optimizedTemples.length).fill(false);
+            const route = [];
+            
+            // Start with first temple
+            let currentIndex = 0;
+            route.push(optimizedTemples[currentIndex]);
+            visited[currentIndex] = true;
+            let totalDistance = 0;
+            
+            // Find nearest unvisited temple for each step
+            for (let step = 1; step < optimizedTemples.length; step++) {
+                let nearestIndex = -1;
+                let nearestDistance = Infinity;
+                
+                for (let i = 0; i < optimizedTemples.length; i++) {
+                    if (!visited[i] && optimizedTemples[currentIndex].lat && optimizedTemples[i].lat) {
+                        const distance = this.calculateDistance(
+                            optimizedTemples[currentIndex].lat,
+                            optimizedTemples[currentIndex].lng,
+                            optimizedTemples[i].lat,
+                            optimizedTemples[i].lng
+                        );
+                        if (distance < nearestDistance) {
+                            nearestDistance = distance;
+                            nearestIndex = i;
+                        }
+                    }
+                }
+                
+                if (nearestIndex !== -1) {
+                    route.push(optimizedTemples[nearestIndex]);
+                    visited[nearestIndex] = true;
+                    totalDistance += nearestDistance;
+                    currentIndex = nearestIndex;
+                }
+            }
+            
+            return {
+                temples: route,
+                totalDistance: Math.round(totalDistance),
+                optimized: true,
+                message: 'பயண தூரத்திற்கு ஏற்ப மேம்படுத்தப்பட்டுள்ளது'
+            };
+        }
+    }
+
     showCircuitDetail(circuitId) {
         const circuit = this.circuits.find(c => c.id === circuitId);
         if (!circuit) return;
         
+        // Optimize route if allowed
+        const routeInfo = this.optimizeCircuitRoute(circuit);
+        const optimizedTemples = routeInfo.temples;
+        
         // Match circuit temples with our database
-        const matchedTemples = circuit.temples.map(circuitTemple => {
+        const matchedTemples = optimizedTemples.map(circuitTemple => {
             // Try to find matching temple in our database
             let dbTemple = this.temples.find(t => 
                 t.temple_name && (
@@ -1205,12 +1280,32 @@ class TamilTempleApp {
             return { ...dbTemple, ...circuitTemple };
         });
         
-        // Generate Google Maps URL for navigation
-        const waypoints = circuit.temples.filter(t => t.lat && t.lng)
-            .map(t => `${t.lat},${t.lng}`)
-            .join('|');
-        const googleMapsUrl = circuit.temples[0]?.lat ? 
-            `https://www.google.com/maps/dir/${circuit.temples[0].lat},${circuit.temples[0].lng}/${waypoints}` : '#';
+        // Generate Google Maps URL for navigation using optimized route
+        let googleMapsUrl = '#';
+        if (optimizedTemples.length > 0 && optimizedTemples[0]?.lat) {
+            if (optimizedTemples.length === 1) {
+                // Single temple - just show location
+                googleMapsUrl = `https://www.google.com/maps/search/?api=1&query=${optimizedTemples[0].lat},${optimizedTemples[0].lng}`;
+            } else if (optimizedTemples.length === 2) {
+                // Two temples - direct directions
+                const start = optimizedTemples[0];
+                const end = optimizedTemples[1];
+                googleMapsUrl = `https://www.google.com/maps/dir/?api=1&origin=${start.lat},${start.lng}&destination=${end.lat},${end.lng}`;
+            } else {
+                // Multiple temples - use waypoints (max 10 total including start/end)
+                const start = optimizedTemples[0];
+                const end = optimizedTemples[optimizedTemples.length - 1];
+                const waypoints = optimizedTemples.slice(1, -1).slice(0, 8) // Max 8 waypoints
+                    .filter(t => t.lat && t.lng)
+                    .map(t => `${t.lat},${t.lng}`)
+                    .join('|');
+                
+                googleMapsUrl = `https://www.google.com/maps/dir/?api=1&origin=${start.lat},${start.lng}&destination=${end.lat},${end.lng}`;
+                if (waypoints) {
+                    googleMapsUrl += `&waypoints=${waypoints}`;
+                }
+            }
+        }
         
         const modalBody = document.getElementById('modalBody');
         modalBody.innerHTML = `
@@ -1229,8 +1324,8 @@ class TamilTempleApp {
                             <div class="circuit-stat-label">பயண காலம்</div>
                         </div>
                         <div class="circuit-stat">
-                            <div class="circuit-stat-value">${circuit.total_distance_km} கி.மீ</div>
-                            <div class="circuit-stat-label">மொத்த தூரம்</div>
+                            <div class="circuit-stat-value">${routeInfo.totalDistance || circuit.total_distance_km} கி.மீ</div>
+                            <div class="circuit-stat-label">${routeInfo.optimized ? 'மேம்படுத்திய தூரம்' : 'மொத்த தூரம்'}</div>
                         </div>
                     </div>
                 </div>
@@ -1248,8 +1343,11 @@ class TamilTempleApp {
                         border-radius: 8px;
                         text-decoration: none;
                         font-weight: 500;
+                        width: 100%;
+                        text-align: center;
+                        box-sizing: border-box;
                     ">
-                        🗺️ Google Maps இல் திறக்க
+                        🗺️ Google Maps இல் வழிகாட்டுதல்
                     </a>
                 </div>
                 ` : ''}
@@ -1260,7 +1358,11 @@ class TamilTempleApp {
                     <div class="circuit-info-text">
                         📍 தொடக்க இடம்: ${circuit.base_location}<br>
                         📅 சிறந்த காலம்: ${circuit.best_time}<br>
-                        🛕 முக்கியத்துவம்: ${circuit.significance}
+                        🛕 முக்கியத்துவம்: ${circuit.significance}<br>
+                        ${routeInfo.optimized ? 
+                            `🎯 வழித்தடம்: ${routeInfo.message}` :
+                            `⚡ வழித்தடம்: ${routeInfo.message}`
+                        }
                     </div>
                 </div>
                 
@@ -1303,9 +1405,9 @@ class TamilTempleApp {
                                         <span class="info-value">${temple.festivals}</span>
                                     </div>
                                     ` : ''}
-                                    ${temple.latitude && temple.longitude ? `
+                                    ${(temple.latitude && temple.longitude) || (temple.lat && temple.lng) ? `
                                     <div class="info-item">
-                                        <a href="https://www.google.com/maps/search/?api=1&query=${temple.latitude},${temple.longitude}" 
+                                        <a href="https://www.google.com/maps/search/?api=1&query=${temple.latitude || temple.lat},${temple.longitude || temple.lng}" 
                                            target="_blank" 
                                            style="color: #4285f4; text-decoration: none;">
                                             📍 வரைபடத்தில் காண்க
@@ -1338,8 +1440,8 @@ class TamilTempleApp {
         document.getElementById('templeModal').classList.add('active');
         
         // Initialize circuit map if temples have coordinates
-        if (circuit.temples[0]?.lat) {
-            setTimeout(() => this.initCircuitMap(circuit), 100);
+        if (optimizedTemples[0]?.lat) {
+            setTimeout(() => this.initCircuitMap({ ...circuit, temples: optimizedTemples }), 100);
         }
     }
     
@@ -1408,6 +1510,7 @@ class TamilTempleApp {
             circuitMap.fitBounds(bounds, { padding: [20, 20] });
         }
     }
+    
 }
 
 // Initialize app
