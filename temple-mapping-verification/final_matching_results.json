@@ -1,0 +1,3202 @@
+[
+  {
+    "findmytemple": {
+      "id": "t47",
+      "name": "Aaludayar Temple",
+      "location": {
+        "city": "Uyyakondan Thirumalai",
+        "district": "Tiruchirappalli",
+        "state": "Tamil Nadu",
+        "address": "Sri Aaludayar Thirukovil, Uyyakondan Thirumalai"
+      },
+      "deity": "Aaludayaar (Shiva) in Linga form, 8.5 feet high"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t213",
+      "name": "Amirthavalli and Abimugeshar Temple",
+      "location": {
+        "city": "Kumbakonam",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Shri Amirthavalli and Abimugeshar Temple, Kumbakonam, Tanjore District"
+      },
+      "deity": "Shri Abimugeshar"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM000735",
+      "name": "Arulmigu Amirthavalli Thayar Kattalai",
+      "district": "Chennai District",
+      "score": 57.14285714285714
+    },
+    "confidence": "low",
+    "reasoning": [
+      "Name similarity: 57.1%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t1",
+      "name": "Anandhavalli Udaltherai Sri Agastheeswarar Temple",
+      "location": {
+        "city": "Perugamani",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "address": "Anandhavalli Udaltherai Sri Agastheeswarar Temple, Perugamani, Trichy District"
+      },
+      "deity": "Sri Agastheeswarar (Lord Shiva)"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM001366",
+      "name": "Arulmigu Anandhavalli Sundareswarar Temple",
+      "district": "Vellore District",
+      "score": 75.0
+    },
+    "confidence": "medium",
+    "reasoning": [
+      "Name similarity: 75.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t229",
+      "name": "Agneeswaraswamy (Shukra) Temple",
+      "location": {
+        "city": "Kanjanur",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri Agneeswaraswamy Temple, Kanjanur (Po), Thiruvidaimarudhur (Tk), Tanjore (Dt)",
+        "pincode": "609 804"
+      },
+      "deity": "Sri Agneeswarar"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM014321",
+      "name": "Arulmigu Agneeswarar Temple",
+      "district": "Thiruvarur District",
+      "score": 73.33333333333333
+    },
+    "confidence": "medium",
+    "reasoning": [
+      "Name similarity: 73.3%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t18",
+      "name": "Amravaneswarar Temple",
+      "location": {
+        "city": "Mandurai",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "address": "Sri Amravaneswari Temple, Manthurai (Po.), Lalgudi (Tk), Trichy (Dt)",
+        "pincode": "621 703"
+      },
+      "deity": "Sri Amravaneswarar"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t6",
+      "name": "Analadeeswarar Temple",
+      "location": {
+        "city": "Thottiyam",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "address": "Sri Analadeeswarar Temple, Thottiyam, Trichy District"
+      },
+      "deity": "Analadeeswarar (Lord Shiva)"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t285",
+      "name": "Apathsahayar Temple",
+      "location": {
+        "village": "Thirupazhanam",
+        "taluk": "Thiruvaiyaru",
+        "district": "Tanjore"
+      },
+      "deity": "Apathsahayar"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t29",
+      "name": "Arasankudi Shiva Temple",
+      "location": {
+        "district": "Trichy",
+        "nearest_town": "Thiruverumbur"
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t221",
+      "name": "Artha Nareeswarar Temple",
+      "location": "Thiruchengodu, Namakkal District",
+      "deity": "Artha Nareeswarar"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM000521",
+      "name": "Arulmigu Arthanareeswarar Temple",
+      "district": "Chennai District",
+      "score": 96.96969696969697
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 97.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t177",
+      "name": "Arunajadeswarar Temple",
+      "location": "Thiruppanandal, Kumbakonam",
+      "deity": "Sri ArunajadeswaraSwamy"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t187",
+      "name": "Balukandanadha Swamy Temple",
+      "location": {
+        "village": "Thiruvaipadi",
+        "district": "Tanjore"
+      },
+      "deity": "Sri Balukandanadha Swamy"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t120",
+      "name": "Bhoothalingaswamy Temple",
+      "location": "Bhoothappandi, Kanyakumari District",
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t9",
+      "name": "Brahmapureeswarar Temple",
+      "location": {
+        "village": "Anbil",
+        "district": "Trichy"
+      },
+      "deity": "Brahmapureeswarar"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM014164",
+      "name": "Arulmigu  Brahmapureeswarar  Temple",
+      "district": "Thanjavur District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t190",
+      "name": "Brahmapureeswarar Temple",
+      "location": "Yenanallur, Kumbakonam",
+      "deity": "Shri Brahmapureeswarar"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM014164",
+      "name": "Arulmigu  Brahmapureeswarar  Temple",
+      "district": "Thanjavur District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t124",
+      "name": "Brihadiswara Temple",
+      "location": "Gangai Konda Cholapuram, Ariyalur District",
+      "deity": "Brihadeeswarar"
+    },
+    "importance": {
+      "is_major": true,
+      "category": "unesco_heritage",
+      "reason": [
+        "Contains 'brihadiswara' - known major temple"
+      ]
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t30",
+      "name": "Chandrasekhara Swamy Temple",
+      "location": "Jeeyapuram, Trichy District",
+      "deity": ""
+    },
+    "importance": {
+      "is_major": true,
+      "category": "navagraha",
+      "reason": [
+        "Contains 'chandra' - known major temple"
+      ]
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t180",
+      "name": "Dharmapureeswarar Temple",
+      "location": "Kumbakonam, Tanjore District",
+      "deity": "Sri Dharmapureeswarar"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM016059",
+      "name": "Arulmigu Dharmapureeswarar Temple",
+      "district": "Nagapattinam District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t73",
+      "name": "Ekambareswarar Temple",
+      "location": "Kanchipuram",
+      "deity": "Ekambareswarar"
+    },
+    "importance": {
+      "is_major": true,
+      "category": "pancha_bhoota",
+      "reason": [
+        "Contains 'ekambareswarar' - known major temple",
+        "Pancha Bhoota Stalam - Five elements temple"
+      ]
+    },
+    "match": {
+      "temple_id": "TM000169",
+      "name": "Arulmigu Ekambareswarar Temple",
+      "district": "Chennai District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t41",
+      "name": "Erumbeeswarar Temple",
+      "location": {
+        "city": "Thiruverumbur",
+        "district": "Trichy"
+      },
+      "deity": "Erumbeeswarar"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM025784",
+      "name": "Arulmigu Erumbeeswarar Temple",
+      "district": "Thiruchirappalli District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t233",
+      "name": "Ezhuthari Nadheswarar Temple",
+      "location": {
+        "village": "Innambur",
+        "district": "Tanjore"
+      },
+      "deity": "Sri Ezhutharinadar"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM023208",
+      "name": "Arulmigu Matthiyanadheswarar Temple",
+      "district": "Kallakurichi District",
+      "score": 70.0
+    },
+    "confidence": "medium",
+    "reasoning": [
+      "Name similarity: 70.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t40",
+      "name": "Jambhukeswarar Temple",
+      "location": "Thiruvanaikovil, Trichy",
+      "deity": "Jambukeswarar"
+    },
+    "importance": {
+      "is_major": true,
+      "category": "pancha_bhoota",
+      "reason": [
+        "Contains 'jambukeswarar' - known major temple",
+        "Pancha Bhoota Stalam - Five elements temple"
+      ]
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t77",
+      "name": "Sundrambigai Sametha Kachabeshvarar Temple",
+      "location": {
+        "city": "Kanchipuram",
+        "district": "Kanchipuram District",
+        "state": "Tamil Nadu",
+        "address": "Sundrambigai Sametha Kachabeshvarar Temple, Kanchipuram"
+      },
+      "deity": "Sri Kachabeswarar"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM004018",
+      "name": "Arulmigu Nirai Vilambugai Sametha Valeeswarar Temple",
+      "district": "Ranipet District",
+      "score": 67.6056338028169
+    },
+    "confidence": "medium",
+    "reasoning": [
+      "Name similarity: 67.6%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t273",
+      "name": "Kala Natha Swamy Temple",
+      "location": {
+        "city": "Kollumangudi",
+        "district": "Kumbakonam",
+        "state": "Tamil Nadu",
+        "address": "Kala Natha Swamy Temple, Kollumangudi, Kumbakkonam"
+      },
+      "deity": "Kala Natha Swamy (Lord Shiva)"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM018031",
+      "name": "Arulmigu Sattanathaswamy Temple",
+      "district": "Mayiladuthurai District",
+      "score": 70.0
+    },
+    "confidence": "medium",
+    "reasoning": [
+      "Name similarity: 70.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t75",
+      "name": "Kailasanadhar Temple",
+      "location": {
+        "city": "Kanchipuram",
+        "district": "Kanchipuram District",
+        "state": "Tamil Nadu",
+        "address": "Sri Kailasanathar Temple, Kanchipuram"
+      },
+      "deity": "Sri Kailasanadhar (Shiva)"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM002998",
+      "name": "Arulmigu Kailasanadhar Temple",
+      "district": "Chengalpattu District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t167",
+      "name": "Karukudinatha Swamy Temple",
+      "location": {
+        "city": "Marudhanallur",
+        "district": "Kumbakonam",
+        "state": "Tamil Nadu",
+        "address": "Sri Sargunalingeswarar Temple, Marudhanallur (Po.), Kumbakonam (Tk), Thanjavur (Dt). PIN – 612 402"
+      },
+      "deity": "Sri Karukudinathar (form of Shiva)"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t188",
+      "name": "Mahalinga Swamy Temple",
+      "location": {
+        "city": "Thiruvidaimarudur",
+        "district": "Tanjavur",
+        "state": "Tamil Nadu",
+        "address": "Sri Mahalingaswamy Temple, Thiruvidaimarudur (Po.)& (Tk.), Tanjavur (Dt). PIN – 612 104"
+      },
+      "deity": "Sri Mahalinga Swamy"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM017503",
+      "name": "Arulmigu Mahalingaswamy Temple",
+      "district": "Thiruvarur District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t154",
+      "name": "Manikarnikeswarar Temple",
+      "location": {
+        "city": "Thanjavur",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Rajaveedi, Tanjore, Tanjore District"
+      },
+      "deity": "Sri Manikarnikeshwar"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t186",
+      "name": "Manognanadhaswamy Temple",
+      "location": {
+        "city": "Thiruneelakkudi",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri ManognanadhaSwamy Temple, Thiruneelakkudi (Po.), Kumbakonam (Via), Thiruvidaimarudhur (Tk), Tanjore (Dt). PIN – 612 108"
+      },
+      "deity": "Sri Manognanadhaswamy"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t2",
+      "name": "Marudanda Nadeswarar Temple",
+      "location": {
+        "city": "Aangarai",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "address": "Sri Marudanda Nadeswarar temple, Aangarai, Lalgudi, Trichy Dt."
+      },
+      "deity": "Marudanda Nadeswarar"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM016809",
+      "name": "Arulmigu Saba Nadeswarar Temple",
+      "district": "Thiruvarur District",
+      "score": 74.28571428571429
+    },
+    "confidence": "medium",
+    "reasoning": [
+      "Name similarity: 74.3%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t20",
+      "name": "Marundheeswarar Temple",
+      "location": {
+        "city": "Koothappar",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "address": "Sri Marundheeswarar Temple, Koothappar, Trichy Dt"
+      },
+      "deity": "Marundheewarar (Lord Shiva)"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM000087",
+      "name": "Arulmigu Marundheeswarar Temple",
+      "district": "Chennai District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t38",
+      "name": "Matruraivaradeeswarar Temple",
+      "location": {
+        "city": "Thiruvasi",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "address": "Sri Balambigai Samedha Matrurau Varadeeswarar Temple, Manacha Nallur Tk, Trichy Dt, Thiruvasi-621216"
+      },
+      "deity": "Matrurau Varadeeswarar (aka Samevaneswarar, matrari Varadhar)"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t225",
+      "name": "Thirunaganadha Swamy(Raghu)Temple",
+      "location": {
+        "city": "Thirunageshvaram",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri Thirunageswara Swamy Temple, Kumbakonam (Po.), Tanjore (Dt), Thirunageswaram – 612 204"
+      },
+      "deity": "Sri Thirunaganadhaswamy"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t223",
+      "name": "Naganadha Swamy Temple (Kethu Isthalam)",
+      "location": {
+        "city": "Keelaperumpallam",
+        "district": "Nagai",
+        "state": "Tamil Nadu",
+        "address": "Sri Naganadha Swamy Temple (Kedhu Stahalam), Keelaperumpallam, Vanagiri (Po.), Tharangambadi (Tk.), Nagai (Dt)."
+      },
+      "deity": "Sri Naganadha Swamy"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM015540",
+      "name": "Arulmigu Naganadha Swami Temple",
+      "district": "Thanjavur District",
+      "score": 63.41463414634146
+    },
+    "confidence": "low",
+    "reasoning": [
+      "Name similarity: 63.4%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t160",
+      "name": "Nageswarar Swamy Temple",
+      "location": {
+        "city": "Kumbakonam",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri NageswaraSwamy Temple, Kumbakonam (Po.), Tanjore (Dt). Pin : 612 001"
+      },
+      "deity": "Sri Nageswarar"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM002330",
+      "name": "Arulmigu Nageswarar",
+      "district": "Tiruvallur District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t37",
+      "name": "Nedungula Nather Temple",
+      "location": {
+        "city": "Thirunedungulam",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "address": "Sri Thirunedungalanadhar Temple, Thirunedungulam (Po.), Thiruverumbur (Tk), Trichy"
+      },
+      "deity": "Nedungalanadhar (Nithya Sundareswarar, Easan)"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM024546",
+      "name": "Arulmigu Kailasanather Temple",
+      "district": "Tiruvannamalai District",
+      "score": 55.172413793103445
+    },
+    "confidence": "low",
+    "reasoning": [
+      "Name similarity: 55.2%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t44",
+      "name": "Neelivaneswarar Temple",
+      "location": {
+        "city": "Thirupanjali",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "address": "Sri Neelivaneswarar Temple, Thirupanjali, Mannacha Nallur, Trichy Dt."
+      },
+      "deity": "Neelivaneswarar, Neela Kandeswarar, Vazhai Vananathar, Swetha Giri"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t24",
+      "name": "Panchavarneswarar Temple",
+      "location": {
+        "city": "Woraiyur",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "address": "Sri Panchavarneshwar Temple, Woraiyur – 620 003, Trichy District"
+      },
+      "deity": "Panchavarneshwarar, Sri Mukkisurathadigal"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t171",
+      "name": "Pasupadeswaraswamy Temple",
+      "location": {
+        "city": "Pandanainallur",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri Pasupadeeswaraswamy Temple, Pandanainallur (Po), Kumbakonam (Tk), Tanjore (Dt). Pin : 609 807"
+      },
+      "deity": "Sri Pasupadeswarar"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t185",
+      "name": "Prananadha Swamy Temple",
+      "location": {
+        "city": "Thirumangalakkudi",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri PrananadhaSwamy Temple, Thirumangalakkudi (Po), Thiruvidaimarudhur (Tk), Tanjore (Dt). Pin : 612 102"
+      },
+      "deity": "Sri Prananadha Swamy"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t296",
+      "name": "Prathyaksh Parameswar Temple",
+      "location": {
+        "city": "Thethiyur",
+        "district": "Kumbakonam",
+        "state": "Tamil Nadu",
+        "address": "Prathyaksh Parameswar Temple, Thethiyur, Kumbakonam, Tanjore"
+      },
+      "deity": "Prathyaksh Parameswar"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM000007",
+      "name": "Arulmigu Angala Parameswari Temple",
+      "district": "Chennai District",
+      "score": 66.66666666666666
+    },
+    "confidence": "medium",
+    "reasoning": [
+      "Name similarity: 66.7%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t86",
+      "name": "Ramanadha Swamy Temple",
+      "location": {
+        "city": "Ramanadheecharam",
+        "district": "Tiruvarur",
+        "state": "Tamil Nadu",
+        "address": "Sri Ramanadha Swamy temple, Ramanadheecharam, Thirukkannapuram – 609 704"
+      },
+      "deity": "Ramanadha Swamy"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM042060",
+      "name": "Arulmigu Ramanadhasamy Temple",
+      "district": "Kanyakumari District",
+      "score": 81.81818181818183
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 81.8%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t192",
+      "name": "Sri Parvathavardhini Ambiga Samedha Sri Ramanatha Swamy Temple",
+      "location": {
+        "city": "Nachiyar Kovil",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Ramanatha Swamy Temple, Nachiyar Kovil, Kumbakonam"
+      },
+      "deity": "Ramanatha Swamy"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM002910",
+      "name": "Arulmigu Kamalambigai Samedha Kailasanathar Temple",
+      "district": "Kancheepuram District",
+      "score": 64.0
+    },
+    "confidence": "low",
+    "reasoning": [
+      "Name similarity: 64.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t195",
+      "name": "Somanatha Swamy Temple",
+      "location": {
+        "city": "Keezha Pazhayarai",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri Somanatha Swamy Temple, Keezha Pazhayarai, Kumbakonam (Tk), Tanjore District"
+      },
+      "deity": "Sri Somanatha Swamy (Lord Shiva)"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM000095",
+      "name": "Arulmigu Somanatha Swamy Temple",
+      "district": "Chennai District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t161",
+      "name": "Someswara Swamy Temple",
+      "location": {
+        "city": "Kumbakonam",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri SomeswaraSwamy Temple, Kumbakonam (Po.), Tanjore (Dt). Pin : 612 001"
+      },
+      "deity": "Sri Someswarar, Sikkesar, Somanadhar"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM002090",
+      "name": "Arulmigu Someswarar Temple",
+      "district": "Tiruvallur District",
+      "score": 94.73684210526315
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 94.7%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t13",
+      "name": "Tharugavaneshwarar Temple",
+      "location": {
+        "city": "Thirupparaithurai",
+        "district": "Tiruchirappalli",
+        "state": "Tamil Nadu",
+        "address": "Arulmigu Tharugavaneshwarar Temple, Thirupparaithurai, Tiruchirappalli"
+      },
+      "deity": "Tharugavaneshwarar [Paraaithurai Nathar]"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t36",
+      "name": "Thayumanavar Swamy Temple",
+      "location": {
+        "city": "Arasalur",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "address": "Thayumanavar Swamy Temple, Arasalur, Thottiyam, Trichy"
+      },
+      "deity": "Arulmigu Thayumanava Swami (Lord Shiva)"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t172",
+      "name": "Thenupureeswarar Temple",
+      "location": {
+        "city": "Patteshvaram",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri Thenupureeswarar Temple, Patteeswaram (Po.), Kumbakonam (Tk), Tanjore (Dt). Pin : 612 703"
+      },
+      "deity": "Sri Thenupureeswarar"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t39",
+      "name": "Panchanadeeswarar Temple",
+      "location": {
+        "city": "Thiruvaiyaru",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri Panchanadeeswarar Temple, Thiruvaiyaru, Tanjore District"
+      },
+      "deity": "Panchanadeeswara Swamy (Iyyarappar)"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM015198",
+      "name": "Arulmigu Panchanadeeswarar Temple",
+      "district": "Thanjavur District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t228",
+      "name": "Vaidhyanatha Swamy(Mangal) Temple",
+      "location": {
+        "city": "Vaitheeswaran Koil",
+        "district": "Nagai District",
+        "state": "Tamil Nadu",
+        "address": "Sri Vaidyanatha Swamy Temple, Vaitheeswaran Koil -609117, Sirkazhi (T.K.), Nagai District – 609 112"
+      },
+      "deity": "Sri Vaidyanatha Swamy (Lord Shiva)"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM030110",
+      "name": "Arulmigu Vaidhyanathaswamy Temple",
+      "district": "Perambalur District",
+      "score": 72.72727272727273
+    },
+    "confidence": "medium",
+    "reasoning": [
+      "Name similarity: 72.7%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t217",
+      "name": "Veerabhadra Swamy Temple",
+      "location": {
+        "city": "Kumbakonam",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Veerabhadra Swamy Temple, Kumbakonam, Tanjore District"
+      },
+      "deity": "Veerabhadra Swamy"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t5",
+      "name": "Appala Ranganatha Swamy Koviladi",
+      "location": {
+        "city": "Koviladi",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri Appala Ranganathar Swamy Temple, Koviladi, Tanjore – 613 105"
+      },
+      "deity": "Appala Ranganathar, Appa Kudathan"
+    },
+    "importance": {
+      "is_major": true,
+      "category": "major_pilgrimage",
+      "reason": [
+        "Contains 'ranganatha' - known major temple"
+      ]
+    },
+    "match": {
+      "temple_id": "TM014219",
+      "name": "Arulmigu Appalarenganathar Swamy Temple",
+      "district": "Thanjavur District",
+      "score": 78.94736842105263
+    },
+    "confidence": "medium",
+    "reasoning": [
+      "Name similarity: 78.9%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t10",
+      "name": "Kamalavalli Thayar Samedha Arasaba Vimoshana Perumal Temple",
+      "location": {
+        "city": "Thirukandiyur",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri Kamala Valli Thayar Samedha Hara Saba Vimoshana Temple, Thiru Kandiyur, Thiruvaiyaru TK, Tanjore District"
+      },
+      "deity": "Hara Saba Vimoshana Perumal, Palinathan, Kamala Nathan, Prigu Nathan"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM002902",
+      "name": "Arulmigu Maragathavalli Thayar Samedha Kariamanicka Perumal Temple",
+      "district": "Kancheepuram District",
+      "score": 76.47058823529412
+    },
+    "confidence": "medium",
+    "reasoning": [
+      "Name similarity: 76.5%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t244",
+      "name": "Kaattazhagiya Singaperumal Temple",
+      "location": {
+        "city": "Sri Rangam",
+        "district": "Tiruchirappalli",
+        "state": "Tamil Nadu",
+        "address": "Nelson Road, Sri Rangam, Tiruchirappalli – 620 006"
+      },
+      "deity": "Kaattazhagiya Singar (Narasimha Avatar)"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM002762",
+      "name": "Arulmigu Azhagiya Singaperumal Temple",
+      "district": "Kancheepuram District",
+      "score": 89.36170212765957
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 89.4%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t179",
+      "name": "Venkatachalapathy Swamy Temple (Oppiliappan Temple)",
+      "location": {
+        "city": "Thirunageshvaram",
+        "district": "Kumbakonam",
+        "state": "Tamil Nadu",
+        "address": "Sri Venkatachalapathi Swamy Temple, Oppiliappan Kovil, Thirunageswaram (Po.), Kumbakonam (Tk.), Thanjavur (Dt), PIN – 612 204"
+      },
+      "deity": "Sri Venkatachalapathy Swamy (Vishnu)"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM017687",
+      "name": "Arulmigu Venkatachalapathy Dharmam",
+      "district": "Thiruvarur District",
+      "score": 70.17543859649122
+    },
+    "confidence": "medium",
+    "reasoning": [
+      "Name similarity: 70.2%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t81",
+      "name": "Pachaivannar Perumal Temple",
+      "location": {
+        "city": "Kanchipuram",
+        "district": "Kanchipuram District",
+        "state": "Tamil Nadu",
+        "address": "Pachavanna perumal Temple, Kanchipuram, Kanchipuram District"
+      },
+      "deity": "Sri Pachchaivannar (Green colored God)"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM038069",
+      "name": "Arulmigu Vanamamalai Perumal Temple",
+      "district": "Tirunelveli District",
+      "score": 61.53846153846154
+    },
+    "confidence": "low",
+    "reasoning": [
+      "Name similarity: 61.5%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t79",
+      "name": "Pandava Thoothar Perumal Temple",
+      "location": {
+        "city": "Kanchipuram",
+        "district": "Kanchipuram",
+        "state": "Tamil Nadu",
+        "address": "Sri Pandava Thoothar Perumal Temple, Thirupadagam, Kanchipuram - 631 502"
+      },
+      "deity": "Sri Krishna (Pandava Thoothar)"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM002758",
+      "name": "Arulmigu Pandavathutha Perumal Temple",
+      "district": "Kancheepuram District",
+      "score": 88.88888888888889
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 88.9%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t251",
+      "name": "Parthasarathy Temple",
+      "location": {
+        "city": "Chennai",
+        "district": "Triplicane (Thiruvallikeni)",
+        "state": "Tamil Nadu",
+        "address": "Sri Parthasarathy Temple, Triplicane, Chennai-600005"
+      },
+      "deity": "Parthasarathy, Venkatakrishnar"
+    },
+    "importance": {
+      "is_major": true,
+      "category": "major_pilgrimage",
+      "reason": [
+        "Contains 'parthasarathy' - known major temple"
+      ]
+    },
+    "match": {
+      "temple_id": "TM000005",
+      "name": "Arulmigu Parthasarathy Swamy Temple",
+      "district": "Chennai District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t82",
+      "name": "Pavalavalli Thayar Sametha Pavala Vannar Temple",
+      "location": {
+        "city": "Kanchipuram",
+        "district": "Kanchipuram",
+        "state": "Tamil Nadu",
+        "address": "Pavalavalli Thayar Sametha Pavala Vannar Temple, Kanchipuram, Kanchipuram(Dt)"
+      },
+      "deity": "Sri Pavalavannar"
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM000735",
+      "name": "Arulmigu Amirthavalli Thayar Kattalai",
+      "district": "Chennai District",
+      "score": 58.82352941176471
+    },
+    "confidence": "low",
+    "reasoning": [
+      "Name similarity: 58.8%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t102",
+      "name": "Prasanna Venkateswara Temple",
+      "location": {
+        "city": "Karur",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Kalyana Venkataramanar Temple, Thanthondrimalai 639 005, Karur Dt.",
+        "coordinates": {
+          "latitude": 10.937363,
+          "longitude": 78.089769
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM043821",
+      "name": "Arulmigu Prasanna Venkateswaraswamy Temple",
+      "district": "Karur District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t165",
+      "name": "Ramaswamy Temple",
+      "location": {
+        "city": "Kumbakonam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Ramaswamy Temple, Kumbakonam (Po.), Thanjavur (Dt). PIN – 612 001",
+        "coordinates": {
+          "latitude": 10.957067,
+          "longitude": 79.373497
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t134",
+      "name": "Ranganatha Swamy Temple",
+      "location": {
+        "city": "Aadhi Thiruvarangam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Aadhi Thiruvarangam Perumal Temple, Aadhi Thiruvarangam 605 802, Villupuram Dt.",
+        "coordinates": {
+          "latitude": 12.002578,
+          "longitude": 79.061997
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": true,
+      "category": "major_pilgrimage",
+      "reason": [
+        "Contains 'ranganatha' - known major temple"
+      ]
+    },
+    "match": {
+      "temple_id": "TM001157",
+      "name": "Arulmigu Ranganatha Swamy Temple",
+      "district": "Chennai District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t176",
+      "name": "Saranatha Perumal Temple",
+      "location": {
+        "city": "Thirucherai",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Saranadha Perumal Temple, Thirucherai (Po.), Kumbakonam (Tk.), Thanjavur (Dt)",
+        "coordinates": {
+          "latitude": 10.878765,
+          "longitude": 79.454774
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM018022",
+      "name": "Arulmigu Saranathaperumal Temple",
+      "district": "Thanjavur District",
+      "score": 96.96969696969697
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 97.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t162",
+      "name": "Sarangapani Swamy Temple",
+      "location": {
+        "city": "Kumbakonam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Sarangapani Temple, Kumbakonam Town & Taluk, Thanjavur (Dt)",
+        "coordinates": {
+          "latitude": 10.959575,
+          "longitude": 79.375244
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM018018",
+      "name": "Arulmigu Sarangapaniswamy Temple",
+      "district": "Thanjavur District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t52",
+      "name": "Sathiyamoorthy Perumal Temple",
+      "location": {
+        "city": "Thirumayam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Arulmigu Sathiyamoorthy Perumal Temple, Thirumayam, Pudukkottai",
+        "coordinates": {
+          "latitude": 10.246967,
+          "longitude": 78.751819
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM038069",
+      "name": "Arulmigu Vanamamalai Perumal Temple",
+      "district": "Tirunelveli District",
+      "score": 53.65853658536586
+    },
+    "confidence": "low",
+    "reasoning": [
+      "Name similarity: 53.7%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t32",
+      "name": "Srirangam Ranganathaswamy Temple",
+      "location": {
+        "city": "Srirangam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Arulmigu Ranganathaswamy Thirukkoil, Srirangam, Trichy 620 006",
+        "coordinates": {
+          "latitude": 10.861798,
+          "longitude": 78.690261
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": true,
+      "category": "major_pilgrimage",
+      "reason": [
+        "Contains 'ranganatha' - known major temple"
+      ]
+    },
+    "match": {
+      "temple_id": "TM004708",
+      "name": "Arulmigu Aranganathaswamy Temple",
+      "district": "Thirupathur District",
+      "score": 78.57142857142857
+    },
+    "confidence": "medium",
+    "reasoning": [
+      "Name similarity: 78.6%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t34",
+      "name": "Sundara Raja Perumal Temple",
+      "location": {
+        "city": "Anbil",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Sundara Raja Perumal Temple, Anbil (P.O) Lalgudi Tk, Trichy Dt.",
+        "coordinates": {
+          "latitude": 10.867789,
+          "longitude": 78.882228
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM000037",
+      "name": "Arulmigu Sundararaja Perumal and Anjaneeya Swamy Temple",
+      "district": "Chennai District",
+      "score": 71.69811320754717
+    },
+    "confidence": "medium",
+    "reasoning": [
+      "Name similarity: 71.7%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t281",
+      "name": "Neelamega Perumal Temple (Thanjai Mamani Kovil)",
+      "location": {
+        "city": "Thanjavur",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Thanjavur -613 003",
+        "coordinates": {
+          "latitude": 10.816888,
+          "longitude": 79.137226
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM014034",
+      "name": "Arulmigu Neelamega Perumal Temple",
+      "district": "Thanjavur District",
+      "score": 65.38461538461539
+    },
+    "confidence": "medium",
+    "reasoning": [
+      "Name similarity: 65.4%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t78",
+      "name": "Amuthavalli Nachiyar Sametha Ulagalantha Perumal Temple",
+      "location": {
+        "city": "Kanchipuram",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Kanchipuram -631 501, Kanchipuram District",
+        "coordinates": {
+          "latitude": 12.839064,
+          "longitude": 79.705123
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t133",
+      "name": "Ulakalanda Perumal Temple",
+      "location": {
+        "city": "Thirukovilur",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Ulakalanda Perumal temple, Thirukovilur-605757, Vilupuram Dt.",
+        "coordinates": {
+          "latitude": 11.966951,
+          "longitude": 79.202474
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM038069",
+      "name": "Arulmigu Vanamamalai Perumal Temple",
+      "district": "Tirunelveli District",
+      "score": 64.86486486486487
+    },
+    "confidence": "low",
+    "reasoning": [
+      "Name similarity: 64.9%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t45",
+      "name": "Uthamar Kovil",
+      "location": {
+        "city": "Trichy",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Uthamar Kovil, Manachanallur, Trichy District",
+        "coordinates": {
+          "latitude": 10.877106,
+          "longitude": 78.703136
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM025726",
+      "name": "Arulmigu Uthamar Temple,",
+      "district": "Thiruchirappalli District",
+      "score": 87.5
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 87.5%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t205",
+      "name": "Vaikunda Perumal Temple",
+      "location": {
+        "city": "Thiruppanandal",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Vaikunda Perumal Temple, Thiruppanandal, Kumbakonam, Thanjavur District",
+        "coordinates": {
+          "latitude": 11.089825,
+          "longitude": 79.452194
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM001650",
+      "name": "Arulmigu Vaikunda Perumal Temple",
+      "district": "Kancheepuram District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t114",
+      "name": "Vaikundanatham Temple",
+      "location": {
+        "city": "Sri Vaikundam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Vaikundanatha Temple, Sri Vaikundam, Thoothukudi district",
+        "coordinates": {
+          "latitude": 8.631388,
+          "longitude": 77.909368
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t83",
+      "name": "Vaikunda Perumal Temple",
+      "location": {
+        "city": "Kanchipuram",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Vaikunda Perumal Temple, Kanchipuram, Kanchipuram District",
+        "coordinates": {
+          "latitude": 12.837099,
+          "longitude": 79.709745
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM001650",
+      "name": "Arulmigu Vaikunda Perumal Temple",
+      "district": "Kancheepuram District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t202",
+      "name": "Vaja thambeeshwarar Temple",
+      "location": {
+        "city": "Kumbakonam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Keela katur, Kumbakonam, Tanjore District",
+        "coordinates": {
+          "latitude": 11.118272,
+          "longitude": 79.487965
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t303",
+      "name": "Van Purushothaman Temple",
+      "location": {
+        "city": "Thirunangur",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Van Purushothaman Temple, Thiruvan Purushothamam, Thirunangur - 609 106, (Sirkazhi-Thirunangur), Nagapattinam District",
+        "coordinates": {
+          "latitude": 11.178773,
+          "longitude": 79.776717
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t3",
+      "name": "Ananda Krishna Varadharaja Perumal Temple",
+      "location": {
+        "city": "Angarai",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Ananda Krishna Varadharaja Perumal Temple, Angarai, Trichy District",
+        "coordinates": {
+          "latitude": 10.873145,
+          "longitude": 78.810733
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM013551",
+      "name": "Arulmigu Ananda Gopala Perumal Temple",
+      "district": "Tiruppur District",
+      "score": 61.81818181818181
+    },
+    "confidence": "low",
+    "reasoning": [
+      "Name similarity: 61.8%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t74",
+      "name": "Varadaraja Perumal Temple",
+      "location": {
+        "city": "Kanchipuram",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Devarai Swamy Temple, Vishnu Kanchi - Kanchipuram, Kanchipuram District",
+        "coordinates": {
+          "latitude": 12.819077,
+          "longitude": 79.725617
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM000437",
+      "name": "Arulmigu Varadaraja Perumal Temple",
+      "district": "Chennai District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t194",
+      "name": "Varadaraja Perumal Temple",
+      "location": {
+        "city": "Kumbakonam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Keelakorukkai, Kumbakonam",
+        "coordinates": {
+          "latitude": 10.930013,
+          "longitude": 79.392106
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM000437",
+      "name": "Arulmigu Varadaraja Perumal Temple",
+      "district": "Chennai District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t302",
+      "name": "Varadaraja Perumal Temple",
+      "location": {
+        "city": "Thirumanikkoodam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Thirumanikkoodam - 609 106, Thirunangur, Nagapattinam district",
+        "coordinates": {
+          "latitude": 11.179781,
+          "longitude": 79.788259
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM000437",
+      "name": "Arulmigu Varadaraja Perumal Temple",
+      "district": "Chennai District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t80",
+      "name": "Yadokthakari Perumal Temple",
+      "location": {
+        "city": "Kanchipuram",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Yadokthakari Perumal Temple, Kanchipuram, Kanchipuram District",
+        "coordinates": {
+          "latitude": 12.824065,
+          "longitude": 79.712425
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM038069",
+      "name": "Arulmigu Vanamamalai Perumal Temple",
+      "district": "Tirunelveli District",
+      "score": 61.53846153846154
+    },
+    "confidence": "low",
+    "reasoning": [
+      "Name similarity: 61.5%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t117",
+      "name": "Kumarar Temple",
+      "location": {
+        "city": "Ilanji",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri ilanji Kumarar Temple, Ilanji 627 805, Tirunelveli Dt.",
+        "coordinates": {
+          "latitude": 8.948134,
+          "longitude": 77.274748
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM022038",
+      "name": "Arulmigu Kumarar Temple",
+      "district": "Cuddalore District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t129",
+      "name": "Kolanjiappar Temple",
+      "location": {
+        "city": "Virudhachalam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Kolanjiappar Temple, Manavalanallur (Po.), Virudhachalam (Tk), Cuddalore (Dt). PIN – 606 001",
+        "coordinates": {
+          "latitude": 11.522273,
+          "longitude": 79.299213
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM021961",
+      "name": "Arulmigu Sella Kolanjiappar Temple",
+      "district": "Cuddalore District",
+      "score": 80.0
+    },
+    "confidence": "medium",
+    "reasoning": [
+      "Name similarity: 80.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t76",
+      "name": "Subramaniya Swamy Temple, Kumarakottam",
+      "location": {
+        "city": "Kanchipuram",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Subramaniya Swamy Temple, Kumarakottam, Kanchipuram District",
+        "coordinates": {
+          "latitude": 12.837315,
+          "longitude": 79.704817
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM004943",
+      "name": "Arulmigu Subramaniya Swamy Kattalai",
+      "district": "Salem District",
+      "score": 73.91304347826086
+    },
+    "confidence": "medium",
+    "reasoning": [
+      "Name similarity: 73.9%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t67",
+      "name": "Shanmuganadar Temple",
+      "location": {
+        "city": "Kundrakudi",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Shanmuganadhar temple, Sri Tiruvannamalai Aadheenam, Kundrakudi - 630206, Shivagangai Dt.",
+        "coordinates": {
+          "latitude": 10.115153,
+          "longitude": 78.69868
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t256",
+      "name": "Subramanya Swamy Temple",
+      "location": {
+        "city": "Kundrathur",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Subrahmanya Swamy Temple, Kundrathur, Chennai - 600 069, Kanchipuram Dt.",
+        "coordinates": {
+          "latitude": 12.985216,
+          "longitude": 80.093116
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM001506",
+      "name": "Arulmigu Subramanyaswamy Temple",
+      "district": "Tiruvallur District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t249",
+      "name": "Mandhiragiri Velayudha Swamy Temple",
+      "location": {
+        "city": "Coimbatore",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Mandhiragiri Velayudha Swamy Temple, ThenCheri Malai, Soolur TK, Coimbatore District",
+        "coordinates": {
+          "latitude": 10.829602,
+          "longitude": 77.191368
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM012727",
+      "name": "Arulmigu Kanagagiri Velayudhasamy Temple",
+      "district": "Erode District",
+      "score": 73.91304347826086
+    },
+    "confidence": "medium",
+    "reasoning": [
+      "Name similarity: 73.9%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t240",
+      "name": "Subramanya Swamy Temple",
+      "location": {
+        "city": "Nanganallur",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Subramanya Swamy Temple, Nanganallur, Chennai-600061",
+        "coordinates": {
+          "latitude": 12.980324,
+          "longitude": 80.191652
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM001506",
+      "name": "Arulmigu Subramanyaswamy Temple",
+      "district": "Tiruvallur District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t247",
+      "name": "Dhandayuthapani Swamy Temple",
+      "location": {
+        "city": "Palani",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Dhandayuthapani swamy temple, Palani, 624 601. Dindigal District.",
+        "coordinates": {
+          "latitude": 10.438752,
+          "longitude": 77.517615
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM010677",
+      "name": "Arulmigu Dhandayuthapani Temple",
+      "district": "Coimbatore District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t142",
+      "name": "Subrahmanya Swami Temple",
+      "location": {
+        "city": "Pazhamuthircholai",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Subrahmanya Swami Thirukovil, Cholai Malai (Pazhamuthircholai), Azhakar kovil- 625301, Madurai District",
+        "coordinates": {
+          "latitude": 10.094276,
+          "longitude": 78.2233
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM003989",
+      "name": "Arulmigu Achuthananda Swami Madam",
+      "district": "Ranipet District",
+      "score": 53.65853658536586
+    },
+    "confidence": "low",
+    "reasoning": [
+      "Name similarity: 53.7%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t85",
+      "name": "Navanideswarar Temple (Sikkal Singaravelan)",
+      "location": {
+        "city": "Sikkal",
+        "district": "Nagai",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Navanideswarar Temple, Sikkal P.O- 611108, Nagai Dt.",
+        "coordinates": {
+          "latitude": 10.756613,
+          "longitude": 79.79819
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t231",
+      "name": "Subrahmanya Swamy Temple, Thiruchenthur",
+      "location": {
+        "city": "Thiruchenthur",
+        "district": "Tuticorin",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Subrahmanya Swamy Temple, Tiruchendur – 628-205, Tuticorin District",
+        "coordinates": {
+          "latitude": 8.494425,
+          "longitude": 78.118744
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t248",
+      "name": "Subrahmanya Swamy Temple, Thirutani",
+      "location": {
+        "city": "Thirutani",
+        "district": "Thiruvallur",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Subrahmanya Swamy Temple, Tiruttani – 631 209, Thiruvallur District",
+        "coordinates": {
+          "latitude": 13.176708,
+          "longitude": 79.636023
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t68",
+      "name": "Karpaka Vinayakar Temple",
+      "location": {
+        "city": "Pillayarpatti",
+        "district": "Shivagangai",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Karpaga Vinayagar Temple, Pillayarpatti 630 207, Shivagangai Dt.",
+        "coordinates": {
+          "latitude": 9.883447,
+          "longitude": 78.550079
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM003106",
+      "name": "Arulmigu Karpaka Vinayakar Temple",
+      "district": "Chengalpattu District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t235",
+      "name": "Swetha Vinayagar Temple",
+      "location": {
+        "city": "Thiruvalanchuzhi",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Thiruvalanchuzhi, Kumbakonam Taluk, Tanjore - 612302",
+        "coordinates": {
+          "latitude": 10.857773,
+          "longitude": 79.419395
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM041144",
+      "name": "Arulmigu Vinayagar Temple",
+      "district": "Thoothukudi District",
+      "score": 72.0
+    },
+    "confidence": "medium",
+    "reasoning": [
+      "Name similarity: 72.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t19",
+      "name": "Malaikottai Uchipillaiyar Temple",
+      "location": {
+        "city": "Trichy",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Malaikkottai uchi pillayar temple, Trichy– 620002",
+        "coordinates": {
+          "latitude": 10.822222,
+          "longitude": 78.686915
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM018086",
+      "name": "Arulmigu Uchipillaiyar Temple",
+      "district": "Thanjavur District",
+      "score": 68.42105263157895
+    },
+    "confidence": "medium",
+    "reasoning": [
+      "Name similarity: 68.4%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t49",
+      "name": "Arulmigu Vellai Vinayagar Temple",
+      "location": {
+        "city": "Thiruverumbur",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Thiruverumbur, Trichy District",
+        "coordinates": {
+          "latitude": 10.932501,
+          "longitude": 78.816357
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM000348",
+      "name": "Arulmigu Vellai Vinayagar Temple",
+      "district": "Chennai District",
+      "score": 100.0
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 100.0%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t201",
+      "name": "Anjaneyar Temple, Pandanallur",
+      "location": {
+        "city": "Pandanallur",
+        "district": "Kumbakonam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Anjaneyar Temple, Pandanallur, Kumbakonam, Tanjore District",
+        "coordinates": {
+          "latitude": 10.957761,
+          "longitude": 79.377144
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM000363",
+      "name": "Arulmigu Anjaneyar Temple",
+      "district": "Chennai District",
+      "score": 56.25
+    },
+    "confidence": "low",
+    "reasoning": [
+      "Name similarity: 56.2%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t203",
+      "name": "Budhan, Thiruvenkadu",
+      "location": {
+        "city": "Unknown",
+        "district": "Unknown",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "",
+        "coordinates": {
+          "latitude": 0,
+          "longitude": 0
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": true,
+      "category": "major_pilgrimage",
+      "reason": [
+        "Contains 'budha' - known major temple"
+      ]
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t136",
+      "name": "Gneelivaneswarar Temple, Thirupainjeeli",
+      "location": {
+        "city": "Unknown",
+        "district": "Unknown",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "",
+        "coordinates": {
+          "latitude": 0,
+          "longitude": 0
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t4",
+      "name": "Anbil Mariamman",
+      "location": {
+        "city": "Unknown",
+        "district": "Unknown",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "",
+        "coordinates": {
+          "latitude": 0,
+          "longitude": 0
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM000349",
+      "name": "Arulmigu Sakthi Mariamman Temple",
+      "district": "Chennai District",
+      "score": 77.41935483870968
+    },
+    "confidence": "medium",
+    "reasoning": [
+      "Name similarity: 77.4%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t149",
+      "name": "Kailasanathar Temple, Thingalur",
+      "location": {
+        "city": "Unknown",
+        "district": "Unknown",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "",
+        "coordinates": {
+          "latitude": 0,
+          "longitude": 0
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM000103",
+      "name": "Arulmigu Kailasanathar Temple",
+      "district": "Chennai District",
+      "score": 68.42105263157895
+    },
+    "confidence": "medium",
+    "reasoning": [
+      "Name similarity: 68.4%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t157",
+      "name": "Gangudareswarar, Thirugandhacherry",
+      "location": {
+        "city": "Unknown",
+        "district": "Unknown",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "",
+        "coordinates": {
+          "latitude": 0,
+          "longitude": 0
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t198",
+      "name": "Brahmapureeswarar Temple, Thirupattur",
+      "location": {
+        "city": "Unknown",
+        "district": "Unknown",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "",
+        "coordinates": {
+          "latitude": 0,
+          "longitude": 0
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM014164",
+      "name": "Arulmigu  Brahmapureeswarar  Temple",
+      "district": "Thanjavur District",
+      "score": 70.83333333333334
+    },
+    "confidence": "medium",
+    "reasoning": [
+      "Name similarity: 70.8%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t246",
+      "name": "Madurai Meenakshi Amman",
+      "location": {
+        "city": "Unknown",
+        "district": "Unknown",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "",
+        "coordinates": {
+          "latitude": 0,
+          "longitude": 0
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": true,
+      "category": "unesco_heritage",
+      "reason": [
+        "Contains 'meenakshi' - known major temple"
+      ]
+    },
+    "match": {
+      "temple_id": "TM008821",
+      "name": "Arulmigu Maduraiveeran Temple",
+      "district": "Salem District",
+      "score": 61.111111111111114
+    },
+    "confidence": "low",
+    "reasoning": [
+      "Name similarity: 61.1%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t7",
+      "name": "Sri Kumbakonameswarar Temple",
+      "location": {
+        "city": "Kumbakonam",
+        "district": "Kumbakonam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Kumbakonameswarar Temple, Kumbakonam",
+        "coordinates": {
+          "latitude": 8.07,
+          "longitude": 77.07
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t8",
+      "name": "Sri Kanchipurameswarar Temple",
+      "location": {
+        "city": "Kanchipuram",
+        "district": "Kanchipuram",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Kanchipurameswarar Temple, Kanchipuram",
+        "coordinates": {
+          "latitude": 8.08,
+          "longitude": 77.08
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t28",
+      "name": "Sri Trichyeswarar Temple",
+      "location": {
+        "city": "Trichy",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Trichyeswarar Temple, Trichy",
+        "coordinates": {
+          "latitude": 8.28,
+          "longitude": 77.28
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t55",
+      "name": "Sri Trichy Perumal Temple",
+      "location": {
+        "city": "Trichy",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Trichy Perumal Temple, Trichy",
+        "coordinates": {
+          "latitude": 8.55,
+          "longitude": 77.55
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM026094",
+      "name": "Arulmigu Veerirunthaperumal Temple",
+      "district": "Pudukkottai District",
+      "score": 62.5
+    },
+    "confidence": "low",
+    "reasoning": [
+      "Name similarity: 62.5%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t64",
+      "name": "Sri Tirupur Perumal Temple",
+      "location": {
+        "city": "Tirupur",
+        "district": "Tirupur",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Tirupur Perumal Temple, Tirupur",
+        "coordinates": {
+          "latitude": 8.64,
+          "longitude": 77.64
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM026094",
+      "name": "Arulmigu Veerirunthaperumal Temple",
+      "district": "Pudukkottai District",
+      "score": 60.60606060606061
+    },
+    "confidence": "low",
+    "reasoning": [
+      "Name similarity: 60.6%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t89",
+      "name": "Sri Kanchipuram Perumal Temple",
+      "location": {
+        "city": "Kanchipuram",
+        "district": "Kanchipuram",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Kanchipuram Perumal Temple, Kanchipuram",
+        "coordinates": {
+          "latitude": 8.89,
+          "longitude": 77.89
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": true,
+      "category": "divya_desam",
+      "reason": [
+        "Divya Desam - 108 sacred Vishnu temples"
+      ]
+    },
+    "match": {
+      "temple_id": "TM038069",
+      "name": "Arulmigu Vanamamalai Perumal Temple",
+      "district": "Tirunelveli District",
+      "score": 63.1578947368421
+    },
+    "confidence": "low",
+    "reasoning": [
+      "Name similarity: 63.2%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t103",
+      "name": "Sri Murugan Temple, Villupuram",
+      "location": {
+        "city": "Villupuram",
+        "district": "Villupuram",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Murugan Temple, Villupuram, Villupuram",
+        "coordinates": {
+          "latitude": 9.03,
+          "longitude": 78.03
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": true,
+      "category": "six_abodes_murugan",
+      "reason": [
+        "Contains 'murugan' - known major temple"
+      ]
+    },
+    "match": {
+      "temple_id": "TM000898",
+      "name": "Arulmigu Balamurugan Mariamman Temple",
+      "district": "Chennai District",
+      "score": 53.65853658536586
+    },
+    "confidence": "low",
+    "reasoning": [
+      "Name similarity: 53.7%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t118",
+      "name": "Sri Murugan Temple, Tirupur",
+      "location": {
+        "city": "Tirupur",
+        "district": "Tirupur",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Murugan Temple, Tirupur, Tirupur",
+        "coordinates": {
+          "latitude": 9.18,
+          "longitude": 78.18
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": true,
+      "category": "six_abodes_murugan",
+      "reason": [
+        "Contains 'murugan' - known major temple"
+      ]
+    },
+    "match": {
+      "temple_id": "TM003053",
+      "name": "Arulmigu Muruganatheeswarar Temple",
+      "district": "Chengalpattu District",
+      "score": 57.14285714285714
+    },
+    "confidence": "low",
+    "reasoning": [
+      "Name similarity: 57.1%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t196",
+      "name": "Sri Kumbakonam Amman Temple",
+      "location": {
+        "city": "Kumbakonam",
+        "district": "Kumbakonam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Kumbakonam Amman Temple, Kumbakonam",
+        "coordinates": {
+          "latitude": 9.96,
+          "longitude": 78.96
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM026103",
+      "name": "Arulmigu Angalamman Temple",
+      "district": "Pudukkottai District",
+      "score": 61.53846153846154
+    },
+    "confidence": "low",
+    "reasoning": [
+      "Name similarity: 61.5%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t226",
+      "name": "Sri Hanuman Temple, Tirupur",
+      "location": {
+        "city": "Tirupur",
+        "district": "Tirupur",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Hanuman Temple, Tirupur, Tirupur",
+        "coordinates": {
+          "latitude": 10.26,
+          "longitude": 79.26
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM005394",
+      "name": "Arulmigu Hanumantharaya Swamy Temple",
+      "district": "Dharmapuri District",
+      "score": 58.06451612903226
+    },
+    "confidence": "low",
+    "reasoning": [
+      "Name similarity: 58.1%"
+    ]
+  },
+  {
+    "findmytemple": {
+      "id": "t265",
+      "name": "Sri Villupuram Temple",
+      "location": {
+        "city": "Villupuram",
+        "district": "Villupuram",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Villupuram Temple, Villupuram",
+        "coordinates": {
+          "latitude": 10.65,
+          "longitude": 79.65
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": null,
+    "confidence": "no_match",
+    "reasoning": []
+  },
+  {
+    "findmytemple": {
+      "id": "t278",
+      "name": "Shri Rajarajeshwari Temple",
+      "location": {
+        "city": "Kandamangalam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Shri Rajarajeshwari Temple, Kandamangalam, Thanjavur",
+        "coordinates": {
+          "latitude": 10.84351,
+          "longitude": 78.978895
+        }
+      },
+      "deity": ""
+    },
+    "importance": {
+      "is_major": false,
+      "category": "regular",
+      "reason": []
+    },
+    "match": {
+      "temple_id": "TM016327",
+      "name": "Arulmigu Rajarajeshwariyamman Temple",
+      "district": "Nagapattinam District",
+      "score": 82.35294117647058
+    },
+    "confidence": "high",
+    "reasoning": [
+      "Name similarity: 82.4%"
+    ]
+  }
+]

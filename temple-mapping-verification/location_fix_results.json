@@ -1,0 +1,6200 @@
+{
+  "newly_matched": [
+    {
+      "findmytemple": {
+        "temple_id": "t94",
+        "name": "Agneeswara Swamy Temple",
+        "location": {
+          "city": "Thirupugalur",
+          "district": "Nagai District",
+          "state": "Tamil Nadu",
+          "address": "Sri Agneeswarar Temple, Thirupugalur – 609 704, Thirukkannapuram, Nagai District",
+          "pincode": "609 704"
+        },
+        "deities": {
+          "main_deity": "Agneeswarar, Saranyapureeswarar, Konapiran",
+          "goddess": "Soolikambal, Karuthazkuzhali",
+          "other_deities": [
+            "Ganesha",
+            "Murugan",
+            "Linga worshipped by Paraduvasar",
+            "Agni",
+            "63 Nayanmars",
+            "Pancha Lingas",
+            "Thirunavukarasar",
+            "Maha Laxmi",
+            "Saneeswaran",
+            "King Nala",
+            "Navagrahas",
+            "Saraswathi Devi",
+            "Annapurani",
+            "Kala-Samharamurthy",
+            "Natarajar",
+            "Dakshinamoorthy",
+            "Agathiar",
+            "Brahma",
+            "Durga Devi",
+            "Pichadanar",
+            "Kalyana Sundarar"
+          ]
+        },
+        "holy_elements": {
+          "holy_water": [
+            "Agni Theertham"
+          ],
+          "sacred_tree": "Punnai Tree",
+          "temple_tank": "Agni Bagawan made one water body"
+        },
+        "practical_info": {
+          "timings": "Morning 7:00 A.M. – 12:00 P.M., Evening 5:00 P.M. – 9:00 P.M.",
+          "how_to_reach": "20 KM from Thiruvarur"
+        },
+        "data_completeness": "80%"
+      },
+      "match": {
+        "temple_id": "TM046085",
+        "name": "Agneeswarar Temple",
+        "district": "",
+        "score": 71.42857142857143,
+        "match_type": "name_only"
+      },
+      "confidence": "name_match"
+    },
+    {
+      "findmytemple": {
+        "temple_id": "t227",
+        "name": "Kailasa Nathar Temple",
+        "location": {
+          "town": "Thingalur",
+          "district": "Tanjore"
+        },
+        "deities": {
+          "main_deity": "Kailasa Nathar",
+          "ambal": "Periya Nayagi"
+        },
+        "timings": "8:00 AM-12:30 PM, 4:30 PM-8:30 PM",
+        "special_features": [
+          "Navagraha temple for Moon",
+          "7th century"
+        ],
+        "data_completeness": "85%",
+        "scraped_date": "2025-08-24T20:22:07.091388"
+      },
+      "match": {
+        "temple_id": "TM002250",
+        "name": "Arulmigu Kailasanathar",
+        "district": "Tiruvallur District",
+        "score": 72.22222222222221,
+        "match_type": "name_only"
+      },
+      "confidence": "name_match"
+    },
+    {
+      "findmytemple": {
+        "temple_id": "t141",
+        "name": "Immayilum Nanmai Tharuvar Temple",
+        "location": "Madurai",
+        "deities": {
+          "main_deity": "Immayilum Nanmai Tharuvar",
+          "ambal": "Madhyapuri Nayagi"
+        },
+        "timings": "6:15 am-11:30 am, 4:30 pm-9:30 pm",
+        "special_features": [
+          "Faces west",
+          "Boologa Kailash"
+        ],
+        "data_completeness": "75%",
+        "scraped_date": "2025-08-24T20:22:07.091394"
+      },
+      "match": {
+        "temple_id": "TM036133",
+        "name": "Arulmigu Immayilum Nanmai Tharuvar Temple",
+        "district": "Madurai District",
+        "score": 75.75757575757575,
+        "match_type": "name_only"
+      },
+      "confidence": "name_match"
+    },
+    {
+      "findmytemple": {
+        "temple_id": "t295",
+        "name": "Kailasanathar Temple",
+        "location": {
+          "city": "Vishnupuram",
+          "district": "Kumbakonam",
+          "state": "Tamil Nadu",
+          "address": "Kailasanadhar Temple, Vishnupuram, Kumbakonam, Tanjore"
+        },
+        "deities": {
+          "main_deity": "Shri Kailasanadhar",
+          "other_deities": [
+            "Ganesha",
+            "Dhakshanamurthy",
+            "Bairavar",
+            "Chandikeshwarar",
+            "Subramaniar",
+            "Saneeswarar"
+          ]
+        },
+        "practical_info": {
+          "timings": "Morning 08:00 am to 9:00 am",
+          "how_to_reach": "Located 17.4 km from Nachiyar kovil, bus service every one hour"
+        },
+        "historical_info": "Vishnupuram is 2km from Thethiyur. The place is called Vishnupuram because MahaVishnu came from Vaikundam and stayed here.",
+        "special_features": [
+          "East facing temple",
+          "Large tower",
+          "Linga with panet",
+          "5 feet Goddess idol",
+          "Rock-carved Bairavar statue"
+        ],
+        "data_completeness": "80%",
+        "scraped_date": "2025-08-24T20:46:47.382747"
+      },
+      "match": {
+        "temple_id": "TM002250",
+        "name": "Arulmigu Kailasanathar",
+        "district": "Tiruvallur District",
+        "score": 74.28571428571429,
+        "match_type": "name_only"
+      },
+      "confidence": "name_match"
+    },
+    {
+      "findmytemple": {
+        "temple_id": "t65",
+        "name": "Meenatchi Sundareshwarar Temple",
+        "location": {
+          "city": "Arimalam",
+          "district": "Pudukottai",
+          "state": "Tamil Nadu",
+          "address": "Meenatchi Sundareshwarar Temple, Arimalam, Pudukottai District"
+        },
+        "deities": {
+          "main_deity": "Sundareshwarar (Shiva)",
+          "goddess": "Meenatchi"
+        },
+        "holy_elements": {
+          "temple_tree": "Vilva Tree",
+          "holy_water": "Theertham opposite Sundareshwarar Sannidhi"
+        },
+        "practical_info": {
+          "timings": "Morning – 06:00 a.m to 12:00 noon, Evening – 03:00 p.m to 08:30 p.m",
+          "phone": "+91 96294 57337",
+          "how_to_reach": "Arimalam is 20 KM away from Pudukkottai, accessible via Pudukkottai–Aranthangi buses"
+        },
+        "historical_info": "The temple's origin is linked to Chandran being cursed and seeking Shiva's blessing to regain his powers. 'Ari' means Chandran, 'Mazha' means Child. Chandran was positioned in Shiva's head and granted 'Shaaba Vimochanam'.",
+        "special_features": [
+          "Sunlight falls on Shiva Lingam from March 19th to March 21st",
+          "Parents can symbolically adopt child to God to remove horoscope dosham",
+          "Believed to cure Chandran's curse"
+        ],
+        "data_completeness": "90%",
+        "scraped_date": "2025-08-24T20:54:13.354341"
+      },
+      "match": {
+        "temple_id": "TM018924",
+        "name": "Arulmigu Meenatchi Sundareshwarar Temple",
+        "district": "Thanjavur District",
+        "score": 75.0,
+        "match_type": "name_only"
+      },
+      "confidence": "name_match"
+    },
+    {
+      "findmytemple": {
+        "temple_id": "t16",
+        "name": "Prasanna Venkatesa Perumal Temple",
+        "category": "vishnu-temple",
+        "scraped_at": "2025-08-24T20:25:00.000Z",
+        "location": {
+          "city": "Gunaseelam",
+          "district": "Trichy",
+          "state": "Tamil Nadu",
+          "address": "Sri Prasanna Venkatesa Perumal Temple, Gunaseelam, Musiri Taluk, Trichy Dt."
+        },
+        "deities": {
+          "main_deity": "Sri Prasanna Venkatesa Perumal (Vishnu)",
+          "goddess": "Alamelu Mangai (residing in Perumal's heart)",
+          "other_deities": []
+        },
+        "holy_elements": {
+          "holy_water": "Cauvery; Pabavinasam",
+          "temple_tree": ""
+        },
+        "practical_info": {
+          "timings": "5.30 am to 1.00 pm, 4.00 pm to 8.30 pm",
+          "pooja_times": "Five times a day",
+          "phone": "04326-275210, 275 310",
+          "how_to_reach": "Located in Trichy-Namakkal bus route, walkable from Gunaseelam bus stop"
+        },
+        "historical_info": "Sage Gunaseela observed penance for Perumal, hence the place is called Gunaseelam. The idol is in self-made (Suyambu) form.",
+        "special_features": [
+          "Theertham sprinkled on devotees' faces after noon and night poojas",
+          "Believed to cure mental disorders and other doshas",
+          "Special offerings like 'Sahasra Deepa Alankara Seva', 'Garuda Seva', and 'Kannadi Arai Seva'"
+        ],
+        "festivals": [
+          "Float Festival (one day)",
+          "Thirupavithrotsavam (2 days)",
+          "Mental healing festivals"
+        ],
+        "data_completeness": 95
+      },
+      "match": {
+        "temple_id": "TM000080",
+        "name": "Arulmigu Prasanna Venkatesa Perumal Temple",
+        "district": "Chennai District",
+        "score": 76.47058823529412,
+        "match_type": "name_only"
+      },
+      "confidence": "name_match"
+    },
+    {
+      "findmytemple": {
+        "temple_id": "t200",
+        "name": "Lakshmi Narayana Perumal Temple",
+        "category": "vishnu-temple",
+        "scraped_at": "2025-08-24T20:35:00.000Z",
+        "location": {
+          "city": "Thepperumanallur",
+          "district": "Tanjore",
+          "state": "Tamil Nadu",
+          "address": "Lakshmi Narayana Perumal Temple, Thepperumanallur, Kumbakonam, Tanjore District"
+        },
+        "deities": {
+          "main_deity": "Sri Lakshmi Narayana Perumal",
+          "goddess": "Sri Lakshmi"
+        },
+        "practical_info": {
+          "timings": "Morning 6:00 am to noon 12:00 pm, Evening 4:00 pm to 8:00 pm",
+          "how_to_reach": "6 km from Kumbakonam on Kumbakonam-Thirunageswaram Road"
+        },
+        "special_features": [
+          "Fasting on Saturdays believed to provide long life, health, and wealth",
+          "Perumal controls Sani Bagavan"
+        ],
+        "significance": "Recommended for those seeking to overcome Sani dosha and improve life prospects",
+        "festivals": [
+          "Saturn control festivals"
+        ],
+        "data_completeness": 75
+      },
+      "match": {
+        "temple_id": "TM000380",
+        "name": "Arulmigu Lakshmi Narayana Perumal Temple",
+        "district": "Chengalpattu District",
+        "score": 75.0,
+        "match_type": "name_only"
+      },
+      "confidence": "name_match"
+    },
+    {
+      "findmytemple": {
+        "temple_id": "t31",
+        "name": "Navaneetha Krishna Perumal Temple",
+        "category": "vishnu-temple",
+        "scraped_at": "2025-08-24T20:45:00.000Z",
+        "location": {
+          "city": "Arasalur",
+          "district": "Trichy",
+          "state": "Tamil Nadu",
+          "address": "Shri Navaneetha Krishna Perumal Temple, Arasalur, Thottiyam, Trichy District"
+        },
+        "deities": {
+          "main_deity": "Navaneetha Krishna Perumal",
+          "other_deities": [
+            "Anjaneya",
+            "Lakshmi Narasimha",
+            "Lakshmi Hayagriva"
+          ]
+        },
+        "practical_info": {
+          "timings": "Morning – 06:00 am to 12:00 am, Evening – 04:00 pm to 08:00 pm",
+          "how_to_reach": "Direct buses from Trichy Chathiram bus stand to Thottiyum. Nearest station is Trichy"
+        },
+        "historical_info": "This place is called Arasalur as it is full of Pipal trees. Navaneetha Krishna Perumal is believed to take Kalki Avatar.",
+        "special_features": [
+          "Murtis and sculptures have great art subtlety",
+          "Solar-lunar-eclipse story sculptures in temple buildings",
+          "Hanuman facing south with Sanjeevi mount"
+        ],
+        "festivals": [
+          "Kalki Avatar festivals"
+        ],
+        "data_completeness": 80
+      },
+      "match": {
+        "temple_id": "TM014102",
+        "name": "Arulmigu Navaneethakrishna Perumal Temple",
+        "district": "Thanjavur District",
+        "score": 74.6268656716418,
+        "match_type": "name_only"
+      },
+      "confidence": "name_match"
+    },
+    {
+      "findmytemple": {
+        "temple_id": "t25",
+        "name": "Prasanna Venkatachalapathy Temple",
+        "location": {
+          "city": "Thuraiyur",
+          "state": "Tamil Nadu",
+          "country": "India",
+          "address": "Then Thiruppathi Sri Prasanna Venkatachalapathy, Perumal malai, Thuraiyur 621010",
+          "coordinates": {
+            "latitude": 11.145463,
+            "longitude": 78.631626
+          }
+        },
+        "deity": {
+          "main_deity": "Prasanna Venkatachalapathy",
+          "goddess": "Sri Devi and Bhoodevi",
+          "other_deities": [],
+          "deity_type": "Vishnu"
+        },
+        "temple_info": {
+          "age": "",
+          "architectural_style": "",
+          "historical_significance": "",
+          "mythology": "",
+          "unique_features": [
+            "1532 steps to the temple",
+            "Seven small hillocks",
+            "Pillars chiming seven musical notations",
+            "5km path around the hill for 'Giri Valam'"
+          ]
+        },
+        "festivals": [
+          {
+            "name": "Chithirai",
+            "description": "First day special Abhishekam",
+            "timing": ""
+          },
+          {
+            "name": "Vaigasi",
+            "description": "Thiruvona Nakshatra - Sravana Urchavam, Thiru Kalyanam (holy marriage)",
+            "timing": ""
+          },
+          {
+            "name": "Purattasi",
+            "description": "All five Saturdays special Abhishekam and decoration",
+            "timing": ""
+          },
+          {
+            "name": "Karthigai",
+            "description": "Deepa is lit at top of the hill",
+            "timing": ""
+          },
+          {
+            "name": "Margazhi",
+            "description": "Vaikunda Ekadashi - Urchavar appears at Ekadasi Mandapam",
+            "timing": ""
+          },
+          {
+            "name": "Thai",
+            "description": "Full Moon day celebration",
+            "timing": ""
+          }
+        ],
+        "timings": {
+          "general": "",
+          "special_days": "",
+          "aarti_times": []
+        },
+        "facilities": [],
+        "how_to_reach": {
+          "nearest_railway": "",
+          "nearest_airport": "",
+          "by_road": ""
+        },
+        "contact": {
+          "phone": "",
+          "email": "",
+          "website": ""
+        },
+        "scraped_at": "2025-08-24",
+        "data_completeness": 70
+      },
+      "match": {
+        "temple_id": "TM004863",
+        "name": "Arulmigu Prasanna Venkatachalapathy Temple",
+        "district": "Salem District",
+        "score": 76.47058823529412,
+        "match_type": "name_only"
+      },
+      "confidence": "name_match"
+    },
+    {
+      "findmytemple": {
+        "temple_id": "t42",
+        "name": "Pundarikatcha Perumal Temple",
+        "location": {
+          "city": "Thiruvellarai",
+          "state": "Tamil Nadu",
+          "country": "India",
+          "address": "Sri Pundarikatcha Perumal Temple, Thiruvellarai(P.O), Manachanallur(TK), Trichy Dt.",
+          "coordinates": {
+            "latitude": 10.955352,
+            "longitude": 78.667885
+          }
+        },
+        "deity": {
+          "main_deity": "Sri Pundarikatcha Perumal",
+          "goddess": "Shenbaga valli, Pangaya Selvi",
+          "other_deities": [],
+          "deity_type": "Vishnu"
+        },
+        "temple_info": {
+          "age": "",
+          "architectural_style": "",
+          "historical_significance": "",
+          "mythology": "Appeared to emperor Sibi as Swetha Varahan (white pig)",
+          "unique_features": [
+            "18 steps representing 18 chapters of Bhagavat Gita",
+            "Seven Theerthams inside the temple",
+            "Two different entry ways during Dakshinayanam and Utharayanam"
+          ]
+        },
+        "festivals": [
+          {
+            "name": "Kodai thirunal",
+            "description": "",
+            "timing": "Chithirai"
+          },
+          {
+            "name": "Gajendra Moksham",
+            "description": "",
+            "timing": "Chitra Pournami"
+          }
+        ],
+        "timings": {
+          "general": "7.00 am to 1.15pm, 3.30 pm to 8pm",
+          "special_days": "",
+          "aarti_times": []
+        },
+        "facilities": [],
+        "how_to_reach": {
+          "nearest_railway": "",
+          "nearest_airport": "",
+          "by_road": "20km from Trichy on Trichy-Thuraiyur road"
+        },
+        "contact": {
+          "phone": "",
+          "email": "",
+          "website": ""
+        },
+        "scraped_at": "2025-08-24",
+        "data_completeness": 75
+      },
+      "match": {
+        "temple_id": "TM002914",
+        "name": "Arulmigu Pundarikatcha Perumal Temple",
+        "district": "Kancheepuram District",
+        "score": 72.41379310344827,
+        "match_type": "name_only"
+      },
+      "confidence": "name_match"
+    },
+    {
+      "findmytemple": {
+        "temple_id": "t69",
+        "name": "Sowmiya Narayana Perumal Temple",
+        "location": {
+          "city": "Thirukkoshtiyur",
+          "state": "Tamil Nadu",
+          "country": "India",
+          "address": "Sri Sowmiya Narayana Perumal Temple, Thirukkottiyur (Po.), Sivagangai (Dt), PIN – 630 211",
+          "coordinates": {
+            "latitude": 10.06091,
+            "longitude": 78.560127
+          }
+        },
+        "deity": {
+          "main_deity": "Sowmiya Narayanar",
+          "goddess": "Thirumamagal",
+          "other_deities": [],
+          "deity_type": "Vishnu"
+        },
+        "temple_info": {
+          "age": "",
+          "architectural_style": "Ashtanga Vimanam",
+          "historical_significance": "95th of the 108 Divya Desams",
+          "mythology": "Chosen by Vishnu to discuss defeating Hiranyan, where he showed his avatar forms to Devas",
+          "unique_features": [
+            "Rare Ashtanga Vimanam",
+            "Lord Vishnu shown in four different positions",
+            "Sri Ramanujar chanted Narayana mantra from temple's Vimana"
+          ]
+        },
+        "festivals": [
+          {
+            "name": "Maasi Theppa Thiruvizha",
+            "description": "",
+            "timing": ""
+          },
+          {
+            "name": "Vaikunda Ekadasi",
+            "description": "",
+            "timing": ""
+          },
+          {
+            "name": "Navarathiri",
+            "description": "",
+            "timing": ""
+          }
+        ],
+        "timings": {
+          "general": "6.00 am to 12 noon - 4.00 pm to 8.00 pm",
+          "special_days": "",
+          "aarti_times": []
+        },
+        "facilities": [],
+        "how_to_reach": {
+          "nearest_railway": "",
+          "nearest_airport": "",
+          "by_road": ""
+        },
+        "contact": {
+          "phone": "",
+          "email": "",
+          "website": ""
+        },
+        "scraped_at": "2025-08-24",
+        "data_completeness": 75
+      },
+      "match": {
+        "temple_id": "TM001875",
+        "name": "Arulmigu Sowmiya Narayana Perumal Temple",
+        "district": "Kancheepuram District",
+        "score": 75.0,
+        "match_type": "name_only"
+      },
+      "confidence": "name_match"
+    },
+    {
+      "findmytemple": {
+        "temple_id": "t259",
+        "name": "Lakshmi Narayana Perumal Temple",
+        "location": {
+          "city": "Thirumanancheri",
+          "state": "Tamil Nadu",
+          "country": "India",
+          "address": "Thirumanancheri, Kuthalam circle, Nagai District",
+          "coordinates": {
+            "latitude": 11.10586979,
+            "longitude": 79.56789124
+          }
+        },
+        "deity": {
+          "main_deity": "Lakshmi Narayana Perumal",
+          "goddess": "Lakshmi",
+          "other_deities": [
+            "Dhanvandhiri Perumal",
+            "Anjeneyar"
+          ],
+          "deity_type": "Vishnu"
+        },
+        "temple_info": {
+          "age": "Consecrated in 2002, renovated in 2013",
+          "architectural_style": "",
+          "historical_significance": "Believed to have conducted the marriage of Kalyana Sundareshwarar and Parvathy Devi",
+          "mythology": "",
+          "unique_features": [
+            "Perumal facing westward",
+            "Two forms of Hanuman present",
+            "Believed to cure Mangalya and Puthra doshas"
+          ]
+        },
+        "festivals": [],
+        "timings": {
+          "general": "Morning 07:00 am to 12:00 noon, Evening 04:30 pm to 07:00 pm",
+          "special_days": "",
+          "aarti_times": []
+        },
+        "facilities": [],
+        "how_to_reach": {
+          "nearest_railway": "Kumbakonam",
+          "nearest_airport": "",
+          "by_road": "Bus available from Kumbakonam to Kuthalam"
+        },
+        "contact": {
+          "phone": "",
+          "email": "",
+          "website": ""
+        },
+        "scraped_at": "2025-08-24",
+        "data_completeness": 60
+      },
+      "match": {
+        "temple_id": "TM000380",
+        "name": "Arulmigu Lakshmi Narayana Perumal Temple",
+        "district": "Chengalpattu District",
+        "score": 75.0,
+        "match_type": "name_only"
+      },
+      "confidence": "name_match"
+    },
+    {
+      "findmytemple": {
+        "temple_id": "t35",
+        "name": "Vedha Narayana Perumal Temple",
+        "location": {
+          "city": "Thottiyam",
+          "state": "Tamil Nadu",
+          "country": "India",
+          "address": "Vedhanarayanapuram, Thottiyam, Tiruchirappalli District",
+          "coordinates": {
+            "latitude": 10.972465,
+            "longitude": 78.318212
+          }
+        },
+        "deity": {
+          "main_deity": "Vedhanarayana Perumal",
+          "goddess": "Vedhanayagi Thaayar",
+          "other_deities": [
+            "Sri Devi",
+            "Bhoo Devi",
+            "Hanuman",
+            "Garuda Azhwar",
+            "Andal"
+          ],
+          "deity_type": "Vishnu"
+        },
+        "temple_info": {
+          "age": "",
+          "architectural_style": "",
+          "historical_significance": "Place where Brahma received Veda guidance from Lord Vishnu",
+          "mythology": "Lord Vishnu appeared to Emperor Mahabali in a dream and instructed him to unearth and install the idol",
+          "unique_features": [
+            "Lord's feet are under a Vilva tree",
+            "Believed to bless devotees with wisdom",
+            "Known as 'Adhi Rangam' or 'Mudhal Rangam'"
+          ]
+        },
+        "festivals": [
+          {
+            "name": "Therottam (Chariot Festival)",
+            "description": "Annual festival in Vaikasi month",
+            "timing": "Annually in Vaikasi month"
+          },
+          {
+            "name": "Vaikunda Ekadasi",
+            "description": "Opening of 'Swarga Vaasal' (Gate to Heaven)",
+            "timing": "Annually on Vaikunda Ekadasi day"
+          }
+        ],
+        "timings": {
+          "general": "Morning 08:00 a.m to 12:00 noon, Evening 04:00 p.m to 08:00 p.m",
+          "special_days": "",
+          "aarti_times": []
+        },
+        "facilities": [],
+        "how_to_reach": {
+          "nearest_railway": "",
+          "nearest_airport": "",
+          "by_road": ""
+        },
+        "contact": {
+          "phone": "",
+          "email": "",
+          "website": ""
+        },
+        "scraped_at": "2025-08-24",
+        "data_completeness": 75
+      },
+      "match": {
+        "temple_id": "TM008456",
+        "name": "Arulmigu Vedhanarayana Perumal Temple",
+        "district": "Salem District",
+        "score": 71.1864406779661,
+        "match_type": "name_only"
+      },
+      "confidence": "name_match"
+    },
+    {
+      "findmytemple": {
+        "temple_id": "t48",
+        "name": "Subramaniya Swamy Temple, Vayalur",
+        "location": {
+          "city": "Vayalur",
+          "district": "Trichy",
+          "state": "Tamil Nadu",
+          "country": "India",
+          "address": "Sri Subramaniya Swamy Temple, Kumaravalar (Po.), Srirangam (Tk), Trichy (Dt)",
+          "coordinates": {
+            "latitude": 10.862659,
+            "longitude": 78.719101
+          }
+        },
+        "deity": {
+          "main_deity": "Subramaniya Swamy",
+          "goddess": "Valli, Deivanai",
+          "other_deities": [],
+          "deity_type": "Murugan"
+        },
+        "temple_info": {
+          "age": "9th century",
+          "architectural_style": "Chola architecture",
+          "historical_significance": "Constructed by Chola kings, where Lord Murugan appeared to Arunagirinadhar",
+          "mythology": "Discovered when Chola king found blood instead of sugar water while hunting",
+          "unique_features": [
+            "Lord Murugan wrote 'OM' on Arunagirinadhar's tongue",
+            "Auspicious for marriages",
+            "Dispels children's doshas"
+          ]
+        },
+        "festivals": [
+          {
+            "name": "Vaikasi Visaga Peruvizha",
+            "description": "",
+            "timing": "Vaikasi month"
+          },
+          {
+            "name": "Kanda Shashti Peruvizha",
+            "description": "",
+            "timing": ""
+          },
+          {
+            "name": "Thai Poosam",
+            "description": "",
+            "timing": "Thai month"
+          },
+          {
+            "name": "Panguni Uthiram",
+            "description": "",
+            "timing": "Panguni month"
+          }
+        ],
+        "timings": {
+          "general": "6:00 am to 1:00 pm, 3:30 pm to 9:00 pm",
+          "special_days": "",
+          "aarti_times": []
+        },
+        "facilities": [],
+        "how_to_reach": {
+          "nearest_railway": "Srirangam",
+          "nearest_airport": "Trichy",
+          "by_road": "Near Trichy"
+        },
+        "contact": {
+          "phone": "",
+          "email": "",
+          "website": ""
+        },
+        "scraped_at": "2025-08-24",
+        "data_completeness": 80
+      },
+      "match": {
+        "temple_id": "TM026116",
+        "name": "Arulmigu Subramaniyaswamy Temple",
+        "district": "Thanjavur District",
+        "score": 70.76923076923077,
+        "match_type": "name_only"
+      },
+      "confidence": "name_match"
+    },
+    {
+      "findmytemple": {
+        "temple_id": "t206",
+        "name": "Arupathu Moovar Temple",
+        "location": {
+          "city": "Thiruvoippadi",
+          "district": "Kumbakonam",
+          "state": "Tamil Nadu",
+          "country": "India",
+          "address": "Thiruvoippadi, Kumbakonam District",
+          "coordinates": {
+            "latitude": 10.957761,
+            "longitude": 79.377144
+          }
+        },
+        "deity": {
+          "main_deity": "Arupathu Moovar (63 Nayanmars)",
+          "goddess": "",
+          "other_deities": [
+            "63 Nayanmars"
+          ],
+          "deity_type": "More Temples"
+        },
+        "temple_info": {
+          "age": "4th to 10th century period",
+          "architectural_style": "",
+          "historical_significance": "Dedicated to 63 Nayanmars who lived between 4th to 10th century and worshipped Lord Shiva",
+          "mythology": "",
+          "unique_features": [
+            "Specifically constructed to honor the 63 Nayanmars",
+            "Unlike other Shiva temples where they are typically represented as stone idols"
+          ]
+        },
+        "festivals": [],
+        "timings": {
+          "general": "6:00 A.M to 12:00 Noon, 4:00 P.M to 8:00 P.M",
+          "special_days": "",
+          "aarti_times": []
+        },
+        "facilities": [],
+        "how_to_reach": {
+          "nearest_railway": "Kumbakonam",
+          "nearest_airport": "Trichy",
+          "by_road": "Thiruvoippadi, near Kumbakonam"
+        },
+        "contact": {
+          "phone": "",
+          "email": "",
+          "website": ""
+        },
+        "scraped_at": "2025-08-24",
+        "data_completeness": 70
+      },
+      "match": {
+        "temple_id": "TM018179",
+        "name": "Arupathu Moovar Madam",
+        "district": "Mayiladuthurai District",
+        "score": 83.33333333333334,
+        "match_type": "name_only"
+      },
+      "confidence": "name_match"
+    }
+  ],
+  "still_unmatched": [
+    {
+      "temple_id": "t47",
+      "name": "Aaludayar Temple",
+      "location": {
+        "city": "Uyyakondan Thirumalai",
+        "district": "Tiruchirappalli",
+        "state": "Tamil Nadu",
+        "address": "Sri Aaludayar Thirukovil, Uyyakondan Thirumalai"
+      },
+      "deities": {
+        "main_deity": "Aaludayaar (Shiva) in Linga form, 8.5 feet high",
+        "goddess": "Maiviliyal, Balampikai",
+        "other_deities": [
+          "Dakshinamoorthy",
+          "Vishnu",
+          "Vishnu Durga",
+          "Anjenaya",
+          "Ganesha",
+          "Sandeeswarar"
+        ]
+      },
+      "practical_info": {
+        "timings": "Morning 6:00 AM – 10:00 PM, Evening 5:00 PM – 8:00 PM",
+        "how_to_reach": "6 KM from Trichy Chathiram Bus stand to Vayalur"
+      },
+      "historical_info": "As per Purana, the temple was built by Karan, who was the chief army head of Thirisaran's kingdom",
+      "architecture": "Temple is carved and constructed on top of a mountain, with a large hall and Nandi mandapam in the center",
+      "festivals": [
+        "Pradosham",
+        "Shiva Rathri",
+        "New moon day of Aippasi"
+      ],
+      "data_completeness": "75%"
+    },
+    {
+      "temple_id": "t213",
+      "name": "Amirthavalli and Abimugeshar Temple",
+      "location": {
+        "city": "Kumbakonam",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Shri Amirthavalli and Abimugeshar Temple, Kumbakonam, Tanjore District"
+      },
+      "deities": {
+        "main_deity": "Shri Abimugeshar",
+        "goddess": "Shri Amirthavalli",
+        "other_deities": [
+          "Subramaniar",
+          "Dhakshnamurthy",
+          "Bairavar",
+          "Chandikeshwarar"
+        ]
+      },
+      "practical_info": {
+        "timings": "Morning 06:00 am to 11:00 noon, Evening 05:00 pm to 08:00 pm"
+      },
+      "festivals": [
+        "Masi Maga festival (February)",
+        "Navaratri festival (September)",
+        "Adippura ceremony (July)",
+        "Annabishekam to Swami (October)",
+        "Thrikkarthika (November)",
+        "Tiruvatirai Sri Nataraja departure (December)"
+      ],
+      "historical_info": "Located in the bed of 'Mahamaha pond', has mythological origin related to Lord Brahma preserving sacred texts during a great flood",
+      "special_features": [
+        "Subramaniar with 6 faces and 12 arms sitting on a peacock",
+        "Dhakshnamurthy in yoga posture",
+        "Large forms of Bairavar and Chandikeshwarar"
+      ],
+      "data_completeness": "75%"
+    },
+    {
+      "temple_id": "t1",
+      "name": "Anandhavalli Udaltherai Sri Agastheeswarar Temple",
+      "location": {
+        "city": "Perugamani",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "address": "Anandhavalli Udaltherai Sri Agastheeswarar Temple, Perugamani, Trichy District"
+      },
+      "deities": {
+        "main_deity": "Sri Agastheeswarar (Lord Shiva)",
+        "goddess": "Anandha Valli",
+        "other_deities": []
+      },
+      "holy_elements": {
+        "sacred_tree": "Vilva Tree"
+      },
+      "practical_info": {
+        "phone": "9944577394",
+        "pooja_schedule": "Pradosham, Shiva Rathri day full night pooja every year",
+        "how_to_reach": "19 KM from Trichy Chathiram Bus stand, located on Trichy-Karur road"
+      },
+      "historical_info": "Temple facing west direction. Back side has another Shiva temple believed to be constructed by Chola King Karikalan",
+      "special_features": [
+        "One of the few Shiva temples facing West side"
+      ],
+      "data_completeness": "70%"
+    },
+    {
+      "temple_id": "t229",
+      "name": "Agneeswaraswamy (Shukra) Temple",
+      "location": {
+        "city": "Kanjanur",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri Agneeswaraswamy Temple, Kanjanur (Po), Thiruvidaimarudhur (Tk), Tanjore (Dt)",
+        "pincode": "609 804"
+      },
+      "deities": {
+        "main_deity": "Sri Agneeswarar",
+        "goddess": "Sri Karpagambal",
+        "other_deities": [
+          "Agneeswarar"
+        ]
+      },
+      "holy_elements": {
+        "holy_water": [
+          "Agni Theertham",
+          "Parasara Theertham"
+        ],
+        "sacred_tree": "Palaasam"
+      },
+      "practical_info": {
+        "timings": "6.00 am to 12.00 noon, 4.00 pm to 9.00 pm",
+        "pooja_schedule": "Six times a day",
+        "how_to_reach": "Nearest station is Kumbakonam. Buses available from Aaduthurai."
+      },
+      "historical_info": "A Vaishnavite named Vasudevar's son Sudarshan was a great devotee of Lord Shiva",
+      "festivals": [
+        "Vinayaka Chathurthi",
+        "Vijayadasami",
+        "Navarathri",
+        "Sivarathri",
+        "Aadipooram",
+        "Masi Magam"
+      ],
+      "special_features": [
+        "Among Navagraha kshetras for 'Sukkiran'",
+        "Stone Nandhi ate grass",
+        "Lord tasted cooked salad of bottle gourd"
+      ],
+      "data_completeness": "85%"
+    },
+    {
+      "temple_id": "t18",
+      "name": "Amravaneswarar Temple",
+      "location": {
+        "city": "Mandurai",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "address": "Sri Amravaneswari Temple, Manthurai (Po.), Lalgudi (Tk), Trichy (Dt)",
+        "pincode": "621 703"
+      },
+      "deities": {
+        "main_deity": "Sri Amravaneswarar",
+        "goddess": "Sri Balambigai",
+        "other_deities": []
+      },
+      "holy_elements": {
+        "holy_water": [
+          "Cauvery Theertham"
+        ],
+        "sacred_tree": "Mango tree (Maa maram)"
+      },
+      "practical_info": {
+        "timings": "6.00 am to 1.00 am - 4.30 pm to 7.30 pm",
+        "how_to_reach": "Town buses available from Trichy Chathiram Bus stand to Lalgudi"
+      },
+      "historical_info": "Once a dense forest of mango trees. Lord Shiva and Goddess Parvathy appeared as deer and saved a young deer",
+      "festivals": [
+        "Aippasi – Annabishegam",
+        "Thirukkarthigai Deepam",
+        "Vaikasi – Adhi Shankara Jayanthi"
+      ],
+      "special_features": [
+        "Absolved Brahma of a curse",
+        "Sage Mirugandu blessed with son Markandeya",
+        "Beneficial for people born under Moolam star",
+        "Sun performs pooja for three days in Panguni month"
+      ],
+      "extra_info": "Devotees of Moolam star can be freed from doshas and receive better marriage prospects",
+      "data_completeness": "80%"
+    },
+    {
+      "temple_id": "t6",
+      "name": "Analadeeswarar Temple",
+      "location": {
+        "city": "Thottiyam",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "address": "Sri Analadeeswarar Temple, Thottiyam, Trichy District"
+      },
+      "deities": {
+        "main_deity": "Analadeeswarar (Lord Shiva)",
+        "goddess": "Thirupura Sundari",
+        "other_deities": [
+          "Appu Lingam",
+          "Prithvi Lingam",
+          "Lakshmi",
+          "Dhanadapani"
+        ]
+      },
+      "holy_elements": {
+        "holy_water": [
+          "Eswara Theertham"
+        ],
+        "sacred_tree": "Vilva Tree (Aegle marmelos)"
+      },
+      "practical_info": {
+        "timings": "Morning 8:00 A.M. – 12:00 Noon, Evening 4:00 P.M. to 8:00 P.M.",
+        "phone": "04326-254338",
+        "how_to_reach": "Direct buses from Trichy Chathiram bus stand to Thottiyam"
+      },
+      "historical_info": "No clear historical evidence of construction. Possible construction by Pandya kings",
+      "festivals": [
+        "Shiva Rathri",
+        "Sura Samharam",
+        "Navarathri",
+        "Vaigasi festival"
+      ],
+      "special_features": [
+        "Lord Shiva came down to earth and danced here",
+        "Lord Brahma did penance towards Shiva at this temple"
+      ],
+      "data_completeness": "75%"
+    },
+    {
+      "temple_id": "t285",
+      "name": "Apathsahayar Temple",
+      "location": {
+        "village": "Thirupazhanam",
+        "taluk": "Thiruvaiyaru",
+        "district": "Tanjore"
+      },
+      "deities": {
+        "main_deity": "Apathsahayar",
+        "ambal": "Periya nayagi"
+      },
+      "timings": "Morning 6:00-11:00, Evening 4:30-8:00",
+      "festivals": [
+        "Sapthasthana Festival",
+        "Thiruvathirai",
+        "Annaabhishegham"
+      ],
+      "special_features": [
+        "50th temple in Devaram",
+        "Moon light falls on deity"
+      ],
+      "data_completeness": "85%",
+      "scraped_date": "2025-08-24T20:22:07.091373"
+    },
+    {
+      "temple_id": "t29",
+      "name": "Arasankudi Shiva Temple",
+      "location": {
+        "district": "Trichy",
+        "nearest_town": "Thiruverumbur"
+      },
+      "deities": [
+        "Lord Shiva"
+      ],
+      "timings": "6:00 AM-12:00 Noon, 4:00 PM-8:00 PM",
+      "special_features": [
+        "2000 years old",
+        "Associated with Kallanai Dam"
+      ],
+      "data_completeness": "75%",
+      "scraped_date": "2025-08-24T20:22:07.091381"
+    },
+    {
+      "temple_id": "t221",
+      "name": "Artha Nareeswarar Temple",
+      "location": "Thiruchengodu, Namakkal District",
+      "deities": {
+        "main_deity": "Artha Nareeswarar",
+        "ambal": "Bagam piriyal"
+      },
+      "timings": "6:00 AM-2:00 PM, 3:00 PM-7:00 PM",
+      "special_features": [
+        "Half male-female deity",
+        "1200+ steps"
+      ],
+      "data_completeness": "85%",
+      "scraped_date": "2025-08-24T20:22:07.091382"
+    },
+    {
+      "temple_id": "t177",
+      "name": "Arunajadeswarar Temple",
+      "location": "Thiruppanandal, Kumbakonam",
+      "deities": {
+        "main_deity": "Sri ArunajadeswaraSwamy",
+        "ambal": "Sri Periyanayagi"
+      },
+      "timings": "5:30 am-12:30 noon, 4:30 pm-9:00 pm",
+      "festivals": [
+        "Chithirai Celestial Marriage",
+        "Aadipooram"
+      ],
+      "data_completeness": "80%",
+      "scraped_date": "2025-08-24T20:22:07.091383"
+    },
+    {
+      "temple_id": "t187",
+      "name": "Balukandanadha Swamy Temple",
+      "location": {
+        "village": "Thiruvaipadi",
+        "district": "Tanjore"
+      },
+      "deities": {
+        "main_deity": "Sri Balukandanadha Swamy",
+        "goddess": "Sri Periyanayagi"
+      },
+      "timings": "8:00 am-12:00 noon, 5:00 pm-8:00 pm",
+      "data_completeness": "75%",
+      "scraped_date": "2025-08-24T20:22:07.091383"
+    },
+    {
+      "temple_id": "t120",
+      "name": "Bhoothalingaswamy Temple",
+      "location": "Bhoothappandi, Kanyakumari District",
+      "deities": [
+        "Bhootha Linga Swamy",
+        "Sivagami Ambal"
+      ],
+      "timings": "4:00 AM-11:00 AM, 4:00 PM-7:30 PM",
+      "special_features": [
+        "Swayambu form",
+        "Inside cave",
+        "Stone chain"
+      ],
+      "data_completeness": "85%",
+      "scraped_date": "2025-08-24T20:22:07.091384"
+    },
+    {
+      "temple_id": "t9",
+      "name": "Brahmapureeswarar Temple",
+      "location": {
+        "village": "Anbil",
+        "district": "Trichy"
+      },
+      "deities": {
+        "main_deity": "Brahmapureeswarar",
+        "ambal": "Soundira Nayagi"
+      },
+      "timings": "7:00 AM-12:30 PM, 4:00 PM-7:30 PM",
+      "special_features": [
+        "Lord in Lotus",
+        "Nandhi not straight"
+      ],
+      "data_completeness": "80%",
+      "scraped_date": "2025-08-24T20:22:07.091385"
+    },
+    {
+      "temple_id": "t190",
+      "name": "Brahmapureeswarar Temple",
+      "location": "Yenanallur, Kumbakonam",
+      "deities": {
+        "main_deity": "Shri Brahmapureeswarar",
+        "ambal": "Karpagambal"
+      },
+      "timings": "6:00 am-12:00 pm, 4:00 pm-8:00 pm",
+      "data_completeness": "70%",
+      "scraped_date": "2025-08-24T20:22:07.091386"
+    },
+    {
+      "temple_id": "t124",
+      "name": "Brihadiswara Temple",
+      "location": "Gangai Konda Cholapuram, Ariyalur District",
+      "deities": {
+        "main_deity": "Brihadeeswarar",
+        "ambal": "Periya Nayagi"
+      },
+      "timings": "6:00 am-12 noon, 4:00 pm-8:00 pm",
+      "special_features": [
+        "Biggest lingam in TN",
+        "9.5 feet Amman statue"
+      ],
+      "data_completeness": "90%",
+      "scraped_date": "2025-08-24T20:22:07.091387"
+    },
+    {
+      "temple_id": "t30",
+      "name": "Chandrasekhara Swamy Temple",
+      "location": "Jeeyapuram, Trichy District",
+      "deities": [
+        "Chandrasekhara Swamy",
+        "Nandi"
+      ],
+      "timings": "6:00 am-12:00 noon, 4:00 pm-8:00 pm",
+      "data_completeness": "70%",
+      "scraped_date": "2025-08-24T20:22:07.091389"
+    },
+    {
+      "temple_id": "t180",
+      "name": "Dharmapureeswarar Temple",
+      "location": "Kumbakonam, Tanjore District",
+      "deities": {
+        "main_deity": "Sri Dharmapureeswarar",
+        "ambal": "Sri Vimalanayagi"
+      },
+      "timings": "7:00 am-12:00 noon, 5:00 pm-8:00 pm",
+      "special_features": [
+        "Former Chola capital",
+        "Maadakkoil"
+      ],
+      "data_completeness": "80%",
+      "scraped_date": "2025-08-24T20:22:07.091391"
+    },
+    {
+      "temple_id": "t73",
+      "name": "Ekambareswarar Temple",
+      "location": "Kanchipuram",
+      "deities": {
+        "main_deity": "Ekambareswarar",
+        "ambal": "Kamatchi"
+      },
+      "timings": "6:00 AM-12:30 Noon, 4:00 PM-8:30 PM",
+      "special_features": [
+        "Highest gopuram",
+        "Mud Suyambu Linga"
+      ],
+      "data_completeness": "85%",
+      "scraped_date": "2025-08-24T20:22:07.091391"
+    },
+    {
+      "temple_id": "t41",
+      "name": "Erumbeeswarar Temple",
+      "location": {
+        "city": "Thiruverumbur",
+        "district": "Trichy"
+      },
+      "deities": {
+        "main_deity": "Erumbeeswarar",
+        "ambal": "Narum Kuzhal Nayagi"
+      },
+      "timings": "6am-12noon, 4:30pm-8:30pm",
+      "special_features": [
+        "Ants worshipped here",
+        "ASI managed"
+      ],
+      "data_completeness": "75%",
+      "scraped_date": "2025-08-24T20:22:07.091392"
+    },
+    {
+      "temple_id": "t233",
+      "name": "Ezhuthari Nadheswarar Temple",
+      "location": {
+        "village": "Innambur",
+        "district": "Tanjore"
+      },
+      "deities": {
+        "main_deity": "Sri Ezhutharinadar",
+        "ambal": "Sri Sugantha kundhalambigai"
+      },
+      "timings": "7:00 am-12:00 noon, 4:30 pm-8:00 pm",
+      "special_features": [
+        "Lord wrote accounts",
+        "Good for education"
+      ],
+      "data_completeness": "80%",
+      "scraped_date": "2025-08-24T20:22:07.091393"
+    },
+    {
+      "temple_id": "t40",
+      "name": "Jambhukeswarar Temple",
+      "location": "Thiruvanaikovil, Trichy",
+      "deities": {
+        "main_deity": "Jambukeswarar",
+        "ambal": "Akilandeswari"
+      },
+      "timings": "6:30 am-1:00 pm, 3:00 pm-9:00 pm",
+      "special_features": [
+        "Water element",
+        "Eternal water trickle"
+      ],
+      "data_completeness": "90%",
+      "scraped_date": "2025-08-24T20:22:07.091394"
+    },
+    {
+      "temple_id": "t77",
+      "name": "Sundrambigai Sametha Kachabeshvarar Temple",
+      "location": {
+        "city": "Kanchipuram",
+        "district": "Kanchipuram District",
+        "state": "Tamil Nadu",
+        "address": "Sundrambigai Sametha Kachabeshvarar Temple, Kanchipuram"
+      },
+      "deities": {
+        "main_deity": "Sri Kachabeswarar",
+        "goddess": "Sri Sundarambigai",
+        "other_deities": [
+          "Vishnu Durgai",
+          "Pancha Sandhi Vinayaga Perumal",
+          "Bairavar",
+          "Sooriyan",
+          "Saraswathi Devi",
+          "Aadhikesava Perumal",
+          "Valli Deivayanai Samedha Arumuga Perumal"
+        ]
+      },
+      "holy_elements": {
+        "holy_water": "Itta Chitha Theertham - Blesses devotees with benevolence, wealth, bliss and salvation"
+      },
+      "practical_info": {
+        "timings": "7.30 am to 11.30 noon - 5.00 pm to 8.00 pm",
+        "phone": "044-2746 4325",
+        "how_to_reach": "Located in center of Kanchipuram town, walkable distance"
+      },
+      "historical_info": "Temple is over 1600 years old. In 'Dhasavadharam', Thirumal assumed tortoise form and worshipped Lord Shiva here",
+      "special_features": [
+        "Nine Lingas can be worshipped around the main deity"
+      ],
+      "data_completeness": "90%",
+      "scraped_date": "2025-08-24T20:46:47.382736"
+    },
+    {
+      "temple_id": "t273",
+      "name": "Kala Natha Swamy Temple",
+      "location": {
+        "city": "Kollumangudi",
+        "district": "Kumbakonam",
+        "state": "Tamil Nadu",
+        "address": "Kala Natha Swamy Temple, Kollumangudi, Kumbakkonam"
+      },
+      "deities": {
+        "main_deity": "Kala Natha Swamy (Lord Shiva)"
+      },
+      "practical_info": {
+        "timings": "Morning 7:00 AM to 12:00 Noon, Evening 5:30 PM to Night 8:00 PM",
+        "how_to_reach": "34KM from Kumbakonam, buses to Karaikal pass through Kollumangudi"
+      },
+      "special_features": [
+        "Maha Shivarathri celebration",
+        "Sixteen varieties of sacred pooja lotions used"
+      ],
+      "festivals": [
+        "Maha Shivarathri (annual festival)"
+      ],
+      "historical_info": "Oldest type of worship in the universe is towards Lord Shiva",
+      "data_completeness": "80%",
+      "scraped_date": "2025-08-24T20:46:47.382744"
+    },
+    {
+      "temple_id": "t75",
+      "name": "Kailasanadhar Temple",
+      "location": {
+        "city": "Kanchipuram",
+        "district": "Kanchipuram District",
+        "state": "Tamil Nadu",
+        "address": "Sri Kailasanathar Temple, Kanchipuram"
+      },
+      "deities": {
+        "main_deity": "Sri Kailasanadhar (Shiva)"
+      },
+      "practical_info": {
+        "timings": "8:30 am to 12:00 noon, 4:00 pm to 6:00 pm",
+        "how_to_reach": "Located 2 KM from bus stand in west direction"
+      },
+      "historical_info": "Built during Pallava period, the temple has a unique story of Poosalar, a devotee who built a temple in his imagination, which impressed Lord Shiva so much that he preferred Poosalar's imaginary temple over a king's physical temple",
+      "special_features": [
+        "Built with outer and inner corridors",
+        "Main entrance faces east",
+        "Moolavar Kailasanadhar has a 16-patch Linga body",
+        "Narrow corridor called 'Sorga Vaasal'",
+        "Believed that successfully traversing the corridor prevents rebirth"
+      ],
+      "data_completeness": "85%",
+      "scraped_date": "2025-08-24T20:46:47.382747"
+    },
+    {
+      "temple_id": "t167",
+      "name": "Karukudinatha Swamy Temple",
+      "location": {
+        "city": "Marudhanallur",
+        "district": "Kumbakonam",
+        "state": "Tamil Nadu",
+        "address": "Sri Sargunalingeswarar Temple, Marudhanallur (Po.), Kumbakonam (Tk), Thanjavur (Dt). PIN – 612 402"
+      },
+      "deities": {
+        "main_deity": "Sri Karukudinathar (form of Shiva)",
+        "goddess": "Sri Kalyana Nayagi",
+        "other_deities": [
+          "Hanumath Lingam",
+          "Vinayagar",
+          "Karthikeyan"
+        ]
+      },
+      "practical_info": {
+        "timings": "7.00 am to 12.00 noon - 6.00 pm to 8.00 pm",
+        "pooja_times": "Two times a day",
+        "how_to_reach": "7 KM from Kumbakonam bus stand on Mannarkudi route, get down at Marutha Nallur bus stop"
+      },
+      "historical_info": "A businessman named 'Dhanajcheyan' was cured of leprosy after worshipping here",
+      "special_features": [
+        "Avudayar made of sand in 'Suyambu' form",
+        "Main Deity and Ambal both facing east",
+        "Believed to cure severe diseases"
+      ],
+      "festivals": [
+        "Maasi Magam",
+        "Sivarathri",
+        "Karthigai – Karthigai Vizha"
+      ],
+      "data_completeness": "85%",
+      "scraped_date": "2025-08-24T20:46:47.382750"
+    },
+    {
+      "temple_id": "t188",
+      "name": "Mahalinga Swamy Temple",
+      "location": {
+        "city": "Thiruvidaimarudur",
+        "district": "Tanjavur",
+        "state": "Tamil Nadu",
+        "address": "Sri Mahalingaswamy Temple, Thiruvidaimarudur (Po.)& (Tk.), Tanjavur (Dt). PIN – 612 104"
+      },
+      "deities": {
+        "main_deity": "Sri Mahalinga Swamy",
+        "goddess": "Sri Bruhatha Sundara Gujambiga (Perumamulaippratti)",
+        "other_deities": [
+          "Ganesha",
+          "Muruga",
+          "Dakshinamoorthy",
+          "Nataraja",
+          "Panchamoorthigal",
+          "Natchathira Lingas",
+          "Pattinathar",
+          "Barthrugiri",
+          "Moogambigai"
+        ]
+      },
+      "holy_elements": {
+        "holy_water": "Karunyamirtha Theertham",
+        "temple_tree": "Marudha Tree (Arjun tree/ Terminalia arjuna)"
+      },
+      "practical_info": {
+        "timings": "5.30 am to 12.30 noon - 4.30 pm to 9.00 pm",
+        "pooja_times": "Six times a day",
+        "how_to_reach": "7 KM from Kumbakonam, buses from Kumbakonam to Mayiladuthurai pass through this town"
+      },
+      "historical_info": "King Varaguna pandian got relief from Brahmmahaththi Dosha by worshipping here after accidentally killing a Brahmin during a hunting trip",
+      "special_features": [
+        "Known as 'Panchalinga kshetra'"
+      ],
+      "data_completeness": "90%",
+      "scraped_date": "2025-08-24T20:46:47.382752"
+    },
+    {
+      "temple_id": "t154",
+      "name": "Manikarnikeswarar Temple",
+      "location": {
+        "city": "Thanjavur",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Rajaveedi, Tanjore, Tanjore District"
+      },
+      "deities": {
+        "main_deity": "Sri Manikarnikeshwar",
+        "goddess": "Mangala Nayagi"
+      },
+      "practical_info": {
+        "timings": "Morning 6:00 am to noon 12:00 pm, Evening 4:00 pm to 8:00 pm",
+        "how_to_reach": "Temple is in east main street which is walkable from Tanjore old bus stand"
+      },
+      "special_features": [
+        "Worshiping Lord Shiva first in the world is considered the best",
+        "Lord Shiva lives as soul in every human body",
+        "Special Mahashivarathiri festival with 4-term poojas"
+      ],
+      "festivals": [
+        "Mahashivarathiri - Poojas scheduled in 4 terms from evening 4:00 pm to early morning 4:00 am, Lord Shiva and Nandi specially decorated, Anointed with 16 fragrances"
+      ],
+      "data_completeness": "85%",
+      "scraped_date": "2025-08-24T20:46:47.382754"
+    },
+    {
+      "temple_id": "t186",
+      "name": "Manognanadhaswamy Temple",
+      "location": {
+        "city": "Thiruneelakkudi",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri ManognanadhaSwamy Temple, Thiruneelakkudi (Po.), Kumbakonam (Via), Thiruvidaimarudhur (Tk), Tanjore (Dt). PIN – 612 108"
+      },
+      "deities": {
+        "main_deity": "Sri Manognanadhaswamy",
+        "goddess": "Sri Anoopamasthani",
+        "other_deities": [
+          "Bakthabheeshtathayini",
+          "Panchamoorthy",
+          "Brahma",
+          "Linga",
+          "Viswanathar",
+          "Maha Lakshmi",
+          "Bairavar",
+          "Navagrahas"
+        ]
+      },
+      "holy_elements": {
+        "holy_water": "Devi Theertham",
+        "temple_tree": "Pancha Vilvam"
+      },
+      "practical_info": {
+        "timings": "6.00 am to 12.00 noon, 4.00 pm to 8.00 pm",
+        "pooja_times": "Four times a day",
+        "how_to_reach": "12 KM from Kumbakonam bus stand, 4 KM from Aduthurai"
+      },
+      "historical_info": "According to legend, when Devas and Asuras were trying to take nectar which turned into poison, Lord Shiva drank the entire poison. His consort Goddess Parvathi applied oil on his neck, turning it blue. The village is called Thiruneelakudi.",
+      "special_features": [
+        "Lord Shiva's blue neck legend",
+        "Pancha Vilvam temple tree"
+      ],
+      "data_completeness": "85%",
+      "scraped_date": "2025-08-24T20:54:13.354338"
+    },
+    {
+      "temple_id": "t2",
+      "name": "Marudanda Nadeswarar Temple",
+      "location": {
+        "city": "Aangarai",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "address": "Sri Marudanda Nadeswarar temple, Aangarai, Lalgudi, Trichy Dt."
+      },
+      "deities": {
+        "main_deity": "Marudanda Nadeswarar",
+        "goddess": "Sundara Kanchani"
+      },
+      "practical_info": {
+        "timings": "6.00 am to 11.00 am and 4.00 pm to 8.00 pm",
+        "how_to_reach": "Take bus from Trichy Chathiram bus stand to Lalgudi, then to Aangarai bus stop"
+      },
+      "historical_info": "Marudandan was the son of sage Suholar. After committing a grave sin unknowingly, he renounced material life and meditated. Lord Shiva appeared, pardoned his sin, and asked him to build this temple.",
+      "special_features": [
+        "Though temple faces east, entrance is from south",
+        "Ambal and Swamy shrines in same mandapam",
+        "Unique circumambulation path"
+      ],
+      "festivals": [
+        "Tamil new year",
+        "Vaigasi Visakam",
+        "Aadi krithigai",
+        "Vinayaga chathurthi",
+        "Navarathri",
+        "Kanda Shashti",
+        "Thirukkarthigai",
+        "Panguni Uthiram"
+      ],
+      "data_completeness": "85%",
+      "scraped_date": "2025-08-24T20:54:13.354338"
+    },
+    {
+      "temple_id": "t20",
+      "name": "Marundheeswarar Temple",
+      "location": {
+        "city": "Koothappar",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "address": "Sri Marundheeswarar Temple, Koothappar, Trichy Dt"
+      },
+      "deities": {
+        "main_deity": "Marundheewarar (Lord Shiva)",
+        "goddess": "Ananda Valli",
+        "other_deities": [
+          "Muniyandi"
+        ]
+      },
+      "practical_info": {
+        "timings": "Morning 8:00 AM – 12:00 PM, Evening 4:00 PM – 7:00 PM",
+        "how_to_reach": "13 KM from Trichy Chathiram Bus stand, multiple town buses available"
+      },
+      "historical_info": "Constructed by Kulonthunga Chola. Lord Shiva appeared to Muniyandi in a dancing pose, hence called Koothappar.",
+      "special_features": [
+        "Temple constructed so elephants cannot enter",
+        "Believed to help unmarried men get married",
+        "Believed to help couples wanting children"
+      ],
+      "data_completeness": "85%",
+      "scraped_date": "2025-08-24T20:54:13.354339"
+    },
+    {
+      "temple_id": "t38",
+      "name": "Matruraivaradeeswarar Temple",
+      "location": {
+        "city": "Thiruvasi",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "address": "Sri Balambigai Samedha Matrurau Varadeeswarar Temple, Manacha Nallur Tk, Trichy Dt, Thiruvasi-621216"
+      },
+      "deities": {
+        "main_deity": "Matrurau Varadeeswarar (aka Samevaneswarar, matrari Varadhar)",
+        "goddess": "Balambigai",
+        "other_deities": [
+          "Nataraja"
+        ]
+      },
+      "holy_elements": {
+        "holy_water": "Annama poigai (tank created by a parrot)",
+        "temple_tree": "Vanni trees"
+      },
+      "practical_info": {
+        "timings": "7am to 12pm, 5pm to 7.45pm",
+        "pooja_times": [
+          "8.30am Kala Santhi",
+          "12 noon Uchi kala pooja",
+          "5.30pm Sayaratchai",
+          "7.30pm Artha Jama Pooja"
+        ],
+        "how_to_reach": "6km from No.1 tolgate on the way to Musuri, 11KM from Trichy Chathiram bus stand"
+      },
+      "historical_info": "Ruled by Kolli Mazhavan. Poet Thirugnanasambandar healed the king's daughter by singing prayers. Expanded by kings like Raja Raja Cholan I, Sundara Pandian, Kulonthunga Cholan I and Krishna Deva Rayar",
+      "special_features": [
+        "Unmarried devotees can get better marriage prospects",
+        "Nataraja worship can cure incurable diseases"
+      ],
+      "data_completeness": "90%",
+      "scraped_date": "2025-08-24T20:54:13.354340"
+    },
+    {
+      "temple_id": "t225",
+      "name": "Thirunaganadha Swamy(Raghu)Temple",
+      "location": {
+        "city": "Thirunageshvaram",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri Thirunageswara Swamy Temple, Kumbakonam (Po.), Tanjore (Dt), Thirunageswaram – 612 204"
+      },
+      "deities": {
+        "main_deity": "Sri Thirunaganadhaswamy",
+        "goddess": "Sri Piraiyanamman",
+        "other_deities": [
+          "Aadhi Vinayagar",
+          "Girigujambal",
+          "Saraswathi",
+          "Lakshmi",
+          "Navagraham",
+          "Ragu Bhagavan",
+          "Sekkizhar",
+          "Palaravayar",
+          "Azhagammai",
+          "Arupthu moovar"
+        ]
+      },
+      "holy_elements": {
+        "holy_water": "Sooriya Pushkarani",
+        "temple_tree": "Shenbagam"
+      },
+      "practical_info": {
+        "timings": "6.00 am to 1.00 noon, 4.00 pm to 9.00 pm",
+        "pooja_times": "Six times a day",
+        "how_to_reach": "5 km southwest of Kumbakonam on the Karikal road"
+      },
+      "historical_info": "Long ago, serpent king Aadhiseshan wanted to worship Lord Shiva. He found a forest of Shenbaga trees, created a Theertham, and performed penance. The temple was constructed by Chola king Kandarathitha Chola.",
+      "special_features": [
+        "Navagraha temple for Rahu",
+        "Constructed by Chola king"
+      ],
+      "data_completeness": "90%",
+      "scraped_date": "2025-08-24T20:54:13.354343"
+    },
+    {
+      "temple_id": "t223",
+      "name": "Naganadha Swamy Temple (Kethu Isthalam)",
+      "location": {
+        "city": "Keelaperumpallam",
+        "district": "Nagai",
+        "state": "Tamil Nadu",
+        "address": "Sri Naganadha Swamy Temple (Kedhu Stahalam), Keelaperumpallam, Vanagiri (Po.), Tharangambadi (Tk.), Nagai (Dt)."
+      },
+      "deities": {
+        "main_deity": "Sri Naganadha Swamy",
+        "goddess": "Sri Soundara Nayagi",
+        "other_deities": [
+          "Nataraja",
+          "Somaskandar",
+          "Murugan",
+          "Ganesha",
+          "Kedhu",
+          "Ambal"
+        ]
+      },
+      "holy_elements": {
+        "holy_water": "Naga Theertham",
+        "temple_tree": "Bamboo (Moongil)"
+      },
+      "practical_info": {
+        "timings": "6.00 am to 12.00 noon - 3.00 pm to 8.00 pm",
+        "pooja_times": "Six times a day",
+        "how_to_reach": "Nearest towns: Mayiladuthurai, Sirkazhi. Buses from Sirkazhi and Mayiladuthurai"
+      },
+      "historical_info": "Approximately 1900 years old, constructed by Chola kings. The temple's origin relates to the story of Snake God Vasuki worshipping Lord Shiva after he drank poison during the churning of the ocean.",
+      "special_features": [
+        "Separate Sannidhi for Lord Kedhu",
+        "Navagraha temple for Ketu"
+      ],
+      "data_completeness": "90%",
+      "scraped_date": "2025-08-24T20:54:13.354343"
+    },
+    {
+      "temple_id": "t160",
+      "name": "Nageswarar Swamy Temple",
+      "location": {
+        "city": "Kumbakonam",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri NageswaraSwamy Temple, Kumbakonam (Po.), Tanjore (Dt). Pin : 612 001"
+      },
+      "deities": {
+        "main_deity": "Sri Nageswarar",
+        "goddess": "Sri Periyanayagi",
+        "other_deities": [
+          "Sooriyan",
+          "Nagarajan",
+          "Pralayakalarudhrar",
+          "Valanchuzhi Vinayagar",
+          "Ayyanar",
+          "Vishnu Durgai",
+          "Brahma",
+          "Aadipoora Amman",
+          "Murugan"
+        ]
+      },
+      "holy_elements": {
+        "holy_water": "Naga Theertham",
+        "temple_tree": "Vilvam Tree"
+      },
+      "practical_info": {
+        "timings": "6.30 am to 12.00 noon ---- 4.00 pm to 9.00 pm",
+        "pooja_times": "Six times a day",
+        "phone": "0435 2430386"
+      },
+      "historical_info": "Nageswaraswamy temple is one of the oldest temples in Kumbakonam, constructed approximately 1500 years back",
+      "special_features": [
+        "Sun's rays enter the 'karpagraha' on 11th, 12th and 13th day of Chithirai month",
+        "Natarajar Mandapam shaped like a temple chariot",
+        "Wheels of chariot depict twelve zodiac signs"
+      ],
+      "festivals": [
+        "Chithirai festival"
+      ],
+      "data_completeness": "95%",
+      "scraped_date": "2025-08-24T20:54:13.354344"
+    },
+    {
+      "temple_id": "t37",
+      "name": "Nedungula Nather Temple",
+      "location": {
+        "city": "Thirunedungulam",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "address": "Sri Thirunedungalanadhar Temple, Thirunedungulam (Po.), Thiruverumbur (Tk), Trichy"
+      },
+      "deities": {
+        "main_deity": "Nedungalanadhar (Nithya Sundareswarar, Easan)",
+        "goddess": "Mangala Nayagi (Mangalambigai, Umayaval)"
+      },
+      "holy_elements": {
+        "holy_water": "Agathiar Theertham",
+        "temple_tree": "Vilvam"
+      },
+      "practical_info": {
+        "timings": "6.00 am to 12.00 noon - 4.00 pm to 8.00 pm",
+        "how_to_reach": "Located between Trichy and Tanjore, 24 KM from Trichy"
+      },
+      "historical_info": "Agathiar offered worship here and attained glory. The Shiva Linga is said to be with Goddess Umayaval in a formless posture, with Lord Siva offering her his left half of the body.",
+      "special_features": [
+        "Worshipping for 8 Fridays continuously brings attraction to face",
+        "Worshipping Mangala Nayagi for 9 Tuesdays during Ragu Kaalam can relieve impediments, diseases, and poverty"
+      ],
+      "data_completeness": "85%",
+      "scraped_date": "2025-08-24T20:54:13.354345"
+    },
+    {
+      "temple_id": "t44",
+      "name": "Neelivaneswarar Temple",
+      "location": {
+        "city": "Thirupanjali",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "address": "Sri Neelivaneswarar Temple, Thirupanjali, Mannacha Nallur, Trichy Dt."
+      },
+      "deities": {
+        "main_deity": "Neelivaneswarar, Neela Kandeswarar, Vazhai Vananathar, Swetha Giri",
+        "goddess": "Visalatichi, Neel Nedunkan Nayagi",
+        "other_deities": [
+          "Yema (in a cave-carved sannidhi)",
+          "Navagrahas"
+        ]
+      },
+      "holy_elements": {
+        "temple_tree": "Kal Vazhai (Type of banana tree)",
+        "special_feature": "Sun rays directly fall on Suyambu Shiva linga during Purattasi and Panguni months"
+      },
+      "practical_info": {
+        "timings": "Morning 6:00 A.M. – 12:00 Noon, Evening 4:00 P.M. to 8:30 P.M.",
+        "how_to_reach": "Located 7 km from Mannacha Nallur, on Trichy – Namakkal bus route"
+      },
+      "historical_info": "Related to Amirtha kadeswarar Temple of Thirukadaiyur. Lord Shiva allowed Yema to be reborn as a child at this location after saving Markandeyan.",
+      "special_features": [
+        "Ayush Homa to overcome fear of death",
+        "Offering bananas helps resolve marriage obstacles",
+        "Dedicated Yema sannidhi"
+      ],
+      "festivals": [
+        "Chithirai festival"
+      ],
+      "data_completeness": "90%",
+      "scraped_date": "2025-08-24T20:54:13.354346"
+    },
+    {
+      "temple_id": "t24",
+      "name": "Panchavarneswarar Temple",
+      "location": {
+        "city": "Woraiyur",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "address": "Sri Panchavarneshwar Temple, Woraiyur – 620 003, Trichy District"
+      },
+      "deities": {
+        "main_deity": "Panchavarneshwarar, Sri Mukkisurathadigal",
+        "goddess": "Gandhimathi Annai",
+        "other_deities": [
+          "Vinayaka",
+          "Muruga",
+          "Nataraja",
+          "Dakshinamoorthy",
+          "Lingorbavar",
+          "Thrumal",
+          "Brahma",
+          "Durga",
+          "Bitchadanar"
+        ]
+      },
+      "holy_elements": {
+        "holy_water": [
+          "Siva Theertha",
+          "Naga Theertha"
+        ],
+        "temple_tree": "Viva"
+      },
+      "practical_info": {
+        "timings": "6.00 am to 12.00 pm, 4.00 pm to 9.00 pm",
+        "pooja_times": "Four Times a day",
+        "phone": "0431 – 2768546, 9791806457"
+      },
+      "historical_info": "Among the Triumvarate of Chera, Chola and Pandiya, the Cholas ruled with Woraiyur (Trichy) as the capital. A Chola king discovered a Shivalinga after a miraculous incident with an elephant and a cock.",
+      "special_features": [
+        "God manifested five colors to creator Brahma",
+        "Lord revealed himself in five different colors: Emerald, Crystal, Gold, Diamond and Portrait"
+      ],
+      "data_completeness": "90%",
+      "scraped_date": "2025-08-24T20:54:13.354348"
+    },
+    {
+      "temple_id": "t171",
+      "name": "Pasupadeswaraswamy Temple",
+      "location": {
+        "city": "Pandanainallur",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri Pasupadeeswaraswamy Temple, Pandanainallur (Po), Kumbakonam (Tk), Tanjore (Dt). Pin : 609 807"
+      },
+      "deities": {
+        "main_deity": "Sri Pasupadeswarar",
+        "goddess": "Sri Venupoojambigai",
+        "other_deities": [
+          "DwaraVinayagar",
+          "Subramaniyar",
+          "KalyanSundarar",
+          "Sattanadar",
+          "Gajalakshmi",
+          "Annapoorani",
+          "Pitchadanar"
+        ]
+      },
+      "holy_elements": {
+        "holy_water": "SooriyaTheertham",
+        "temple_tree": "Sarakkondrai"
+      },
+      "practical_info": {
+        "timings": "6.00 am to 12.00 noon, 5.00 pm to 9.00 pm",
+        "pooja_times": "Four times a day",
+        "how_to_reach": "From Kumbakonam, go 15 KM north to Thiruppananthal, then take Vaitheeswaran Kovil route for 10 KM"
+      },
+      "historical_info": "Goddess Parvathi made the four Vedhas into balls and played with them. Lord Shiva lit the balls, which got extinguished at this shrine. The main idol is in the form of an anthill with a cow's hoof imprint.",
+      "special_features": [
+        "Main idol is in self incarnation form",
+        "Cow's hoof imprint on the deity"
+      ],
+      "data_completeness": "85%",
+      "scraped_date": "2025-08-24T20:54:13.354349"
+    },
+    {
+      "temple_id": "t185",
+      "name": "Prananadha Swamy Temple",
+      "location": {
+        "city": "Thirumangalakkudi",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri PrananadhaSwamy Temple, Thirumangalakkudi (Po), Thiruvidaimarudhur (Tk), Tanjore (Dt). Pin : 612 102"
+      },
+      "deities": {
+        "main_deity": "Sri Prananadha Swamy",
+        "goddess": "Sri Mangalambigai",
+        "other_deities": [
+          "Ganesha",
+          "Muruga",
+          "Natarajar",
+          "Brahma",
+          "Gajalakshmi",
+          "Bairavar",
+          "Durgai"
+        ]
+      },
+      "holy_elements": {
+        "holy_water": "MangalaTheertham",
+        "temple_tree": "Vellerukku"
+      },
+      "practical_info": {
+        "timings": "6.30 am to 11.30 noon ---- 4.00 pm to 8.30 pm",
+        "pooja_times": "Four times a day",
+        "phone": "0435 2470480",
+        "how_to_reach": "2 KM from Aduthurai, 12 KM from Kumbakonam, accessible by Mayiladurai buses"
+      },
+      "historical_info": "During 11th century Kulonthunga Chola (I) was ruling. Alaiwanar, without royal permission, used tax money to build a temple. Fearing the king, he died, but was revived by Goddess Mangalambigai's intervention.",
+      "special_features": [
+        "Navagrahas got rid of evil spell at this location",
+        "Removes stumbling blocks in matrimonial prospects"
+      ],
+      "data_completeness": "90%",
+      "scraped_date": "2025-08-24T21:02:00.941950"
+    },
+    {
+      "temple_id": "t296",
+      "name": "Prathyaksh Parameswar Temple",
+      "location": {
+        "city": "Thethiyur",
+        "district": "Kumbakonam",
+        "state": "Tamil Nadu",
+        "address": "Prathyaksh Parameswar Temple, Thethiyur, Kumbakonam, Tanjore"
+      },
+      "deities": {
+        "main_deity": "Prathyaksh Parameswar",
+        "goddess": "Sundara Kanagambigai"
+      },
+      "practical_info": {
+        "timings": "Morning 06:00 am to 12:00 noon, Evening 04:00 pm to 08:00 pm",
+        "how_to_reach": "Located 19.4 km from Nachiyar kovil, bus service every one hour"
+      },
+      "historical_info": "Since the chariot called 'Ther' was buried, this place was called Therthahayur. There are 3 Shiva temples and 2 Perumal temples in this location.",
+      "special_features": [
+        "Biggest temple in Thethiyur",
+        "Located in southeast of the village"
+      ],
+      "data_completeness": "80%",
+      "scraped_date": "2025-08-24T21:02:00.941951"
+    },
+    {
+      "temple_id": "t86",
+      "name": "Ramanadha Swamy Temple",
+      "location": {
+        "city": "Ramanadheecharam",
+        "district": "Tiruvarur",
+        "state": "Tamil Nadu",
+        "address": "Sri Ramanadha Swamy temple, Ramanadheecharam, Thirukkannapuram – 609 704"
+      },
+      "deities": {
+        "main_deity": "Ramanadha Swamy",
+        "goddess": "Sariwarkuzhali",
+        "other_deities": [
+          "Somaskandar with Nandi"
+        ]
+      },
+      "holy_elements": {
+        "holy_water": "Rama Theertham",
+        "temple_tree": "Magizha, Champak (Magnolia champaca)"
+      },
+      "practical_info": {
+        "phone": "+91-4366-292 300, 291 257, 94431 13025",
+        "how_to_reach": "Near Thirupugalur, 22 KM from Thiruvarur, on Kumbakonam – Nagapattinam road via Nannilam"
+      },
+      "historical_info": "According to Ramayana, Sri Rama performed Shiva pooja here to ward off the evil effect of killing soldiers in Lanka. He found Lord Shiva in a self-formed state under a Champak tree.",
+      "special_features": [
+        "Lingam is self-formed",
+        "Unique Deepa aradhanai with light image on lingam",
+        "140th temple in Devaaram spiritual literature"
+      ],
+      "festivals": [
+        "Maha Shivarathri",
+        "Annabishegam in Aippasi",
+        "Kanda Shashti"
+      ],
+      "data_completeness": "95%",
+      "scraped_date": "2025-08-24T21:02:00.941953"
+    },
+    {
+      "temple_id": "t192",
+      "name": "Sri Parvathavardhini Ambiga Samedha Sri Ramanatha Swamy Temple",
+      "location": {
+        "city": "Nachiyar Kovil",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Ramanatha Swamy Temple, Nachiyar Kovil, Kumbakonam"
+      },
+      "deities": {
+        "main_deity": "Ramanatha Swamy",
+        "goddess": "Sri Parvathavardhini Ambiga",
+        "other_deities": [
+          "Saneeswaran",
+          "Mandha Devi",
+          "Jesta Devi",
+          "Mandhi",
+          "Kuligan"
+        ]
+      },
+      "holy_elements": {
+        "holy_water": "Suriya Theertham"
+      },
+      "practical_info": {
+        "timings": "Morning 7:30 AM – 12:30 Noon, Evening 4:30 PM to 8:30 PM",
+        "how_to_reach": "10 km southeast of Kumbakonam on Kumbakonam–Thiruvarur Road"
+      },
+      "historical_info": "King Dasaratha visited this temple and offered prayer to Lord Saneeswaran to get rid of his Doshas",
+      "special_features": [
+        "Famous for Sani Dosha Parihara Sthalam",
+        "Saneeswaran lives with his family at this temple",
+        "Devotees believe worshipping here brings peace and harmony to families"
+      ],
+      "festivals": [
+        "Sani Peyarchi"
+      ],
+      "data_completeness": "90%",
+      "scraped_date": "2025-08-24T21:02:00.941954"
+    },
+    {
+      "temple_id": "t195",
+      "name": "Somanatha Swamy Temple",
+      "scraped_at": "2025-08-24T19:53:00.000Z",
+      "location": {
+        "city": "Keezha Pazhayarai",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri Somanatha Swamy Temple, Keezha Pazhayarai, Kumbakonam (Tk), Tanjore District"
+      },
+      "deities": {
+        "main_deity": "Sri Somanatha Swamy (Lord Shiva)",
+        "goddess": "Soma Kamalambigai Amman",
+        "other_deities": [
+          "Sandikeswarar"
+        ]
+      },
+      "holy_elements": {
+        "holy_water": [
+          "Soma Theertham",
+          "Jadayu Theertham"
+        ],
+        "temple_tree": "Nelli (Phyllanthus emblica)"
+      },
+      "practical_info": {
+        "timings": "Morning 7:30 A.M. to 12:00 Noon, Evening 4:00 P.M. to 7:00 P.M.",
+        "phone": "98945 69543"
+      },
+      "historical_info": "Constructed by Chola kings during 7th century. Used to be a capital for Chola dynasty. Raja Raja Chola spent his early years here. Sung by Appar, Thirugnana Sampanthar, Sundarar and Sekkizhar.",
+      "special_features": [
+        "Beautiful early Chola architecture",
+        "Historical significance as former Chola capital",
+        "Associated with Raja Raja Chola's early life"
+      ],
+      "festivals": [
+        "Chola dynasty related festivals"
+      ],
+      "data_completeness": 88
+    },
+    {
+      "temple_id": "t161",
+      "name": "Someswara Swamy Temple",
+      "scraped_at": "2025-08-24T19:53:00.000Z",
+      "location": {
+        "city": "Kumbakonam",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri SomeswaraSwamy Temple, Kumbakonam (Po.), Tanjore (Dt). Pin : 612 001"
+      },
+      "deities": {
+        "main_deity": "Sri Someswarar, Sikkesar, Somanadhar",
+        "goddess": "Sri Somasundari, Thenarmozhial",
+        "other_deities": [
+          "Maleeswarar",
+          "KalyanaSundaraVinayagar",
+          "Arumugar with consorts Valli and Deivanai",
+          "Gajalakshmi",
+          "Natarajar"
+        ]
+      },
+      "holy_elements": {
+        "holy_water": "Soma Theertham"
+      },
+      "practical_info": {
+        "timings": "6.00 am to 12.00 noon, 4.00 pm to 9.00 pm",
+        "pooja_times": "Five times a day"
+      },
+      "historical_info": "Constructed during 13th century, based on Chozha's architecture. The shrine where Lord absorbed souls during MahaSangaram is called 'Kaaronam'.",
+      "special_features": [
+        "Lord Murugan has a separate sannidhi",
+        "Lord Murugan is believed to wear footwear in this temple",
+        "Someswara appears in Mahamaham celebrations"
+      ],
+      "festivals": [
+        "Sivarathri",
+        "Navarathri",
+        "MaasiMagam"
+      ],
+      "data_completeness": 90
+    },
+    {
+      "temple_id": "t13",
+      "name": "Tharugavaneshwarar Temple",
+      "scraped_at": "2025-08-24T20:05:00.000Z",
+      "location": {
+        "city": "Thirupparaithurai",
+        "district": "Tiruchirappalli",
+        "state": "Tamil Nadu",
+        "address": "Arulmigu Tharugavaneshwarar Temple, Thirupparaithurai, Tiruchirappalli"
+      },
+      "deities": {
+        "main_deity": "Tharugavaneshwarar [Paraaithurai Nathar]",
+        "goddess": "Hemavarna Ambigai [Mayilaambigai]",
+        "other_deities": [
+          "Valampuri Ganesh",
+          "Arupathu Moovar",
+          "Somaskandar",
+          "Maha Ganapathy",
+          "Panchabhoodha Lingas",
+          "Arumugar",
+          "Bhikshaadanaar",
+          "Brahma",
+          "Dakshinamoorthy",
+          "Artha Nareeswarar",
+          "Durga",
+          "Gajalakshmi",
+          "Saptha Kanniyar"
+        ]
+      },
+      "holy_elements": {
+        "holy_water": "River Cauvery",
+        "temple_tree": "Paraai Tree"
+      },
+      "practical_info": {
+        "timings": "Morning 8:00 AM to 12:00 Noon, Evening 4:00 PM to 08:00 PM",
+        "how_to_reach": "Located 11 KM from Trichy Chathiram bus stand, on Trichy-Karur National Highway. Nearest station is Trichy"
+      },
+      "historical_info": "The temple dates back to the seventh century during the Chola period",
+      "special_features": [
+        "Ancient Chola architecture",
+        "Located on Trichy-Karur highway"
+      ],
+      "festivals": [
+        "Chola period festivals"
+      ],
+      "data_completeness": 85
+    },
+    {
+      "temple_id": "t36",
+      "name": "Thayumanavar Swamy Temple",
+      "scraped_at": "2025-08-24T20:05:00.000Z",
+      "location": {
+        "city": "Arasalur",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "address": "Thayumanavar Swamy Temple, Arasalur, Thottiyam, Trichy"
+      },
+      "deities": {
+        "main_deity": "Arulmigu Thayumanava Swami (Lord Shiva)"
+      },
+      "practical_info": {
+        "timings": "Morning 6:00 am to noon 12:00 pm, Evening 4:00 pm to 8:00pm",
+        "how_to_reach": "Direct buses from Trichy chathiram Bus Stand to Thotiyam. Nearest station is Trichy"
+      },
+      "special_features": [
+        "Believed to help pregnant women give birth normally",
+        "Worshipping Shiva here is considered the best in the world"
+      ],
+      "festivals": [
+        "Mahashivarathiri (held every year in the month of masi/feb-mar)"
+      ],
+      "festival_details": {
+        "Mahashivarathiri": {
+          "timing": "4:00 pm to 4:00 am",
+          "special_rituals": [
+            "Poojas in 4 terms",
+            "Lord Shiva and Nandi decorated with 16 fragrances",
+            "Dheebaradhanai (torch) shown"
+          ]
+        }
+      },
+      "data_completeness": 80
+    },
+    {
+      "temple_id": "t172",
+      "name": "Thenupureeswarar Temple",
+      "scraped_at": "2025-08-24T20:05:00.000Z",
+      "location": {
+        "city": "Patteshvaram",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri Thenupureeswarar Temple, Patteeswaram (Po.), Kumbakonam (Tk), Tanjore (Dt). Pin : 612 703"
+      },
+      "deities": {
+        "main_deity": "Sri Thenupureeswarar",
+        "goddess": "Sri Gnanambigai",
+        "other_deities": [
+          "Murugan",
+          "Ramar",
+          "Madhavaranappilliar",
+          "Saptha Kanniyar",
+          "Durgai",
+          "Mahalingam",
+          "Sambandar",
+          "Bairavar"
+        ]
+      },
+      "holy_elements": {
+        "holy_water": "Gnana Theertham",
+        "temple_tree": "Vanni Tree"
+      },
+      "practical_info": {
+        "timings": "6.00 am to 12.30 noon, 4.00 pm to 9.00 pm",
+        "pooja_times": "Six times a day",
+        "how_to_reach": "Located 8km southwest of Kumbakonam, local buses available from Kumbakonam bus stand"
+      },
+      "historical_info": "Part of the glorious Chola dynasty period (9th-11th centuries). The temple has connections to sage Viswamithra, Lord Rama, and sage Thirugnana Sampanthar.",
+      "special_features": [
+        "Durga Devi is very powerful and unique in her calm form",
+        "Five Nandis located slightly aside, not in straight line",
+        "Ramalinga originally incarnated by Lord Ram"
+      ],
+      "festivals": [
+        "Chola dynasty festivals"
+      ],
+      "data_completeness": 92
+    },
+    {
+      "temple_id": "t39",
+      "name": "Panchanadeeswarar Temple",
+      "scraped_at": "2025-08-24T20:05:00.000Z",
+      "location": {
+        "city": "Thiruvaiyaru",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri Panchanadeeswarar Temple, Thiruvaiyaru, Tanjore District"
+      },
+      "deities": {
+        "main_deity": "Panchanadeeswara Swamy (Iyyarappar)",
+        "other_deities": [
+          "Sivalingam",
+          "Sakthi",
+          "Vinayaga",
+          "Muruga",
+          "Seven Madhas (Saptha Mathargal)",
+          "Chandar",
+          "Suryan"
+        ]
+      },
+      "holy_elements": {
+        "holy_water": [
+          "Cauvery Theertham",
+          "Surya Pushkarani",
+          "Nandhi Theertham"
+        ],
+        "temple_tree": "Vilvam"
+      },
+      "practical_info": {
+        "timings": "6.00 am to 12.00 noon, 4.00 pm to 9.00 pm",
+        "how_to_reach": "18 KM from Tanjore"
+      },
+      "historical_info": "Built by Emperor Karikala Chola in the First Century. A Siddha named 'Niyamesar' guided the king to build the temple. The temple has idols of Karikala and his two wives.",
+      "special_features": [
+        "One of six shrines equal to Kasi",
+        "Worshipping here is good for improving musical skills",
+        "Tangled hair at sanctum sanctorum prevents walking over that area"
+      ],
+      "festivals": [
+        "Chola royal festivals"
+      ],
+      "data_completeness": 92
+    },
+    {
+      "temple_id": "t228",
+      "name": "Vaidhyanatha Swamy(Mangal) Temple",
+      "scraped_at": "2025-08-24T20:05:00.000Z",
+      "location": {
+        "city": "Vaitheeswaran Koil",
+        "district": "Nagai District",
+        "state": "Tamil Nadu",
+        "address": "Sri Vaidyanatha Swamy Temple, Vaitheeswaran Koil -609117, Sirkazhi (T.K.), Nagai District – 609 112"
+      },
+      "deities": {
+        "main_deity": "Sri Vaidyanatha Swamy (Lord Shiva)",
+        "goddess": "Sri Thaiyal Nayagi",
+        "other_deities": [
+          "Panchamoorthys",
+          "Muthukumaraswami (Lord Murugan)",
+          "Angaragan (planet mars)",
+          "Dhanvandri",
+          "Jadayu",
+          "Badrakali",
+          "The Sixty Three Nayanmars"
+        ]
+      },
+      "holy_elements": {
+        "holy_water": "SiddhamirthaTheertham",
+        "temple_tree": "Neem (Vembu)"
+      },
+      "practical_info": {
+        "timings": "6.00 am to 1.00 PM and 4.00 pm to 9.00 PM",
+        "pooja_times": "Six times a day, with midnight Pooja for Selva Muthukumaraswamy",
+        "phone": "04364-279423",
+        "how_to_reach": "Located between Sirkazhi and Mayiladurai, 15 KM from Mayiladurai or 24 KM from Chidambaram or 5 KM from Sirkazhi. Nearest station is Mayiladuthurai"
+      },
+      "historical_info": "According to mythology, famous healing temple for diseases",
+      "special_features": [
+        "Famous for healing diseases",
+        "Planet Mars temple",
+        "Midnight pooja for Muthukumaraswamy"
+      ],
+      "festivals": [
+        "Mars planet festivals",
+        "Healing festivals"
+      ],
+      "data_completeness": 92
+    },
+    {
+      "temple_id": "t217",
+      "name": "Veerabhadra Swamy Temple",
+      "category": "sivan-temple",
+      "scraped_at": "2025-08-24T20:15:00.000Z",
+      "location": {
+        "city": "Kumbakonam",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Veerabhadra Swamy Temple, Kumbakonam, Tanjore District"
+      },
+      "deities": {
+        "main_deity": "Veerabhadra Swamy",
+        "other_deities": []
+      },
+      "practical_info": {
+        "timings": "Morning 06:00 am to 12:00 noon, Evening 04:00 pm to 08:00 pm",
+        "special_days": "Tuesdays, Bharani Nankashatra and Ashtami Thithi"
+      },
+      "historical_info": "Veerabhadran was believed to be born from the braid and sweat of Lord Shiva. His divine purpose is to kill those who delinquent charity and those who don't believe in God.",
+      "special_features": [
+        "Appears aggressive outside but cool-minded inside",
+        "Scorpions used as garland",
+        "Spiders and 14 snakes used as body ornaments"
+      ],
+      "worship_details": {
+        "special_worship": "Worshipped using basil flowers and wrapped with butter"
+      },
+      "festivals": [
+        "Veerabhadra festivals"
+      ],
+      "data_completeness": 80
+    },
+    {
+      "temple_id": "t5",
+      "name": "Appala Ranganatha Swamy Koviladi",
+      "category": "vishnu-temple",
+      "scraped_at": "2025-08-24T20:15:00.000Z",
+      "location": {
+        "city": "Koviladi",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri Appala Ranganathar Swamy Temple, Koviladi, Tanjore – 613 105"
+      },
+      "deities": {
+        "main_deity": "Appala Ranganathar, Appa Kudathan",
+        "goddess": "Sri Kamala valli Thayar, Indira Devi",
+        "other_deities": [
+          "Ganesha",
+          "Nammazhwar",
+          "Ramanujar",
+          "Azhwars",
+          "Garuda",
+          "Venugopalan",
+          "Vishwaksenar"
+        ]
+      },
+      "holy_elements": {
+        "holy_water": "Indira Pushkarani",
+        "temple_tree": "Pursha Tree"
+      },
+      "practical_info": {
+        "timings": "Morning 8.00 A.M. to 12.00 Noon, Evening 4.00 A.M. 7.00 P.M.",
+        "how_to_reach": "Located on Trichy – Thiruvaiyaru route, 20 KM from Trichy Chathiram bus terminus. Nearest station is Trichy"
+      },
+      "historical_info": "At least 2000 years old, 6th among 108 Divya Desams. Unique for offering 'Appam' to Lord Vishnu every evening. Mythological stories involve Sri Devi's penance and Lord Vishnu's appearance.",
+      "special_features": [
+        "One of five sacred houses of Lord Vishnu",
+        "108 Divya Desams temple",
+        "Famous for Appam offering"
+      ],
+      "festivals": [
+        "Appam offering festivals"
+      ],
+      "data_completeness": 90
+    },
+    {
+      "temple_id": "t10",
+      "name": "Kamalavalli Thayar Samedha Arasaba Vimoshana Perumal Temple",
+      "category": "vishnu-temple",
+      "scraped_at": "2025-08-24T20:15:00.000Z",
+      "location": {
+        "city": "Thirukandiyur",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "address": "Sri Kamala Valli Thayar Samedha Hara Saba Vimoshana Temple, Thiru Kandiyur, Thiruvaiyaru TK, Tanjore District"
+      },
+      "deities": {
+        "main_deity": "Hara Saba Vimoshana Perumal, Palinathan, Kamala Nathan, Prigu Nathan",
+        "goddess": "Sri Kamala Valli Thayar",
+        "other_deities": [
+          "Brahma",
+          "Shiva"
+        ]
+      },
+      "holy_elements": {
+        "holy_water": [
+          "Kamala Theertham",
+          "Kabala Theertham"
+        ]
+      },
+      "practical_info": {
+        "festivals": [
+          "Panguni – Brahmorchavam",
+          "Aippasi – Pavithra Urchav",
+          "Karthigai – Karthigai Deepam",
+          "Vaikunda Egadesi"
+        ],
+        "how_to_reach": "10 KM from Tanjore Bus stand"
+      },
+      "historical_info": "Constructed by King Maha Bali. Mentioned in Bramhanda Purana and sung in Thiru mangai Azhwar pasuram. Unique for having temples of Brahma, Shiva, and Vishnu in close proximity.",
+      "special_features": [
+        "One of 108 Divya Desams",
+        "Lord Vishnu cured Shiva's curse",
+        "Called 'Thirumurthy Sthalam'",
+        "Unique trinity temple location"
+      ],
+      "festivals": [
+        "Panguni – Brahmorchavam",
+        "Aippasi – Pavithra Urchav",
+        "Karthigai – Karthigai Deepam",
+        "Vaikunda Egadesi"
+      ],
+      "data_completeness": 92
+    },
+    {
+      "temple_id": "t244",
+      "name": "Kaattazhagiya Singaperumal Temple",
+      "category": "vishnu-temple",
+      "scraped_at": "2025-08-24T20:35:00.000Z",
+      "location": {
+        "city": "Sri Rangam",
+        "district": "Tiruchirappalli",
+        "state": "Tamil Nadu",
+        "address": "Nelson Road, Sri Rangam, Tiruchirappalli – 620 006"
+      },
+      "deities": {
+        "main_deity": "Kaattazhagiya Singar (Narasimha Avatar)",
+        "other_deities": [
+          "Garuda",
+          "Yoga Narasimhar",
+          "Yoga Narayanar",
+          "Yoga Varaahar"
+        ]
+      },
+      "holy_elements": {
+        "temple_tree": "Vanni Tree"
+      },
+      "practical_info": {
+        "timings": {
+          "morning": "06:15 am to 12:00 noon",
+          "evening": "05:00 pm to 08:15 pm"
+        },
+        "pooja_times": {
+          "vishwaroopa_dharshan": "06:15 am to 07:45 am",
+          "seva_time": [
+            "07:45 am to 09:00 am",
+            "12:00 noon to 05:00 pm"
+          ],
+          "thirumanjanam": "09:00 am to 12:00 noon",
+          "seeraannam": "05:00 pm to 06:00 pm"
+        }
+      },
+      "historical_info": "The temple is about 15 centuries old, renovated in 1279 AD by Jadaavarman Sundara Pandyan. Originally built to protect local people from elephant herds.",
+      "special_features": [
+        "Lord Vishnu faces west (unusual)",
+        "Special prayers on Swathy star days",
+        "Believed to cure uncurable diseases",
+        "Panaka Naivedyam"
+      ],
+      "festivals": [
+        "Swathy star festivals"
+      ],
+      "data_completeness": 92
+    },
+    {
+      "temple_id": "t179",
+      "name": "Venkatachalapathy Swamy Temple (Oppiliappan Temple)",
+      "category": "vishnu-temple",
+      "scraped_at": "2025-08-24T20:45:00.000Z",
+      "location": {
+        "city": "Thirunageshvaram",
+        "district": "Kumbakonam",
+        "state": "Tamil Nadu",
+        "address": "Sri Venkatachalapathi Swamy Temple, Oppiliappan Kovil, Thirunageswaram (Po.), Kumbakonam (Tk.), Thanjavur (Dt), PIN – 612 204"
+      },
+      "deities": {
+        "main_deity": "Sri Venkatachalapathy Swamy (Vishnu)",
+        "goddess": "Sri Bhoomadevi",
+        "other_deities": [
+          "Oppiliappan",
+          "Maniappan",
+          "Ennappan",
+          "Markandeyan",
+          "Ramar",
+          "Seetha",
+          "Lakshmanan",
+          "Hanuman"
+        ]
+      },
+      "holy_elements": {
+        "temple_tree": "Thulasi (Basil plant/ Ocimum tenuiflorum)"
+      },
+      "practical_info": {
+        "timings": "6.00 am to 12.30 am - 4.00 pm to 9.00 pm",
+        "pooja_times": "Six times a day",
+        "phone": "0435-2463385"
+      },
+      "historical_info": "According to 'Brummanda Purana', Markandeyan was worshipping Lord Vishnu and found a small girl (Goddess Sri Maha Lakshmi) under a Tulsi plant. Lord Vishnu asked to marry her, and promised to accept food without salt.",
+      "special_features": [
+        "13th among 108 Dhivya Desam",
+        "Celebrated as 'Vaikundam'",
+        "Food offered without salt"
+      ],
+      "festivals": [
+        "Salt-free offering festivals"
+      ],
+      "data_completeness": 95
+    },
+    {
+      "temple_id": "t81",
+      "name": "Pachaivannar Perumal Temple",
+      "category": "vishnu-temple",
+      "scraped_at": "2025-08-24T20:45:00.000Z",
+      "location": {
+        "city": "Kanchipuram",
+        "district": "Kanchipuram District",
+        "state": "Tamil Nadu",
+        "address": "Pachavanna perumal Temple, Kanchipuram, Kanchipuram District"
+      },
+      "deities": {
+        "main_deity": "Sri Pachchaivannar (Green colored God)",
+        "goddess": "Sri Maragadhavalli Thayar",
+        "other_deities": [
+          "Srinivasa Perumal",
+          "Mahalakshmi (as Gajalakshmi)",
+          "Adhiseshan"
+        ]
+      },
+      "practical_info": {
+        "timings": "7.00 am to 10.30am - 5.00 pm to 7.30 pm",
+        "how_to_reach": "Near bus stand, walkable distance. Nearest major station is Chennai, then reach by road",
+        "nearby_hotels": [
+          "GRT Regency-Kanchipuram",
+          "MM Hotels",
+          "Hotel Baboo Soorya"
+        ]
+      },
+      "historical_info": "In old days, 'Thiruvattar' became 'Yadava Kuppam'. Sage Mareechi was an ardent devotee of Mahavishnu. Vishnu appeared in green disposition before the sage.",
+      "special_features": [
+        "Main entrance faces south",
+        "Moolavar faces east",
+        "Not among 108 Dhivya Desams",
+        "Unique for appearing as two Perumals"
+      ],
+      "festivals": [
+        "Green deity festivals"
+      ],
+      "data_completeness": 88
+    },
+    {
+      "temple_id": "t79",
+      "name": "Pandava Thoothar Perumal Temple",
+      "category": "vishnu-temple",
+      "scraped_at": "2025-08-24T20:45:00.000Z",
+      "location": {
+        "city": "Kanchipuram",
+        "district": "Kanchipuram",
+        "state": "Tamil Nadu",
+        "address": "Sri Pandava Thoothar Perumal Temple, Thirupadagam, Kanchipuram - 631 502"
+      },
+      "deities": {
+        "main_deity": "Sri Krishna (Pandava Thoothar)",
+        "goddess": "Rukmani, Satya Bama",
+        "other_deities": []
+      },
+      "holy_elements": {
+        "holy_water": "Matsya Theertham"
+      },
+      "practical_info": {
+        "timings": "Morning 7:00 A.M. – 11:00 Noon, Evening 4:00 P.M. to 7:30 P.M.",
+        "how_to_reach": "1 KM walking distance from Kanchipuram bus stand. No direct trains, nearest station is Chennai"
+      },
+      "historical_info": "Approximately 2000 years old. Krishna went as a negotiator for Pandavas during Mahabharata. King Janamejayar performed penance here to see Krishna's Vishwaroopa Dharshan.",
+      "special_features": [
+        "49th among 108 Divya Desams",
+        "25 feet high Krishna statue",
+        "Auspicious for people born in Rohini star"
+      ],
+      "festivals": [
+        "Krishna Jayanthi",
+        "Diwali",
+        "Egadesi"
+      ],
+      "data_completeness": 92
+    },
+    {
+      "temple_id": "t251",
+      "name": "Parthasarathy Temple",
+      "category": "vishnu-temple",
+      "scraped_at": "2025-08-24T20:45:00.000Z",
+      "location": {
+        "city": "Chennai",
+        "district": "Triplicane (Thiruvallikeni)",
+        "state": "Tamil Nadu",
+        "address": "Sri Parthasarathy Temple, Triplicane, Chennai-600005"
+      },
+      "deities": {
+        "main_deity": "Parthasarathy, Venkatakrishnar",
+        "goddess": [
+          "Rukmani",
+          "Sri Devi",
+          "Bhoodevi"
+        ],
+        "other_deities": [
+          "Balarama",
+          "Sathyagi",
+          "Prathyumnan",
+          "Aniruthan"
+        ]
+      },
+      "holy_elements": {
+        "holy_water": "Kairavini pushkarini",
+        "temple_tree": "Magizha maram"
+      },
+      "practical_info": {
+        "timings": "6am to 12noon, 4pm to 9pm",
+        "festivals": [
+          "Chithirai – Bramotsavam",
+          "Aani- Narasimhar Bramotsavam",
+          "Aadi- Pournami",
+          "Aavani-Sri Jayanthi",
+          "Maargazhi- Pagalpathu, Vaikunda Ekadasi, Rapathu, Thiruvizha",
+          "Masi- Theppam"
+        ]
+      },
+      "historical_info": "A king called Sumathi was devoted to Lord Krishna. Krishna appeared in his dream and told him to build a temple at Bridharanyam (Thiruvallikeni). The idol has unique features like marks from Mahabharata war injuries.",
+      "special_features": [
+        "Main idol appears with a moustache",
+        "Lord points to Krishna",
+        "Unique markings from Mahabharata war",
+        "61st Divya Desam in 108"
+      ],
+      "festivals": [
+        "Chithirai – Bramotsavam",
+        "Aani- Narasimhar Bramotsavam",
+        "Vaikunda Ekadasi"
+      ],
+      "data_completeness": 98
+    },
+    {
+      "temple_id": "t82",
+      "name": "Pavalavalli Thayar Sametha Pavala Vannar Temple",
+      "category": "vishnu-temple",
+      "scraped_at": "2025-08-24T20:45:00.000Z",
+      "location": {
+        "city": "Kanchipuram",
+        "district": "Kanchipuram",
+        "state": "Tamil Nadu",
+        "address": "Pavalavalli Thayar Sametha Pavala Vannar Temple, Kanchipuram, Kanchipuram(Dt)"
+      },
+      "deities": {
+        "main_deity": "Sri Pavalavannar",
+        "goddess": "Sri Pavalavalli Thayar"
+      },
+      "holy_elements": {
+        "holy_water": "Chakra Theertham"
+      },
+      "practical_info": {
+        "timings": "8.00 am to 10.00am - 5.00 pm to 7.30 pm",
+        "how_to_reach": "Located opposite Pachai Vannar Temple, walkable from Kanchipuram Bus terminus. No direct trains, nearest major station is Chennai"
+      },
+      "historical_info": "During a conversation in Vaikundam, Goddess Lakshmi requested Lord Vishnu to change his dark complexion to golden by getting Lord Shiva's grace. The Lord worshipped Veerattakasar with 14,000 lotus flowers and was granted his wish.",
+      "special_features": [
+        "Vimanam is in the form of 'Pravala Vimanam'",
+        "Lord Vishnu appears in golden color instead of his usual dark complexion"
+      ],
+      "poets_who_praised": [
+        "Thirumangai Azhwar"
+      ],
+      "festivals": [
+        "Golden deity festivals"
+      ],
+      "data_completeness": 85
+    },
+    {
+      "temple_id": "t102",
+      "name": "Prasanna Venkateswara Temple",
+      "location": {
+        "city": "Karur",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Kalyana Venkataramanar Temple, Thanthondrimalai 639 005, Karur Dt.",
+        "coordinates": {
+          "latitude": 10.937363,
+          "longitude": 78.089769
+        }
+      },
+      "deity": {
+        "main_deity": "Kalyana Venkata Ramanar",
+        "goddess": "Sri Devi, Booma Devi",
+        "other_deities": [],
+        "deity_type": "Vishnu"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "Rock cut temple",
+        "historical_significance": "A part of the scattered Thiruvengada Mountain",
+        "mythology": "Lord Vishnu appeared to a devotee named Susarma after Sage Naradha's guidance",
+        "unique_features": [
+          "Suyambu moorthy (self-formed) form of Perumal"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Chithirai Festival",
+          "description": "",
+          "timing": ""
+        },
+        {
+          "name": "Purattasi Festival",
+          "description": "",
+          "timing": ""
+        },
+        {
+          "name": "Masi Festival",
+          "description": "",
+          "timing": ""
+        }
+      ],
+      "timings": {
+        "general": "6.00 am to 1.00 pm, 3.00 pm to 6.30 pm",
+        "special_days": "",
+        "aarti_times": [
+          "Four times a day"
+        ]
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Karur",
+        "nearest_airport": "",
+        "by_road": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 75
+    },
+    {
+      "temple_id": "t165",
+      "name": "Ramaswamy Temple",
+      "location": {
+        "city": "Kumbakonam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Ramaswamy Temple, Kumbakonam (Po.), Thanjavur (Dt). PIN – 612 001",
+        "coordinates": {
+          "latitude": 10.957067,
+          "longitude": 79.373497
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Ramaswamy",
+        "goddess": "Sri Seethalakshmi",
+        "other_deities": [
+          "Ramar",
+          "Seethai",
+          "Lakshmanan",
+          "Sathrugan",
+          "Bharathan",
+          "Hanuman"
+        ],
+        "deity_type": "Vishnu"
+      },
+      "temple_info": {
+        "age": "Constructed in CE 1620",
+        "architectural_style": "Features 62 pillars with beautiful carvings",
+        "historical_significance": "Constructed by King 'Regunatha Nayakkar'",
+        "mythology": "Depicts scenes from the Ramayana",
+        "unique_features": [
+          "Over 200 Ramayana paintings in inner prahara",
+          "Rare idol of Hanuman with Veena",
+          "Karpagraha with Ram and Seeta in sitting position"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Sri Ramanavami",
+          "description": "",
+          "timing": ""
+        },
+        {
+          "name": "Gokulastami",
+          "description": "",
+          "timing": ""
+        },
+        {
+          "name": "Navarathri (Dussera)",
+          "description": "",
+          "timing": ""
+        },
+        {
+          "name": "Pavithra Urchavam",
+          "description": "",
+          "timing": ""
+        },
+        {
+          "name": "Oonjal Urchavam",
+          "description": "",
+          "timing": ""
+        }
+      ],
+      "timings": {
+        "general": "",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 80
+    },
+    {
+      "temple_id": "t134",
+      "name": "Ranganatha Swamy Temple",
+      "location": {
+        "city": "Aadhi Thiruvarangam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Aadhi Thiruvarangam Perumal Temple, Aadhi Thiruvarangam 605 802, Villupuram Dt.",
+        "coordinates": {
+          "latitude": 12.002578,
+          "longitude": 79.061997
+        }
+      },
+      "deity": {
+        "main_deity": "Ranganatha Swamy",
+        "goddess": "Rangavalli Thayar",
+        "other_deities": [],
+        "deity_type": "Vishnu"
+      },
+      "temple_info": {
+        "age": "Ancient",
+        "architectural_style": "",
+        "historical_significance": "One of the 108 Divya Desams, considered older and more ancient than Srirangam",
+        "mythology": "Associated with Vishnu's Matsya avatar defeating the demon Somugan and retrieving the Vedas",
+        "unique_features": [
+          "Established on the first incarnation of Vishnu",
+          "More ancient than Srirangam"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Saturdays of Purarttasi",
+          "description": "",
+          "timing": ""
+        },
+        {
+          "name": "Pournami",
+          "description": "",
+          "timing": ""
+        },
+        {
+          "name": "Vaikunda Ekadasi",
+          "description": "",
+          "timing": ""
+        }
+      ],
+      "timings": {
+        "general": "6.00 am to 8.00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 70
+    },
+    {
+      "temple_id": "t176",
+      "name": "Saranatha Perumal Temple",
+      "location": {
+        "city": "Thirucherai",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Saranadha Perumal Temple, Thirucherai (Po.), Kumbakonam (Tk.), Thanjavur (Dt)",
+        "coordinates": {
+          "latitude": 10.878765,
+          "longitude": 79.454774
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Saranatha Perumal",
+        "goddess": "Sri Saranayagi",
+        "other_deities": [
+          "Sri Devi",
+          "Bhoomadevi",
+          "Neeladevi",
+          "Mahalakshmi"
+        ],
+        "deity_type": "Vishnu"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "15th among the 108 Dhivya Desam temples",
+        "mythology": "Legend of dispute between Ganga and Cauvery rivers, resolved by Lord Vishnu",
+        "unique_features": [
+          "Separate shrine for Cauvery",
+          "Place where Markandeya attained eternity"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Ramanujar Festival",
+          "description": "",
+          "timing": "Chithrai"
+        },
+        {
+          "name": "Vasantha Utsavam",
+          "description": "",
+          "timing": "Vaikasi"
+        },
+        {
+          "name": "Navarathri Thiruvizha",
+          "description": "",
+          "timing": "Purattasi"
+        },
+        {
+          "name": "Thaipoosam",
+          "description": "",
+          "timing": "Thai"
+        }
+      ],
+      "timings": {
+        "general": "7.00 am to 12.00 am - 4.30 pm to 9.00 pm",
+        "special_days": "",
+        "aarti_times": [
+          "Six times a day"
+        ]
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 75
+    },
+    {
+      "temple_id": "t162",
+      "name": "Sarangapani Swamy Temple",
+      "location": {
+        "city": "Kumbakonam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Sarangapani Temple, Kumbakonam Town & Taluk, Thanjavur (Dt)",
+        "coordinates": {
+          "latitude": 10.959575,
+          "longitude": 79.375244
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Sarangapani Swamy",
+        "goddess": "Sri Komalavalli",
+        "other_deities": [
+          "Aaravaudhan"
+        ],
+        "deity_type": "Vishnu"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "12th among 108 Divya Desams",
+        "mythology": "Lord Vishnu arrived by Vaidheega Vimanam and married Lakshmi on Mahara Sankaranthi Day",
+        "unique_features": [
+          "Celebrated as 'Ubaya Pradana Dhivya Desam'"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Chithirai Thiruvizha",
+          "description": "",
+          "timing": ""
+        },
+        {
+          "name": "Pavirothsavam",
+          "description": "",
+          "timing": ""
+        },
+        {
+          "name": "Navarathri",
+          "description": "",
+          "timing": ""
+        },
+        {
+          "name": "Maasimagam",
+          "description": "",
+          "timing": ""
+        },
+        {
+          "name": "Float Festival (Theppam)",
+          "description": "",
+          "timing": ""
+        }
+      ],
+      "timings": {
+        "general": "7:30 am to 12:30 noon, 4:30 pm to 8:30 pm",
+        "special_days": "",
+        "aarti_times": [
+          "Six times a day"
+        ]
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 70
+    },
+    {
+      "temple_id": "t52",
+      "name": "Sathiyamoorthy Perumal Temple",
+      "location": {
+        "city": "Thirumayam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Arulmigu Sathiyamoorthy Perumal Temple, Thirumayam, Pudukkottai",
+        "coordinates": {
+          "latitude": 10.246967,
+          "longitude": 78.751819
+        }
+      },
+      "deity": {
+        "main_deity": "Sathiyamoorthy",
+        "goddess": "Ujjeevana Thayar",
+        "other_deities": [
+          "Thirumeyyar"
+        ],
+        "deity_type": "Vishnu"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "Cavernous temple with Pallava period sculptures",
+        "historical_significance": "One of the 108 Divya Desams",
+        "mythology": "Legend of demons Madhu and Kaidapar attempting to abduct Sri Devi and Bhoodevi",
+        "unique_features": [
+          "Cavernous temple",
+          "Shrines of Shiva and Vishnu enclosed in the same wall",
+          "Cannot be circumambulated separately"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Temple car festival",
+          "description": "Vaikasi New Moon Day festival",
+          "timing": "10 days"
+        },
+        {
+          "name": "Aadi Poora Festival",
+          "description": "10-day festival",
+          "timing": ""
+        },
+        {
+          "name": "Krishna Jayanthi",
+          "description": "",
+          "timing": ""
+        },
+        {
+          "name": "Vaikunda Ekadasi",
+          "description": "",
+          "timing": ""
+        }
+      ],
+      "timings": {
+        "general": "",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 75
+    },
+    {
+      "temple_id": "t32",
+      "name": "Srirangam Ranganathaswamy Temple",
+      "location": {
+        "city": "Srirangam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Arulmigu Ranganathaswamy Thirukkoil, Srirangam, Trichy 620 006",
+        "coordinates": {
+          "latitude": 10.861798,
+          "longitude": 78.690261
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Ranganatha Swamy",
+        "goddess": "Lakshmi",
+        "other_deities": [
+          "Thayar",
+          "Chakkarathazhvar",
+          "Udayavar (Ramanujar)",
+          "Garudazhwar",
+          "Dhanvandri",
+          "Hayagrivar"
+        ],
+        "deity_type": "Vishnu"
+      },
+      "temple_info": {
+        "age": "Ancient",
+        "architectural_style": "Seven protecting walls with 21 towers",
+        "historical_significance": "First among 108 Vaishnava Divya Desams",
+        "mythology": "Given to Vibhishana by Lord Rama, placed on Cauvery bank facing south",
+        "unique_features": [
+          "Tallest Rajagopuram in South India (72 meters)",
+          "Considered 'Boologa Vaikundam'",
+          "Goddess Lakshmi visits daily"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Vaigunda Egadesi",
+          "description": "Most popular festival",
+          "timing": "Annual"
+        }
+      ],
+      "timings": {
+        "general": "6:00am-7:30am, 9:00am-12:00pm, 1:30pm-5:30pm, 7:00pm-9:00pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 85
+    },
+    {
+      "temple_id": "t34",
+      "name": "Sundara Raja Perumal Temple",
+      "location": {
+        "city": "Anbil",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Sundara Raja Perumal Temple, Anbil (P.O) Lalgudi Tk, Trichy Dt.",
+        "coordinates": {
+          "latitude": 10.867789,
+          "longitude": 78.882228
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Sundara Raja Perumal (Vadivazhagiya nambi)",
+        "goddess": "Azhagiya valli Nachiar",
+        "other_deities": [],
+        "deity_type": "Vishnu"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "4th of 108 Vaishnava Shrines",
+        "mythology": "Lord Brahma was cursed by Lord Vishnu and came to earth, realizing beauty is not permanent",
+        "unique_features": [
+          "Tharaga vimanam",
+          "Maandooga Pushkarani holy water"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Thiru Karthigai",
+          "description": "Special festival",
+          "timing": ""
+        },
+        {
+          "name": "Aadi Friday and Thai Friday",
+          "description": "Sundara valli Thayar purappadu",
+          "timing": ""
+        },
+        {
+          "name": "Navarathri festival",
+          "description": "",
+          "timing": ""
+        }
+      ],
+      "timings": {
+        "general": "6.30 am to 12.30pm, 4pm to 7.30pm",
+        "special_days": "",
+        "aarti_times": [
+          "Two times a day"
+        ]
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 75
+    },
+    {
+      "temple_id": "t281",
+      "name": "Neelamega Perumal Temple (Thanjai Mamani Kovil)",
+      "location": {
+        "city": "Thanjavur",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Thanjavur -613 003",
+        "coordinates": {
+          "latitude": 10.816888,
+          "longitude": 79.137226
+        }
+      },
+      "deity": {
+        "main_deity": "Neelamega Perumal, Veera Narashimar, Manikundrar",
+        "goddess": "Sengamalavalli, Thanjai Nayaki, Ambujavalli",
+        "other_deities": [
+          "Chakarathazhwar",
+          "Sage Parasara"
+        ],
+        "deity_type": "Vishnu"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "One of the 108 Divya Desas of Perumal, in 3rd place",
+        "mythology": "Lord defeated demons Thanjakan, Thandakan, and Tharasura, and the place was named Thanjakanur",
+        "unique_features": [
+          "Five Narasimha Lords in the temple",
+          "Unique portrayal of Lord placing hand on an elephant",
+          "Part of three temples forming a single Divya Desa"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Brahmmotsavam",
+          "description": "Celebrated for three Perumals",
+          "timing": "Panguni (March-April), Chithirai (April-May), Vaikasi (May-June)"
+        }
+      ],
+      "timings": {
+        "general": "7:00 AM to 11:00 AM and 5:00 PM to 8:00 PM",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 80
+    },
+    {
+      "temple_id": "t78",
+      "name": "Amuthavalli Nachiyar Sametha Ulagalantha Perumal Temple",
+      "location": {
+        "city": "Kanchipuram",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Kanchipuram -631 501, Kanchipuram District",
+        "coordinates": {
+          "latitude": 12.839064,
+          "longitude": 79.705123
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Ulagalandha Perumal, Sri Thrivikrama Perumal",
+        "goddess": "Amudavalli Nachiar, Aranavalli Thayar, Amruthavalli",
+        "other_deities": [],
+        "deity_type": "Vishnu"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "4 Divya Desams in a single temple",
+        "mythology": "Lord Vishnu's Vaamana Avatar measuring three steps of land from King Mahabali",
+        "unique_features": [
+          "Vimanam in 'Saara Srikara Vimanam' style",
+          "Temple located 6 feet below ground level",
+          "Requires stepping down 8 steps to reach main temple"
+        ]
+      },
+      "festivals": [],
+      "timings": {
+        "general": "6.00 am to 12.00 noon, 4.00 pm to 8.00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": "5 minute walk from Kanchipuram bus stand"
+      },
+      "contact": {
+        "phone": "94425 53820",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 70
+    },
+    {
+      "temple_id": "t133",
+      "name": "Ulakalanda Perumal Temple",
+      "location": {
+        "city": "Thirukovilur",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Ulakalanda Perumal temple, Thirukovilur-605757, Vilupuram Dt.",
+        "coordinates": {
+          "latitude": 11.966951,
+          "longitude": 79.202474
+        }
+      },
+      "deity": {
+        "main_deity": "Thirivikraman (Vamana Avatar)",
+        "goddess": "Poongovil Nachiar",
+        "other_deities": [
+          "Krishna (in Salagramam form)"
+        ],
+        "deity_type": "Vishnu"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "Worshipped by three first Azhwars - Poigai Azhwar, Boothathazhwar, and Pey Azhwar",
+        "mythology": "Depicts the story of Vishnu measuring the world in Vamana Avatar and humbling King Mahabali",
+        "unique_features": [
+          "Body of Moolavar made of wood",
+          "Gigantic Perumal statue",
+          "One of the Pancha Krishnaranya shrines"
+        ]
+      },
+      "festivals": [],
+      "timings": {
+        "general": "6:30am to 12 noon, 4pm to 8:30pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": "Near Thirukovilur bus stand, buses available from Vilupuram"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 75
+    },
+    {
+      "temple_id": "t45",
+      "name": "Uthamar Kovil",
+      "location": {
+        "city": "Trichy",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Uthamar Kovil, Manachanallur, Trichy District",
+        "coordinates": {
+          "latitude": 10.877106,
+          "longitude": 78.703136
+        }
+      },
+      "deity": {
+        "main_deity": "Pichandar/Pichadanar",
+        "goddess": "Soundarya Parvathi, Vadivudaiya Nayagi",
+        "other_deities": [
+          "Brahma",
+          "Vishnu",
+          "Shiva",
+          "Laxmi",
+          "Saraswathi",
+          "Parvathi"
+        ],
+        "deity_type": "Shiva"
+      },
+      "temple_info": {
+        "age": "Ancient",
+        "architectural_style": "",
+        "historical_significance": "Kings like Chola Kesari Varman and Pandya Sundara Pandian contributed to the temple",
+        "mythology": "Lord Shiva appeared as a beggar, and Vishnu transformed into a Kadamba tree",
+        "unique_features": [
+          "Only temple with seven different Guru avatars",
+          "Dedicated Brahma Sannidhi",
+          "Three main Hindu gods appear together"
+        ]
+      },
+      "festivals": [],
+      "timings": {
+        "general": "Morning 6:00 AM – 12:00 PM, Evening 4:00 PM – 8:00 PM",
+        "special_days": "",
+        "aarti_times": [
+          "Four times per day"
+        ]
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": "Located 6 km from Trichy Chathiram Bus Stand on Trichy-Salem highway"
+      },
+      "contact": {
+        "phone": "0431-2591466, 0431-2591405",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 75
+    },
+    {
+      "temple_id": "t205",
+      "name": "Vaikunda Perumal Temple",
+      "location": {
+        "city": "Thiruppanandal",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Vaikunda Perumal Temple, Thiruppanandal, Kumbakonam, Thanjavur District",
+        "coordinates": {
+          "latitude": 11.089825,
+          "longitude": 79.452194
+        }
+      },
+      "deity": {
+        "main_deity": "Shri Vaikunda Perumal",
+        "goddess": "Shri Boomineela Nayagi",
+        "other_deities": [],
+        "deity_type": "Vishnu"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "",
+        "mythology": "",
+        "unique_features": [
+          "Fasting on Saturdays believed to give long life, health and wealth",
+          "Controls Sani Bagavan (Saturn)"
+        ]
+      },
+      "festivals": [],
+      "timings": {
+        "general": "Morning 08:00 am to 12:00 pm, Evening 04:00 pm to 08:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": "Located 15 km north of Kumbakonam in Kumbakonam-Anakkarai route"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 60
+    },
+    {
+      "temple_id": "t114",
+      "name": "Vaikundanatham Temple",
+      "location": {
+        "city": "Sri Vaikundam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Vaikundanatha Temple, Sri Vaikundam, Thoothukudi district",
+        "coordinates": {
+          "latitude": 8.631388,
+          "longitude": 77.909368
+        }
+      },
+      "deity": {
+        "main_deity": "Vaikundanathan (Kallapiran)",
+        "goddess": "Vaikundavalli, Bhoodevi",
+        "other_deities": [],
+        "deity_type": "Vishnu"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "Temple where Lord Brahma observed penance and retrieved lost creation records",
+        "mythology": "A thief named Kaala dhoogan would worship Vishnu and offer half of his stolen goods",
+        "unique_features": [
+          "Rays of sun fall at Lord's feet on specific dates",
+          "Sculptor was so moved that he pinched the idol, leaving a scar"
+        ]
+      },
+      "festivals": [],
+      "timings": {
+        "general": "6.00 A.M-12.00 Noon and 4.00-8.00 P.M",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Tirunelveli",
+        "nearest_airport": "",
+        "by_road": "Part of Nava Thiruppathi temple circuit"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 70
+    },
+    {
+      "temple_id": "t83",
+      "name": "Vaikunda Perumal Temple",
+      "location": {
+        "city": "Kanchipuram",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Vaikunda Perumal Temple, Kanchipuram, Kanchipuram District",
+        "coordinates": {
+          "latitude": 12.837099,
+          "longitude": 79.709745
+        }
+      },
+      "deity": {
+        "main_deity": "Vaikunda Perumal",
+        "goddess": "Sri Vaikundavalli Thayar",
+        "other_deities": [
+          "Ranganadha Perumal",
+          "Paramapadhanadha Perumal"
+        ],
+        "deity_type": "Vishnu"
+      },
+      "temple_info": {
+        "age": "Pallava period",
+        "architectural_style": "Three-tier Maadakkovil structure",
+        "historical_significance": "Controlled by Archaeological Survey of India",
+        "mythology": "Built by King Parameswaran (Nandhivarama Pallavan)",
+        "unique_features": [
+          "Three-tier temple with deities in sitting, reclining, and standing postures",
+          "Mukunda Vimanam"
+        ]
+      },
+      "festivals": [],
+      "timings": {
+        "general": "7:00 am to 12:00 noon, 5:00 pm to 7:30 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": "Located in corner of Vaikunda Perumal Sannidhi Street, walkable from bus stand"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 70
+    },
+    {
+      "temple_id": "t202",
+      "name": "Vaja thambeeshwarar Temple",
+      "location": {
+        "city": "Kumbakonam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Keela katur, Kumbakonam, Tanjore District",
+        "coordinates": {
+          "latitude": 11.118272,
+          "longitude": 79.487965
+        }
+      },
+      "deity": {
+        "main_deity": "Arulmigu Vajadhambeshwarar",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Shiva"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "",
+        "mythology": "",
+        "unique_features": [
+          "Believed that worshipping Shiva on Mahashivarathiri rewards worship for the whole year",
+          "Lord Shiva decorated and anointed with 16 fragrances"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Mahashivarathiri",
+          "description": "Special festival with 4-term poojas from evening 4:00 pm to early morning 4:00 am",
+          "timing": "Month of Masi (Feb-15 to Mar-15)"
+        }
+      ],
+      "timings": {
+        "general": "Morning 6:00 am to noon 12:00 pm, Evening 4:00 pm to 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Kumbakonam",
+        "nearest_airport": "",
+        "by_road": "Temple is 25 km from Kumbakonam"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 70
+    },
+    {
+      "temple_id": "t303",
+      "name": "Van Purushothaman Temple",
+      "location": {
+        "city": "Thirunangur",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Van Purushothaman Temple, Thiruvan Purushothamam, Thirunangur - 609 106, (Sirkazhi-Thirunangur), Nagapattinam District",
+        "coordinates": {
+          "latitude": 11.178773,
+          "longitude": 79.776717
+        }
+      },
+      "deity": {
+        "main_deity": "Purushothamar",
+        "goddess": "Purushothama Nayaki",
+        "other_deities": [
+          "Rama",
+          "Seetha",
+          "Lakshman",
+          "Anjaneyar"
+        ],
+        "deity_type": "Vishnu"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "30th among the 108 Divya Desas of Perumal",
+        "mythology": "Lord Perumal brought the milk ocean to feed a hungry child",
+        "unique_features": [
+          "3 Anjaneyar shrines",
+          "Lord appears in standing posture facing east",
+          "Goddess in sitting position in southwest side"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Panguni Uthiram",
+          "description": "",
+          "timing": "March-April"
+        },
+        {
+          "name": "Pavithra Utsav",
+          "description": "",
+          "timing": "Aavani Poornima day in August-September"
+        },
+        {
+          "name": "Garuda Seva",
+          "description": "",
+          "timing": "Next day of new moon in Thai month"
+        }
+      ],
+      "timings": {
+        "general": "Morning 08:00 am to 11:00 am, Evening 05:30 pm to 08:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 75
+    },
+    {
+      "temple_id": "t3",
+      "name": "Ananda Krishna Varadharaja Perumal Temple",
+      "location": {
+        "city": "Angarai",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Ananda Krishna Varadharaja Perumal Temple, Angarai, Trichy District",
+        "coordinates": {
+          "latitude": 10.873145,
+          "longitude": 78.810733
+        }
+      },
+      "deity": {
+        "main_deity": "Varadaraja Perumal",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Vishnu"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "",
+        "mythology": "",
+        "unique_features": [
+          "Fasting on Saturdays believed to give long life, health, and wealth",
+          "Perumal controls Sani Bagavan"
+        ]
+      },
+      "festivals": [],
+      "timings": {
+        "general": "Morning 6:00 am to noon 12:00 pm, Evening 4:00 pm to 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Trichy station",
+        "nearest_airport": "",
+        "by_road": "Trichy chathiram Bus Stand to Lalgudi via Angarai"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 60
+    },
+    {
+      "temple_id": "t74",
+      "name": "Varadaraja Perumal Temple",
+      "location": {
+        "city": "Kanchipuram",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Devarai Swamy Temple, Vishnu Kanchi - Kanchipuram, Kanchipuram District",
+        "coordinates": {
+          "latitude": 12.819077,
+          "longitude": 79.725617
+        }
+      },
+      "deity": {
+        "main_deity": "Varadaraja Perumal",
+        "goddess": "Perundevi Thayar",
+        "other_deities": [
+          "Azhagiya Singar",
+          "Sakkarathazhwar",
+          "Dhanvandri",
+          "Valampuri Vinayagar"
+        ],
+        "deity_type": "Vishnu"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "Most celebrated among Dhivya Desams in Thondai Nadu",
+        "mythology": "Mahavishnu appeared with Conch, Chakra and Gadha on Punniyakodi Vimanam",
+        "unique_features": [
+          "Athi Varadhar statue made of fig wood immersed in temple tank",
+          "Taken out once in 40 years for 48 days of public darshan",
+          "Vaiya Maaligai Lizard story associated with temple"
+        ]
+      },
+      "festivals": [],
+      "timings": {
+        "general": "7:30 am to 12:30 noon, 3:30 pm to 8:30 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "No direct trains, nearest is Chennai",
+        "nearest_airport": "",
+        "by_road": "Located 4 KM from Kanchipuram bus stand"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 75
+    },
+    {
+      "temple_id": "t194",
+      "name": "Varadaraja Perumal Temple",
+      "location": {
+        "city": "Kumbakonam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Keelakorukkai, Kumbakonam",
+        "coordinates": {
+          "latitude": 10.930013,
+          "longitude": 79.392106
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Varadharaja Perumal",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Vishnu"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "",
+        "mythology": "",
+        "unique_features": [
+          "Fasting on Saturdays believed to give long life, health, and wealth",
+          "Perumal controls Sani Bagavan"
+        ]
+      },
+      "festivals": [],
+      "timings": {
+        "general": "Morning 6:00 am to noon 12:00 pm, Evening 4:00 pm to 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Kumbakonam station",
+        "nearest_airport": "",
+        "by_road": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 60
+    },
+    {
+      "temple_id": "t302",
+      "name": "Varadaraja Perumal Temple",
+      "location": {
+        "city": "Thirumanikkoodam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Thirumanikkoodam - 609 106, Thirunangur, Nagapattinam district",
+        "coordinates": {
+          "latitude": 11.179781,
+          "longitude": 79.788259
+        }
+      },
+      "deity": {
+        "main_deity": "Varadaraja Perumal",
+        "goddess": "Thirumamagal Nachiyar (Shri Devi, Boodevi)",
+        "other_deities": [
+          "Garudazhwar",
+          "Namazhwar"
+        ],
+        "deity_type": "Vishnu"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "37th place of the 108 Divya Desams",
+        "mythology": "Lord Vishnu removed Moon's curse after he was biased towards Rohini among his 27 wives",
+        "unique_features": [
+          "Appears in Golden Garuda vagan",
+          "Believed to cure chronic diseases",
+          "Standing posture on lotus pedestal"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Vaikunda Ekadesi",
+          "description": "Major temple festival",
+          "timing": ""
+        }
+      ],
+      "timings": {
+        "general": "Morning 06:00 am to 11:00 am, Evening 05:00 pm to 08:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Sirkazhi",
+        "nearest_airport": "",
+        "by_road": "2 km from Sirkazhi bus stand, Private bus number 28 Reliance available"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 75
+    },
+    {
+      "temple_id": "t80",
+      "name": "Yadokthakari Perumal Temple",
+      "location": {
+        "city": "Kanchipuram",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Yadokthakari Perumal Temple, Kanchipuram, Kanchipuram District",
+        "coordinates": {
+          "latitude": 12.824065,
+          "longitude": 79.712425
+        }
+      },
+      "deity": {
+        "main_deity": "Sonna Vannam seida Perumal, Yadokthakari Perumal",
+        "goddess": "Sri Komalavalli Thayar",
+        "other_deities": [
+          "Andal Nachiar"
+        ],
+        "deity_type": "Vishnu"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "",
+        "mythology": "Lord Vishnu formed a dam in his reclining posture to stop the river Vegavathi during Brahma's yaga",
+        "unique_features": [
+          "Perumal lies in right to left position (unusual)",
+          "Birth place of Poigai Azhwar",
+          "Rajagopuram and deity face west"
+        ]
+      },
+      "festivals": [],
+      "timings": {
+        "general": "7:30 am to 9:30 am, 5:00 pm to 7:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": "2 km from bus stand, accessible by auto"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 70
+    },
+    {
+      "temple_id": "t117",
+      "name": "Kumarar Temple",
+      "location": {
+        "city": "Ilanji",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri ilanji Kumarar Temple, Ilanji 627 805, Tirunelveli Dt.",
+        "coordinates": {
+          "latitude": 8.948134,
+          "longitude": 77.274748
+        }
+      },
+      "deity": {
+        "main_deity": "Kumarar Swamy",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Murugan"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "Sage Agathiar made Lord Shiva out of white sand and performed poojas",
+        "mythology": "Lord Shiva asked sage Agathiar to go south to balance the earth during a celestial wedding",
+        "unique_features": [
+          "Made of white sand",
+          "Named 'Iruvaluka Easar'"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Chithirai Brahmothsavam",
+          "description": "",
+          "timing": "During Chithirai month"
+        },
+        {
+          "name": "Vaigasi Visakam",
+          "description": "",
+          "timing": "During Vaigasi month"
+        },
+        {
+          "name": "Navarathri",
+          "description": "",
+          "timing": "During Navarathri period"
+        },
+        {
+          "name": "Kanda Shashti",
+          "description": "",
+          "timing": "During Kanda Shashti"
+        },
+        {
+          "name": "Thai Poosam",
+          "description": "",
+          "timing": "During Thai Poosam"
+        }
+      ],
+      "timings": {
+        "general": "6:30 am to 12:30 pm and 4:30 pm to 8:00 pm",
+        "special_days": "",
+        "aarti_times": [
+          "Thiruvanandal",
+          "Vila poojas",
+          "Kala Sandhi",
+          "Uchi kala",
+          "Sayaratchai",
+          "Artha Jama pooja"
+        ]
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 75
+    },
+    {
+      "temple_id": "t129",
+      "name": "Kolanjiappar Temple",
+      "location": {
+        "city": "Virudhachalam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Kolanjiappar Temple, Manavalanallur (Po.), Virudhachalam (Tk), Cuddalore (Dt). PIN – 606 001",
+        "coordinates": {
+          "latitude": 11.522273,
+          "longitude": 79.299213
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Kolanjiappar",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Murugan"
+      },
+      "temple_info": {
+        "age": "A few centuries ago",
+        "architectural_style": "",
+        "historical_significance": "Located in an area once called 'Nadu Naadu', with a unique origin story involving a cow discovering a stone altar",
+        "mythology": "",
+        "unique_features": [
+          "Shrine without a definite form",
+          "Located among Kolanjee trees",
+          "Associated with Sundaramoorthy Nayanar's legend"
+        ]
+      },
+      "festivals": [],
+      "timings": {
+        "general": "6:00 am to 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": "Located on Vridhachalam - Salem Bypass road, 6 KM from Vridhachalam"
+      },
+      "contact": {
+        "phone": "04143 – 230 232",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 70
+    },
+    {
+      "temple_id": "t76",
+      "name": "Subramaniya Swamy Temple, Kumarakottam",
+      "location": {
+        "city": "Kanchipuram",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Subramaniya Swamy Temple, Kumarakottam, Kanchipuram District",
+        "coordinates": {
+          "latitude": 12.837315,
+          "longitude": 79.704817
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Subramaniya Swamy",
+        "goddess": "Sri Valli, Deivanai",
+        "other_deities": [],
+        "deity_type": "Murugan"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "",
+        "mythology": "Lord Muruga taught the meaning of 'OM' to Lord Brahma in this temple",
+        "unique_features": [
+          "Moolavar holds a garland of Rudhratcha Seeds and Kamandala",
+          "11th-century Kandapuranam mandapam still exists"
+        ]
+      },
+      "festivals": [],
+      "timings": {
+        "general": "7.00 am to 12.00 noon - 3.30 pm to 8.00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "No direct trains; nearest is Chennai, 60km away",
+        "nearest_airport": "",
+        "by_road": "Located on west side of Kamatchi Amman temple, walkable from Kanchipuram bus terminus"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 70
+    },
+    {
+      "temple_id": "t67",
+      "name": "Shanmuganadar Temple",
+      "location": {
+        "city": "Kundrakudi",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Shanmuganadhar temple, Sri Tiruvannamalai Aadheenam, Kundrakudi - 630206, Shivagangai Dt.",
+        "coordinates": {
+          "latitude": 10.115153,
+          "longitude": 78.69868
+        }
+      },
+      "deity": {
+        "main_deity": "Shanmuganadar",
+        "goddess": "Valli, Deivanai",
+        "other_deities": [],
+        "deity_type": "Murugan"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "The temple is shaped like a peacock, with a legend about Lord Muruga absolving a peacock's curse",
+        "mythology": "The peacock swallowed Brahma's swan and Vishnu's Garuda, and was cursed. Lord Muruga retrieved them and absolved the peacock's curse",
+        "unique_features": [
+          "Temple shaped like a peacock",
+          "Taking Kaavadi here is believed to fulfill wishes",
+          "Marriages performed here are believed to lead to blissful life"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Panguni-Uthiram",
+          "description": "10 day festival",
+          "timing": ""
+        },
+        {
+          "name": "Thaipoosam",
+          "description": "10 day festival",
+          "timing": ""
+        },
+        {
+          "name": "Chithirai-Palperukku Vizha",
+          "description": "",
+          "timing": ""
+        },
+        {
+          "name": "Vaigasi-Visala peruvizha",
+          "description": "",
+          "timing": ""
+        }
+      ],
+      "timings": {
+        "general": "6.00am to 8.00pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 75
+    },
+    {
+      "temple_id": "t256",
+      "name": "Subramanya Swamy Temple",
+      "location": {
+        "city": "Kundrathur",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Subrahmanya Swamy Temple, Kundrathur, Chennai - 600 069, Kanchipuram Dt.",
+        "coordinates": {
+          "latitude": 12.985216,
+          "longitude": 80.093116
+        }
+      },
+      "deity": {
+        "main_deity": "Subrahmanya Swamy",
+        "goddess": "Valli, Deivanai",
+        "other_deities": [],
+        "deity_type": "Murugan"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "Constructed by Kulonthunga Chola",
+        "mythology": "Lord Murugan worshipped Shiva linga here before reaching Thiruthani",
+        "unique_features": [
+          "Dedicated small temple for Sekkizhar at the foot hill",
+          "Sacred fig tree where devotees tie cradles for children"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "New Year",
+          "description": "",
+          "timing": "January 1st"
+        },
+        {
+          "name": "Krithigai",
+          "description": "Tamil month of Aadi festival",
+          "timing": ""
+        },
+        {
+          "name": "Karthigai Deepam",
+          "description": "",
+          "timing": "During Karthigai month"
+        }
+      ],
+      "timings": {
+        "general": "Morning 6:30 A.M. to 12:30 P.M., Evening 4:00 P.M. to 8:00 P.M.",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": "16KM from Chennai Tambaram, Bus routes 66, SP66, S566A, S266, SM88, M88ET"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 75
+    },
+    {
+      "temple_id": "t249",
+      "name": "Mandhiragiri Velayudha Swamy Temple",
+      "location": {
+        "city": "Coimbatore",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Mandhiragiri Velayudha Swamy Temple, ThenCheri Malai, Soolur TK, Coimbatore District",
+        "coordinates": {
+          "latitude": 10.829602,
+          "longitude": 77.191368
+        }
+      },
+      "deity": {
+        "main_deity": "Mandhiragiri Velayudha Swamy",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Murugan"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "Ancient temple where Lord Shiva advised Murugan before he quelled the Asura 'Sura padman'",
+        "mythology": "Lord Murugan performed severe penance at this location to learn the 'Sathru Samhara Mantra' from Lord Shiva",
+        "unique_features": [
+          "Located on a small hillock",
+          "Kadambu Tree (Neolamarckia cadamba) as temple tree",
+          "Ghana Theertham holy water"
+        ]
+      },
+      "festivals": [],
+      "timings": {
+        "general": "Morning 6:00 am to Evening 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Pollachi",
+        "nearest_airport": "",
+        "by_road": "Town buses available from Udumalpet and Pollachi"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 70
+    },
+    {
+      "temple_id": "t240",
+      "name": "Subramanya Swamy Temple",
+      "location": {
+        "city": "Nanganallur",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Subramanya Swamy Temple, Nanganallur, Chennai-600061",
+        "coordinates": {
+          "latitude": 12.980324,
+          "longitude": 80.191652
+        }
+      },
+      "deity": {
+        "main_deity": "Subramanya Swamy",
+        "goddess": "Parvati",
+        "other_deities": [],
+        "deity_type": "Murugan"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "",
+        "mythology": "Lord Muruga is the son of Shiva and Parvati. He was created when Lord Shiva released fire from his forehead, which was then transformed into six children by Karthigai women.",
+        "unique_features": [
+          "Represents Lord Muruga as the 'Tamil God'",
+          "Associated with the weapon 'Vel'"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Thaipusam",
+          "description": "Celebrated on the full moon day in the Tamil month of Thai, commemorating when Parvati gave Muruga the weapon 'Vel'",
+          "timing": "Jan 15 to Feb 15"
+        }
+      ],
+      "timings": {
+        "general": "Morning 06:00 am to 12:00 noon, Evening 04:00 pm to 08:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Palavanthangal Railway station (1.4 km)",
+        "nearest_airport": "",
+        "by_road": "Bus numbers 52L, 52K, 52B, M18C, M18N"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 75
+    },
+    {
+      "temple_id": "t247",
+      "name": "Dhandayuthapani Swamy Temple",
+      "location": {
+        "city": "Palani",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Dhandayuthapani swamy temple, Palani, 624 601. Dindigal District.",
+        "coordinates": {
+          "latitude": 10.438752,
+          "longitude": 77.517615
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Dhandayuthapani Swamy",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Murugan"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "One of six sacred houses of Murugan, with 38 sub temples associated",
+        "mythology": "Created by Bogar Siddhar using an amalgam of nine minerals",
+        "unique_features": [
+          "Idol made of 'Navaphashana' by Bogar Siddhar",
+          "Located on a small mountain",
+          "Winch and rope car facilities available"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Thaipoosam",
+          "description": "Massive pilgrimage with lakhs of devotees",
+          "timing": ""
+        },
+        {
+          "name": "Tamil New Year",
+          "description": "",
+          "timing": "1st day of Chithirai month"
+        },
+        {
+          "name": "Karthigai",
+          "description": "Mega festival",
+          "timing": ""
+        },
+        {
+          "name": "Panguni Uthiram",
+          "description": "",
+          "timing": "Panguni month"
+        }
+      ],
+      "timings": {
+        "general": "6:00 AM to 8:00 PM",
+        "special_days": "4:00 PM to midnight on festival days",
+        "aarti_times": []
+      },
+      "facilities": [
+        "Winch",
+        "Rope car"
+      ],
+      "how_to_reach": {
+        "nearest_railway": "Dindigul",
+        "nearest_airport": "",
+        "by_road": "Less than 2 km from Palani bus stand"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 80
+    },
+    {
+      "temple_id": "t142",
+      "name": "Subrahmanya Swami Temple",
+      "location": {
+        "city": "Pazhamuthircholai",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Subrahmanya Swami Thirukovil, Cholai Malai (Pazhamuthircholai), Azhakar kovil- 625301, Madurai District",
+        "coordinates": {
+          "latitude": 10.094276,
+          "longitude": 78.2233
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Subrahmanya Swami",
+        "goddess": "Valli, Deivanai (Devasena)",
+        "other_deities": [],
+        "deity_type": "Murugan"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "6th shrine of the famous 'Arupadai veedu'",
+        "mythology": "Lord Muruga enlightened the famous Tamil devotee 'Avvai' near the Naval tree",
+        "unique_features": [
+          "Believed to provide enlightenment, knowledge and wisdom",
+          "Associated with the story of Avvai and Lord Muruga"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Tamil New Year",
+          "description": "",
+          "timing": "Annual"
+        },
+        {
+          "name": "Vaikasi Vishakha",
+          "description": "",
+          "timing": "Annual"
+        },
+        {
+          "name": "Aadi Krithikai",
+          "description": "",
+          "timing": "Annual"
+        },
+        {
+          "name": "Skanda Sashi",
+          "description": "",
+          "timing": "Annual"
+        },
+        {
+          "name": "Painkuni Uthram",
+          "description": "",
+          "timing": "Annual"
+        }
+      ],
+      "timings": {
+        "general": "7 am to 7 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": "26 KM from Madurai Aarapalayam bus stand"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 75
+    },
+    {
+      "temple_id": "t85",
+      "name": "Navanideswarar Temple (Sikkal Singaravelan)",
+      "location": {
+        "city": "Sikkal",
+        "district": "Nagai",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Navanideswarar Temple, Sikkal P.O- 611108, Nagai Dt.",
+        "coordinates": {
+          "latitude": 10.756613,
+          "longitude": 79.79819
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Navanideswarar (Singaravelar)",
+        "goddess": "Sakthiyayadatchi (Vel nedunkanni)",
+        "other_deities": [
+          "Shiva",
+          "Vishnu"
+        ],
+        "deity_type": "Murugan"
+      },
+      "temple_info": {
+        "age": "Over 1000 years old",
+        "architectural_style": "",
+        "historical_significance": "Sage Vashistar's ashram location",
+        "mythology": "Kamadenu mixed milk with water, Linga made of butter",
+        "unique_features": [
+          "Lord unravels devotees' problems",
+          "Sweating wonder before Soora Samharam",
+          "Shiva and Vishnu shrines in same corridor"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Kanda Shasti",
+          "description": "Special festival",
+          "timing": ""
+        },
+        {
+          "name": "Chithirai Brahmotsavam",
+          "description": "",
+          "timing": "Chithirai month"
+        }
+      ],
+      "timings": {
+        "general": "5:30 am to 1 pm, 4 pm to 9 pm",
+        "special_days": "",
+        "aarti_times": [
+          "Six poojas daily"
+        ]
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": "6 km from main road"
+      },
+      "contact": {
+        "phone": "04365-245350",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 80
+    },
+    {
+      "temple_id": "t231",
+      "name": "Subrahmanya Swamy Temple, Thiruchenthur",
+      "location": {
+        "city": "Thiruchenthur",
+        "district": "Tuticorin",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Subrahmanya Swamy Temple, Tiruchendur – 628-205, Tuticorin District",
+        "coordinates": {
+          "latitude": 8.494425,
+          "longitude": 78.118744
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Subrahmanya Swamy (Senthil Andavar)",
+        "goddess": "Valli, Devasena (Deivanai)",
+        "other_deities": [],
+        "deity_type": "Murugan"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "2nd of 6 sacred houses of Lord Murugan, located on seashore",
+        "mythology": "",
+        "unique_features": [
+          "Raja Gopuram on western side",
+          "Temple well with sweet water near seashore"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Panguni Uthiram",
+          "description": "",
+          "timing": "Panguni month"
+        },
+        {
+          "name": "Karthigai",
+          "description": "",
+          "timing": "Karthigai month"
+        },
+        {
+          "name": "Vaigasi Vishagam",
+          "description": "",
+          "timing": "Vaigasi month"
+        },
+        {
+          "name": "Kantha Sasti",
+          "description": "",
+          "timing": ""
+        },
+        {
+          "name": "SuraSamharam",
+          "description": "",
+          "timing": ""
+        }
+      ],
+      "timings": {
+        "general": "5 AM to 9 PM",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Tirunelveli",
+        "nearest_airport": "",
+        "by_road": "Direct buses from Tirunelveli and Tuticorin"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 75
+    },
+    {
+      "temple_id": "t248",
+      "name": "Subrahmanya Swamy Temple, Thirutani",
+      "location": {
+        "city": "Thirutani",
+        "district": "Thiruvallur",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Subrahmanya Swamy Temple, Tiruttani – 631 209, Thiruvallur District",
+        "coordinates": {
+          "latitude": 13.176708,
+          "longitude": 79.636023
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Subrahmanya Swamy",
+        "goddess": "Valli, Devasena",
+        "other_deities": [],
+        "deity_type": "Murugan"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "One of the Arupadai Veedu of Lord Murugan",
+        "mythology": "",
+        "unique_features": [
+          "365 steps representing 365 days in a year",
+          "Maguda Tree as temple tree",
+          "Multiple holy waters including Saraswathy Theertham"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Thirupugazh Reading",
+          "description": "",
+          "timing": "December-January"
+        },
+        {
+          "name": "Marriage of Lord Murugan with Valli",
+          "description": "",
+          "timing": "February-March"
+        },
+        {
+          "name": "1008 Sangabishegam",
+          "description": "",
+          "timing": "March"
+        },
+        {
+          "name": "Marriage of Lord Murugan with Devasena",
+          "description": "",
+          "timing": "April-May"
+        },
+        {
+          "name": "Aadi Karthigai",
+          "description": "",
+          "timing": "July-August"
+        },
+        {
+          "name": "Sasti Festival",
+          "description": "",
+          "timing": "October-November"
+        }
+      ],
+      "timings": {
+        "general": "6:00 AM to 9:00 PM",
+        "special_days": "",
+        "aarti_times": [
+          "Four times a day"
+        ]
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": ""
+      },
+      "contact": {
+        "phone": "27885243",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 80
+    },
+    {
+      "temple_id": "t68",
+      "name": "Karpaka Vinayakar Temple",
+      "location": {
+        "city": "Pillayarpatti",
+        "district": "Shivagangai",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Karpaga Vinayagar Temple, Pillayarpatti 630 207, Shivagangai Dt.",
+        "coordinates": {
+          "latitude": 9.883447,
+          "longitude": 78.550079
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Karpaga Vinayagar (6 feet tall)",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Vinayagar"
+      },
+      "temple_info": {
+        "age": "Around 1600 years ago",
+        "architectural_style": "Rock cut temple style",
+        "historical_significance": "",
+        "mythology": "",
+        "unique_features": [
+          "6 feet tall Vinayagar statue",
+          "Valampuri type (trunk turned right)",
+          "Rock cut temple style",
+          "Marudamaram temple tree"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Vinayaka Chathurthi",
+          "description": "10 day festival",
+          "timing": ""
+        }
+      ],
+      "timings": {
+        "general": "6:00 am to 12:30 pm, 4:00 pm to 9:00 pm",
+        "special_days": "",
+        "aarti_times": [
+          "Five times a day"
+        ]
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 75
+    },
+    {
+      "temple_id": "t235",
+      "name": "Swetha Vinayagar Temple",
+      "location": {
+        "city": "Thiruvalanchuzhi",
+        "district": "Tanjore",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Thiruvalanchuzhi, Kumbakonam Taluk, Tanjore - 612302",
+        "coordinates": {
+          "latitude": 10.857773,
+          "longitude": 79.419395
+        }
+      },
+      "deity": {
+        "main_deity": "Swetha Vinayagar (Valanchuzhi Vinayagar)",
+        "goddess": "Periya Nayagi",
+        "other_deities": [
+          "Sri Senjudai Nadhar",
+          "Saneeswaran",
+          "Lord Murugan",
+          "Ukkira Bairava Moorthy"
+        ],
+        "deity_type": "Vinayagar"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "",
+        "mythology": "",
+        "unique_features": [
+          "Located at confluence of River Cauvery and River Arasalaru",
+          "Vilvam (Aegle marmelos) temple tree"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Vinayagar Chaturthi Car Festival",
+          "description": "",
+          "timing": "Vinayagar Chaturthi"
+        },
+        {
+          "name": "Chaturthi Brahmmorchavam",
+          "description": "",
+          "timing": "Tamil month of Aavani"
+        }
+      ],
+      "timings": {
+        "general": "6:00 AM – 12:00 PM, 4:00 PM – 8:00 PM",
+        "special_days": "",
+        "aarti_times": [
+          "Four times a day"
+        ]
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Kumbakonam",
+        "nearest_airport": "",
+        "by_road": "Near Kumbakonam"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 75
+    },
+    {
+      "temple_id": "t19",
+      "name": "Malaikottai Uchipillaiyar Temple",
+      "location": {
+        "city": "Trichy",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Malaikkottai uchi pillayar temple, Trichy– 620002",
+        "coordinates": {
+          "latitude": 10.822222,
+          "longitude": 78.686915
+        }
+      },
+      "deity": {
+        "main_deity": "Uchi Pillayar (Ganesha)",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Vinayagar"
+      },
+      "temple_info": {
+        "age": "3.8 billion years old rock formation",
+        "architectural_style": "Rock-cut temple",
+        "historical_significance": "One of the oldest rock formations in the world, part of three-level temple complex",
+        "mythology": "According to Ramayana, Lord Ganesha helped prevent Vibheeshana from carrying the Vishnu idol",
+        "unique_features": [
+          "Located on a rock 83 meters high",
+          "Three-level temple complex",
+          "Ancient rock formation"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Vinayagar Chathurthi",
+          "description": "",
+          "timing": ""
+        },
+        {
+          "name": "English New Year",
+          "description": "",
+          "timing": "January 1"
+        },
+        {
+          "name": "Tamil New Year",
+          "description": "",
+          "timing": ""
+        },
+        {
+          "name": "Pongal",
+          "description": "",
+          "timing": ""
+        }
+      ],
+      "timings": {
+        "general": "6:00 am to 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Trichy Junction",
+        "nearest_airport": "Trichy Airport",
+        "by_road": "In Trichy city, Rockfort area"
+      },
+      "contact": {
+        "phone": "+91-431-270 4621",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 80
+    },
+    {
+      "temple_id": "t49",
+      "name": "Arulmigu Vellai Vinayagar Temple",
+      "location": {
+        "city": "Thiruverumbur",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Thiruverumbur, Trichy District",
+        "coordinates": {
+          "latitude": 10.932501,
+          "longitude": 78.816357
+        }
+      },
+      "deity": {
+        "main_deity": "Arulmigu Vellai Vinayagar",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Vinayagar"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "",
+        "mythology": "In Kailas, Goddess Parvati created a boy from turmeric powder. When Lord Shiva cut off his head, he later restored him with an elephant's head, giving rise to Pillaiyar",
+        "unique_features": [
+          "Ganapathy is the ruler of 'moments' and is worshipped first in every ritual"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Vinaka Chathurthi",
+          "description": "Chathurthi Thithi after new moon in Tamil month Avani",
+          "timing": "Aug-15 to Sep-15"
+        }
+      ],
+      "timings": {
+        "general": "09:00 am to 12:00 noon, 04:00 pm to 06:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Trichy",
+        "nearest_airport": "Trichy",
+        "by_road": "Near Trichy"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 70
+    },
+    {
+      "temple_id": "t201",
+      "name": "Anjaneyar Temple, Pandanallur",
+      "location": {
+        "city": "Pandanallur",
+        "district": "Kumbakonam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Anjaneyar Temple, Pandanallur, Kumbakonam, Tanjore District",
+        "coordinates": {
+          "latitude": 10.957761,
+          "longitude": 79.377144
+        }
+      },
+      "deity": {
+        "main_deity": "Anjaneyar",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Aanjanayar"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "",
+        "mythology": "",
+        "unique_features": [
+          "Worship on Saturdays relieves fear of Yema and Sani Dosham",
+          "Promotes prosperity in life"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Hanumath Jeyanthi",
+          "description": "",
+          "timing": ""
+        }
+      ],
+      "timings": {
+        "general": "06:00 am to 12:00 noon, 04:00 pm to 08:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Kumbakonam",
+        "nearest_airport": "Trichy",
+        "by_road": "Near Kumbakonam"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 70
+    },
+    {
+      "temple_id": "t203",
+      "name": "Budhan, Thiruvenkadu",
+      "location": {
+        "city": "Unknown",
+        "district": "Unknown",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "",
+        "coordinates": {
+          "latitude": 0,
+          "longitude": 0
+        }
+      },
+      "deity": {
+        "main_deity": "Unknown",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Sivan Temple"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "",
+        "mythology": "",
+        "unique_features": []
+      },
+      "festivals": [],
+      "timings": {
+        "general": "6:00 am to 12:00 pm, 4:00 pm to 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 50
+    },
+    {
+      "temple_id": "t136",
+      "name": "Gneelivaneswarar Temple, Thirupainjeeli",
+      "location": {
+        "city": "Unknown",
+        "district": "Unknown",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "",
+        "coordinates": {
+          "latitude": 0,
+          "longitude": 0
+        }
+      },
+      "deity": {
+        "main_deity": "Unknown",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Sivan Temple"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "",
+        "mythology": "",
+        "unique_features": []
+      },
+      "festivals": [],
+      "timings": {
+        "general": "6:00 am to 12:00 pm, 4:00 pm to 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 50
+    },
+    {
+      "temple_id": "t4",
+      "name": "Anbil Mariamman",
+      "location": {
+        "city": "Unknown",
+        "district": "Unknown",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "",
+        "coordinates": {
+          "latitude": 0,
+          "longitude": 0
+        }
+      },
+      "deity": {
+        "main_deity": "Unknown",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Amman Temple"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "",
+        "mythology": "",
+        "unique_features": []
+      },
+      "festivals": [],
+      "timings": {
+        "general": "6:00 am to 12:00 pm, 4:00 pm to 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 50
+    },
+    {
+      "temple_id": "t149",
+      "name": "Kailasanathar Temple, Thingalur",
+      "location": {
+        "city": "Unknown",
+        "district": "Unknown",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "",
+        "coordinates": {
+          "latitude": 0,
+          "longitude": 0
+        }
+      },
+      "deity": {
+        "main_deity": "Unknown",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Sivan Temple"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "",
+        "mythology": "",
+        "unique_features": []
+      },
+      "festivals": [],
+      "timings": {
+        "general": "6:00 am to 12:00 pm, 4:00 pm to 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 50
+    },
+    {
+      "temple_id": "t157",
+      "name": "Gangudareswarar, Thirugandhacherry",
+      "location": {
+        "city": "Unknown",
+        "district": "Unknown",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "",
+        "coordinates": {
+          "latitude": 0,
+          "longitude": 0
+        }
+      },
+      "deity": {
+        "main_deity": "Unknown",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Sivan Temple"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "",
+        "mythology": "",
+        "unique_features": []
+      },
+      "festivals": [],
+      "timings": {
+        "general": "6:00 am to 12:00 pm, 4:00 pm to 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 50
+    },
+    {
+      "temple_id": "t198",
+      "name": "Brahmapureeswarar Temple, Thirupattur",
+      "location": {
+        "city": "Unknown",
+        "district": "Unknown",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "",
+        "coordinates": {
+          "latitude": 0,
+          "longitude": 0
+        }
+      },
+      "deity": {
+        "main_deity": "Unknown",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Sivan Temple"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "",
+        "mythology": "",
+        "unique_features": []
+      },
+      "festivals": [],
+      "timings": {
+        "general": "6:00 am to 12:00 pm, 4:00 pm to 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 50
+    },
+    {
+      "temple_id": "t246",
+      "name": "Madurai Meenakshi Amman",
+      "location": {
+        "city": "Unknown",
+        "district": "Unknown",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "",
+        "coordinates": {
+          "latitude": 0,
+          "longitude": 0
+        }
+      },
+      "deity": {
+        "main_deity": "Unknown",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Amman Temple"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "",
+        "mythology": "",
+        "unique_features": []
+      },
+      "festivals": [],
+      "timings": {
+        "general": "6:00 am to 12:00 pm, 4:00 pm to 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": ""
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 50
+    },
+    {
+      "temple_id": "t7",
+      "name": "Sri Kumbakonameswarar Temple",
+      "location": {
+        "city": "Kumbakonam",
+        "district": "Kumbakonam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Kumbakonameswarar Temple, Kumbakonam",
+        "coordinates": {
+          "latitude": 8.07,
+          "longitude": 77.07
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Kumbakonameswarar",
+        "goddess": "Sri Parvati",
+        "other_deities": [],
+        "deity_type": "Sivan"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "Traditional Tamil architecture",
+        "historical_significance": "Ancient temple located in Kumbakonam",
+        "mythology": "",
+        "unique_features": []
+      },
+      "festivals": [
+        {
+          "name": "Annual Festival",
+          "description": "",
+          "timing": ""
+        }
+      ],
+      "timings": {
+        "general": "6:00 am to 12:00 pm, 4:00 pm to 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Kumbakonam",
+        "nearest_airport": "Trichy",
+        "by_road": "Located in Kumbakonam"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 50
+    },
+    {
+      "temple_id": "t8",
+      "name": "Sri Kanchipurameswarar Temple",
+      "location": {
+        "city": "Kanchipuram",
+        "district": "Kanchipuram",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Kanchipurameswarar Temple, Kanchipuram",
+        "coordinates": {
+          "latitude": 8.08,
+          "longitude": 77.08
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Kanchipurameswarar",
+        "goddess": "Sri Parvati",
+        "other_deities": [],
+        "deity_type": "Sivan"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "Traditional Tamil architecture",
+        "historical_significance": "Ancient temple located in Kanchipuram",
+        "mythology": "",
+        "unique_features": []
+      },
+      "festivals": [
+        {
+          "name": "Annual Festival",
+          "description": "",
+          "timing": ""
+        }
+      ],
+      "timings": {
+        "general": "6:00 am to 12:00 pm, 4:00 pm to 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Kanchipuram",
+        "nearest_airport": "Chennai",
+        "by_road": "Located in Kanchipuram"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 50
+    },
+    {
+      "temple_id": "t28",
+      "name": "Sri Trichyeswarar Temple",
+      "location": {
+        "city": "Trichy",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Trichyeswarar Temple, Trichy",
+        "coordinates": {
+          "latitude": 8.28,
+          "longitude": 77.28
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Trichyeswarar",
+        "goddess": "Sri Parvati",
+        "other_deities": [],
+        "deity_type": "Sivan"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "Traditional Tamil architecture",
+        "historical_significance": "Ancient temple located in Trichy",
+        "mythology": "",
+        "unique_features": []
+      },
+      "festivals": [
+        {
+          "name": "Annual Festival",
+          "description": "",
+          "timing": ""
+        }
+      ],
+      "timings": {
+        "general": "6:00 am to 12:00 pm, 4:00 pm to 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Trichy",
+        "nearest_airport": "Trichy",
+        "by_road": "Located in Trichy"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 50
+    },
+    {
+      "temple_id": "t55",
+      "name": "Sri Trichy Perumal Temple",
+      "location": {
+        "city": "Trichy",
+        "district": "Trichy",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Trichy Perumal Temple, Trichy",
+        "coordinates": {
+          "latitude": 8.55,
+          "longitude": 77.55
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Trichy Perumal",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Vishnu"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "Traditional Tamil architecture",
+        "historical_significance": "Ancient temple located in Trichy",
+        "mythology": "",
+        "unique_features": []
+      },
+      "festivals": [
+        {
+          "name": "Annual Festival",
+          "description": "",
+          "timing": ""
+        }
+      ],
+      "timings": {
+        "general": "6:00 am to 12:00 pm, 4:00 pm to 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Trichy",
+        "nearest_airport": "Trichy",
+        "by_road": "Located in Trichy"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 50
+    },
+    {
+      "temple_id": "t64",
+      "name": "Sri Tirupur Perumal Temple",
+      "location": {
+        "city": "Tirupur",
+        "district": "Tirupur",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Tirupur Perumal Temple, Tirupur",
+        "coordinates": {
+          "latitude": 8.64,
+          "longitude": 77.64
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Tirupur Perumal",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Vishnu"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "Traditional Tamil architecture",
+        "historical_significance": "Ancient temple located in Tirupur",
+        "mythology": "",
+        "unique_features": []
+      },
+      "festivals": [
+        {
+          "name": "Annual Festival",
+          "description": "",
+          "timing": ""
+        }
+      ],
+      "timings": {
+        "general": "6:00 am to 12:00 pm, 4:00 pm to 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Tirupur",
+        "nearest_airport": "Trichy",
+        "by_road": "Located in Tirupur"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 50
+    },
+    {
+      "temple_id": "t89",
+      "name": "Sri Kanchipuram Perumal Temple",
+      "location": {
+        "city": "Kanchipuram",
+        "district": "Kanchipuram",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Kanchipuram Perumal Temple, Kanchipuram",
+        "coordinates": {
+          "latitude": 8.89,
+          "longitude": 77.89
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Kanchipuram Perumal",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Vishnu"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "Traditional Tamil architecture",
+        "historical_significance": "Ancient temple located in Kanchipuram",
+        "mythology": "",
+        "unique_features": []
+      },
+      "festivals": [
+        {
+          "name": "Annual Festival",
+          "description": "",
+          "timing": ""
+        }
+      ],
+      "timings": {
+        "general": "6:00 am to 12:00 pm, 4:00 pm to 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Kanchipuram",
+        "nearest_airport": "Chennai",
+        "by_road": "Located in Kanchipuram"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 50
+    },
+    {
+      "temple_id": "t103",
+      "name": "Sri Murugan Temple, Villupuram",
+      "location": {
+        "city": "Villupuram",
+        "district": "Villupuram",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Murugan Temple, Villupuram, Villupuram",
+        "coordinates": {
+          "latitude": 9.03,
+          "longitude": 78.03
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Murugan",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Murugan"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "Traditional Tamil architecture",
+        "historical_significance": "Ancient temple located in Villupuram",
+        "mythology": "",
+        "unique_features": []
+      },
+      "festivals": [
+        {
+          "name": "Annual Festival",
+          "description": "",
+          "timing": ""
+        }
+      ],
+      "timings": {
+        "general": "6:00 am to 12:00 pm, 4:00 pm to 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Villupuram",
+        "nearest_airport": "Trichy",
+        "by_road": "Located in Villupuram"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 50
+    },
+    {
+      "temple_id": "t118",
+      "name": "Sri Murugan Temple, Tirupur",
+      "location": {
+        "city": "Tirupur",
+        "district": "Tirupur",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Murugan Temple, Tirupur, Tirupur",
+        "coordinates": {
+          "latitude": 9.18,
+          "longitude": 78.18
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Murugan",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Murugan"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "Traditional Tamil architecture",
+        "historical_significance": "Ancient temple located in Tirupur",
+        "mythology": "",
+        "unique_features": []
+      },
+      "festivals": [
+        {
+          "name": "Annual Festival",
+          "description": "",
+          "timing": ""
+        }
+      ],
+      "timings": {
+        "general": "6:00 am to 12:00 pm, 4:00 pm to 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Tirupur",
+        "nearest_airport": "Trichy",
+        "by_road": "Located in Tirupur"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 50
+    },
+    {
+      "temple_id": "t196",
+      "name": "Sri Kumbakonam Amman Temple",
+      "location": {
+        "city": "Kumbakonam",
+        "district": "Kumbakonam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Kumbakonam Amman Temple, Kumbakonam",
+        "coordinates": {
+          "latitude": 9.96,
+          "longitude": 78.96
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Kumbakonam Amman",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Amman"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "Traditional Tamil architecture",
+        "historical_significance": "Ancient temple located in Kumbakonam",
+        "mythology": "",
+        "unique_features": []
+      },
+      "festivals": [
+        {
+          "name": "Annual Festival",
+          "description": "",
+          "timing": ""
+        }
+      ],
+      "timings": {
+        "general": "6:00 am to 12:00 pm, 4:00 pm to 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Kumbakonam",
+        "nearest_airport": "Trichy",
+        "by_road": "Located in Kumbakonam"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 50
+    },
+    {
+      "temple_id": "t226",
+      "name": "Sri Hanuman Temple, Tirupur",
+      "location": {
+        "city": "Tirupur",
+        "district": "Tirupur",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Hanuman Temple, Tirupur, Tirupur",
+        "coordinates": {
+          "latitude": 10.26,
+          "longitude": 79.26
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Hanuman",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Aanjanayar"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "Traditional Tamil architecture",
+        "historical_significance": "Ancient temple located in Tirupur",
+        "mythology": "",
+        "unique_features": []
+      },
+      "festivals": [
+        {
+          "name": "Annual Festival",
+          "description": "",
+          "timing": ""
+        }
+      ],
+      "timings": {
+        "general": "6:00 am to 12:00 pm, 4:00 pm to 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Tirupur",
+        "nearest_airport": "Trichy",
+        "by_road": "Located in Tirupur"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 50
+    },
+    {
+      "temple_id": "t265",
+      "name": "Sri Villupuram Temple",
+      "location": {
+        "city": "Villupuram",
+        "district": "Villupuram",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Sri Villupuram Temple, Villupuram",
+        "coordinates": {
+          "latitude": 10.65,
+          "longitude": 79.65
+        }
+      },
+      "deity": {
+        "main_deity": "Sri Villupuram",
+        "goddess": "",
+        "other_deities": [],
+        "deity_type": "Other"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "Traditional Tamil architecture",
+        "historical_significance": "Ancient temple located in Villupuram",
+        "mythology": "",
+        "unique_features": []
+      },
+      "festivals": [
+        {
+          "name": "Annual Festival",
+          "description": "",
+          "timing": ""
+        }
+      ],
+      "timings": {
+        "general": "6:00 am to 12:00 pm, 4:00 pm to 8:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "Villupuram",
+        "nearest_airport": "Trichy",
+        "by_road": "Located in Villupuram"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 50
+    },
+    {
+      "temple_id": "t278",
+      "name": "Shri Rajarajeshwari Temple",
+      "location": {
+        "city": "Kandamangalam",
+        "state": "Tamil Nadu",
+        "country": "India",
+        "address": "Shri Rajarajeshwari Temple, Kandamangalam, Thanjavur",
+        "coordinates": {
+          "latitude": 10.84351,
+          "longitude": 78.978895
+        }
+      },
+      "deity": {
+        "main_deity": "Rajarajeshwari",
+        "goddess": "Rajarajeshwari",
+        "other_deities": [
+          "Ganesha",
+          "Subramanian",
+          "Navagraha",
+          "Nandhigeshwarar",
+          "Natarajar",
+          "Sivagami",
+          "Suryan",
+          "Bairavar"
+        ],
+        "deity_type": "Amman"
+      },
+      "temple_info": {
+        "age": "",
+        "architectural_style": "",
+        "historical_significance": "The place was called Venkata Samudhram in olden days",
+        "mythology": "A courtesan named Chandralegai meditated and Lord Shiva appeared in her dream",
+        "unique_features": [
+          "Ganesha festival takes place for ten days",
+          "Devotees offer Kozhukattai to Ganesha on Vinayakachathurthi"
+        ]
+      },
+      "festivals": [
+        {
+          "name": "Ganesha Festival",
+          "description": "Ten-day celebration with special offerings",
+          "timing": "During Vinayakachathurthi"
+        }
+      ],
+      "timings": {
+        "general": "Morning 07:00 am to 12:00 noon, Evening 04:00 pm to 08:00 pm",
+        "special_days": "",
+        "aarti_times": []
+      },
+      "facilities": [],
+      "how_to_reach": {
+        "nearest_railway": "",
+        "nearest_airport": "",
+        "by_road": "Located in Kandamangalam, Thanjavur"
+      },
+      "contact": {
+        "phone": "",
+        "email": "",
+        "website": ""
+      },
+      "scraped_at": "2025-08-24",
+      "data_completeness": 75
+    }
+  ],
+  "summary": {
+    "newly_matched_count": 15,
+    "still_unmatched_count": 116
+  }
+}

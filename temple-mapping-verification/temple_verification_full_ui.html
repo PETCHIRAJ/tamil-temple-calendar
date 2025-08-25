@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Verification - Full HRCE Data Comparison</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-value {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        .stat-label {
+            font-size: 12px;
+            opacity: 0.9;
+            text-transform: uppercase;
+        }
+        
+        .controls {
+            padding: 20px 30px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #dee2e6;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .filter-group {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+        
+        .filter-group label {
+            font-weight: 500;
+            color: #495057;
+        }
+        
+        select, input[type="text"] {
+            padding: 8px 12px;
+            border: 1px solid #ced4da;
+            border-radius: 6px;
+            font-size: 14px;
+            background: white;
+        }
+        
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 6px;
+            font-size: 14px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+        
+        .btn-success {
+            background: #28a745;
+            color: white;
+        }
+        
+        .verification-container {
+            padding: 30px;
+            max-height: 75vh;
+            overflow-y: auto;
+        }
+        
+        .temple-card {
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+        
+        .temple-card:hover {
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .temple-header {
+            background: #f8f9fa;
+            padding: 15px 20px;
+            border-bottom: 1px solid #dee2e6;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .temple-name {
+            font-size: 18px;
+            font-weight: 600;
+            color: #212529;
+        }
+        
+        .temple-id {
+            font-size: 12px;
+            color: #6c757d;
+            font-family: monospace;
+            background: #e9ecef;
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+        
+        .temple-body {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+            max-height: 900px;
+            overflow-y: auto;
+        }
+        
+        .source-section, .match-section {
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            max-height: 850px;
+            overflow-y: auto;
+        }
+        
+        .section-title {
+            font-size: 14px;
+            font-weight: 600;
+            color: #495057;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            position: sticky;
+            top: 0;
+            background: #f8f9fa;
+            padding-bottom: 10px;
+            z-index: 10;
+        }
+        
+        .info-row {
+            display: flex;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+        
+        .info-label {
+            font-weight: 500;
+            color: #6c757d;
+            min-width: 120px;
+            flex-shrink: 0;
+        }
+        
+        .info-value {
+            color: #212529;
+            flex: 1;
+            word-break: break-word;
+        }
+        
+        .match-options {
+            background: white;
+            border: 1px solid #dee2e6;
+            border-radius: 6px;
+            padding: 15px;
+            margin-top: 15px;
+        }
+        
+        .match-option {
+            display: flex;
+            align-items: flex-start;
+            padding: 15px;
+            margin-bottom: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            border: 2px solid transparent;
+        }
+        
+        .match-option:hover {
+            background: #e9ecef;
+            border-color: #dee2e6;
+        }
+        
+        .match-option.selected {
+            background: #e7f3ff;
+            border-color: #007bff;
+        }
+        
+        .match-radio {
+            margin-right: 15px;
+            margin-top: 2px;
+        }
+        
+        .match-details {
+            flex: 1;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .match-subsection {
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #dee2e6;
+        }
+        
+        .match-subsection:last-child {
+            border-bottom: none;
+        }
+        
+        .match-subsection-title {
+            font-weight: 600;
+            color: #495057;
+            margin-bottom: 8px;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+        
+        .confidence-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+        
+        .confidence-high {
+            background: #d4edda;
+            color: #155724;
+        }
+        
+        .confidence-medium {
+            background: #fff3cd;
+            color: #856404;
+        }
+        
+        .confidence-low {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        
+        .action-buttons {
+            padding: 15px 20px;
+            background: #f8f9fa;
+            border-top: 1px solid #dee2e6;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .progress-info {
+            font-size: 14px;
+            color: #6c757d;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #6c757d;
+        }
+        
+        .no-match-option {
+            background: #fff5f5;
+            border: 2px solid #ffcccc;
+        }
+        
+        .verification-notes {
+            width: 100%;
+            padding: 8px;
+            margin-top: 10px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            font-size: 14px;
+            resize: vertical;
+            min-height: 60px;
+        }
+        
+        .toast {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: #28a745;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 6px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            display: none;
+            animation: slideIn 0.3s ease;
+        }
+        
+        @keyframes slideIn {
+            from {
+                transform: translateX(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        
+        details {
+            border-top: 1px solid #e9ecef;
+            padding-top: 10px;
+            margin-top: 10px;
+        }
+        
+        details:first-of-type {
+            border-top: none;
+            padding-top: 0;
+            margin-top: 0;
+        }
+        
+        details summary {
+            user-select: none;
+            transition: color 0.2s ease;
+            font-weight: 600;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        
+        details summary:hover {
+            color: #667eea;
+        }
+        
+        details[open] summary {
+            color: #764ba2;
+            margin-bottom: 10px;
+        }
+        
+        .data-group {
+            background: white;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        
+        .empty-value {
+            color: #adb5bd;
+            font-style: italic;
+        }
+        
+        .highlight-match {
+            background: #ffeaa7;
+            padding: 1px 3px;
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏛️ Temple Verification with Complete HRCE Data</h1>
+            <p>Comprehensive comparison of FindMyTemple and HRCE Database with ALL available fields</p>
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-value" id="totalCount">0</div>
+                    <div class="stat-label">Total Temples</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="verifiedCount">0</div>
+                    <div class="stat-label">Verified</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-value" id="pendingCount">0</div>
+                    <div class="stat-label">Pending</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <div class="filter-group">
+                <label>Filter by District:</label>
+                <select id="districtFilter">
+                    <option value="">All Districts</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Confidence Level:</label>
+                <select id="confidenceFilter">
+                    <option value="">All Levels</option>
+                    <option value="high">High (80%+)</option>
+                    <option value="medium">Medium (60-79%)</option>
+                    <option value="low">Low (<60%)</option>
+                    <option value="none">No Match</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Status:</label>
+                <select id="statusFilter">
+                    <option value="">All</option>
+                    <option value="pending">Pending</option>
+                    <option value="verified">Verified</option>
+                </select>
+            </div>
+            <div>
+                <button class="btn-secondary" onclick="showSavedSessions()">📂 Load Session</button>
+                <button class="btn-success" onclick="saveProgress()">💾 Quick Save</button>
+                <button class="btn-primary" onclick="exportResults()">📥 Export Results</button>
+            </div>
+        </div>
+        
+        <div class="verification-container" id="verificationContainer">
+            <div class="loading">Loading temple data...</div>
+        </div>
+        
+        <div class="action-buttons">
+            <div class="progress-info">
+                <span id="progressText">Loading...</span>
+            </div>
+            <div>
+                <button class="btn-secondary" onclick="previousTemple()">← Previous</button>
+                <button class="btn-primary" onclick="nextTemple()">Next →</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="toast" id="toast"></div>
+    
+    <script>
+        let templesToVerify = [];
+        let currentIndex = 0;
+        let verificationResults = {};
+        let districts = new Set();
+        
+        // Load temple data on page load
+        async function loadTempleData() {
+            try {
+                // Load the enhanced file with full HRCE data
+                const response = await fetch('temple_verification_full.json');
+                const data = await response.json();
+                templesToVerify = data.temples_to_verify;
+                
+                // Extract unique districts
+                templesToVerify.forEach(temple => {
+                    const district = temple.findmytemple_data.location.district;
+                    if (district) districts.add(district);
+                });
+                
+                // Populate district filter
+                const districtFilter = document.getElementById('districtFilter');
+                Array.from(districts).sort().forEach(district => {
+                    const option = document.createElement('option');
+                    option.value = district;
+                    option.textContent = district;
+                    districtFilter.appendChild(option);
+                });
+                
+                // Load any saved progress
+                loadSavedProgress();
+                
+                // Update stats
+                updateStats();
+                
+                // Display first temple
+                displayTemples();
+                
+            } catch (error) {
+                console.error('Error loading temple data:', error);
+                showToast('Error loading temple data', 'error');
+            }
+        }
+        
+        function displayTemples() {
+            const container = document.getElementById('verificationContainer');
+            container.innerHTML = '';
+            
+            // Apply filters
+            let filteredTemples = filterTemples();
+            
+            if (filteredTemples.length === 0) {
+                container.innerHTML = '<div class="loading">No temples match the selected filters</div>';
+                return;
+            }
+            
+            // Display temples
+            filteredTemples.forEach((temple, index) => {
+                const card = createTempleCard(temple, index);
+                container.appendChild(card);
+            });
+            
+            updateProgressText();
+        }
+        
+        function formatValue(value) {
+            if (value === null || value === undefined || value === '') {
+                return '<span class="empty-value">Not available</span>';
+            }
+            return value;
+        }
+        
+        function createTempleCard(temple, index) {
+            const card = document.createElement('div');
+            card.className = 'temple-card';
+            card.id = `temple-${temple.findmytemple_id}`;
+            
+            const isVerified = verificationResults[temple.findmytemple_id] !== undefined;
+            
+            card.innerHTML = `
+                <div class="temple-header">
+                    <div>
+                        <span class="temple-name">${temple.findmytemple_data.name}</span>
+                        <span class="temple-id">${temple.findmytemple_id}</span>
+                    </div>
+                    <div>
+                        ${isVerified ? '<span style="color: #28a745;">✓ Verified</span>' : '<span style="color: #ffc107;">⏳ Pending</span>'}
+                    </div>
+                </div>
+                <div class="temple-body">
+                    <div class="source-section">
+                        <div class="section-title">📚 FindMyTemple Data (Scraped)</div>
+                        
+                        <details open>
+                            <summary>📍 Location Information</summary>
+                            <div class="data-group">
+                                <div class="info-row">
+                                    <span class="info-label">District:</span>
+                                    <span class="info-value">${formatValue(temple.findmytemple_data.location.district)}</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-label">City:</span>
+                                    <span class="info-value">${formatValue(temple.findmytemple_data.location.city)}</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-label">Taluk:</span>
+                                    <span class="info-value">${formatValue(temple.findmytemple_data.location.taluk)}</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-label">Village:</span>
+                                    <span class="info-value">${formatValue(temple.findmytemple_data.location.village)}</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-label">Pincode:</span>
+                                    <span class="info-value">${formatValue(temple.findmytemple_data.location.pincode)}</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-label">Coordinates:</span>
+                                    <span class="info-value">${temple.findmytemple_data.location.latitude ? 
+                                        `${temple.findmytemple_data.location.latitude}, ${temple.findmytemple_data.location.longitude}` : 
+                                        '<span class="empty-value">Not available</span>'}</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-label">Full Address:</span>
+                                    <span class="info-value" style="font-size: 12px;">${formatValue(temple.findmytemple_data.location.full_address)}</span>
+                                </div>
+                            </div>
+                        </details>
+                        
+                        <details open>
+                            <summary>🕉️ Deities</summary>
+                            <div class="data-group">
+                                <div class="info-row">
+                                    <span class="info-label">Main Deity:</span>
+                                    <span class="info-value">${formatValue(temple.findmytemple_data.deities.main_deity)}</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-label">Goddess:</span>
+                                    <span class="info-value">${formatValue(temple.findmytemple_data.deities.goddess)}</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-label">Other Deities:</span>
+                                    <span class="info-value" style="font-size: 12px;">${
+                                        temple.findmytemple_data.deities.other_deities?.length ? 
+                                        temple.findmytemple_data.deities.other_deities.join(', ') : 
+                                        '<span class="empty-value">Not available</span>'
+                                    }</span>
+                                </div>
+                            </div>
+                        </details>
+                        
+                        <details open>
+                            <summary>💧 Holy Elements</summary>
+                            <div class="data-group">
+                                <div class="info-row">
+                                    <span class="info-label">Holy Water:</span>
+                                    <span class="info-value">${formatValue(temple.findmytemple_data.holy_elements.holy_water)}</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-label">Sacred Tree:</span>
+                                    <span class="info-value">${formatValue(temple.findmytemple_data.holy_elements.sacred_tree)}</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-label">Temple Tank:</span>
+                                    <span class="info-value">${formatValue(temple.findmytemple_data.holy_elements.temple_tank)}</span>
+                                </div>
+                            </div>
+                        </details>
+                        
+                        <details open>
+                            <summary>⏰ Worship Information</summary>
+                            <div class="data-group">
+                                <div class="info-row">
+                                    <span class="info-label">Timings:</span>
+                                    <span class="info-value" style="font-size: 12px;">${formatValue(temple.findmytemple_data.worship_info.timings)}</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-label">Pooja Schedule:</span>
+                                    <span class="info-value" style="font-size: 12px;">${formatValue(temple.findmytemple_data.worship_info.pooja_schedule)}</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-label">Phone:</span>
+                                    <span class="info-value">${formatValue(temple.findmytemple_data.worship_info.phone)}</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-label">How to Reach:</span>
+                                    <span class="info-value" style="font-size: 12px;">${formatValue(temple.findmytemple_data.worship_info.how_to_reach)}</span>
+                                </div>
+                            </div>
+                        </details>
+                        
+                        <details open>
+                            <summary>🎉 Cultural Information</summary>
+                            <div class="data-group">
+                                <div class="info-row">
+                                    <span class="info-label">Festivals:</span>
+                                    <span class="info-value" style="font-size: 12px;">${formatValue(temple.findmytemple_data.cultural_info.festivals)}</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-label">History:</span>
+                                    <span class="info-value" style="font-size: 12px;">${formatValue(temple.findmytemple_data.cultural_info.historical_info)}</span>
+                                </div>
+                                <div class="info-row">
+                                    <span class="info-label">Special Features:</span>
+                                    <span class="info-value" style="font-size: 12px;">${formatValue(temple.findmytemple_data.cultural_info.special_features)}</span>
+                                </div>
+                            </div>
+                        </details>
+                        
+                        <div class="info-row" style="margin-top: 15px;">
+                            <span class="info-label">Data Completeness:</span>
+                            <span class="info-value" style="font-weight: 600; color: ${
+                                parseFloat(temple.findmytemple_data.data_completeness) >= 80 ? '#28a745' : 
+                                parseFloat(temple.findmytemple_data.data_completeness) >= 60 ? '#ffc107' : '#dc3545'
+                            };">${temple.findmytemple_data.data_completeness}</span>
+                        </div>
+                    </div>
+                    
+                    <div class="match-section">
+                        <div class="section-title">🏛️ HRCE Database Matches (Complete Data)</div>
+                        <div class="match-options">
+                            ${temple.potential_db_matches.map((match, matchIndex) => `
+                                <div class="match-option ${verificationResults[temple.findmytemple_id]?.db_id === match.temple_id ? 'selected' : ''}" 
+                                     onclick="selectMatch('${temple.findmytemple_id}', '${match.temple_id}', ${matchIndex})">
+                                    <input type="radio" 
+                                           class="match-radio" 
+                                           name="match-${temple.findmytemple_id}" 
+                                           value="${match.temple_id}"
+                                           ${verificationResults[temple.findmytemple_id]?.db_id === match.temple_id ? 'checked' : ''}>
+                                    <div class="match-details">
+                                        <div class="match-subsection">
+                                            <div class="match-subsection-title">🆔 Identification</div>
+                                            <div style="font-weight: 600; font-size: 16px; margin-bottom: 5px;">${match.name}</div>
+                                            ${match.tamil_name ? `<div style="font-size: 14px; color: #6c757d;">Tamil: ${match.tamil_name}</div>` : ''}
+                                            <div style="font-size: 12px; color: #6c757d;">ID: ${match.temple_id}</div>
+                                        </div>
+                                        
+                                        <div class="match-subsection">
+                                            <div class="match-subsection-title">📍 Location</div>
+                                            <div style="font-size: 13px;">
+                                                <strong>District:</strong> ${formatValue(match.district)}<br>
+                                                <strong>Location:</strong> ${formatValue(match.location)}<br>
+                                                <strong>Address:</strong> ${formatValue(match.address)}<br>
+                                                <strong>Pincode:</strong> ${formatValue(match.pincode)}<br>
+                                                ${match.latitude ? `<strong>Coordinates:</strong> ${match.latitude}, ${match.longitude}<br>` : ''}
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="match-subsection">
+                                            <div class="match-subsection-title">🏛️ Temple Classification</div>
+                                            <div style="font-size: 13px;">
+                                                <strong>Income Category:</strong> ${formatValue(match.income_category)}<br>
+                                                <strong>Temple Type:</strong> ${formatValue(match.temple_type)}<br>
+                                                <strong>Deity Type:</strong> ${formatValue(match.deity_type)}
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="match-subsection">
+                                            <div class="match-subsection-title">🕉️ Deities & Worship</div>
+                                            <div style="font-size: 13px;">
+                                                <strong>Main Deity:</strong> ${formatValue(match.main_deity)}<br>
+                                                ${match.other_deities ? `<strong>Other Deities:</strong> ${match.other_deities}<br>` : ''}
+                                                ${match.timings ? `<strong>Timings:</strong> ${match.timings}<br>` : ''}
+                                            </div>
+                                        </div>
+                                        
+                                        ${match.festivals ? `
+                                        <div class="match-subsection">
+                                            <div class="match-subsection-title">🎉 Festivals</div>
+                                            <div style="font-size: 13px;">${match.festivals}</div>
+                                        </div>` : ''}
+                                        
+                                        ${(match.established_year || match.historical_period || match.architectural_style) ? `
+                                        <div class="match-subsection">
+                                            <div class="match-subsection-title">📜 Historical Information</div>
+                                            <div style="font-size: 13px;">
+                                                ${match.established_year ? `<strong>Established:</strong> ${match.established_year}<br>` : ''}
+                                                ${match.historical_period ? `<strong>Period:</strong> ${match.historical_period}<br>` : ''}
+                                                ${match.architectural_style ? `<strong>Architecture:</strong> ${match.architectural_style}` : ''}
+                                            </div>
+                                        </div>` : ''}
+                                        
+                                        ${(match.phone || match.wikipedia_url || match.hrce_url || match.official_url) ? `
+                                        <div class="match-subsection">
+                                            <div class="match-subsection-title">📞 Contact & References</div>
+                                            <div style="font-size: 13px;">
+                                                ${match.phone ? `<strong>Phone:</strong> ${match.phone}<br>` : ''}
+                                                ${match.wikipedia_url ? `<a href="${match.wikipedia_url}" target="_blank">Wikipedia</a> | ` : ''}
+                                                ${match.hrce_url ? `<a href="${match.hrce_url}" target="_blank">HRCE</a> | ` : ''}
+                                                ${match.official_url ? `<a href="${match.official_url}" target="_blank">Official</a>` : ''}
+                                            </div>
+                                        </div>` : ''}
+                                        
+                                        <div style="margin-top: 10px;">
+                                            <span class="confidence-badge ${getConfidenceClass(match.overall_score)}">
+                                                ${match.overall_score.toFixed(1)}% match
+                                            </span>
+                                            <span style="font-size: 11px; color: #6c757d; margin-left: 10px;">
+                                                Name: ${match.name_similarity.toFixed(0)}% | 
+                                                Deity: ${match.deity_similarity.toFixed(0)}% | 
+                                                City: ${match.city_match ? '✓' : '✗'}
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            `).join('')}
+                            
+                            <div class="match-option no-match-option ${verificationResults[temple.findmytemple_id]?.db_id === 'new_temple' ? 'selected' : ''}" 
+                                 onclick="selectMatch('${temple.findmytemple_id}', 'new_temple', -1)">
+                                <input type="radio" 
+                                       class="match-radio" 
+                                       name="match-${temple.findmytemple_id}" 
+                                       value="new_temple"
+                                       ${verificationResults[temple.findmytemple_id]?.db_id === 'new_temple' ? 'checked' : ''}>
+                                <div class="match-details">
+                                    <div style="font-weight: 600; color: #dc3545;">❌ No Match - New Temple</div>
+                                    <div style="font-size: 12px; color: #6c757d;">Mark as new temple to be added to database</div>
+                                </div>
+                            </div>
+                        </div>
+                        <textarea class="verification-notes" 
+                                  id="notes-${temple.findmytemple_id}"
+                                  placeholder="Add verification notes (optional)"
+                                  onblur="saveNotes('${temple.findmytemple_id}')">${verificationResults[temple.findmytemple_id]?.notes || ''}</textarea>
+                    </div>
+                </div>
+            `;
+            
+            return card;
+        }
+        
+        function getConfidenceClass(score) {
+            if (score >= 80) return 'confidence-high';
+            if (score >= 60) return 'confidence-medium';
+            return 'confidence-low';
+        }
+        
+        function selectMatch(templeId, dbId, matchIndex) {
+            const temple = templesToVerify.find(t => t.findmytemple_id === templeId);
+            
+            verificationResults[templeId] = {
+                findmytemple_id: templeId,
+                findmytemple_name: temple.findmytemple_data.name,
+                db_id: dbId,
+                db_name: dbId === 'new_temple' ? 'NEW_TEMPLE' : temple.potential_db_matches[matchIndex]?.name,
+                confidence: dbId === 'new_temple' ? 0 : temple.potential_db_matches[matchIndex]?.overall_score,
+                verified_at: new Date().toISOString(),
+                notes: document.getElementById(`notes-${templeId}`)?.value || ''
+            };
+            
+            // Update UI
+            const options = document.querySelectorAll(`#temple-${templeId} .match-option`);
+            options.forEach(opt => opt.classList.remove('selected'));
+            
+            if (matchIndex >= 0) {
+                options[matchIndex].classList.add('selected');
+            } else if (dbId === 'new_temple') {
+                document.querySelector(`#temple-${templeId} .no-match-option`).classList.add('selected');
+            }
+            
+            // Update stats
+            updateStats();
+            saveToLocalStorage();
+            showToast('Selection saved!', 'success');
+        }
+        
+        function saveNotes(templeId) {
+            const notes = document.getElementById(`notes-${templeId}`).value;
+            if (verificationResults[templeId]) {
+                verificationResults[templeId].notes = notes;
+                saveToLocalStorage();
+            }
+        }
+        
+        function filterTemples() {
+            const districtFilter = document.getElementById('districtFilter').value;
+            const confidenceFilter = document.getElementById('confidenceFilter').value;
+            const statusFilter = document.getElementById('statusFilter').value;
+            
+            return templesToVerify.filter(temple => {
+                // District filter
+                if (districtFilter && temple.findmytemple_data.location.district !== districtFilter) {
+                    return false;
+                }
+                
+                // Confidence filter
+                if (confidenceFilter) {
+                    const bestMatch = temple.potential_db_matches[0];
+                    const score = bestMatch ? bestMatch.overall_score : 0;
+                    
+                    if (confidenceFilter === 'high' && score < 80) return false;
+                    if (confidenceFilter === 'medium' && (score < 60 || score >= 80)) return false;
+                    if (confidenceFilter === 'low' && (score >= 60 || score === 0)) return false;
+                    if (confidenceFilter === 'none' && score > 0) return false;
+                }
+                
+                // Status filter
+                if (statusFilter) {
+                    const isVerified = verificationResults[temple.findmytemple_id] !== undefined;
+                    if (statusFilter === 'verified' && !isVerified) return false;
+                    if (statusFilter === 'pending' && isVerified) return false;
+                }
+                
+                return true;
+            });
+        }
+        
+        function updateStats() {
+            document.getElementById('totalCount').textContent = templesToVerify.length;
+            document.getElementById('verifiedCount').textContent = Object.keys(verificationResults).length;
+            document.getElementById('pendingCount').textContent = templesToVerify.length - Object.keys(verificationResults).length;
+        }
+        
+        function updateProgressText() {
+            const verified = Object.keys(verificationResults).length;
+            const total = templesToVerify.length;
+            const percentage = total > 0 ? Math.round((verified / total) * 100) : 0;
+            document.getElementById('progressText').textContent = 
+                `Progress: ${verified} of ${total} temples verified (${percentage}%)`;
+        }
+        
+        function saveToLocalStorage() {
+            localStorage.setItem('templeVerificationResultsFull', JSON.stringify(verificationResults));
+            localStorage.setItem('templeVerificationSavedAtFull', new Date().toISOString());
+        }
+        
+        function loadSavedProgress() {
+            const saved = localStorage.getItem('templeVerificationResultsFull');
+            if (saved) {
+                verificationResults = JSON.parse(saved);
+                const savedAt = localStorage.getItem('templeVerificationSavedAtFull');
+                showToast(`Loaded saved progress from ${new Date(savedAt).toLocaleString()}`, 'success');
+            }
+        }
+        
+        function saveProgress() {
+            saveToLocalStorage();
+            showToast('Progress saved successfully!', 'success');
+        }
+        
+        function showSavedSessions() {
+            // Create a modal to show saved sessions
+            const modal = document.createElement('div');
+            modal.style.cssText = `
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background: white;
+                padding: 30px;
+                border-radius: 12px;
+                box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+                z-index: 1000;
+                max-width: 500px;
+                width: 90%;
+            `;
+            
+            modal.innerHTML = `
+                <h3 style="margin-bottom: 20px;">📂 Load Saved Session</h3>
+                <div style="margin-bottom: 20px;">
+                    <p style="color: #6c757d; margin-bottom: 15px;">
+                        You can load a previously saved session from:
+                    </p>
+                    <div style="background: #f8f9fa; padding: 15px; border-radius: 6px; margin-bottom: 15px;">
+                        <strong>1. Browser Storage</strong><br>
+                        <small>Automatically saved after each selection</small><br>
+                        <button class="btn-primary" style="margin-top: 10px;" onclick="loadFromLocalStorage(); closeModal();">
+                            Load from Browser
+                        </button>
+                    </div>
+                    <div style="background: #f8f9fa; padding: 15px; border-radius: 6px;">
+                        <strong>2. JSON File</strong><br>
+                        <small>Load from an exported JSON file</small><br>
+                        <input type="file" id="fileInput" accept=".json" style="margin-top: 10px;">
+                    </div>
+                </div>
+                <button class="btn-secondary" onclick="closeModal()">Cancel</button>
+            `;
+            
+            document.body.appendChild(modal);
+            
+            // Add backdrop
+            const backdrop = document.createElement('div');
+            backdrop.id = 'modalBackdrop';
+            backdrop.style.cssText = `
+                position: fixed;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background: rgba(0,0,0,0.5);
+                z-index: 999;
+            `;
+            backdrop.onclick = closeModal;
+            document.body.appendChild(backdrop);
+            
+            // File input handler
+            document.getElementById('fileInput').addEventListener('change', (e) => {
+                const file = e.target.files[0];
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = (event) => {
+                        try {
+                            const data = JSON.parse(event.target.result);
+                            if (data.verifications) {
+                                verificationResults = data.verifications;
+                            } else if (data.metadata && data.verifications) {
+                                verificationResults = data.verifications;
+                            } else {
+                                // Direct verification results format
+                                verificationResults = data;
+                            }
+                            displayTemples();
+                            updateStats();
+                            showToast('Session loaded successfully!', 'success');
+                            closeModal();
+                        } catch (error) {
+                            showToast('Error loading file: ' + error.message, 'error');
+                        }
+                    };
+                    reader.readAsText(file);
+                }
+            });
+        }
+        
+        function closeModal() {
+            const modal = document.querySelector('[style*="position: fixed"][style*="transform: translate"]');
+            const backdrop = document.getElementById('modalBackdrop');
+            if (modal) modal.remove();
+            if (backdrop) backdrop.remove();
+        }
+        
+        function loadFromLocalStorage() {
+            loadSavedProgress();
+            displayTemples();
+            updateStats();
+        }
+        
+        function exportResults() {
+            const exportData = {
+                metadata: {
+                    exported_at: new Date().toISOString(),
+                    total_temples: templesToVerify.length,
+                    verified_count: Object.keys(verificationResults).length,
+                    pending_count: templesToVerify.length - Object.keys(verificationResults).length,
+                    data_version: 'full_hrce_data'
+                },
+                verifications: verificationResults
+            };
+            
+            const blob = new Blob([JSON.stringify(exportData, null, 2)], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = `temple_verifications_full_${new Date().toISOString().split('T')[0]}.json`;
+            a.click();
+            URL.revokeObjectURL(url);
+            
+            showToast('Results exported successfully!', 'success');
+        }
+        
+        function previousTemple() {
+            const container = document.getElementById('verificationContainer');
+            container.scrollBy({ top: -window.innerHeight * 0.7, behavior: 'smooth' });
+        }
+        
+        function nextTemple() {
+            const container = document.getElementById('verificationContainer');
+            container.scrollBy({ top: window.innerHeight * 0.7, behavior: 'smooth' });
+        }
+        
+        function showToast(message, type = 'success') {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.style.background = type === 'error' ? '#dc3545' : '#28a745';
+            toast.style.display = 'block';
+            
+            setTimeout(() => {
+                toast.style.display = 'none';
+            }, 3000);
+        }
+        
+        // Event listeners for filters
+        document.getElementById('districtFilter').addEventListener('change', displayTemples);
+        document.getElementById('confidenceFilter').addEventListener('change', displayTemples);
+        document.getElementById('statusFilter').addEventListener('change', displayTemples);
+        
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') previousTemple();
+            if (e.key === 'ArrowRight') nextTemple();
+            if (e.ctrlKey && e.key === 's') {
+                e.preventDefault();
+                saveProgress();
+            }
+        });
+        
+        // Load data on page load
+        window.addEventListener('load', loadTempleData);
+    </script>
+</body>
+</html>

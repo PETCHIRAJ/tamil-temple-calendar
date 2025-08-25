@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """
-Create Verification File for Temple Matching
-=============================================
-Generates a JSON file with scraped temples and their potential DB matches
-for manual or LLM verification.
+Enhanced Verification File with Complete HRCE Database Fields
+==============================================================
+Pulls ALL data from HRCE database for comprehensive comparison
 """
 
 import json
@@ -47,8 +46,8 @@ def normalize_district(district):
     clean = district.lower().strip()
     return district_map.get(clean, clean)
 
-def get_potential_matches(scraped_temple, conn, limit=5):
-    """Get top potential matches from database"""
+def get_potential_matches_full(scraped_temple, conn, limit=5):
+    """Get top potential matches with ALL database fields"""
     name = scraped_temple.get('name', '')
     location = scraped_temple.get('location', {})
     
@@ -70,9 +69,33 @@ def get_potential_matches(scraped_temple, conn, limit=5):
         main_deity = deities.get('main_deity', '')
         goddess = deities.get('goddess', '')
     
-    # Query database for potential matches
+    # Query ALL available fields from database for potential matches
     query = """
-    SELECT temple_id, name, district, location, address, main_deity, latitude, longitude
+    SELECT 
+        temple_id,
+        name,
+        tamil_name,
+        district,
+        location,
+        address,
+        pincode,
+        income_category,
+        temple_type,
+        deity_type,
+        latitude,
+        longitude,
+        phone,
+        established_year,
+        historical_period,
+        architectural_style,
+        main_deity,
+        other_deities,
+        festivals,
+        timings,
+        raw_data,
+        wikipedia_url,
+        hrce_url,
+        official_url
     FROM temples
     WHERE 1=1
     """
@@ -104,33 +127,69 @@ def get_potential_matches(scraped_temple, conn, limit=5):
         if main_deity and db_temple.get('main_deity'):
             deity_sim = calculate_similarity(main_deity, db_temple['main_deity'])
         
-        # Overall score
-        score = name_sim * 0.6
+        # Overall score (no goddess field in DB)
+        score = name_sim * 0.5
         if city_match:
             score += 20
         if deity_sim > 50:
-            score += deity_sim * 0.2
+            score += deity_sim * 0.3
         
-        matches.append({
+        # Create comprehensive match object with ALL available database fields
+        match_data = {
+            # Core identification
             'temple_id': db_temple['temple_id'],
             'name': db_temple['name'],
+            'tamil_name': db_temple.get('tamil_name', ''),
+            
+            # Location details
             'district': db_temple['district'],
             'location': db_temple.get('location', ''),
             'address': db_temple.get('address', ''),
+            'pincode': db_temple.get('pincode', ''),
+            'latitude': db_temple.get('latitude'),
+            'longitude': db_temple.get('longitude'),
+            
+            # Temple classification
+            'income_category': db_temple.get('income_category', ''),
+            'temple_type': db_temple.get('temple_type', ''),
+            'deity_type': db_temple.get('deity_type', ''),
+            
+            # Historical information
+            'established_year': db_temple.get('established_year'),
+            'historical_period': db_temple.get('historical_period', ''),
+            'architectural_style': db_temple.get('architectural_style', ''),
+            
+            # Deities and worship
             'main_deity': db_temple.get('main_deity', ''),
+            'other_deities': db_temple.get('other_deities', ''),
+            'festivals': db_temple.get('festivals', ''),
+            'timings': db_temple.get('timings', ''),
+            
+            # Contact and references
+            'phone': db_temple.get('phone', ''),
+            'wikipedia_url': db_temple.get('wikipedia_url', ''),
+            'hrce_url': db_temple.get('hrce_url', ''),
+            'official_url': db_temple.get('official_url', ''),
+            
+            # Raw data (may contain additional info)
+            'raw_data': db_temple.get('raw_data', ''),
+            
+            # Similarity scores
             'name_similarity': round(name_sim, 1),
             'deity_similarity': round(deity_sim, 1),
             'city_match': city_match,
             'overall_score': round(score, 1)
-        })
+        }
+        
+        matches.append(match_data)
     
     # Sort by score and return top matches
     matches.sort(key=lambda x: x['overall_score'], reverse=True)
     return matches[:limit]
 
 def main():
-    """Generate verification file"""
-    print("🔍 Creating Temple Verification File...")
+    """Generate enhanced verification file with complete HRCE data"""
+    print("🔍 Creating Enhanced Temple Verification File with Full HRCE Data...")
     print("=" * 60)
     
     # Load scraped data
@@ -141,16 +200,24 @@ def main():
     conn = sqlite3.connect('../database/temples.db')
     conn.row_factory = sqlite3.Row
     
+    # First, let's check what columns we have in the database
+    cursor = conn.execute("PRAGMA table_info(temples)")
+    columns = cursor.fetchall()
+    print("\n📊 Available HRCE Database Columns:")
+    for col in columns:
+        print(f"  - {col['name']} ({col['type']})")
+    
     verification_data = {
         'metadata': {
-            'purpose': 'Manual or LLM verification of temple matches',
+            'purpose': 'Enhanced verification with complete HRCE database fields',
             'total_temples': len(scraped_data['temples_scraped']),
-            'instructions': 'Review each temple and its potential matches. Select the correct match or mark as new temple.',
+            'hrce_fields_included': [col['name'] for col in columns],
+            'instructions': 'Review each temple with FULL data from both sources',
             'verification_guidelines': [
                 'Score > 80: Likely correct match',
                 'Score 60-80: Possible match, verify details',
                 'Score < 60: Probably different temple',
-                'Consider name variations, location, and deity',
+                'Compare ALL fields: deities, location, festivals, holy elements',
                 'Mark as "new_temple" if no good match exists'
             ]
         },
@@ -290,7 +357,7 @@ def main():
                 },
                 'data_completeness': temple.get('data_completeness', 0)
             },
-            'potential_db_matches': get_potential_matches(temple, conn),
+            'potential_db_matches': get_potential_matches_full(temple, conn),
             'verification_status': 'pending',
             'verified_match': None,
             'verification_notes': ''
@@ -301,43 +368,14 @@ def main():
         if i % 50 == 0:
             print(f"Processed {i}/{len(scraped_data['temples_scraped'])} temples...")
     
-    # Save verification file
-    with open('temple_verification_manual.json', 'w', encoding='utf-8') as f:
+    # Save enhanced verification file
+    with open('temple_verification_full.json', 'w', encoding='utf-8') as f:
         json.dump(verification_data, f, indent=2, ensure_ascii=False)
-    
-    # Create a simplified CSV version for easier review
-    import csv
-    with open('temple_verification_simple.csv', 'w', newline='', encoding='utf-8') as f:
-        writer = csv.writer(f)
-        writer.writerow([
-            'FindMyTemple_ID', 'Temple_Name', 'District', 'City', 'Taluk', 'Pincode', 'Main_Deity',
-            'Best_Match_ID', 'Best_Match_Name', 'Match_Score', 'Match_District'
-        ])
-        
-        for temple in verification_data['temples_to_verify']:
-            fmt_data = temple['findmytemple_data']
-            location = fmt_data.get('location', {})
-            best_match = temple['potential_db_matches'][0] if temple['potential_db_matches'] else {}
-            
-            writer.writerow([
-                temple['findmytemple_id'],
-                fmt_data['name'],
-                location.get('district', ''),
-                location.get('city', ''),
-                location.get('taluk', ''),
-                location.get('pincode', ''),
-                fmt_data.get('deities', {}).get('main_deity', ''),
-                best_match.get('temple_id', ''),
-                best_match.get('name', ''),
-                best_match.get('overall_score', 0),
-                best_match.get('district', '')
-            ])
     
     conn.close()
     
-    print("\n✅ Verification files created:")
-    print("  - temple_verification_manual.json (full details)")
-    print("  - temple_verification_simple.csv (quick review)")
+    print("\n✅ Enhanced verification file created: temple_verification_full.json")
+    print("📊 This file includes ALL fields from HRCE database for comprehensive comparison")
     
     # Statistics
     high_confidence = sum(1 for t in verification_data['temples_to_verify'] 
