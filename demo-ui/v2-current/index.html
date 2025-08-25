@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>தமிழ் கோயில் வழிகாட்டி | Tamil Temple Guide</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Splash Screen -->
+    <div id="splash-screen" class="screen active">
+        <div class="splash-content">
+            <div class="temple-icon">🏛️</div>
+            <h1 class="app-title">தமிழ் கோயில் வழிகாட்டி</h1>
+            <h2 class="app-subtitle">Tamil Temple Guide</h2>
+            <div class="loading-dots">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Home Screen -->
+    <div id="home-screen" class="screen">
+        <header class="app-header">
+            <h1>கோயில் தேடல் | Temple Search</h1>
+        </header>
+        
+        <main class="home-content">
+            <div class="search-container">
+                <input type="text" id="search-input" class="search-bar" placeholder="கோயிலின் பெயர் | Temple Name">
+                <button id="search-btn" class="search-button">🔍</button>
+            </div>
+
+            <div class="quick-filters">
+                <button class="filter-chip" data-deity="Shiva">சிவன் | Shiva</button>
+                <button class="filter-chip" data-deity="Vishnu">விஷ்ணு | Vishnu</button>
+                <button class="filter-chip" data-deity="Murugan">முருகன் | Murugan</button>
+                <button class="filter-chip" data-deity="Devi">அம்மன் | Devi</button>
+                <button class="filter-chip" data-deity="nearby">அருகில் | Nearby</button>
+            </div>
+
+            <div class="action-buttons">
+                <button id="filter-btn" class="btn btn--primary">வடிகட்டி | Filter</button>
+                <button id="nearby-btn" class="btn btn--secondary">அருகிலுள்ள கோயில்கள் | Nearby Temples</button>
+            </div>
+
+            <section class="popular-temples">
+                <h3>பிரபலமான கோயில்கள் | Popular Temples</h3>
+                <div id="popular-temples-grid" class="temples-grid">
+                    <!-- Popular temples will be loaded here -->
+                </div>
+            </section>
+        </main>
+
+        <nav class="bottom-nav">
+            <button class="nav-btn active" data-screen="home">
+                <span class="nav-icon">🏠</span>
+                <span class="nav-label">முகப்பு | Home</span>
+            </button>
+            <button class="nav-btn" data-screen="search">
+                <span class="nav-icon">🔍</span>
+                <span class="nav-label">தேடல் | Search</span>
+            </button>
+            <button class="nav-btn" data-screen="nearby">
+                <span class="nav-icon">📍</span>
+                <span class="nav-label">அருகில் | Nearby</span>
+            </button>
+            <button class="nav-btn" data-screen="favorites">
+                <span class="nav-icon">❤️</span>
+                <span class="nav-label">பிடித்தவை | Favorites</span>
+            </button>
+        </nav>
+    </div>
+
+    <!-- Filter Screen -->
+    <div id="filter-screen" class="screen">
+        <header class="app-header">
+            <button id="filter-back-btn" class="back-btn">←</button>
+            <h1>வடிகட்டி | Filter</h1>
+        </header>
+
+        <main class="filter-content">
+            <div class="filter-section">
+                <label class="form-label">மாவட்டம் | District</label>
+                <select id="district-filter" class="form-control">
+                    <option value="">அனைத்து மாவட்டங்கள் | All Districts</option>
+                    <option value="Thanjavur">தஞ்சாவூர் | Thanjavur</option>
+                    <option value="Tiruchirappalli">திருச்சிராப்பள்ளி | Tiruchirappalli</option>
+                    <option value="Dindigul">திண்டுக்கல் | Dindigul</option>
+                    <option value="Madurai">மதுரை | Madurai</option>
+                    <option value="Chennai">சென்னை | Chennai</option>
+                </select>
+            </div>
+
+            <div class="filter-section">
+                <label class="form-label">தெய்வம் | Deity Type</label>
+                <div class="deity-chips">
+                    <button class="deity-chip" data-deity="Shiva">சிவன் | Shiva</button>
+                    <button class="deity-chip" data-deity="Vishnu">விஷ்ணு | Vishnu</button>
+                    <button class="deity-chip" data-deity="Murugan">முருகன் | Murugan</button>
+                    <button class="deity-chip" data-deity="Devi">அம்மன் | Devi</button>
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <label class="form-label">தூரம் | Distance: <span id="distance-value">25</span> km</label>
+                <input type="range" id="distance-slider" class="distance-slider" min="0" max="50" value="25">
+            </div>
+
+            <div class="filter-section">
+                <label class="form-label">வரலாற்றுக் காலம் | Historical Period</label>
+                <select id="period-filter" class="form-control">
+                    <option value="">அனைத்து காலங்கள் | All Periods</option>
+                    <option value="Ancient">பண்டைய காலம் | Ancient</option>
+                    <option value="Chola Period">சோழர் காலம் | Chola Period</option>
+                    <option value="Pandyan Period">பாண்டியர் காலம் | Pandyan Period</option>
+                    <option value="Contemporary">நவீன காலம் | Contemporary</option>
+                </select>
+            </div>
+
+            <div class="filter-actions">
+                <button id="apply-filter-btn" class="btn btn--primary btn--full-width">பயன்படுத்து | Apply</button>
+                <button id="clear-filter-btn" class="btn btn--secondary btn--full-width">அழி | Clear</button>
+            </div>
+        </main>
+    </div>
+
+    <!-- Search Results Screen -->
+    <div id="results-screen" class="screen">
+        <header class="app-header">
+            <button id="results-back-btn" class="back-btn">←</button>
+            <h1 id="results-title">தேடல் முடிவுகள் | Search Results</h1>
+        </header>
+
+        <main class="results-content">
+            <div id="results-count" class="results-count"></div>
+            <div id="results-list" class="results-list">
+                <!-- Search results will be loaded here -->
+            </div>
+        </main>
+    </div>
+
+    <!-- Temple Details Screen -->
+    <div id="details-screen" class="screen">
+        <header class="app-header">
+            <button id="details-back-btn" class="back-btn">←</button>
+            <h1 id="temple-name">கோயில் விவரங்கள் | Temple Details</h1>
+        </header>
+
+        <main class="details-content">
+            <div class="temple-header">
+                <h2 id="temple-tamil-name" class="temple-title-tamil"></h2>
+                <h3 id="temple-english-name" class="temple-title-english"></h3>
+                <p id="temple-location" class="temple-location"></p>
+            </div>
+
+            <div class="temple-tabs">
+                <button class="tab-btn active" data-tab="info">தகவல் | Info</button>
+                <button class="tab-btn" data-tab="timings">நேரம் | Timings</button>
+                <button class="tab-btn" data-tab="festivals">திருவிழா | Festivals</button>
+                <button class="tab-btn" data-tab="history">வரலாறு | History</button>
+            </div>
+
+            <div class="tab-content">
+                <div id="info-tab" class="tab-panel active">
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <span class="info-label">முக்கிய தெய்வம் | Main Deity:</span>
+                            <span id="main-deity" class="info-value"></span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">அம்மன் | Goddess:</span>
+                            <span id="goddess" class="info-value"></span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">தொலைபேசி | Phone:</span>
+                            <span id="temple-phone" class="info-value"></span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">மாவட்டம் | District:</span>
+                            <span id="temple-district" class="info-value"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="timings-tab" class="tab-panel">
+                    <div class="timings-info">
+                        <h4>கோயில் நேரம் | Temple Timings</h4>
+                        <p id="temple-timings" class="timings-text"></p>
+                    </div>
+                </div>
+
+                <div id="festivals-tab" class="tab-panel">
+                    <div class="festivals-info">
+                        <h4>முக்கிய திருவிழாக்கள் | Major Festivals</h4>
+                        <ul id="festivals-list" class="festivals-list"></ul>
+                    </div>
+                </div>
+
+                <div id="history-tab" class="tab-panel">
+                    <div class="history-info">
+                        <div class="info-item">
+                            <span class="info-label">கட்டடக்கலை | Architecture:</span>
+                            <span id="architecture" class="info-value"></span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">வரலாற்றுக் காலம் | Period:</span>
+                            <span id="historical-period" class="info-value"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="action-buttons-details">
+                <button id="call-btn" class="btn btn--primary">📞 அழை | Call</button>
+                <button id="directions-btn" class="btn btn--secondary">🗺️ வழி | Directions</button>
+                <button id="share-btn" class="btn btn--secondary">📤 பகிர் | Share</button>
+                <button id="favorite-btn" class="btn btn--secondary">❤️ <span id="favorite-text">சேர் | Add</span></button>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
