@@ -1,0 +1,46 @@
+{
+  "temple_id": "TN_Rameswaram_Ramanathaswamy_Templ",
+  "temple_name_tamil": "இராமநாதசுவாமி கோவில்",
+  "temple_name_english": "Ramanathaswamy Temple",
+  "alternative_names": [],
+  "coordinates": {
+    "latitude": null,
+    "longitude": null,
+    "confidence": "low",
+    "source": null
+  },
+  "location": {
+    "district": null,
+    "taluk": null,
+    "city_village": "Rameswaram",
+    "pincode": null,
+    "state": "Tamil Nadu"
+  },
+  "deity_info": {
+    "primary_deity_tamil": null,
+    "primary_deity_english": null,
+    "temple_category": "shiva"
+  },
+  "religious_significance": {
+    "temple_group": null,
+    "significance": null
+  },
+  "timings": {
+    "morning": "6:00 AM - 12:00 PM",
+    "evening": "4:00 PM - 8:00 PM"
+  },
+  "festivals": [],
+  "contact_info": {},
+  "sources": [],
+  "confidence_score": 0.0,
+  "needs_verification": [
+    "coordinates",
+    "deity_details",
+    "district"
+  ],
+  "extraction_metadata": {
+    "extracted_date": "2025-08-28T22:34:35.995754",
+    "extraction_method": "scripted",
+    "version": "1.0"
+  }
+}

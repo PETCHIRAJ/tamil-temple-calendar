@@ -1,0 +1,1571 @@
+{
+  "temples": [
+    {
+      "temple_id": "TN_Madurai_Meenakshi_Amman_Temp",
+      "temple_name_tamil": "மீனாட்சி அம்மன் கோவில்",
+      "temple_name_english": "Meenakshi Amman Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Madurai",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "amman"
+      },
+      "religious_significance": {
+        "temple_group": null,
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:33.796533",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Thanjavur_Brihadeeswarar_Templ",
+      "temple_name_tamil": "பெரிய கோவில் கோவில்",
+      "temple_name_english": "Brihadeeswarar Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Thanjavur",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "shiva"
+      },
+      "religious_significance": {
+        "temple_group": null,
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:34.849033",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Rameswaram_Ramanathaswamy_Templ",
+      "temple_name_tamil": "இராமநாதசுவாமி கோவில்",
+      "temple_name_english": "Ramanathaswamy Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Rameswaram",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "shiva"
+      },
+      "religious_significance": {
+        "temple_group": null,
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:35.995754",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Chennai_Kapaleeshwarar_Templ",
+      "temple_name_tamil": "கபாலீஸ்வரர் கோவில்",
+      "temple_name_english": "Kapaleeshwarar Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Chennai",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "shiva"
+      },
+      "religious_significance": {
+        "temple_group": null,
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:37.064313",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Srirangam_Sri_Ranganathaswamy_",
+      "temple_name_tamil": "Sri ரங்கநாதசுவாமி கோவில்",
+      "temple_name_english": "Sri Ranganathaswamy Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Srirangam",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "vishnu"
+      },
+      "religious_significance": {
+        "temple_group": null,
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:38.127344",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Chidambaram_Nataraja_Temple",
+      "temple_name_tamil": "நடராஜர் கோவில்",
+      "temple_name_english": "Nataraja Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Chidambaram",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "shiva"
+      },
+      "religious_significance": {
+        "temple_group": null,
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:39.188025",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Tiruvannamalai_Arunachaleswarar_Tem",
+      "temple_name_tamil": "அருணாச்சலேஸ்வரர் கோவில்",
+      "temple_name_english": "Arunachaleswarar Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Tiruvannamalai",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "shiva"
+      },
+      "religious_significance": {
+        "temple_group": null,
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:40.257649",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Thiruvanaikaval_Jambukeswarar_Temple",
+      "temple_name_tamil": "Jambukeswarar கோவில்",
+      "temple_name_english": "Jambukeswarar Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Thiruvanaikaval",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "shiva"
+      },
+      "religious_significance": {
+        "temple_group": null,
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:41.326670",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Kanchipuram_Ekambareswarar_Templ",
+      "temple_name_tamil": "Ekambareswarar கோவில்",
+      "temple_name_english": "Ekambareswarar Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Kanchipuram",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "shiva"
+      },
+      "religious_significance": {
+        "temple_group": null,
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:42.398887",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Kanchipuram_Varadharaja_Perumal_",
+      "temple_name_tamil": "Varadharaja Perumal கோவில்",
+      "temple_name_english": "Varadharaja Perumal Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Kanchipuram",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "vishnu"
+      },
+      "religious_significance": {
+        "temple_group": null,
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:43.461824",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Palani_Palani_Murugan_Templ",
+      "temple_name_tamil": "பழனி முருகன் கோவில்",
+      "temple_name_english": "Palani Murugan Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Palani",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "murugan"
+      },
+      "religious_significance": {
+        "temple_group": "Arupadai_Veedu",
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:44.523195",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Tiruchendur_Tiruchendur_Murugan_",
+      "temple_name_tamil": "திருச்செந்தூர் முருகன் கோவில்",
+      "temple_name_english": "Tiruchendur Murugan Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Tiruchendur",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "murugan"
+      },
+      "religious_significance": {
+        "temple_group": "Arupadai_Veedu",
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:45.598731",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Swamimalai_Swamimalai_Murugan_T",
+      "temple_name_tamil": "சுவாமிமலை முருகன் கோவில்",
+      "temple_name_english": "Swamimalai Murugan Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Swamimalai",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "murugan"
+      },
+      "religious_significance": {
+        "temple_group": "Arupadai_Veedu",
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:46.668236",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Thiruthani_Thiruthani_Murugan_T",
+      "temple_name_tamil": "திருத்தணி முருகன் கோவில்",
+      "temple_name_english": "Thiruthani Murugan Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Thiruthani",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "murugan"
+      },
+      "religious_significance": {
+        "temple_group": "Arupadai_Veedu",
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:47.730649",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Pazhamudhircholai_Pazhamudhircholai_Mu",
+      "temple_name_tamil": "Pazhamudhircholai முருகன் கோவில்",
+      "temple_name_english": "Pazhamudhircholai Murugan Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Pazhamudhircholai",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "murugan"
+      },
+      "religious_significance": {
+        "temple_group": "Arupadai_Veedu",
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:48.801818",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Thiruparankundram_Thiruparankundram_Mu",
+      "temple_name_tamil": "Thiruparankundram முருகன் கோவில்",
+      "temple_name_english": "Thiruparankundram Murugan Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Thiruparankundram",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "murugan"
+      },
+      "religious_significance": {
+        "temple_group": "Arupadai_Veedu",
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:49.871035",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Chidambaram_Thillai_Kali_Temple",
+      "temple_name_tamil": "Thillai Kali கோவில்",
+      "temple_name_english": "Thillai Kali Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Chidambaram",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "amman"
+      },
+      "religious_significance": {
+        "temple_group": null,
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:50.958905",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Kanchipuram_Kamakshi_Amman_Templ",
+      "temple_name_tamil": "காமாட்சி அம்மன் கோவில்",
+      "temple_name_english": "Kamakshi Amman Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Kanchipuram",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "amman"
+      },
+      "religious_significance": {
+        "temple_group": null,
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:52.022239",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Samayapuram_Mariamman_Temple",
+      "temple_name_tamil": "மாரியம்மன் கோவில்",
+      "temple_name_english": "Mariamman Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Samayapuram",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "amman"
+      },
+      "religious_significance": {
+        "temple_group": null,
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:53.103309",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Bannari_Bannari_Amman_Temple",
+      "temple_name_tamil": "Bannari அம்மன் கோவில்",
+      "temple_name_english": "Bannari Amman Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Bannari",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "amman"
+      },
+      "religious_significance": {
+        "temple_group": null,
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:54.178887",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Tirunelveli_Nellaiappar_Temple",
+      "temple_name_tamil": "Nellaiappar கோவில்",
+      "temple_name_english": "Nellaiappar Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Tirunelveli",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "shiva"
+      },
+      "religious_significance": {
+        "temple_group": null,
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:55.248490",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Kanyakumari_Kanyakumari_Bhagavat",
+      "temple_name_tamil": "Kanyakumari Bhagavathy கோவில்",
+      "temple_name_english": "Kanyakumari Bhagavathy Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Kanyakumari",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "amman"
+      },
+      "religious_significance": {
+        "temple_group": null,
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:56.321674",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Srivilliputhur_Srivilliputhur_Andal",
+      "temple_name_tamil": "Srivilliputhur Andal கோவில்",
+      "temple_name_english": "Srivilliputhur Andal Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Srivilliputhur",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "vishnu"
+      },
+      "religious_significance": {
+        "temple_group": null,
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:57.396753",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Sankarankovil_Sankaranarayana_Temp",
+      "temple_name_tamil": "Sankaranarayana கோவில்",
+      "temple_name_english": "Sankaranarayana Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Sankarankovil",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "shiva_vishnu"
+      },
+      "religious_significance": {
+        "temple_group": null,
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:58.459629",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Tiruchirappalli_Tiruchirappalli_Rock",
+      "temple_name_tamil": "Tiruchirappalli Rockfort கோவில்",
+      "temple_name_english": "Tiruchirappalli Rockfort Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Tiruchirappalli",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": "shiva"
+      },
+      "religious_significance": {
+        "temple_group": null,
+        "significance": null
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:34:59.525964",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Suryanar_Kovil_Suryanar_Temple",
+      "temple_name_tamil": "Suryanar கோவில்",
+      "temple_name_english": "Suryanar Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Suryanar Kovil",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": null
+      },
+      "religious_significance": {
+        "temple_group": "Navagraha",
+        "significance": "Associated with Sun"
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:35:00.590418",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Thingalur_Thingalur_Kailasanat",
+      "temple_name_tamil": "Thingalur Kailasanathar கோவில்",
+      "temple_name_english": "Thingalur Kailasanathar Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Thingalur",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": null
+      },
+      "religious_significance": {
+        "temple_group": "Navagraha",
+        "significance": "Associated with Moon"
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:35:01.650579",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Vaitheeswaran_Kovil_Vaitheeswaran_Temple",
+      "temple_name_tamil": "Vaitheeswaran கோவில்",
+      "temple_name_english": "Vaitheeswaran Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Vaitheeswaran Kovil",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": null
+      },
+      "religious_significance": {
+        "temple_group": "Navagraha",
+        "significance": "Associated with Mars"
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:35:02.731989",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Thiruvenkadu_Thiruvenkadu_Budhan_",
+      "temple_name_tamil": "Thiruvenkadu Budhan கோவில்",
+      "temple_name_english": "Thiruvenkadu Budhan Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Thiruvenkadu",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": null
+      },
+      "religious_significance": {
+        "temple_group": "Navagraha",
+        "significance": "Associated with Mercury"
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:35:03.792327",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Alangudi_Alangudi_Guru_Temple",
+      "temple_name_tamil": "Alangudi Guru கோவில்",
+      "temple_name_english": "Alangudi Guru Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Alangudi",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": null
+      },
+      "religious_significance": {
+        "temple_group": "Navagraha",
+        "significance": "Associated with Jupiter"
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:35:04.868978",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Kanjanur_Kanjanur_Sukran_Temp",
+      "temple_name_tamil": "Kanjanur Sukran கோவில்",
+      "temple_name_english": "Kanjanur Sukran Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Kanjanur",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": null
+      },
+      "religious_significance": {
+        "temple_group": "Navagraha",
+        "significance": "Associated with Venus"
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:35:05.927658",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Thirunallar_Thirunallar_Saniswar",
+      "temple_name_tamil": "Thirunallar Saniswaran கோவில்",
+      "temple_name_english": "Thirunallar Saniswaran Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Thirunallar",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": null
+      },
+      "religious_significance": {
+        "temple_group": "Navagraha",
+        "significance": "Associated with Saturn"
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:35:06.994104",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Thirunageswaram_Thirunageswaram_Naga",
+      "temple_name_tamil": "Thirunageswaram Naganathar கோவில்",
+      "temple_name_english": "Thirunageswaram Naganathar Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Thirunageswaram",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": null
+      },
+      "religious_significance": {
+        "temple_group": "Navagraha",
+        "significance": "Associated with Rahu"
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:35:08.092589",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    },
+    {
+      "temple_id": "TN_Keezhperumpallam_Keezhperumpallam_Ket",
+      "temple_name_tamil": "Keezhperumpallam Kethu கோவில்",
+      "temple_name_english": "Keezhperumpallam Kethu Temple",
+      "alternative_names": [],
+      "coordinates": {
+        "latitude": null,
+        "longitude": null,
+        "confidence": "low",
+        "source": null
+      },
+      "location": {
+        "district": null,
+        "taluk": null,
+        "city_village": "Keezhperumpallam",
+        "pincode": null,
+        "state": "Tamil Nadu"
+      },
+      "deity_info": {
+        "primary_deity_tamil": null,
+        "primary_deity_english": null,
+        "temple_category": null
+      },
+      "religious_significance": {
+        "temple_group": "Navagraha",
+        "significance": "Associated with Ketu"
+      },
+      "timings": {
+        "morning": "6:00 AM - 12:00 PM",
+        "evening": "4:00 PM - 8:00 PM"
+      },
+      "festivals": [],
+      "contact_info": {},
+      "sources": [],
+      "confidence_score": 0.0,
+      "needs_verification": [
+        "coordinates",
+        "deity_details",
+        "district"
+      ],
+      "extraction_metadata": {
+        "extracted_date": "2025-08-28T22:35:09.205336",
+        "extraction_method": "scripted",
+        "version": "1.0"
+      }
+    }
+  ],
+  "total_collected": 34,
+  "collection_date": "2025-08-28T22:35:10.211213",
+  "data_version": "1.0_real"
+}
