@@ -14,30 +14,30 @@ A comprehensive mobile app for discovering and navigating Tamil Nadu temples wit
 ```
 temple-calendar-app/
 │
-├── project-data/           # Core project files
-│   ├── database/          # SQLite databases
-│   │   ├── temple_app_mvp.db      # Production database (588 temples)
-│   │   └── app_temples_unified.db  # Development database
-│   │
-│   ├── prototype/         # HTML prototype for testing
-│   │   ├── index.html     # Working app prototype
-│   │   ├── temple_data.json # Real temple data
-│   │   └── USER_TESTING_GUIDE.md
-│   │
-│   └── documentation/     # Project docs
-│       └── DATABASE_DOCUMENTATION.md
+├── README.md              # Project overview (this file)
 │
-├── design/                # UI/UX designs
-│   └── wireframes/       # App wireframes and flows
+├── project-data/          # Core data and documentation
+│   ├── database/         # SQLite databases
+│   │   ├── temple_app_mvp.db      # Production DB (588 temples)
+│   │   └── app_temples_unified.db # Development DB
+│   │
+│   └── documentation/    # Technical documentation
+│       ├── DATABASE_DOCUMENTATION.md
+│       └── DATA_ANALYSIS_SUMMARY.md
 │
-└── demo-ui/              # Demo interface files
+└── design/               # All design assets
+    ├── wireframes/      # Text-based wireframes (11 files)
+    └── mockups/         # Working HTML prototype
+        ├── index.html
+        ├── temple_data.json
+        └── USER_TESTING_GUIDE.md
 ```
 
 ## 🚀 Quick Start
 
 ### Test the Prototype
 ```bash
-cd project-data/prototype
+cd design/mockups/demo-ui
 python3 -m http.server 8000
 # Open: http://localhost:8000
 ```
