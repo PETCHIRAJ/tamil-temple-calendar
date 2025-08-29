@@ -549,26 +549,143 @@
                 font-size: 2rem;
             }
             
+            .hero p {
+                font-size: 1rem;
+            }
+            
             .quick-actions {
-                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
+            }
+            
+            .action-card {
+                padding: 1.5rem;
+            }
+            
+            .action-card i {
+                font-size: 2.5rem;
             }
             
             .temple-grid {
                 grid-template-columns: 1fr;
             }
             
+            .temple-card {
+                margin-bottom: 1rem;
+            }
+            
+            .temple-header {
+                padding: 1rem;
+            }
+            
+            .temple-name {
+                font-size: 1rem;
+                line-height: 1.4;
+            }
+            
+            .temple-actions {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+            
             .filters {
                 justify-content: flex-start;
                 overflow-x: auto;
                 padding-bottom: 0.5rem;
+                -webkit-overflow-scrolling: touch;
             }
             
             .filter-btn {
                 white-space: nowrap;
+                min-width: max-content;
             }
             
             .temple-actions-detail {
                 grid-template-columns: 1fr;
+                gap: 0.75rem;
+            }
+            
+            .action-btn {
+                padding: 0.875rem;
+                font-size: 0.95rem;
+            }
+            
+            .temple-detail-header {
+                padding: 1.5rem;
+                margin-bottom: 1.5rem;
+            }
+            
+            .temple-detail-title {
+                font-size: 1.5rem;
+                line-height: 1.3;
+            }
+            
+            .temple-meta {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 0.75rem;
+            }
+            
+            .meta-item {
+                padding: 0.75rem;
+            }
+            
+            .settings-section {
+                padding: 1.5rem;
+                margin-bottom: 1.5rem;
+            }
+            
+            .circuit-card {
+                padding: 1.5rem;
+            }
+            
+            .circuit-title {
+                font-size: 1.1rem;
+                line-height: 1.3;
+            }
+            
+            .circuit-temple-item {
+                padding: 0.75rem;
+            }
+            
+            .header-content {
+                padding: 0 0.5rem;
+            }
+            
+            .container {
+                padding: 0 0.75rem;
+            }
+            
+            .search-container {
+                max-width: 100%;
+                margin: 0;
+            }
+            
+            .map-container {
+                height: 300px;
+                margin-bottom: 1rem;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .quick-actions {
+                grid-template-columns: 1fr;
+            }
+            
+            .temple-meta {
+                grid-template-columns: 1fr;
+            }
+            
+            .hero h1 {
+                font-size: 1.75rem;
+            }
+            
+            .section-title {
+                font-size: 1.5rem;
+            }
+            
+            .action-card {
+                padding: 1.25rem;
             }
         }
 
@@ -717,8 +834,8 @@
             margin-top: 1rem;
         }
 
-        /* GPS Status Indicators */
-        .gps-indicator {
+        /* Location Status Indicators */
+        .location-indicator {
             display: inline-flex;
             align-items: center;
             gap: 0.3rem;
@@ -728,12 +845,12 @@
             font-weight: 500;
         }
 
-        .gps-available {
+        .location-available {
             background: rgba(76, 175, 80, 0.1);
             color: var(--success-green);
         }
 
-        .gps-unavailable {
+        .location-unavailable {
             background: rgba(158, 158, 158, 0.1);
             color: #9E9E9E;
         }
@@ -849,11 +966,11 @@
             <!-- Filters -->
             <div class="filters">
                 <button class="filter-btn active" data-filter="all">All Temples</button>
-                <button class="filter-btn" data-filter="gps">GPS Available</button>
+                <button class="filter-btn" data-filter="location">Navigation Available</button>
                 <button class="filter-btn" data-filter="shiva">Shiva</button>
                 <button class="filter-btn" data-filter="vishnu">Vishnu</button>
-                <button class="filter-btn" data-filter="murugan">Murugan</button>
-                <button class="filter-btn" data-filter="amman">Amman</button>
+                <button class="filter-btn" data-filter="hanuman">Hanuman</button>
+                <button class="filter-btn" data-filter="goddess">Goddess</button>
             </div>
 
             <!-- Map Container -->
@@ -910,8 +1027,20 @@
                     <div class="settings-section">
                         <h3>Temple Information</h3>
                         <div id="temple-address"></div>
-                        <div id="temple-gps-status"></div>
+                        <div id="temple-location-status"></div>
                         <div id="temple-crowd-info"></div>
+                        <div id="temple-timings"></div>
+                        <div id="temple-website"></div>
+                    </div>
+                    
+                    <div class="settings-section" id="tamil-name-section" style="display: none;">
+                        <h3>Tamil Name</h3>
+                        <div id="temple-tamil-name" class="tamil" style="font-size: 1.2rem; font-weight: 600;"></div>
+                    </div>
+
+                    <div class="settings-section" id="popular-times-section" style="display: none;">
+                        <h3>Popular Times</h3>
+                        <div id="temple-popular-times"></div>
                     </div>
                 </div>
             </div>
@@ -1171,6 +1300,18 @@
             } else {
                 document.body.classList.remove('tamil');
             }
+            
+            // Refresh temple displays to show names in selected language
+            if (AppState.currentScreen === 'home-screen') {
+                loadNearbyTemples();
+            } else if (AppState.currentScreen === 'discovery-screen') {
+                loadDiscoveryTemples();
+            }
+            
+            // Update current temple detail if showing
+            if (AppState.currentScreen === 'temple-detail-screen' && AppState.currentTemple) {
+                showTempleDetail(AppState.currentTemple.id);
+            }
         }
 
         // Location Services
@@ -1203,19 +1344,46 @@
         // Temple Data Loading
         async function loadTempleData() {
             try {
+                showLoading($('nearby-temples-grid'), 'Loading temple database...');
+                
                 const response = await fetch('./temple_data.json');
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
                 const data = await response.json();
+                
+                if (!data || !data.app_temples) {
+                    throw new Error('Invalid temple data format');
+                }
+                
                 AppState.temples = data.app_temples || [];
                 AppState.tourCircuits = data.tour_circuits || [];
                 
-                console.log(`Loaded ${AppState.temples.length} temples and ${AppState.tourCircuits.length} circuits`);
+                console.log(`Successfully loaded ${AppState.temples.length} temples and ${AppState.tourCircuits.length} circuits`);
+                
+                if (AppState.temples.length === 0) {
+                    showError('No temple data available', $('nearby-temples-grid'));
+                    return;
+                }
+                
+                // Show success toast
+                showToast(`Loaded ${AppState.temples.length} temples successfully!`, 'success');
                 
                 // Initial load of nearby temples
                 loadNearbyTemples();
                 loadTourCircuits();
+                
             } catch (error) {
                 console.error('Failed to load temple data:', error);
-                showError('Failed to load temple data');
+                const errorMessage = error.message.includes('fetch') ? 
+                    'Unable to connect to temple database. Please check your internet connection.' :
+                    `Error loading temple data: ${error.message}`;
+                
+                showError(errorMessage, $('nearby-temples-grid'));
+                showError(errorMessage, $('tour-circuits-list'));
+                showToast('Failed to load temple data', 'error');
             }
         }
 
@@ -1254,19 +1422,42 @@
                     temple.longitude
                 ) : null;
 
-            const hasGPS = temple.latitude && temple.longitude;
-            const gpsIndicator = hasGPS ? 
-                '<span class="gps-indicator gps-available"><i class="fas fa-satellite-dish"></i> GPS</span>' :
-                '<span class="gps-indicator gps-unavailable"><i class="fas fa-map-pin"></i> No GPS</span>';
+            const hasLocation = temple.latitude && temple.longitude;
+            const locationIndicator = hasLocation ? 
+                '<span class="location-indicator location-available"><i class="fas fa-navigation"></i> Navigation</span>' :
+                '<span class="location-indicator location-unavailable"><i class="fas fa-map-pin"></i> No Navigation</span>';
+
+            // Determine current display name based on language setting
+            const displayName = AppState.currentLanguage === 'ta' && temple.tamil_name ? temple.tamil_name : temple.name;
+            const nameClass = AppState.currentLanguage === 'ta' ? 'tamil' : '';
+            
+            // Get crowd level if available
+            let crowdInfo = '';
+            if (temple.popular_times && temple.popular_times.length > 0) {
+                const now = new Date();
+                const hour = now.getHours();
+                const currentTimeEntry = temple.popular_times.find(entry => {
+                    const entryHour = parseHourFromPopularTime(entry);
+                    return entryHour === hour;
+                });
+                
+                if (currentTimeEntry) {
+                    const percentage = parseInt(currentTimeEntry.match(/\d+/)[0]);
+                    const crowdLevel = percentage >= 40 ? 'High' : percentage >= 20 ? 'Medium' : 'Low';
+                    const crowdColor = percentage >= 40 ? 'var(--error-red)' : percentage >= 20 ? 'var(--warning-orange)' : 'var(--success-green)';
+                    crowdInfo = `<span style="color: ${crowdColor}; font-size: 0.75rem;"><i class="fas fa-users"></i> ${crowdLevel}</span>`;
+                }
+            }
 
             return `
                 <div class="temple-card" onclick="showTempleDetail('${temple.id}')">
                     <div class="temple-header">
-                        <div class="temple-name">${temple.name}</div>
+                        <div class="temple-name ${nameClass}">${displayName}</div>
                         <div class="temple-location">
                             <i class="fas fa-map-marker-alt"></i>
                             ${temple.district}
                         </div>
+                        ${temple.gm_address && temple.gm_address !== temple.district ? `<div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.25rem; line-height: 1.3;">${temple.gm_address.length > 50 ? temple.gm_address.substring(0, 50) + '...' : temple.gm_address}</div>` : ''}
                     </div>
                     <div class="temple-info">
                         <div class="rating">
@@ -1277,9 +1468,15 @@
                             ${distance && showDistance ? formatDistance(distance) : ''}
                         </div>
                     </div>
-                    <div class="temple-actions">
-                        ${gpsIndicator}
-                        <span style="color: var(--text-secondary); text-transform: capitalize;">${temple.deity_type || 'Temple'}</span>
+                    <div class="temple-actions" style="display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; justify-content: space-between;">
+                        <div style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
+                            ${locationIndicator}
+                            <span style="color: var(--text-secondary); text-transform: capitalize; font-size: 0.85rem;">${temple.deity_type || 'Temple'}</span>
+                        </div>
+                        <div style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
+                            ${temple.gm_phone ? `<span style="color: var(--success-green); font-size: 0.75rem;"><i class="fas fa-phone"></i></span>` : ''}
+                            ${crowdInfo}
+                        </div>
                     </div>
                 </div>
             `;
@@ -1289,7 +1486,7 @@
             const container = $('nearby-temples-grid');
             
             if (AppState.temples.length === 0) {
-                container.innerHTML = '<div class="loading"><div class="spinner"></div><span>Loading temple data...</span></div>';
+                showLoading(container, 'Finding temples near you...');
                 return;
             }
 
@@ -1322,13 +1519,20 @@
 
         function loadDiscoveryTemples() {
             const container = $('discovery-temples-grid');
-            const activeFilter = document.querySelector('.filter-btn.active').dataset.filter;
+            const activeFilterBtn = document.querySelector('.filter-btn.active');
+            
+            if (!activeFilterBtn) {
+                showError('Filter selection error', container);
+                return;
+            }
+            
+            const activeFilter = activeFilterBtn.dataset.filter;
             
             let filteredTemples = [...AppState.temples];
             
             // Apply filters
             if (activeFilter !== 'all') {
-                if (activeFilter === 'gps') {
+                if (activeFilter === 'location') {
                     filteredTemples = filteredTemples.filter(temple => 
                         temple.latitude && temple.longitude
                     );
@@ -1374,7 +1578,7 @@
             $('temple-detail-name').textContent = temple.name;
             $('temple-detail-location').textContent = temple.district;
             $('temple-rating').textContent = temple.gm_rating || 'N/A';
-            $('temple-deity').textContent = temple.deity_type || 'Temple';
+            $('temple-deity').textContent = temple.deity_type ? temple.deity_type.charAt(0).toUpperCase() + temple.deity_type.slice(1) : 'Temple';
 
             // Calculate and show distance
             if (AppState.currentLocation && temple.latitude && temple.longitude) {
@@ -1389,48 +1593,122 @@
                 $('temple-distance').textContent = 'N/A';
             }
 
-            // Update address
-            $('temple-address').innerHTML = `
-                <p><i class="fas fa-map-marker-alt"></i> ${temple.gm_address || temple.district}</p>
-                ${temple.gm_phone ? `<p><i class="fas fa-phone"></i> ${temple.gm_phone}</p>` : ''}
-            `;
+            // Update address and contact info
+            let addressHTML = `<p><i class="fas fa-map-marker-alt"></i> ${temple.gm_address || temple.district}</p>`;
+            if (temple.gm_phone) {
+                addressHTML += `<p style="margin-top: 0.5rem;"><i class="fas fa-phone" style="color: var(--success-green);"></i> <a href="tel:${temple.gm_phone}" style="color: var(--success-green); text-decoration: none;">${temple.gm_phone}</a></p>`;
+            }
+            $('temple-address').innerHTML = addressHTML;
 
-            // Update GPS status
-            const hasGPS = temple.latitude && temple.longitude;
-            $('temple-gps-status').innerHTML = hasGPS ?
-                '<div class="gps-indicator gps-available"><i class="fas fa-satellite-dish"></i> GPS Navigation Available</div>' :
-                '<div class="gps-indicator gps-unavailable"><i class="fas fa-map-pin"></i> GPS Navigation Not Available</div>';
+            // Update location status
+            const hasLocation = temple.latitude && temple.longitude;
+            $('temple-location-status').innerHTML = hasLocation ?
+                '<div class="location-indicator location-available"><i class="fas fa-navigation"></i> Navigation Available</div>' :
+                '<div class="location-indicator location-unavailable"><i class="fas fa-map-pin"></i> Navigation Not Available</div>';
 
-            // Update crowd info if available
-            if (temple.popular_times && temple.popular_times.length > 0) {
-                // Simple crowd estimation based on current time
-                const now = new Date();
-                const hour = now.getHours();
-                const timeSlots = temple.popular_times;
-                
-                let crowdLevel = 'Low';
-                let crowdClass = 'crowd-low';
-                
-                // Simple heuristic for crowd levels
-                if (hour >= 6 && hour <= 10) {
-                    crowdLevel = 'High';
-                    crowdClass = 'crowd-high';
-                } else if (hour >= 17 && hour <= 20) {
-                    crowdLevel = 'Medium';
-                    crowdClass = 'crowd-medium';
-                }
-
-                $('temple-crowd-info').innerHTML = `
-                    <div class="crowd-indicator ${crowdClass}">
-                        <i class="fas fa-users"></i>
-                        <span>Current crowd level: ${crowdLevel}</span>
-                    </div>
-                `;
+            // Show Tamil name if available
+            if (temple.tamil_name && temple.tamil_name !== temple.name + ' கோவில்') {
+                $('temple-tamil-name').textContent = temple.tamil_name;
+                $('tamil-name-section').style.display = 'block';
             } else {
-                $('temple-crowd-info').innerHTML = '';
+                $('tamil-name-section').style.display = 'none';
             }
 
+            // Update website if available
+            if (temple.gm_website) {
+                $('temple-website').innerHTML = `<p style="margin-top: 0.5rem;"><i class="fas fa-globe" style="color: var(--primary-saffron);"></i> <a href="${temple.gm_website}" target="_blank" style="color: var(--primary-saffron); text-decoration: none;">Visit Website</a></p>`;
+            } else {
+                $('temple-website').innerHTML = '';
+            }
+
+            // Enhanced crowd info with popular times analysis
+            if (temple.popular_times && temple.popular_times.length > 0) {
+                const now = new Date();
+                const hour = now.getHours();
+                
+                // Parse popular times to get actual crowd percentages
+                let currentCrowdLevel = 'Low';
+                let currentPercentage = 0;
+                let crowdClass = 'crowd-low';
+                
+                // Find crowd level for current hour
+                const currentTimeEntry = temple.popular_times.find(entry => {
+                    const entryHour = parseHourFromPopularTime(entry);
+                    return entryHour === hour;
+                });
+                
+                if (currentTimeEntry) {
+                    currentPercentage = parseInt(currentTimeEntry.match(/\d+/)[0]);
+                    if (currentPercentage >= 40) {
+                        currentCrowdLevel = 'High';
+                        crowdClass = 'crowd-high';
+                    } else if (currentPercentage >= 20) {
+                        currentCrowdLevel = 'Medium';
+                        crowdClass = 'crowd-medium';
+                    }
+                }
+
+                let crowdHTML = `
+                    <div class="crowd-indicator ${crowdClass}">
+                        <i class="fas fa-users"></i>
+                        <span>Current crowd level: ${currentCrowdLevel}</span>
+                        ${currentPercentage > 0 ? `<span style="margin-left: 0.5rem; opacity: 0.8;">(${currentPercentage}% busy)</span>` : ''}
+                    </div>
+                `;
+
+                // Add popular times chart
+                crowdHTML += '<div style="margin-top: 1rem;"><h4 style="margin-bottom: 0.5rem; font-size: 0.9rem; color: var(--text-secondary);">Today\'s Popular Times</h4>';
+                crowdHTML += '<div style="display: flex; gap: 2px; margin-top: 0.5rem;">';
+                
+                for (let i = 6; i <= 20; i++) {
+                    const timeEntry = temple.popular_times.find(entry => parseHourFromPopularTime(entry) === i);
+                    const percentage = timeEntry ? parseInt(timeEntry.match(/\d+/)[0]) : 0;
+                    const height = Math.max(percentage, 5); // Minimum height for visibility
+                    const isCurrentHour = i === hour;
+                    
+                    crowdHTML += `
+                        <div style="
+                            width: 20px; 
+                            height: ${height * 0.8}px; 
+                            background: ${isCurrentHour ? 'var(--primary-saffron)' : percentage >= 40 ? 'var(--error-red)' : percentage >= 20 ? 'var(--warning-orange)' : 'var(--success-green)'}; 
+                            border-radius: 2px 2px 0 0;
+                            position: relative;
+                            ${isCurrentHour ? 'box-shadow: 0 0 4px rgba(255, 107, 53, 0.5);' : ''}
+                        " title="${i}:00 - ${percentage}% busy">
+                            <div style="position: absolute; bottom: -20px; left: 50%; transform: translateX(-50%); font-size: 0.6rem; color: var(--text-secondary);">${i}</div>
+                        </div>
+                    `;
+                }
+                crowdHTML += '</div></div>';
+
+                $('temple-crowd-info').innerHTML = crowdHTML;
+                $('popular-times-section').style.display = 'block';
+            } else {
+                $('temple-crowd-info').innerHTML = '';
+                $('popular-times-section').style.display = 'none';
+            }
+
+            // Update timings info (general temple hours)
+            $('temple-timings').innerHTML = `
+                <p style="margin-top: 0.5rem;"><i class="fas fa-clock" style="color: var(--warning-orange);"></i> <span style="color: var(--text-secondary);">Typical Hours: 6:00 AM - 12:00 PM, 4:00 PM - 9:00 PM</span></p>
+                <p style="font-size: 0.8rem; color: var(--text-secondary); margin-left: 1.2rem;">*Hours may vary. Please call temple for exact timings.</p>
+            `;
+
             showScreen('temple-detail-screen');
+        }
+
+        // Helper function to parse hour from popular times string
+        function parseHourFromPopularTime(timeString) {
+            const timeMatch = timeString.match(/(\d+)\s*(am|pm)/);
+            if (!timeMatch) return -1;
+            
+            let hour = parseInt(timeMatch[1]);
+            const period = timeMatch[2];
+            
+            if (period === 'pm' && hour !== 12) hour += 12;
+            if (period === 'am' && hour === 12) hour = 0;
+            
+            return hour;
         }
 
         // Navigation Functions
@@ -1460,7 +1738,7 @@
             const container = $('tour-circuits-list');
             
             if (AppState.tourCircuits.length === 0) {
-                container.innerHTML = '<div class="loading"><div class="spinner"></div><span>Loading tour circuits...</span></div>';
+                showLoading(container, 'Loading sacred tour circuits...');
                 return;
             }
 
@@ -1491,21 +1769,87 @@
             AppState.currentCircuit = circuit;
 
             // Update circuit details
-            $('circuit-name').textContent = circuit.name;
+            const displayName = AppState.currentLanguage === 'ta' && circuit.tamil_name ? circuit.tamil_name : circuit.name;
+            $('circuit-name').textContent = displayName;
             $('circuit-description').textContent = circuit.description;
             $('circuit-temples-count').textContent = circuit.total_temples;
             $('circuit-distance').textContent = circuit.total_distance_km;
             $('circuit-duration').textContent = circuit.estimated_hours;
 
-            // Load circuit temples (for now, show sample temples)
+            // Load related temples based on circuit type
             const circuitTemplesContainer = $('circuit-temples-container');
-            circuitTemplesContainer.innerHTML = `
-                <div style="text-align: center; padding: 2rem; color: var(--text-secondary);">
-                    <i class="fas fa-route" style="font-size: 2rem; margin-bottom: 1rem;"></i>
-                    <p>Circuit temple details will be loaded here.</p>
-                    <p style="font-size: 0.9rem;">This is a preview version.</p>
-                </div>
-            `;
+            let relevantTemples = [];
+            
+            // Find temples that match the circuit type
+            if (circuit.circuit_type === 'navagraha') {
+                relevantTemples = AppState.temples.filter(temple => 
+                    temple.name.toLowerCase().includes('navagraha') ||
+                    temple.name.toLowerCase().includes('surya') ||
+                    temple.name.toLowerCase().includes('chandra') ||
+                    temple.name.toLowerCase().includes('angaraka') ||
+                    temple.name.toLowerCase().includes('budha') ||
+                    temple.name.toLowerCase().includes('guru') ||
+                    temple.name.toLowerCase().includes('shukra') ||
+                    temple.name.toLowerCase().includes('shani') ||
+                    temple.name.toLowerCase().includes('rahu') ||
+                    temple.name.toLowerCase().includes('ketu')
+                ).slice(0, 9);
+            } else if (circuit.circuit_type === 'murugan') {
+                relevantTemples = AppState.temples.filter(temple => 
+                    temple.deity_type === 'murugan' || 
+                    temple.name.toLowerCase().includes('murugan') ||
+                    temple.name.toLowerCase().includes('kartikeya') ||
+                    temple.name.toLowerCase().includes('subrahmanya')
+                ).slice(0, 6);
+            } else if (circuit.circuit_type === 'shiva') {
+                relevantTemples = AppState.temples.filter(temple => 
+                    temple.deity_type === 'shiva'
+                ).slice(0, circuit.total_temples || 10);
+            } else {
+                // For other circuits, show highly rated temples of various types
+                relevantTemples = AppState.temples
+                    .filter(temple => temple.gm_rating && temple.gm_rating >= 4.0)
+                    .sort((a, b) => (b.gm_rating || 0) - (a.gm_rating || 0))
+                    .slice(0, circuit.total_temples || 8);
+            }
+
+            if (relevantTemples.length > 0) {
+                let templesHTML = '';
+                relevantTemples.forEach((temple, index) => {
+                    const displayName = AppState.currentLanguage === 'ta' && temple.tamil_name ? temple.tamil_name : temple.name;
+                    const hasLocation = temple.latitude && temple.longitude;
+                    
+                    templesHTML += `
+                        <div class="circuit-temple-item" onclick="showTempleDetail('${temple.id}')">
+                            <div class="temple-number">${index + 1}</div>
+                            <div style="flex: 1;">
+                                <div style="font-weight: 600; margin-bottom: 0.25rem; ${AppState.currentLanguage === 'ta' ? 'font-family: \\'Noto Sans Tamil\\', sans-serif;' : ''}">${displayName}</div>
+                                <div style="color: var(--text-secondary); font-size: 0.85rem; display: flex; align-items: center; gap: 1rem;">
+                                    <span><i class="fas fa-map-marker-alt"></i> ${temple.district}</span>
+                                    ${temple.gm_rating ? `<span><i class="fas fa-star" style="color: var(--secondary-gold);"></i> ${temple.gm_rating}</span>` : ''}
+                                    ${temple.deity_type ? `<span style="text-transform: capitalize;">${temple.deity_type}</span>` : ''}
+                                </div>
+                                <div style="margin-top: 0.25rem; display: flex; gap: 0.5rem; align-items: center;">
+                                    ${hasLocation ? '<span class="location-indicator location-available" style="font-size: 0.7rem; padding: 0.125rem 0.25rem;"><i class="fas fa-navigation"></i> Navigation</span>' : ''}
+                                    ${temple.gm_phone ? '<span style="color: var(--success-green); font-size: 0.7rem;"><i class="fas fa-phone"></i> Call</span>' : ''}
+                                </div>
+                            </div>
+                            <div style="color: var(--primary-saffron);">
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    `;
+                });
+                circuitTemplesContainer.innerHTML = templesHTML;
+            } else {
+                circuitTemplesContainer.innerHTML = `
+                    <div style="text-align: center; padding: 2rem; color: var(--text-secondary);">
+                        <i class="fas fa-search" style="font-size: 2rem; margin-bottom: 1rem; opacity: 0.5;"></i>
+                        <p>No temples found for this circuit type.</p>
+                        <p style="font-size: 0.9rem;">This circuit is still being developed.</p>
+                    </div>
+                `;
+            }
 
             showScreen('tour-detail-screen');
         }
@@ -1638,9 +1982,90 @@
         }
 
         // Error Handling
-        function showError(message) {
+        function showError(message, container = null) {
             console.error(message);
-            // In a real app, you'd show a proper toast notification
+            
+            const errorHTML = `
+                <div style="
+                    background: rgba(244, 67, 54, 0.1);
+                    border: 1px solid var(--error-red);
+                    color: var(--error-red);
+                    padding: 1rem;
+                    border-radius: 8px;
+                    text-align: center;
+                    margin: 1rem 0;
+                ">
+                    <i class="fas fa-exclamation-triangle" style="margin-right: 0.5rem;"></i>
+                    <span>${message}</span>
+                    <button onclick="location.reload()" style="
+                        background: var(--error-red);
+                        color: white;
+                        border: none;
+                        padding: 0.5rem 1rem;
+                        border-radius: 4px;
+                        margin-left: 1rem;
+                        cursor: pointer;
+                        font-size: 0.85rem;
+                    ">Retry</button>
+                </div>
+            `;
+            
+            if (container) {
+                container.innerHTML = errorHTML;
+            } else {
+                // Show error toast
+                showToast(message, 'error');
+            }
+        }
+        
+        function showToast(message, type = 'info') {
+            const toast = document.createElement('div');
+            toast.style.cssText = `
+                position: fixed;
+                top: 100px;
+                right: 1rem;
+                background: ${type === 'error' ? 'var(--error-red)' : type === 'success' ? 'var(--success-green)' : 'var(--primary-saffron)'};
+                color: white;
+                padding: 1rem 1.5rem;
+                border-radius: 8px;
+                box-shadow: var(--shadow-hover);
+                z-index: 1000;
+                opacity: 0;
+                transform: translateY(-20px);
+                transition: all 0.3s ease;
+                max-width: 300px;
+                word-wrap: break-word;
+            `;
+            toast.innerHTML = `
+                <i class="fas fa-${type === 'error' ? 'exclamation-triangle' : type === 'success' ? 'check' : 'info-circle'}" style="margin-right: 0.5rem;"></i>
+                ${message}
+            `;
+            
+            document.body.appendChild(toast);
+            
+            // Animate in
+            setTimeout(() => {
+                toast.style.opacity = '1';
+                toast.style.transform = 'translateY(0)';
+            }, 100);
+            
+            // Remove after 5 seconds
+            setTimeout(() => {
+                toast.style.opacity = '0';
+                toast.style.transform = 'translateY(-20px)';
+                setTimeout(() => {
+                    document.body.removeChild(toast);
+                }, 300);
+            }, 5000);
+        }
+        
+        function showLoading(container, message = 'Loading...') {
+            container.innerHTML = `
+                <div class="loading" style="min-height: 200px;">
+                    <div class="spinner"></div>
+                    <span>${message}</span>
+                </div>
+            `;
         }
 
         // Event Listeners
