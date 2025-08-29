@@ -1,142 +1,132 @@
-# 🛕 Tamil Temple Calendar
+# 🛕 Tamil Nadu Temple Calendar App
 
-A comprehensive Tamil temple calendar application with data for 46,000+ temples across Tamil Nadu.
+A comprehensive mobile app for discovering and navigating Tamil Nadu temples with real-time features.
 
-## 📱 Project Vision
-Create a Tamil temple calendar app that provides accurate religious dates without expensive APIs or server costs, targeting the underserved Tamil-speaking audience who currently rely on ad-heavy apps.
+## 📊 Project Status
 
-## 🎯 Key Achievements
-- **46,004 temples** data collected from TN HR&CE
-- **428 major temples geocoded** (74% of 578 high-income temples)
-- **88 festival dates** for 2025 calculated and validated
-- **64MB SQLite database** optimized for mobile apps
-- **115MB clean repository** (reduced from 300MB)
-- **95-100% accuracy** on festival dates
+**Phase:** MVP Prototype Ready for User Testing  
+**Database:** 588 temples (127 with GPS navigation)  
+**Prototype:** Working HTML demo with real data  
+**Next Step:** User validation before Flutter development
 
-## 📂 Project Structure
+## 🗂️ Project Structure
+
 ```
-tamil-temple-calendar/
-├── database/
-│   ├── temples.db                     # SQLite database (PRIMARY - 64MB)
-│   └── sample_queries.sql             # SQL query examples
-├── json_data/
-│   ├── production/
-│   │   └── temples.json               # JSON backup (50MB)
-│   ├── enrichments/                   # Geocoding & enrichment data
-│   ├── festivals/
-│   │   └── festivals_2025.json        # 88 festival dates
-│   ├── reference/                     # Deity patterns, categories
-│   └── samples/                       # Test datasets
-├── scripts/
-│   ├── migrate_to_sqlite.py           # Active: JSON to SQLite
-│   └── [legacy scripts]               # Historical reference
-└── docs/
-    ├── data_collection_guide.md        # Collection methodology
-    └── enhanced_data_strategy.md       # App development strategy
+temple-calendar-app/
+│
+├── project-data/           # Core project files
+│   ├── database/          # SQLite databases
+│   │   ├── temple_app_mvp.db      # Production database (588 temples)
+│   │   └── app_temples_unified.db  # Development database
+│   │
+│   ├── prototype/         # HTML prototype for testing
+│   │   ├── index.html     # Working app prototype
+│   │   ├── temple_data.json # Real temple data
+│   │   └── USER_TESTING_GUIDE.md
+│   │
+│   └── documentation/     # Project docs
+│       └── DATABASE_DOCUMENTATION.md
+│
+├── design/                # UI/UX designs
+│   └── wireframes/       # App wireframes and flows
+│
+└── demo-ui/              # Demo interface files
 ```
-
-## ✅ Validation Results
-
-### Database Features
-- **Indexed queries** on district, income, coordinates
-- **Full-text search** on temple names (Tamil/English)
-- **Views** for major temples, geocoded temples
-- **88 festival dates** imported and validated
-- **VSCode integration** with SQLite extensions
-
-### Data Quality
-- **428 temples geocoded** using OpenStreetMap
-- **578 major temples** identified (income > ₹10L/year)
-- **Universal festivals** calculated astronomically
-- **Git versioning** for all data changes
 
 ## 🚀 Quick Start
 
-### Using the Database
-```sql
--- Find temples in Chennai
-SELECT name, address, latitude, longitude 
-FROM temples 
-WHERE district = 'Chennai District' 
-AND latitude IS NOT NULL;
-
--- Get 2025 festivals
-SELECT * FROM festivals WHERE year = 2025;
-
--- Major temples with coordinates
-SELECT * FROM major_temples;
+### Test the Prototype
+```bash
+cd project-data/prototype
+python3 -m http.server 8000
+# Open: http://localhost:8000
 ```
 
-### VSCode Setup
-1. Install SQLite extension: `SQLite Viewer` or `SQLite`
-2. Open `database/temples.db`
-3. Use `database/sample_queries.sql` for common queries
+### Access Database
+```python
+import sqlite3
+conn = sqlite3.connect('project-data/database/temple_app_mvp.db')
+# 127 navigation-ready temples in 'app_temples' table
+# 588 total temples in 'temple_directory' table
+```
 
-## 🌟 Next Steps
+## 📱 Features
 
-### Development Ready
-1. [ ] Start Flutter/React Native app with SQLite
-2. [ ] Implement offline-first architecture
-3. [ ] Add Tamil language support
-3. [ ] Start Flutter app skeleton
+### Current (Prototype)
+- ✅ **127 GPS-enabled temples** with navigation
+- ✅ **588 searchable temples** across Tamil Nadu
+- ✅ **4 tour circuits** (Navagraha, Murugan, etc.)
+- ✅ **Real-time crowd levels** for 5 temples
+- ✅ **Tamil/English** bilingual support
+- ✅ **Interactive map** with temple locations
+- ✅ **District/deity filtering**
+- ✅ **Direct phone calls** to temples
 
-### Short-term (Month 1)
-1. [ ] Add 10 major temples (Madurai, Rameswaram, etc.)
-2. [ ] Build basic Flutter UI
-3. [ ] Implement notification system
-4. [ ] Create home screen widget
+### Planned (Flutter App)
+- 🔄 User reviews and ratings
+- 🔄 Festival notifications
+- 🔄 Offline mode
+- 🔄 Photo galleries
+- 🔄 Prasadam booking
 
-### Medium-term (Month 2-3)
-1. [ ] Scale to 100 temples
-2. [ ] Add Tamil/English toggle
-3. [ ] Implement offline panchangam
-4. [ ] Launch beta version
+## 📊 Data Statistics
 
-## 💡 Unique Selling Points
-1. **NASA-grade accuracy** using Swiss Ephemeris
-2. **Completely offline** after initial download
-3. **No ads** in premium version (₹99 one-time)
-4. **Location-specific** calculations
-5. **Daily widget** with Rahu Kalam
+| Metric | Count | Coverage |
+|--------|-------|----------|
+| Total Temples | 588 | 100% |
+| With GPS Navigation | 127 | 21.6% |
+| Tour Circuit Temples | 15 | 100% GPS |
+| Districts Covered | 30+ | All major |
+| With Crowd Data | 5 | Premium |
+| Average Rating | 4.73 | High quality |
 
-## 🛠️ Tech Stack
-- **Calculations**: Python with Swiss Ephemeris
-- **App**: Flutter (cross-platform)
-- **Database**: SQLite (offline storage)
-- **Languages**: Tamil + English
+## 🎯 Target Users
 
-## 📊 Market Opportunity
-- **10M+** downloads for competitor (Nithra)
-- **Major complaint**: Too many ads
-- **Gap**: Professional features, accuracy
-- **Revenue**: ₹99 premium + minimal ads
+- Tamil families planning temple visits
+- Elderly devotees (50+ age)
+- Weekend pilgrimage planners
+- Festival attendees
+- Cultural tourists
 
-## 📝 Important Learnings
-1. Don't rely solely on web scraping (only 20% available)
-2. Astronomical calculations are incredibly accurate
-3. Tamil Facebook pages more updated than official sites
-4. Local validation is crucial for temple-specific events
+## 🧪 User Testing
 
-## 🔗 Resources
-- [Swiss Ephemeris](https://www.astro.com/swisseph/)
-- [Tamil Daily Calendar](https://www.tamildailycalendar.com/)
-- [Drik Panchang](https://www.drikpanchang.com/)
-- [HR&CE Tamil Nadu](https://hrce.tn.gov.in/)
+The HTML prototype is ready for user validation:
 
-## 📞 Validation Contacts
-- Temple offices directly
-- Local Tamil WhatsApp groups
-- Tamil panchangam publishers
+1. **Show to 5-10 potential users**
+2. **Collect feedback using the testing guide**
+3. **Success criteria:** 7/10 rating + download intent
+4. **Decision:** Go/No-go for Flutter development
+
+## 🛠️ Technology Stack
+
+### Current Prototype
+- HTML5 + CSS3 + JavaScript
+- Leaflet.js for maps
+- SQLite database
+- Real temple data
+
+### Planned App
+- Flutter (iOS/Android)
+- SQLite (sqflite package)
+- Google Maps integration
+- Firebase for analytics
+
+## 📈 Success Metrics
+
+### MVP Goals
+- 50,000 downloads in year 1
+- 4.5+ app store rating
+- 20% monthly active users
+- 2% premium conversion
+
+### Unique Selling Points
+- Real-time crowd levels (exclusive feature)
+- Complete Tamil Nadu coverage
+- Elder-friendly design
+- Authentic Tamil experience
 
 ---
 
-## 🔒 Repository Info
-
-- **Repository**: [github.com/PETCHIRAJ/tamil-temple-calendar](https://github.com/PETCHIRAJ/tamil-temple-calendar)
-- **Visibility**: Private (Protected from LLM training)
-- **Data Safety**: Full dataset included (not crawled/scraped)
-
-**Project Status**: Data enrichment complete. 428 major temples geocoded. Ready for app development.
-
-**Created**: December 2024  
-**Data Last Updated**: August 24, 2025
+**Current Focus:** User testing and validation  
+**Next Milestone:** Flutter development decision  
+**Timeline:** Testing complete within 1 week
