@@ -1957,12 +1957,19 @@
                 const festivalDate = new Date(festival.date);
                 const daysUntil = Math.ceil((festivalDate - today) / (1000 * 60 * 60 * 24));
                 
-                let dateLabel = '';
-                if (daysUntil === 0) dateLabel = 'Today';
-                else if (daysUntil === 1) dateLabel = 'Tomorrow';
-                else if (daysUntil <= 7) dateLabel = `In ${daysUntil} days`;
-                else if (daysUntil <= 30) dateLabel = `In ${Math.floor(daysUntil / 7)} weeks`;
-                else dateLabel = festivalDate.toLocaleDateString('en-IN', { month: 'short', day: 'numeric' });
+                // Create smart date display
+                let dateDisplay = '';
+                if (daysUntil === 0) {
+                    dateDisplay = 'Today';
+                } else if (daysUntil === 1) {
+                    dateDisplay = 'Tomorrow';
+                } else if (daysUntil <= 7) {
+                    dateDisplay = `In ${daysUntil} days - ${festivalDate.toLocaleDateString('en-IN', { weekday: 'short', month: 'short', day: 'numeric' })}`;
+                } else if (daysUntil <= 30) {
+                    dateDisplay = `In ${Math.floor(daysUntil / 7)} weeks - ${festivalDate.toLocaleDateString('en-IN', { weekday: 'short', month: 'short', day: 'numeric' })}`;
+                } else {
+                    dateDisplay = festivalDate.toLocaleDateString('en-IN', { weekday: 'short', month: 'short', day: 'numeric' });
+                }
                 
                 const displayName = AppState.currentLanguage === 'ta' ? festival.tamil_name : festival.name;
                 
@@ -1982,7 +1989,7 @@
                 
                 festivalHTML += `
                     <div class="festival-card ${festival.type === 'major' ? 'major-festival' : ''}">
-                        <div class="festival-date">${dateLabel} - ${festivalDate.toLocaleDateString('en-IN', { weekday: 'short', month: 'short', day: 'numeric' })}</div>
+                        <div class="festival-date">${dateDisplay}</div>
                         <div class="festival-name ${AppState.currentLanguage === 'ta' ? 'tamil' : ''}">${displayName}</div>
                         <div class="festival-temples">${festival.temples}</div>
                         ${badge ? `<div style="margin-top: 0.5rem;">${badge}</div>` : ''}
