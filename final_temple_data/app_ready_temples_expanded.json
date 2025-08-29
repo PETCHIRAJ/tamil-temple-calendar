@@ -7375,7 +7375,9 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:34:08.482Z"
+      "extraction_timestamp": "2025-08-28T16:34:08.482Z",
+      "latitude": 12.8466197,
+      "longitude": 79.6999202
     },
     {
       "temple_id": "TM000159",
@@ -7900,7 +7902,9 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:38:27.110Z"
+      "extraction_timestamp": "2025-08-28T16:38:27.110Z",
+      "latitude": 12.2319133,
+      "longitude": 79.0666322
     },
     {
       "temple_id": "TM000338",
@@ -13297,7 +13301,9 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:35:56.727Z"
+      "extraction_timestamp": "2025-08-28T16:35:56.727Z",
+      "latitude": 9.9249001,
+      "longitude": 78.1277942
     },
     {
       "temple_id": "TM031985",
@@ -13612,7 +13618,9 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:38:27.111Z"
+      "extraction_timestamp": "2025-08-28T16:38:27.111Z",
+      "latitude": 13.7497357,
+      "longitude": 79.698532
     },
     {
       "temple_id": "TM032151",
@@ -15780,7 +15788,9 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:34:18.993Z"
+      "extraction_timestamp": "2025-08-28T16:34:18.993Z",
+      "latitude": 10.853017,
+      "longitude": 78.7056894
     },
     {
       "temple_id": "TM025846",
@@ -16149,6 +16159,96 @@
         "has_hours": false
       },
       "extraction_timestamp": "2025-08-28T16:30:39.875Z"
+    },
+    {
+      "temple_id": "TOUR_001",
+      "temple_name": "Thiruchendur Murugan Temple",
+      "district": "Tamil Nadu",
+      "latitude": 8.4949705,
+      "longitude": 78.1246663,
+      "is_tour_temple": true,
+      "last_updated": "2025-08-29T12:05:32.011397"
+    },
+    {
+      "temple_id": "TOUR_002",
+      "temple_name": "Swamimalai Murugan Temple",
+      "district": "Tamil Nadu",
+      "latitude": 10.9569023,
+      "longitude": 79.3259582,
+      "is_tour_temple": true,
+      "last_updated": "2025-08-29T12:05:32.011431"
+    },
+    {
+      "temple_id": "TOUR_003",
+      "temple_name": "Thiruthani Murugan Temple",
+      "district": "Tamil Nadu",
+      "latitude": 13.1717412,
+      "longitude": 79.6038859,
+      "is_tour_temple": true,
+      "last_updated": "2025-08-29T12:05:32.011471"
+    },
+    {
+      "temple_id": "TOUR_004",
+      "temple_name": "Pazhamudircholai Murugan Temple",
+      "district": "Tamil Nadu",
+      "latitude": 10.0942972,
+      "longitude": 78.2233107,
+      "is_tour_temple": true,
+      "last_updated": "2025-08-29T12:05:32.011506"
+    },
+    {
+      "temple_id": "TOUR_005",
+      "temple_name": "Palani Murugan Temple",
+      "district": "Tamil Nadu",
+      "latitude": 10.4444456,
+      "longitude": 77.5184126,
+      "is_tour_temple": true,
+      "last_updated": "2025-08-29T12:05:32.011543"
+    },
+    {
+      "temple_id": "TOUR_006",
+      "temple_name": "Nataraja Temple Chidambaram",
+      "district": "Tamil Nadu",
+      "latitude": 11.400341,
+      "longitude": 79.6931503,
+      "is_tour_temple": true,
+      "last_updated": "2025-08-29T12:05:32.011575"
+    },
+    {
+      "temple_id": "TOUR_007",
+      "temple_name": "Suryanar Kovil",
+      "district": "Tamil Nadu",
+      "latitude": 11.0308795,
+      "longitude": 79.478381,
+      "is_tour_temple": true,
+      "last_updated": "2025-08-29T12:05:32.011616"
+    },
+    {
+      "temple_id": "TOUR_008",
+      "temple_name": "Thingalur Chandran Temple",
+      "district": "Tamil Nadu",
+      "latitude": 10.8976088,
+      "longitude": 79.1304245,
+      "is_tour_temple": true,
+      "last_updated": "2025-08-29T12:05:32.011645"
+    },
+    {
+      "temple_id": "TOUR_009",
+      "temple_name": "Vaitheeswaran Kovil",
+      "district": "Tamil Nadu",
+      "latitude": 11.1970953,
+      "longitude": 79.7122801,
+      "is_tour_temple": true,
+      "last_updated": "2025-08-29T12:05:32.011674"
+    },
+    {
+      "temple_id": "TOUR_010",
+      "temple_name": "Thiruvenkadu Budhan Temple",
+      "district": "Tamil Nadu",
+      "latitude": 11.1758562,
+      "longitude": 79.8091007,
+      "is_tour_temple": true,
+      "last_updated": "2025-08-29T12:05:32.011714"
     }
   ]
 }
