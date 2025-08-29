@@ -1,0 +1,14 @@
+{
+  "site_loading": true,
+  "temples_loaded": 6,
+  "search_working": false,
+  "filters_working": false,
+  "language_toggle_working": false,
+  "temple_details_working": false,
+  "map_view_working": false,
+  "navigation_buttons": false,
+  "errors": [
+    "Search input not found",
+    "ElementHandle.click: Timeout 30000ms exceeded.\nCall log:\n  - attempting click action\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 \u00d7 waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    58 \u00d7 waiting for element to be visible, enabled and stable\n       - element is not visible\n     - retrying click action\n       - waiting 500ms\n"
+  ]
+}
