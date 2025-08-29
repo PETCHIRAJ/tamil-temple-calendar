@@ -905,14 +905,6 @@
                 <p id="hero-subtitle">Find temples, plan pilgrimages, and explore Tamil Nadu's spiritual heritage</p>
             </section>
 
-            <!-- Search Section -->
-            <section class="search-section">
-                <div class="search-container">
-                    <input type="text" class="search-input" id="main-search" placeholder="Search temples...">
-                    <i class="fas fa-search search-icon"></i>
-                </div>
-            </section>
-
             <!-- Quick Actions -->
             <section class="quick-actions">
                 <div class="action-card" id="nearest-action">
@@ -934,6 +926,14 @@
                     <i class="fas fa-calendar-alt"></i>
                     <h3 id="festivals-title">Festivals</h3>
                     <p id="festivals-desc">Tamil calendar events</p>
+                </div>
+            </section>
+
+            <!-- Search Section -->
+            <section class="search-section">
+                <div class="search-container">
+                    <input type="text" class="search-input" id="main-search" placeholder="Search temples...">
+                    <i class="fas fa-search search-icon"></i>
                 </div>
             </section>
 
@@ -1954,6 +1954,11 @@
         function performSearch(query) {
             if (!query || query.length < 2) {
                 if (AppState.currentScreen === 'home-screen') {
+                    // Show normal home screen content
+                    document.querySelector('.quick-actions').style.display = 'grid';
+                    document.querySelector('.hero').style.display = 'block';
+                    document.querySelector('.nearest-temples .section-header').style.display = 'flex';
+                    document.querySelector('#nearby-section-title').textContent = translations[AppState.currentLanguage]['nearby-section-title'];
                     loadNearbyTemples();
                 }
                 return;
@@ -1962,18 +1967,33 @@
             const searchResults = AppState.temples.filter(temple => 
                 temple.name.toLowerCase().includes(query.toLowerCase()) ||
                 temple.district.toLowerCase().includes(query.toLowerCase()) ||
-                (temple.deity_type && temple.deity_type.toLowerCase().includes(query.toLowerCase()))
+                (temple.deity_type && temple.deity_type.toLowerCase().includes(query.toLowerCase())) ||
+                (temple.tamil_name && temple.tamil_name.toLowerCase().includes(query.toLowerCase()))
             );
 
             // Show results in current context
             if (AppState.currentScreen === 'home-screen') {
+                // Hide quick actions and hero to make room for search results
+                document.querySelector('.quick-actions').style.display = 'none';
+                document.querySelector('.hero').style.display = 'none';
+                
+                // Update section title to show search status
+                document.querySelector('#nearby-section-title').textContent = `Search Results (${searchResults.length})`;
+                
                 const container = $('nearby-temples-grid');
                 if (searchResults.length > 0) {
                     const resultsHTML = searchResults
-                        .slice(0, 6)
                         .map(temple => createTempleCard(temple))
                         .join('');
                     container.innerHTML = resultsHTML;
+                    
+                    // Auto-scroll to results on mobile
+                    if (window.innerWidth <= 768) {
+                        document.querySelector('.nearest-temples').scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
                 } else {
                     container.innerHTML = '<div class="text-center" style="padding: 3rem;">No temples found matching your search.</div>';
                 }
