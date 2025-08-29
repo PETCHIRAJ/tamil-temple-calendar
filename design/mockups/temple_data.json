@@ -8758,5 +8758,793 @@
     "premium_temples": 15,
     "districts_covered": 39
   },
-  "generated_at": "2025-08-29T13:29:26.913606"
+  "generated_at": "2025-08-29T13:29:26.913606",
+  "festivals": [
+    {
+      "date": "2025-01-09",
+      "name": "Pausha Putrada Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Margazhi"
+    },
+    {
+      "date": "2025-01-11",
+      "name": "Shani Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Thai"
+    },
+    {
+      "date": "2025-01-13",
+      "name": "Pournami",
+      "tamil_name": "பௌர்ணமி",
+      "type": "pournami",
+      "category": "monthly",
+      "temples": "Full moon worship",
+      "tamil_month": "Thai"
+    },
+    {
+      "date": "2025-01-14",
+      "name": "Pongal",
+      "tamil_name": "பொங்கல்",
+      "type": "major",
+      "category": "annual",
+      "temples": "All major temples"
+    },
+    {
+      "date": "2025-01-15",
+      "name": "Thiruvalluvar Day",
+      "tamil_name": "திருவள்ளுவர் தினம்",
+      "type": "major",
+      "category": "annual",
+      "temples": "All major temples"
+    },
+    {
+      "date": "2025-01-24",
+      "name": "Shattila Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Thai"
+    },
+    {
+      "date": "2025-01-26",
+      "name": "Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Thai"
+    },
+    {
+      "date": "2025-01-29",
+      "name": "Amavasya",
+      "tamil_name": "அமாவாசை",
+      "type": "amavasya",
+      "category": "monthly",
+      "temples": "New moon observance",
+      "tamil_month": "Thai"
+    },
+    {
+      "date": "2025-02-08",
+      "name": "Jaya Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Thai"
+    },
+    {
+      "date": "2025-02-10",
+      "name": "Soma Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Masi"
+    },
+    {
+      "date": "2025-02-12",
+      "name": "Pournami",
+      "tamil_name": "பௌர்ணமி",
+      "type": "pournami",
+      "category": "monthly",
+      "temples": "Full moon worship",
+      "tamil_month": "Masi"
+    },
+    {
+      "date": "2025-02-22",
+      "name": "Vijaya Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Masi"
+    },
+    {
+      "date": "2025-02-24",
+      "name": "Soma Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Masi"
+    },
+    {
+      "date": "2025-02-26",
+      "name": "Maha Shivaratri",
+      "tamil_name": "மகா சிவராத்திரி",
+      "type": "major",
+      "category": "annual",
+      "temples": "All major temples"
+    },
+    {
+      "date": "2025-02-27",
+      "name": "Amavasya",
+      "tamil_name": "அமாவாசை",
+      "type": "amavasya",
+      "category": "monthly",
+      "temples": "New moon observance",
+      "tamil_month": "Masi"
+    },
+    {
+      "date": "2025-03-09",
+      "name": "Amalaki Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Masi"
+    },
+    {
+      "date": "2025-03-11",
+      "name": "Bhauma Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Panguni"
+    },
+    {
+      "date": "2025-03-13",
+      "name": "Pournami",
+      "tamil_name": "பௌர்ணமி",
+      "type": "pournami",
+      "category": "monthly",
+      "temples": "Full moon worship",
+      "tamil_month": "Panguni"
+    },
+    {
+      "date": "2025-03-14",
+      "name": "Holi",
+      "tamil_name": "ஹோலி",
+      "type": "major",
+      "category": "annual",
+      "temples": "All major temples"
+    },
+    {
+      "date": "2025-03-24",
+      "name": "Papmochani Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Panguni"
+    },
+    {
+      "date": "2025-03-26",
+      "name": "Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Panguni"
+    },
+    {
+      "date": "2025-03-29",
+      "name": "Amavasya",
+      "tamil_name": "அமாவாசை",
+      "type": "amavasya",
+      "category": "monthly",
+      "temples": "New moon observance",
+      "tamil_month": "Panguni"
+    },
+    {
+      "date": "2025-03-30",
+      "name": "Ugadi/Gudi Padwa",
+      "tamil_name": "உகாதி",
+      "type": "major",
+      "category": "annual",
+      "temples": "All major temples"
+    },
+    {
+      "date": "2025-04-06",
+      "name": "Ram Navami",
+      "tamil_name": "ராம நவமி",
+      "type": "major",
+      "category": "annual",
+      "temples": "All major temples"
+    },
+    {
+      "date": "2025-04-08",
+      "name": "Kamada Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Panguni"
+    },
+    {
+      "date": "2025-04-10",
+      "name": "Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Chithirai"
+    },
+    {
+      "date": "2025-04-12",
+      "name": "Pournami",
+      "tamil_name": "பௌர்ணமி",
+      "type": "pournami",
+      "category": "monthly",
+      "temples": "Full moon worship",
+      "tamil_month": "Chithirai"
+    },
+    {
+      "date": "2025-04-14",
+      "name": "Tamil New Year",
+      "tamil_name": "தமிழ் புத்தாண்டு",
+      "type": "major",
+      "category": "annual",
+      "temples": "All major temples"
+    },
+    {
+      "date": "2025-04-14",
+      "name": "Dr. Ambedkar Jayanti",
+      "tamil_name": "அம்பேத்கர் ஜயந்தி",
+      "type": "major",
+      "category": "annual",
+      "temples": "All major temples"
+    },
+    {
+      "date": "2025-04-22",
+      "name": "Varuthini Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Chithirai"
+    },
+    {
+      "date": "2025-04-24",
+      "name": "Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Chithirai"
+    },
+    {
+      "date": "2025-04-27",
+      "name": "Amavasya",
+      "tamil_name": "அமாவாசை",
+      "type": "amavasya",
+      "category": "monthly",
+      "temples": "New moon observance",
+      "tamil_month": "Chithirai"
+    },
+    {
+      "date": "2025-05-07",
+      "name": "Mohini Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Chithirai"
+    },
+    {
+      "date": "2025-05-09",
+      "name": "Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Vaikasi"
+    },
+    {
+      "date": "2025-05-12",
+      "name": "Pournami",
+      "tamil_name": "பௌர்ணமி",
+      "type": "pournami",
+      "category": "monthly",
+      "temples": "Full moon worship",
+      "tamil_month": "Vaikasi"
+    },
+    {
+      "date": "2025-05-22",
+      "name": "Apara Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Vaikasi"
+    },
+    {
+      "date": "2025-05-24",
+      "name": "Shani Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Vaikasi"
+    },
+    {
+      "date": "2025-05-26",
+      "name": "Amavasya",
+      "tamil_name": "அமாவாசை",
+      "type": "amavasya",
+      "category": "monthly",
+      "temples": "New moon observance",
+      "tamil_month": "Vaikasi"
+    },
+    {
+      "date": "2025-06-06",
+      "name": "Nirjala Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Vaikasi"
+    },
+    {
+      "date": "2025-06-08",
+      "name": "Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Aani"
+    },
+    {
+      "date": "2025-06-11",
+      "name": "Pournami",
+      "tamil_name": "பௌர்ணமி",
+      "type": "pournami",
+      "category": "monthly",
+      "temples": "Full moon worship",
+      "tamil_month": "Aani"
+    },
+    {
+      "date": "2025-06-20",
+      "name": "Yogini Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Aani"
+    },
+    {
+      "date": "2025-06-22",
+      "name": "Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Aani"
+    },
+    {
+      "date": "2025-06-25",
+      "name": "Amavasya",
+      "tamil_name": "அமாவாசை",
+      "type": "amavasya",
+      "category": "monthly",
+      "temples": "New moon observance",
+      "tamil_month": "Aani"
+    },
+    {
+      "date": "2025-07-05",
+      "name": "Devshayani Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Aani"
+    },
+    {
+      "date": "2025-07-07",
+      "name": "Soma Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Aadi"
+    },
+    {
+      "date": "2025-07-10",
+      "name": "Pournami",
+      "tamil_name": "பௌர்ணமி",
+      "type": "pournami",
+      "category": "monthly",
+      "temples": "Full moon worship",
+      "tamil_month": "Aadi"
+    },
+    {
+      "date": "2025-07-20",
+      "name": "Kamika Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Aadi"
+    },
+    {
+      "date": "2025-07-22",
+      "name": "Bhauma Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Aadi"
+    },
+    {
+      "date": "2025-07-24",
+      "name": "Amavasya",
+      "tamil_name": "அமாவாசை",
+      "type": "amavasya",
+      "category": "monthly",
+      "temples": "New moon observance",
+      "tamil_month": "Aadi"
+    },
+    {
+      "date": "2025-08-04",
+      "name": "Shravana Putrada Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Aadi"
+    },
+    {
+      "date": "2025-08-06",
+      "name": "Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Aavani"
+    },
+    {
+      "date": "2025-08-09",
+      "name": "Pournami",
+      "tamil_name": "பௌர்ணமி",
+      "type": "pournami",
+      "category": "monthly",
+      "temples": "Full moon worship",
+      "tamil_month": "Aavani"
+    },
+    {
+      "date": "2025-08-16",
+      "name": "Krishna Jayanthi",
+      "tamil_name": "கிருஷ்ண ஜயந்தி",
+      "type": "major",
+      "category": "annual",
+      "temples": "All major temples"
+    },
+    {
+      "date": "2025-08-18",
+      "name": "Aja Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Aavani"
+    },
+    {
+      "date": "2025-08-20",
+      "name": "Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Aavani"
+    },
+    {
+      "date": "2025-08-23",
+      "name": "Amavasya",
+      "tamil_name": "அமாவாசை",
+      "type": "amavasya",
+      "category": "monthly",
+      "temples": "New moon observance",
+      "tamil_month": "Aavani"
+    },
+    {
+      "date": "2025-08-27",
+      "name": "Vinayagar Chaturthi",
+      "tamil_name": "விநாயகர் சதுர்த்தி",
+      "type": "major",
+      "category": "annual",
+      "temples": "All major temples"
+    },
+    {
+      "date": "2025-09-02",
+      "name": "Parivartini Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Aavani"
+    },
+    {
+      "date": "2025-09-04",
+      "name": "Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Purattasi"
+    },
+    {
+      "date": "2025-09-07",
+      "name": "Pournami",
+      "tamil_name": "பௌர்ணமி",
+      "type": "pournami",
+      "category": "monthly",
+      "temples": "Full moon worship",
+      "tamil_month": "Purattasi"
+    },
+    {
+      "date": "2025-09-17",
+      "name": "Indira Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Purattasi"
+    },
+    {
+      "date": "2025-09-19",
+      "name": "Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Purattasi"
+    },
+    {
+      "date": "2025-09-21",
+      "name": "Navaratri Begins",
+      "tamil_name": "நவராத்திரி",
+      "type": "major",
+      "category": "annual",
+      "temples": "All major temples"
+    },
+    {
+      "date": "2025-09-21",
+      "name": "Amavasya",
+      "tamil_name": "அமாவாசை",
+      "type": "amavasya",
+      "category": "monthly",
+      "temples": "New moon observance",
+      "tamil_month": "Purattasi"
+    },
+    {
+      "date": "2025-09-30",
+      "name": "Vijayadashami",
+      "tamil_name": "விஜயதசமி",
+      "type": "major",
+      "category": "annual",
+      "temples": "All major temples"
+    },
+    {
+      "date": "2025-10-02",
+      "name": "Papankusha Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Purattasi"
+    },
+    {
+      "date": "2025-10-04",
+      "name": "Shani Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Aippasi"
+    },
+    {
+      "date": "2025-10-07",
+      "name": "Pournami",
+      "tamil_name": "பௌர்ணமி",
+      "type": "pournami",
+      "category": "monthly",
+      "temples": "Full moon worship",
+      "tamil_month": "Aippasi"
+    },
+    {
+      "date": "2025-10-16",
+      "name": "Rama Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Aippasi"
+    },
+    {
+      "date": "2025-10-18",
+      "name": "Shani Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Aippasi"
+    },
+    {
+      "date": "2025-10-20",
+      "name": "Deepavali",
+      "tamil_name": "தீபாவளி",
+      "type": "major",
+      "category": "annual",
+      "temples": "All major temples"
+    },
+    {
+      "date": "2025-10-21",
+      "name": "Amavasya",
+      "tamil_name": "அமாவாசை",
+      "type": "amavasya",
+      "category": "monthly",
+      "temples": "New moon observance",
+      "tamil_month": "Aippasi"
+    },
+    {
+      "date": "2025-11-01",
+      "name": "Devutthana Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Aippasi"
+    },
+    {
+      "date": "2025-11-03",
+      "name": "Soma Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Karthigai"
+    },
+    {
+      "date": "2025-11-05",
+      "name": "Karthigai Deepam",
+      "tamil_name": "கார்த்திகை தீபம்",
+      "type": "major",
+      "category": "annual",
+      "temples": "All major temples"
+    },
+    {
+      "date": "2025-11-05",
+      "name": "Pournami",
+      "tamil_name": "பௌர்ணமி",
+      "type": "pournami",
+      "category": "monthly",
+      "temples": "Full moon worship",
+      "tamil_month": "Karthigai"
+    },
+    {
+      "date": "2025-11-15",
+      "name": "Utpanna Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Karthigai"
+    },
+    {
+      "date": "2025-11-17",
+      "name": "Soma Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Karthigai"
+    },
+    {
+      "date": "2025-11-20",
+      "name": "Amavasya",
+      "tamil_name": "அமாவாசை",
+      "type": "amavasya",
+      "category": "monthly",
+      "temples": "New moon observance",
+      "tamil_month": "Karthigai"
+    },
+    {
+      "date": "2025-11-30",
+      "name": "Mokshada Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Karthigai"
+    },
+    {
+      "date": "2025-12-02",
+      "name": "Bhauma Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Margazhi"
+    },
+    {
+      "date": "2025-12-04",
+      "name": "Pournami",
+      "tamil_name": "பௌர்ணமி",
+      "type": "pournami",
+      "category": "monthly",
+      "temples": "Full moon worship",
+      "tamil_month": "Margazhi"
+    },
+    {
+      "date": "2025-12-15",
+      "name": "Saphala Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Margazhi"
+    },
+    {
+      "date": "2025-12-17",
+      "name": "Pradosham",
+      "tamil_name": "பிரதோஷம்",
+      "type": "pradosham",
+      "category": "monthly",
+      "temples": "All Shiva temples",
+      "tamil_month": "Margazhi"
+    },
+    {
+      "date": "2025-12-19",
+      "name": "Amavasya",
+      "tamil_name": "அமாவாசை",
+      "type": "amavasya",
+      "category": "monthly",
+      "temples": "New moon observance",
+      "tamil_month": "Margazhi"
+    },
+    {
+      "date": "2025-12-25",
+      "name": "Christmas",
+      "tamil_name": "கிறிஸ்துமஸ்",
+      "type": "major",
+      "category": "annual",
+      "temples": "All major temples"
+    },
+    {
+      "date": "2025-12-30",
+      "name": "Vaikunta Ekadashi",
+      "tamil_name": "ஏகாதசி",
+      "type": "ekadashi",
+      "category": "monthly",
+      "temples": "All Vishnu temples",
+      "tamil_month": "Margazhi"
+    }
+  ],
+  "festival_summary": {
+    "total": 88,
+    "major": 15,
+    "pradosham": 24,
+    "ekadashi": 25,
+    "pournami": 12,
+    "amavasya": 12,
+    "year": 2025
+  }
 }
