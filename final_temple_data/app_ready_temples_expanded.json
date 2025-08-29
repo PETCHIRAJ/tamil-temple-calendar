@@ -3543,7 +3543,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:36:32.884Z"
+      "extraction_timestamp": "2025-08-28T16:36:32.884Z",
+      "coordinates": {
+        "latitude": 13.0849042,
+        "longitude": 80.254247,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508243"
+      }
     },
     {
       "temple_id": "TM000350",
@@ -3570,7 +3576,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:38:53.196Z"
+      "extraction_timestamp": "2025-08-28T16:38:53.196Z",
+      "coordinates": {
+        "latitude": 13.0945949,
+        "longitude": 80.2891805,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508246"
+      }
     },
     {
       "temple_id": "TM035671",
@@ -3597,7 +3609,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:29:03.114Z"
+      "extraction_timestamp": "2025-08-28T16:29:03.114Z",
+      "coordinates": {
+        "latitude": 9.2881136,
+        "longitude": 79.3173919,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508248"
+      }
     },
     {
       "temple_id": "TM035748",
@@ -3624,7 +3642,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:30:22.427Z"
+      "extraction_timestamp": "2025-08-28T16:30:22.427Z",
+      "coordinates": {
+        "latitude": 9.4817327,
+        "longitude": 77.8113881,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508249"
+      }
     },
     {
       "temple_id": "TM009786",
@@ -3651,7 +3675,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:33:49.440Z"
+      "extraction_timestamp": "2025-08-28T16:33:49.440Z",
+      "coordinates": {
+        "latitude": 10.9920915,
+        "longitude": 76.9572141,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508250"
+      }
     },
     {
       "temple_id": "TM032123",
@@ -3678,7 +3708,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:38:04.902Z"
+      "extraction_timestamp": "2025-08-28T16:38:04.902Z",
+      "coordinates": {
+        "latitude": 10.0748476,
+        "longitude": 78.2130549,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508251"
+      }
     },
     {
       "temple_id": "TM035708",
@@ -3704,7 +3740,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:29:24.345Z"
+      "extraction_timestamp": "2025-08-28T16:29:24.345Z",
+      "coordinates": {
+        "latitude": 9.8440039,
+        "longitude": 78.5861137,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508252"
+      }
     },
     {
       "temple_id": "TM037892",
@@ -3730,7 +3772,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:33:07.840Z"
+      "extraction_timestamp": "2025-08-28T16:33:07.840Z",
+      "coordinates": {
+        "latitude": 8.9482279,
+        "longitude": 77.2750866,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508253"
+      }
     },
     {
       "temple_id": "TM000412",
@@ -3756,7 +3804,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:28:25.184Z"
+      "extraction_timestamp": "2025-08-28T16:28:25.184Z",
+      "coordinates": {
+        "latitude": 10.5937324,
+        "longitude": 78.75490005,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508254"
+      }
     },
     {
       "temple_id": "TM000556",
@@ -3782,7 +3836,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:30:13.962Z"
+      "extraction_timestamp": "2025-08-28T16:30:13.962Z",
+      "coordinates": {
+        "latitude": 13.0860489,
+        "longitude": 80.1717288,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508255"
+      }
     },
     {
       "temple_id": "TM001817",
@@ -3808,7 +3868,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:34:59.556Z"
+      "extraction_timestamp": "2025-08-28T16:34:59.556Z",
+      "coordinates": {
+        "latitude": 12.8372097,
+        "longitude": 79.7047119,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508257"
+      }
     },
     {
       "temple_id": "TM010259",
@@ -3834,7 +3900,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:30:43.160Z"
+      "extraction_timestamp": "2025-08-28T16:30:43.160Z",
+      "coordinates": {
+        "latitude": 11.8329901,
+        "longitude": 77.9450544,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508258"
+      }
     },
     {
       "temple_id": "TM018002",
@@ -3860,7 +3932,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:36:41.407Z"
+      "extraction_timestamp": "2025-08-28T16:36:41.407Z",
+      "coordinates": {
+        "latitude": 10.9569023,
+        "longitude": 79.3259582,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508259"
+      }
     },
     {
       "temple_id": "TM018032",
@@ -3886,7 +3964,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:38:15.846Z"
+      "extraction_timestamp": "2025-08-28T16:38:15.846Z",
+      "coordinates": {
+        "latitude": 11.1351933,
+        "longitude": 79.835427,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508260"
+      }
     },
     {
       "temple_id": "TM025708",
@@ -3912,7 +3996,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:34:26.530Z"
+      "extraction_timestamp": "2025-08-28T16:34:26.530Z",
+      "coordinates": {
+        "latitude": 10.8299603,
+        "longitude": 78.670266,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508261"
+      }
     },
     {
       "temple_id": "TM032150",
@@ -3938,7 +4028,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:38:34.121Z"
+      "extraction_timestamp": "2025-08-28T16:38:34.121Z",
+      "coordinates": {
+        "latitude": 10.4397373,
+        "longitude": 77.9550409,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508262"
+      }
     },
     {
       "temple_id": "TM032196",
@@ -3964,7 +4060,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:39:15.031Z"
+      "extraction_timestamp": "2025-08-28T16:39:15.031Z",
+      "coordinates": {
+        "latitude": 10.4397373,
+        "longitude": 77.9550409,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508263"
+      }
     },
     {
       "temple_id": "TM000081",
@@ -3989,7 +4091,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:31:50.944Z"
+      "extraction_timestamp": "2025-08-28T16:31:50.944Z",
+      "coordinates": {
+        "latitude": 13.1608154,
+        "longitude": 80.2989426,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508264"
+      }
     },
     {
       "temple_id": "TM000096",
@@ -4014,7 +4122,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:32:50.380Z"
+      "extraction_timestamp": "2025-08-28T16:32:50.380Z",
+      "coordinates": {
+        "latitude": 13.1067878,
+        "longitude": 80.2078101,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508265"
+      }
     },
     {
       "temple_id": "TM000214",
@@ -4039,7 +4153,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:36:02.931Z"
+      "extraction_timestamp": "2025-08-28T16:36:02.931Z",
+      "coordinates": {
+        "latitude": 13.0310021,
+        "longitude": 80.1555245,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508266"
+      }
     },
     {
       "temple_id": "TM037836",
@@ -4064,7 +4184,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:32:15.698Z"
+      "extraction_timestamp": "2025-08-28T16:32:15.698Z",
+      "coordinates": {
+        "latitude": 9.0360018,
+        "longitude": 77.2256062,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508267"
+      }
     },
     {
       "temple_id": "TM037885",
@@ -4089,7 +4215,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:32:54.900Z"
+      "extraction_timestamp": "2025-08-28T16:32:54.900Z",
+      "coordinates": {
+        "latitude": 8.7291537,
+        "longitude": 77.7087468,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508268"
+      }
     },
     {
       "temple_id": "TM037902",
@@ -4114,7 +4246,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:33:21.844Z"
+      "extraction_timestamp": "2025-08-28T16:33:21.844Z",
+      "coordinates": {
+        "latitude": 8.7135922,
+        "longitude": 77.3684397,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508269"
+      }
     },
     {
       "temple_id": "TM001553",
@@ -4139,7 +4277,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:32:23.106Z"
+      "extraction_timestamp": "2025-08-28T16:32:23.106Z",
+      "coordinates": {
+        "latitude": 13.143064,
+        "longitude": 79.9055654,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508270"
+      }
     },
     {
       "temple_id": "TM001786",
@@ -4164,7 +4308,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:34:30.007Z"
+      "extraction_timestamp": "2025-08-28T16:34:30.007Z",
+      "coordinates": {
+        "latitude": 13.1125,
+        "longitude": 80.0261111,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T10:24:43.508271"
+      }
     },
     {
       "temple_id": "TM001826",
@@ -4189,7 +4339,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:35:14.501Z"
+      "extraction_timestamp": "2025-08-28T16:35:14.501Z",
+      "coordinates": {
+        "latitude": 12.8295023,
+        "longitude": 79.7049729,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345676"
+      }
     },
     {
       "temple_id": "TM001829",
@@ -4214,7 +4370,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:35:21.867Z"
+      "extraction_timestamp": "2025-08-28T16:35:21.867Z",
+      "coordinates": {
+        "latitude": 13.0522931,
+        "longitude": 80.0615291,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345679"
+      }
     },
     {
       "temple_id": "TM004858",
@@ -4239,7 +4401,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:36:54.972Z"
+      "extraction_timestamp": "2025-08-28T16:36:54.972Z",
+      "coordinates": {
+        "latitude": 11.6570436,
+        "longitude": 78.1597507,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345681"
+      }
     },
     {
       "temple_id": "TM004867",
@@ -4264,7 +4432,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:37:31.020Z"
+      "extraction_timestamp": "2025-08-28T16:37:31.020Z",
+      "coordinates": {
+        "latitude": 11.6529542,
+        "longitude": 78.1564288,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345682"
+      }
     },
     {
       "temple_id": "TM004871",
@@ -4314,7 +4488,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:30:50.125Z"
+      "extraction_timestamp": "2025-08-28T16:30:50.125Z",
+      "coordinates": {
+        "latitude": 11.5958293,
+        "longitude": 77.5878184,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345684"
+      }
     },
     {
       "temple_id": "TM013967",
@@ -4339,7 +4519,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:31:45.711Z"
+      "extraction_timestamp": "2025-08-28T16:31:45.711Z",
+      "coordinates": {
+        "latitude": 10.7913889,
+        "longitude": 79.1361231,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345685"
+      }
     },
     {
       "temple_id": "TM014062",
@@ -4364,7 +4550,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:32:07.406Z"
+      "extraction_timestamp": "2025-08-28T16:32:07.406Z",
+      "coordinates": {
+        "latitude": 10.2823752,
+        "longitude": 79.1958261,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345685"
+      }
     },
     {
       "temple_id": "TM014086",
@@ -4389,7 +4581,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:32:14.274Z"
+      "extraction_timestamp": "2025-08-28T16:32:14.274Z",
+      "coordinates": {
+        "latitude": 10.7928798,
+        "longitude": 79.1293193,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345686"
+      }
     },
     {
       "temple_id": "TM014723",
@@ -4414,7 +4612,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:36:19.452Z"
+      "extraction_timestamp": "2025-08-28T16:36:19.452Z",
+      "coordinates": {
+        "latitude": 10.7611814,
+        "longitude": 79.843032,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345687"
+      }
     },
     {
       "temple_id": "TM018018",
@@ -4439,7 +4643,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:37:25.066Z"
+      "extraction_timestamp": "2025-08-28T16:37:25.066Z",
+      "coordinates": {
+        "latitude": 10.9596224,
+        "longitude": 79.375374,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345688"
+      }
     },
     {
       "temple_id": "TM009765",
@@ -4464,7 +4674,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:31:26.977Z"
+      "extraction_timestamp": "2025-08-28T16:31:26.977Z",
+      "coordinates": {
+        "latitude": 10.9938125,
+        "longitude": 76.9638594,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345689"
+      }
     },
     {
       "temple_id": "TM010053",
@@ -4489,7 +4705,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:36:12.602Z"
+      "extraction_timestamp": "2025-08-28T16:36:12.602Z",
+      "coordinates": {
+        "latitude": 11.0628726,
+        "longitude": 77.2132642,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345690"
+      }
     },
     {
       "temple_id": "TM010055",
@@ -4514,7 +4736,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:36:27.270Z"
+      "extraction_timestamp": "2025-08-28T16:36:27.270Z",
+      "coordinates": {
+        "latitude": 11.1881702,
+        "longitude": 77.268393,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345691"
+      }
     },
     {
       "temple_id": "TM025303",
@@ -4539,7 +4767,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:32:25.343Z"
+      "extraction_timestamp": "2025-08-28T16:32:25.343Z",
+      "coordinates": {
+        "latitude": 10.9306544,
+        "longitude": 78.09125515,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345692"
+      }
     },
     {
       "temple_id": "TM025328",
@@ -4564,7 +4798,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:32:47.560Z"
+      "extraction_timestamp": "2025-08-28T16:32:47.560Z",
+      "coordinates": {
+        "latitude": 10.9606414,
+        "longitude": 78.0784213,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345693"
+      }
     },
     {
       "temple_id": "TM025705",
@@ -4589,7 +4829,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:34:13.076Z"
+      "extraction_timestamp": "2025-08-28T16:34:13.076Z",
+      "coordinates": {
+        "latitude": 10.8283954,
+        "longitude": 78.6962209,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345694"
+      }
     },
     {
       "temple_id": "TM025726",
@@ -4614,7 +4860,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:34:48.222Z"
+      "extraction_timestamp": "2025-08-28T16:34:48.222Z",
+      "coordinates": {
+        "latitude": 10.8772138,
+        "longitude": 78.7033172,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345695"
+      }
     },
     {
       "temple_id": "TM031992",
@@ -4639,7 +4891,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:36:11.468Z"
+      "extraction_timestamp": "2025-08-28T16:36:11.468Z",
+      "coordinates": {
+        "latitude": 9.9144189,
+        "longitude": 78.1142005,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345696"
+      }
     },
     {
       "temple_id": "TM038106",
@@ -4663,7 +4921,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:28:40.916Z"
+      "extraction_timestamp": "2025-08-28T16:28:40.916Z",
+      "coordinates": {
+        "latitude": 8.4361559,
+        "longitude": 77.5654455,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345697"
+      }
     },
     {
       "temple_id": "TM000094",
@@ -4687,7 +4951,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:32:35.207Z"
+      "extraction_timestamp": "2025-08-28T16:32:35.207Z",
+      "coordinates": {
+        "latitude": 13.1065178,
+        "longitude": 80.2071178,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345698"
+      }
     },
     {
       "temple_id": "TM000095",
@@ -4735,7 +5005,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:36:47.677Z"
+      "extraction_timestamp": "2025-08-28T16:36:47.677Z",
+      "coordinates": {
+        "latitude": 13.0932419,
+        "longitude": 80.2884236,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345699"
+      }
     },
     {
       "temple_id": "TM000283",
@@ -4759,7 +5035,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:37:29.957Z"
+      "extraction_timestamp": "2025-08-28T16:37:29.957Z",
+      "coordinates": {
+        "latitude": 13.07045625,
+        "longitude": 80.1724701,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345700"
+      }
     },
     {
       "temple_id": "TM032296",
@@ -4783,7 +5065,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:28:55.782Z"
+      "extraction_timestamp": "2025-08-28T16:28:55.782Z",
+      "coordinates": {
+        "latitude": 10.1243793,
+        "longitude": 77.5305863,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345701"
+      }
     },
     {
       "temple_id": "TM035745",
@@ -4807,7 +5095,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:30:15.510Z"
+      "extraction_timestamp": "2025-08-28T16:30:15.510Z",
+      "coordinates": {
+        "latitude": 9.3887982,
+        "longitude": 77.4406259,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345702"
+      }
     },
     {
       "temple_id": "TM035878",
@@ -4831,7 +5125,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:31:31.781Z"
+      "extraction_timestamp": "2025-08-28T16:31:31.781Z",
+      "coordinates": {
+        "latitude": 9.5875893,
+        "longitude": 77.9537762,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345703"
+      }
     },
     {
       "temple_id": "TM035905",
@@ -4855,7 +5155,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:31:53.494Z"
+      "extraction_timestamp": "2025-08-28T16:31:53.494Z",
+      "coordinates": {
+        "latitude": 9.3156248,
+        "longitude": 78.7378787,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345704"
+      }
     },
     {
       "temple_id": "TM035964",
@@ -4903,7 +5209,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:36:15.800Z"
+      "extraction_timestamp": "2025-08-28T16:36:15.800Z",
+      "coordinates": {
+        "latitude": 13.0589203,
+        "longitude": 80.1547312,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345705"
+      }
     },
     {
       "temple_id": "TM000483",
@@ -4927,7 +5239,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:29:46.485Z"
+      "extraction_timestamp": "2025-08-28T16:29:46.485Z",
+      "coordinates": {
+        "latitude": 13.087062,
+        "longitude": 80.2044711,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345706"
+      }
     },
     {
       "temple_id": "TM001390",
@@ -4951,7 +5269,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:31:33.260Z"
+      "extraction_timestamp": "2025-08-28T16:31:33.260Z",
+      "coordinates": {
+        "latitude": 12.9223971,
+        "longitude": 79.0230537,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345707"
+      }
     },
     {
       "temple_id": "TM001845",
@@ -4975,7 +5299,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:35:51.100Z"
+      "extraction_timestamp": "2025-08-28T16:35:51.100Z",
+      "coordinates": {
+        "latitude": 12.0663105,
+        "longitude": 78.54222945,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345708"
+      }
     },
     {
       "temple_id": "TM004873",
@@ -5023,7 +5353,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:39:11.085Z"
+      "extraction_timestamp": "2025-08-28T16:39:11.085Z",
+      "coordinates": {
+        "latitude": 11.2223926,
+        "longitude": 78.1644955,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345709"
+      }
     },
     {
       "temple_id": "TM004890",
@@ -5047,7 +5383,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:39:17.919Z"
+      "extraction_timestamp": "2025-08-28T16:39:17.919Z",
+      "coordinates": {
+        "latitude": 11.3726251,
+        "longitude": 77.898059,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345710"
+      }
     },
     {
       "temple_id": "TM004903",
@@ -5071,7 +5413,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:39:37.043Z"
+      "extraction_timestamp": "2025-08-28T16:39:37.043Z",
+      "coordinates": {
+        "latitude": 11.3204195,
+        "longitude": 78.2033403,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345710"
+      }
     },
     {
       "temple_id": "TM010250",
@@ -5095,7 +5443,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:30:29.027Z"
+      "extraction_timestamp": "2025-08-28T16:30:29.027Z",
+      "coordinates": {
+        "latitude": 11.4591887,
+        "longitude": 77.5870475,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345711"
+      }
     },
     {
       "temple_id": "TM018033",
@@ -5119,7 +5473,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:38:23.316Z"
+      "extraction_timestamp": "2025-08-28T16:38:23.316Z",
+      "coordinates": {
+        "latitude": 11.1015689,
+        "longitude": 79.6507124,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345712"
+      }
     },
     {
       "temple_id": "TM018043",
@@ -5143,7 +5503,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:39:13.392Z"
+      "extraction_timestamp": "2025-08-28T16:39:13.392Z",
+      "coordinates": {
+        "latitude": 10.9744819,
+        "longitude": 79.4293805,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345713"
+      }
     },
     {
       "temple_id": "TM004921",
@@ -5167,7 +5533,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:29:05.934Z"
+      "extraction_timestamp": "2025-08-28T16:29:05.934Z",
+      "coordinates": {
+        "latitude": 12.7258203,
+        "longitude": 77.8386419,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345714"
+      }
     },
     {
       "temple_id": "TM009774",
@@ -5191,7 +5563,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:32:24.090Z"
+      "extraction_timestamp": "2025-08-28T16:32:24.090Z",
+      "coordinates": {
+        "latitude": 11.1354135,
+        "longitude": 77.0323481,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345715"
+      }
     },
     {
       "temple_id": "TM009784",
@@ -5215,7 +5593,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:33:35.003Z"
+      "extraction_timestamp": "2025-08-28T16:33:35.003Z",
+      "coordinates": {
+        "latitude": 10.9920339,
+        "longitude": 76.9627869,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345716"
+      }
     },
     {
       "temple_id": "TM009787",
@@ -5239,7 +5623,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:33:57.073Z"
+      "extraction_timestamp": "2025-08-28T16:33:57.073Z",
+      "coordinates": {
+        "latitude": 10.8221777,
+        "longitude": 77.0178971,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345717"
+      }
     },
     {
       "temple_id": "TM009827",
@@ -5263,7 +5653,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:35:30.330Z"
+      "extraction_timestamp": "2025-08-28T16:35:30.330Z",
+      "coordinates": {
+        "latitude": 11.0262239,
+        "longitude": 77.1258076,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345718"
+      }
     },
     {
       "temple_id": "TM009829",
@@ -5287,7 +5683,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:35:44.935Z"
+      "extraction_timestamp": "2025-08-28T16:35:44.935Z",
+      "coordinates": {
+        "latitude": 10.6974383,
+        "longitude": 77.98803675,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345719"
+      }
     },
     {
       "temple_id": "TM010060",
@@ -5311,7 +5713,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:37:03.021Z"
+      "extraction_timestamp": "2025-08-28T16:37:03.021Z",
+      "coordinates": {
+        "latitude": 10.9470754,
+        "longitude": 77.7101823,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345720"
+      }
     },
     {
       "temple_id": "TM010114",
@@ -5335,7 +5743,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:39:46.727Z"
+      "extraction_timestamp": "2025-08-28T16:39:46.727Z",
+      "coordinates": {
+        "latitude": 11.0876863,
+        "longitude": 77.300635,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345721"
+      }
     },
     {
       "temple_id": "TM020383",
@@ -5359,7 +5773,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:30:20.080Z"
+      "extraction_timestamp": "2025-08-28T16:30:20.080Z",
+      "coordinates": {
+        "latitude": 11.785678,
+        "longitude": 79.3652778,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345722"
+      }
     },
     {
       "temple_id": "TM020401",
@@ -5383,7 +5803,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:31:01.981Z"
+      "extraction_timestamp": "2025-08-28T16:31:01.981Z",
+      "coordinates": {
+        "latitude": 11.76389,
+        "longitude": 79.5617669,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345723"
+      }
     },
     {
       "temple_id": "TM020421",
@@ -5431,7 +5857,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:32:33.027Z"
+      "extraction_timestamp": "2025-08-28T16:32:33.027Z",
+      "coordinates": {
+        "latitude": 10.9426961,
+        "longitude": 78.4179227,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345724"
+      }
     },
     {
       "temple_id": "TM025718",
@@ -5455,7 +5887,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:34:40.674Z"
+      "extraction_timestamp": "2025-08-28T16:34:40.674Z",
+      "coordinates": {
+        "latitude": 10.8702582,
+        "longitude": 78.8201315,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345724"
+      }
     },
     {
       "temple_id": "TM032065",
@@ -5479,7 +5917,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:37:21.963Z"
+      "extraction_timestamp": "2025-08-28T16:37:21.963Z",
+      "coordinates": {
+        "latitude": 9.9221302,
+        "longitude": 78.1464172,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345726"
+      }
     },
     {
       "temple_id": "TM032066",
@@ -5503,7 +5947,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:37:29.131Z"
+      "extraction_timestamp": "2025-08-28T16:37:29.131Z",
+      "coordinates": {
+        "latitude": 9.9301383,
+        "longitude": 78.137014,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345727"
+      }
     },
     {
       "temple_id": "TM000181",
@@ -5526,7 +5976,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:34:44.971Z"
+      "extraction_timestamp": "2025-08-28T16:34:44.971Z",
+      "coordinates": {
+        "latitude": 13.0317818,
+        "longitude": 80.2212564,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345728"
+      }
     },
     {
       "temple_id": "TM000366",
@@ -5549,7 +6005,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:39:13.692Z"
+      "extraction_timestamp": "2025-08-28T16:39:13.692Z",
+      "coordinates": {
+        "latitude": 13.0769907,
+        "longitude": 80.2106827,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345730"
+      }
     },
     {
       "temple_id": "TM032289",
@@ -5572,7 +6034,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:28:42.249Z"
+      "extraction_timestamp": "2025-08-28T16:28:42.249Z",
+      "coordinates": {
+        "latitude": 9.8508328,
+        "longitude": 77.5984542,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345731"
+      }
     },
     {
       "temple_id": "TM035845",
@@ -5595,7 +6063,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:31:24.009Z"
+      "extraction_timestamp": "2025-08-28T16:31:24.009Z",
+      "coordinates": {
+        "latitude": 9.3660443,
+        "longitude": 78.8350451,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345732"
+      }
     },
     {
       "temple_id": "TM004865",
@@ -5618,7 +6092,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:37:16.549Z"
+      "extraction_timestamp": "2025-08-28T16:37:16.549Z",
+      "coordinates": {
+        "latitude": 11.60931915,
+        "longitude": 78.40160935,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345732"
+      }
     },
     {
       "temple_id": "TM010228",
@@ -5687,7 +6167,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:30:36.079Z"
+      "extraction_timestamp": "2025-08-28T16:30:36.079Z",
+      "coordinates": {
+        "latitude": 12.17281735,
+        "longitude": 78.77753245,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345734"
+      }
     },
     {
       "temple_id": "TM010272",
@@ -5710,7 +6196,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:31:03.524Z"
+      "extraction_timestamp": "2025-08-28T16:31:03.524Z",
+      "coordinates": {
+        "latitude": 11.4906261,
+        "longitude": 77.1783492,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345734"
+      }
     },
     {
       "temple_id": "TM018013",
@@ -5756,7 +6248,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:29:32.348Z"
+      "extraction_timestamp": "2025-08-28T16:29:32.348Z",
+      "coordinates": {
+        "latitude": 11.6593605,
+        "longitude": 78.1859602,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345736"
+      }
     },
     {
       "temple_id": "TM004994",
@@ -5779,7 +6277,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:30:08.614Z"
+      "extraction_timestamp": "2025-08-28T16:30:08.614Z",
+      "coordinates": {
+        "latitude": 11.3782481,
+        "longitude": 77.8947415,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345736"
+      }
     },
     {
       "temple_id": "TM005006",
@@ -5802,7 +6306,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:30:22.511Z"
+      "extraction_timestamp": "2025-08-28T16:30:22.511Z",
+      "coordinates": {
+        "latitude": 10.9918154,
+        "longitude": 78.0729029,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345737"
+      }
     },
     {
       "temple_id": "TM009789",
@@ -5825,7 +6335,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:34:04.705Z"
+      "extraction_timestamp": "2025-08-28T16:34:04.705Z",
+      "coordinates": {
+        "latitude": 10.9938879,
+        "longitude": 76.9508962,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345738"
+      }
     },
     {
       "temple_id": "TM009794",
@@ -5848,7 +6364,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:34:41.085Z"
+      "extraction_timestamp": "2025-08-28T16:34:41.085Z",
+      "coordinates": {
+        "latitude": 10.8291149,
+        "longitude": 77.1934836,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345739"
+      }
     },
     {
       "temple_id": "TM009832",
@@ -5871,7 +6393,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:35:58.971Z"
+      "extraction_timestamp": "2025-08-28T16:35:58.971Z",
+      "coordinates": {
+        "latitude": 10.5005706,
+        "longitude": 76.8846744,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345740"
+      }
     },
     {
       "temple_id": "TM020368",
@@ -5894,7 +6422,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:29:22.018Z"
+      "extraction_timestamp": "2025-08-28T16:29:22.018Z",
+      "coordinates": {
+        "latitude": 11.5164432,
+        "longitude": 79.3203676,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345741"
+      }
     },
     {
       "temple_id": "TM020547",
@@ -5917,7 +6451,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:31:57.067Z"
+      "extraction_timestamp": "2025-08-28T16:31:57.067Z",
+      "coordinates": {
+        "latitude": 11.7383225,
+        "longitude": 78.9654726,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345742"
+      }
     },
     {
       "temple_id": "TM025260",
@@ -5963,7 +6503,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:33:51.488Z"
+      "extraction_timestamp": "2025-08-28T16:33:51.488Z",
+      "coordinates": {
+        "latitude": 10.697266,
+        "longitude": 78.7021387,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345743"
+      }
     },
     {
       "temple_id": "TM025735",
@@ -5986,7 +6532,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:34:54.955Z"
+      "extraction_timestamp": "2025-08-28T16:34:54.955Z",
+      "coordinates": {
+        "latitude": 10.8979493,
+        "longitude": 78.4852452,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345744"
+      }
     },
     {
       "temple_id": "TM031996",
@@ -6031,7 +6583,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:37:08.670Z"
+      "extraction_timestamp": "2025-08-28T16:37:08.670Z",
+      "coordinates": {
+        "latitude": 13.0986932,
+        "longitude": 80.259614,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345745"
+      }
     },
     {
       "temple_id": "TM035744",
@@ -6075,7 +6633,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:30:35.315Z"
+      "extraction_timestamp": "2025-08-28T16:30:35.315Z",
+      "coordinates": {
+        "latitude": 9.585072,
+        "longitude": 77.949677,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345746"
+      }
     },
     {
       "temple_id": "TM001422",
@@ -6097,7 +6661,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:31:47.224Z"
+      "extraction_timestamp": "2025-08-28T16:31:47.224Z",
+      "coordinates": {
+        "latitude": 12.791469,
+        "longitude": 78.7186434,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345747"
+      }
     },
     {
       "temple_id": "TM010243",
@@ -6119,7 +6689,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:29:43.132Z"
+      "extraction_timestamp": "2025-08-28T16:29:43.132Z",
+      "coordinates": {
+        "latitude": 11.3191719,
+        "longitude": 77.2834737,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345748"
+      }
     },
     {
       "temple_id": "TM025748",
@@ -6141,7 +6717,13 @@
         "has_photos": false,
         "has_hours": false
       },
-      "extraction_timestamp": "2025-08-28T16:35:08.235Z"
+      "extraction_timestamp": "2025-08-28T16:35:08.235Z",
+      "coordinates": {
+        "latitude": 10.8293722,
+        "longitude": 78.6950566,
+        "source": "google_maps_extraction",
+        "extraction_date": "2025-08-29T11:42:04.345749"
+      }
     },
     {
       "temple_id": "TM025798",
