@@ -1346,9 +1346,15 @@
             try {
                 showLoading($('nearby-temples-grid'), 'Loading temple database...');
                 
-                const response = await fetch('./temple_data.json');
+                // Log the URL being fetched for debugging
+                const dataUrl = './temple_data.json';
+                console.log('Fetching temple data from:', dataUrl);
+                console.log('Current page URL:', window.location.href);
+                
+                const response = await fetch(dataUrl);
                 
                 if (!response.ok) {
+                    console.error('Failed to load temple data:', response.status, response.statusText);
                     throw new Error(`HTTP ${response.status}: ${response.statusText}`);
                 }
                 
@@ -1378,8 +1384,8 @@
             } catch (error) {
                 console.error('Failed to load temple data:', error);
                 const errorMessage = error.message.includes('fetch') ? 
-                    'Unable to connect to temple database. Please check your internet connection.' :
-                    `Error loading temple data: ${error.message}`;
+                    'Unable to load temple database. If you are viewing this locally, please run a local server. If online, please refresh the page.' :
+                    `Error loading temple data: ${error.message}. Please refresh the page or try again later.`;
                 
                 showError(errorMessage, $('nearby-temples-grid'));
                 showError(errorMessage, $('tour-circuits-list'));
