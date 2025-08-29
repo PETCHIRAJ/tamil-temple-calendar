@@ -1097,20 +1097,10 @@
         <div class="container">
             <h2 class="section-title" id="festivals-section-title">Festival Calendar</h2>
             <div id="festivals-list">
-                <div class="festival-card">
-                    <div class="festival-date">Today</div>
-                    <div class="festival-name">Thai Pusam</div>
-                    <div class="festival-temples">Celebrated at Murugan temples</div>
-                </div>
-                <div class="festival-card">
-                    <div class="festival-date">Tomorrow</div>
-                    <div class="festival-name">Maha Shivaratri</div>
-                    <div class="festival-temples">Special prayers at all Shiva temples</div>
-                </div>
-                <div class="festival-card">
-                    <div class="festival-date">This Weekend</div>
-                    <div class="festival-name">Panguni Uthiram</div>
-                    <div class="festival-temples">Major celebration at Meenakshi Temple</div>
+                <!-- Festivals will be loaded dynamically -->
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <span>Loading festivals...</span>
                 </div>
             </div>
         </div>
@@ -1408,6 +1398,11 @@
             // Show target screen
             $(screenId).classList.add('active');
             AppState.currentScreen = screenId;
+            
+            // Load content for specific screens
+            if (screenId === 'festivals-screen') {
+                loadFestivals();
+            }
             
             // Update navigation
             document.querySelectorAll('.nav-item').forEach(item => {
@@ -1811,6 +1806,98 @@
             `).join('');
 
             container.innerHTML = circuitHTML;
+        }
+
+        // Festival data for Tamil Nadu temples
+        function loadFestivals() {
+            // Real Tamil Nadu temple festivals for 2025
+            const festivals = [
+                // January 2025
+                { date: '2025-01-14', name: 'Pongal', tamil_name: 'பொங்கல்', temples: 'All temples - Harvest festival', type: 'major' },
+                { date: '2025-01-15', name: 'Thiruvalluvar Day', tamil_name: 'திருவள்ளுவர் திருநாள்', temples: 'Special prayers at all temples', type: 'state' },
+                
+                // February 2025
+                { date: '2025-02-03', name: 'Thai Pusam', tamil_name: 'தைப்பூசம்', temples: 'Grand celebrations at Murugan temples', type: 'major' },
+                { date: '2025-02-26', name: 'Maha Shivaratri', tamil_name: 'மகா சிவராத்திரி', temples: 'Night-long prayers at Shiva temples', type: 'major' },
+                
+                // March 2025
+                { date: '2025-03-14', name: 'Holi', tamil_name: 'ஹோலி', temples: 'Color celebrations at Krishna temples', type: 'festival' },
+                { date: '2025-03-30', name: 'Panguni Uthiram', tamil_name: 'பங்குனி உத்திரம்', temples: 'Divine marriages at major temples', type: 'major' },
+                
+                // April 2025
+                { date: '2025-04-14', name: 'Tamil New Year', tamil_name: 'தமிழ் புத்தாண்டு', temples: 'Special poojas at all temples', type: 'major' },
+                { date: '2025-04-21', name: 'Ram Navami', tamil_name: 'ராம நவமி', temples: 'Celebrations at Rama temples', type: 'festival' },
+                
+                // May 2025
+                { date: '2025-05-12', name: 'Akshaya Tritiya', tamil_name: 'அக்ஷய திருதியை', temples: 'Auspicious day at all temples', type: 'festival' },
+                { date: '2025-05-26', name: 'Vaikasi Visakam', tamil_name: 'வைகாசி விசாகம்', temples: 'Murugan temples special celebrations', type: 'major' },
+                
+                // June 2025
+                { date: '2025-06-11', name: 'Ani Thirumanjanam', tamil_name: 'ஆனி திருமஞ்சனம்', temples: 'Nataraja abhishekam at Chidambaram', type: 'festival' },
+                
+                // July 2025
+                { date: '2025-07-16', name: 'Aadi Perukku', tamil_name: 'ஆடிப்பெருக்கு', temples: 'River worship at temple ghats', type: 'festival' },
+                { date: '2025-07-25', name: 'Aadi Pooram', tamil_name: 'ஆடிப்பூரம்', temples: 'Amman temple celebrations', type: 'major' },
+                
+                // August 2025
+                { date: '2025-08-16', name: 'Krishna Jayanthi', tamil_name: 'கிருஷ்ண ஜயந்தி', temples: 'Krishna temple midnight celebrations', type: 'major' },
+                { date: '2025-08-27', name: 'Vinayaka Chaturthi', tamil_name: 'விநாயக சதுர்த்தி', temples: 'Ganesha temple special poojas', type: 'major' },
+                
+                // September 2025
+                { date: '2025-09-21', name: 'Mahalaya Amavasya', tamil_name: 'மகாளய அமாவாசை', temples: 'Ancestor worship at temples', type: 'festival' },
+                { date: '2025-09-29', name: 'Navaratri Begins', tamil_name: 'நவராத்திரி', temples: 'Nine nights of Devi worship', type: 'major' },
+                
+                // October 2025
+                { date: '2025-10-08', name: 'Vijayadashami', tamil_name: 'விஜயதசமி', temples: 'Saraswati pooja and Ayudha pooja', type: 'major' },
+                { date: '2025-10-20', name: 'Deepavali', tamil_name: 'தீபாவளி', temples: 'Festival of lights at all temples', type: 'major' },
+                
+                // November 2025
+                { date: '2025-11-05', name: 'Skanda Sashti', tamil_name: 'கந்த சஷ்டி', temples: 'Six-day festival at Murugan temples', type: 'major' },
+                { date: '2025-11-15', name: 'Karthigai Deepam', tamil_name: 'கார்த்திகை தீபம்', temples: 'Lighting lamps at all temples', type: 'major' },
+                
+                // December 2025
+                { date: '2025-12-11', name: 'Vaikunta Ekadasi', tamil_name: 'வைகுண்ட ஏகாதசி', temples: 'Paradise gates open at Vishnu temples', type: 'major' },
+                { date: '2025-12-26', name: 'Thiruvadhirai', tamil_name: 'திருவாதிரை', temples: 'Nataraja cosmic dance at Shiva temples', type: 'festival' }
+            ];
+            
+            // Get current date
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+            
+            // Filter and sort upcoming festivals
+            const upcomingFestivals = festivals
+                .filter(f => new Date(f.date) >= today)
+                .sort((a, b) => new Date(a.date) - new Date(b.date))
+                .slice(0, 10); // Show next 10 festivals
+            
+            // Generate festival cards
+            const container = $('festivals-list');
+            let festivalHTML = '';
+            
+            upcomingFestivals.forEach(festival => {
+                const festivalDate = new Date(festival.date);
+                const daysUntil = Math.ceil((festivalDate - today) / (1000 * 60 * 60 * 24));
+                
+                let dateLabel = '';
+                if (daysUntil === 0) dateLabel = 'Today';
+                else if (daysUntil === 1) dateLabel = 'Tomorrow';
+                else if (daysUntil <= 7) dateLabel = `In ${daysUntil} days`;
+                else if (daysUntil <= 30) dateLabel = `In ${Math.floor(daysUntil / 7)} weeks`;
+                else dateLabel = festivalDate.toLocaleDateString('en-IN', { month: 'short', day: 'numeric' });
+                
+                const displayName = AppState.currentLanguage === 'ta' ? festival.tamil_name : festival.name;
+                
+                festivalHTML += `
+                    <div class="festival-card ${festival.type === 'major' ? 'major-festival' : ''}">
+                        <div class="festival-date">${dateLabel} - ${festivalDate.toLocaleDateString('en-IN', { weekday: 'short', month: 'short', day: 'numeric' })}</div>
+                        <div class="festival-name ${AppState.currentLanguage === 'ta' ? 'tamil' : ''}">${displayName}</div>
+                        <div class="festival-temples">${festival.temples}</div>
+                        ${festival.type === 'major' ? '<span class="badge" style="background: var(--primary-saffron); color: white; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.75rem; display: inline-block; margin-top: 0.5rem;">Major Festival</span>' : ''}
+                    </div>
+                `;
+            });
+            
+            container.innerHTML = festivalHTML || '<p style="text-align: center; color: var(--text-secondary);">No upcoming festivals found</p>';
         }
 
         function showTourDetail(circuitId) {
