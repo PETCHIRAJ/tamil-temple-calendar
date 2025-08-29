@@ -1854,6 +1854,9 @@
                     .slice(0, circuit.total_temples || 8);
             }
 
+            // Store temples in circuit for navigation
+            circuit.temples = relevantTemples;
+            
             if (relevantTemples.length > 0) {
                 let templesHTML = '';
                 relevantTemples.forEach((temple, index) => {
@@ -1897,9 +1900,37 @@
 
         function startCircuit() {
             const circuit = AppState.currentCircuit;
-            if (!circuit) return;
+            if (!circuit || !circuit.temples || circuit.temples.length === 0) {
+                alert('No temples available in this circuit');
+                return;
+            }
 
-            alert(`Starting ${circuit.name} circuit. This feature will be available in the full version.`);
+            // Get temples with GPS coordinates
+            const navigableTemples = circuit.temples.filter(t => t.latitude && t.longitude);
+            
+            if (navigableTemples.length === 0) {
+                alert('Sorry, navigation is not available for temples in this circuit yet. Location data coming soon!');
+                return;
+            }
+
+            // Create Google Maps directions URL with multiple waypoints
+            let mapsUrl = 'https://www.google.com/maps/dir/';
+            
+            // Add current location as starting point
+            if (AppState.userLocation) {
+                mapsUrl += `${AppState.userLocation.lat},${AppState.userLocation.lng}/`;
+            }
+            
+            // Add all temple waypoints
+            navigableTemples.forEach(temple => {
+                mapsUrl += `${temple.latitude},${temple.longitude}/`;
+            });
+            
+            // Open Google Maps with the circuit route
+            window.open(mapsUrl, '_blank');
+            
+            // Show confirmation
+            showToast(`Opening ${circuit.name} route in Google Maps`, 'success');
         }
 
         // Search Functionality
