@@ -913,7 +913,7 @@
                 <div class="action-card" id="nearest-action">
                     <i class="fas fa-location-arrow"></i>
                     <h3 id="nearest-title">Nearest Temples</h3>
-                    <p id="nearest-desc">Find temples near your location</p>
+                    <p id="nearest-desc">Discover 588 Tamil Nadu temples (127 with navigation)</p>
                 </div>
                 <div class="action-card" id="map-action">
                     <i class="fas fa-map"></i>
@@ -966,7 +966,7 @@
             <!-- Filters -->
             <div class="filters">
                 <button class="filter-btn active" data-filter="all">All Temples</button>
-                <button class="filter-btn" data-filter="location">Navigation Available</button>
+                <button class="filter-btn" data-filter="location">With Location 📍</button>
                 <button class="filter-btn" data-filter="shiva">Shiva</button>
                 <button class="filter-btn" data-filter="vishnu">Vishnu</button>
                 <button class="filter-btn" data-filter="hanuman">Hanuman</button>
@@ -1213,7 +1213,7 @@
                 'hero-title': 'Discover Sacred Temples',
                 'hero-subtitle': 'Find temples, plan pilgrimages, and explore Tamil Nadu\'s spiritual heritage',
                 'nearest-title': 'Nearest Temples',
-                'nearest-desc': 'Find temples near your location',
+                'nearest-desc': 'Discover 588 Tamil Nadu temples (127 with navigation)',
                 'map-title': 'Temple Map',
                 'map-desc': 'Explore temples on interactive map',
                 'tours-title': 'Tour Circuits',
@@ -1425,7 +1425,7 @@
             const hasLocation = temple.latitude && temple.longitude;
             const locationIndicator = hasLocation ? 
                 '<span class="location-indicator location-available"><i class="fas fa-navigation"></i> Navigation</span>' :
-                '<span class="location-indicator location-unavailable"><i class="fas fa-map-pin"></i> No Navigation</span>';
+                '<span class="location-indicator location-unavailable"><i class="fas fa-times-circle"></i> No Location</span>';
 
             // Determine current display name based on language setting
             const displayName = AppState.currentLanguage === 'ta' && temple.tamil_name ? temple.tamil_name : temple.name;
@@ -1603,8 +1603,43 @@
             // Update location status
             const hasLocation = temple.latitude && temple.longitude;
             $('temple-location-status').innerHTML = hasLocation ?
-                '<div class="location-indicator location-available"><i class="fas fa-navigation"></i> Navigation Available</div>' :
-                '<div class="location-indicator location-unavailable"><i class="fas fa-map-pin"></i> Navigation Not Available</div>';
+                '<div class="location-indicator location-available"><i class="fas fa-map-marker-alt"></i> Location Available</div>' :
+                '<div class="location-indicator location-unavailable"><i class="fas fa-times-circle"></i> No Location Available - Coming Soon</div>';
+            
+            // Show/hide action buttons based on data availability
+            const navigateBtn = $('navigate-btn');
+            const callBtn = $('call-btn');
+            const actionsContainer = document.querySelector('.temple-actions-detail');
+            
+            // Show/hide navigation button
+            if (hasLocation) {
+                navigateBtn.style.display = 'flex';
+            } else {
+                navigateBtn.style.display = 'none';
+            }
+            
+            // Show/hide call button
+            if (temple.gm_phone) {
+                callBtn.style.display = 'flex';
+                callBtn.innerHTML = '<i class="fas fa-phone"></i> Call Temple';
+            } else {
+                callBtn.style.display = 'flex';
+                callBtn.innerHTML = '<i class="fas fa-phone"></i> No Phone';
+                callBtn.style.opacity = '0.5';
+                callBtn.style.cursor = 'not-allowed';
+            }
+            
+            // Adjust grid based on visible buttons
+            const buttonsVisible = (hasLocation ? 1 : 0) + (temple.gm_phone ? 1 : 0);
+            if (actionsContainer) {
+                if (buttonsVisible === 2) {
+                    actionsContainer.style.gridTemplateColumns = '1fr 1fr';
+                } else if (buttonsVisible === 1) {
+                    actionsContainer.style.gridTemplateColumns = '1fr';
+                } else {
+                    actionsContainer.style.display = 'none';
+                }
+            }
 
             // Show Tamil name if available
             if (temple.tamil_name && temple.tamil_name !== temple.name + ' கோவில்') {
@@ -1715,7 +1750,7 @@
         function navigateToTemple() {
             const temple = AppState.currentTemple;
             if (!temple || !temple.latitude || !temple.longitude) {
-                alert('GPS navigation not available for this temple');
+                alert('Location not available for this temple');
                 return;
             }
 
@@ -1726,7 +1761,7 @@
         function callTemple() {
             const temple = AppState.currentTemple;
             if (!temple || !temple.gm_phone) {
-                alert('Phone number not available for this temple');
+                alert('Contact information not available for this temple yet. Please check back later.');
                 return;
             }
 
@@ -1830,7 +1865,7 @@
                                     ${temple.deity_type ? `<span style="text-transform: capitalize;">${temple.deity_type}</span>` : ''}
                                 </div>
                                 <div style="margin-top: 0.25rem; display: flex; gap: 0.5rem; align-items: center;">
-                                    ${hasLocation ? '<span class="location-indicator location-available" style="font-size: 0.7rem; padding: 0.125rem 0.25rem;"><i class="fas fa-navigation"></i> Navigation</span>' : ''}
+                                    ${hasLocation ? '<span class="location-indicator location-available" style="font-size: 0.7rem; padding: 0.125rem 0.25rem;"><i class="fas fa-map-marker-alt"></i> Location</span>' : '<span class="location-indicator location-unavailable" style="font-size: 0.7rem; padding: 0.125rem 0.25rem;"><i class="fas fa-times-circle"></i> No Location</span>'}
                                     ${temple.gm_phone ? '<span style="color: var(--success-green); font-size: 0.7rem;"><i class="fas fa-phone"></i> Call</span>' : ''}
                                 </div>
                             </div>
