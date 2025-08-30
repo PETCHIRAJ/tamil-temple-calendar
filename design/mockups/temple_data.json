@@ -8146,112 +8146,132 @@
     {
       "id": "TOUR_001",
       "name": "Thiruchendur Murugan Temple",
-      "district": "Tamil Nadu",
+      "district": "Thoothukudi District",
       "latitude": 8.4949705,
       "longitude": 78.1246663,
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "other",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "location": "Thiruchendur, Thoothukudi District",
+      "gm_address": "Thiruchendur, Thoothukudi District - 628215"
     },
     {
       "id": "TOUR_002",
       "name": "Swamimalai Murugan Temple",
-      "district": "Tamil Nadu",
+      "district": "Thanjavur District",
       "latitude": 10.9569023,
       "longitude": 79.3259582,
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "other",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "location": "Swamimalai, Kumbakonam, Thanjavur District",
+      "gm_address": "Swamimalai, Kumbakonam, Thanjavur District - 612302"
     },
     {
       "id": "TOUR_003",
       "name": "Thiruthani Murugan Temple",
-      "district": "Tamil Nadu",
+      "district": "Tiruvallur District",
       "latitude": 13.1717412,
       "longitude": 79.6038859,
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "other",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "location": "Thiruthani, Tiruvallur District",
+      "gm_address": "Thiruthani, Tiruvallur District - 631209"
     },
     {
       "id": "TOUR_004",
       "name": "Pazhamudircholai Murugan Temple",
-      "district": "Tamil Nadu",
+      "district": "Madurai District",
       "latitude": 10.0942972,
       "longitude": 78.2233107,
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "other",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "location": "Pazhamudircholai, Madurai District",
+      "gm_address": "Pazhamudircholai, Madurai District - 625107"
     },
     {
       "id": "TOUR_005",
       "name": "Palani Murugan Temple",
-      "district": "Tamil Nadu",
+      "district": "Dindigul District",
       "latitude": 10.4444456,
       "longitude": 77.5184126,
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "other",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "location": "Palani, Dindigul District",
+      "gm_address": "Palani, Dindigul District - 624601"
     },
     {
       "id": "TOUR_006",
       "name": "Nataraja Temple Chidambaram",
-      "district": "Tamil Nadu",
+      "district": "Cuddalore District",
       "latitude": 11.400341,
       "longitude": 79.6931503,
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "other",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "location": "Chidambaram, Cuddalore District",
+      "gm_address": "Chidambaram, Cuddalore District - 608001"
     },
     {
       "id": "TOUR_007",
       "name": "Suryanar Kovil",
-      "district": "Tamil Nadu",
+      "district": "Thanjavur District",
       "latitude": 11.0308795,
       "longitude": 79.478381,
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "other",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "location": "Suryanar Kovil, Kumbakonam, Thanjavur District",
+      "gm_address": "Suryanar Kovil, Kumbakonam, Thanjavur District - 612702"
     },
     {
       "id": "TOUR_008",
       "name": "Thingalur Chandran Temple",
-      "district": "Tamil Nadu",
+      "district": "Thanjavur District",
       "latitude": 10.8976088,
       "longitude": 79.1304245,
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "other",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "location": "Thingalur, Thanjavur District",
+      "gm_address": "Thingalur, Thanjavur District - 612204"
     },
     {
       "id": "TOUR_009",
       "name": "Vaitheeswaran Kovil",
-      "district": "Tamil Nadu",
+      "district": "Mayiladuthurai District",
       "latitude": 11.1970953,
       "longitude": 79.7122801,
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "other",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "location": "Vaitheeswaran Kovil, Mayiladuthurai District",
+      "gm_address": "Vaitheeswaran Kovil, Mayiladuthurai District - 609117"
     },
     {
       "id": "TOUR_010",
       "name": "Thiruvenkadu Budhan Temple",
-      "district": "Tamil Nadu",
+      "district": "Mayiladuthurai District",
       "latitude": 11.1758562,
       "longitude": 79.8091007,
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "other",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "location": "Thiruvenkadu, Mayiladuthurai District",
+      "gm_address": "Thiruvenkadu, Mayiladuthurai District - 609115"
     },
     {
       "id": "TM090001",
@@ -8263,11 +8283,21 @@
       "latitude": 10.95,
       "longitude": 79.62,
       "location": "Alangudi, Tiruvarur District",
-      "special_features": ["One of the nine Navagraha temples", "Dedicated to Jupiter (Guru)", "Lord Guru worshipped as Dakshinamurthy", "16km from Kumbakonam"],
+      "special_features": [
+        "One of the nine Navagraha temples",
+        "Dedicated to Jupiter (Guru)",
+        "Lord Guru worshipped as Dakshinamurthy",
+        "16km from Kumbakonam"
+      ],
       "timings": "6:00 AM - 1:00 PM, 4:00 PM - 8:45 PM",
-      "festivals": ["Guru Peyarchi", "Brahmotsavam in Chithirai", "Skanda Sashti"],
+      "festivals": [
+        "Guru Peyarchi",
+        "Brahmotsavam in Chithirai",
+        "Skanda Sashti"
+      ],
       "data_quality": "enhanced",
-      "is_tour_temple": 1
+      "is_tour_temple": 1,
+      "gm_address": "Alangudi, Tiruvarur District - 612801"
     },
     {
       "id": "TM090002",
@@ -8279,11 +8309,21 @@
       "latitude": 10.84,
       "longitude": 79.56,
       "location": "Kanjanur, Thanjavur District",
-      "special_features": ["One of the nine Navagraha temples", "Dedicated to Venus (Sukran)", "18km from Kumbakonam", "2km from Suryanar Kovil"],
+      "special_features": [
+        "One of the nine Navagraha temples",
+        "Dedicated to Venus (Sukran)",
+        "18km from Kumbakonam",
+        "2km from Suryanar Kovil"
+      ],
       "timings": "6:00 AM - 12:30 PM, 4:00 PM - 8:30 PM",
-      "festivals": ["Sukra Peyarchi", "Panguni Uthiram", "Maha Shivaratri"],
+      "festivals": [
+        "Sukra Peyarchi",
+        "Panguni Uthiram",
+        "Maha Shivaratri"
+      ],
       "data_quality": "enhanced",
-      "is_tour_temple": 1
+      "is_tour_temple": 1,
+      "gm_address": "Kanjanur, Thanjavur District - 612703"
     },
     {
       "id": "TM090003",
@@ -8295,11 +8335,21 @@
       "latitude": 10.93,
       "longitude": 79.82,
       "location": "Thirunallar, Karaikal, Puducherry",
-      "special_features": ["One of the nine Navagraha temples", "Most famous Saturn temple", "Sani Peyarchi celebrations", "48km from Kumbakonam"],
+      "special_features": [
+        "One of the nine Navagraha temples",
+        "Most famous Saturn temple",
+        "Sani Peyarchi celebrations",
+        "48km from Kumbakonam"
+      ],
       "timings": "6:00 AM - 1:00 PM, 4:00 PM - 9:00 PM",
-      "festivals": ["Sani Peyarchi", "Thai Poosam", "Maha Shivaratri"],
+      "festivals": [
+        "Sani Peyarchi",
+        "Thai Poosam",
+        "Maha Shivaratri"
+      ],
       "data_quality": "enhanced",
-      "is_tour_temple": 1
+      "is_tour_temple": 1,
+      "gm_address": "Thirunallar, Karaikal, Puducherry - 609607"
     },
     {
       "id": "TM090004",
@@ -8311,11 +8361,21 @@
       "latitude": 10.89,
       "longitude": 79.42,
       "location": "Thirunageswaram, Thanjavur District",
-      "special_features": ["One of the nine Navagraha temples", "Dedicated to Rahu", "5km from Kumbakonam", "Milk Abhishekam turns blue"],
+      "special_features": [
+        "One of the nine Navagraha temples",
+        "Dedicated to Rahu",
+        "5km from Kumbakonam",
+        "Milk Abhishekam turns blue"
+      ],
       "timings": "6:00 AM - 12:30 PM, 4:00 PM - 8:30 PM",
-      "festivals": ["Rahu Kala Pooja", "Naga Panchami", "Aadi Amavasya"],
+      "festivals": [
+        "Rahu Kala Pooja",
+        "Naga Panchami",
+        "Aadi Amavasya"
+      ],
       "data_quality": "enhanced",
-      "is_tour_temple": 1
+      "is_tour_temple": 1,
+      "gm_address": "Thirunageswaram, Kumbakonam, Thanjavur District - 612204"
     },
     {
       "id": "TM090005",
@@ -8327,11 +8387,21 @@
       "latitude": 11.16,
       "longitude": 79.85,
       "location": "Keezhperumpallam, near Poompuhar",
-      "special_features": ["One of the nine Navagraha temples", "Dedicated to Ketu", "2km from Poompuhar", "Near Bay of Bengal"],
+      "special_features": [
+        "One of the nine Navagraha temples",
+        "Dedicated to Ketu",
+        "2km from Poompuhar",
+        "Near Bay of Bengal"
+      ],
       "timings": "6:00 AM - 12:30 PM, 4:00 PM - 8:30 PM",
-      "festivals": ["Ketu Peyarchi", "Naga Chaturthi", "Garuda Sevai"],
+      "festivals": [
+        "Ketu Peyarchi",
+        "Naga Chaturthi",
+        "Garuda Sevai"
+      ],
       "data_quality": "enhanced",
-      "is_tour_temple": 1
+      "is_tour_temple": 1,
+      "gm_address": "Keezhperumpallam, Poompuhar, Mayiladuthurai District - 609115"
     }
   ]
 }

@@ -2477,7 +2477,10 @@
             `;
         }
 
-        function loadNearbyTemples() {
+        // Track how many temples are shown
+        let nearbyTemplesShown = 50; // Start with 50 for performance
+        
+        function loadNearbyTemples(loadAll = false) {
             const container = $('nearby-temples-grid');
             
             if (AppState.temples.length === 0) {
@@ -2503,22 +2506,53 @@
                     .sort((a, b) => a.distance - b.distance);
             }
 
-            // Show first 6 temples
+            // Show temples based on current limit
+            const templesToShow = loadAll ? nearbyTemples.length : nearbyTemplesShown;
             const templeHTML = nearbyTemples
-                .slice(0, 6)
+                .slice(0, templesToShow)
                 .map(temple => createTempleCard(temple))
                 .join('');
 
             container.innerHTML = templeHTML;
+            
+            // Add Load More button if there are more temples
+            if (templesToShow < nearbyTemples.length) {
+                const remaining = nearbyTemples.length - templesToShow;
+                const loadMoreText = AppState.currentLanguage === 'ta' ? 
+                    `மேலும் ${remaining} கோயில்களை காண்க` : 
+                    `Load ${remaining} More Temples`;
+                container.innerHTML += `
+                    <div style="grid-column: 1 / -1; text-align: center; margin-top: 2rem;">
+                        <button onclick="loadMoreNearbyTemples()" class="btn-primary" style="padding: 0.75rem 2rem;">
+                            <i class="fas fa-plus-circle"></i> ${loadMoreText}
+                        </button>
+                    </div>
+                `;
+            }
+            
+            console.log(`Displaying ${templesToShow} of ${nearbyTemples.length} temples`);
+        }
+        
+        function loadMoreNearbyTemples() {
+            nearbyTemplesShown += 50; // Load 50 more each time
+            loadNearbyTemples();
         }
 
-        function loadDiscoveryTemples() {
+        // Track how many discovery temples are shown
+        let discoveryTemplesShown = 50;
+        
+        function loadDiscoveryTemples(reset = true) {
             const container = $('discovery-temples-grid');
             const activeFilterBtn = document.querySelector('.filter-btn.active');
             
             if (!activeFilterBtn) {
                 showError('Filter selection error', container);
                 return;
+            }
+            
+            // Reset count if filter changed
+            if (reset) {
+                discoveryTemplesShown = 50;
             }
             
             const activeFilter = activeFilterBtn.dataset.filter;
@@ -2531,7 +2565,24 @@
                     filteredTemples = filteredTemples.filter(temple => 
                         temple.latitude && temple.longitude
                     );
+                } else if (activeFilter === 'murugan') {
+                    // Special handling for Murugan temples (many are marked as "other")
+                    filteredTemples = filteredTemples.filter(temple => 
+                        temple.deity_type === 'murugan' || 
+                        (temple.name && (temple.name.toLowerCase().includes('murugan') || 
+                                       temple.name.toLowerCase().includes('subramani') ||
+                                       temple.name.toLowerCase().includes('karthikeya') ||
+                                       temple.name.toLowerCase().includes('andavar')))
+                    );
+                } else if (activeFilter === 'hanuman') {
+                    // Special handling for Hanuman temples
+                    filteredTemples = filteredTemples.filter(temple => 
+                        temple.deity_type === 'hanuman' || 
+                        (temple.name && (temple.name.toLowerCase().includes('hanuman') || 
+                                       temple.name.toLowerCase().includes('anjaneya')))
+                    );
                 } else {
+                    // Standard deity filter
                     filteredTemples = filteredTemples.filter(temple => 
                         temple.deity_type === activeFilter
                     );
@@ -2554,14 +2605,38 @@
                     .sort((a, b) => a.distance - b.distance);
             }
 
+            // Show temples based on current limit
+            const templesToShow = Math.min(discoveryTemplesShown, filteredTemples.length);
             const templeHTML = filteredTemples
-                .slice(0, 50) // Limit to 50 temples for performance
+                .slice(0, templesToShow)
                 .map(temple => createTempleCard(temple))
                 .join('');
 
             container.innerHTML = templeHTML || '<div class="text-center" style="padding: 3rem;">No temples found matching your criteria.</div>';
+            
+            // Add Load More button if there are more temples
+            if (templesToShow < filteredTemples.length) {
+                const remaining = filteredTemples.length - templesToShow;
+                const loadMoreText = AppState.currentLanguage === 'ta' ? 
+                    `மேலும் ${remaining} கோயில்களை காண்க` : 
+                    `Load ${remaining} More Temples`;
+                container.innerHTML += `
+                    <div style="grid-column: 1 / -1; text-align: center; margin-top: 2rem;">
+                        <button onclick="loadMoreDiscoveryTemples()" class="btn-primary" style="padding: 0.75rem 2rem;">
+                            <i class="fas fa-plus-circle"></i> ${loadMoreText}
+                        </button>
+                    </div>
+                `;
+            }
+            
+            console.log(`Displaying ${templesToShow} of ${filteredTemples.length} filtered temples`);
         }
 
+        function loadMoreDiscoveryTemples() {
+            discoveryTemplesShown += 50; // Load 50 more each time
+            loadDiscoveryTemples(false); // Don't reset count
+        }
+        
         // Temple Detail View
         function showTempleDetail(templeId) {
             const temple = AppState.temples.find(t => t.id === templeId);
@@ -3700,9 +3775,10 @@
             });
 
             // Add temple markers
+            // Show ALL temples with GPS on map
             const templesToShow = AppState.temples.filter(temple => 
                 temple.latitude && temple.longitude
-            ).slice(0, 100); // Limit for performance
+            ); // No limit - show all temples with GPS!
 
             templesToShow.forEach(temple => {
                 L.marker([temple.latitude, temple.longitude])

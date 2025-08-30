@@ -522,6 +522,14 @@
       "tiruvallur_district": {
         "en": "Tiruvallur District",
         "ta": "திருவள்ளூர் மாவட்டம்"
+      },
+      "tiruvarur_district": {
+        "en": "Tiruvarur District",
+        "ta": "திருவாரூர் மாவட்டம்"
+      },
+      "thiruchirappalli_district": {
+        "en": "Tiruchirappalli District",
+        "ta": "திருச்சிராப்பள்ளி மாவட்டம்"
       }
     },
     "deity_types": {
