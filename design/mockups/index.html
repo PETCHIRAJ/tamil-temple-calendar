@@ -1363,6 +1363,16 @@
                     loadFestivals('all');
                 }
             }
+            
+            // Refresh tour circuits if on tours screen
+            if (AppState.currentScreen === 'tours-screen') {
+                loadTourCircuits();
+            }
+            
+            // Refresh tour detail if showing
+            if (AppState.currentScreen === 'tour-detail-screen' && AppState.currentCircuit) {
+                showTourDetail(AppState.currentCircuit.id);
+            }
         }
         
         // Update all UI strings based on current language
