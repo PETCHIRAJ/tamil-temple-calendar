@@ -2324,8 +2324,7 @@
             // Filter and sort upcoming festivals
             const upcomingFestivals = festivals
                 .filter(f => new Date(f.date) >= today)
-                .sort((a, b) => new Date(a.date) - new Date(b.date))
-                .slice(0, 10); // Show next 10 festivals
+                .sort((a, b) => new Date(a.date) - new Date(b.date)); // Show all festivals, no limit
             
             // Update festival count with localized text
             let countText;
@@ -2433,8 +2432,20 @@
                     badge = `<span class="badge" style="background: #607D8B; color: white;">${badgeText}</span>`;
                 }
                 
+                // Get border color based on festival type
+                let borderColor = 'var(--primary-saffron)'; // default
+                if (festival.type === 'pradosham') {
+                    borderColor = '#9C27B0';
+                } else if (festival.type === 'ekadashi') {
+                    borderColor = '#2196F3';
+                } else if (festival.type === 'pournami') {
+                    borderColor = '#FFC107';
+                } else if (festival.type === 'amavasya') {
+                    borderColor = '#607D8B';
+                }
+                
                 festivalHTML += `
-                    <div class="festival-card ${festival.type === 'major' ? 'major-festival' : ''}">
+                    <div class="festival-card ${festival.type === 'major' ? 'major-festival' : ''}" style="border-left-color: ${borderColor};">
                         <div class="festival-date">${dateDisplay}</div>
                         <div class="festival-name ${AppState.currentLanguage === 'ta' ? 'tamil' : ''}">${displayName}</div>
                         <div class="festival-temples">${templeDescription}</div>
