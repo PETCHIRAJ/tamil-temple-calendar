@@ -897,9 +897,7 @@
                     <i class="fas fa-language"></i>
                     <span id="lang-text">தமிழ்</span>
                 </button>
-                <button class="btn btn-ghost" id="location-btn">
-                    <i class="fas fa-location-dot"></i>
-                </button>
+<!-- Location button removed - auto-fetching location instead -->
             </div>
         </div>
     </header>
@@ -1126,60 +1124,7 @@
         </div>
     </div>
 
-    <!-- Settings Screen -->
-    <div id="settings-screen" class="screen">
-        <div class="container">
-            <h2 class="section-title" id="settings-section-title">Settings</h2>
-            
-            <div class="settings-section">
-                <h3 id="language-region-title">Language & Region</h3>
-                <div class="settings-item">
-                    <div>
-                        <div id="app-language-title">App Language</div>
-                        <small id="tamil-english-subtitle">Tamil / English</small>
-                    </div>
-                    <div class="toggle" id="language-setting">
-                        <div class="toggle-slider"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="settings-section">
-                <h3 id="location-navigation-title">Location & Navigation</h3>
-                <div class="settings-item">
-                    <div>
-                        <div id="location-services-title">Location Services</div>
-                        <small id="find-nearby-temples-subtitle">Find nearby temples</small>
-                    </div>
-                    <div class="toggle active" id="location-setting">
-                        <div class="toggle-slider"></div>
-                    </div>
-                </div>
-                <div class="settings-item">
-                    <div>
-                        <div id="gps-navigation-title">GPS Navigation</div>
-                        <small id="open-in-maps-subtitle">Open in Google Maps</small>
-                    </div>
-                    <div class="toggle active" id="navigation-setting">
-                        <div class="toggle-slider"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="settings-section">
-                <h3 id="notifications-title">Notifications</h3>
-                <div class="settings-item">
-                    <div>
-                        <div id="festival-alerts-title">Festival Alerts</div>
-                        <small id="upcoming-festivals-subtitle">Upcoming temple festivals</small>
-                    </div>
-                    <div class="toggle active" id="festival-notifications">
-                        <div class="toggle-slider"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- Settings Screen removed - language toggle in header is sufficient -->
 
     <!-- Bottom Navigation -->
     <nav class="bottom-nav">
@@ -1199,10 +1144,7 @@
             <i class="fas fa-calendar"></i>
             <span id="nav-festivals">Festivals</span>
         </a>
-        <a href="#" class="nav-item" data-screen="settings-screen">
-            <i class="fas fa-cog"></i>
-            <span id="nav-settings">Settings</span>
-        </a>
+        <!-- Settings tab removed - language toggle in header is sufficient -->
     </nav>
 
     <!-- Scripts -->
@@ -1718,11 +1660,9 @@
             return translated || (deityType.charAt(0).toUpperCase() + deityType.slice(1));
         }
         
-        // Location Services
-        function requestLocation() {
+        // Auto-fetch location on load
+        function autoFetchLocation() {
             if ('geolocation' in navigator) {
-                $('location-btn').innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
-                
                 navigator.geolocation.getCurrentPosition(
                     (position) => {
                         AppState.userLocation = {
@@ -1730,16 +1670,16 @@
                             lng: position.coords.longitude
                         };
                         AppState.currentLocation = AppState.userLocation;
-                        $('location-btn').innerHTML = '<i class="fas fa-location-dot"></i>';
-                        $('location-btn').style.color = 'var(--success-green)';
                         
-                        // Refresh nearby temples
+                        // Refresh temples with actual location
                         loadNearbyTemples();
+                        if (AppState.currentScreen === 'discovery-screen') {
+                            loadDiscoveryTemples();
+                        }
                     },
                     (error) => {
-                        console.warn('Location access denied:', error);
-                        $('location-btn').innerHTML = '<i class="fas fa-location-slash"></i>';
-                        $('location-btn').style.color = 'var(--error-red)';
+                        console.log('Using default Chennai location');
+                        // Continue with default location silently
                     }
                 );
             }
@@ -2920,8 +2860,7 @@
                 updateLanguage(newLang);
             });
 
-            // Location button
-            $('location-btn').addEventListener('click', requestLocation);
+            // Location button removed - auto-fetching instead
 
             // Navigation
             document.querySelectorAll('.nav-item').forEach(item => {
@@ -2988,6 +2927,9 @@
                 const savedLang = localStorage.getItem('preferred-language') || 'en';
                 AppState.currentLanguage = savedLang;
                 updateLanguage(savedLang);
+                
+                // Auto-fetch user location in background
+                autoFetchLocation();
                 
                 // Initialize event listeners
                 initializeEventListeners();
