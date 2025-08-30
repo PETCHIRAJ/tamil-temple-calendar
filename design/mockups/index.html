@@ -233,6 +233,111 @@
             box-shadow: var(--shadow-hover);
         }
 
+        /* Temple List Preview Styles */
+        .temple-list-preview {
+            background: var(--card-white);
+            border-radius: 16px;
+            padding: 1.5rem;
+            box-shadow: var(--shadow);
+            margin-bottom: 2rem;
+        }
+
+        .temple-list-preview h3 {
+            color: var(--primary-saffron);
+            margin: 0 0 1.5rem 0;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        .temples-container {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .temple-card-mini {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 12px;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: all 0.2s ease;
+        }
+
+        .temple-card-mini[onclick]:hover {
+            background: #fff;
+            border-color: var(--primary-saffron);
+            transform: translateY(-1px);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .temple-card-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            flex: 1;
+        }
+
+        .temple-number {
+            background: var(--primary-saffron);
+            color: white;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            font-size: 0.9rem;
+            flex-shrink: 0;
+        }
+
+        .temple-card-info {
+            flex: 1;
+        }
+
+        .temple-card-name {
+            color: var(--text-primary);
+            font-size: 1rem;
+            font-weight: 600;
+            margin: 0 0 0.25rem 0;
+            line-height: 1.3;
+        }
+
+        .temple-card-location {
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            margin: 0;
+        }
+
+        .temple-card-footer {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            flex-shrink: 0;
+        }
+
+        .temple-deity {
+            color: var(--primary-saffron);
+            font-size: 0.85rem;
+            font-weight: 500;
+            padding: 0.25rem 0.5rem;
+            background: rgba(255, 153, 51, 0.1);
+            border-radius: 6px;
+        }
+
+        .location-icon {
+            color: var(--success-green);
+            font-size: 0.9rem;
+        }
+
+        .location-icon.disabled {
+            color: var(--text-secondary);
+            opacity: 0.5;
+        }
+
         .temple-header {
             padding: 1.5rem;
             border-bottom: 1px solid var(--border-light);
@@ -1450,11 +1555,6 @@
                         <span class="best-time" id="circuit-best-time">சிறந்த காலம்: அக்டோபர் - மார்ச்</span>
                     </div>
                 </div>
-                <div class="circuit-actions">
-                    <button class="btn-secondary circuit-settings" id="circuit-settings-btn">
-                        <i class="fas fa-cog"></i>
-                    </button>
-                </div>
             </div>
 
             <!-- Quick Stats -->
@@ -1474,108 +1574,16 @@
                     <span class="stat-value" id="circuit-duration">2</span>
                     <span class="stat-label" id="stat-days-label">நாட்கள்</span>
                 </div>
-                <div class="stat-item">
-                    <i class="fas fa-star"></i>
-                    <span class="stat-value" id="circuit-rating">4.6</span>
-                    <span class="stat-label" id="stat-rating-label">மதிப்பீடு</span>
+            </div>
+
+            <!-- Temple List Preview -->
+            <div class="temple-list-preview">
+                <h3 id="temple-list-title">கோயில்கள் வரிசை</h3>
+                <div class="temples-container" id="circuit-temples-list">
+                    <!-- Temple cards will be dynamically added here -->
                 </div>
             </div>
 
-            <!-- Route Preview Card -->
-            <div class="route-preview-card">
-                <h3 id="route-preview-title">பயண வழித்தடம்</h3>
-                <div class="route-map-placeholder">
-                    <div class="route-overview">
-                        <div class="route-line"></div>
-                        <div class="temple-markers" id="temple-markers">
-                            <!-- Dynamic markers will be added here -->
-                        </div>
-                    </div>
-                </div>
-                <div class="route-actions">
-                    <button class="btn-primary" id="view-route-btn">
-                        <i class="fas fa-map"></i>
-                        <span id="view-route-text">வழித்தடம் காண்க</span>
-                    </button>
-                    <button class="btn-secondary" id="download-offline-btn">
-                        <i class="fas fa-download"></i>
-                        <span id="download-offline-text">ஆஃப்லைன்</span>
-                    </button>
-                </div>
-            </div>
-
-            <!-- Practical Information Section -->
-            <div class="practical-info-section">
-                <div class="info-tabs">
-                    <button class="tab active" data-tab="transport" id="tab-transport">🚌 <span id="transport-label">போக்குவரத்து</span></button>
-                    <button class="tab" data-tab="stay" id="tab-stay">🏨 <span id="stay-label">தங்குமிடம்</span></button>
-                    <button class="tab" data-tab="food" id="tab-food">🍽 <span id="food-label">உணவு</span></button>
-                    <button class="tab" data-tab="tips" id="tab-tips">💡 <span id="tips-label">குறிப்புகள்</span></button>
-                </div>
-                
-                <div class="tab-content active" id="content-transport">
-                    <div class="transport-options">
-                        <div class="transport-option">
-                            <i class="fas fa-car"></i>
-                            <div>
-                                <strong id="own-vehicle-title">சொந்த வாகனம்</strong>
-                                <p id="fuel-cost">எரிபொருள் செலவு: ₹1,200 (மதிப்பீடு)</p>
-                            </div>
-                        </div>
-                        <div class="transport-option">
-                            <i class="fas fa-bus"></i>
-                            <div>
-                                <strong id="govt-bus-title">அரசு பேருந்து</strong>
-                                <p id="bus-cost">மொத்த செலவு: ₹450/நபர்</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="tab-content" id="content-stay">
-                    <div class="accommodation-info">
-                        <p id="stay-info">பல கோயில் நகரங்களில் தர்மசாலைகள் மற்றும் லாட்ஜ்கள் கிடைக்கின்றன.</p>
-                        <div class="stay-options">
-                            <div class="stay-type">
-                                <strong id="dharmasala-title">தர்மசாலை</strong>
-                                <span id="dharmasala-cost">₹50-100/நாள்</span>
-                            </div>
-                            <div class="stay-type">
-                                <strong id="lodge-title">லாட்ஜ்</strong>
-                                <span id="lodge-cost">₹200-500/நாள்</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="tab-content" id="content-food">
-                    <div class="food-info">
-                        <p id="food-info">கோயில் அன்னதானம் மற்றும் உள்ளூர் உணவகங்கள் கிடைக்கின்றன.</p>
-                        <div class="food-options">
-                            <div class="food-type">
-                                <strong id="annadhanam-title">அன்னதானம்</strong>
-                                <span id="annadhanam-info">இலவசம் - கோயில்களில்</span>
-                            </div>
-                            <div class="food-type">
-                                <strong id="local-food-title">உள்ளூர் உணவகம்</strong>
-                                <span id="local-food-cost">₹30-80/வேளை</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="tab-content" id="content-tips">
-                    <div class="pilgrimage-tips">
-                        <h4 id="tips-title">யாத்திரை குறிப்புகள்</h4>
-                        <ul id="tips-list">
-                            <li id="tip1">காலையில் ஆரம்பிக்கவும் - கோயில்கள் 6 மணிக்கு திறக்கும்</li>
-                            <li id="tip2">வெள்ளை அல்லது பாரம்பரிய உடை அணியவும்</li>
-                            <li id="tip3">பூஜை பொருட்களை முன்கூட்டியே வாங்கவும்</li>
-                            <li id="tip4">கோயில் நேரங்களை சரிபார்க்கவும்</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
 
             <!-- Cultural Significance Section -->
             <div class="cultural-significance">
@@ -1604,36 +1612,7 @@
                 </div>
             </div>
 
-            <!-- Smart Temple Sequence Display -->
-            <div class="temple-sequence">
-                <h3 id="temple-sequence-title">கோயில் வரிசை (உகந்த வழி)</h3>
-                
-                <div id="temple-sequence-container">
-                    <!-- Dynamic temple sequence will be populated here -->
-                </div>
-            </div>
 
-            <!-- Planning Tools -->
-            <div class="planning-tools">
-                <div class="planning-card">
-                    <h4 id="planning-title">🎯 பயண திட்டமிடல்</h4>
-                    <div class="planning-options">
-                        <label>
-                            <input type="radio" name="duration" value="1-day">
-                            <span id="oneday-option">1 நாள் (அவசர தரிசனம்)</span>
-                        </label>
-                        <label>
-                            <input type="radio" name="duration" value="2-day" checked>
-                            <span id="twoday-option">2 நாட்கள் (பரிந்துரைக்கப்பட்டது)</span>
-                        </label>
-                        <label>
-                            <input type="radio" name="duration" value="3-day">
-                            <span id="threeday-option">3 நாட்கள் (விரிவான தரிசனம்)</span>
-                        </label>
-                    </div>
-                    <button class="btn-generate" id="generate-plan-btn">திட்டம் உருவாக்க</button>
-                </div>
-            </div>
 
             <!-- Main Action Button -->
             <div class="main-actions" style="margin: 2rem 0; text-align: center;">
@@ -2149,9 +2128,24 @@
         // Translation Helper Functions
         function getLocalizedDistrict(district) {
             if (!district) return '';
-            // Convert district name to key format: "Chennai District" -> "chennai_district"
-            const key = district.toLowerCase().replace(/ /g, '_');
+            
+            // Handle different district name formats
+            let key = district.toLowerCase().replace(/ /g, '_');
+            
+            // If it doesn't already end with '_district', add it
+            if (!key.endsWith('_district')) {
+                key = key + '_district';
+            }
+            
             const translated = getLocalizedString(`districts.${key}`, AppState.currentLanguage);
+            
+            // If still no translation found, try without _district suffix for special cases
+            if (!translated && key.endsWith('_district')) {
+                const simpleKey = key.replace('_district', '');
+                const simpleTrans = getLocalizedString(`districts.${simpleKey}`, AppState.currentLanguage);
+                if (simpleTrans) return simpleTrans;
+            }
+            
             return translated || district; // Fallback to original if no translation found
         }
         
@@ -2312,11 +2306,14 @@
                 loadFestivals();
             }
             
-            // Update navigation
+            // Update navigation (only for screens with nav items)
             document.querySelectorAll('.nav-item').forEach(item => {
                 item.classList.remove('active');
             });
-            document.querySelector(`[data-screen="${screenId}"]`).classList.add('active');
+            const navItem = document.querySelector(`[data-screen="${screenId}"]`);
+            if (navItem) {
+                navItem.classList.add('active');
+            }
             
             // Screen-specific initialization
             if (screenId === 'discovery-screen') {
@@ -2337,7 +2334,7 @@
                 ) : null;
 
             const hasLocation = temple.latitude && temple.longitude;
-            const navigationText = getLocalizedString('buttons.navigation', AppState.currentLanguage);
+            const navigationText = getLocalizedString('buttons.navigate', AppState.currentLanguage) || 'Navigate';
             const noLocationText = getLocalizedString('temple_details.no_location', AppState.currentLanguage);
             const locationIndicator = hasLocation ? 
                 `<span class="location-indicator location-available"><i class="fas fa-navigation"></i> ${navigationText}</span>` :
@@ -2385,7 +2382,7 @@
                                     ${getLocalizedDeity(temple.deity_type)}
                                 </span>` : ''}
                             ${hasLocation ? 
-                                `<span style="color: var(--success-green); font-size: 0.75rem;"><i class="fas fa-navigation"></i> ${getLocalizedString('buttons.navigation', AppState.currentLanguage)}</span>` : 
+                                `<span style="color: var(--success-green); font-size: 0.75rem;"><i class="fas fa-navigation"></i> ${getLocalizedString('buttons.navigate', AppState.currentLanguage) || 'Navigate'}</span>` : 
                                 `<span style="color: var(--text-secondary); font-size: 0.75rem; opacity: 0.7;"><i class="fas fa-times-circle"></i> ${getLocalizedString('temple_details.no_location', AppState.currentLanguage)}</span>`
                             }
                         </div>
@@ -3047,25 +3044,23 @@
                 $('circuit-best-time').textContent = AppState.currentLanguage === 'ta' ? 'சிறந்த காலம்: அக்டோபர் - மார்ச்' : 'Best Time: Oct - Mar';
             }
             
-            // Update quick stats
+            // Update quick stats (removed rating)
             $('circuit-temples-count').textContent = circuit.total_temples;
             $('circuit-distance').textContent = circuit.total_distance_km;
             $('circuit-duration').textContent = circuit.total_temples <= 5 ? '1' : '2';
-            $('circuit-rating').textContent = '4.6';
             
-            // Update stat labels
+            // Update stat labels (removed rating)
             if ($('stat-temples-label')) $('stat-temples-label').textContent = AppState.currentLanguage === 'ta' ? 'கோயில்கள்' : 'Temples';
             if ($('stat-km-label')) $('stat-km-label').textContent = AppState.currentLanguage === 'ta' ? 'கிமீ' : 'km';
             if ($('stat-days-label')) $('stat-days-label').textContent = AppState.currentLanguage === 'ta' ? 'நாட்கள்' : 'days';
-            if ($('stat-rating-label')) $('stat-rating-label').textContent = AppState.currentLanguage === 'ta' ? 'மதிப்பீடு' : 'rating';
             
-            // Update route preview title
-            if ($('route-preview-title')) {
-                $('route-preview-title').textContent = AppState.currentLanguage === 'ta' ? 'பயண வழித்தடம்' : 'Route Preview';
+            // Generate temple cards for the temple list
+            generateTempleCards(circuit);
+            
+            // Update temple list title
+            if ($('temple-list-title')) {
+                $('temple-list-title').textContent = AppState.currentLanguage === 'ta' ? 'கோயில்கள் வரிசை' : 'Temples Sequence';
             }
-            
-            // Generate temple markers for route visualization
-            generateTempleMarkers(circuit);
             
             // Update cultural significance
             if ($('significance-title')) {
@@ -3076,9 +3071,40 @@
                 const descriptions = {
                     'Navagraha Temples': AppState.currentLanguage === 'ta' ? 'நவகிரக சுற்று ஒன்பது கிரகங்களின் தாக்கத்தைக் குறைக்கவும், வாழ்க்கையில் சுபத்தைப் பெறவும் செய்யப்படுகிறது.' : 'The Navagraha circuit is performed to reduce planetary influences and bring prosperity to life.',
                     'Murugan Six Abodes': AppState.currentLanguage === 'ta' ? 'ஆறுபடை வீடுகள் முருகன் வழிபாட்டின் மிக முக்கியமான புனித தலங்கள்.' : 'The Six Abodes are the most important sacred places of Murugan worship.',
-                    'Pancha Bhoota Temples': AppState.currentLanguage === 'ta' ? 'பஞ்ச பூத ஸ்தலங்கள் ஐந்து இயற்கை சக்திகளை சமநிலைப்படுத்துகின்றன.' : 'Pancha Bhoota temples help balance the five natural elements.'
+                    'Pancha Bhoota Temples': AppState.currentLanguage === 'ta' ? 'பஞ்ச பூத ஸ்தலங்கள் ஐந்து இயற்கை சக்திகளை சமநிலைப்படுத்துகின்றன.' : 'Pancha Bhoota temples help balance the five natural elements.',
+                    'Chennai Heritage Circuit': AppState.currentLanguage === 'ta' ? 'சென்னையின் பழமையான கோயில்கள் நகரத்தின் ஆன்மீக பாரம்பரியத்தை பிரதிபலிக்கின்றன.' : 'Chennai\'s ancient temples reflect the city\'s spiritual heritage.'
                 };
                 $('significance-description').textContent = descriptions[circuit.name] || displayDescription;
+            }
+            
+            // Update benefits based on circuit type
+            const benefits = {
+                'Navagraha Temples': {
+                    ta: ['கிரக சாந்தி', 'தோஷ நிவர்த்தி', 'வாழ்க்கை முன்னேற்றம்', 'மன அமைதி'],
+                    en: ['Planetary Peace', 'Dosha Removal', 'Life Progress', 'Mental Peace']
+                },
+                'Murugan Six Abodes': {
+                    ta: ['முருகன் அருள்', 'வெற்றி பெறுதல்', 'குடும்ப நலம்', 'ஆன்மீக வளர்ச்சி'],
+                    en: ['Murugan\'s Blessings', 'Success', 'Family Welfare', 'Spiritual Growth']
+                },
+                'Pancha Bhoota Temples': {
+                    ta: ['இயற்கை சமநிலை', 'ஆரோக்கியம்', 'மன தெளிவு', 'ஆன்மீக ஞானம்'],
+                    en: ['Natural Balance', 'Health', 'Mental Clarity', 'Spiritual Wisdom']
+                },
+                'Chennai Heritage Circuit': {
+                    ta: ['நகர தெய்வ அருள்', 'குடும்ப நலம்', 'தொழில் வளர்ச்சி', 'மன அமைதி'],
+                    en: ['City Deity Blessings', 'Family Welfare', 'Career Growth', 'Mental Peace']
+                }
+            };
+            
+            const circuitBenefits = benefits[circuit.name];
+            if (circuitBenefits) {
+                const lang = AppState.currentLanguage;
+                const benefitTexts = circuitBenefits[lang] || circuitBenefits['en'];
+                if ($('benefit1')) $('benefit1').textContent = benefitTexts[0];
+                if ($('benefit2')) $('benefit2').textContent = benefitTexts[1];
+                if ($('benefit3')) $('benefit3').textContent = benefitTexts[2];
+                if ($('benefit4')) $('benefit4').textContent = benefitTexts[3];
             }
             
             // Update button text
@@ -3087,198 +3113,124 @@
                 startCircuitText.textContent = AppState.currentLanguage === 'ta' ? 'சுற்றுலா தொடங்கு' : 'Start Circuit';
             }
             
-            // Update temple sequence
-            generateTempleSequence(circuit);
-            
-            // Update all UI text elements
-            updateTourDetailStrings();
-
-            // Store some sample temples for navigation (the detailed temple list is shown in the sequence section above)
+            // Store some sample temples for navigation
             circuit.temples = AppState.temples.slice(0, circuit.total_temples || 5);
 
             showScreen('tour-detail-screen');
         }
 
-        // Generate temple markers for route visualization
-        function generateTempleMarkers(circuit) {
-            const markersContainer = $('temple-markers');
-            if (!markersContainer) return;
-            
-            // Generate markers based on temple count
-            const templeCount = Math.min(circuit.total_temples, 9); // Max 9 markers for display
-            let markersHTML = '';
-            
-            for (let i = 1; i <= templeCount; i++) {
-                const isStart = i === 1;
-                const isEnd = i === templeCount;
-                const markerClass = isStart ? 'marker start' : (isEnd ? 'marker end' : 'marker');
-                markersHTML += `<div class="${markerClass}">${i}</div>`;
-            }
-            
-            markersContainer.innerHTML = markersHTML;
-        }
-
-        // Generate temple sequence display
-        function generateTempleSequence(circuit) {
-            const container = $('temple-sequence-container');
+        // Generate temple cards for the circuit preview
+        function generateTempleCards(circuit) {
+            const container = $('circuit-temples-list');
             if (!container) return;
             
-            // For now, show a placeholder for temple sequence
-            const dayLabel = AppState.currentLanguage === 'ta' ? 'முதல் நாள்' : 'Day 1';
-            const templeLabel = AppState.currentLanguage === 'ta' ? 'கோயில்' : 'Temple';
-            const startingTime = AppState.currentLanguage === 'ta' ? 'காலை 6:00' : '6:00 AM';
+            // Get actual temples for this circuit
+            let temples = [];
             
-            container.innerHTML = `
-                <div class="day-section">
-                    <div class="day-header" style="padding: 1rem; background: #f8f9fa; border-radius: 8px; margin-bottom: 1rem;">
-                        <span class="day-number" style="font-weight: 600; color: var(--primary-saffron);">1</span>
-                        <span class="day-label" style="margin-left: 0.5rem;">${dayLabel}</span>
-                        <span class="day-distance" style="float: right; color: var(--text-secondary);">${circuit.total_distance_km} கிமீ</span>
-                    </div>
-                    
-                    <div class="temple-timeline">
-                        <div class="temple-stop" style="padding: 1rem; border: 1px solid #e0e0e0; border-radius: 8px; margin-bottom: 1rem;">
-                            <div class="stop-time" style="color: var(--primary-saffron); font-weight: 600; margin-bottom: 0.5rem;">${startingTime}</div>
-                            <div class="temple-info">
-                                <div class="temple-name" style="font-weight: 600; margin-bottom: 0.25rem;">${circuit.name} - ${templeLabel} 1</div>
-                                <div class="temple-location" style="color: var(--text-secondary); font-size: 0.9rem;">${AppState.currentLanguage === 'ta' ? 'தமிழ்நாடு' : 'Tamil Nadu'}</div>
-                                <div class="special-info" style="margin-top: 0.5rem;">
-                                    <span class="timing-badge" style="background: #e8f5e8; color: #2e7d32; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.8rem; margin-right: 0.5rem;">
-                                        ${AppState.currentLanguage === 'ta' ? 'சிறப்பு பூஜை' : 'Special Pooja'}
-                                    </span>
-                                </div>
+            // Try to get actual temples based on circuit type
+            if (circuit.circuit_type === 'navagraha') {
+                // For Navagraha, get specific temples if we know them
+                const navagrahaTemples = [
+                    { name: 'Suryanar Temple', tamil_name: 'சூரியனார் கோயில்', district: 'Thanjavur', deity_type: 'shiva', planet: 'சூரியன்' },
+                    { name: 'Chandran Temple', tamil_name: 'சந்திரன் கோயில்', district: 'Thanjavur', deity_type: 'shiva', planet: 'சந்திரன்' },
+                    { name: 'Vaitheeswaran Koil', tamil_name: 'வைத்தீஸ்வரன் கோயில்', district: 'Nagapattinam', deity_type: 'shiva', planet: 'செவ்வாய்' },
+                    { name: 'Thiruvenkadu', tamil_name: 'திருவெண்காடு', district: 'Nagapattinam', deity_type: 'shiva', planet: 'புதன்' },
+                    { name: 'Alangudi', tamil_name: 'அலங்குடி', district: 'Thanjavur', deity_type: 'shiva', planet: 'குரு' },
+                    { name: 'Kanjanur', tamil_name: 'கஞ்சனூர்', district: 'Thanjavur', deity_type: 'shiva', planet: 'சுக்கிரன்' },
+                    { name: 'Thirunallar', tamil_name: 'திருநள்ளாறு', district: 'Karaikal', deity_type: 'shiva', planet: 'சனி' },
+                    { name: 'Thirunageswaram', tamil_name: 'திருநாகேஸ்வரம்', district: 'Thanjavur', deity_type: 'shiva', planet: 'ராகு' },
+                    { name: 'Keezhperumpallam', tamil_name: 'கீழ்பெரும்பள்ளம்', district: 'Nagapattinam', deity_type: 'shiva', planet: 'கேது' }
+                ];
+                temples = navagrahaTemples.slice(0, circuit.total_temples);
+            } else if (circuit.circuit_type === 'murugan') {
+                // For Murugan Six Abodes
+                const muruganTemples = [
+                    { name: 'Palani Murugan Temple', tamil_name: 'பழனி முருகன் கோயில்', district: 'Dindigul', deity_type: 'murugan' },
+                    { name: 'Thiruchendur Murugan Temple', tamil_name: 'திருச்செந்தூர் முருகன் கோயில்', district: 'Thoothukudi', deity_type: 'murugan' },
+                    { name: 'Thirupparankundram', tamil_name: 'திருப்பரங்குன்றம்', district: 'Madurai', deity_type: 'murugan' },
+                    { name: 'Swamimalai', tamil_name: 'சுவாமிமலை', district: 'Thanjavur', deity_type: 'murugan' },
+                    { name: 'Thiruthani', tamil_name: 'திருத்தணி', district: 'Thiruvallur', deity_type: 'murugan' },
+                    { name: 'Pazhamudhircholai', tamil_name: 'பழமுதிர்சோலை', district: 'Madurai', deity_type: 'murugan' }
+                ];
+                temples = muruganTemples.slice(0, circuit.total_temples);
+            } else if (circuit.circuit_type === 'pancha_bootha') {
+                // For Pancha Bootha temples
+                const panchaBoothaTemples = [
+                    { name: 'Ekambareswarar Temple', tamil_name: 'ஏகாம்பரேஸ்வரர் கோயில்', district: 'Kanchipuram', deity_type: 'shiva', element: 'பூமி (Earth)' },
+                    { name: 'Jambukeswaram Temple', tamil_name: 'ஜம்புகேஸ்வரம் கோயில்', district: 'Trichy', deity_type: 'shiva', element: 'நீர் (Water)' },
+                    { name: 'Arunachaleswarar Temple', tamil_name: 'அருணாச்சலேஸ்வரர் கோயில்', district: 'Thiruvannamalai', deity_type: 'shiva', element: 'நெருப்பு (Fire)' },
+                    { name: 'Kalahasti Temple', tamil_name: 'காளஹஸ்தி கோயில்', district: 'Andhra Pradesh', deity_type: 'shiva', element: 'காற்று (Air)' },
+                    { name: 'Chidambaram Temple', tamil_name: 'சிதம்பரம் கோயில்', district: 'Cuddalore', deity_type: 'shiva', element: 'ஆகாயம் (Space)' }
+                ];
+                temples = panchaBoothaTemples.slice(0, circuit.total_temples);
+            } else if (circuit.circuit_type === 'city' && circuit.name.includes('Chennai')) {
+                // For Chennai Heritage Circuit - use actual Chennai temples from AppState
+                const chennaiTemples = AppState.temples
+                    .filter(t => t.district && t.district.includes('Chennai'))
+                    .slice(0, Math.min(10, circuit.total_temples));
+                
+                if (chennaiTemples.length > 0) {
+                    temples = chennaiTemples;
+                } else {
+                    // Fallback Chennai temples
+                    temples = [
+                        { name: 'Kapaleeshwarar Temple', tamil_name: 'கபாலீஸ்வரர் கோயில்', district: 'Chennai', deity_type: 'shiva' },
+                        { name: 'Parthasarathy Temple', tamil_name: 'பார்த்தசாரதி கோயில்', district: 'Chennai', deity_type: 'vishnu' },
+                        { name: 'Vadapalani Murugan Temple', tamil_name: 'வடபழனி முருகன் கோயில்', district: 'Chennai', deity_type: 'murugan' },
+                        { name: 'Marundeeswarar Temple', tamil_name: 'மருந்தீஸ்வரர் கோயில்', district: 'Chennai', deity_type: 'shiva' },
+                        { name: 'Ashtalakshmi Temple', tamil_name: 'அஷ்டலக்ஷ்மி கோயில்', district: 'Chennai', deity_type: 'goddess' }
+                    ].slice(0, Math.min(5, circuit.total_temples));
+                }
+            }
+            
+            let cardsHTML = '';
+            temples.forEach((temple, index) => {
+                const templeNumber = index + 1;
+                const templeNameDisplay = AppState.currentLanguage === 'ta' && temple.tamil_name ? 
+                    temple.tamil_name : temple.name;
+                const districtDisplay = getLocalizedDistrict(temple.district);
+                
+                // For special circuits, show planet/element instead of deity type
+                let specialInfo = '';
+                if (temple.planet) {
+                    specialInfo = temple.planet;
+                } else if (temple.element) {
+                    specialInfo = temple.element;
+                } else {
+                    specialInfo = getLocalizedDeity(temple.deity_type);
+                }
+                
+                // For tour details, don't make temple cards clickable unless we have a valid temple ID
+                const onclickAttr = temple.id ? `onclick="showTempleDetail('${temple.id}')"` : '';
+                const cursorStyle = temple.id ? 'cursor: pointer;' : 'cursor: default;';
+                
+                cardsHTML += `
+                    <div class="temple-card-mini" ${onclickAttr} style="${cursorStyle}">
+                        <div class="temple-card-header">
+                            <span class="temple-number">${templeNumber}</span>
+                            <div class="temple-card-info">
+                                <h4 class="temple-card-name">${templeNameDisplay}</h4>
+                                <p class="temple-card-location">${districtDisplay}</p>
                             </div>
                         </div>
+                        <div class="temple-card-footer">
+                            <span class="temple-deity">${specialInfo}</span>
+                            ${temple.latitude && temple.longitude ? 
+                                '<i class="fas fa-map-marker-alt location-icon"></i>' : 
+                                '<i class="fas fa-map-marker-alt location-icon disabled"></i>'
+                            }
+                        </div>
                     </div>
-                </div>
-            `;
-        }
-
-        // Update all tour detail strings
-        function updateTourDetailStrings() {
-            const lang = AppState.currentLanguage;
-            
-            // Update tab labels
-            if ($('transport-label')) $('transport-label').textContent = lang === 'ta' ? 'போக்குவரத்து' : 'Transport';
-            if ($('stay-label')) $('stay-label').textContent = lang === 'ta' ? 'தங்குமிடம்' : 'Stay';
-            if ($('food-label')) $('food-label').textContent = lang === 'ta' ? 'உணவு' : 'Food';
-            if ($('tips-label')) $('tips-label').textContent = lang === 'ta' ? 'குறிப்புகள்' : 'Tips';
-            
-            // Update route action buttons
-            if ($('view-route-text')) $('view-route-text').textContent = lang === 'ta' ? 'வழித்தடம் காண்க' : 'View Route';
-            if ($('download-offline-text')) $('download-offline-text').textContent = lang === 'ta' ? 'ஆஃப்லைன்' : 'Offline';
-            
-            // Update practical info content
-            if ($('own-vehicle-title')) $('own-vehicle-title').textContent = lang === 'ta' ? 'சொந்த வாகனம்' : 'Own Vehicle';
-            if ($('fuel-cost')) $('fuel-cost').textContent = lang === 'ta' ? 'எரிபொருள் செலவு: ₹1,200 (மதிப்பீடு)' : 'Fuel Cost: ₹1,200 (estimated)';
-            if ($('govt-bus-title')) $('govt-bus-title').textContent = lang === 'ta' ? 'அரசு பேருந்து' : 'Government Bus';
-            if ($('bus-cost')) $('bus-cost').textContent = lang === 'ta' ? 'மொத்த செலவு: ₹450/நபர்' : 'Total Cost: ₹450/person';
-            
-            // Update accommodation info
-            if ($('stay-info')) $('stay-info').textContent = lang === 'ta' ? 'பல கோயில் நகரங்களில் தர்மசாலைகள் மற்றும் லாட்ஜ்கள் கிடைக்கின்றன.' : 'Dharmashalas and lodges are available in many temple towns.';
-            if ($('dharmasala-title')) $('dharmasala-title').textContent = lang === 'ta' ? 'தர்மசாலை' : 'Dharmashala';
-            if ($('dharmasala-cost')) $('dharmasala-cost').textContent = '₹50-100/' + (lang === 'ta' ? 'நாள்' : 'day');
-            if ($('lodge-title')) $('lodge-title').textContent = lang === 'ta' ? 'லாட்ஜ்' : 'Lodge';
-            if ($('lodge-cost')) $('lodge-cost').textContent = '₹200-500/' + (lang === 'ta' ? 'நாள்' : 'day');
-            
-            // Update food info
-            if ($('food-info')) $('food-info').textContent = lang === 'ta' ? 'கோயில் அன்னதானம் மற்றும் உள்ளூர் உணவகங்கள் கிடைக்கின்றன.' : 'Temple annadhanam and local restaurants are available.';
-            if ($('annadhanam-title')) $('annadhanam-title').textContent = lang === 'ta' ? 'அன்னதானம்' : 'Annadhanam';
-            if ($('annadhanam-info')) $('annadhanam-info').textContent = lang === 'ta' ? 'இலவசம் - கோயில்களில்' : 'Free - at temples';
-            if ($('local-food-title')) $('local-food-title').textContent = lang === 'ta' ? 'உள்ளூர் உணவகம்' : 'Local Restaurant';
-            if ($('local-food-cost')) $('local-food-cost').textContent = '₹30-80/' + (lang === 'ta' ? 'வேளை' : 'meal');
-            
-            // Update tips section
-            if ($('tips-title')) $('tips-title').textContent = lang === 'ta' ? 'யாத்திரை குறிப்புகள்' : 'Pilgrimage Tips';
-            
-            // Update benefits
-            if ($('benefit1')) $('benefit1').textContent = lang === 'ta' ? 'கிரக சாந்தி' : 'Planetary Peace';
-            if ($('benefit2')) $('benefit2').textContent = lang === 'ta' ? 'குடும்ப நல்வாழ்வு' : 'Family Welfare';
-            if ($('benefit3')) $('benefit3').textContent = lang === 'ta' ? 'மன அமைதி' : 'Mental Peace';
-            if ($('benefit4')) $('benefit4').textContent = lang === 'ta' ? 'ஆரோக்கிய முன்னேற்றம்' : 'Health Improvement';
-            
-            // Update temple sequence title
-            if ($('temple-sequence-title')) $('temple-sequence-title').textContent = lang === 'ta' ? 'கோயில் வரிசை (உகந்த வழி)' : 'Temple Sequence (Optimal Route)';
-            
-            // Update planning section
-            if ($('planning-title')) $('planning-title').textContent = lang === 'ta' ? '🎯 பயண திட்டமிடல்' : '🎯 Trip Planning';
-            if ($('oneday-option')) $('oneday-option').textContent = lang === 'ta' ? '1 நாள் (அவசர தரிசனம்)' : '1 Day (Express Darshan)';
-            if ($('twoday-option')) $('twoday-option').textContent = lang === 'ta' ? '2 நாட்கள் (பரிந்துரைக்கப்பட்டது)' : '2 Days (Recommended)';
-            if ($('threeday-option')) $('threeday-option').textContent = lang === 'ta' ? '3 நாட்கள் (விரிவான தரிசனம்)' : '3 Days (Comprehensive Darshan)';
-            if ($('generate-plan-btn')) $('generate-plan-btn').textContent = lang === 'ta' ? 'திட்டம் உருவாக்க' : 'Generate Plan';
-        }
-
-        // Initialize tour detail tabs functionality
-        function initializeTourDetailTabs() {
-            // Tab switching functionality
-            const tabs = document.querySelectorAll('.info-tabs .tab');
-            const tabContents = document.querySelectorAll('.tab-content');
-            
-            tabs.forEach(tab => {
-                tab.addEventListener('click', () => {
-                    const targetTab = tab.getAttribute('data-tab');
-                    
-                    // Remove active class from all tabs and contents
-                    tabs.forEach(t => t.classList.remove('active'));
-                    tabContents.forEach(content => content.classList.remove('active'));
-                    
-                    // Add active class to clicked tab and corresponding content
-                    tab.classList.add('active');
-                    const targetContent = document.getElementById(`content-${targetTab}`);
-                    if (targetContent) {
-                        targetContent.classList.add('active');
-                    }
-                });
+                `;
             });
             
-            // Route action buttons
-            const viewRouteBtn = $('view-route-btn');
-            if (viewRouteBtn) {
-                viewRouteBtn.addEventListener('click', () => {
-                    // This would normally open the route in maps
-                    if (AppState.currentCircuit) {
-                        $('start-circuit-btn').click(); // For now, use the existing start circuit functionality
-                    }
-                });
-            }
-            
-            const downloadOfflineBtn = $('download-offline-btn');
-            if (downloadOfflineBtn) {
-                downloadOfflineBtn.addEventListener('click', () => {
-                    showToast(AppState.currentLanguage === 'ta' ? 'ஆஃப்லைன் பதிவிறக்கம் விரைவில்' : 'Offline download coming soon', 'info');
-                });
-            }
-            
-            // Circuit settings button
-            const circuitSettingsBtn = $('circuit-settings-btn');
-            if (circuitSettingsBtn) {
-                circuitSettingsBtn.addEventListener('click', () => {
-                    showToast(AppState.currentLanguage === 'ta' ? 'அமைப்புகள் விரைவில்' : 'Settings coming soon', 'info');
-                });
-            }
-            
-            // Generate plan button
-            const generatePlanBtn = $('generate-plan-btn');
-            if (generatePlanBtn) {
-                generatePlanBtn.addEventListener('click', () => {
-                    const selectedDuration = document.querySelector('input[name="duration"]:checked');
-                    if (selectedDuration) {
-                        const duration = selectedDuration.value;
-                        const message = AppState.currentLanguage === 'ta' ? 
-                            `${duration} திட்டம் தயாரிக்கப்படுகிறது...` : 
-                            `Generating ${duration} plan...`;
-                        showToast(message, 'success');
-                        
-                        // Simulate plan generation
-                        setTimeout(() => {
-                            const completedMessage = AppState.currentLanguage === 'ta' ? 
-                                'உங்கள் பயண திட்டம் தயார்!' : 
-                                'Your trip plan is ready!';
-                            showToast(completedMessage, 'success');
-                        }, 2000);
-                    }
-                });
-            }
+            container.innerHTML = cardsHTML;
+        }
+
+
+        // Initialize tour detail functionality - simplified
+        function initializeTourDetailTabs() {
+            // No longer needed - most interactive elements removed for simplicity
         }
 
         function startCircuit() {

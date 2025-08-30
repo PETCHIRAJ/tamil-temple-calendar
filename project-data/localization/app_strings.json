@@ -475,9 +475,55 @@
         "en": "Virudhunagar District",
         "ta": "விருதுநகர் மாவட்டம்"
       },
+      "karaikal_district": {
+        "en": "Karaikal",
+        "ta": "காரைக்கால்"
+      },
+      "andhra_pradesh_district": {
+        "en": "Andhra Pradesh",
+        "ta": "ஆந்திர பிரதேசம்"
+      },
+      "trichy_district": {
+        "en": "Trichy",
+        "ta": "திருச்சி"
+      },
       "tamil_nadu": {
         "en": "Tamil Nadu",
         "ta": "தமிழ்நாடு"
+      }
+    },
+    "deity_types": {
+      "shiva": {
+        "en": "Shiva",
+        "ta": "சிவன்"
+      },
+      "vishnu": {
+        "en": "Vishnu",
+        "ta": "விஷ்ணு"
+      },
+      "murugan": {
+        "en": "Murugan",
+        "ta": "முருகன்"
+      },
+      "goddess": {
+        "en": "Goddess",
+        "ta": "அம்மன்"
+      },
+      "ganesha": {
+        "en": "Ganesha",
+        "ta": "விநாயகர்"
+      },
+      "hanuman": {
+        "en": "Hanuman",
+        "ta": "அனுமன்"
+      },
+      "other": {
+        "en": "Other",
+        "ta": "மற்றவை"
+      },
+      "temple": {
+        "en": "Temple",
+        "ta": "கோயில்"
       }
     },
     "units": {
