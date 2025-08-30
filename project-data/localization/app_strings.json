@@ -175,6 +175,18 @@
       }
     },
     "temple_details": {
+      "deity": {
+        "en": "Deity",
+        "ta": "தெய்வம்"
+      },
+      "distance": {
+        "en": "Distance",
+        "ta": "தூரம்"
+      },
+      "no_location_available": {
+        "en": "No GPS coordinates available",
+        "ta": "GPS குறியீடுகள் இல்லை"
+      },
       "temple_information": {
         "en": "Temple Information",
         "ta": "கோயில் தகவல்கள்"
