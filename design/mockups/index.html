@@ -2695,6 +2695,10 @@
                 $('temple-crowd-summary').innerHTML = summaryHTML;
                 $('temple-crowd-info').innerHTML = ''; // Clear old crowd indicator
                 
+                // Get current hour for chart highlighting
+                const now = new Date();
+                const hour = now.getHours();
+                
                 // Also show the popular times chart in its dedicated section
                 $('temple-popular-times').innerHTML = `
                     <div style="margin-top: 0.5rem;">
