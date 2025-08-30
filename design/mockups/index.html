@@ -1478,15 +1478,6 @@
     <!-- Temple Detail Screen -->
     <div id="temple-detail-screen" class="screen">
         <div class="container">
-            <!-- Share button in top right -->
-            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
-                <button onclick="history.back()" class="btn-back" style="background: none; border: none; font-size: 1.2rem; cursor: pointer;">
-                    <i class="fas fa-arrow-left"></i> Back
-                </button>
-                <button onclick="shareTemple()" class="btn-share" style="background: none; border: none; font-size: 1.2rem; cursor: pointer; color: var(--primary-saffron);">
-                    <i class="fas fa-share-alt"></i> Share
-                </button>
-            </div>
             <div class="temple-detail">
                 <div class="temple-detail-header">
                     <h1 class="temple-detail-title" id="temple-detail-name">Temple Name</h1>
@@ -1494,17 +1485,11 @@
                     
                     <!-- Dynamic badges -->
                     <div class="temple-badges" id="temple-badges" style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem;">
-                        <span id="temple-rating-badge" class="badge" style="display: none; background: #FFF3E0; color: #F57C00;">
-                            <i class="fas fa-star"></i> <span id="temple-rating-value">4.8</span>
-                        </span>
                         <span id="temple-distance-badge" class="badge" style="display: none; background: #E8F5E9; color: #2E7D32;">
                             <i class="fas fa-map-marker-alt"></i> <span id="temple-distance-value">2.3 km</span>
                         </span>
                         <span id="temple-tour-badge" class="badge" style="display: none; background: var(--primary-saffron); color: white;">
                             <i class="fas fa-route"></i> Part of Tour Circuit
-                        </span>
-                        <span id="temple-quality-badge" class="badge" style="display: none; background: #4CAF50; color: white;">
-                            <i class="fas fa-check-circle"></i> Verified Information
                         </span>
                     </div>
                 </div>
@@ -2516,14 +2501,6 @@
             $('temple-detail-location').textContent = getLocalizedDistrict(temple.district);
             
             // Update dynamic badges
-            // Google Rating
-            if (temple.gm_rating) {
-                $('temple-rating-value').textContent = temple.gm_rating;
-                $('temple-rating-badge').style.display = 'inline-flex';
-            } else {
-                $('temple-rating-badge').style.display = 'none';
-            }
-            
             // Distance
             if (AppState.currentLocation && temple.latitude && temple.longitude) {
                 const distance = calculateDistance(
@@ -2543,13 +2520,6 @@
                 $('temple-tour-badge').style.display = 'inline-flex';
             } else {
                 $('temple-tour-badge').style.display = 'none';
-            }
-            
-            // Data Quality Badge
-            if (temple.data_quality === 'premium') {
-                $('temple-quality-badge').style.display = 'inline-flex';
-            } else {
-                $('temple-quality-badge').style.display = 'none';
             }
             // Remove old meta section since we're using badges now
             const oldMetaSection = document.querySelector('.temple-meta');
