@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tamil Nadu Temple Calendar</title>
+    <title>Kovil Valikatti - Temple Navigation Guide</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -890,7 +890,7 @@
         <div class="header-content">
             <div class="logo">
                 <i class="fas fa-om"></i>
-                <span id="app-title">Temple Calendar</span>
+                <span id="app-title">Kovil Valikatti</span>
             </div>
             <div class="header-actions">
                 <button class="btn btn-ghost" id="language-toggle">
@@ -949,7 +949,7 @@
             <section class="nearest-temples">
                 <div class="section-header">
                     <h2 class="section-title" id="nearby-section-title">Nearby Temples</h2>
-                    <button class="btn btn-secondary" id="view-all-nearby">View All</button>
+                    <button class="btn btn-secondary" id="view-all-nearby"><span id="view-all-text">View All</span></button>
                 </div>
                 <div class="temple-grid" id="nearby-temples-grid">
                     <div class="loading">
@@ -968,22 +968,22 @@
                 <h2 class="section-title" id="discovery-title">Temple Discovery</h2>
                 <div class="map-toggle">
                     <button class="btn btn-secondary" id="list-view-btn">
-                        <i class="fas fa-list"></i> List
+                        <i class="fas fa-list"></i> <span id="list-view-text">List</span>
                     </button>
                     <button class="btn btn-primary" id="map-view-btn">
-                        <i class="fas fa-map"></i> Map
+                        <i class="fas fa-map"></i> <span id="map-view-text">Map</span>
                     </button>
                 </div>
             </div>
 
             <!-- Filters -->
             <div class="filters">
-                <button class="filter-btn active" data-filter="all">All Temples</button>
-                <button class="filter-btn" data-filter="location">With Location 📍</button>
-                <button class="filter-btn" data-filter="shiva">Shiva</button>
-                <button class="filter-btn" data-filter="vishnu">Vishnu</button>
-                <button class="filter-btn" data-filter="hanuman">Hanuman</button>
-                <button class="filter-btn" data-filter="goddess">Goddess</button>
+                <button class="filter-btn active" data-filter="all" id="filter-all-temples">All Temples</button>
+                <button class="filter-btn" data-filter="location" id="filter-with-location">With Location 📍</button>
+                <button class="filter-btn" data-filter="shiva" id="filter-shiva">Shiva</button>
+                <button class="filter-btn" data-filter="vishnu" id="filter-vishnu">Vishnu</button>
+                <button class="filter-btn" data-filter="hanuman" id="filter-hanuman">Hanuman</button>
+                <button class="filter-btn" data-filter="goddess" id="filter-goddess">Goddess</button>
             </div>
 
             <!-- Map Container -->
@@ -995,7 +995,7 @@
             <div class="temple-grid" id="discovery-temples-grid">
                 <div class="loading">
                     <div class="spinner"></div>
-                    <span>Loading temples...</span>
+                    <span id="loading-temples-text">Loading temples...</span>
                 </div>
             </div>
         </div>
@@ -1028,11 +1028,11 @@
                 <div class="temple-actions-detail">
                     <button class="action-btn action-btn-navigate" id="navigate-btn">
                         <i class="fas fa-directions"></i>
-                        Navigate
+                        <span id="navigate-btn-text">Navigate</span>
                     </button>
                     <button class="action-btn action-btn-call" id="call-btn">
                         <i class="fas fa-phone"></i>
-                        Call Temple
+                        <span id="call-btn-text">Call Temple</span>
                     </button>
                 </div>
 
@@ -1107,12 +1107,12 @@
             
             <!-- Festival Type Filters -->
             <div class="filters" style="margin-bottom: 1.5rem;">
-                <button class="filter-btn active" data-festival-type="all">All (88)</button>
-                <button class="filter-btn" data-festival-type="major">Major Festivals (15)</button>
-                <button class="filter-btn" data-festival-type="pradosham">Pradosham (24)</button>
-                <button class="filter-btn" data-festival-type="ekadashi">Ekadashi (25)</button>
-                <button class="filter-btn" data-festival-type="pournami">Full Moon (12)</button>
-                <button class="filter-btn" data-festival-type="amavasya">New Moon (12)</button>
+                <button class="filter-btn active" data-festival-type="all" id="festival-filter-all">All (89)</button>
+                <button class="filter-btn" data-festival-type="major" id="festival-filter-major">Major Festivals (18)</button>
+                <button class="filter-btn" data-festival-type="pradosham" id="festival-filter-pradosham">Pradosham (26)</button>
+                <button class="filter-btn" data-festival-type="ekadashi" id="festival-filter-ekadashi">Ekadashi (27)</button>
+                <button class="filter-btn" data-festival-type="pournami" id="festival-filter-pournami">Full Moon (12)</button>
+                <button class="filter-btn" data-festival-type="amavasya" id="festival-filter-amavasya">New Moon (12)</button>
             </div>
             
             <!-- Festival Counter -->
@@ -1136,11 +1136,11 @@
             <h2 class="section-title" id="settings-section-title">Settings</h2>
             
             <div class="settings-section">
-                <h3>Language & Region</h3>
+                <h3 id="language-region-title">Language & Region</h3>
                 <div class="settings-item">
                     <div>
-                        <div>App Language</div>
-                        <small>Tamil / English</small>
+                        <div id="app-language-title">App Language</div>
+                        <small id="tamil-english-subtitle">Tamil / English</small>
                     </div>
                     <div class="toggle" id="language-setting">
                         <div class="toggle-slider"></div>
@@ -1149,11 +1149,11 @@
             </div>
 
             <div class="settings-section">
-                <h3>Location & Navigation</h3>
+                <h3 id="location-navigation-title">Location & Navigation</h3>
                 <div class="settings-item">
                     <div>
-                        <div>Location Services</div>
-                        <small>Find nearby temples</small>
+                        <div id="location-services-title">Location Services</div>
+                        <small id="find-nearby-temples-subtitle">Find nearby temples</small>
                     </div>
                     <div class="toggle active" id="location-setting">
                         <div class="toggle-slider"></div>
@@ -1161,8 +1161,8 @@
                 </div>
                 <div class="settings-item">
                     <div>
-                        <div>GPS Navigation</div>
-                        <small>Open in Google Maps</small>
+                        <div id="gps-navigation-title">GPS Navigation</div>
+                        <small id="open-in-maps-subtitle">Open in Google Maps</small>
                     </div>
                     <div class="toggle active" id="navigation-setting">
                         <div class="toggle-slider"></div>
@@ -1171,11 +1171,11 @@
             </div>
 
             <div class="settings-section">
-                <h3>Notifications</h3>
+                <h3 id="notifications-title">Notifications</h3>
                 <div class="settings-item">
                     <div>
-                        <div>Festival Alerts</div>
-                        <small>Upcoming temple festivals</small>
+                        <div id="festival-alerts-title">Festival Alerts</div>
+                        <small id="upcoming-festivals-subtitle">Upcoming temple festivals</small>
                     </div>
                     <div class="toggle active" id="festival-notifications">
                         <div class="toggle-slider"></div>
@@ -1225,57 +1225,137 @@
             userLocation: null
         };
 
-        // Translation Dictionary
-        const translations = {
-            en: {
-                'app-title': 'Temple Calendar',
-                'hero-title': 'Discover Sacred Temples',
-                'hero-subtitle': 'Find temples, plan pilgrimages, and explore Tamil Nadu\'s spiritual heritage',
-                'nearest-title': 'Nearest Temples',
-                'nearest-desc': 'Discover 588 Tamil Nadu temples (127 with navigation)',
-                'map-title': 'Temple Map',
-                'map-desc': 'Explore temples on interactive map',
-                'tours-title': 'Tour Circuits',
-                'tours-desc': 'Sacred journey routes',
-                'festivals-title': 'Festivals',
-                'festivals-desc': 'Tamil calendar events',
-                'nearby-section-title': 'Nearby Temples',
-                'discovery-title': 'Temple Discovery',
-                'tours-section-title': 'Sacred Tour Circuits',
-                'festivals-section-title': 'Festival Calendar',
-                'settings-section-title': 'Settings',
-                'nav-home': 'Home',
-                'nav-discover': 'Discover',
-                'nav-tours': 'Tours',
-                'nav-festivals': 'Festivals',
-                'nav-settings': 'Settings',
-                'lang-text': 'தமிழ்'
-            },
-            ta: {
-                'app-title': 'கோயில் நாட்காட்டி',
-                'hero-title': 'புனித கோயில்களை கண்டறியுங்கள்',
-                'hero-subtitle': 'கோயில்களை கண்டறிந்து, புனித பயணங்களை திட்டமிடுங்கள்',
-                'nearest-title': 'அருகிலுள்ள கோயில்கள்',
-                'nearest-desc': 'உங்கள் இருப்பிடத்திற்கு அருகில் உள்ள கோயில்கள்',
-                'map-title': 'கோயில் வரைபடம்',
-                'map-desc': 'வரைபடத்தில் கோயில்களை ஆராயுங்கள்',
-                'tours-title': 'சுற்றுலா பாதைகள்',
-                'tours-desc': 'புனித பயண வழிகள்',
-                'festivals-title': 'திருவிழாக்கள்',
-                'festivals-desc': 'தமிழ் நாட்காட்டி நிகழ்வுகள்',
-                'nearby-section-title': 'அருகிலுள்ள கோயில்கள்',
-                'discovery-title': 'கோயில் கண்டுபிடிப்பு',
-                'tours-section-title': 'புனித சுற்றுலா பாதைகள்',
-                'festivals-section-title': 'திருவிழா நாட்காட்டி',
-                'settings-section-title': 'அமைப்புகள்',
-                'nav-home': 'முகப்பு',
-                'nav-discover': 'கண்டறிதல்',
-                'nav-tours': 'சுற்றுலா',
-                'nav-festivals': 'திருவிழாக்கள்',
-                'nav-settings': 'அமைப்புகள்',
-                'lang-text': 'English'
+        // Localization Data
+        let localizationData = null;
+        
+        // Load localization data from JSON file
+        async function loadLocalizationData() {
+            try {
+                const response = await fetch('./app_strings.json');
+                if (!response.ok) {
+                    throw new Error(`Failed to load localization: ${response.status}`);
+                }
+                localizationData = await response.json();
+                console.log('✅ Localization data loaded successfully');
+                return localizationData;
+            } catch (error) {
+                console.error('❌ Failed to load localization data:', error);
+                // Fallback to basic translations if JSON loading fails
+                localizationData = {
+                    languages: {
+                        en: { name: 'English', code: 'en' },
+                        ta: { name: 'தமிழ்', code: 'ta' }
+                    },
+                    strings: {
+                        app_title: { en: 'Kovil Valikatti', ta: 'கோவில் வழிகாட்டி' },
+                        hero_title: { en: 'Find Your Sacred Path', ta: 'உங்கள் புனித பாதையை கண்டுபிடியுங்கள்' }
+                    }
+                };
+                return localizationData;
             }
-        };
+        }
+        
+        // Enhanced temple name matching for Tamil searches
+        function enhanceTempleSearchForTamil(temples) {
+            return temples.map(temple => {
+                // Create searchable Tamil keywords from English name
+                const tamilKeywords = [];
+                
+                // Common temple name mappings
+                const nameMap = {
+                    'Shiva': 'சிவன்',
+                    'Vishnu': 'விஷ்ணு',
+                    'Murugan': 'முருகன்',
+                    'Hanuman': 'ஹனுமான்',
+                    'Ganesha': 'கணேசன்',
+                    'Amman': 'அம்மன்',
+                    'Perumal': 'பெருமாள்',
+                    'Temple': 'கோவில்',
+                    'Swamy': 'சுவாமி'
+                };
+                
+                // Extract searchable terms from English name
+                Object.keys(nameMap).forEach(english => {
+                    if (temple.name.toLowerCase().includes(english.toLowerCase())) {
+                        tamilKeywords.push(nameMap[english]);
+                    }
+                });
+                
+                // Add deity-specific Tamil terms
+                if (temple.deity_type) {
+                    const deityMap = {
+                        'shiva': 'சிவன்',
+                        'vishnu': 'விஷ்ணு',
+                        'murugan': 'முருகன்',
+                        'hanuman': 'ஹனுமான்',
+                        'goddess': 'அம்மன்'
+                    };
+                    if (deityMap[temple.deity_type]) {
+                        tamilKeywords.push(deityMap[temple.deity_type]);
+                    }
+                }
+                
+                // Return enhanced temple object with Tamil search terms
+                return {
+                    ...temple,
+                    tamil_search_keywords: tamilKeywords.join(' ')
+                };
+            });
+        }
+        
+        // Tamil month name translations
+        function getTamilMonthName(englishMonth) {
+            if (AppState.currentLanguage !== 'ta') return englishMonth;
+            
+            const tamilMonths = {
+                'Margazhi': 'மார்கழி',
+                'Thai': 'தை',
+                'Masi': 'மாசி',
+                'Panguni': 'பங்குனி',
+                'Chithirai': 'சித்திரை',
+                'Vaikasi': 'வைகாசி',
+                'Aani': 'ஆனி',
+                'Aadi': 'ஆடி',
+                'Aavani': 'ஆவணி',
+                'Purattasi': 'புரட்டாசி',
+                'Aippasi': 'ஐப்பசி',
+                'Karthigai': 'கார்த்திகை'
+            };
+            
+            return tamilMonths[englishMonth] || englishMonth;
+        }
+        
+        // Get localized string with fallback
+        function getLocalizedString(key, lang = AppState.currentLanguage) {
+            if (!localizationData || !localizationData.strings) {
+                console.warn(`Localization data not loaded for key: ${key}`);
+                return key; // Return key as fallback
+            }
+            
+            // Handle nested keys like 'navigation.home'
+            const keys = key.split('.');
+            let current = localizationData.strings;
+            
+            for (const k of keys) {
+                if (current && current[k]) {
+                    current = current[k];
+                } else {
+                    console.warn(`Localization key not found: ${key}`);
+                    return key;
+                }
+            }
+            
+            // Return the localized string for the current language
+            if (current && current[lang]) {
+                return current[lang];
+            } else if (current && current.en) {
+                // Fallback to English if current language not available
+                return current.en;
+            }
+            
+            console.warn(`No localization found for key: ${key} in language: ${lang}`);
+            return key;
+        }
 
         // Utility Functions
         function $(id) {
@@ -1305,13 +1385,13 @@
             AppState.currentLanguage = lang;
             localStorage.setItem('preferred-language', lang);
             
-            // Update all translatable elements
-            Object.keys(translations[lang]).forEach(key => {
-                const element = $(key);
-                if (element) {
-                    element.textContent = translations[lang][key];
-                }
-            });
+            if (!localizationData) {
+                console.warn('Localization data not loaded yet');
+                return;
+            }
+            
+            // Update all translatable elements using new localization system
+            updateUIStrings(lang);
 
             // Update body class for Tamil font
             if (lang === 'ta') {
@@ -1330,6 +1410,206 @@
             // Update current temple detail if showing
             if (AppState.currentScreen === 'temple-detail-screen' && AppState.currentTemple) {
                 showTempleDetail(AppState.currentTemple.id);
+            }
+        }
+        
+        // Update all UI strings based on current language
+        function updateUIStrings(lang) {
+            // Header and main navigation
+            const appTitle = $('app-title');
+            if (appTitle) appTitle.textContent = getLocalizedString('app_title', lang);
+            
+            const heroTitle = $('hero-title');
+            if (heroTitle) heroTitle.textContent = getLocalizedString('hero_title', lang);
+            
+            const heroSubtitle = $('hero-subtitle');
+            if (heroSubtitle) heroSubtitle.textContent = getLocalizedString('hero_subtitle', lang);
+            
+            // Action cards
+            const nearestTitle = $('nearest-title');
+            if (nearestTitle) nearestTitle.textContent = getLocalizedString('nearest_temples', lang);
+            
+            const nearestDesc = $('nearest-desc');
+            if (nearestDesc) nearestDesc.textContent = getLocalizedString('nearest_desc', lang);
+            
+            const mapTitle = $('map-title');
+            if (mapTitle) mapTitle.textContent = getLocalizedString('temple_map', lang);
+            
+            const mapDesc = $('map-desc');
+            if (mapDesc) mapDesc.textContent = getLocalizedString('temple_map_desc', lang);
+            
+            const toursTitle = $('tours-title');
+            if (toursTitle) toursTitle.textContent = getLocalizedString('tour_circuits', lang);
+            
+            const toursDesc = $('tours-desc');
+            if (toursDesc) toursDesc.textContent = getLocalizedString('tour_circuits_desc', lang);
+            
+            const festivalsTitle = $('festivals-title');
+            if (festivalsTitle) festivalsTitle.textContent = getLocalizedString('festivals', lang);
+            
+            const festivalsDesc = $('festivals-desc');
+            if (festivalsDesc) festivalsDesc.textContent = getLocalizedString('festivals_desc', lang);
+            
+            // Section titles
+            const nearbySection = $('nearby-section-title');
+            if (nearbySection) nearbySection.textContent = getLocalizedString('nearest_temples', lang);
+            
+            const discoveryTitle = $('discovery-title');
+            if (discoveryTitle) discoveryTitle.textContent = getLocalizedString('navigation.discover', lang);
+            
+            // Discovery page list/map toggle
+            const listViewText = $('list-view-text');
+            if (listViewText) listViewText.textContent = getLocalizedString('buttons.list_view', lang) || 'List';
+            
+            const mapViewText = $('map-view-text');
+            if (mapViewText) mapViewText.textContent = getLocalizedString('buttons.map_view', lang) || 'Map';
+            
+            // Discovery page filters
+            const filterAllTemples = $('filter-all-temples');
+            if (filterAllTemples) filterAllTemples.textContent = getLocalizedString('filters.all_temples', lang);
+            
+            const filterWithLocation = $('filter-with-location');
+            if (filterWithLocation) filterWithLocation.textContent = getLocalizedString('filters.with_location', lang);
+            
+            const filterShiva = $('filter-shiva');
+            if (filterShiva) filterShiva.textContent = getLocalizedString('filters.shiva', lang);
+            
+            const filterVishnu = $('filter-vishnu');
+            if (filterVishnu) filterVishnu.textContent = getLocalizedString('filters.vishnu', lang);
+            
+            const filterHanuman = $('filter-hanuman');
+            if (filterHanuman) filterHanuman.textContent = getLocalizedString('filters.hanuman', lang);
+            
+            const filterGoddess = $('filter-goddess');
+            if (filterGoddess) filterGoddess.textContent = getLocalizedString('filters.goddess', lang);
+            
+            // Festival page filters
+            const festivalFilterAll = $('festival-filter-all');
+            if (festivalFilterAll) festivalFilterAll.textContent = getLocalizedString('festival_filters.all_festivals', lang);
+            
+            const festivalFilterMajor = $('festival-filter-major');
+            if (festivalFilterMajor) festivalFilterMajor.textContent = getLocalizedString('festival_filters.major_festivals', lang);
+            
+            const festivalFilterPradosham = $('festival-filter-pradosham');
+            if (festivalFilterPradosham) festivalFilterPradosham.textContent = getLocalizedString('festival_filters.pradosham', lang);
+            
+            const festivalFilterEkadashi = $('festival-filter-ekadashi');
+            if (festivalFilterEkadashi) festivalFilterEkadashi.textContent = getLocalizedString('festival_filters.ekadashi', lang);
+            
+            const festivalFilterPournami = $('festival-filter-pournami');
+            if (festivalFilterPournami) festivalFilterPournami.textContent = getLocalizedString('festival_filters.full_moon', lang);
+            
+            const festivalFilterAmavasya = $('festival-filter-amavasya');
+            if (festivalFilterAmavasya) festivalFilterAmavasya.textContent = getLocalizedString('festival_filters.new_moon', lang);
+            
+            // Navigation menu
+            const navHome = $('nav-home');
+            if (navHome) navHome.textContent = getLocalizedString('navigation.home', lang);
+            
+            const navDiscover = $('nav-discover');
+            if (navDiscover) navDiscover.textContent = getLocalizedString('navigation.discover', lang);
+            
+            const navTours = $('nav-tours');
+            if (navTours) navTours.textContent = getLocalizedString('navigation.tours', lang);
+            
+            const navFestivals = $('nav-festivals');
+            if (navFestivals) navFestivals.textContent = getLocalizedString('navigation.festivals', lang);
+            
+            const navSettings = $('nav-settings');
+            if (navSettings) navSettings.textContent = getLocalizedString('navigation.settings', lang);
+            
+            // Section title updates for different screens
+            const festivalsSectionTitle = $('festivals-section-title');
+            if (festivalsSectionTitle) festivalsSectionTitle.textContent = getLocalizedString('navigation.festivals', lang);
+            
+            const toursSectionTitle = $('tours-section-title');
+            if (toursSectionTitle) toursSectionTitle.textContent = getLocalizedString('navigation.tours', lang);
+            
+            // Language toggle button
+            const langText = $('lang-text');
+            if (langText) langText.textContent = getLocalizedString('buttons.language_switch', lang);
+            
+            // Search placeholder
+            const searchInput = document.querySelector('input[placeholder]');
+            if (searchInput) {
+                searchInput.placeholder = getLocalizedString('search_placeholder', lang);
+            }
+            
+            // Button texts
+            const viewAllText = $('view-all-text');
+            if (viewAllText) viewAllText.textContent = getLocalizedString('buttons.view_all', lang);
+            
+            // Loading states
+            const loadingTemplesText = $('loading-temples-text');
+            if (loadingTemplesText) loadingTemplesText.textContent = getLocalizedString('loading.temples', lang);
+            
+            // Settings screen translations
+            updateSettingsStrings(lang);
+        }
+        
+        // Update settings screen strings
+        function updateSettingsStrings(lang) {
+            const settingsTitle = $('settings-section-title');
+            if (settingsTitle) {
+                settingsTitle.textContent = getLocalizedString('settings', lang);
+            }
+            
+            // Language & Region section
+            const langRegionTitle = $('language-region-title');
+            if (langRegionTitle) {
+                langRegionTitle.textContent = getLocalizedString('settings_sections.language_region', lang);
+            }
+            
+            const appLangTitle = $('app-language-title');
+            if (appLangTitle) {
+                appLangTitle.textContent = getLocalizedString('settings_sections.app_language', lang);
+            }
+            
+            const tamilEnglishSubtitle = $('tamil-english-subtitle');
+            if (tamilEnglishSubtitle) {
+                tamilEnglishSubtitle.textContent = getLocalizedString('settings_sections.tamil_english', lang);
+            }
+            
+            // Location & Navigation section
+            const locationNavTitle = $('location-navigation-title');
+            if (locationNavTitle) {
+                locationNavTitle.textContent = getLocalizedString('settings_sections.location_navigation', lang);
+            }
+            
+            const locationServicesTitle = $('location-services-title');
+            if (locationServicesTitle) {
+                locationServicesTitle.textContent = getLocalizedString('settings_sections.location_services', lang);
+            }
+            
+            // Additional settings elements
+            const findNearbySubtitle = $('find-nearby-temples-subtitle');
+            if (findNearbySubtitle) {
+                findNearbySubtitle.textContent = getLocalizedString('settings_sections.find_nearby_temples', lang);
+            }
+            
+            const gpsNavTitle = $('gps-navigation-title');
+            if (gpsNavTitle) {
+                gpsNavTitle.textContent = getLocalizedString('settings_sections.gps_navigation', lang);
+            }
+            
+            const openInMapsSubtitle = $('open-in-maps-subtitle');
+            if (openInMapsSubtitle) {
+                openInMapsSubtitle.textContent = getLocalizedString('settings_sections.open_in_maps', lang);
+            }
+            
+            const notificationsTitle = $('notifications-title');
+            if (notificationsTitle) {
+                notificationsTitle.textContent = getLocalizedString('settings_sections.notifications', lang);
+            }
+            
+            const festivalAlertsTitle = $('festival-alerts-title');
+            if (festivalAlertsTitle) {
+                festivalAlertsTitle.textContent = getLocalizedString('settings_sections.festival_alerts', lang);
+            }
+            
+            const upcomingFestivalsSubtitle = $('upcoming-festivals-subtitle');
+            if (upcomingFestivalsSubtitle) {
+                upcomingFestivalsSubtitle.textContent = getLocalizedString('settings_sections.upcoming_festivals', lang);
             }
         }
 
@@ -1363,7 +1643,7 @@
         // Temple Data Loading
         async function loadTempleData() {
             try {
-                showLoading($('nearby-temples-grid'), 'Loading temple database...');
+                showLoading($('nearby-temples-grid'), getLocalizedString('loading.temples'));
                 
                 // Log the URL being fetched for debugging
                 const dataUrl = './temple_data.json';
@@ -1383,7 +1663,8 @@
                     throw new Error('Invalid temple data format');
                 }
                 
-                AppState.temples = data.app_temples || [];
+                // Load and enhance temples with Tamil search terms
+                AppState.temples = enhanceTempleSearchForTamil(data.app_temples || []);
                 AppState.tourCircuits = data.tour_circuits || [];
                 
                 console.log(`Successfully loaded ${AppState.temples.length} temples and ${AppState.tourCircuits.length} circuits`);
@@ -1648,13 +1929,24 @@
                 navigateBtn.style.display = 'none';
             }
             
+            // Update button texts with localized strings
+            const navigateBtnText = $('navigate-btn-text');
+            if (navigateBtnText) {
+                navigateBtnText.textContent = getLocalizedString('buttons.navigate');
+            }
+            
+            const callBtnText = $('call-btn-text');
+            if (callBtnText) {
+                callBtnText.textContent = getLocalizedString('buttons.call_temple');
+            }
+            
             // Show/hide call button
             if (temple.gm_phone) {
                 callBtn.style.display = 'flex';
-                callBtn.innerHTML = '<i class="fas fa-phone"></i> Call Temple';
+                callBtn.style.opacity = '1';
+                callBtn.style.cursor = 'pointer';
             } else {
                 callBtn.style.display = 'flex';
-                callBtn.innerHTML = '<i class="fas fa-phone"></i> No Phone';
                 callBtn.style.opacity = '0.5';
                 callBtn.style.cursor = 'not-allowed';
             }
@@ -1808,7 +2100,7 @@
             const container = $('tour-circuits-list');
             
             if (AppState.tourCircuits.length === 0) {
-                showLoading(container, 'Loading sacred tour circuits...');
+                showLoading(container, getLocalizedString('loading.tour_circuits'));
                 return;
             }
 
@@ -1942,10 +2234,36 @@
                 .sort((a, b) => new Date(a.date) - new Date(b.date))
                 .slice(0, 10); // Show next 10 festivals
             
-            // Update festival count
-            const countText = filterType === 'all' ? 
-                `Showing all ${upcomingFestivals.length} upcoming festivals` :
-                `Showing ${upcomingFestivals.length} upcoming ${filterType} observances`;
+            // Update festival count with localized text
+            let countText;
+            if (filterType === 'all') {
+                countText = AppState.currentLanguage === 'ta' ? 
+                    `அனைத்து ${upcomingFestivals.length} வரவிருக்கும் திருவிழாக்களும் காட்டப்படுகின்றன` :
+                    `Showing all ${upcomingFestivals.length} upcoming festivals`;
+            } else {
+                // Get localized filter type name
+                const filterTypeNames = {
+                    'ta': {
+                        'major': 'முக்கிய திருவிழாக்கள்',
+                        'pradosham': 'பிரதோஷம்',
+                        'ekadashi': 'ஏகாதசி',
+                        'pournami': 'பௌர்ணமி',
+                        'amavasya': 'அமாவாசை'
+                    },
+                    'en': {
+                        'major': 'major festivals',
+                        'pradosham': 'Pradosham',
+                        'ekadashi': 'Ekadashi',
+                        'pournami': 'Full Moon',
+                        'amavasya': 'New Moon'
+                    }
+                };
+                
+                const typeName = filterTypeNames[AppState.currentLanguage][filterType] || filterType;
+                countText = AppState.currentLanguage === 'ta' ? 
+                    `${upcomingFestivals.length} வரவிருக்கும் ${typeName} அனுஷ்டானங்கள் காட்டப்படுகின்றன` :
+                    `Showing ${upcomingFestivals.length} upcoming ${typeName} observances`;
+            }
             const countElement = $('festival-count');
             if (countElement) countElement.textContent = countText;
             
@@ -1973,27 +2291,62 @@
                 
                 const displayName = AppState.currentLanguage === 'ta' ? festival.tamil_name : festival.name;
                 
-                // Add badge for different types
+                // Translate temple descriptions
+                const templeDescriptions = {
+                    'ta': {
+                        'All Vishnu temples - Fasting day': 'அனைத்து விஷ்ணு கோயில்கள் - நோன்பு நாள்',
+                        'All Shiva temples - Evening prayers': 'அனைத்து சிவன் கோயில்கள் - மாலை பூஜை',
+                        'All temples - Full moon worship': 'அனைத்து கோயில்கள் - பௌர்ணமி வழிபாடு',
+                        'Ancestor worship at temples': 'கோயில்களில் முன்னோர் வழிபாடு',
+                        'All major temples': 'அனைத்து முக்கிய கோயில்கள்'
+                    }
+                };
+                
+                let templeDescription = festival.temples;
+                if (AppState.currentLanguage === 'ta' && templeDescriptions.ta[festival.temples]) {
+                    templeDescription = templeDescriptions.ta[festival.temples];
+                }
+                
+                // Add localized badge for different types
                 let badge = '';
+                const badgeLabels = {
+                    'ta': {
+                        'major': 'முக்கிய திருவிழா',
+                        'pradosham': 'பிரதோஷம்',
+                        'ekadashi': 'ஏகாதசி',
+                        'pournami': 'பௌர்ணமி',
+                        'amavasya': 'அமாவாசை'
+                    },
+                    'en': {
+                        'major': 'Major Festival',
+                        'pradosham': 'Pradosham',
+                        'ekadashi': 'Ekadashi',
+                        'pournami': 'Full Moon',
+                        'amavasya': 'New Moon'
+                    }
+                };
+                
+                const badgeText = badgeLabels[AppState.currentLanguage][festival.type];
+                
                 if (festival.type === 'major') {
-                    badge = '<span class="badge" style="background: var(--primary-saffron); color: white;">Major Festival</span>';
+                    badge = `<span class="badge" style="background: var(--primary-saffron); color: white;">${badgeText}</span>`;
                 } else if (festival.type === 'pradosham') {
-                    badge = '<span class="badge" style="background: #9C27B0; color: white;">Pradosham</span>';
+                    badge = `<span class="badge" style="background: #9C27B0; color: white;">${badgeText}</span>`;
                 } else if (festival.type === 'ekadashi') {
-                    badge = '<span class="badge" style="background: #2196F3; color: white;">Ekadashi</span>';
+                    badge = `<span class="badge" style="background: #2196F3; color: white;">${badgeText}</span>`;
                 } else if (festival.type === 'pournami') {
-                    badge = '<span class="badge" style="background: #FFC107; color: #333;">Full Moon</span>';
+                    badge = `<span class="badge" style="background: #FFC107; color: #333;">${badgeText}</span>`;
                 } else if (festival.type === 'amavasya') {
-                    badge = '<span class="badge" style="background: #607D8B; color: white;">New Moon</span>';
+                    badge = `<span class="badge" style="background: #607D8B; color: white;">${badgeText}</span>`;
                 }
                 
                 festivalHTML += `
                     <div class="festival-card ${festival.type === 'major' ? 'major-festival' : ''}">
                         <div class="festival-date">${dateDisplay}</div>
                         <div class="festival-name ${AppState.currentLanguage === 'ta' ? 'tamil' : ''}">${displayName}</div>
-                        <div class="festival-temples">${festival.temples}</div>
+                        <div class="festival-temples">${templeDescription}</div>
                         ${badge ? `<div style="margin-top: 0.5rem;">${badge}</div>` : ''}
-                        ${festival.tamil_month ? `<small style="color: var(--text-secondary); display: block; margin-top: 0.25rem;">Tamil Month: ${festival.tamil_month}</small>` : ''}
+                        ${festival.tamil_month ? `<small style="color: var(--text-secondary); display: block; margin-top: 0.25rem;">${AppState.currentLanguage === 'ta' ? 'தமிழ் மாதம்: ' + getTamilMonthName(festival.tamil_month) : 'Tamil Month: ' + festival.tamil_month}</small>` : ''}
                     </div>
                 `;
             });
@@ -2151,18 +2504,51 @@
                     document.querySelector('.quick-actions').style.display = 'grid';
                     document.querySelector('.hero').style.display = 'block';
                     document.querySelector('.nearest-temples .section-header').style.display = 'flex';
-                    document.querySelector('#nearby-section-title').textContent = translations[AppState.currentLanguage]['nearby-section-title'];
+                    document.querySelector('#nearby-section-title').textContent = getLocalizedString('nearest_temples');
                     loadNearbyTemples();
                 }
                 return;
             }
 
-            const searchResults = AppState.temples.filter(temple => 
-                temple.name.toLowerCase().includes(query.toLowerCase()) ||
-                temple.district.toLowerCase().includes(query.toLowerCase()) ||
-                (temple.deity_type && temple.deity_type.toLowerCase().includes(query.toLowerCase())) ||
-                (temple.tamil_name && temple.tamil_name.toLowerCase().includes(query.toLowerCase()))
-            );
+            // Enhanced bilingual search with Tamil deity matching
+            const enhancedTemples = enhanceTempleSearchForTamil(AppState.temples);
+            
+            const searchResults = enhancedTemples.filter(temple => {
+                const queryLower = query.toLowerCase().trim();
+                
+                // Direct substring matching in English
+                const englishMatch = (
+                    temple.name.toLowerCase().includes(queryLower) ||
+                    temple.district.toLowerCase().includes(queryLower) ||
+                    (temple.deity_type && temple.deity_type.toLowerCase().includes(queryLower))
+                );
+                
+                if (englishMatch) return true;
+                
+                // Tamil keyword matching for deity names
+                const tamilKeywordMatch = temple.tamil_search_keywords && 
+                    temple.tamil_search_keywords.includes(query.trim());
+                    
+                if (tamilKeywordMatch) return true;
+                
+                // Basic Tamil name matching (current format)
+                const tamilNameMatch = temple.tamil_name && 
+                    temple.tamil_name.toLowerCase().includes(queryLower);
+                    
+                if (tamilNameMatch) return true;
+                
+                // Word-based matching for partial searches
+                const queryWords = queryLower.split(/\s+/);
+                const nameWords = temple.name.toLowerCase().split(/\s+/);
+                
+                const wordMatch = queryWords.some(queryWord => 
+                    nameWords.some(nameWord => 
+                        nameWord.includes(queryWord) || queryWord.includes(nameWord)
+                    )
+                );
+                
+                return wordMatch;
+            });
 
             // Show results in current context
             if (AppState.currentScreen === 'home-screen') {
@@ -2170,8 +2556,11 @@
                 document.querySelector('.quick-actions').style.display = 'none';
                 document.querySelector('.hero').style.display = 'none';
                 
-                // Update section title to show search status
-                document.querySelector('#nearby-section-title').textContent = `Search Results (${searchResults.length})`;
+                // Update section title to show search status  
+                const resultsText = AppState.currentLanguage === 'ta' ? 
+                    `தேடல் முடிவுகள் (${searchResults.length})` : 
+                    `Search Results (${searchResults.length})`;
+                document.querySelector('#nearby-section-title').textContent = resultsText;
                 
                 const container = $('nearby-temples-grid');
                 if (searchResults.length > 0) {
@@ -2188,7 +2577,8 @@
                         });
                     }
                 } else {
-                    container.innerHTML = '<div class="text-center" style="padding: 3rem;">No temples found matching your search.</div>';
+                    const noResultsText = getLocalizedString('errors.no_temples_found');
+                    container.innerHTML = `<div class="text-center" style="padding: 3rem;">${noResultsText}</div>`;
                 }
             } else if (AppState.currentScreen === 'discovery-screen') {
                 loadDiscoveryTemples();
@@ -2440,22 +2830,32 @@
 
         // App Initialization
         async function initializeApp() {
-            console.log('Initializing Tamil Nadu Temple Calendar App...');
+            console.log('Initializing Kovil Valikatti App...');
             
-            // Load saved preferences
-            const savedLang = localStorage.getItem('preferred-language') || 'en';
-            updateLanguage(savedLang);
-            
-            // Initialize event listeners
-            initializeEventListeners();
-            
-            // Load temple data
-            await loadTempleData();
-            
-            // Request location permission
-            requestLocation();
-            
-            console.log('App initialization complete!');
+            try {
+                // Load localization data first
+                await loadLocalizationData();
+                
+                // Load saved preferences and apply language
+                const savedLang = localStorage.getItem('preferred-language') || 'en';
+                AppState.currentLanguage = savedLang;
+                updateLanguage(savedLang);
+                
+                // Initialize event listeners
+                initializeEventListeners();
+                
+                // Load temple data
+                await loadTempleData();
+                
+                // Request location permission
+                requestLocation();
+                
+                console.log('✅ App initialization complete!');
+                showToast('கோவில் வழிகாட்டி தயார்! / Kovil Valikatti Ready!', 'success');
+            } catch (error) {
+                console.error('❌ App initialization failed:', error);
+                showToast('App initialization failed. Some features may not work properly.', 'error');
+            }
         }
 
         // Start the app when DOM is ready
