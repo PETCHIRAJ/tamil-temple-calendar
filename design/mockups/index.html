@@ -1552,53 +1552,37 @@
             }
         }
         
-        // Update festival filter buttons with dynamic counts
+        // Update festival filter buttons (without counts to avoid confusion)
         function updateFestivalFilterCounts(lang) {
-            if (!allFestivals || allFestivals.length === 0) return;
-            
-            // Calculate counts dynamically from festival data
-            const totalCount = allFestivals.length;
-            const majorCount = allFestivals.filter(f => f.type === 'major').length;
-            const pradoshamCount = allFestivals.filter(f => f.type === 'pradosham').length;
-            const ekadasiCount = allFestivals.filter(f => f.type === 'ekadashi').length;
-            const pournamiCount = allFestivals.filter(f => f.type === 'pournami').length;
-            const amavasayaCount = allFestivals.filter(f => f.type === 'amavasya').length;
-            
-            // Update filter button text with counts
+            // Update filter button text without counts
             const festivalFilterAll = $('festival-filter-all');
             if (festivalFilterAll) {
-                const text = getLocalizedString('festival_filters.all_festivals', lang);
-                festivalFilterAll.textContent = `${text} (${totalCount})`;
+                festivalFilterAll.textContent = getLocalizedString('festival_filters.all_festivals', lang);
             }
             
             const festivalFilterMajor = $('festival-filter-major');
             if (festivalFilterMajor) {
-                const text = getLocalizedString('festival_filters.major_festivals', lang);
-                festivalFilterMajor.textContent = `${text} (${majorCount})`;
+                festivalFilterMajor.textContent = getLocalizedString('festival_filters.major_festivals', lang);
             }
             
             const festivalFilterPradosham = $('festival-filter-pradosham');
             if (festivalFilterPradosham) {
-                const text = getLocalizedString('festival_filters.pradosham', lang);
-                festivalFilterPradosham.textContent = `${text} (${pradoshamCount})`;
+                festivalFilterPradosham.textContent = getLocalizedString('festival_filters.pradosham', lang);
             }
             
             const festivalFilterEkadashi = $('festival-filter-ekadashi');
             if (festivalFilterEkadashi) {
-                const text = getLocalizedString('festival_filters.ekadashi', lang);
-                festivalFilterEkadashi.textContent = `${text} (${ekadasiCount})`;
+                festivalFilterEkadashi.textContent = getLocalizedString('festival_filters.ekadashi', lang);
             }
             
             const festivalFilterPournami = $('festival-filter-pournami');
             if (festivalFilterPournami) {
-                const text = getLocalizedString('festival_filters.full_moon', lang);
-                festivalFilterPournami.textContent = `${text} (${pournamiCount})`;
+                festivalFilterPournami.textContent = getLocalizedString('festival_filters.full_moon', lang);
             }
             
             const festivalFilterAmavasya = $('festival-filter-amavasya');
             if (festivalFilterAmavasya) {
-                const text = getLocalizedString('festival_filters.new_moon', lang);
-                festivalFilterAmavasya.textContent = `${text} (${amavasayaCount})`;
+                festivalFilterAmavasya.textContent = getLocalizedString('festival_filters.new_moon', lang);
             }
         }
 
