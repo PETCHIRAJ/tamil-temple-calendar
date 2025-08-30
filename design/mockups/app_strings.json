@@ -150,28 +150,28 @@
     },
     "festival_filters": {
       "all_festivals": {
-        "en": "All (89)",
-        "ta": "அனைத்தும் (89)"
+        "en": "All",
+        "ta": "அனைத்தும்"
       },
       "major_festivals": {
-        "en": "Major Festivals (18)",
-        "ta": "முக்கிய திருவிழாக்கள் (18)"
+        "en": "Major Festivals",
+        "ta": "முக்கிய திருவிழாக்கள்"
       },
       "pradosham": {
-        "en": "Pradosham (26)",
-        "ta": "பிரதோஷம் (26)"
+        "en": "Pradosham",
+        "ta": "பிரதோஷம்"
       },
       "ekadashi": {
-        "en": "Ekadashi (27)",
-        "ta": "ஏகாதசி (27)"
+        "en": "Ekadashi",
+        "ta": "ஏகாதசி"
       },
       "full_moon": {
-        "en": "Full Moon (12)",
-        "ta": "பௌர்ணமி (12)"
+        "en": "Full Moon",
+        "ta": "பௌர்ணமி"
       },
       "new_moon": {
-        "en": "New Moon (12)",
-        "ta": "அமாவாசை (12)"
+        "en": "New Moon",
+        "ta": "அமாவாசை"
       }
     },
     "temple_details": {

@@ -1107,12 +1107,12 @@
             
             <!-- Festival Type Filters -->
             <div class="filters" style="margin-bottom: 1.5rem;">
-                <button class="filter-btn active" data-festival-type="all" id="festival-filter-all">All (89)</button>
-                <button class="filter-btn" data-festival-type="major" id="festival-filter-major">Major Festivals (18)</button>
-                <button class="filter-btn" data-festival-type="pradosham" id="festival-filter-pradosham">Pradosham (26)</button>
-                <button class="filter-btn" data-festival-type="ekadashi" id="festival-filter-ekadashi">Ekadashi (27)</button>
-                <button class="filter-btn" data-festival-type="pournami" id="festival-filter-pournami">Full Moon (12)</button>
-                <button class="filter-btn" data-festival-type="amavasya" id="festival-filter-amavasya">New Moon (12)</button>
+                <button class="filter-btn active" data-festival-type="all" id="festival-filter-all">All</button>
+                <button class="filter-btn" data-festival-type="major" id="festival-filter-major">Major Festivals</button>
+                <button class="filter-btn" data-festival-type="pradosham" id="festival-filter-pradosham">Pradosham</button>
+                <button class="filter-btn" data-festival-type="ekadashi" id="festival-filter-ekadashi">Ekadashi</button>
+                <button class="filter-btn" data-festival-type="pournami" id="festival-filter-pournami">Full Moon</button>
+                <button class="filter-btn" data-festival-type="amavasya" id="festival-filter-amavasya">New Moon</button>
             </div>
             
             <!-- Festival Counter -->
@@ -1227,6 +1227,9 @@
 
         // Localization Data
         let localizationData = null;
+        
+        // Global Festival Data - Complete 88 festivals including monthly observances
+        let allFestivals = [];
         
         // Load localization data from JSON file
         async function loadLocalizationData() {
@@ -1483,24 +1486,8 @@
             const filterGoddess = $('filter-goddess');
             if (filterGoddess) filterGoddess.textContent = getLocalizedString('filters.goddess', lang);
             
-            // Festival page filters
-            const festivalFilterAll = $('festival-filter-all');
-            if (festivalFilterAll) festivalFilterAll.textContent = getLocalizedString('festival_filters.all_festivals', lang);
-            
-            const festivalFilterMajor = $('festival-filter-major');
-            if (festivalFilterMajor) festivalFilterMajor.textContent = getLocalizedString('festival_filters.major_festivals', lang);
-            
-            const festivalFilterPradosham = $('festival-filter-pradosham');
-            if (festivalFilterPradosham) festivalFilterPradosham.textContent = getLocalizedString('festival_filters.pradosham', lang);
-            
-            const festivalFilterEkadashi = $('festival-filter-ekadashi');
-            if (festivalFilterEkadashi) festivalFilterEkadashi.textContent = getLocalizedString('festival_filters.ekadashi', lang);
-            
-            const festivalFilterPournami = $('festival-filter-pournami');
-            if (festivalFilterPournami) festivalFilterPournami.textContent = getLocalizedString('festival_filters.full_moon', lang);
-            
-            const festivalFilterAmavasya = $('festival-filter-amavasya');
-            if (festivalFilterAmavasya) festivalFilterAmavasya.textContent = getLocalizedString('festival_filters.new_moon', lang);
+            // Festival page filters with dynamic counts
+            updateFestivalFilterCounts(lang);
             
             // Navigation menu
             const navHome = $('nav-home');
@@ -1610,6 +1597,56 @@
             const upcomingFestivalsSubtitle = $('upcoming-festivals-subtitle');
             if (upcomingFestivalsSubtitle) {
                 upcomingFestivalsSubtitle.textContent = getLocalizedString('settings_sections.upcoming_festivals', lang);
+            }
+        }
+        
+        // Update festival filter buttons with dynamic counts
+        function updateFestivalFilterCounts(lang) {
+            if (!allFestivals || allFestivals.length === 0) return;
+            
+            // Calculate counts dynamically from festival data
+            const totalCount = allFestivals.length;
+            const majorCount = allFestivals.filter(f => f.type === 'major').length;
+            const pradoshamCount = allFestivals.filter(f => f.type === 'pradosham').length;
+            const ekadasiCount = allFestivals.filter(f => f.type === 'ekadashi').length;
+            const pournamiCount = allFestivals.filter(f => f.type === 'pournami').length;
+            const amavasayaCount = allFestivals.filter(f => f.type === 'amavasya').length;
+            
+            // Update filter button text with counts
+            const festivalFilterAll = $('festival-filter-all');
+            if (festivalFilterAll) {
+                const text = getLocalizedString('festival_filters.all_festivals', lang);
+                festivalFilterAll.textContent = `${text} (${totalCount})`;
+            }
+            
+            const festivalFilterMajor = $('festival-filter-major');
+            if (festivalFilterMajor) {
+                const text = getLocalizedString('festival_filters.major_festivals', lang);
+                festivalFilterMajor.textContent = `${text} (${majorCount})`;
+            }
+            
+            const festivalFilterPradosham = $('festival-filter-pradosham');
+            if (festivalFilterPradosham) {
+                const text = getLocalizedString('festival_filters.pradosham', lang);
+                festivalFilterPradosham.textContent = `${text} (${pradoshamCount})`;
+            }
+            
+            const festivalFilterEkadashi = $('festival-filter-ekadashi');
+            if (festivalFilterEkadashi) {
+                const text = getLocalizedString('festival_filters.ekadashi', lang);
+                festivalFilterEkadashi.textContent = `${text} (${ekadasiCount})`;
+            }
+            
+            const festivalFilterPournami = $('festival-filter-pournami');
+            if (festivalFilterPournami) {
+                const text = getLocalizedString('festival_filters.full_moon', lang);
+                festivalFilterPournami.textContent = `${text} (${pournamiCount})`;
+            }
+            
+            const festivalFilterAmavasya = $('festival-filter-amavasya');
+            if (festivalFilterAmavasya) {
+                const text = getLocalizedString('festival_filters.new_moon', lang);
+                festivalFilterAmavasya.textContent = `${text} (${amavasayaCount})`;
             }
         }
 
@@ -2127,7 +2164,8 @@
         // Festival data for Tamil Nadu temples - Complete 88 festivals
         function loadFestivals(filterType = 'all') {
             // Complete festival data with all 88 festivals including monthly observances
-            const allFestivals = [
+            if (allFestivals.length === 0) {
+                allFestivals = [
     { date: '2025-01-09', name: 'Pausha Putrada Ekadashi', tamil_name: 'ஏகாதசி', temples: 'All Vishnu temples - Fasting day', type: 'ekadashi', category: 'monthly', tamil_month: 'Margazhi' },
     { date: '2025-01-11', name: 'Shani Pradosham', tamil_name: 'பிரதோஷம்', temples: 'All Shiva temples - Evening prayers', type: 'pradosham', category: 'monthly', tamil_month: 'Thai' },
     { date: '2025-01-13', name: 'Pournami (Full Moon)', tamil_name: 'பௌர்ணமி', temples: 'All temples - Full moon worship', type: 'pournami', category: 'monthly', tamil_month: 'Thai' },
@@ -2217,6 +2255,9 @@
     { date: '2025-12-25', name: 'Christmas', tamil_name: 'கிறிஸ்துமஸ்', temples: 'All major temples', type: 'major', category: 'annual' },
     { date: '2025-12-30', name: 'Vaikunta Ekadashi', tamil_name: 'ஏகாதசி', temples: 'All Vishnu temples - Fasting day', type: 'ekadashi', category: 'monthly', tamil_month: 'Margazhi' }
 ];
+                // Update festival filter button counts after loading data
+                updateFestivalFilterCounts(AppState.currentLanguage);
+            }
             
             // Filter festivals based on type
             let festivals = allFestivals;
