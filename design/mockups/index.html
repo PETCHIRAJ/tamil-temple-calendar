@@ -1539,6 +1539,16 @@
                         <div id="temple-special-features"></div>
                     </div>
                     
+                    <div class="settings-section" id="prayer-benefits-section" style="display: none;">
+                        <h3><i class="fas fa-pray"></i> <span id="prayer-benefits-header">Prayer Benefits</span></h3>
+                        <div id="temple-prayer-benefits"></div>
+                    </div>
+                    
+                    <div class="settings-section" id="history-section" style="display: none;">
+                        <h3><i class="fas fa-history"></i> <span id="history-header">History</span></h3>
+                        <div id="temple-history"></div>
+                    </div>
+                    
                     <div class="settings-section" id="navigation-note-section" style="display: none;">
                         <h3><i class="fas fa-info-circle"></i> Navigation Note</h3>
                         <p id="navigation-note-text">GPS coordinates not available for this temple.</p>
@@ -2778,7 +2788,7 @@
             }
             
             // Show holy water and sacred tree if available
-            if (temple.holy_water || temple.sacred_tree) {
+            if (temple.holy_water || temple.sacred_tree || temple.other_deities || temple.architecture) {
                 let additionalInfo = '';
                 if (temple.holy_water && temple.holy_water.length > 0) {
                     const holyWaterLabel = AppState.currentLanguage === 'ta' ? 'தீர்த்தம்' : 'Holy Water';
@@ -2788,10 +2798,49 @@
                     const treeLabel = AppState.currentLanguage === 'ta' ? 'ஸ்தல விருட்சம்' : 'Sacred Tree';
                     additionalInfo += `<p><i class="fas fa-tree" style="color: var(--success-green);"></i> <strong>${treeLabel}:</strong> ${temple.sacred_tree}</p>`;
                 }
+                if (temple.other_deities && temple.other_deities.length > 0) {
+                    const deitiesLabel = AppState.currentLanguage === 'ta' ? 'மற்ற தெய்வங்கள்' : 'Other Deities';
+                    additionalInfo += `<p><i class="fas fa-om" style="color: var(--primary-saffron);"></i> <strong>${deitiesLabel}:</strong> ${temple.other_deities.join(', ')}</p>`;
+                }
+                if (temple.architecture) {
+                    const archLabel = AppState.currentLanguage === 'ta' ? 'கட்டிடக்கலை' : 'Architecture';
+                    additionalInfo += `<p><i class="fas fa-monument" style="color: var(--text-secondary);"></i> <strong>${archLabel}:</strong> ${temple.architecture}</p>`;
+                }
+                if (temple.how_to_reach) {
+                    const reachLabel = AppState.currentLanguage === 'ta' ? 'எப்படி செல்வது' : 'How to Reach';
+                    additionalInfo += `<p><i class="fas fa-route" style="color: var(--primary-green);"></i> <strong>${reachLabel}:</strong> ${temple.how_to_reach}</p>`;
+                }
                 
                 // Add to temple information section
                 const currentAddress = $('temple-address').innerHTML;
                 $('temple-address').innerHTML = currentAddress + additionalInfo;
+            }
+            
+            // Show prayer benefits if available
+            if (temple.prayer_benefits && temple.prayer_benefits.length > 0) {
+                const benefitsHeader = AppState.currentLanguage === 'ta' ? 'பிரார்த்தனை பலன்கள்' : 'Prayer Benefits';
+                $('prayer-benefits-header').textContent = benefitsHeader;
+                
+                let benefitsHTML = '<ul style="margin: 0.5rem 0; padding-left: 1.2rem;">';
+                temple.prayer_benefits.forEach(benefit => {
+                    benefitsHTML += `<li style="margin: 0.25rem 0; color: var(--text-secondary);">${benefit}</li>`;
+                });
+                benefitsHTML += '</ul>';
+                
+                $('temple-prayer-benefits').innerHTML = benefitsHTML;
+                $('prayer-benefits-section').style.display = 'block';
+            } else {
+                $('prayer-benefits-section').style.display = 'none';
+            }
+            
+            // Show history if available
+            if (temple.history) {
+                const historyHeader = AppState.currentLanguage === 'ta' ? 'வரலாறு' : 'History';
+                $('history-header').textContent = historyHeader;
+                $('temple-history').innerHTML = `<p style="color: var(--text-secondary); margin: 0.5rem 0;">${temple.history}</p>`;
+                $('history-section').style.display = 'block';
+            } else {
+                $('history-section').style.display = 'none';
             }
             
             // Show navigation note if no GPS coordinates
