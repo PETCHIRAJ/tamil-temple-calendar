@@ -2619,12 +2619,16 @@
                 addressHTML += `<p><i class="fas fa-om" style="color: var(--primary-saffron);"></i> ${deityText}: ${getLocalizedDeity(temple.deity_type)}</p>`;
             }
             
-            // Show address
-            addressHTML += `<p><i class="fas fa-map-marker-alt"></i> ${temple.gm_address || getLocalizedDistrict(temple.district)}</p>`;
+            // Show address - clean any special characters
+            const address = (temple.gm_address || getLocalizedDistrict(temple.district) || '').replace(/^\s+/, '');
+            const addressLabel = AppState.currentLanguage === 'ta' ? 'முகவரி' : 'Address';
+            addressHTML += `<p><i class="fas fa-map-marker-alt"></i> <strong>${addressLabel}:</strong> ${address}</p>`;
             
-            // Show phone if available
+            // Show phone if available - clean any special characters
             if (temple.gm_phone) {
-                addressHTML += `<p style="margin-top: 0.5rem;"><i class="fas fa-phone" style="color: var(--success-green);"></i> <a href="tel:${temple.gm_phone}" style="color: var(--success-green); text-decoration: none;">${temple.gm_phone}</a></p>`;
+                const phone = temple.gm_phone.replace(/^\s+/, '');
+                const phoneLabel = AppState.currentLanguage === 'ta' ? 'தொலைபேசி' : 'Phone';
+                addressHTML += `<p style="margin-top: 0.5rem;"><i class="fas fa-phone" style="color: var(--success-green);"></i> <strong>${phoneLabel}:</strong> <a href="tel:${phone}" style="color: var(--success-green); text-decoration: none;">${phone}</a></p>`;
             }
             
             $('temple-address').innerHTML = addressHTML;
