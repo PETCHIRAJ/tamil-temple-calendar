@@ -396,6 +396,375 @@
             box-shadow: var(--shadow-hover);
         }
 
+        /* Enhanced Tour Details Styles */
+        .circuit-header-enhanced {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .circuit-title-section .circuit-name {
+            font-size: 1.8rem;
+            color: var(--primary-saffron);
+            margin: 0 0 0.5rem 0;
+            font-weight: 600;
+        }
+
+        .circuit-significance {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .significance-badge {
+            background: var(--primary-saffron);
+            color: white;
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            align-self: flex-start;
+        }
+
+        .best-time {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        .circuit-settings {
+            background: #f5f5f5;
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .circuit-settings:hover {
+            background: #e0e0e0;
+        }
+
+        .circuit-quick-stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 12px;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-item i {
+            font-size: 1.2rem;
+            color: var(--primary-saffron);
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat-value {
+            display: block;
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--text-primary);
+            margin-bottom: 0.25rem;
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+        }
+
+        .route-preview-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            border: 1px solid #e0e0e0;
+        }
+
+        .route-preview-card h3 {
+            margin: 0 0 1rem 0;
+            color: var(--text-primary);
+        }
+
+        .route-map-placeholder {
+            background: #f8f9fa;
+            height: 120px;
+            border-radius: 8px;
+            position: relative;
+            margin-bottom: 1rem;
+            overflow: hidden;
+        }
+
+        .route-overview {
+            position: relative;
+            height: 100%;
+            padding: 20px;
+        }
+
+        .route-line {
+            position: absolute;
+            top: 50%;
+            left: 10%;
+            right: 10%;
+            height: 2px;
+            background: linear-gradient(to right, var(--primary-saffron), #ff9800);
+            transform: translateY(-50%);
+        }
+
+        .temple-markers {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            transform: translateY(-50%);
+            display: flex;
+            justify-content: space-between;
+            padding: 0 10%;
+        }
+
+        .marker {
+            width: 24px;
+            height: 24px;
+            background: var(--primary-saffron);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            font-weight: 600;
+            border: 2px solid white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .marker.start {
+            background: #4CAF50;
+        }
+
+        .marker.end {
+            background: #f44336;
+        }
+
+        .route-actions {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+
+        .practical-info-section {
+            background: white;
+            border-radius: 12px;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            overflow: hidden;
+        }
+
+        .info-tabs {
+            display: flex;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .info-tabs .tab {
+            flex: 1;
+            padding: 1rem 0.5rem;
+            border: none;
+            background: #f8f9fa;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            font-size: 0.85rem;
+            text-align: center;
+        }
+
+        .info-tabs .tab.active {
+            background: white;
+            border-bottom: 2px solid var(--primary-saffron);
+        }
+
+        .info-tabs .tab:hover {
+            background: #f0f0f0;
+        }
+
+        .tab-content {
+            display: none;
+            padding: 1.5rem;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        .transport-options, .stay-options, .food-options {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .transport-option, .stay-type, .food-type {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .transport-option i {
+            font-size: 1.5rem;
+            color: var(--primary-saffron);
+            width: 40px;
+            text-align: center;
+        }
+
+        .cultural-significance {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .cultural-significance h3 {
+            margin: 0 0 1rem 0;
+            color: var(--text-primary);
+        }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .benefit-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.75rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 3px solid var(--primary-saffron);
+        }
+
+        .benefit-item i {
+            color: var(--primary-saffron);
+        }
+
+        .temple-sequence {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .temple-sequence h3 {
+            margin: 0 0 1rem 0;
+            color: var(--text-primary);
+        }
+
+        .planning-tools {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        }
+
+        .planning-card h4 {
+            margin: 0 0 1rem 0;
+            color: var(--text-primary);
+        }
+
+        .planning-options {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .planning-options label {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            cursor: pointer;
+            padding: 0.5rem;
+            border-radius: 6px;
+            transition: background-color 0.2s ease;
+        }
+
+        .planning-options label:hover {
+            background: #f8f9fa;
+        }
+
+        .btn-generate {
+            background: var(--primary-saffron);
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .btn-generate:hover {
+            background: #d84315;
+        }
+
+        .btn-large {
+            padding: 1rem 2rem !important;
+            font-size: 1.1rem !important;
+            border-radius: 8px !important;
+        }
+
+        .pilgrimage-tips ul {
+            margin: 0;
+            padding-left: 1.5rem;
+        }
+
+        .pilgrimage-tips li {
+            margin-bottom: 0.5rem;
+            line-height: 1.5;
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .circuit-header-enhanced {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .circuit-quick-stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .info-tabs .tab {
+                font-size: 0.75rem;
+                padding: 0.75rem 0.25rem;
+            }
+
+            .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .route-actions {
+                grid-template-columns: 1fr;
+            }
+        }
+
         .circuit-header {
             display: flex;
             justify-content: space-between;
@@ -1072,25 +1441,206 @@
     <!-- Tour Detail Screen -->
     <div id="tour-detail-screen" class="screen">
         <div class="container">
-            <div class="circuit-detail">
-                <div class="circuit-overview">
-                    <h1 id="circuit-name">Circuit Name</h1>
-                    <p id="circuit-description">Circuit Description</p>
-                    <div class="circuit-meta">
-                        <span><i class="fas fa-gopuram"></i> <span id="circuit-temples-count">0</span> <span id="circuit-temples-label">Temples</span></span>
-                        <span><i class="fas fa-route"></i> <span id="circuit-distance">0</span> <span id="circuit-km-label">km</span></span>
+            <!-- Enhanced Header Section -->
+            <div class="circuit-header-enhanced">
+                <div class="circuit-title-section">
+                    <h1 class="circuit-name" id="circuit-name">நவகிரக கோயில்கள்</h1>
+                    <div class="circuit-significance">
+                        <span class="significance-badge" id="circuit-significance">ஒன்பது கிரக சாந்திக்காக</span>
+                        <span class="best-time" id="circuit-best-time">சிறந்த காலம்: அக்டோபர் - மார்ச்</span>
                     </div>
-                    <button class="btn btn-primary mt-2" id="start-circuit-btn">
-                        <i class="fas fa-play"></i>
-                        <span id="start-circuit-text">Start Circuit</span>
+                </div>
+                <div class="circuit-actions">
+                    <button class="btn-secondary circuit-settings" id="circuit-settings-btn">
+                        <i class="fas fa-cog"></i>
                     </button>
                 </div>
-                <div class="circuit-temples-list">
-                    <h3 id="temples-in-circuit-header">Temples in Circuit</h3>
-                    <div id="circuit-temples-container">
-                        <!-- Circuit temples will be populated here -->
+            </div>
+
+            <!-- Quick Stats -->
+            <div class="circuit-quick-stats">
+                <div class="stat-item">
+                    <i class="fas fa-gopuram"></i>
+                    <span class="stat-value" id="circuit-temples-count">9</span>
+                    <span class="stat-label" id="stat-temples-label">கோயில்கள்</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-route"></i>
+                    <span class="stat-value" id="circuit-distance">125</span>
+                    <span class="stat-label" id="stat-km-label">கிமீ</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-calendar-day"></i>
+                    <span class="stat-value" id="circuit-duration">2</span>
+                    <span class="stat-label" id="stat-days-label">நாட்கள்</span>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-star"></i>
+                    <span class="stat-value" id="circuit-rating">4.6</span>
+                    <span class="stat-label" id="stat-rating-label">மதிப்பீடு</span>
+                </div>
+            </div>
+
+            <!-- Route Preview Card -->
+            <div class="route-preview-card">
+                <h3 id="route-preview-title">பயண வழித்தடம்</h3>
+                <div class="route-map-placeholder">
+                    <div class="route-overview">
+                        <div class="route-line"></div>
+                        <div class="temple-markers" id="temple-markers">
+                            <!-- Dynamic markers will be added here -->
+                        </div>
                     </div>
                 </div>
+                <div class="route-actions">
+                    <button class="btn-primary" id="view-route-btn">
+                        <i class="fas fa-map"></i>
+                        <span id="view-route-text">வழித்தடம் காண்க</span>
+                    </button>
+                    <button class="btn-secondary" id="download-offline-btn">
+                        <i class="fas fa-download"></i>
+                        <span id="download-offline-text">ஆஃப்லைன்</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Practical Information Section -->
+            <div class="practical-info-section">
+                <div class="info-tabs">
+                    <button class="tab active" data-tab="transport" id="tab-transport">🚌 <span id="transport-label">போக்குவரத்து</span></button>
+                    <button class="tab" data-tab="stay" id="tab-stay">🏨 <span id="stay-label">தங்குமிடம்</span></button>
+                    <button class="tab" data-tab="food" id="tab-food">🍽 <span id="food-label">உணவு</span></button>
+                    <button class="tab" data-tab="tips" id="tab-tips">💡 <span id="tips-label">குறிப்புகள்</span></button>
+                </div>
+                
+                <div class="tab-content active" id="content-transport">
+                    <div class="transport-options">
+                        <div class="transport-option">
+                            <i class="fas fa-car"></i>
+                            <div>
+                                <strong id="own-vehicle-title">சொந்த வாகனம்</strong>
+                                <p id="fuel-cost">எரிபொருள் செலவு: ₹1,200 (மதிப்பீடு)</p>
+                            </div>
+                        </div>
+                        <div class="transport-option">
+                            <i class="fas fa-bus"></i>
+                            <div>
+                                <strong id="govt-bus-title">அரசு பேருந்து</strong>
+                                <p id="bus-cost">மொத்த செலவு: ₹450/நபர்</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="content-stay">
+                    <div class="accommodation-info">
+                        <p id="stay-info">பல கோயில் நகரங்களில் தர்மசாலைகள் மற்றும் லாட்ஜ்கள் கிடைக்கின்றன.</p>
+                        <div class="stay-options">
+                            <div class="stay-type">
+                                <strong id="dharmasala-title">தர்மசாலை</strong>
+                                <span id="dharmasala-cost">₹50-100/நாள்</span>
+                            </div>
+                            <div class="stay-type">
+                                <strong id="lodge-title">லாட்ஜ்</strong>
+                                <span id="lodge-cost">₹200-500/நாள்</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="content-food">
+                    <div class="food-info">
+                        <p id="food-info">கோயில் அன்னதானம் மற்றும் உள்ளூர் உணவகங்கள் கிடைக்கின்றன.</p>
+                        <div class="food-options">
+                            <div class="food-type">
+                                <strong id="annadhanam-title">அன்னதானம்</strong>
+                                <span id="annadhanam-info">இலவசம் - கோயில்களில்</span>
+                            </div>
+                            <div class="food-type">
+                                <strong id="local-food-title">உள்ளூர் உணவகம்</strong>
+                                <span id="local-food-cost">₹30-80/வேளை</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="content-tips">
+                    <div class="pilgrimage-tips">
+                        <h4 id="tips-title">யாத்திரை குறிப்புகள்</h4>
+                        <ul id="tips-list">
+                            <li id="tip1">காலையில் ஆரம்பிக்கவும் - கோயில்கள் 6 மணிக்கு திறக்கும்</li>
+                            <li id="tip2">வெள்ளை அல்லது பாரம்பரிய உடை அணியவும்</li>
+                            <li id="tip3">பூஜை பொருட்களை முன்கூட்டியே வாங்கவும்</li>
+                            <li id="tip4">கோயில் நேரங்களை சரிபார்க்கவும்</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cultural Significance Section -->
+            <div class="cultural-significance">
+                <h3 id="significance-title">மத முக்கியத்துவம்</h3>
+                <div class="significance-content">
+                    <p id="significance-description">நவகிரக சுற்று ஒன்பது கிரகங்களின் தாக்கத்தைக் குறைக்கவும், வாழ்க்கையில் சுபத்தைப் பெறவும் செய்யப்படுகிறது.</p>
+                    
+                    <div class="benefits-grid">
+                        <div class="benefit-item">
+                            <i class="fas fa-star"></i>
+                            <span id="benefit1">கிரக சாந்தி</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-heart"></i>
+                            <span id="benefit2">குடும்ப நல்வாழ்வு</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-sun"></i>
+                            <span id="benefit3">மன அமைதி</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-leaf"></i>
+                            <span id="benefit4">ஆரோக்கிய முன்னேற்றம்</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Smart Temple Sequence Display -->
+            <div class="temple-sequence">
+                <h3 id="temple-sequence-title">கோயில் வரிசை (உகந்த வழி)</h3>
+                
+                <div id="temple-sequence-container">
+                    <!-- Dynamic temple sequence will be populated here -->
+                </div>
+            </div>
+
+            <!-- Planning Tools -->
+            <div class="planning-tools">
+                <div class="planning-card">
+                    <h4 id="planning-title">🎯 பயண திட்டமிடல்</h4>
+                    <div class="planning-options">
+                        <label>
+                            <input type="radio" name="duration" value="1-day">
+                            <span id="oneday-option">1 நாள் (அவசர தரிசனம்)</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="duration" value="2-day" checked>
+                            <span id="twoday-option">2 நாட்கள் (பரிந்துரைக்கப்பட்டது)</span>
+                        </label>
+                        <label>
+                            <input type="radio" name="duration" value="3-day">
+                            <span id="threeday-option">3 நாட்கள் (விரிவான தரிசனம்)</span>
+                        </label>
+                    </div>
+                    <button class="btn-generate" id="generate-plan-btn">திட்டம் உருவாக்க</button>
+                </div>
+            </div>
+
+            <!-- Main Action Button -->
+            <div class="main-actions" style="margin: 2rem 0; text-align: center;">
+                <button class="btn btn-primary btn-large" id="start-circuit-btn">
+                    <i class="fas fa-play"></i>
+                    <span id="start-circuit-text">சுற்றுலா தொடங்கு</span>
+                </button>
             </div>
         </div>
     </div>
@@ -2478,105 +3028,257 @@
             const displayDescription = AppState.currentLanguage === 'ta' ? 
                 (circuit.tamil_description || tamilDescriptions[circuit.name] || circuit.description) : 
                 circuit.description;
-            $('circuit-name').textContent = displayName;
-            $('circuit-description').textContent = displayDescription;
-            $('circuit-temples-count').textContent = circuit.total_temples;
-            $('circuit-temples-label').textContent = AppState.currentLanguage === 'ta' ? 'கோயில்கள்' : 'Temples';
-            $('circuit-distance').textContent = circuit.total_distance_km;
-            $('circuit-km-label').textContent = getLocalizedString('units.km', AppState.currentLanguage) || 'km';
-            // Duration elements removed from UI
             
-            // Update button and header text
+            // Update main header
+            $('circuit-name').textContent = displayName;
+            
+            // Update significance badge
+            const significanceTexts = {
+                'Navagraha Temples': AppState.currentLanguage === 'ta' ? 'ஒன்பது கிரக சாந்திக்காக' : 'For planetary peace',
+                'Murugan Six Abodes': AppState.currentLanguage === 'ta' ? 'முருகன் ஆற்றலுக்காக' : 'For Murugan\'s blessings',
+                'Pancha Bhoota Temples': AppState.currentLanguage === 'ta' ? 'ஐந்து தத்துவ சாந்திக்காக' : 'For elemental harmony'
+            };
+            if ($('circuit-significance')) {
+                $('circuit-significance').textContent = significanceTexts[circuit.name] || (AppState.currentLanguage === 'ta' ? 'ஆன்மீக முன்னேற்றத்திற்காக' : 'For spiritual progress');
+            }
+            
+            // Update best time
+            if ($('circuit-best-time')) {
+                $('circuit-best-time').textContent = AppState.currentLanguage === 'ta' ? 'சிறந்த காலம்: அக்டோபர் - மார்ச்' : 'Best Time: Oct - Mar';
+            }
+            
+            // Update quick stats
+            $('circuit-temples-count').textContent = circuit.total_temples;
+            $('circuit-distance').textContent = circuit.total_distance_km;
+            $('circuit-duration').textContent = circuit.total_temples <= 5 ? '1' : '2';
+            $('circuit-rating').textContent = '4.6';
+            
+            // Update stat labels
+            if ($('stat-temples-label')) $('stat-temples-label').textContent = AppState.currentLanguage === 'ta' ? 'கோயில்கள்' : 'Temples';
+            if ($('stat-km-label')) $('stat-km-label').textContent = AppState.currentLanguage === 'ta' ? 'கிமீ' : 'km';
+            if ($('stat-days-label')) $('stat-days-label').textContent = AppState.currentLanguage === 'ta' ? 'நாட்கள்' : 'days';
+            if ($('stat-rating-label')) $('stat-rating-label').textContent = AppState.currentLanguage === 'ta' ? 'மதிப்பீடு' : 'rating';
+            
+            // Update route preview title
+            if ($('route-preview-title')) {
+                $('route-preview-title').textContent = AppState.currentLanguage === 'ta' ? 'பயண வழித்தடம்' : 'Route Preview';
+            }
+            
+            // Generate temple markers for route visualization
+            generateTempleMarkers(circuit);
+            
+            // Update cultural significance
+            if ($('significance-title')) {
+                $('significance-title').textContent = AppState.currentLanguage === 'ta' ? 'மத முக்கியத்துவம்' : 'Religious Significance';
+            }
+            
+            if ($('significance-description')) {
+                const descriptions = {
+                    'Navagraha Temples': AppState.currentLanguage === 'ta' ? 'நவகிரக சுற்று ஒன்பது கிரகங்களின் தாக்கத்தைக் குறைக்கவும், வாழ்க்கையில் சுபத்தைப் பெறவும் செய்யப்படுகிறது.' : 'The Navagraha circuit is performed to reduce planetary influences and bring prosperity to life.',
+                    'Murugan Six Abodes': AppState.currentLanguage === 'ta' ? 'ஆறுபடை வீடுகள் முருகன் வழிபாட்டின் மிக முக்கியமான புனித தலங்கள்.' : 'The Six Abodes are the most important sacred places of Murugan worship.',
+                    'Pancha Bhoota Temples': AppState.currentLanguage === 'ta' ? 'பஞ்ச பூத ஸ்தலங்கள் ஐந்து இயற்கை சக்திகளை சமநிலைப்படுத்துகின்றன.' : 'Pancha Bhoota temples help balance the five natural elements.'
+                };
+                $('significance-description').textContent = descriptions[circuit.name] || displayDescription;
+            }
+            
+            // Update button text
             const startCircuitText = $('start-circuit-text');
             if (startCircuitText) {
                 startCircuitText.textContent = AppState.currentLanguage === 'ta' ? 'சுற்றுலா தொடங்கு' : 'Start Circuit';
             }
             
-            const templesInCircuitHeader = $('temples-in-circuit-header');
-            if (templesInCircuitHeader) {
-                templesInCircuitHeader.textContent = AppState.currentLanguage === 'ta' ? 'சுற்றுலா கோயில்கள்' : 'Temples in Circuit';
-            }
-
-            // Load related temples based on circuit type
-            const circuitTemplesContainer = $('circuit-temples-container');
-            let relevantTemples = [];
+            // Update temple sequence
+            generateTempleSequence(circuit);
             
-            // Find temples that match the circuit type
-            if (circuit.circuit_type === 'navagraha') {
-                relevantTemples = AppState.temples.filter(temple => 
-                    temple.name.toLowerCase().includes('navagraha') ||
-                    temple.name.toLowerCase().includes('surya') ||
-                    temple.name.toLowerCase().includes('chandra') ||
-                    temple.name.toLowerCase().includes('angaraka') ||
-                    temple.name.toLowerCase().includes('budha') ||
-                    temple.name.toLowerCase().includes('guru') ||
-                    temple.name.toLowerCase().includes('shukra') ||
-                    temple.name.toLowerCase().includes('shani') ||
-                    temple.name.toLowerCase().includes('rahu') ||
-                    temple.name.toLowerCase().includes('ketu')
-                ).slice(0, 9);
-            } else if (circuit.circuit_type === 'murugan') {
-                relevantTemples = AppState.temples.filter(temple => 
-                    temple.deity_type === 'murugan' || 
-                    temple.name.toLowerCase().includes('murugan') ||
-                    temple.name.toLowerCase().includes('kartikeya') ||
-                    temple.name.toLowerCase().includes('subrahmanya')
-                ).slice(0, 6);
-            } else if (circuit.circuit_type === 'shiva') {
-                relevantTemples = AppState.temples.filter(temple => 
-                    temple.deity_type === 'shiva'
-                ).slice(0, circuit.total_temples || 10);
-            } else {
-                // For other circuits, show highly rated temples of various types
-                relevantTemples = AppState.temples
-                    .filter(temple => temple.gm_rating && temple.gm_rating >= 4.0)
-                    .sort((a, b) => (b.gm_rating || 0) - (a.gm_rating || 0))
-                    .slice(0, circuit.total_temples || 8);
-            }
+            // Update all UI text elements
+            updateTourDetailStrings();
 
-            // Store temples in circuit for navigation
-            circuit.temples = relevantTemples;
-            
-            if (relevantTemples.length > 0) {
-                let templesHTML = '';
-                relevantTemples.forEach((temple, index) => {
-                    const displayName = AppState.currentLanguage === 'ta' && temple.tamil_name ? temple.tamil_name : temple.name;
-                    const hasLocation = temple.latitude && temple.longitude;
-                    
-                    templesHTML += `
-                        <div class="circuit-temple-item" onclick="showTempleDetail('${temple.id}')">
-                            <div class="temple-number">${index + 1}</div>
-                            <div style="flex: 1;">
-                                <div style="font-weight: 600; margin-bottom: 0.25rem; ${AppState.currentLanguage === 'ta' ? 'font-family: \"Noto Sans Tamil\", sans-serif;' : ''}">${displayName}</div>
-                                <div style="color: var(--text-secondary); font-size: 0.85rem; display: flex; align-items: center; gap: 1rem;">
-                                    <span><i class="fas fa-map-marker-alt"></i> ${getLocalizedDistrict(temple.district)}</span>
-                                    ${temple.deity_type && temple.deity_type !== 'other' ? `<span style="text-transform: capitalize;">${getLocalizedDeity(temple.deity_type)}</span>` : ''}
-                                </div>
-                                <div style="margin-top: 0.25rem; display: flex; gap: 0.5rem; align-items: center;">
-                                    ${hasLocation ? 
-                                        `<span class="location-indicator location-available" style="font-size: 0.7rem; padding: 0.125rem 0.25rem;"><i class="fas fa-map-marker-alt"></i> ${getLocalizedString('temple_details.location_available', AppState.currentLanguage) || 'Location'}</span>` : 
-                                        `<span class="location-indicator location-unavailable" style="font-size: 0.7rem; padding: 0.125rem 0.25rem;"><i class="fas fa-times-circle"></i> ${getLocalizedString('temple_details.no_location', AppState.currentLanguage) || 'No Location'}</span>`}
-                                    ${temple.gm_phone ? '<span style="color: var(--success-green); font-size: 0.7rem;"><i class="fas fa-phone"></i> Call</span>' : ''}
-                                </div>
-                            </div>
-                            <div style="color: var(--primary-saffron);">
-                                <i class="fas fa-chevron-right"></i>
-                            </div>
-                        </div>
-                    `;
-                });
-                circuitTemplesContainer.innerHTML = templesHTML;
-            } else {
-                circuitTemplesContainer.innerHTML = `
-                    <div style="text-align: center; padding: 2rem; color: var(--text-secondary);">
-                        <i class="fas fa-search" style="font-size: 2rem; margin-bottom: 1rem; opacity: 0.5;"></i>
-                        <p>No temples found for this circuit type.</p>
-                        <p style="font-size: 0.9rem;">This circuit is still being developed.</p>
-                    </div>
-                `;
-            }
+            // Store some sample temples for navigation (the detailed temple list is shown in the sequence section above)
+            circuit.temples = AppState.temples.slice(0, circuit.total_temples || 5);
 
             showScreen('tour-detail-screen');
+        }
+
+        // Generate temple markers for route visualization
+        function generateTempleMarkers(circuit) {
+            const markersContainer = $('temple-markers');
+            if (!markersContainer) return;
+            
+            // Generate markers based on temple count
+            const templeCount = Math.min(circuit.total_temples, 9); // Max 9 markers for display
+            let markersHTML = '';
+            
+            for (let i = 1; i <= templeCount; i++) {
+                const isStart = i === 1;
+                const isEnd = i === templeCount;
+                const markerClass = isStart ? 'marker start' : (isEnd ? 'marker end' : 'marker');
+                markersHTML += `<div class="${markerClass}">${i}</div>`;
+            }
+            
+            markersContainer.innerHTML = markersHTML;
+        }
+
+        // Generate temple sequence display
+        function generateTempleSequence(circuit) {
+            const container = $('temple-sequence-container');
+            if (!container) return;
+            
+            // For now, show a placeholder for temple sequence
+            const dayLabel = AppState.currentLanguage === 'ta' ? 'முதல் நாள்' : 'Day 1';
+            const templeLabel = AppState.currentLanguage === 'ta' ? 'கோயில்' : 'Temple';
+            const startingTime = AppState.currentLanguage === 'ta' ? 'காலை 6:00' : '6:00 AM';
+            
+            container.innerHTML = `
+                <div class="day-section">
+                    <div class="day-header" style="padding: 1rem; background: #f8f9fa; border-radius: 8px; margin-bottom: 1rem;">
+                        <span class="day-number" style="font-weight: 600; color: var(--primary-saffron);">1</span>
+                        <span class="day-label" style="margin-left: 0.5rem;">${dayLabel}</span>
+                        <span class="day-distance" style="float: right; color: var(--text-secondary);">${circuit.total_distance_km} கிமீ</span>
+                    </div>
+                    
+                    <div class="temple-timeline">
+                        <div class="temple-stop" style="padding: 1rem; border: 1px solid #e0e0e0; border-radius: 8px; margin-bottom: 1rem;">
+                            <div class="stop-time" style="color: var(--primary-saffron); font-weight: 600; margin-bottom: 0.5rem;">${startingTime}</div>
+                            <div class="temple-info">
+                                <div class="temple-name" style="font-weight: 600; margin-bottom: 0.25rem;">${circuit.name} - ${templeLabel} 1</div>
+                                <div class="temple-location" style="color: var(--text-secondary); font-size: 0.9rem;">${AppState.currentLanguage === 'ta' ? 'தமிழ்நாடு' : 'Tamil Nadu'}</div>
+                                <div class="special-info" style="margin-top: 0.5rem;">
+                                    <span class="timing-badge" style="background: #e8f5e8; color: #2e7d32; padding: 0.25rem 0.5rem; border-radius: 4px; font-size: 0.8rem; margin-right: 0.5rem;">
+                                        ${AppState.currentLanguage === 'ta' ? 'சிறப்பு பூஜை' : 'Special Pooja'}
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Update all tour detail strings
+        function updateTourDetailStrings() {
+            const lang = AppState.currentLanguage;
+            
+            // Update tab labels
+            if ($('transport-label')) $('transport-label').textContent = lang === 'ta' ? 'போக்குவரத்து' : 'Transport';
+            if ($('stay-label')) $('stay-label').textContent = lang === 'ta' ? 'தங்குமிடம்' : 'Stay';
+            if ($('food-label')) $('food-label').textContent = lang === 'ta' ? 'உணவு' : 'Food';
+            if ($('tips-label')) $('tips-label').textContent = lang === 'ta' ? 'குறிப்புகள்' : 'Tips';
+            
+            // Update route action buttons
+            if ($('view-route-text')) $('view-route-text').textContent = lang === 'ta' ? 'வழித்தடம் காண்க' : 'View Route';
+            if ($('download-offline-text')) $('download-offline-text').textContent = lang === 'ta' ? 'ஆஃப்லைன்' : 'Offline';
+            
+            // Update practical info content
+            if ($('own-vehicle-title')) $('own-vehicle-title').textContent = lang === 'ta' ? 'சொந்த வாகனம்' : 'Own Vehicle';
+            if ($('fuel-cost')) $('fuel-cost').textContent = lang === 'ta' ? 'எரிபொருள் செலவு: ₹1,200 (மதிப்பீடு)' : 'Fuel Cost: ₹1,200 (estimated)';
+            if ($('govt-bus-title')) $('govt-bus-title').textContent = lang === 'ta' ? 'அரசு பேருந்து' : 'Government Bus';
+            if ($('bus-cost')) $('bus-cost').textContent = lang === 'ta' ? 'மொத்த செலவு: ₹450/நபர்' : 'Total Cost: ₹450/person';
+            
+            // Update accommodation info
+            if ($('stay-info')) $('stay-info').textContent = lang === 'ta' ? 'பல கோயில் நகரங்களில் தர்மசாலைகள் மற்றும் லாட்ஜ்கள் கிடைக்கின்றன.' : 'Dharmashalas and lodges are available in many temple towns.';
+            if ($('dharmasala-title')) $('dharmasala-title').textContent = lang === 'ta' ? 'தர்மசாலை' : 'Dharmashala';
+            if ($('dharmasala-cost')) $('dharmasala-cost').textContent = '₹50-100/' + (lang === 'ta' ? 'நாள்' : 'day');
+            if ($('lodge-title')) $('lodge-title').textContent = lang === 'ta' ? 'லாட்ஜ்' : 'Lodge';
+            if ($('lodge-cost')) $('lodge-cost').textContent = '₹200-500/' + (lang === 'ta' ? 'நாள்' : 'day');
+            
+            // Update food info
+            if ($('food-info')) $('food-info').textContent = lang === 'ta' ? 'கோயில் அன்னதானம் மற்றும் உள்ளூர் உணவகங்கள் கிடைக்கின்றன.' : 'Temple annadhanam and local restaurants are available.';
+            if ($('annadhanam-title')) $('annadhanam-title').textContent = lang === 'ta' ? 'அன்னதானம்' : 'Annadhanam';
+            if ($('annadhanam-info')) $('annadhanam-info').textContent = lang === 'ta' ? 'இலவசம் - கோயில்களில்' : 'Free - at temples';
+            if ($('local-food-title')) $('local-food-title').textContent = lang === 'ta' ? 'உள்ளூர் உணவகம்' : 'Local Restaurant';
+            if ($('local-food-cost')) $('local-food-cost').textContent = '₹30-80/' + (lang === 'ta' ? 'வேளை' : 'meal');
+            
+            // Update tips section
+            if ($('tips-title')) $('tips-title').textContent = lang === 'ta' ? 'யாத்திரை குறிப்புகள்' : 'Pilgrimage Tips';
+            
+            // Update benefits
+            if ($('benefit1')) $('benefit1').textContent = lang === 'ta' ? 'கிரக சாந்தி' : 'Planetary Peace';
+            if ($('benefit2')) $('benefit2').textContent = lang === 'ta' ? 'குடும்ப நல்வாழ்வு' : 'Family Welfare';
+            if ($('benefit3')) $('benefit3').textContent = lang === 'ta' ? 'மன அமைதி' : 'Mental Peace';
+            if ($('benefit4')) $('benefit4').textContent = lang === 'ta' ? 'ஆரோக்கிய முன்னேற்றம்' : 'Health Improvement';
+            
+            // Update temple sequence title
+            if ($('temple-sequence-title')) $('temple-sequence-title').textContent = lang === 'ta' ? 'கோயில் வரிசை (உகந்த வழி)' : 'Temple Sequence (Optimal Route)';
+            
+            // Update planning section
+            if ($('planning-title')) $('planning-title').textContent = lang === 'ta' ? '🎯 பயண திட்டமிடல்' : '🎯 Trip Planning';
+            if ($('oneday-option')) $('oneday-option').textContent = lang === 'ta' ? '1 நாள் (அவசர தரிசனம்)' : '1 Day (Express Darshan)';
+            if ($('twoday-option')) $('twoday-option').textContent = lang === 'ta' ? '2 நாட்கள் (பரிந்துரைக்கப்பட்டது)' : '2 Days (Recommended)';
+            if ($('threeday-option')) $('threeday-option').textContent = lang === 'ta' ? '3 நாட்கள் (விரிவான தரிசனம்)' : '3 Days (Comprehensive Darshan)';
+            if ($('generate-plan-btn')) $('generate-plan-btn').textContent = lang === 'ta' ? 'திட்டம் உருவாக்க' : 'Generate Plan';
+        }
+
+        // Initialize tour detail tabs functionality
+        function initializeTourDetailTabs() {
+            // Tab switching functionality
+            const tabs = document.querySelectorAll('.info-tabs .tab');
+            const tabContents = document.querySelectorAll('.tab-content');
+            
+            tabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    const targetTab = tab.getAttribute('data-tab');
+                    
+                    // Remove active class from all tabs and contents
+                    tabs.forEach(t => t.classList.remove('active'));
+                    tabContents.forEach(content => content.classList.remove('active'));
+                    
+                    // Add active class to clicked tab and corresponding content
+                    tab.classList.add('active');
+                    const targetContent = document.getElementById(`content-${targetTab}`);
+                    if (targetContent) {
+                        targetContent.classList.add('active');
+                    }
+                });
+            });
+            
+            // Route action buttons
+            const viewRouteBtn = $('view-route-btn');
+            if (viewRouteBtn) {
+                viewRouteBtn.addEventListener('click', () => {
+                    // This would normally open the route in maps
+                    if (AppState.currentCircuit) {
+                        $('start-circuit-btn').click(); // For now, use the existing start circuit functionality
+                    }
+                });
+            }
+            
+            const downloadOfflineBtn = $('download-offline-btn');
+            if (downloadOfflineBtn) {
+                downloadOfflineBtn.addEventListener('click', () => {
+                    showToast(AppState.currentLanguage === 'ta' ? 'ஆஃப்லைன் பதிவிறக்கம் விரைவில்' : 'Offline download coming soon', 'info');
+                });
+            }
+            
+            // Circuit settings button
+            const circuitSettingsBtn = $('circuit-settings-btn');
+            if (circuitSettingsBtn) {
+                circuitSettingsBtn.addEventListener('click', () => {
+                    showToast(AppState.currentLanguage === 'ta' ? 'அமைப்புகள் விரைவில்' : 'Settings coming soon', 'info');
+                });
+            }
+            
+            // Generate plan button
+            const generatePlanBtn = $('generate-plan-btn');
+            if (generatePlanBtn) {
+                generatePlanBtn.addEventListener('click', () => {
+                    const selectedDuration = document.querySelector('input[name="duration"]:checked');
+                    if (selectedDuration) {
+                        const duration = selectedDuration.value;
+                        const message = AppState.currentLanguage === 'ta' ? 
+                            `${duration} திட்டம் தயாரிக்கப்படுகிறது...` : 
+                            `Generating ${duration} plan...`;
+                        showToast(message, 'success');
+                        
+                        // Simulate plan generation
+                        setTimeout(() => {
+                            const completedMessage = AppState.currentLanguage === 'ta' ? 
+                                'உங்கள் பயண திட்டம் தயார்!' : 
+                                'Your trip plan is ready!';
+                            showToast(completedMessage, 'success');
+                        }, 2000);
+                    }
+                });
+            }
         }
 
         function startCircuit() {
@@ -2956,6 +3658,7 @@
             initializeSearch();
             initializeFilters();
             initializeSettings();
+            initializeTourDetailTabs();
         }
 
         // App Initialization
