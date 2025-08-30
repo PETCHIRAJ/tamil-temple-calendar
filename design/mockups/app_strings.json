@@ -528,6 +528,10 @@
       "minute": {
         "en": "minute",
         "ta": "நிமிடம்"
+      },
+      "hours_short": {
+        "en": "h",
+        "ta": "மணி"
       }
     },
     "ratings": {

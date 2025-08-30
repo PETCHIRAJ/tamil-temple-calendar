@@ -1076,17 +1076,17 @@
                     <h1 id="circuit-name">Circuit Name</h1>
                     <p id="circuit-description">Circuit Description</p>
                     <div class="circuit-meta">
-                        <span><i class="fas fa-map-marked-alt"></i> <span id="circuit-temples-count">0</span> Temples</span>
-                        <span><i class="fas fa-route"></i> <span id="circuit-distance">0</span> km</span>
-                        <span><i class="fas fa-clock"></i> <span id="circuit-duration">0</span> hours</span>
+                        <span><i class="fas fa-map-marked-alt"></i> <span id="circuit-temples-count">0</span> <span id="circuit-temples-label">Temples</span></span>
+                        <span><i class="fas fa-route"></i> <span id="circuit-distance">0</span> <span id="circuit-km-label">km</span></span>
+                        <span><i class="fas fa-clock"></i> <span id="circuit-duration">0</span> <span id="circuit-hours-label">hours</span></span>
                     </div>
                     <button class="btn btn-primary mt-2" id="start-circuit-btn">
                         <i class="fas fa-play"></i>
-                        Start Circuit
+                        <span id="start-circuit-text">Start Circuit</span>
                     </button>
                 </div>
                 <div class="circuit-temples-list">
-                    <h3>Temples in Circuit</h3>
+                    <h3 id="temples-in-circuit-header">Temples in Circuit</h3>
                     <div id="circuit-temples-container">
                         <!-- Circuit temples will be populated here -->
                     </div>
@@ -2204,7 +2204,7 @@
                         <div class="circuit-meta">
                             <span><i class="fas fa-map-marked-alt"></i> ${circuit.total_temples} ${templesText}</span>
                             <span><i class="fas fa-route"></i> ${formatDistance(circuit.total_distance_km)}</span>
-                            <span><i class="fas fa-clock"></i> ${circuit.estimated_hours}h</span>
+                            <span><i class="fas fa-clock"></i> ${circuit.estimated_hours} ${getLocalizedString('units.hours_short', AppState.currentLanguage) || 'h'}</span>
                         </div>
                     </div>
                 `;
@@ -2458,8 +2458,22 @@
             $('circuit-name').textContent = displayName;
             $('circuit-description').textContent = circuit.description;
             $('circuit-temples-count').textContent = circuit.total_temples;
+            $('circuit-temples-label').textContent = AppState.currentLanguage === 'ta' ? 'கோயில்கள்' : 'Temples';
             $('circuit-distance').textContent = circuit.total_distance_km;
+            $('circuit-km-label').textContent = getLocalizedString('units.km', AppState.currentLanguage) || 'km';
             $('circuit-duration').textContent = circuit.estimated_hours;
+            $('circuit-hours-label').textContent = getLocalizedString('units.hours', AppState.currentLanguage) || 'hours';
+            
+            // Update button and header text
+            const startCircuitText = $('start-circuit-text');
+            if (startCircuitText) {
+                startCircuitText.textContent = AppState.currentLanguage === 'ta' ? 'சுற்றுலா தொடங்கு' : 'Start Circuit';
+            }
+            
+            const templesInCircuitHeader = $('temples-in-circuit-header');
+            if (templesInCircuitHeader) {
+                templesInCircuitHeader.textContent = AppState.currentLanguage === 'ta' ? 'சுற்றுலா கோயில்கள்' : 'Temples in Circuit';
+            }
 
             // Load related temples based on circuit type
             const circuitTemplesContainer = $('circuit-temples-container');
@@ -2514,11 +2528,12 @@
                                 <div style="font-weight: 600; margin-bottom: 0.25rem; ${AppState.currentLanguage === 'ta' ? 'font-family: \"Noto Sans Tamil\", sans-serif;' : ''}">${displayName}</div>
                                 <div style="color: var(--text-secondary); font-size: 0.85rem; display: flex; align-items: center; gap: 1rem;">
                                     <span><i class="fas fa-map-marker-alt"></i> ${getLocalizedDistrict(temple.district)}</span>
-                                    ${temple.gm_rating ? `<span><i class="fas fa-star" style="color: var(--secondary-gold);"></i> ${temple.gm_rating}</span>` : ''}
-                                    ${temple.deity_type ? `<span style="text-transform: capitalize;">${temple.deity_type}</span>` : ''}
+                                    ${temple.deity_type ? `<span style="text-transform: capitalize;">${getLocalizedDeity(temple.deity_type)}</span>` : ''}
                                 </div>
                                 <div style="margin-top: 0.25rem; display: flex; gap: 0.5rem; align-items: center;">
-                                    ${hasLocation ? '<span class="location-indicator location-available" style="font-size: 0.7rem; padding: 0.125rem 0.25rem;"><i class="fas fa-map-marker-alt"></i> Location</span>' : '<span class="location-indicator location-unavailable" style="font-size: 0.7rem; padding: 0.125rem 0.25rem;"><i class="fas fa-times-circle"></i> No Location</span>'}
+                                    ${hasLocation ? 
+                                        `<span class="location-indicator location-available" style="font-size: 0.7rem; padding: 0.125rem 0.25rem;"><i class="fas fa-map-marker-alt"></i> ${getLocalizedString('temple_details.location_available', AppState.currentLanguage) || 'Location'}</span>` : 
+                                        `<span class="location-indicator location-unavailable" style="font-size: 0.7rem; padding: 0.125rem 0.25rem;"><i class="fas fa-times-circle"></i> ${getLocalizedString('temple_details.no_location', AppState.currentLanguage) || 'No Location'}</span>`}
                                     ${temple.gm_phone ? '<span style="color: var(--success-green); font-size: 0.7rem;"><i class="fas fa-phone"></i> Call</span>' : ''}
                                 </div>
                             </div>
