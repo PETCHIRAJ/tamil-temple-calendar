@@ -2474,8 +2474,7 @@
             $('circuit-temples-label').textContent = AppState.currentLanguage === 'ta' ? 'கோயில்கள்' : 'Temples';
             $('circuit-distance').textContent = circuit.total_distance_km;
             $('circuit-km-label').textContent = getLocalizedString('units.km', AppState.currentLanguage) || 'km';
-            $('circuit-duration').textContent = circuit.estimated_hours;
-            $('circuit-hours-label').textContent = getLocalizedString('units.hours', AppState.currentLanguage) || 'hours';
+            // Duration elements removed from UI
             
             // Update button and header text
             const startCircuitText = $('start-circuit-text');
@@ -2971,8 +2970,8 @@
                 // Load temple data
                 await loadTempleData();
                 
-                // Request location permission
-                requestLocation();
+                // Auto-fetch location (no user interaction needed)
+                // autoFetchLocation() is already called earlier in initialization
                 
                 console.log('✅ App initialization complete!');
                 showToast('கோவில் வழிகாட்டி தயார்! / Kovil Valikatti Ready!', 'success');
