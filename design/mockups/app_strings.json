@@ -175,6 +175,22 @@
       }
     },
     "temple_details": {
+      "deity": {
+        "en": "Deity",
+        "ta": "தெய்வம்"
+      },
+      "distance": {
+        "en": "Distance",
+        "ta": "தூரம்"
+      },
+      "no_location": {
+        "en": "No Location",
+        "ta": "இருப்பிடம் இல்லை"
+      },
+      "no_location_available": {
+        "en": "No GPS coordinates available",
+        "ta": "GPS குறியீடுகள் இல்லை"
+      },
       "temple_information": {
         "en": "Temple Information",
         "ta": "கோயில் தகவல்கள்"
@@ -490,6 +506,30 @@
       "tamil_nadu": {
         "en": "Tamil Nadu",
         "ta": "தமிழ்நாடு"
+      },
+      "tamil_nadu_district": {
+        "en": "Tamil Nadu",
+        "ta": "தமிழ்நாடு"
+      },
+      "thirupathur_district": {
+        "en": "Thirupathur District",
+        "ta": "திருப்பத்தூர் மாவட்டம்"
+      },
+      "ariyalur_district": {
+        "en": "Ariyalur District",
+        "ta": "அரியலூர் மாவட்டம்"
+      },
+      "tiruvallur_district": {
+        "en": "Tiruvallur District",
+        "ta": "திருவள்ளூர் மாவட்டம்"
+      },
+      "tiruvarur_district": {
+        "en": "Tiruvarur District",
+        "ta": "திருவாரூர் மாவட்டம்"
+      },
+      "thiruchirappalli_district": {
+        "en": "Thiruchirappalli District",
+        "ta": "திருச்சிராப்பள்ளி மாவட்டம்"
       }
     },
     "deity_types": {

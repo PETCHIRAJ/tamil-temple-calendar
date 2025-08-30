@@ -2292,6 +2292,13 @@
                 // Load and enhance temples with Tamil search terms
                 AppState.temples = enhanceTempleSearchForTamil(data.app_temples || []);
                 
+                // Debug: Check if TOUR temples have districts
+                const tourTemples = AppState.temples.filter(t => t.id && t.id.startsWith('TOUR'));
+                console.log(`Found ${tourTemples.length} TOUR temples:`);
+                tourTemples.forEach(t => {
+                    console.log(`  ${t.id}: ${t.name} - District: ${t.district || 'NO DISTRICT'}`);
+                });
+                
                 // Define tour circuits (since they're not in the JSON)
                 AppState.tourCircuits = [
                     {
@@ -3496,7 +3503,7 @@
                     if (!temple) {
                         console.warn(`Temple not found: ${id}`);
                     } else {
-                        console.log(`Found temple: ${id} - ${temple.name}`);
+                        console.log(`Found temple: ${id} - ${temple.name} - District: ${temple.district || 'NO DISTRICT'}`);
                     }
                     return temple;
                 }).filter(t => t !== undefined && t !== null);
@@ -3516,6 +3523,11 @@
                 // Fetch actual temples from AppState using IDs
                 temples = muruganTempleIds.map(id => {
                     const temple = AppState.temples.find(t => t.id === id);
+                    if (!temple) {
+                        console.warn(`Murugan temple not found: ${id}`);
+                    } else {
+                        console.log(`Found Murugan temple: ${id} - ${temple.name} - District: ${temple.district || 'NO DISTRICT'}`);
+                    }
                     return temple;
                 }).filter(t => t !== undefined && t !== null);
                 
@@ -3531,6 +3543,11 @@
                 // Fetch actual temples from AppState using IDs
                 temples = panchaBoothaTempleIds.map(id => {
                     const temple = AppState.temples.find(t => t.id === id);
+                    if (!temple) {
+                        console.warn(`Pancha Bootha temple not found: ${id}`);
+                    } else {
+                        console.log(`Found Pancha Bootha temple: ${id} - ${temple.name} - District: ${temple.district || 'NO DISTRICT'}`);
+                    }
                     return temple;
                 }).filter(t => t !== undefined && t !== null);
                 
