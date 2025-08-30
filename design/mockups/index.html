@@ -381,13 +381,14 @@
 
         /* Tour Circuits */
         .circuit-card {
-            background: linear-gradient(135deg, var(--primary-saffron), var(--secondary-gold));
-            color: white;
+            background: var(--card-white);
+            border-left: 4px solid var(--primary-saffron);
             padding: 2rem;
-            border-radius: 16px;
+            border-radius: 12px;
             margin-bottom: 1rem;
             cursor: pointer;
             transition: all 0.3s ease;
+            box-shadow: var(--shadow);
         }
 
         .circuit-card:hover {
@@ -1076,9 +1077,8 @@
                     <h1 id="circuit-name">Circuit Name</h1>
                     <p id="circuit-description">Circuit Description</p>
                     <div class="circuit-meta">
-                        <span><i class="fas fa-map-marked-alt"></i> <span id="circuit-temples-count">0</span> <span id="circuit-temples-label">Temples</span></span>
+                        <span><i class="fas fa-gopuram"></i> <span id="circuit-temples-count">0</span> <span id="circuit-temples-label">Temples</span></span>
                         <span><i class="fas fa-route"></i> <span id="circuit-distance">0</span> <span id="circuit-km-label">km</span></span>
-                        <span><i class="fas fa-clock"></i> <span id="circuit-duration">0</span> <span id="circuit-hours-label">hours</span></span>
                     </div>
                     <button class="btn btn-primary mt-2" id="start-circuit-btn">
                         <i class="fas fa-play"></i>
@@ -2189,8 +2189,17 @@
             }
 
             const circuitHTML = AppState.tourCircuits.map(circuit => {
-                // Display name based on current language
+                // Display name and description based on current language
                 const displayName = AppState.currentLanguage === 'ta' && circuit.tamil_name ? circuit.tamil_name : circuit.name;
+                // Use default Tamil descriptions if not in data
+                const tamilDescriptions = {
+                    'Navagraha Temples': 'ஒன்பது கிரகங்களுக்கான ஒன்பது கோயில்கள்',
+                    'Murugan Six Abodes': 'முருகனின் ஆறு புனித இருப்பிடங்கள்',
+                    'Pancha Bhoota Temples': 'ஐந்து தத்துவங்களுக்கான சிவன் கோயில்கள்'
+                };
+                const displayDescription = AppState.currentLanguage === 'ta' ? 
+                    (circuit.tamil_description || tamilDescriptions[circuit.name] || circuit.description) : 
+                    circuit.description;
                 const nameClass = AppState.currentLanguage === 'ta' ? 'tamil' : '';
                 const templesText = AppState.currentLanguage === 'ta' ? 'கோயில்கள்' : 'Temples';
                 
@@ -2198,14 +2207,13 @@
                     <div class="circuit-card" onclick="showTourDetail('${circuit.id}')">
                         <div class="circuit-header">
                             <div>
-                                <div class="circuit-title ${nameClass}">${displayName}</div>
+                                <div class="circuit-title ${nameClass}" style="color: var(--primary-saffron); font-size: 1.3rem; font-weight: 600;">${displayName}</div>
                             </div>
                         </div>
-                        <p style="margin: 1rem 0; opacity: 0.9;">${circuit.description}</p>
-                        <div class="circuit-meta">
-                            <span><i class="fas fa-map-marked-alt"></i> ${circuit.total_temples} ${templesText}</span>
-                            <span><i class="fas fa-route"></i> ${formatDistance(circuit.total_distance_km)}</span>
-                            <span><i class="fas fa-clock"></i> ${circuit.estimated_hours} ${getLocalizedString('units.hours_short', AppState.currentLanguage) || 'h'}</span>
+                        <p style="margin: 1rem 0; color: var(--text-secondary); line-height: 1.5;">${displayDescription}</p>
+                        <div class="circuit-meta" style="color: var(--text-primary);">
+                            <span style="margin-right: 1.5rem;"><i class="fas fa-gopuram" style="color: var(--primary-saffron);"></i> ${circuit.total_temples} ${templesText}</span>
+                            <span><i class="fas fa-route" style="color: var(--primary-saffron);"></i> ${formatDistance(circuit.total_distance_km)}</span>
                         </div>
                     </div>
                 `;
@@ -2450,10 +2458,18 @@
 
             AppState.currentCircuit = circuit;
 
-            // Update circuit details
+            // Update circuit details with proper language
             const displayName = AppState.currentLanguage === 'ta' && circuit.tamil_name ? circuit.tamil_name : circuit.name;
+            const tamilDescriptions = {
+                'Navagraha Temples': 'ஒன்பது கிரகங்களுக்கான ஒன்பது கோயில்கள்',
+                'Murugan Six Abodes': 'முருகனின் ஆறு புனித இருப்பிடங்கள்',
+                'Pancha Bhoota Temples': 'ஐந்து தத்துவங்களுக்கான சிவன் கோயில்கள்'
+            };
+            const displayDescription = AppState.currentLanguage === 'ta' ? 
+                (circuit.tamil_description || tamilDescriptions[circuit.name] || circuit.description) : 
+                circuit.description;
             $('circuit-name').textContent = displayName;
-            $('circuit-description').textContent = circuit.description;
+            $('circuit-description').textContent = displayDescription;
             $('circuit-temples-count').textContent = circuit.total_temples;
             $('circuit-temples-label').textContent = AppState.currentLanguage === 'ta' ? 'கோயில்கள்' : 'Temples';
             $('circuit-distance').textContent = circuit.total_distance_km;
