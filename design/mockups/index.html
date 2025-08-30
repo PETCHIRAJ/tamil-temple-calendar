@@ -1478,20 +1478,34 @@
     <!-- Temple Detail Screen -->
     <div id="temple-detail-screen" class="screen">
         <div class="container">
+            <!-- Share button in top right -->
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+                <button onclick="history.back()" class="btn-back" style="background: none; border: none; font-size: 1.2rem; cursor: pointer;">
+                    <i class="fas fa-arrow-left"></i> Back
+                </button>
+                <button onclick="shareTemple()" class="btn-share" style="background: none; border: none; font-size: 1.2rem; cursor: pointer; color: var(--primary-saffron);">
+                    <i class="fas fa-share-alt"></i> Share
+                </button>
+            </div>
             <div class="temple-detail">
                 <div class="temple-detail-header">
                     <h1 class="temple-detail-title" id="temple-detail-name">Temple Name</h1>
                     <p class="temple-detail-subtitle" id="temple-detail-location">Location</p>
                     
-                    <div class="temple-meta">
-                        <div class="meta-item">
-                            <div class="meta-value" id="temple-distance">2.3 km</div>
-                            <div class="meta-label" id="distance-label">Distance</div>
-                        </div>
-                        <div class="meta-item">
-                            <div class="meta-value" id="temple-deity">Shiva</div>
-                            <div class="meta-label" id="deity-label">Deity</div>
-                        </div>
+                    <!-- Dynamic badges -->
+                    <div class="temple-badges" id="temple-badges" style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem;">
+                        <span id="temple-rating-badge" class="badge" style="display: none; background: #FFF3E0; color: #F57C00;">
+                            <i class="fas fa-star"></i> <span id="temple-rating-value">4.8</span>
+                        </span>
+                        <span id="temple-distance-badge" class="badge" style="display: none; background: #E8F5E9; color: #2E7D32;">
+                            <i class="fas fa-map-marker-alt"></i> <span id="temple-distance-value">2.3 km</span>
+                        </span>
+                        <span id="temple-tour-badge" class="badge" style="display: none; background: var(--primary-saffron); color: white;">
+                            <i class="fas fa-route"></i> Part of Tour Circuit
+                        </span>
+                        <span id="temple-quality-badge" class="badge" style="display: none; background: #4CAF50; color: white;">
+                            <i class="fas fa-check-circle"></i> Verified Information
+                        </span>
                     </div>
                 </div>
 
@@ -1522,8 +1536,18 @@
                     </div>
 
                     <div class="settings-section" id="popular-times-section" style="display: none;">
-                        <h3 id="popular-times-header">Popular Times</h3>
+                        <h3 id="popular-times-header">Typical Crowd Patterns</h3>
+                        <p style="font-size: 0.85rem; color: var(--text-secondary); margin-top: -0.5rem; margin-bottom: 0.5rem;">
+                            *Based on general visiting patterns
+                        </p>
+                        <div id="temple-crowd-summary" style="margin-bottom: 1rem;"></div>
                         <div id="temple-popular-times"></div>
+                    </div>
+                    
+                    <div class="settings-section" id="navigation-note-section" style="display: none;">
+                        <h3><i class="fas fa-info-circle"></i> Navigation Note</h3>
+                        <p id="navigation-note-text">GPS coordinates not available for this temple.</p>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem;">Search for "<span id="temple-search-name"></span>" in your Maps app</p>
                     </div>
                 </div>
             </div>
@@ -2490,27 +2514,17 @@
             // Update temple details
             $('temple-detail-name').textContent = temple.name;
             $('temple-detail-location').textContent = getLocalizedDistrict(temple.district);
-            // Rating removed as per user request
-            // Only show deity if known (not 'other')
-            if (temple.deity_type && temple.deity_type !== 'other') {
-                $('temple-deity').textContent = getLocalizedDeity(temple.deity_type);
-                $('deity-label').parentElement.style.display = 'block';
+            
+            // Update dynamic badges
+            // Google Rating
+            if (temple.gm_rating) {
+                $('temple-rating-value').textContent = temple.gm_rating;
+                $('temple-rating-badge').style.display = 'inline-flex';
             } else {
-                $('deity-label').parentElement.style.display = 'none';
+                $('temple-rating-badge').style.display = 'none';
             }
             
-            // Update labels with localized text
-            $('deity-label').textContent = getLocalizedString('temple_details.deity', AppState.currentLanguage) || 'Deity';
-            $('distance-label').textContent = getLocalizedString('temple_details.distance', AppState.currentLanguage) || 'Distance';
-            $('temple-info-header').textContent = getLocalizedString('temple_details.temple_information', AppState.currentLanguage) || 'Temple Information';
-            
-            // Update Popular Times header if visible
-            const popularTimesHeader = $('popular-times-header');
-            if (popularTimesHeader) {
-                popularTimesHeader.textContent = getLocalizedString('temple_details.popular_times', AppState.currentLanguage) || 'Popular Times';
-            }
-
-            // Calculate and show distance
+            // Distance
             if (AppState.currentLocation && temple.latitude && temple.longitude) {
                 const distance = calculateDistance(
                     AppState.currentLocation.lat,
@@ -2518,16 +2532,58 @@
                     temple.latitude,
                     temple.longitude
                 );
-                $('temple-distance').textContent = formatDistance(distance);
+                $('temple-distance-value').textContent = formatDistance(distance);
+                $('temple-distance-badge').style.display = 'inline-flex';
             } else {
-                $('temple-distance').textContent = 'N/A';
+                $('temple-distance-badge').style.display = 'none';
+            }
+            
+            // Tour Circuit Badge
+            if (temple.is_tour_temple === 1) {
+                $('temple-tour-badge').style.display = 'inline-flex';
+            } else {
+                $('temple-tour-badge').style.display = 'none';
+            }
+            
+            // Data Quality Badge
+            if (temple.data_quality === 'premium') {
+                $('temple-quality-badge').style.display = 'inline-flex';
+            } else {
+                $('temple-quality-badge').style.display = 'none';
+            }
+            // Remove old meta section since we're using badges now
+            const oldMetaSection = document.querySelector('.temple-meta');
+            if (oldMetaSection) {
+                oldMetaSection.style.display = 'none';
+            }
+            
+            // Update labels with localized text
+            $('temple-info-header').textContent = getLocalizedString('temple_details.temple_information', AppState.currentLanguage) || 'Temple Information';
+            
+            // Update Crowd Patterns header
+            const popularTimesHeader = $('popular-times-header');
+            if (popularTimesHeader) {
+                popularTimesHeader.textContent = AppState.currentLanguage === 'ta' ? 
+                    'பொதுவான கூட்ட முறைகள்' : 'Typical Crowd Patterns';
             }
 
-            // Update address and contact info
-            let addressHTML = `<p><i class="fas fa-map-marker-alt"></i> ${temple.gm_address || getLocalizedDistrict(temple.district)}</p>`;
+            // Update address and contact info with deity
+            let addressHTML = '';
+            
+            // Show deity if not 'other'
+            if (temple.deity_type && temple.deity_type !== 'other') {
+                const deityText = AppState.currentLanguage === 'ta' ? 'தெய்வம்' : 'Deity';
+                addressHTML += `<p><i class="fas fa-om" style="color: var(--primary-saffron);"></i> ${deityText}: ${getLocalizedDeity(temple.deity_type)}</p>`;
+            }
+            
+            // Show address
+            addressHTML += `<p><i class="fas fa-map-marker-alt"></i> ${temple.gm_address || getLocalizedDistrict(temple.district)}</p>`;
+            
+            // Show phone if available
             if (temple.gm_phone) {
                 addressHTML += `<p style="margin-top: 0.5rem;"><i class="fas fa-phone" style="color: var(--success-green);"></i> <a href="tel:${temple.gm_phone}" style="color: var(--success-green); text-decoration: none;">${temple.gm_phone}</a></p>`;
             }
+            
             $('temple-address').innerHTML = addressHTML;
 
             // Update location status
@@ -2594,58 +2650,50 @@
 
             // Update website if available
             if (temple.gm_website) {
-                $('temple-website').innerHTML = `<p style="margin-top: 0.5rem;"><i class="fas fa-globe" style="color: var(--primary-saffron);"></i> <a href="${temple.gm_website}" target="_blank" style="color: var(--primary-saffron); text-decoration: none;">Visit Website</a></p>`;
+                const websiteText = AppState.currentLanguage === 'ta' ? 'இணையதளத்தைப் பார்க்கவும்' : 'Visit Website';
+                $('temple-website').innerHTML = `<p style="margin-top: 0.5rem;"><i class="fas fa-globe" style="color: var(--primary-saffron);"></i> <a href="${temple.gm_website}" target="_blank" style="color: var(--primary-saffron); text-decoration: none;">${websiteText}</a></p>`;
             } else {
                 $('temple-website').innerHTML = '';
             }
 
             // Enhanced crowd info with popular times analysis
             if (temple.popular_times && temple.popular_times.length > 0) {
-                const now = new Date();
-                const hour = now.getHours();
+                // Analyze crowd patterns to find best and worst times
+                let minCrowd = 100;
+                let maxCrowd = 0;
+                let bestTime = '';
+                let worstTime = '';
                 
-                // Parse popular times to get actual crowd percentages
-                let currentCrowdLevel = 'Low';
-                let currentPercentage = 0;
-                let crowdClass = 'crowd-low';
-                
-                // Find crowd level for current hour
-                const currentTimeEntry = temple.popular_times.find(entry => {
-                    const entryHour = parseHourFromPopularTime(entry);
-                    return entryHour === hour;
+                temple.popular_times.forEach(entry => {
+                    const match = entry.match(/(\d+)% busy at (\d+ [ap]m)/);
+                    if (match) {
+                        const percentage = parseInt(match[1]);
+                        const time = match[2];
+                        
+                        if (percentage < minCrowd && percentage > 0) {
+                            minCrowd = percentage;
+                            bestTime = time;
+                        }
+                        if (percentage > maxCrowd) {
+                            maxCrowd = percentage;
+                            worstTime = time;
+                        }
+                    }
                 });
                 
-                if (currentTimeEntry) {
-                    currentPercentage = parseInt(currentTimeEntry.match(/\d+/)[0]);
-                    if (currentPercentage >= 40) {
-                        currentCrowdLevel = 'High';
-                        crowdClass = 'crowd-high';
-                    } else if (currentPercentage >= 20) {
-                        currentCrowdLevel = 'Medium';
-                        crowdClass = 'crowd-medium';
-                    }
+                // Show crowd summary
+                let summaryHTML = '';
+                if (bestTime) {
+                    const bestText = AppState.currentLanguage === 'ta' ? 'சிறந்த நேரம்' : 'Best time to visit';
+                    summaryHTML += `<p><i class="fas fa-check-circle" style="color: var(--success-green);"></i> ${bestText}: ${bestTime} (${minCrowd}% busy)</p>`;
                 }
-
-                // Only show current crowd level in Temple Information section
-                const currentCrowdText = getLocalizedString('temple_details.current_crowd_level', AppState.currentLanguage) || 'Current crowd level:';
-                const lowText = getLocalizedString('temple_details.low', AppState.currentLanguage) || 'Low';
-                const mediumText = getLocalizedString('temple_details.medium', AppState.currentLanguage) || 'Medium';
-                const highText = getLocalizedString('temple_details.high', AppState.currentLanguage) || 'High';
+                if (worstTime) {
+                    const busiestText = AppState.currentLanguage === 'ta' ? 'மிகுந்த கூட்டம்' : 'Busiest time';
+                    summaryHTML += `<p><i class="fas fa-exclamation-circle" style="color: var(--warning-orange);"></i> ${busiestText}: ${worstTime} (${maxCrowd}% busy)</p>`;
+                }
                 
-                let localizedCrowdLevel = currentCrowdLevel;
-                if (currentCrowdLevel === 'Low') localizedCrowdLevel = lowText;
-                else if (currentCrowdLevel === 'Medium') localizedCrowdLevel = mediumText;
-                else if (currentCrowdLevel === 'High') localizedCrowdLevel = highText;
-                
-                let crowdHTML = `
-                    <div class="crowd-indicator ${crowdClass}" style="margin-top: 0.5rem;">
-                        <i class="fas fa-users"></i>
-                        <span>${currentCrowdText} ${localizedCrowdLevel}</span>
-                        ${currentPercentage > 0 ? `<span style="margin-left: 0.5rem; opacity: 0.8;">(${currentPercentage}%)</span>` : ''}
-                    </div>
-                `;
-
-                $('temple-crowd-info').innerHTML = crowdHTML;
+                $('temple-crowd-summary').innerHTML = summaryHTML;
+                $('temple-crowd-info').innerHTML = ''; // Clear old crowd indicator
                 
                 // Also show the popular times chart in its dedicated section
                 $('temple-popular-times').innerHTML = `
@@ -2690,12 +2738,28 @@
             }
 
             // Update timings info (general temple hours)
-            const typicalHours = getLocalizedString('temple_details.typical_hours', AppState.currentLanguage) || 'Typical Hours: 6:00 AM - 12:00 PM, 4:00 PM - 9:00 PM';
-            const hoursMayVary = getLocalizedString('temple_details.hours_may_vary', AppState.currentLanguage) || '*Hours may vary. Please call temple for exact timings.';
+            const typicalHours = AppState.currentLanguage === 'ta' ? 
+                'பொதுவான நேரம்: காலை 6:00 - 12:00, மாலை 4:00 - 9:00' : 
+                'Typical Hours: 6:00 AM - 12:00 PM, 4:00 PM - 9:00 PM';
+            const hoursMayVary = AppState.currentLanguage === 'ta' ? 
+                '*திருவிழா நாட்களில் நேரம் மாறலாம்' : 
+                '*Hours may vary on festival days';
             $('temple-timings').innerHTML = `
                 <p style="margin-top: 0.5rem;"><i class="fas fa-clock" style="color: var(--warning-orange);"></i> <span style="color: var(--text-secondary);">${typicalHours}</span></p>
                 <p style="font-size: 0.8rem; color: var(--text-secondary); margin-left: 1.2rem;">${hoursMayVary}</p>
             `;
+            
+            // Show navigation note if no GPS coordinates
+            if (!temple.latitude || !temple.longitude) {
+                $('navigation-note-section').style.display = 'block';
+                $('temple-search-name').textContent = temple.name;
+                const noteText = AppState.currentLanguage === 'ta' ? 
+                    'இந்த கோவிலுக்கு GPS குறியீடுகள் இல்லை' : 
+                    'GPS coordinates not available for this temple';
+                $('navigation-note-text').textContent = noteText;
+            } else {
+                $('navigation-note-section').style.display = 'none';
+            }
 
             showScreen('temple-detail-screen');
         }
@@ -3649,9 +3713,39 @@
         // Start the app when DOM is ready
         document.addEventListener('DOMContentLoaded', initializeApp);
 
+        // Share temple function
+        function shareTemple() {
+            if (!AppState.currentTemple) return;
+            
+            const temple = AppState.currentTemple;
+            const shareText = AppState.currentLanguage === 'ta' ? 
+                `${temple.name} - ${temple.district} கோவிலைப் பற்றி Kovil Valikatti செயலியில் பார்க்கவும்!` :
+                `Check out ${temple.name} in ${temple.district} on Kovil Valikatti app!`;
+            
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Kovil Valikatti - கோவில் வழிகாட்டி',
+                    text: shareText,
+                    url: window.location.href
+                }).catch(() => {
+                    // User cancelled share, do nothing
+                });
+            } else {
+                // Fallback: Copy to clipboard
+                navigator.clipboard.writeText(shareText).then(() => {
+                    alert(AppState.currentLanguage === 'ta' ? 
+                        'கோவில் விவரங்கள் நகலெடுக்கப்பட்டது!' : 
+                        'Temple details copied to clipboard!');
+                }).catch(() => {
+                    alert('Unable to share');
+                });
+            }
+        }
+
         // Make functions globally available
         window.showTempleDetail = showTempleDetail;
         window.showTourDetail = showTourDetail;
+        window.shareTemple = shareTemple;
     </script>
 </body>
 </html>
