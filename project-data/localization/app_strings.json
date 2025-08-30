@@ -325,6 +325,488 @@
         "en": "Showing {count} upcoming {type} observances",
         "ta": "{count} வரவிருக்கும் {type} அனுஷ்டானங்கள் காட்டப்படுகின்றன"
       }
+    },
+    "districts": {
+      "chennai_district": {
+        "en": "Chennai District",
+        "ta": "சென்னை மாவட்டம்"
+      },
+      "chengalpattu_district": {
+        "en": "Chengalpattu District",
+        "ta": "செங்கல்பட்டு மாவட்டம்"
+      },
+      "coimbatore_district": {
+        "en": "Coimbatore District",
+        "ta": "கோயம்புத்தூர் மாவட்டம்"
+      },
+      "cuddalore_district": {
+        "en": "Cuddalore District",
+        "ta": "கடலூர் மாவட்டம்"
+      },
+      "dharmapuri_district": {
+        "en": "Dharmapuri District",
+        "ta": "தர்மபுரி மாவட்டம்"
+      },
+      "dindigul_district": {
+        "en": "Dindigul District",
+        "ta": "திண்டுக்கல் மாவட்டம்"
+      },
+      "erode_district": {
+        "en": "Erode District",
+        "ta": "ஈரோடு மாவட்டம்"
+      },
+      "kallakurichi_district": {
+        "en": "Kallakurichi District",
+        "ta": "கள்ளக்குறிச்சி மாவட்டம்"
+      },
+      "kancheepuram_district": {
+        "en": "Kancheepuram District",
+        "ta": "காஞ்சிபுரம் மாவட்டம்"
+      },
+      "kanyakumari_district": {
+        "en": "Kanyakumari District",
+        "ta": "கன்னியாகுமரி மாவட்டம்"
+      },
+      "karur_district": {
+        "en": "Karur District",
+        "ta": "கரூர் மாவட்டம்"
+      },
+      "krishnagiri_district": {
+        "en": "Krishnagiri District",
+        "ta": "கிருஷ்ணகிரி மாவட்டம்"
+      },
+      "madurai_district": {
+        "en": "Madurai District",
+        "ta": "மதுரை மாவட்டம்"
+      },
+      "mayiladuthurai_district": {
+        "en": "Mayiladuthurai District",
+        "ta": "மயிலாடுதுறை மாவட்டம்"
+      },
+      "nagapattinam_district": {
+        "en": "Nagapattinam District",
+        "ta": "நாகப்பட்டினம் மாவட்டம்"
+      },
+      "namakkal_district": {
+        "en": "Namakkal District",
+        "ta": "நாமக்கல் மாவட்டம்"
+      },
+      "nilgiris_district": {
+        "en": "Nilgiris District",
+        "ta": "நீலகிரி மாவட்டம்"
+      },
+      "perambalur_district": {
+        "en": "Perambalur District",
+        "ta": "பெரம்பலூர் மாவட்டம்"
+      },
+      "pudukkottai_district": {
+        "en": "Pudukkottai District",
+        "ta": "புதுக்கோட்டை மாவட்டம்"
+      },
+      "ramanathapuram_district": {
+        "en": "Ramanathapuram District",
+        "ta": "ராமநாதபுரம் மாவட்டம்"
+      },
+      "ranipet_district": {
+        "en": "Ranipet District",
+        "ta": "ராணிப்பேட்டை மாவட்டம்"
+      },
+      "salem_district": {
+        "en": "Salem District",
+        "ta": "சேலம் மாவட்டம்"
+      },
+      "sivagangai_district": {
+        "en": "Sivagangai District",
+        "ta": "சிவகங்கை மாவட்டம்"
+      },
+      "tenkasi_district": {
+        "en": "Tenkasi District",
+        "ta": "தென்காசி மாவட்டம்"
+      },
+      "thanjavur_district": {
+        "en": "Thanjavur District",
+        "ta": "தஞ்சாவூர் மாவட்டம்"
+      },
+      "theni_district": {
+        "en": "Theni District",
+        "ta": "தேனி மாவட்டம்"
+      },
+      "thiruvallur_district": {
+        "en": "Thiruvallur District",
+        "ta": "திருவள்ளூர் மாவட்டம்"
+      },
+      "thiruvarur_district": {
+        "en": "Thiruvarur District",
+        "ta": "திருவாரூர் மாவட்டம்"
+      },
+      "thoothukudi_district": {
+        "en": "Thoothukudi District",
+        "ta": "தூத்துக்குடி மாவட்டம்"
+      },
+      "tiruchirappalli_district": {
+        "en": "Tiruchirappalli District",
+        "ta": "திருச்சிராப்பள்ளி மாவட்டம்"
+      },
+      "tirunelveli_district": {
+        "en": "Tirunelveli District",
+        "ta": "திருநெல்வேலி மாவட்டம்"
+      },
+      "tirupathur_district": {
+        "en": "Tirupathur District",
+        "ta": "திருப்பத்தூர் மாவட்டம்"
+      },
+      "tiruppur_district": {
+        "en": "Tiruppur District",
+        "ta": "திருப்பூர் மாவட்டம்"
+      },
+      "tiruvannamalai_district": {
+        "en": "Tiruvannamalai District",
+        "ta": "திருவண்ணாமலை மாவட்டம்"
+      },
+      "vellore_district": {
+        "en": "Vellore District",
+        "ta": "வேலூர் மாவட்டம்"
+      },
+      "viluppuram_district": {
+        "en": "Viluppuram District",
+        "ta": "விழுப்புரம் மாவட்டம்"
+      },
+      "virudhunagar_district": {
+        "en": "Virudhunagar District",
+        "ta": "விருதுநகர் மாவட்டம்"
+      }
+    },
+    "units": {
+      "km_away": {
+        "en": "{distance} km away",
+        "ta": "{distance} கி.மீ தொலைவில்"
+      },
+      "km": {
+        "en": "km",
+        "ta": "கி.மீ"
+      },
+      "meters": {
+        "en": "meters",
+        "ta": "மீட்டர்"
+      },
+      "minutes": {
+        "en": "minutes",
+        "ta": "நிமிடங்கள்"
+      },
+      "hours": {
+        "en": "hours",
+        "ta": "மணிநேரம்"
+      },
+      "hour": {
+        "en": "hour",
+        "ta": "மணிநேரம்"
+      },
+      "minute": {
+        "en": "minute",
+        "ta": "நிமிடம்"
+      }
+    },
+    "ratings": {
+      "stars": {
+        "en": "{rating} stars",
+        "ta": "{rating} நட்சத்திரங்கள்"
+      },
+      "reviews": {
+        "en": "{count} reviews",
+        "ta": "{count} மதிப்புரைகள்"
+      },
+      "photos": {
+        "en": "{count} photos",
+        "ta": "{count} புகைப்படங்கள்"
+      }
+    },
+    "temple_types": {
+      "shiva_temple": {
+        "en": "Shiva Temple",
+        "ta": "சிவன் கோயில்"
+      },
+      "vishnu_temple": {
+        "en": "Vishnu Temple",
+        "ta": "விஷ்ணு கோயில்"
+      },
+      "murugan_temple": {
+        "en": "Murugan Temple",
+        "ta": "முருகன் கோயில்"
+      },
+      "amman_temple": {
+        "en": "Goddess Temple",
+        "ta": "அம்மன் கோயில்"
+      },
+      "hanuman_temple": {
+        "en": "Hanuman Temple",
+        "ta": "ஹனுமான் கோயில்"
+      },
+      "ganesha_temple": {
+        "en": "Ganesha Temple",
+        "ta": "விநாயகர் கோயில்"
+      }
+    },
+    "directions": {
+      "north": {
+        "en": "North",
+        "ta": "வடக்கு"
+      },
+      "south": {
+        "en": "South",
+        "ta": "தெற்கு"
+      },
+      "east": {
+        "en": "East",
+        "ta": "கிழக்கு"
+      },
+      "west": {
+        "en": "West",
+        "ta": "மேற்கு"
+      },
+      "northeast": {
+        "en": "Northeast",
+        "ta": "வடகிழக்கு"
+      },
+      "northwest": {
+        "en": "Northwest",
+        "ta": "வடமேற்கு"
+      },
+      "southeast": {
+        "en": "Southeast",
+        "ta": "தென்கிழக்கு"
+      },
+      "southwest": {
+        "en": "Southwest",
+        "ta": "தென்மேற்கு"
+      }
+    },
+    "timings": {
+      "morning": {
+        "en": "Morning",
+        "ta": "காலை"
+      },
+      "evening": {
+        "en": "Evening",
+        "ta": "மாலை"
+      },
+      "afternoon": {
+        "en": "Afternoon",
+        "ta": "மதியம்"
+      },
+      "night": {
+        "en": "Night",
+        "ta": "இரவு"
+      },
+      "open_now": {
+        "en": "Open now",
+        "ta": "இப்போது திறந்துள்ளது"
+      },
+      "closed_now": {
+        "en": "Closed now",
+        "ta": "இப்போது மூடியுள்ளது"
+      },
+      "opens_at": {
+        "en": "Opens at {time}",
+        "ta": "{time} மணிக்கு திறக்கும்"
+      },
+      "closes_at": {
+        "en": "Closes at {time}",
+        "ta": "{time} மணிக்கு மூடும்"
+      }
+    },
+    "actions": {
+      "share": {
+        "en": "Share",
+        "ta": "பகிர்"
+      },
+      "save": {
+        "en": "Save",
+        "ta": "சேமி"
+      },
+      "cancel": {
+        "en": "Cancel",
+        "ta": "ரத்து செய்"
+      },
+      "confirm": {
+        "en": "Confirm",
+        "ta": "உறுதிப்படுத்து"
+      },
+      "search": {
+        "en": "Search",
+        "ta": "தேடு"
+      },
+      "filter": {
+        "en": "Filter",
+        "ta": "வடிகட்டு"
+      },
+      "sort": {
+        "en": "Sort",
+        "ta": "வரிசைப்படுத்து"
+      },
+      "refresh": {
+        "en": "Refresh",
+        "ta": "புதுப்பி"
+      },
+      "back": {
+        "en": "Back",
+        "ta": "பின்செல்"
+      },
+      "next": {
+        "en": "Next",
+        "ta": "அடுத்து"
+      },
+      "previous": {
+        "en": "Previous",
+        "ta": "முந்தைய"
+      },
+      "close": {
+        "en": "Close",
+        "ta": "மூடு"
+      }
+    },
+    "messages": {
+      "loading": {
+        "en": "Loading...",
+        "ta": "ஏற்றப்படுகிறது..."
+      },
+      "please_wait": {
+        "en": "Please wait",
+        "ta": "தயவுசெய்து காத்திருக்கவும்"
+      },
+      "success": {
+        "en": "Success",
+        "ta": "வெற்றி"
+      },
+      "error": {
+        "en": "Error",
+        "ta": "பிழை"
+      },
+      "no_internet": {
+        "en": "No internet connection",
+        "ta": "இணைய இணைப்பு இல்லை"
+      },
+      "try_again": {
+        "en": "Try again",
+        "ta": "மீண்டும் முயற்சிக்கவும்"
+      },
+      "welcome": {
+        "en": "Welcome",
+        "ta": "வணக்கம்"
+      },
+      "thank_you": {
+        "en": "Thank you",
+        "ta": "நன்றி"
+      }
+    },
+    "months": {
+      "january": {
+        "en": "January",
+        "ta": "ஜனவரி"
+      },
+      "february": {
+        "en": "February",
+        "ta": "பிப்ரவரி"
+      },
+      "march": {
+        "en": "March",
+        "ta": "மார்ச்"
+      },
+      "april": {
+        "en": "April",
+        "ta": "ஏப்ரல்"
+      },
+      "may": {
+        "en": "May",
+        "ta": "மே"
+      },
+      "june": {
+        "en": "June",
+        "ta": "ஜூன்"
+      },
+      "july": {
+        "en": "July",
+        "ta": "ஜூலை"
+      },
+      "august": {
+        "en": "August",
+        "ta": "ஆகஸ்ட்"
+      },
+      "september": {
+        "en": "September",
+        "ta": "செப்டம்பர்"
+      },
+      "october": {
+        "en": "October",
+        "ta": "அக்டோபர்"
+      },
+      "november": {
+        "en": "November",
+        "ta": "நவம்பர்"
+      },
+      "december": {
+        "en": "December",
+        "ta": "டிசம்பர்"
+      }
+    },
+    "weekdays": {
+      "sunday": {
+        "en": "Sunday",
+        "ta": "ஞாயிற்றுக்கிழமை"
+      },
+      "monday": {
+        "en": "Monday",
+        "ta": "திங்கட்கிழமை"
+      },
+      "tuesday": {
+        "en": "Tuesday",
+        "ta": "செவ்வாய்க்கிழமை"
+      },
+      "wednesday": {
+        "en": "Wednesday",
+        "ta": "புதன்கிழமை"
+      },
+      "thursday": {
+        "en": "Thursday",
+        "ta": "வியாழக்கிழமை"
+      },
+      "friday": {
+        "en": "Friday",
+        "ta": "வெள்ளிக்கிழமை"
+      },
+      "saturday": {
+        "en": "Saturday",
+        "ta": "சனிக்கிழமை"
+      }
+    },
+    "weekdays_short": {
+      "sun": {
+        "en": "Sun",
+        "ta": "ஞாயிறு"
+      },
+      "mon": {
+        "en": "Mon",
+        "ta": "திங்கள்"
+      },
+      "tue": {
+        "en": "Tue",
+        "ta": "செவ்வாய்"
+      },
+      "wed": {
+        "en": "Wed",
+        "ta": "புதன்"
+      },
+      "thu": {
+        "en": "Thu",
+        "ta": "வியாழன்"
+      },
+      "fri": {
+        "en": "Fri",
+        "ta": "வெள்ளி"
+      },
+      "sat": {
+        "en": "Sat",
+        "ta": "சனி"
+      }
     }
   }
 }
