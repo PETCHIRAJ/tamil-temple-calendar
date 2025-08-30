@@ -139,7 +139,11 @@
       ],
       "data_quality": "premium",
       "deity_type": "other",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "festivals": [
+        "Chithirai Celestial Marriage",
+        "Aadipooram"
+      ]
     },
     {
       "id": "TM000001",
@@ -282,7 +286,18 @@
       ],
       "data_quality": "premium",
       "deity_type": "shiva",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "timings": "5:00 AM to 12:30 PM, 4:00 PM to 9:30 PM",
+      "festivals": [
+        "Panguni Big festival",
+        "Arupaththu Movar festival (63 Nayanmar's festival)",
+        "New moon and Full moon days"
+      ],
+      "special_features": [
+        "Lord Murugan is depicted with his footwear",
+        "Goddess Parvathi worshipped as a peacock"
+      ],
+      "holy_water": "Kapali Theertham"
     },
     {
       "id": "TM000005",
@@ -568,7 +583,39 @@
       ],
       "data_quality": "premium",
       "deity_type": "other",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "festivals": [
+        {
+          "name": "Tamil New Year",
+          "description": "",
+          "timing": "April 14"
+        },
+        {
+          "name": "Monthly Krithigai",
+          "description": "",
+          "timing": "Monthly"
+        },
+        {
+          "name": "Chithirai New Moon",
+          "description": "",
+          "timing": "Chithirai month"
+        },
+        {
+          "name": "Vaigasi Vishakam",
+          "description": "",
+          "timing": "Vaigasi month"
+        },
+        {
+          "name": "Kanda Shashti",
+          "description": "6 days",
+          "timing": "Aippasi month"
+        },
+        {
+          "name": "Panguni Festival",
+          "description": "1 lakh archanas for 3 days, Temple Tank festival for 6 days",
+          "timing": "Panguni month"
+        }
+      ]
     },
     {
       "id": "TM000013",
@@ -1984,7 +2031,13 @@
       ],
       "data_quality": "premium",
       "deity_type": "shiva",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "timings": "Morning 8:00 AM – 12:00 PM, Evening 4:00 PM – 7:00 PM",
+      "special_features": [
+        "Temple constructed so elephants cannot enter",
+        "Believed to help unmarried men get married",
+        "Believed to help couples wanting children"
+      ]
     },
     {
       "id": "TM018029",
@@ -2216,7 +2269,15 @@
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "vishnu",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "timings": "Morning 7:00 am to noon 11:00 pm, Evening 5:00 pm to 8:00 pm",
+      "festivals": [
+        "Vaikuntha Ekadasi"
+      ],
+      "special_features": [
+        "Vaikuntha Ekadasi festival annually",
+        "'Opening the gateway to heaven' (Sorgavasal) ceremony"
+      ]
     },
     {
       "id": "TM000071",
@@ -2226,7 +2287,15 @@
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "vishnu",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "timings": "Morning 7:00 am to noon 11:00 pm, Evening 5:00 pm to 8:00 pm",
+      "festivals": [
+        "Vaikuntha Ekadasi"
+      ],
+      "special_features": [
+        "Vaikuntha Ekadasi festival annually",
+        "'Opening the gateway to heaven' (Sorgavasal) ceremony"
+      ]
     },
     {
       "id": "TM000081",
@@ -2290,7 +2359,20 @@
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "shiva",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "timings": "Morning 7:30 A.M. to 12:00 Noon, Evening 4:00 P.M. to 7:00 P.M.",
+      "festivals": [
+        "Chola dynasty related festivals"
+      ],
+      "special_features": [
+        "Beautiful early Chola architecture",
+        "Historical significance as former Chola capital",
+        "Associated with Raja Raja Chola's early life"
+      ],
+      "holy_water": [
+        "Soma Theertham",
+        "Jadayu Theertham"
+      ]
     },
     {
       "id": "TM000096",
@@ -2444,7 +2526,11 @@
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "other",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "special_features": [
+        "Highest gopuram",
+        "Mud Suyambu Linga"
+      ]
     },
     {
       "id": "TM000180",
@@ -2778,7 +2864,14 @@
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "other",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "festivals": [
+        {
+          "name": "Vaikunda Ekadesi",
+          "description": "Major temple festival",
+          "timing": ""
+        }
+      ]
     },
     {
       "id": "TM000329",
@@ -2790,7 +2883,14 @@
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "other",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "festivals": [
+        {
+          "name": "Vaikunda Ekadesi",
+          "description": "Major temple festival",
+          "timing": ""
+        }
+      ]
     },
     {
       "id": "TM000329",
@@ -2802,7 +2902,14 @@
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "other",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "festivals": [
+        {
+          "name": "Vaikunda Ekadesi",
+          "description": "Major temple festival",
+          "timing": ""
+        }
+      ]
     },
     {
       "id": "TM000335",
@@ -3398,7 +3505,34 @@
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "other",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "festivals": [
+        {
+          "name": "Sri Ramanavami",
+          "description": "",
+          "timing": ""
+        },
+        {
+          "name": "Gokulastami",
+          "description": "",
+          "timing": ""
+        },
+        {
+          "name": "Navarathri (Dussera)",
+          "description": "",
+          "timing": ""
+        },
+        {
+          "name": "Pavithra Urchavam",
+          "description": "",
+          "timing": ""
+        },
+        {
+          "name": "Oonjal Urchavam",
+          "description": "",
+          "timing": ""
+        }
+      ]
     },
     {
       "id": "TM001719",
@@ -3784,7 +3918,15 @@
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "shiva",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "timings": "Morning – 06:00 am to 12:00 noon, Evening – 04:00 pm to 08:00 pm",
+      "festivals": [
+        "Mahashivarathiri (held every year in the month of masi/Feb-Mar)"
+      ],
+      "special_features": [
+        "Worshiping Lord Shiva first in the world is considered the best",
+        "Lord Shiva lives as soul in every human body"
+      ]
     },
     {
       "id": "TM004873",
@@ -3794,7 +3936,15 @@
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "other",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "timings": "Morning – 06:00 am to 12:00 noon, Evening – 04:00 pm to 08:00 pm",
+      "festivals": [
+        "Mahashivarathiri (held every year in the month of masi/Feb-Mar)"
+      ],
+      "special_features": [
+        "Worshiping Lord Shiva first in the world is considered the best",
+        "Lord Shiva lives as soul in every human body"
+      ]
     },
     {
       "id": "TM004873",
@@ -3804,7 +3954,15 @@
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "shiva",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "timings": "Morning – 06:00 am to 12:00 noon, Evening – 04:00 pm to 08:00 pm",
+      "festivals": [
+        "Mahashivarathiri (held every year in the month of masi/Feb-Mar)"
+      ],
+      "special_features": [
+        "Worshiping Lord Shiva first in the world is considered the best",
+        "Lord Shiva lives as soul in every human body"
+      ]
     },
     {
       "id": "TM004880",
@@ -4270,7 +4428,29 @@
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "other",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "festivals": [
+        {
+          "name": "Thaipoosam",
+          "description": "Massive pilgrimage with lakhs of devotees",
+          "timing": ""
+        },
+        {
+          "name": "Tamil New Year",
+          "description": "",
+          "timing": "1st day of Chithirai month"
+        },
+        {
+          "name": "Karthigai",
+          "description": "Mega festival",
+          "timing": ""
+        },
+        {
+          "name": "Panguni Uthiram",
+          "description": "",
+          "timing": "Panguni month"
+        }
+      ]
     },
     {
       "id": "TM009768",
@@ -5484,7 +5664,20 @@
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "goddess",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "timings": "Morning 06:00 am to 11:00 am, Evening 04:00 pm to 08:30 pm",
+      "festivals": [
+        "Masi Magam (February-March)",
+        "Panguni Uthram (March-April)",
+        "Shivarathri (February-March)",
+        "Aipasi Annabishekam (October-November)"
+      ],
+      "holy_water": [
+        "Surya theertham",
+        "Kudamurutti river",
+        "Agnitheertham (well)"
+      ],
+      "sacred_tree": "Vanni, Vilwa"
     },
     {
       "id": "TM014322",
@@ -6512,7 +6705,24 @@
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "other",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "festivals": [
+        {
+          "name": "Saturdays of Purarttasi",
+          "description": "",
+          "timing": ""
+        },
+        {
+          "name": "Pournami",
+          "description": "",
+          "timing": ""
+        },
+        {
+          "name": "Vaikunda Ekadasi",
+          "description": "",
+          "timing": ""
+        }
+      ]
     },
     {
       "id": "TM025704",
@@ -6780,7 +6990,15 @@
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "shiva",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "timings": "Morning 6:00 A.M. – 12:00 Noon, Evening 4:00 P.M. to 8:00 P.M.",
+      "festivals": [
+        "Transformation blessing festivals"
+      ],
+      "special_features": [
+        "Miracle cure of princess",
+        "Divine transformation story"
+      ]
     },
     {
       "id": "TM032058",
@@ -6960,7 +7178,23 @@
       "popular_times": [],
       "data_quality": "standard",
       "deity_type": "vishnu",
-      "is_tour_temple": 0
+      "is_tour_temple": 0,
+      "timings": "6.00 am to 12.30 noon - 4.00 pm to 9.00 pm",
+      "festivals": [
+        "Panguni Friday festivals"
+      ],
+      "special_features": [
+        "Fourteenth among 108 Dhivya Desams",
+        "Lakshmi emergence from sea of milk",
+        "Friday Panguni month significance"
+      ],
+      "holy_water": [
+        "Manimuktha Pushkarani",
+        "Shankarshna Theertham",
+        "Prithyumana Theertham",
+        "Anirudha Theertham",
+        "Samba Theertham"
+      ]
     },
     {
       "id": "TM032156",

@@ -1529,6 +1529,16 @@
                         <div id="temple-popular-times"></div>
                     </div>
                     
+                    <div class="settings-section" id="festivals-section" style="display: none;">
+                        <h3><i class="fas fa-calendar-star"></i> <span id="festivals-header">Temple Festivals</span></h3>
+                        <div id="temple-festivals"></div>
+                    </div>
+                    
+                    <div class="settings-section" id="special-features-section" style="display: none;">
+                        <h3><i class="fas fa-star"></i> <span id="special-features-header">Special Features</span></h3>
+                        <div id="temple-special-features"></div>
+                    </div>
+                    
                     <div class="settings-section" id="navigation-note-section" style="display: none;">
                         <h3><i class="fas fa-info-circle"></i> Navigation Note</h3>
                         <p id="navigation-note-text">GPS coordinates not available for this temple.</p>
@@ -2711,17 +2721,78 @@
                 $('popular-times-section').style.display = 'none';
             }
 
-            // Update timings info (general temple hours)
-            const typicalHours = AppState.currentLanguage === 'ta' ? 
-                'பொதுவான நேரம்: காலை 6:00 - 12:00, மாலை 4:00 - 9:00' : 
-                'Typical Hours: 6:00 AM - 12:00 PM, 4:00 PM - 9:00 PM';
-            const hoursMayVary = AppState.currentLanguage === 'ta' ? 
-                '*திருவிழா நாட்களில் நேரம் மாறலாம்' : 
-                '*Hours may vary on festival days';
-            $('temple-timings').innerHTML = `
-                <p style="margin-top: 0.5rem;"><i class="fas fa-clock" style="color: var(--warning-orange);"></i> <span style="color: var(--text-secondary);">${typicalHours}</span></p>
-                <p style="font-size: 0.8rem; color: var(--text-secondary); margin-left: 1.2rem;">${hoursMayVary}</p>
-            `;
+            // Update timings info - use specific timings if available, otherwise general hours
+            let timingsHTML = '';
+            if (temple.timings) {
+                const timingsLabel = AppState.currentLanguage === 'ta' ? 'கோவில் நேரம்' : 'Temple Timings';
+                timingsHTML = `
+                    <p style="margin-top: 0.5rem;"><i class="fas fa-clock" style="color: var(--warning-orange);"></i> <strong>${timingsLabel}:</strong></p>
+                    <p style="color: var(--text-secondary); margin-left: 1.2rem;">${temple.timings}</p>
+                `;
+            } else {
+                const typicalHours = AppState.currentLanguage === 'ta' ? 
+                    'பொதுவான நேரம்: காலை 6:00 - 12:00, மாலை 4:00 - 9:00' : 
+                    'Typical Hours: 6:00 AM - 12:00 PM, 4:00 PM - 9:00 PM';
+                const hoursMayVary = AppState.currentLanguage === 'ta' ? 
+                    '*திருவிழா நாட்களில் நேரம் மாறலாம்' : 
+                    '*Hours may vary on festival days';
+                timingsHTML = `
+                    <p style="margin-top: 0.5rem;"><i class="fas fa-clock" style="color: var(--warning-orange);"></i> <span style="color: var(--text-secondary);">${typicalHours}</span></p>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary); margin-left: 1.2rem;">${hoursMayVary}</p>
+                `;
+            }
+            $('temple-timings').innerHTML = timingsHTML;
+            
+            // Show festivals if available
+            if (temple.festivals && temple.festivals.length > 0) {
+                const festivalsHeader = AppState.currentLanguage === 'ta' ? 'கோவில் திருவிழாக்கள்' : 'Temple Festivals';
+                $('festivals-header').textContent = festivalsHeader;
+                
+                let festivalsHTML = '<ul style="margin: 0.5rem 0; padding-left: 1.2rem;">';
+                temple.festivals.forEach(festival => {
+                    festivalsHTML += `<li style="margin: 0.25rem 0; color: var(--text-secondary);">${festival}</li>`;
+                });
+                festivalsHTML += '</ul>';
+                
+                $('temple-festivals').innerHTML = festivalsHTML;
+                $('festivals-section').style.display = 'block';
+            } else {
+                $('festivals-section').style.display = 'none';
+            }
+            
+            // Show special features if available
+            if (temple.special_features && temple.special_features.length > 0) {
+                const featuresHeader = AppState.currentLanguage === 'ta' ? 'சிறப்பு அம்சங்கள்' : 'Special Features';
+                $('special-features-header').textContent = featuresHeader;
+                
+                let featuresHTML = '<ul style="margin: 0.5rem 0; padding-left: 1.2rem;">';
+                temple.special_features.forEach(feature => {
+                    featuresHTML += `<li style="margin: 0.25rem 0; color: var(--text-secondary);">${feature}</li>`;
+                });
+                featuresHTML += '</ul>';
+                
+                $('temple-special-features').innerHTML = featuresHTML;
+                $('special-features-section').style.display = 'block';
+            } else {
+                $('special-features-section').style.display = 'none';
+            }
+            
+            // Show holy water and sacred tree if available
+            if (temple.holy_water || temple.sacred_tree) {
+                let additionalInfo = '';
+                if (temple.holy_water && temple.holy_water.length > 0) {
+                    const holyWaterLabel = AppState.currentLanguage === 'ta' ? 'தீர்த்தம்' : 'Holy Water';
+                    additionalInfo += `<p><i class="fas fa-tint" style="color: var(--primary-blue);"></i> <strong>${holyWaterLabel}:</strong> ${temple.holy_water.join(', ')}</p>`;
+                }
+                if (temple.sacred_tree) {
+                    const treeLabel = AppState.currentLanguage === 'ta' ? 'ஸ்தல விருட்சம்' : 'Sacred Tree';
+                    additionalInfo += `<p><i class="fas fa-tree" style="color: var(--success-green);"></i> <strong>${treeLabel}:</strong> ${temple.sacred_tree}</p>`;
+                }
+                
+                // Add to temple information section
+                const currentAddress = $('temple-address').innerHTML;
+                $('temple-address').innerHTML = currentAddress + additionalInfo;
+            }
             
             // Show navigation note if no GPS coordinates
             if (!temple.latitude || !temple.longitude) {
