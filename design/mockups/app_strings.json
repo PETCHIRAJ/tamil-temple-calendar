@@ -97,6 +97,10 @@
         "en": "Navigate",
         "ta": "வழிகாட்டு"
       },
+      "navigation": {
+        "en": "Navigation",
+        "ta": "வழிகாட்டி"
+      },
       "call_temple": {
         "en": "Call Temple",
         "ta": "கோயிலை அழைக்கவும்"
@@ -202,6 +206,22 @@
       "no_location": {
         "en": "No Location",
         "ta": "இருப்பிடம் இல்லை"
+      },
+      "no_location_available": {
+        "en": "No Location Available - Coming Soon",
+        "ta": "இருப்பிடம் இல்லை - விரைவில் வரும்"
+      },
+      "distance": {
+        "en": "Distance",
+        "ta": "தூரம்"
+      },
+      "deity": {
+        "en": "Deity",
+        "ta": "தெய்வம்"
+      },
+      "rating": {
+        "en": "Rating",
+        "ta": "மதிப்பீடு"
       },
       "current_crowd_level": {
         "en": "Current crowd level:",
@@ -474,6 +494,10 @@
       "virudhunagar_district": {
         "en": "Virudhunagar District",
         "ta": "விருதுநகர் மாவட்டம்"
+      },
+      "tamil_nadu": {
+        "en": "Tamil Nadu",
+        "ta": "தமிழ்நாடு"
       }
     },
     "units": {
@@ -518,6 +542,44 @@
       "photos": {
         "en": "{count} photos",
         "ta": "{count} புகைப்படங்கள்"
+      }
+    },
+    "deity_types": {
+      "shiva": {
+        "en": "Shiva",
+        "ta": "சிவன்"
+      },
+      "vishnu": {
+        "en": "Vishnu",
+        "ta": "விஷ்ணு"
+      },
+      "murugan": {
+        "en": "Murugan",
+        "ta": "முருகன்"
+      },
+      "goddess": {
+        "en": "Goddess",
+        "ta": "அம்மன்"
+      },
+      "ganesha": {
+        "en": "Ganesha",
+        "ta": "விநாயகர்"
+      },
+      "hanuman": {
+        "en": "Hanuman",
+        "ta": "அனுமான்"
+      },
+      "ayyanar": {
+        "en": "Ayyanar",
+        "ta": "ஐயனார்"
+      },
+      "other": {
+        "en": "Other",
+        "ta": "மற்றவை"
+      },
+      "temple": {
+        "en": "Temple",
+        "ta": "கோயில்"
       }
     },
     "temple_types": {

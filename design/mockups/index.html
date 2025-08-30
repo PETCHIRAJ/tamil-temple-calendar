@@ -1011,16 +1011,12 @@
                     
                     <div class="temple-meta">
                         <div class="meta-item">
-                            <div class="meta-value" id="temple-rating">4.5</div>
-                            <div class="meta-label">Rating</div>
-                        </div>
-                        <div class="meta-item">
                             <div class="meta-value" id="temple-distance">2.3 km</div>
-                            <div class="meta-label">Distance</div>
+                            <div class="meta-label" id="distance-label">Distance</div>
                         </div>
                         <div class="meta-item">
                             <div class="meta-value" id="temple-deity">Shiva</div>
-                            <div class="meta-label">Deity</div>
+                            <div class="meta-label" id="deity-label">Deity</div>
                         </div>
                     </div>
                 </div>
@@ -1038,7 +1034,7 @@
 
                 <div class="temple-detail-content">
                     <div class="settings-section">
-                        <h3>Temple Information</h3>
+                        <h3 id="temple-info-header">Temple Information</h3>
                         <div id="temple-address"></div>
                         <div id="temple-location-status"></div>
                         <div id="temple-crowd-info"></div>
@@ -1052,7 +1048,7 @@
                     </div>
 
                     <div class="settings-section" id="popular-times-section" style="display: none;">
-                        <h3>Popular Times</h3>
+                        <h3 id="popular-times-header">Popular Times</h3>
                         <div id="temple-popular-times"></div>
                     </div>
                 </div>
@@ -1650,6 +1646,78 @@
             }
         }
 
+        // Translation Helper Functions
+        function getLocalizedDistrict(district) {
+            if (!district) return '';
+            // Convert district name to key format: "Chennai District" -> "chennai_district"
+            const key = district.toLowerCase().replace(/ /g, '_');
+            const translated = getLocalizedString(`districts.${key}`, AppState.currentLanguage);
+            return translated || district; // Fallback to original if no translation found
+        }
+        
+        function formatDistance(km) {
+            if (!km && km !== 0) return '';
+            // Round to nearest km - no decimals for distances
+            const roundedKm = Math.round(km);
+            const unit = getLocalizedString('units.km', AppState.currentLanguage);
+            return `${roundedKm} ${unit}`;
+        }
+        
+        function formatDistanceAway(km) {
+            if (!km && km !== 0) return '';
+            // Round to nearest km - no decimals for distances
+            const roundedKm = Math.round(km);
+            const template = getLocalizedString('units.km_away', AppState.currentLanguage);
+            return template.replace('{distance}', roundedKm);
+        }
+        
+        function getTimeOfDay() {
+            const hour = new Date().getHours();
+            if (hour < 6) return getLocalizedString('timings.night', AppState.currentLanguage);
+            else if (hour < 12) return getLocalizedString('timings.morning', AppState.currentLanguage);
+            else if (hour < 16) return getLocalizedString('timings.afternoon', AppState.currentLanguage);
+            else if (hour < 20) return getLocalizedString('timings.evening', AppState.currentLanguage);
+            else return getLocalizedString('timings.night', AppState.currentLanguage);
+        }
+        
+        function formatOpenStatus(isOpen) {
+            if (isOpen) {
+                return getLocalizedString('timings.open_now', AppState.currentLanguage);
+            } else {
+                return getLocalizedString('timings.closed_now', AppState.currentLanguage);
+            }
+        }
+        
+        function formatRating(rating, reviewCount) {
+            if (!rating) return '';
+            const starsText = getLocalizedString('ratings.stars', AppState.currentLanguage).replace('{rating}', rating);
+            if (reviewCount) {
+                const reviewsText = getLocalizedString('ratings.reviews', AppState.currentLanguage).replace('{count}', reviewCount);
+                return `${starsText} (${reviewsText})`;
+            }
+            return starsText;
+        }
+        
+        function formatPhotos(count) {
+            if (!count) return '';
+            return getLocalizedString('ratings.photos', AppState.currentLanguage).replace('{count}', count);
+        }
+        
+        function getLocalizedAction(action) {
+            return getLocalizedString(`actions.${action}`, AppState.currentLanguage) || action;
+        }
+        
+        function getLocalizedMessage(messageKey) {
+            return getLocalizedString(`messages.${messageKey}`, AppState.currentLanguage) || messageKey;
+        }
+        
+        function getLocalizedDeity(deityType) {
+            if (!deityType) return getLocalizedString('deity_types.temple', AppState.currentLanguage) || 'Temple';
+            const key = deityType.toLowerCase();
+            const translated = getLocalizedString(`deity_types.${key}`, AppState.currentLanguage);
+            return translated || (deityType.charAt(0).toUpperCase() + deityType.slice(1));
+        }
+        
         // Location Services
         function requestLocation() {
             if ('geolocation' in navigator) {
@@ -1771,9 +1839,11 @@
                 ) : null;
 
             const hasLocation = temple.latitude && temple.longitude;
+            const navigationText = getLocalizedString('buttons.navigation', AppState.currentLanguage);
+            const noLocationText = getLocalizedString('temple_details.no_location', AppState.currentLanguage);
             const locationIndicator = hasLocation ? 
-                '<span class="location-indicator location-available"><i class="fas fa-navigation"></i> Navigation</span>' :
-                '<span class="location-indicator location-unavailable"><i class="fas fa-times-circle"></i> No Location</span>';
+                `<span class="location-indicator location-available"><i class="fas fa-navigation"></i> ${navigationText}</span>` :
+                `<span class="location-indicator location-unavailable"><i class="fas fa-times-circle"></i> ${noLocationText}</span>`;
 
             // Determine current display name based on language setting
             const displayName = AppState.currentLanguage === 'ta' && temple.tamil_name ? temple.tamil_name : temple.name;
@@ -1791,7 +1861,8 @@
                 
                 if (currentTimeEntry) {
                     const percentage = parseInt(currentTimeEntry.match(/\d+/)[0]);
-                    const crowdLevel = percentage >= 40 ? 'High' : percentage >= 20 ? 'Medium' : 'Low';
+                    const crowdLevelKey = percentage >= 40 ? 'high' : percentage >= 20 ? 'medium' : 'low';
+                    const crowdLevel = getLocalizedString(`temple_details.${crowdLevelKey}`, AppState.currentLanguage);
                     const crowdColor = percentage >= 40 ? 'var(--error-red)' : percentage >= 20 ? 'var(--warning-orange)' : 'var(--success-green)';
                     crowdInfo = `<span style="color: ${crowdColor}; font-size: 0.75rem;"><i class="fas fa-users"></i> ${crowdLevel}</span>`;
                 }
@@ -1803,15 +1874,11 @@
                         <div class="temple-name ${nameClass}">${displayName}</div>
                         <div class="temple-location">
                             <i class="fas fa-map-marker-alt"></i>
-                            ${temple.district}
+                            ${getLocalizedDistrict(temple.district)}
                         </div>
                         ${temple.gm_address && temple.gm_address !== temple.district ? `<div style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0.25rem; line-height: 1.3;">${temple.gm_address.length > 50 ? temple.gm_address.substring(0, 50) + '...' : temple.gm_address}</div>` : ''}
                     </div>
                     <div class="temple-info">
-                        <div class="rating">
-                            <i class="fas fa-star"></i>
-                            ${temple.gm_rating || 'N/A'}
-                        </div>
                         <div class="distance">
                             ${distance && showDistance ? formatDistance(distance) : ''}
                         </div>
@@ -1819,7 +1886,7 @@
                     <div class="temple-actions" style="display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; justify-content: space-between;">
                         <div style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
                             ${locationIndicator}
-                            <span style="color: var(--text-secondary); text-transform: capitalize; font-size: 0.85rem;">${temple.deity_type || 'Temple'}</span>
+                            <span style="color: var(--text-secondary); text-transform: capitalize; font-size: 0.85rem;">${getLocalizedDeity(temple.deity_type)}</span>
                         </div>
                         <div style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
                             ${temple.gm_phone ? `<span style="color: var(--success-green); font-size: 0.75rem;"><i class="fas fa-phone"></i></span>` : ''}
@@ -1834,7 +1901,7 @@
             const container = $('nearby-temples-grid');
             
             if (AppState.temples.length === 0) {
-                showLoading(container, 'Finding temples near you...');
+                showLoading(container, getLocalizedString('loading.finding_nearby'));
                 return;
             }
 
@@ -1924,9 +1991,20 @@
 
             // Update temple details
             $('temple-detail-name').textContent = temple.name;
-            $('temple-detail-location').textContent = temple.district;
-            $('temple-rating').textContent = temple.gm_rating || 'N/A';
-            $('temple-deity').textContent = temple.deity_type ? temple.deity_type.charAt(0).toUpperCase() + temple.deity_type.slice(1) : 'Temple';
+            $('temple-detail-location').textContent = getLocalizedDistrict(temple.district);
+            // Rating removed as per user request
+            $('temple-deity').textContent = getLocalizedDeity(temple.deity_type);
+            
+            // Update labels with localized text
+            $('deity-label').textContent = getLocalizedString('temple_details.deity', AppState.currentLanguage) || 'Deity';
+            $('distance-label').textContent = getLocalizedString('temple_details.distance', AppState.currentLanguage) || 'Distance';
+            $('temple-info-header').textContent = getLocalizedString('temple_details.temple_information', AppState.currentLanguage) || 'Temple Information';
+            
+            // Update Popular Times header if visible
+            const popularTimesHeader = $('popular-times-header');
+            if (popularTimesHeader) {
+                popularTimesHeader.textContent = getLocalizedString('temple_details.popular_times', AppState.currentLanguage) || 'Popular Times';
+            }
 
             // Calculate and show distance
             if (AppState.currentLocation && temple.latitude && temple.longitude) {
@@ -1942,7 +2020,7 @@
             }
 
             // Update address and contact info
-            let addressHTML = `<p><i class="fas fa-map-marker-alt"></i> ${temple.gm_address || temple.district}</p>`;
+            let addressHTML = `<p><i class="fas fa-map-marker-alt"></i> ${temple.gm_address || getLocalizedDistrict(temple.district)}</p>`;
             if (temple.gm_phone) {
                 addressHTML += `<p style="margin-top: 0.5rem;"><i class="fas fa-phone" style="color: var(--success-green);"></i> <a href="tel:${temple.gm_phone}" style="color: var(--success-green); text-decoration: none;">${temple.gm_phone}</a></p>`;
             }
@@ -1950,9 +2028,11 @@
 
             // Update location status
             const hasLocation = temple.latitude && temple.longitude;
+            const locationAvailableText = getLocalizedString('temple_details.location_available', AppState.currentLanguage);
+            const noLocationAvailableText = getLocalizedString('temple_details.no_location_available', AppState.currentLanguage);
             $('temple-location-status').innerHTML = hasLocation ?
-                '<div class="location-indicator location-available"><i class="fas fa-map-marker-alt"></i> Location Available</div>' :
-                '<div class="location-indicator location-unavailable"><i class="fas fa-times-circle"></i> No Location Available - Coming Soon</div>';
+                `<div class="location-indicator location-available"><i class="fas fa-map-marker-alt"></i> ${locationAvailableText}</div>` :
+                `<div class="location-indicator location-unavailable"><i class="fas fa-times-circle"></i> ${noLocationAvailableText}</div>`;
             
             // Show/hide action buttons based on data availability
             const navigateBtn = $('navigate-btn');
@@ -2042,55 +2122,75 @@
                     }
                 }
 
+                // Only show current crowd level in Temple Information section
+                const currentCrowdText = getLocalizedString('temple_details.current_crowd_level', AppState.currentLanguage) || 'Current crowd level:';
+                const lowText = getLocalizedString('temple_details.low', AppState.currentLanguage) || 'Low';
+                const mediumText = getLocalizedString('temple_details.medium', AppState.currentLanguage) || 'Medium';
+                const highText = getLocalizedString('temple_details.high', AppState.currentLanguage) || 'High';
+                
+                let localizedCrowdLevel = currentCrowdLevel;
+                if (currentCrowdLevel === 'Low') localizedCrowdLevel = lowText;
+                else if (currentCrowdLevel === 'Medium') localizedCrowdLevel = mediumText;
+                else if (currentCrowdLevel === 'High') localizedCrowdLevel = highText;
+                
                 let crowdHTML = `
-                    <div class="crowd-indicator ${crowdClass}">
+                    <div class="crowd-indicator ${crowdClass}" style="margin-top: 0.5rem;">
                         <i class="fas fa-users"></i>
-                        <span>Current crowd level: ${currentCrowdLevel}</span>
-                        ${currentPercentage > 0 ? `<span style="margin-left: 0.5rem; opacity: 0.8;">(${currentPercentage}% busy)</span>` : ''}
+                        <span>${currentCrowdText} ${localizedCrowdLevel}</span>
+                        ${currentPercentage > 0 ? `<span style="margin-left: 0.5rem; opacity: 0.8;">(${currentPercentage}%)</span>` : ''}
                     </div>
                 `;
 
-                // Add popular times chart
-                crowdHTML += '<div style="margin-top: 1.5rem;"><h4 style="margin-bottom: 1rem; font-size: 0.9rem; color: var(--text-secondary);">Today\'s Popular Times</h4>';
-                crowdHTML += '<div style="display: flex; align-items: flex-end; gap: 4px; padding-bottom: 25px; position: relative;">';
-                
-                for (let i = 6; i <= 20; i++) {
-                    const timeEntry = temple.popular_times.find(entry => parseHourFromPopularTime(entry) === i);
-                    const percentage = timeEntry ? parseInt(timeEntry.match(/\d+/)[0]) : 0;
-                    const height = Math.max(percentage * 0.8, 8); // Better minimum height
-                    const isCurrentHour = i === hour;
-                    
-                    // Only show selected hour labels to prevent overlap
-                    const showLabel = i === 6 || i === 9 || i === 12 || i === 15 || i === 18 || i === 20;
-                    
-                    crowdHTML += `
-                        <div style="
-                            flex: 1;
-                            height: ${height}px; 
-                            background: ${isCurrentHour ? 'var(--primary-saffron)' : percentage >= 40 ? 'var(--error-red)' : percentage >= 20 ? 'var(--warning-orange)' : 'var(--success-green)'}; 
-                            border-radius: 4px 4px 0 0;
-                            position: relative;
-                            min-width: 16px;
-                            ${isCurrentHour ? 'box-shadow: 0 0 8px rgba(255, 107, 53, 0.6);' : ''}
-                            transition: all 0.2s ease;
-                        " title="${i}:00 - ${percentage}% busy">
-                            ${showLabel ? `<div style="position: absolute; bottom: -22px; left: 50%; transform: translateX(-50%); font-size: 0.7rem; color: var(--text-secondary); white-space: nowrap;">${i}</div>` : ''}
-                        </div>
-                    `;
-                }
-                crowdHTML += '</div></div>';
-
                 $('temple-crowd-info').innerHTML = crowdHTML;
+                
+                // Also show the popular times chart in its dedicated section
+                $('temple-popular-times').innerHTML = `
+                    <div style="margin-top: 0.5rem;">
+                        <div style="display: flex; align-items: flex-end; gap: 4px; padding-bottom: 25px; position: relative;">
+                            ${Array.from({length: 15}, (_, idx) => {
+                                const i = idx + 6;
+                                const timeEntry = temple.popular_times.find(entry => parseHourFromPopularTime(entry) === i);
+                                const percentage = timeEntry ? parseInt(timeEntry.match(/\d+/)[0]) : 0;
+                                const height = Math.max(percentage * 0.8, 8);
+                                const isCurrentHour = i === hour;
+                                const showLabel = i === 6 || i === 9 || i === 12 || i === 15 || i === 18 || i === 20;
+                                
+                                return `
+                                    <div style="
+                                        flex: 1;
+                                        height: ${height}px; 
+                                        background: ${isCurrentHour ? 'var(--primary-saffron)' : percentage >= 40 ? 'var(--error-red)' : percentage >= 20 ? 'var(--warning-orange)' : 'var(--success-green)'}; 
+                                        border-radius: 4px 4px 0 0;
+                                        position: relative;
+                                        min-width: 16px;
+                                        ${isCurrentHour ? 'box-shadow: 0 0 8px rgba(255, 107, 53, 0.6);' : ''}
+                                        transition: all 0.2s ease;
+                                    " title="${i}:00 - ${percentage}% busy">
+                                        ${showLabel ? `<div style="position: absolute; bottom: -22px; left: 50%; transform: translateX(-50%); font-size: 0.7rem; color: var(--text-secondary); white-space: nowrap;">${i}</div>` : ''}
+                                    </div>
+                                `;
+                            }).join('')}
+                        </div>
+                        <div style="margin-top: 1rem; display: flex; gap: 1rem; font-size: 0.75rem; color: var(--text-secondary);">
+                            <span><span style="display: inline-block; width: 12px; height: 12px; background: var(--success-green); border-radius: 2px; margin-right: 4px;"></span>${getLocalizedString('temple_details.low', AppState.currentLanguage) || 'Low'}</span>
+                            <span><span style="display: inline-block; width: 12px; height: 12px; background: var(--warning-orange); border-radius: 2px; margin-right: 4px;"></span>${getLocalizedString('temple_details.medium', AppState.currentLanguage) || 'Medium'}</span>
+                            <span><span style="display: inline-block; width: 12px; height: 12px; background: var(--error-red); border-radius: 2px; margin-right: 4px;"></span>${getLocalizedString('temple_details.high', AppState.currentLanguage) || 'High'}</span>
+                        </div>
+                    </div>
+                `;
                 $('popular-times-section').style.display = 'block';
             } else {
                 $('temple-crowd-info').innerHTML = '';
+                $('temple-popular-times').innerHTML = '';
                 $('popular-times-section').style.display = 'none';
             }
 
             // Update timings info (general temple hours)
+            const typicalHours = getLocalizedString('temple_details.typical_hours', AppState.currentLanguage) || 'Typical Hours: 6:00 AM - 12:00 PM, 4:00 PM - 9:00 PM';
+            const hoursMayVary = getLocalizedString('temple_details.hours_may_vary', AppState.currentLanguage) || '*Hours may vary. Please call temple for exact timings.';
             $('temple-timings').innerHTML = `
-                <p style="margin-top: 0.5rem;"><i class="fas fa-clock" style="color: var(--warning-orange);"></i> <span style="color: var(--text-secondary);">Typical Hours: 6:00 AM - 12:00 PM, 4:00 PM - 9:00 PM</span></p>
-                <p style="font-size: 0.8rem; color: var(--text-secondary); margin-left: 1.2rem;">*Hours may vary. Please call temple for exact timings.</p>
+                <p style="margin-top: 0.5rem;"><i class="fas fa-clock" style="color: var(--warning-orange);"></i> <span style="color: var(--text-secondary);">${typicalHours}</span></p>
+                <p style="font-size: 0.8rem; color: var(--text-secondary); margin-left: 1.2rem;">${hoursMayVary}</p>
             `;
 
             showScreen('temple-detail-screen');
@@ -2141,22 +2241,28 @@
                 return;
             }
 
-            const circuitHTML = AppState.tourCircuits.map(circuit => `
-                <div class="circuit-card" onclick="showTourDetail('${circuit.id}')">
-                    <div class="circuit-header">
-                        <div>
-                            <div class="circuit-title">${circuit.name}</div>
-                            <div class="circuit-title tamil" style="font-size: 1rem; opacity: 0.9; margin-top: 0.25rem;">${circuit.tamil_name}</div>
+            const circuitHTML = AppState.tourCircuits.map(circuit => {
+                // Display name based on current language
+                const displayName = AppState.currentLanguage === 'ta' && circuit.tamil_name ? circuit.tamil_name : circuit.name;
+                const nameClass = AppState.currentLanguage === 'ta' ? 'tamil' : '';
+                const templesText = AppState.currentLanguage === 'ta' ? 'கோயில்கள்' : 'Temples';
+                
+                return `
+                    <div class="circuit-card" onclick="showTourDetail('${circuit.id}')">
+                        <div class="circuit-header">
+                            <div>
+                                <div class="circuit-title ${nameClass}">${displayName}</div>
+                            </div>
+                        </div>
+                        <p style="margin: 1rem 0; opacity: 0.9;">${circuit.description}</p>
+                        <div class="circuit-meta">
+                            <span><i class="fas fa-map-marked-alt"></i> ${circuit.total_temples} ${templesText}</span>
+                            <span><i class="fas fa-route"></i> ${formatDistance(circuit.total_distance_km)}</span>
+                            <span><i class="fas fa-clock"></i> ${circuit.estimated_hours}h</span>
                         </div>
                     </div>
-                    <p style="margin: 1rem 0; opacity: 0.9;">${circuit.description}</p>
-                    <div class="circuit-meta">
-                        <span><i class="fas fa-map-marked-alt"></i> ${circuit.total_temples} Temples</span>
-                        <span><i class="fas fa-route"></i> ${circuit.total_distance_km}km</span>
-                        <span><i class="fas fa-clock"></i> ${circuit.estimated_hours}h</span>
-                    </div>
-                </div>
-            `).join('');
+                `;
+            }).join('');
 
             container.innerHTML = circuitHTML;
         }
@@ -2461,7 +2567,7 @@
                             <div style="flex: 1;">
                                 <div style="font-weight: 600; margin-bottom: 0.25rem; ${AppState.currentLanguage === 'ta' ? 'font-family: \"Noto Sans Tamil\", sans-serif;' : ''}">${displayName}</div>
                                 <div style="color: var(--text-secondary); font-size: 0.85rem; display: flex; align-items: center; gap: 1rem;">
-                                    <span><i class="fas fa-map-marker-alt"></i> ${temple.district}</span>
+                                    <span><i class="fas fa-map-marker-alt"></i> ${getLocalizedDistrict(temple.district)}</span>
                                     ${temple.gm_rating ? `<span><i class="fas fa-star" style="color: var(--secondary-gold);"></i> ${temple.gm_rating}</span>` : ''}
                                     ${temple.deity_type ? `<span style="text-transform: capitalize;">${temple.deity_type}</span>` : ''}
                                 </div>
@@ -2796,11 +2902,12 @@
             }, 5000);
         }
         
-        function showLoading(container, message = 'Loading...') {
+        function showLoading(container, message = null) {
+            const defaultMessage = getLocalizedMessage('loading') || 'Loading...';
             container.innerHTML = `
                 <div class="loading" style="min-height: 200px;">
                     <div class="spinner"></div>
-                    <span>${message}</span>
+                    <span>${message || defaultMessage}</span>
                 </div>
             `;
         }
