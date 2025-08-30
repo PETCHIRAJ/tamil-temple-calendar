@@ -1353,6 +1353,16 @@
             if (AppState.currentScreen === 'temple-detail-screen' && AppState.currentTemple) {
                 showTempleDetail(AppState.currentTemple.id);
             }
+            
+            // Refresh festivals if on festivals screen
+            if (AppState.currentScreen === 'festivals-screen') {
+                const activeFilter = document.querySelector('.filter-btn[data-festival-type].active');
+                if (activeFilter) {
+                    loadFestivals(activeFilter.dataset.festivalType);
+                } else {
+                    loadFestivals('all');
+                }
+            }
         }
         
         // Update all UI strings based on current language
@@ -2399,37 +2409,22 @@
                     templeDescription = templeDescriptions.ta[festival.temples];
                 }
                 
-                // Add localized badge for different types
+                // Add badge only for major festivals (others have type in name)
                 let badge = '';
                 const badgeLabels = {
                     'ta': {
-                        'major': 'முக்கிய திருவிழா',
-                        'pradosham': 'பிரதோஷம்',
-                        'ekadashi': 'ஏகாதசி',
-                        'pournami': 'பௌர்ணமி',
-                        'amavasya': 'அமாவாசை'
+                        'major': 'முக்கிய திருவிழா'
                     },
                     'en': {
-                        'major': 'Major Festival',
-                        'pradosham': 'Pradosham',
-                        'ekadashi': 'Ekadashi',
-                        'pournami': 'Full Moon',
-                        'amavasya': 'New Moon'
+                        'major': 'Major Festival'
                     }
                 };
                 
-                const badgeText = badgeLabels[AppState.currentLanguage][festival.type];
+                const badgeText = badgeLabels[AppState.currentLanguage] ? badgeLabels[AppState.currentLanguage][festival.type] : null;
                 
-                if (festival.type === 'major') {
+                // Only show badge for major festivals to avoid redundancy
+                if (festival.type === 'major' && badgeText) {
                     badge = `<span class="badge" style="background: var(--primary-saffron); color: white;">${badgeText}</span>`;
-                } else if (festival.type === 'pradosham') {
-                    badge = `<span class="badge" style="background: #9C27B0; color: white;">${badgeText}</span>`;
-                } else if (festival.type === 'ekadashi') {
-                    badge = `<span class="badge" style="background: #2196F3; color: white;">${badgeText}</span>`;
-                } else if (festival.type === 'pournami') {
-                    badge = `<span class="badge" style="background: #FFC107; color: #333;">${badgeText}</span>`;
-                } else if (festival.type === 'amavasya') {
-                    badge = `<span class="badge" style="background: #607D8B; color: white;">${badgeText}</span>`;
                 }
                 
                 // Get border color based on festival type
