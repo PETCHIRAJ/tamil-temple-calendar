@@ -183,6 +183,10 @@
         "en": "Distance",
         "ta": "தூரம்"
       },
+      "no_location": {
+        "en": "No Location",
+        "ta": "இருப்பிடம் இல்லை"
+      },
       "no_location_available": {
         "en": "No GPS coordinates available",
         "ta": "GPS குறியீடுகள் இல்லை"
@@ -502,6 +506,14 @@
       "tamil_nadu": {
         "en": "Tamil Nadu",
         "ta": "தமிழ்நாடு"
+      },
+      "tamil_nadu_district": {
+        "en": "Tamil Nadu",
+        "ta": "தமிழ்நாடு"
+      },
+      "tiruvallur_district": {
+        "en": "Tiruvallur District",
+        "ta": "திருவள்ளூர் மாவட்டம்"
       }
     },
     "deity_types": {
