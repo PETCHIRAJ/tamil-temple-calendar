@@ -1836,9 +1836,10 @@
                     </div>
                     <div class="temple-actions" style="display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; justify-content: space-between; margin-top: 0.75rem;">
                         <div style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
-                            <span style="background: var(--bg-light); padding: 0.25rem 0.5rem; border-radius: 8px; font-size: 0.8rem; color: var(--primary-saffron); font-weight: 500;">
-                                ${getLocalizedDeity(temple.deity_type)}
-                            </span>
+                            ${temple.deity_type && temple.deity_type !== 'other' ? 
+                                `<span style="background: var(--bg-light); padding: 0.25rem 0.5rem; border-radius: 8px; font-size: 0.8rem; color: var(--primary-saffron); font-weight: 500;">
+                                    ${getLocalizedDeity(temple.deity_type)}
+                                </span>` : ''}
                             ${hasLocation ? 
                                 `<span style="color: var(--success-green); font-size: 0.75rem;"><i class="fas fa-navigation"></i> ${getLocalizedString('buttons.navigation', AppState.currentLanguage)}</span>` : 
                                 `<span style="color: var(--text-secondary); font-size: 0.75rem; opacity: 0.7;"><i class="fas fa-times-circle"></i> ${getLocalizedString('temple_details.no_location', AppState.currentLanguage)}</span>`
@@ -1949,7 +1950,13 @@
             $('temple-detail-name').textContent = temple.name;
             $('temple-detail-location').textContent = getLocalizedDistrict(temple.district);
             // Rating removed as per user request
-            $('temple-deity').textContent = getLocalizedDeity(temple.deity_type);
+            // Only show deity if known (not 'other')
+            if (temple.deity_type && temple.deity_type !== 'other') {
+                $('temple-deity').textContent = getLocalizedDeity(temple.deity_type);
+                $('deity-label').parentElement.style.display = 'block';
+            } else {
+                $('deity-label').parentElement.style.display = 'none';
+            }
             
             // Update labels with localized text
             $('deity-label').textContent = getLocalizedString('temple_details.deity', AppState.currentLanguage) || 'Deity';
@@ -2534,7 +2541,7 @@
                                 <div style="font-weight: 600; margin-bottom: 0.25rem; ${AppState.currentLanguage === 'ta' ? 'font-family: \"Noto Sans Tamil\", sans-serif;' : ''}">${displayName}</div>
                                 <div style="color: var(--text-secondary); font-size: 0.85rem; display: flex; align-items: center; gap: 1rem;">
                                     <span><i class="fas fa-map-marker-alt"></i> ${getLocalizedDistrict(temple.district)}</span>
-                                    ${temple.deity_type ? `<span style="text-transform: capitalize;">${getLocalizedDeity(temple.deity_type)}</span>` : ''}
+                                    ${temple.deity_type && temple.deity_type !== 'other' ? `<span style="text-transform: capitalize;">${getLocalizedDeity(temple.deity_type)}</span>` : ''}
                                 </div>
                                 <div style="margin-top: 0.25rem; display: flex; gap: 0.5rem; align-items: center;">
                                     ${hasLocation ? 
