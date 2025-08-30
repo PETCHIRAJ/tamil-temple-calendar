@@ -2291,7 +2291,60 @@
                 
                 // Load and enhance temples with Tamil search terms
                 AppState.temples = enhanceTempleSearchForTamil(data.app_temples || []);
-                AppState.tourCircuits = data.tour_circuits || [];
+                
+                // Define tour circuits (since they're not in the JSON)
+                AppState.tourCircuits = [
+                    {
+                        id: 'navagraha',
+                        name: 'Navagraha Temples (9 Planets)',
+                        tamil_name: 'நவகிரக கோயில்கள்',
+                        circuit_type: 'navagraha',
+                        description: 'Visit all nine planetary temples for complete astrological blessings',
+                        tamil_description: 'ஒன்பது கிரகங்களுக்கான ஒன்பது கோயில்கள்',
+                        total_temples: 9,
+                        total_distance_km: 250
+                    },
+                    {
+                        id: 'murugan',
+                        name: 'Murugan Six Abodes',
+                        tamil_name: 'ஆறுபடை வீடுகள்',
+                        circuit_type: 'murugan',
+                        description: 'The six sacred abodes of Lord Murugan',
+                        tamil_description: 'முருகனின் ஆறு புனித இருப்பிடங்கள்',
+                        total_temples: 6,
+                        total_distance_km: 450
+                    },
+                    {
+                        id: 'pancha_bootha',
+                        name: 'Pancha Bhoota Temples',
+                        tamil_name: 'பஞ்சபூத தலங்கள்',
+                        circuit_type: 'pancha_bootha',
+                        description: 'Five elemental temples representing Earth, Water, Fire, Air, and Space',
+                        tamil_description: 'ஐந்து தத்துவங்களுக்கான சிவன் கோயில்கள்',
+                        total_temples: 5,
+                        total_distance_km: 600
+                    },
+                    {
+                        id: 'goddess',
+                        name: 'Shakti Peethas',
+                        tamil_name: 'சக்தி பீடங்கள்',
+                        circuit_type: 'goddess',
+                        description: 'Sacred goddess temples of Tamil Nadu',
+                        tamil_description: 'தமிழ்நாட்டின் புனித அம்மன் கோயில்கள்',
+                        total_temples: 4,
+                        total_distance_km: 200
+                    },
+                    {
+                        id: 'chennai_heritage',
+                        name: 'Chennai Heritage Circuit',
+                        tamil_name: 'சென்னை பாரம்பரிய சுற்றுலா',
+                        circuit_type: 'city',
+                        description: 'Explore ancient temples within Chennai city',
+                        tamil_description: 'சென்னை நகரத்தின் பழமையான கோயில்கள்',
+                        total_temples: 10,
+                        total_distance_km: 45
+                    }
+                ];
                 
                 console.log(`Successfully loaded ${AppState.temples.length} temples and ${AppState.tourCircuits.length} circuits`);
                 
@@ -2758,10 +2811,27 @@
                 const festivalsHeader = AppState.currentLanguage === 'ta' ? 'கோவில் திருவிழாக்கள்' : 'Temple Festivals';
                 $('festivals-header').textContent = festivalsHeader;
                 
+                // Parse festivals if it's a JSON string
+                let festivalsList = temple.festivals;
+                if (typeof festivalsList === 'string') {
+                    try {
+                        festivalsList = JSON.parse(festivalsList);
+                    } catch (e) {
+                        festivalsList = [festivalsList]; // Treat as single item if not JSON
+                    }
+                }
+                
                 let festivalsHTML = '<ul style="margin: 0.5rem 0; padding-left: 1.2rem;">';
-                temple.festivals.forEach(festival => {
-                    festivalsHTML += `<li style="margin: 0.25rem 0; color: var(--text-secondary);">${festival}</li>`;
-                });
+                if (Array.isArray(festivalsList)) {
+                    festivalsList.forEach(festival => {
+                        // Handle both string and object formats
+                        const festivalText = typeof festival === 'object' ? 
+                            (festival.name || JSON.stringify(festival)) : festival;
+                        festivalsHTML += `<li style="margin: 0.25rem 0; color: var(--text-secondary);">${festivalText}</li>`;
+                    });
+                } else {
+                    festivalsHTML += `<li style="margin: 0.25rem 0; color: var(--text-secondary);">${festivalsList}</li>`;
+                }
                 festivalsHTML += '</ul>';
                 
                 $('temple-festivals').innerHTML = festivalsHTML;
@@ -2775,10 +2845,26 @@
                 const featuresHeader = AppState.currentLanguage === 'ta' ? 'சிறப்பு அம்சங்கள்' : 'Special Features';
                 $('special-features-header').textContent = featuresHeader;
                 
+                // Parse special_features if it's a JSON string
+                let featuresList = temple.special_features;
+                if (typeof featuresList === 'string') {
+                    try {
+                        featuresList = JSON.parse(featuresList);
+                    } catch (e) {
+                        featuresList = [featuresList];
+                    }
+                }
+                
                 let featuresHTML = '<ul style="margin: 0.5rem 0; padding-left: 1.2rem;">';
-                temple.special_features.forEach(feature => {
-                    featuresHTML += `<li style="margin: 0.25rem 0; color: var(--text-secondary);">${feature}</li>`;
-                });
+                if (Array.isArray(featuresList)) {
+                    featuresList.forEach(feature => {
+                        const featureText = typeof feature === 'object' ? 
+                            (feature.name || JSON.stringify(feature)) : feature;
+                        featuresHTML += `<li style="margin: 0.25rem 0; color: var(--text-secondary);">${featureText}</li>`;
+                    });
+                } else {
+                    featuresHTML += `<li style="margin: 0.25rem 0; color: var(--text-secondary);">${featuresList}</li>`;
+                }
                 featuresHTML += '</ul>';
                 
                 $('temple-special-features').innerHTML = featuresHTML;
@@ -2792,7 +2878,18 @@
                 let additionalInfo = '';
                 if (temple.holy_water && temple.holy_water.length > 0) {
                     const holyWaterLabel = AppState.currentLanguage === 'ta' ? 'தீர்த்தம்' : 'Holy Water';
-                    additionalInfo += `<p><i class="fas fa-tint" style="color: var(--primary-blue);"></i> <strong>${holyWaterLabel}:</strong> ${temple.holy_water.join(', ')}</p>`;
+                    // Parse if it's a JSON string, otherwise use as-is
+                    let holyWaterList = temple.holy_water;
+                    if (typeof holyWaterList === 'string') {
+                        try {
+                            holyWaterList = JSON.parse(holyWaterList);
+                        } catch (e) {
+                            holyWaterList = [holyWaterList]; // Treat as single item if not JSON
+                        }
+                    }
+                    if (Array.isArray(holyWaterList) && holyWaterList.length > 0) {
+                        additionalInfo += `<p><i class="fas fa-tint" style="color: var(--primary-blue);"></i> <strong>${holyWaterLabel}:</strong> ${holyWaterList.join(', ')}</p>`;
+                    }
                 }
                 if (temple.sacred_tree) {
                     const treeLabel = AppState.currentLanguage === 'ta' ? 'ஸ்தல விருட்சம்' : 'Sacred Tree';
@@ -3285,42 +3382,93 @@
             // Get actual temples for this circuit
             let temples = [];
             
+            // Check if temples are loaded
+            if (!AppState.temples || AppState.temples.length === 0) {
+                console.error('Temples not loaded yet in AppState');
+                container.innerHTML = `
+                    <div class="error-state">
+                        <p>Temple data is still loading. Please try again in a moment.</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            console.log('Total temples in AppState:', AppState.temples.length);
+            
             // Try to get actual temples based on circuit type
             if (circuit.circuit_type === 'navagraha') {
-                // For Navagraha, get specific temples if we know them
-                const navagrahaTemples = [
-                    { name: 'Suryanar Temple', tamil_name: 'சூரியனார் கோயில்', district: 'Thanjavur', deity_type: 'shiva', planet: 'சூரியன்' },
-                    { name: 'Chandran Temple', tamil_name: 'சந்திரன் கோயில்', district: 'Thanjavur', deity_type: 'shiva', planet: 'சந்திரன்' },
-                    { name: 'Vaitheeswaran Koil', tamil_name: 'வைத்தீஸ்வரன் கோயில்', district: 'Nagapattinam', deity_type: 'shiva', planet: 'செவ்வாய்' },
-                    { name: 'Thiruvenkadu', tamil_name: 'திருவெண்காடு', district: 'Nagapattinam', deity_type: 'shiva', planet: 'புதன்' },
-                    { name: 'Alangudi', tamil_name: 'அலங்குடி', district: 'Thanjavur', deity_type: 'shiva', planet: 'குரு' },
-                    { name: 'Kanjanur', tamil_name: 'கஞ்சனூர்', district: 'Thanjavur', deity_type: 'shiva', planet: 'சுக்கிரன்' },
-                    { name: 'Thirunallar', tamil_name: 'திருநள்ளாறு', district: 'Karaikal', deity_type: 'shiva', planet: 'சனி' },
-                    { name: 'Thirunageswaram', tamil_name: 'திருநாகேஸ்வரம்', district: 'Thanjavur', deity_type: 'shiva', planet: 'ராகு' },
-                    { name: 'Keezhperumpallam', tamil_name: 'கீழ்பெரும்பள்ளம்', district: 'Nagapattinam', deity_type: 'shiva', planet: 'கேது' }
+                // Complete Navagraha circuit with all 9 planetary temples
+                const navagrahaTempleIds = [
+                    'TOUR_007',  // Suryanar Kovil (Sun)
+                    'TOUR_008',  // Thingalur Chandran Temple (Moon)
+                    'TOUR_009',  // Vaitheeswaran Kovil (Mars)
+                    'TOUR_010',  // Thiruvenkadu Budhan Temple (Mercury)
+                    'TM090001',  // Alangudi Guru Temple (Jupiter)
+                    'TM090002',  // Kanjanur Sukran Temple (Venus)
+                    'TM090003',  // Thirunallar Sani Temple (Saturn)
+                    'TM090004',  // Thirunageswaram Rahu Temple
+                    'TM090005'   // Keezhperumpallam Ketu Temple
                 ];
-                temples = navagrahaTemples.slice(0, circuit.total_temples);
+                
+                // Fetch actual temples from AppState using IDs
+                console.log('Looking for Navagraha temples:', navagrahaTempleIds);
+                temples = navagrahaTempleIds.map(id => {
+                    const temple = AppState.temples.find(t => t.id === id);
+                    if (!temple) {
+                        console.warn(`Temple not found: ${id}`);
+                    } else {
+                        console.log(`Found temple: ${id} - ${temple.name}`);
+                    }
+                    return temple;
+                }).filter(t => t !== undefined && t !== null);
+                console.log(`Found ${temples.length} of ${navagrahaTempleIds.length} Navagraha temples`);
+                
             } else if (circuit.circuit_type === 'murugan') {
-                // For Murugan Six Abodes
-                const muruganTemples = [
-                    { name: 'Palani Murugan Temple', tamil_name: 'பழனி முருகன் கோயில்', district: 'Dindigul', deity_type: 'murugan' },
-                    { name: 'Thiruchendur Murugan Temple', tamil_name: 'திருச்செந்தூர் முருகன் கோயில்', district: 'Thoothukudi', deity_type: 'murugan' },
-                    { name: 'Thirupparankundram', tamil_name: 'திருப்பரங்குன்றம்', district: 'Madurai', deity_type: 'murugan' },
-                    { name: 'Swamimalai', tamil_name: 'சுவாமிமலை', district: 'Thanjavur', deity_type: 'murugan' },
-                    { name: 'Thiruthani', tamil_name: 'திருத்தணி', district: 'Thiruvallur', deity_type: 'murugan' },
-                    { name: 'Pazhamudhircholai', tamil_name: 'பழமுதிர்சோலை', district: 'Madurai', deity_type: 'murugan' }
+                // For Murugan Six Abodes - using HRCE temple IDs where available
+                const muruganTempleIds = [
+                    'TOUR_001', // Thiruchendur Murugan Temple  
+                    'TOUR_002', // Swamimalai Murugan Temple
+                    'TOUR_003', // Thiruthani Murugan Temple
+                    'TOUR_004', // Pazhamudircholai Murugan Temple
+                    'TOUR_005', // Palani Murugan Temple
+                    'TM000006'  // Vadapalani Andavar Temple (substitute for Thirupparankundram)
                 ];
-                temples = muruganTemples.slice(0, circuit.total_temples);
+                
+                // Fetch actual temples from AppState using IDs
+                temples = muruganTempleIds.map(id => {
+                    const temple = AppState.temples.find(t => t.id === id);
+                    return temple;
+                }).filter(t => t !== undefined && t !== null);
+                
             } else if (circuit.circuit_type === 'pancha_bootha') {
-                // For Pancha Bootha temples
-                const panchaBoothaTemples = [
-                    { name: 'Ekambareswarar Temple', tamil_name: 'ஏகாம்பரேஸ்வரர் கோயில்', district: 'Kanchipuram', deity_type: 'shiva', element: 'பூமி (Earth)' },
-                    { name: 'Jambukeswaram Temple', tamil_name: 'ஜம்புகேஸ்வரம் கோயில்', district: 'Trichy', deity_type: 'shiva', element: 'நீர் (Water)' },
-                    { name: 'Arunachaleswarar Temple', tamil_name: 'அருணாச்சலேஸ்வரர் கோயில்', district: 'Thiruvannamalai', deity_type: 'shiva', element: 'நெருப்பு (Fire)' },
-                    { name: 'Kalahasti Temple', tamil_name: 'காளஹஸ்தி கோயில்', district: 'Andhra Pradesh', deity_type: 'shiva', element: 'காற்று (Air)' },
-                    { name: 'Chidambaram Temple', tamil_name: 'சிதம்பரம் கோயில்', district: 'Cuddalore', deity_type: 'shiva', element: 'ஆகாயம் (Space)' }
+                // For Pancha Bootha temples - using available HRCE IDs
+                const panchaBoothaTempleIds = [
+                    'TOUR_006',  // Nataraja Temple Chidambaram (Space element)
+                    'TM000169',  // Ekambareswarar Temple Chennai (Earth element substitute)
+                    'TM000329'   // Arunachaleswarar Temple Chennai (Fire element substitute)
+                    // Note: Need actual Pancha Bootha temples from respective districts
                 ];
-                temples = panchaBoothaTemples.slice(0, circuit.total_temples);
+                
+                // Fetch actual temples from AppState using IDs
+                temples = panchaBoothaTempleIds.map(id => {
+                    const temple = AppState.temples.find(t => t.id === id);
+                    return temple;
+                }).filter(t => t !== undefined && t !== null);
+                
+            } else if (circuit.circuit_type === 'goddess') {
+                // For Goddess temples circuit - using HRCE IDs
+                const goddessTempleIds = [
+                    'TM031962', // Meenakshi Sundaraswarar Temple
+                    'TM000013', // Devi Thirumani Amman Temple
+                    'TM000366', // Panchali Amman Temple
+                    'TM009786'  // Vasavi Kannika Parameswari Amman Temple
+                ];
+                
+                // Fetch actual temples from AppState using IDs
+                temples = goddessTempleIds.map(id => {
+                    const temple = AppState.temples.find(t => t.id === id);
+                    return temple;
+                }).filter(t => t !== undefined && t !== null);
             } else if (circuit.circuit_type === 'city' && circuit.name.includes('Chennai')) {
                 // For Chennai Heritage Circuit - use actual Chennai temples from AppState
                 const chennaiTemples = AppState.temples
